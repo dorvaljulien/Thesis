@@ -2,9 +2,37 @@
 %         page de couverture           %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \makeatletter
-\begin{titlepage}
-%     \vspace*{2cm}
-    \includepdf{Images/1er_couverture.pdf} 
-\end{titlepage}
+%% \makeatletter
+%\begin{titlepage}
+%%     \vspace*{2cm}
+%    \includepdf{Images/1er_couverture.pdf} 
+%    
+ %titlepage
+\thispagestyle{empty}
+\begin{center}
+\begin{minipage}{0.75\linewidth}
+    \centering
+%University logo
+    	\includegraphics[width=0.7\linewidth]{Figures/unistra_logo.png}\\
+    %\rule{0.4\linewidth}{0.15\linewidth}\par
+    \vspace{3cm}
+%Thesis title
+    {\uppercase{\Large the title of my thesis project which may span multiple lines\par}}
+    \vspace{3cm}
+%Author's name
+    {\Large Author Name\par}
+    \vspace{3cm}
+%Degree
+    {\Large A thesis submitted for the degree of Doctor of Philosophy\par}
+    \vspace{3cm}
+%Date
+    {\Large May 2014}
+\end{minipage}
+\end{center}
+\clearpage
+ 
+%\end{document}   
+    
+    
+%\end{titlepage}
 % \makeatother

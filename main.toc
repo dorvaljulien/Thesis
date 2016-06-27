@@ -1,93 +1,36 @@
-\select@language {french}
 \contentsline {section}{Contexte}{1}{chapter*.2}
-\contentsline {section}{Probl\IeC {\'e}matiques}{1}{chapter*.2}
+\contentsline {section}{Problématiques}{1}{chapter*.2}
 \contentsline {section}{Contributions}{1}{chapter*.2}
 \contentsline {section}{Organisation du manuscrit}{1}{chapter*.2}
-\contentsline {part}{I\hspace {1em}Contexte physique et m\IeC {\'e}dical}{3}{part.1}
-\contentsline {chapter}{\numberline {1}Imagerie par R\IeC {\'e}sonance Magn\IeC {\'e}tique de diffusion}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}Principe de l'IRM de diffusion}{6}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Principe de la R\IeC {\'e}sonance Magn\IeC {\'e}tique Nucl\IeC {\'e}aire (RMN)}{6}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Caract\IeC {\'e}risation de la diffusion par la RMN}{8}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Tenseur de diffusion}{9}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Mod\IeC {\`e}le d'ordre 2}{10}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Indices scalaires}{11}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Estimation par les moindres carr\IeC {\'e}s}{12}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Distances entre deux tenseurs d'ordre 2}{13}{subsection.1.2.4}
-\contentsline {chapter}{\numberline {2}La diffusion pour la m\IeC {\'e}decine}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Anatomie du syst\IeC {\`e}me nerveux centrale}{17}{section.2.1}
-\contentsline {section}{\numberline {2.2}Pathologies neurod\IeC {\'e}g\IeC {\'e}n\IeC {\'e}ratives}{19}{section.2.2}
-\contentsline {section}{\numberline {2.3}Limites du mod\IeC {\`e}le d'ordre 2}{20}{section.2.3}
-\contentsline {part}{II\hspace {1em}M\IeC {\'e}thodes de comparaison de deux populations de tenseurs de diffusion}{21}{part.2}
-\contentsline {chapter}{\numberline {3}Comparaison de groupes}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Contexte}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Probl\IeC {\'e}matiques}{26}{section.3.2}
-\contentsline {subsubsection}{Probl\IeC {\'e}matique li\IeC {\'e}e \IeC {\`a} l'\IeC {\'e}tape du recalage}{27}{subsubsection*.4}
-\contentsline {section}{\numberline {3.3}\IeC {\'E}tat de l'art en imagerie du tenseur de diffusion}{29}{section.3.3}
-\contentsline {section}{\numberline {3.4}Pr\IeC {\'e}-traitements}{30}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Corrections des artefacts d'acquisition}{30}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Estimation pond\IeC {\'e}r\IeC {\'e}e des tenseurs de diffusion}{30}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Recalage}{31}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Filtrage}{33}{subsection.3.4.4}
-\contentsline {chapter}{\numberline {4}M\IeC {\'e}thode lin\IeC {\'e}aire}{35}{chapter.4}
-\contentsline {section}{\numberline {4.1}R\IeC {\'e}gression multi-lin\IeC {\'e}aire}{35}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Expression du Mod\IeC {\`e}le Lin\IeC {\'e}aire G\IeC {\'e}n\IeC {\'e}ral\ : $\mathbb {M} \subset \mathbb {R}$}{36}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Estimation des r\IeC {\'e}gresseurs : la m\IeC {\'e}thode des moindres carr\IeC {\'e}s}{38}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Exemple d'application aux images de scalaires}{38}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Cadre statistique}{39}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Tests d'hypoth\IeC {\`e}se}{40}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}R\IeC {\`e}gle de d\IeC {\'e}cision}{40}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Test statistique de comparaison utilis\IeC {\'e}}{42}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Extension du Mod\IeC {\`e}le Lin\IeC {\'e}aire G\IeC {\'e}n\IeC {\'e}ral\ aux tenseurs}{42}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Hypoth\IeC {\`e}se d'homosc\IeC {\'e}dasticit\IeC {\'e}}{43}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Hypoth\IeC {\`e}se d'h\IeC {\'e}t\IeC {\'e}rosc\IeC {\'e}dasticit\IeC {\'e}}{44}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Prise en compte des informations multi-\IeC {\'e}chelles}{45}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Vari\IeC {\'e}t\IeC {\'e}s non lin\IeC {\'e}aires}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Probl\IeC {\'e}matique des m\IeC {\'e}triques euclidiennes}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}G\IeC {\'e}om\IeC {\'e}trie riemanienne}{47}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Principe}{47}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}\IeC {\'E}tat de l'art des r\IeC {\'e}gressions sur cette vari\IeC {\'e}t\IeC {\'e}}{47}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}M\IeC {\'e}thode du "Multivariate General Linear Models"}{47}{subsection.5.2.3}
-\contentsline {subsubsection}{Description de la m\IeC {\'e}thode}{47}{subsubsection*.5}
-\contentsline {subsubsection}{Test statistique}{47}{subsubsection*.6}
-\contentsline {section}{\numberline {5.3}G\IeC {\'e}om\IeC {\'e}trie log-euclidienne}{47}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Principe}{47}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Application dans le cadre GLM-DT}{47}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {6}Caract\IeC {\'e}risation des changements}{49}{chapter.6}
-\contentsline {section}{\numberline {6.1}Post-traitement g\IeC {\'e}n\IeC {\'e}ral}{49}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Correction statistique des cartes de p-valeurs}{49}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Composantes connexes}{50}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Caract\IeC {\'e}risation des zones d\IeC {\'e}tect\IeC {\'e}es}{51}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Description de la m\IeC {\'e}thode de caract\IeC {\'e}risation}{51}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Format de pr\IeC {\'e}sentation des r\IeC {\'e}sultats}{52}{subsection.6.2.2}
-\contentsline {part}{III\hspace {1em}Simulations et validations}{55}{part.3}
-\contentsline {chapter}{\numberline {7}Cohortes de donn\IeC {\'e}es utilis\IeC {\'e}es}{57}{chapter.7}
-\contentsline {section}{\numberline {7.1}Donn\IeC {\'e}es synth\IeC {\'e}tiques}{57}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Introduction de l\IeC {\'e}sions au sein d'une population saine}{58}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Cadre de validation : les courbes COR}{58}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Cas cliniques}{59}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Neuromy\IeC {\'e}lite Optique (NMO)}{60}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}D\IeC {\'e}mence \IeC {\`a} corps de Lewy (DLB)}{60}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Cadre de validation}{60}{subsection.7.2.3}
-\contentsline {chapter}{\numberline {8}\IeC {\'E}valuation de la m\IeC {\'e}thode GLM-DT dans un cadre statistique Euclidien}{61}{chapter.8}
-\contentsline {section}{\numberline {8.1}M\IeC {\'e}thodes bas\IeC {\'e}es sur les indices scalaires \textit {vs}\\ m\IeC {\'e}thode GLM-DT}{61}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}R\IeC {\'e}sultats sur donn\IeC {\'e}es synth\IeC {\'e}tiques}{61}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Discussion}{62}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}M\IeC {\'e}thodes multi-informations \textit {vs} m\IeC {\'e}thode GLM-DT}{64}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Informations d'h\IeC {\'e}t\IeC {\'e}rosc\IeC {\'e}dasticit\IeC {\'e}}{64}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Informations multi-\IeC {\'e}chelles}{64}{subsection.8.2.2}
-\contentsline {section}{\numberline {8.3}Validation de la m\IeC {\'e}thode de caract\IeC {\'e}risation}{64}{section.8.3}
-\contentsline {chapter}{\numberline {9}Influence du cadre statistique sur des m\IeC {\'e}thodes bas\IeC {\'e}es tenseurs}{67}{chapter.9}
-\contentsline {section}{\numberline {9.1}\IeC {\'E}valuation de la vari\IeC {\'e}t\IeC {\'e} g\IeC {\'e}om\IeC {\'e}trique utilis\IeC {\'e}e}{67}{section.9.1}
-\contentsline {section}{\numberline {9.2}Discussion}{67}{section.9.2}
-\contentsline {chapter}{\numberline {10}Influence des pr\IeC {\'e}-traitements pour une comparaison de groupes}{69}{chapter.10}
-\contentsline {section}{\numberline {10.1}Recalage}{69}{section.10.1}
-\contentsline {section}{\numberline {10.2}Filtrage}{69}{section.10.2}
-\contentsline {chapter}{\numberline {11}Contributions aux neurosciences}{71}{chapter.11}
-\contentsline {section}{\numberline {11.1}Sur la base de patients atteints de NMO}{71}{section.11.1}
-\contentsline {subsection}{\numberline {11.1.1}R\IeC {\'e}sultats des m\IeC {\'e}thodes lin\IeC {\'e}aires}{71}{subsection.11.1.1}
-\contentsline {subsection}{\numberline {11.1.2}R\IeC {\'e}sultats des deux vari\IeC {\'e}t\IeC {\'e}s g\IeC {\'e}om\IeC {\'e}triques}{71}{subsection.11.1.2}
-\contentsline {subsection}{\numberline {11.1.3}Caract\IeC {\'e}risation}{71}{subsection.11.1.3}
-\contentsline {section}{\numberline {11.2}Sur la base de patients atteints de DLB}{71}{section.11.2}
-\contentsline {subsection}{\numberline {11.2.1}Comparaison de patients au stade prodomal avec des t\IeC {\'e}moins}{71}{subsection.11.2.1}
-\contentsline {subsection}{\numberline {11.2.2}\IeC {\'E}tude sur les hallucinations dans le maladie \IeC {\`a} corps de Lewy}{71}{subsection.11.2.2}
-\contentsline {part}{IV\hspace {1em}Conclusion}{75}{part.4}
+\contentsline {part}{I\hspace {1em}Contexte physique et médical}{3}{part.1}
+\contentsline {chapter}{\numberline {1}Imagerie par Résonance Magnétique de diffusion}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}La diffusion pour la médecine}{7}{chapter.2}
+\contentsline {part}{II\hspace {1em}Méthodes de comparaison de deux populations de tenseurs de diffusion}{9}{part.2}
+\contentsline {chapter}{\numberline {3}Comparaison de groupes}{13}{chapter.3}
+\contentsline {chapter}{\numberline {4}Méthode linéaire}{15}{chapter.4}
+\contentsline {chapter}{\numberline {5}Variétés non linéaires}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Problématique des métriques euclidiennes}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Géométrie riemanienne}{17}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Principe}{17}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}État de l'art des régressions sur cette variété}{17}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Méthode du "Multivariate General Linear Models"}{17}{subsection.5.2.3}
+\contentsline {subsubsection}{Description de la méthode}{17}{subsubsection*.4}
+\contentsline {subsubsection}{Test statistique}{17}{subsubsection*.5}
+\contentsline {section}{\numberline {5.3}Géométrie log-euclidienne}{17}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Principe}{17}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Application dans le cadre GLM-DT}{17}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Caractérisation des changements}{19}{chapter.6}
+\contentsline {part}{III\hspace {1em}Simulations et validations}{21}{part.3}
+\contentsline {chapter}{\numberline {7}Cohortes de données utilisées}{23}{chapter.7}
+\contentsline {chapter}{\numberline {8}Évaluation de la méthode GLM-DT dans un cadre statistique Euclidien}{25}{chapter.8}
+\contentsline {chapter}{\numberline {9}Influence du cadre statistique sur des méthodes basées tenseurs}{27}{chapter.9}
+\contentsline {chapter}{\numberline {10}Influence des pré-traitements pour une comparaison de groupes}{29}{chapter.10}
+\contentsline {section}{\numberline {10.1}Recalage}{29}{section.10.1}
+\contentsline {section}{\numberline {10.2}Filtrage}{29}{section.10.2}
+\contentsline {chapter}{\numberline {11}Contributions aux neurosciences}{31}{chapter.11}
+\contentsline {section}{\numberline {11.1}Sur la base de patients atteints de NMO}{31}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Résultats des méthodes linéaires}{31}{subsection.11.1.1}
+\contentsline {section}{\numberline {11.2}Sur la base de patients atteints de DLB}{31}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Comparaison de patients au stade prodomal avec des témoins}{31}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Étude sur les hallucinations dans le maladie à corps de Lewy}{31}{subsection.11.2.2}
+\contentsline {part}{IV\hspace {1em}Conclusion}{33}{part.4}

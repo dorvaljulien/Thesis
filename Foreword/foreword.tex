@@ -4,12 +4,12 @@
 
 
 %% Réglage des fontes et typo
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[frenchb]{babel}
-
-\usepackage{mathptmx}
-\usepackage{avant}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage[frenchb]{babel}
+%
+%\usepackage{mathptmx}
+%\usepackage{avant}
 
 
 
@@ -58,21 +58,21 @@
 \usepackage{nicefrac}	% Permet de taper de belles fractions
 \usepackage{relsize}
 
-\usepackage[french,ruled,vlined]{algorithm2e}
-\SetKwInput{Data}{\textbf{Données}}
-\SetKwInput{Res}{\textbf{Résultats}}
-\SetKwFor{Pour}{pour}{faire}{fin boucle}
-\SetKwBlock{Deb}{début}{fin}
-\SetKwInput{Entree}{Entrées}
-\SetKwInput{Sortie}{Sorties}
-%     \SetKw{KwA}{à}
-%     \SetKw{Retour}{retourner}
-%     \SetKwIF{Si}{SinonSi}{Sinon}{si}{alors}{sinon si}{alors}{finsi}
-%     \SetKwSwitch{Suivant}{Cas}{Autre}{suivant}{faire}{cas où}{autres cas}{fin d’alternative}
-%     \SetKwFor{Tq}{tant que}{faire}{fintq}
-%     \SetKwFor{PourCh}{pour chaque}{faire}{finprch}
-%     \SetKwFor{PourTous}{pour tous}{faire}{finprts}
-%     \SetKwRepeat{Repeter}{répèter}{jusqu’à}
+\usepackage[ruled,vlined]{algorithm2e}
+%\SetKwInput{Data}{\textbf{Données}}
+%\SetKwInput{Res}{\textbf{Résultats}}
+%\SetKwFor{Pour}{pour}{faire}{fin boucle}
+%\SetKwBlock{Deb}{début}{fin}
+%\SetKwInput{Entree}{Entrées}
+%\SetKwInput{Sortie}{Sorties}
+%%     \SetKw{KwA}{à}
+%%     \SetKw{Retour}{retourner}
+%%     \SetKwIF{Si}{SinonSi}{Sinon}{si}{alors}{sinon si}{alors}{finsi}
+%%     \SetKwSwitch{Suivant}{Cas}{Autre}{suivant}{faire}{cas où}{autres cas}{fin d’alternative}
+%%     \SetKwFor{Tq}{tant que}{faire}{fintq}
+%%     \SetKwFor{PourCh}{pour chaque}{faire}{finprch}
+%%     \SetKwFor{PourTous}{pour tous}{faire}{finprts}
+%%     \SetKwRepeat{Repeter}{répèter}{jusqu’à}
 
 
 %% Tableaux
@@ -105,7 +105,7 @@
 
 \titleformat{\part}[frame]
   {\normalfont\bfseries\scshape}
-  {\filright \Large \enspace Partie \thepart \enspace}
+  {\filright \Large \enspace Part \thepart \enspace}
   {11pt}{\Huge\filcenter}
 % \titlespacing*{\part}{0pt}{30pt}{20pt}
 
@@ -114,47 +114,44 @@
 \newcommand{\introchapitre}[1]{ \chapter*{\textbf{\MakeUppercase{#1}}}}
 \newcommand{\biblio}[1]{ \chapter*{\textsc{#1}} }
 
-\newcommand{\algoref}[1]{Algorithme \ref{#1}}
+%\newcommand{\algoref}[1]{Algorithme \ref{#1}}
 \newcommand{\secref}[1]{Section \ref{#1}}
-\newcommand{\chapref}[1]{Chapitre \ref{#1}}
+\newcommand{\chapref}[1]{Chapter \ref{#1}}
 \newcommand{\figref}[1]{\textsc{Figure}. \ref{#1}}
-\newcommand{\tabref}[1]{\textsc{Tableau}. \ref{#1}}
+\newcommand{\tabref}[1]{\textsc{Table}. \ref{#1}}
 
-\newcommand{\etco}{\textit{et coll.}\ }
-\newcommand{\dtitk}{\textit{DTI-TK}\ }
-\newcommand{\fa}{Fraction d'Anisotropie\ }
-\newcommand{\md}{Diffusion Moyenne\ }
-\newcommand{\da}{Diffusion Axiale\ }
-\newcommand{\dr}{Diffusion Radiale\ }
-\newcommand{\mlg}{Modèle Linéaire Général\ }
-\newcommand{\irmd}{Imagerie par Résonance Magnétique de diffusion\ }
-\newcommand{\rmn}{Résonance Magnétique Nucléaire\ }
-\newcommand{\itd}{Imagerie du Tenseur de Diffusion\ }
+%\newcommand{\etco}{\textit{et coll.}\ }
+%\newcommand{\dtitk}{\textit{DTI-TK}\ }
+%\newcommand{\fa}{Fraction d'Anisotropie\ }
+%\newcommand{\md}{Diffusion Moyenne\ }
+%\newcommand{\da}{Diffusion Axiale\ }
+%\newcommand{\dr}{Diffusion Radiale\ }
+%\newcommand{\mlg}{Modèle Linéaire Général\ }
+%\newcommand{\irmd}{Imagerie par Résonance Magnétique de diffusion\ }
+%\newcommand{\rmn}{Résonance Magnétique Nucléaire\ }
+%\newcommand{\itd}{Imagerie du Tenseur de Diffusion\ }
 
-\addto\captionsfrench{\def\tablename{\textsc{Tableau}}}
+%\addto\captionsfrench{\def\tablename{\textsc{Tableau}}}
+%
+%\newcommand{\largedot}{\mathlarger{\mathlarger{\mathlarger{\cdot}}}}
 
-\newcommand{\largedot}{\mathlarger{\mathlarger{\mathlarger{\cdot}}}}
-
-\makeatletter
-\def \@date{\data{today}}
-
-\def\@auteur{Auteur}
-\newcommand{\auteur}[2]{\def\@auteur{#1~\textsc{#2}}}
-
-\def\@titre{Titre de la thèse}
-\newcommand{\titre}[1]{\def\@titre{#1}}
-
-\def\@specialite{Spécialité}
-\newcommand{\specialite}[1]{\def\@specialite{#1}}
-
-\def\@directeur{Directeur}
-\newcommand{\directeur}[2]{\def\@directeur{#1~\textsc{#2}}}
-
-\def\@encadrant{Encadrant}
-\newcommand{\encadrant}[2]{\def\@encadrant{#1~\textsc{#2}}}
-
-\def\@ecole{\'Ecole}
-\newcommand{\ecole}[1]{\def\@ecole{#1}}
+%\makeatletter
+%\def \@date{\data{today}}
+%
+%\def\@author{Author}
+%\newcommand{\author}[2]{\def\@author{#1~\textsc{#2}}}
+%
+%\def\@title{Thesis title}
+%\newcommand{\title}[1]{\def\@title{#1}}
+%
+%\def\@field{Field}
+%\newcommand{\field}[1]{\def\@field{#1}}
+%
+%\def\@advisor{advisor}
+%\newcommand{\advisor}[2]{\def\@advisor{#1~\textsc{#2}}}
+%
+%\def\@university{University}
+%\newcommand{\university}[1]{\def\@university{#1}}
 
 \makeatother
 

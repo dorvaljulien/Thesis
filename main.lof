@@ -1,46 +1,11 @@
-\select@language {french}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Photographie de l'IRM 3 Tesla du laboratoire ICube \IeC {\`a} Strasbourg.}}{5}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Repr\IeC {\'e}sentation de noyaux d'hydrog\IeC {\`e}ne \IeC {\`a} l'\IeC {\'e}tat de repos.}}{6}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Repr\IeC {\'e}sentation de noyaux d'hydrog\IeC {\`e}ne dans un champ magn\IeC {\'e}tique $B_0$.}}{6}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Repr\IeC {\'e}sentation des deux composantes du mouvement de pr\IeC {\'e}cession d'un noyau d'hydrog\IeC {\`e}ne.}}{7}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Repr\IeC {\'e}sentation de la pahse d'excitation.}}{7}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Reconstruction d'une coupe 2D \IeC {\`a} partir du signal acquis dans le domaine de Fourier.}}{7}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Les diff\IeC {\'e}rentes images pond\IeC {\'e}r\IeC {\'e}es en diffusion (images p\IeC {\'e}riph\IeC {\'e}riques) et une image pond\IeC {\'e}r\IeC {\'e}e en $T_2$ (image centrale) acquises par une s\IeC {\'e}quence de diffusion.}}{9}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Repr\IeC {\'e}sentation d'un tenseur de diffusion sous la forme d'une ellipso\IeC {\"\i }de avec le r\IeC {\'e}f\IeC {\'e}rentiel physique du scanner IRM $\{\mathbf {x,y,z}\}$ et le r\IeC {\'e}f\IeC {\'e}rentiel de la matrice diagonale $\{\mathbf {e_1,e_2,e_3}\}$.}}{11}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Illustration de l'espace Riemannien sous forme de sph\IeC {\`e}re.}}{14}{figure.1.9}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Illustration de l'espace Riemannien avec un plan tangent.}}{14}{figure.1.10}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Images des indices scalaires pour un sujet : \textbf {(a)} FA, \textbf {(b)} DM, \textbf {(c)} DR, \textbf {(d)} DA.}}{15}{figure.1.11}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration du dessinateur Philippe Geluck.}}{17}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration (coupe axiale) des trois substances principales composant le cerveau humain avec leurs propri\IeC {\'e}t\IeC {\'e}s propres de diffusion de l'eau : le liquide c\IeC {\'e}phalorachidien ($=$ diffusion isotropique), la substance grise ($=$ diffusion isotropique) et la substance blanche ($=$ diffusion anisotropique). }}{18}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Fibres du corps calleux repr\IeC {\'e}sent\IeC {\'e}es sur une coupe coronale.}}{19}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration d'une d\IeC {\'e}my\IeC {\'e}linisation}}{20}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces }}{20}{figure.2.5}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration des cartes Riemanniennes logarithmique et exponentielle.}}{27}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Illustration~\cite {Arsigny2005} d'interpolation lin\IeC {\'e}aire des tenseurs avec des m\IeC {\'e}triques diff\IeC {\'e}rentes. \textbf {Haut} : m\IeC {\'e}triques Euclidenne, \textbf {Milieu} : m\IeC {\'e}trique Riemannienne. \textbf {Bas} : m\IeC {\'e}trique Log-Euclidienne}}{28}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Illustration simple du probl\IeC {\`e}me de r\IeC {\'e}-orientation des tenseurs : rotation d'une image de tenseurs de diffusion de 45 degr\IeC {\'e}s. (a) image d'origine, (b) image apr\IeC {\`e}s application du champ de transformation, (c) image apr\IeC {\`e}s application du champ de transformation et r\IeC {\'e}-orientation}}{29}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Illustration de l'approche hi\IeC {\'e}rarchique de l'algorithme \textit {DTI-TK}\ . (a) est la repr\IeC {\'e}sentation du partage initial ($n=2$) grossier de l'image avec les estimations des transformations sur chaque r\IeC {\'e}gion. (b) est la repr\IeC {\'e}sentation au niveau sup\IeC {\'e}rieur ($n=4$) avec l'estimation des transformations initialis\IeC {\'e}e par les transformations du niveau inf\IeC {\'e}rieur.}}{33}{figure.3.4}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration d'une r\IeC {\'e}gression multi-lin\IeC {\'e}aire 2D ($K=2$). Les points bleus correspondent aux couples $(\{1, x_{i,2}\} ,y_i)$ et la droite affine rouge \IeC {\`a} la fonction $f(\{1, x_{i,2}\})$.}}{37}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustration des erreurs de premi\IeC {\`e}re $\alpha $ et de deuxi\IeC {\`e}me $\beta $ esp\IeC {\`e}ce.}}{41}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Calcul de la p-valeur : aire sous la courbe $f_0(s)$ repr\IeC {\'e}sentant la distribution sous l'hypoth\IeC {\`e}se $\mathcal {H}_{0}$ pour une valeur statistique du test ($seuil$).}}{41}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Histogrammes des valeurs (en nombres de voxels) de l'estimateur de la variance $\sigma ^2$ (en $10^{-3}$) pour chaque \IeC {\'e}l\IeC {\'e}ment du tenseur.}}{44}{figure.4.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Illustration du post-traitement g\IeC {\'e}n\IeC {\'e}ral.}}{50}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Illustration de la deuxi\IeC {\`e}me \IeC {\'e}tape de la caract\IeC {\'e}risation.}}{51}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Illustration de la troisi\IeC {\`e}me \IeC {\'e}tape de la caract\IeC {\'e}risation.}}{52}{figure.6.3}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Repr\IeC {\'e}sentation des quatre types de l\IeC {\'e}sions simul\IeC {\'e}es. Les tenseurs vert et rouge repr\IeC {\'e}sentent respectivement le tenseur initial et le tenseur modifi\IeC {\'e}.}}{59}{figure.7.1}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparaison entre les m\IeC {\'e}thodes bas\IeC {\'e}es sur les indices scalaires ({\color {red} $\blacksquare $ = GLM-FA}, {\color {blue} $\blacktriangle $ = GLM-MD}) et la m\IeC {\'e}thode bas\IeC {\'e}e sur les tenseurs avec une m\IeC {\'e}trique Euclidienne ({\color {green} $\bullet $ = GLM-DT}).}}{62}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Comparaison des m\IeC {\'e}thodes bas\IeC {\'e}es sur les tenseurs dans un cadre Euclidien avec une hypoth\IeC {\`e}se d'homosc\IeC {\'e}dasticit\IeC {\'e} sur les r\IeC {\'e}sidus ({\color {green} $\bullet $ = GLM-DT}) et une hypoth\IeC {\`e}se d'h\IeC {\'e}t\IeC {\'e}rosc\IeC {\'e}dasticit\IeC {\'e} ({\color {magenta} $\blacksquare $ = GLM-DT-H}).}}{63}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Comparaison dans un cadre Euclidien entre la m\IeC {\'e}thode bas\IeC {\'e}e sur les tenseurs ({\color {green} $\bullet $ = GLM-DT}) et une m\IeC {\'e}thode bas\IeC {\'e}e sur les tenseurs utilisant des informations multi-\IeC {\'e}chelle ({\color {black} $\blacksquare $ = GLM-DT-fusion}).}}{64}{figure.8.3}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Influence de la vari\IeC {\'e}t\IeC {\'e} g\IeC {\'e}om\IeC {\'e}trique ({\color {green} $\bullet $ = GLM-DT}, {\color {blue} $\blacktriangle $ = GLM-LOG-DT}, {\color {red} $\blacksquare $ = MGLM-DT}).}}{68}{figure.9.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Comparaison entre les m\IeC {\'e}thodes bas\IeC {\'e}es sur les indices scalaires (\textit {GLM-FA} and \textit {GLM-MD}) et la m\IeC {\'e}thode bas\IeC {\'e}e sur les tenseurs avec une m\IeC {\'e}trique Euclidienne (\textit {GLM-DT}). Les cartes statistiques sont seuill\IeC {\'e}es de telle fa\IeC {\c c}on que seuls 5\% des voxels les plus significatifs dans le masque de la substance blanche sont retenus. La m\IeC {\'e}thode des composantes connexes \IeC {\'e}limine les agr\IeC {\'e}gats de taille inf\IeC {\'e}rieure \IeC {\`a} $N_c=10$ voxels.}}{73}{figure.11.1}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Influence sur les m\IeC {\'e}thodes bas\IeC {\'e}es tenseur de la m\IeC {\'e}trique utilis\IeC {\'e}e pour la comparaison de groupe entre les patients atteints de la NMO et les sujets contr\IeC {\^o}les. Les cartes statistiques sont seuill\IeC {\'e}es de telle fa\IeC {\c c}on que seuls 5\% des voxels les plus significatifs dans le masque de la substance blanche sont retenus. La m\IeC {\'e}thode des composantes connexes \IeC {\'e}limine les agr\IeC {\'e}gats de taille inf\IeC {\'e}rieure \IeC {\`a} $N_c=10$ voxels.}}{74}{figure.11.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
