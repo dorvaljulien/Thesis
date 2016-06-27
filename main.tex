@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Main document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[a4paper,12pt,twoside,openright]{book}
+\documentclass[a4paper,11pt,twoside,openright]{book}
 
 \input{Foreword/foreword}
 \overfullrule=3cm
@@ -36,34 +36,34 @@
     
     \pagestyle{introduction}
     % introduction
-    \introchapitre{Introduction générale}
+    \introchapitre{Introduction}
     \label{Intro}
     \input{Introduction/introduction}
     
-    \pagestyle{main}
-      % partie 1
-    \part{Contexte physique et médical}
-    \label{Part1}
-    \input{Chapters/chapter_1}
-    \input{Chapters/chapter_2}
-    
-      % partie 2
-    \part{Méthodes de comparaison de deux populations de tenseurs de diffusion}
-    \label{Part2}
-    \input{Introduction/part_2_intro}
-    \input{Chapters/chapter_3}
-    \input{Chapters/chapter_4}
-    \input{Chapters/chapter_5}
-    \input{Chapters/chapter_6}
-    
-      % partie 3
-    \part{Simulations et validations}
-    \label{Part3}
-    \input{Chapters/chapter_7}
-    \input{Chapters/chapter_8}
-    \input{Chapters/chapter_9}
-    \input{Chapters/chapter_10}
-    \input{Chapters/chapter_11}
+%    \pagestyle{main}
+%      % partie 1
+%    \part{Contexte physique et médical}
+%    \label{Part1}
+%    \input{Chapters/chapter_1}
+%    \input{Chapters/chapter_2}
+%    
+%      % partie 2
+%    \part{Méthodes de comparaison de deux populations de tenseurs de diffusion}
+%    \label{Part2}
+%    \input{Introduction/part_2_intro}
+%    \input{Chapters/chapter_3}
+%    \input{Chapters/chapter_4}
+%    \input{Chapters/chapter_5}
+%    \input{Chapters/chapter_6}
+%    
+%      % partie 3
+%    \part{Simulations et validations}
+%    \label{Part3}
+%    \input{Chapters/chapter_7}
+%    \input{Chapters/chapter_8}
+%    \input{Chapters/chapter_9}
+%    \input{Chapters/chapter_10}
+%    \input{Chapters/chapter_11}
     
     \part{Conclusion}
     \label{Conclu}
@@ -73,8 +73,8 @@
       % bibliographie
     \biblio{Bibliography}
     \label{Biblio}
-    \bibliographystyle{ieeetr}
-    \bibliography{Bibliography/bibliography}
+    \bibliographystyle{mn2e}
+    \bibliography{Bibliography/bibdatabase}
 %     \addstarredchapter{\textsc{Bibliographie}}
     \markboth{\textsc{Bibliography}}{}
     

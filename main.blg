@@ -1,48 +1,52 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
-The style file: ieeetr.bst
-Database file #1: Bibliographie/bibliographie.bib
-Warning--empty institution in Pennec2004
-Warning--can't use both author and editor fields in Abdi2007
-You've used 48 entries,
-            1876 wiz_defined-function locations,
-            808 strings with 13957 characters,
-and the built_in function-call counts, 16453 in all, are:
-= -- 1578
-> -- 784
-< -- 2
-+ -- 280
-- -- 232
-* -- 1283
-:= -- 2337
-add.period$ -- 52
-call.type$ -- 48
-change.case$ -- 44
-chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 788
-empty$ -- 1385
-format.name$ -- 232
-if$ -- 4000
-int.to.chr$ -- 0
-int.to.str$ -- 48
-missing$ -- 44
-newline$ -- 151
-num.names$ -- 48
-pop$ -- 98
+The style file: mn2e.bst
+Database file #1: Bibliography/bibdatabase.bib
+Warning--entry type for "Elsen2006" isn't style-file defined
+--line 3628 of file Bibliography/bibdatabase.bib
+Warning--entry type for "Nyland2004" isn't style-file defined
+--line 3636 of file Bibliography/bibdatabase.bib
+Warning--empty publisher in Aarseth2003
+Warning--empty publisher in Newton1687
+You've used 39 entries,
+            2938 wiz_defined-function locations,
+            879 strings with 9947 characters,
+and the built_in function-call counts, 14794 in all, are:
+= -- 1265
+> -- 751
+< -- 10
++ -- 269
+- -- 257
+* -- 1083
+:= -- 2836
+add.period$ -- 8
+call.type$ -- 39
+change.case$ -- 229
+chr.to.int$ -- 41
+cite$ -- 41
+duplicate$ -- 663
+empty$ -- 1085
+format.name$ -- 284
+if$ -- 2894
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 34
+newline$ -- 121
+num.names$ -- 160
+pop$ -- 214
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 225
 quote$ -- 0
-skip$ -- 627
+skip$ -- 619
 stack$ -- 0
-substring$ -- 1257
-swap$ -- 397
-text.length$ -- 2
+substring$ -- 680
+swap$ -- 77
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 324
 warning$ -- 2
-while$ -- 135
-width$ -- 50
-write$ -- 498
-(There were 2 warnings)
+while$ -- 181
+width$ -- 0
+write$ -- 389
+(There were 4 warnings)
