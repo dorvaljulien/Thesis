@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  27 JUN 2016 09:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  27 JUN 2016 09:26
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -146,6 +146,21 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count101
 \cp@tempcnt=\count102
 )
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count103
+)
+(/usr/share/texmf-texlive/tex/latex/paralist/paralist.sty
+Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+\pltopsep=\skip48
+\plpartopsep=\skip49
+\plitemsep=\skip50
+\plparsep=\skip51
+\pl@lab=\toks20
+) (./aas_macros.sty)
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
 
@@ -157,8 +172,8 @@ O)
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen117
-\Hy@linkcounter=\count103
-\Hy@pagecounter=\count104
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -218,10 +233,10 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count105
+\Fld@menulength=\count106
 \Field@Width=\dimen118
 \Fld@charsize=\dimen119
-\Field@toks=\toks20
+\Field@toks=\toks21
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -233,30 +248,30 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count106
-\c@Item=\count107
-\c@Hfootnote=\count108
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
 )
 *hyperref using default driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count109
+\Fld@listcount=\count110
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 49.
+(hyperref)                setting the option has no effect on input line 52.
 
-Package hyperref Info: Option `unicode' set `true' on input line 49.
+Package hyperref Info: Option `unicode' set `true' on input line 52.
 (/usr/share/texmf-texlive/tex/latex/hyperref/puenc.def
 File: puenc.def 2009/10/09 v6.79a Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `pdffitwindow' set `true' on input line 49.
-Package hyperref Info: Option `pdfnewwindow' set `false' on input line 49.
-Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 52.
+Package hyperref Info: Option `pdfnewwindow' set `false' on input line 52.
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
@@ -264,7 +279,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen120
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
@@ -274,13 +289,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count110
+\inf@bad=\count111
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count111
-\leftroot@=\count112
+\uproot@=\count112
+\leftroot@=\count113
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count113
-\DOTSCASE@=\count114
+\classnum@=\count114
+\DOTSCASE@=\count115
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -289,26 +304,26 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen122
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count115
-\c@MaxMatrixCols=\count116
+\macc@depth=\count116
+\c@MaxMatrixCols=\count117
 \dotsspace@=\muskip11
-\c@parentequation=\count117
-\dspbrk@lvl=\count118
-\tag@help=\toks22
-\row@=\count119
-\column@=\count120
-\maxfields@=\count121
-\andhelp@=\toks23
+\c@parentequation=\count118
+\dspbrk@lvl=\count119
+\tag@help=\toks23
+\row@=\count120
+\column@=\count121
+\maxfields@=\count122
+\andhelp@=\toks24
 \eqnshift@=\dimen123
 \alignsep@=\dimen124
 \tagshift@=\dimen125
 \tagwidth@=\dimen126
 \totwidth@=\dimen127
 \lineht@=\dimen128
-\@envbody=\toks24
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks25
+\@envbody=\toks25
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -324,21 +339,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks26
-\thm@bodyfont=\toks27
-\thm@headfont=\toks28
-\thm@notefont=\toks29
-\thm@headpunct=\toks30
-\thm@preskip=\skip49
-\thm@postskip=\skip50
-\thm@headsep=\skip51
-\dth@everypar=\toks31
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks32
 )
 (/usr/share/texmf-texlive/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip52
-\L@UnitsRaiseTextstyle=\skip53
-\L@UnitsRaiseScriptstyle=\skip54
+\L@UnitsRaiseDisplaystyle=\skip58
+\L@UnitsRaiseTextstyle=\skip59
+\L@UnitsRaiseScriptstyle=\skip60
 
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -348,7 +363,7 @@ Package: relsize 2003/07/04 ver 3.1
 )
 (/usr/share/texmf-texlive/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2005/10/04 v3.9 algorithms environments
-\c@AlgoLine=\count122
+\c@AlgoLine=\count123
 
 (/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
 Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
@@ -360,32 +375,32 @@ Package `algorithm2e' Release 3.9 -- october 04 2005 --
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 - Author: Christophe Fiorio (fiorio@lirmm.fr)
 ********************************************************
-\skiptotal=\skip55
-\skiprule=\skip56
-\skiphlne=\skip57
-\skiptext=\skip58
-\skiplength=\skip59
-\algomargin=\skip60
-\skipalgocfslide=\skip61
+\skiptotal=\skip61
+\skiprule=\skip62
+\skiphlne=\skip63
+\skiptext=\skip64
+\skiplength=\skip65
+\algomargin=\skip66
+\skipalgocfslide=\skip67
 \algowidth=\dimen129
 \inoutsize=\dimen130
 \inoutline=\dimen131
 \algocf@inoutbox=\box31
 \algocf@inputbox=\box32
-\AlCapSkip=\skip62
-\AlCapHSkip=\skip63
+\AlCapSkip=\skip68
+\AlCapHSkip=\skip69
 \algocf@capbox=\box33
-\c@algocfline=\count123
-\c@algocf=\count124
+\c@algocfline=\count124
+\c@algocf=\count125
 \algocf@algoframe=\box34
 \algocf@algobox=\box35
 ) (/usr/share/texmf-texlive/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen132
 \extrarowheight=\dimen133
-\NC@list=\toks32
-\extratabsurround=\skip64
-\backup@length=\skip65
+\NC@list=\toks33
+\extratabsurround=\skip70
+\backup@length=\skip71
 )
 (/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen134
@@ -402,18 +417,18 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen142
 \cmidrulekern=\dimen143
 \defaultaddspace=\dimen144
-\@cmidla=\count125
-\@cmidlb=\count126
+\@cmidla=\count126
+\@cmidlb=\count127
 \@aboverulesep=\dimen145
 \@belowrulesep=\dimen146
-\@thisruleclass=\count127
-\@lastruleclass=\count128
+\@thisruleclass=\count128
+\@lastruleclass=\count129
 \@thisrulewidth=\dimen147
 )
 (/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
-\everycr=\toks33
-\minrowclearance=\skip66
+\everycr=\toks34
+\minrowclearance=\skip72
 )
 (/usr/share/texmf-texlive/tex/latex/ltxmisc/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
@@ -433,7 +448,7 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 103.
 (/usr/share/texmf-texlive/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2009/08/05 v0.1s Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks34
+\pIIe@GRAPH=\toks35
 \@arclen=\dimen148
 \@arcrad=\dimen149
 \@tempdimd=\dimen150
@@ -444,19 +459,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texmf-texlive/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count129
+\actioncount=\count130
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count130
-\FP@xia=\count131
-\FP@xib=\count132
-\FP@xfa=\count133
-\FP@xfb=\count134
-\FP@rega=\count135
-\FP@regb=\count136
-\FP@regs=\count137
-\FP@times=\count138
+\FP@xs=\count131
+\FP@xia=\count132
+\FP@xib=\count133
+\FP@xfa=\count134
+\FP@xfb=\count135
+\FP@rega=\count136
+\FP@regb=\count137
+\FP@regs=\count138
+\FP@times=\count139
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -475,7 +490,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count139
+\FPseed=\count140
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -504,16 +519,16 @@ Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
 
 (/usr/share/texmf-texlive/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count140
-\calc@Bcount=\count141
+\calc@Acount=\count141
+\calc@Bcount=\count142
 \calc@Adimen=\dimen157
 \calc@Bdimen=\dimen158
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count142
-\calc@Cskip=\skip69
+\calc@Ccount=\count143
+\calc@Cskip=\skip75
 )
 (/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
@@ -525,15 +540,15 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box40
-\AM@toc@title=\toks35
-\c@AM@survey=\count143
+\AM@toc@title=\toks36
+\c@AM@survey=\count144
 \AM@templatesizebox=\box41
 )
 (/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks36
+\pgfutil@everybye=\toks37
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box42
@@ -549,11 +564,11 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks40
 ))
 \pgf@x=\dimen159
 \pgf@y=\dimen160
@@ -565,10 +580,10 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen166
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count144
-\c@pgf@countb=\count145
-\c@pgf@countc=\count146
-\c@pgf@countd=\count147
+\c@pgf@counta=\count145
+\c@pgf@countb=\count146
+\c@pgf@countc=\count147
+\c@pgf@countd=\count148
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -583,8 +598,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count148
-\pgfsyssoftpath@bigbuffer@items=\count149
+\pgfsyssoftpath@smallbuffer@items=\count149
+\pgfsyssoftpath@bigbuffer@items=\count150
 )
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -615,11 +630,11 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen167
-\pgfmath@count=\count150
+\pgfmath@count=\count151
 \pgfmath@box=\box43
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
 )
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -630,7 +645,7 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count151
+\c@pgfmathroundto@lastzeros=\count152
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
@@ -664,7 +679,7 @@ File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box44
 \pgf@hbox=\box45
 \pgf@layerbox@main=\box46
-\pgf@picture@serial@count=\count152
+\pgf@picture@serial@count=\count153
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
@@ -691,7 +706,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen190
-\pgf@sys@shading@range@num=\count153
+\pgf@sys@shading@range@num=\count154
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
@@ -731,15 +746,15 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen193
 \pgffor@skip=\dimen194
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count154
+\pgf@plot@mark@count=\count155
 \pgfplotmarksize=\dimen195
 )
 \tikz@lastx=\dimen196
@@ -750,18 +765,18 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikzsiblingdistance=\dimen201
 \tikz@figbox=\box49
 \tikz@tempbox=\box50
-\tikztreelevel=\count155
-\tikznumberofchildren=\count156
-\tikznumberofcurrentchild=\count157
-\tikz@fig@count=\count158
+\tikztreelevel=\count156
+\tikznumberofchildren=\count157
+\tikznumberofcurrentchild=\count158
+\tikz@fig@count=\count159
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count159
-\pgfmatrixcurrentcolumn=\count160
-\pgf@matrix@numberofcolumns=\count161
+\pgfmatrixcurrentrow=\count160
+\pgfmatrixcurrentcolumn=\count161
+\pgf@matrix@numberofcolumns=\count162
 )
-\tikz@expandcount=\count162
+\tikz@expandcount=\count163
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -770,26 +785,30 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 File: frame.tss 2007/08/12
 )
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip70
-\f@ncyO@elh=\skip71
-\f@ncyO@erh=\skip72
-\f@ncyO@olh=\skip73
-\f@ncyO@orh=\skip74
-\f@ncyO@elf=\skip75
-\f@ncyO@erf=\skip76
-\f@ncyO@olf=\skip77
-\f@ncyO@orf=\skip78
+\fancy@headwidth=\skip76
+\f@ncyO@elh=\skip77
+\f@ncyO@erh=\skip78
+\f@ncyO@olh=\skip79
+\f@ncyO@orh=\skip80
+\f@ncyO@elf=\skip81
+\f@ncyO@erf=\skip82
+\f@ncyO@olf=\skip83
+\f@ncyO@orf=\skip84
 )) (./main.aux
 
-! Package babel Error: You haven't loaded the option french yet.
+! Package natbib Error: Bibliography not compatible with author-year citations.
 
-See the babel package documentation for explanation.
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \select@language{french}
-                             
-You may proceed, but expect unexpected results
+l.156 ...and\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
 
 )
 \openout1 = `main.aux'.
@@ -812,16 +831,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count163
+\scratchcounter=\count164
 \scratchdimen=\dimen202
 \scratchbox=\box51
-\nofMPsegments=\count164
-\nofMParguments=\count165
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count166
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count167
 \MPscratchDim=\dimen203
-\MPnumerator=\count167
-\everyMPtoPDFconversion=\toks46
+\MPnumerator=\count168
+\everyMPtoPDFconversion=\toks47
 )
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -864,7 +883,7 @@ driver: pdftex
 \@twosidetrue \@mparswitchtrue 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-\c@lstlisting=\count168
+\c@lstlisting=\count169
 Package hyperref Info: Link coloring ON on input line 21.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -872,7 +891,7 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count169
+\c@section@level=\count170
 )
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
@@ -883,7 +902,7 @@ LaTeX Info: Redefining \pageref on input line 21.
 
 \AtBeginShipoutBox=\box52
  ABD: EveryShipout initializing macros (./Cover/cover.tex
-<Figures/unistra_logo.png, id=139, 1284.8pt x 592.2125pt>
+<Figures/unistra_logo.png, id=126, 1284.8pt x 592.2125pt>
 File: Figures/unistra_logo.png Graphic file (type png)
 
 <use Figures/unistra_logo.png>
@@ -904,414 +923,78 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 ] (./main.toc
-
-! Package babel Error: You haven't loaded the option french yet.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \select@language {french}
-                             
-You may proceed, but expect unexpected results
-
-! Undefined control sequence.
-<argument> ...kstart {link}{chapter*.2}{Probl\IeC 
-                                                  {\'e}matiques}\hyper@linkend 
-l.3 ...on}{Probl\IeC {\'e}matiques}{1}{chapter*.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ace {1em}Contexte physique et m\IeC 
-                                                  {\'e}dical}\hyper@linkend 
-l.6 ...te physique et m\IeC {\'e}dical}{3}{part.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...}{\numberline {1}Imagerie par R\IeC 
-                                                  {\'e}sonance Magn\IeC {\'e...
-l.7 ...\IeC {\'e}tique de diffusion}{5}{chapter.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...rie par R\IeC {\'e}sonance Magn\IeC 
-                                                  {\'e}tique de diffusion}\h...
-l.7 ...\IeC {\'e}tique de diffusion}{5}{chapter.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...rline {2}La diffusion pour la m\IeC 
-                                                  {\'e}decine}\hyper@linkend 
-l.8 ...on pour la m\IeC {\'e}decine}{7}{chapter.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...{link}{part.2}{II\hspace {1em}M\IeC 
-                                                  {\'e}thodes de comparaison...
-l.9 ...ations de tenseurs de diffusion}{9}{part.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...nk}{chapter.4}{\numberline {4}M\IeC 
-                                                  {\'e}thode lin\IeC {\'e}ai...
-l.11 ...'e}thode lin\IeC {\'e}aire}{15}{chapter.4}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...berline {4}M\IeC {\'e}thode lin\IeC 
-                                                  {\'e}aire}\hyper@linkend 
-l.11 ...'e}thode lin\IeC {\'e}aire}{15}{chapter.4}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...{chapter.5}{\numberline {5}Vari\IeC 
-                                                  {\'e}t\IeC {\'e}s non lin\...
-l.12 ...e}s non lin\IeC {\'e}aires}{17}{chapter.5}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...{\numberline {5}Vari\IeC {\'e}t\IeC 
-                                                  {\'e}s non lin\IeC {\'e}ai...
-l.12 ...e}s non lin\IeC {\'e}aires}{17}{chapter.5}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...i\IeC {\'e}t\IeC {\'e}s non lin\IeC 
-                                                  {\'e}aires}\hyper@linkend 
-l.12 ...e}s non lin\IeC {\'e}aires}{17}{chapter.5}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ion.5.1}{\numberline {5.1}Probl\IeC 
-                                                  {\'e}matique des m\IeC {\'...
-l.13 ...\'e}triques euclidiennes}{17}{section.5.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ....1}Probl\IeC {\'e}matique des m\IeC 
-                                                  {\'e}triques euclidiennes}...
-l.13 ...\'e}triques euclidiennes}{17}{section.5.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...section.5.2}{\numberline {5.2}G\IeC 
-                                                  {\'e}om\IeC {\'e}trie riem...
-l.14 ...eC {\'e}trie riemanienne}{17}{section.5.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...{\numberline {5.2}G\IeC {\'e}om\IeC 
-                                                  {\'e}trie riemanienne}\hyp...
-l.14 ...eC {\'e}trie riemanienne}{17}{section.5.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...tion.5.2.2}{\numberline {5.2.2}\IeC 
-                                                  {\'E}tat de l'art des r\Ie...
-l.16 ...eC {\'e}t\IeC {\'e}}{17}{subsection.5.2.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ....2}\IeC {\'E}tat de l'art des r\IeC 
-                                                  {\'e}gressions sur cette v...
-l.16 ...eC {\'e}t\IeC {\'e}}{17}{subsection.5.2.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...C {\'e}gressions sur cette vari\IeC 
-                                                  {\'e}t\IeC {\'e}}\hyper@li...
-l.16 ...eC {\'e}t\IeC {\'e}}{17}{subsection.5.2.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...sions sur cette vari\IeC {\'e}t\IeC 
-                                                  {\'e}}\hyper@linkend 
-l.16 ...eC {\'e}t\IeC {\'e}}{17}{subsection.5.2.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ion.5.2.3}{\numberline {5.2.3}M\IeC 
-                                                  {\'e}thode du "Multivariat...
-l.17 ...eral Linear Models"}{17}{subsection.5.2.3}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...section.5.3}{\numberline {5.3}G\IeC 
-                                                  {\'e}om\IeC {\'e}trie log-...
-l.20 ...\'e}trie log-euclidienne}{17}{section.5.3}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...{\numberline {5.3}G\IeC {\'e}om\IeC 
-                                                  {\'e}trie log-euclidienne}...
-l.20 ...\'e}trie log-euclidienne}{17}{section.5.3}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...hapter.6}{\numberline {6}Caract\IeC 
-                                                  {\'e}risation des changeme...
-l.23 ...e}risation des changements}{19}{chapter.6}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\numberline {7}Cohortes de donn\IeC 
-                                                  {\'e}es utilis\IeC {\'e}es...
-l.25 ...{\'e}es utilis\IeC {\'e}es}{23}{chapter.7}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...rtes de donn\IeC {\'e}es utilis\IeC 
-                                                  {\'e}es}\hyper@linkend 
-l.25 ...{\'e}es utilis\IeC {\'e}es}{23}{chapter.7}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ink}{chapter.8}{\numberline {8}\IeC 
-                                                  {\'E}valuation de la m\IeC...
-l.26 ...adre statistique Euclidien}{25}{chapter.8}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... {8}\IeC {\'E}valuation de la m\IeC 
-                                                  {\'e}thode GLM-DT dans un ...
-l.26 ...adre statistique Euclidien}{25}{chapter.8}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... du cadre statistique sur des m\IeC 
-                                                  {\'e}thodes bas\IeC {\'e}e...
-l.27 ...s bas\IeC {\'e}es tenseurs}{27}{chapter.9}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...e sur des m\IeC {\'e}thodes bas\IeC 
-                                                  {\'e}es tenseurs}\hyper@li...
-l.27 ...s bas\IeC {\'e}es tenseurs}{27}{chapter.9}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...numberline {10}Influence des pr\IeC 
-                                                  {\'e}-traitements pour une...
-l.28 ...ne comparaison de groupes}{29}{chapter.10}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no ‰ in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no © in font cmbx12!
 
 [3]
-! Undefined control sequence.
-<argument> ...n.11.1.1}{\numberline {11.1.1}R\IeC 
-                                                  {\'e}sultats des m\IeC {\'...
-l.33 ...lin\IeC {\'e}aires}{31}{subsection.11.1.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...11.1.1}R\IeC {\'e}sultats des m\IeC 
-                                                  {\'e}thodes lin\IeC {\'e}a...
-l.33 ...lin\IeC {\'e}aires}{31}{subsection.11.1.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ltats des m\IeC {\'e}thodes lin\IeC 
-                                                  {\'e}aires}\hyper@linkend 
-l.33 ...lin\IeC {\'e}aires}{31}{subsection.11.1.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ts au stade prodomal avec des t\IeC 
-                                                  {\'e}moins}\hyper@linkend 
-l.35 ...s t\IeC {\'e}moins}{31}{subsection.11.2.1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...on.11.2.2}{\numberline {11.2.2}\IeC 
-                                                  {\'E}tude sur les hallucin...
-l.36 ...\`a} corps de Lewy}{31}{subsection.11.2.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...hallucinations dans le maladie \IeC 
-                                                  {\`a} corps de Lewy}\hyper...
-l.36 ...\`a} corps de Lewy}{31}{subsection.11.2.2}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no   in font cmr12!
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1322,391 +1005,230 @@ Missing character: There is no ‰ in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no ‰ in font cmbx12!
  (./Introduction/introduction.tex
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¯ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ª in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmbx12!
-Missing character: There is no © in font cmbx12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \enit@toks \expandafter {\enit@savek...
+l.37 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@enditemize ... \expandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {\d...
+l.37 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+
+]
+
+Package natbib Warning: Citation `clagett1959' on page 2 undefined on input lin
+e 47.
+
+
+Package natbib Warning: Citation `barker2014' on page 2 undefined on input line
+ 55.
+
+[2]
+
+Package natbib Warning: Citation `ramasubramanian1998' on page 3 undefined on i
+nput line 57.
+
+
+Package natbib Warning: Citation `galileo1610' on page 3 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `DeAngelis2015' on page 3 undefined on input l
+ine 73.
+
+[3]
+
+Package natbib Warning: Citation `Kramer1982' on page 4 undefined on input line
+ 81.
+
+Missing character: There is no Ã in font cmti12!
+Missing character: There is no ¦ in font cmti12!
+
+Package natbib Warning: Citation `Newton1687' on page 4 undefined on input line
+ 81.
+
+
+Package natbib Warning: Citation `Pavese2015' on page 4 undefined on input line
+ 92.
+
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \enit@toks \expandafter {\enit@savek...
+l.95 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@enditemize ... \expandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {\d...
+l.95 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Maury1992' on page 4 undefined on input line 
+97.
+
+
+Package natbib Warning: Citation `Cohen1999' on page 4 undefined on input line 
+97.
+
+[4]
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 114.
+
+
+Package natbib Warning: Citation `Barrow1997' on page 5 undefined on input line
+ 125.
+
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+
+Package natbib Warning: Citation `Yoccoz2010' on page 5 undefined on input line
+ 129.
+
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+
+Package natbib Warning: Citation `Sundman1910' on page 5 undefined on input lin
+e 131.
+
+
+Package natbib Warning: Citation `Beloriszky1930' on page 5 undefined on input 
+line 131.
+
+
+Package natbib Warning: Citation `Aarseth2003' on page 5 undefined on input lin
+e 133.
+
+
+Package natbib Warning: Citation `Stromgren1909' on page 5 undefined on input l
+ine 133.
+
+[5]
+
+Package natbib Warning: Citation `Doppler1842' on page 6 undefined on input lin
+e 143.
+
+
+Package natbib Warning: Citation `Poincare1906' on page 6 undefined on input li
+ne 145.
+
+
+Package natbib Warning: Citation `Jeans1916' on page 6 undefined on input line 
+145.
+
+
+Package natbib Warning: Citation `Eddington1916' on page 6 undefined on input l
+ine 145.
+
+
+Package natbib Warning: Citation `Holmberg1941' on page 6 undefined on input li
+ne 147.
+
+[6]
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \enit@toks \expandafter {\enit@savek...
+l.161 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@enditemize ... \expandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {\d...
+l.161 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 51.
+(Font)              using `OT1/cmr/bx/n' instead on input line 45.
 
-Missing character: There is no Ã in font cmbx12!
-Missing character: There is no © in font cmbx12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmbx12!
-Missing character: There is no © in font cmbx12!
-) [1
-
+[7] [8
 
 ]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-Missing character: There is no Ã in font cmbx12!
-Missing character: There is no © in font cmbx12!
- [2
-
-]
-Missing character: There is no Ã in font cmbx12!
-Missing character: There is no © in font cmbx12!
- [3] [4] (./Chapters/chapter_1.tex
+ [9] [10] (./Chapters/chapter_1.tex
 Chapter 1.
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) (./Chapters/chapter_2.tex [5
+) (./Chapters/chapter_2.tex [11
 
 ]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [6
+ [12
 
 ]
 Chapter 2.
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) [7]
+) [13]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [8
+ [14
 
 ]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [9] [10] (./Introduction/part_2_intro.tex
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ® in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
+ [15] [16] (./Introduction/part_2_intro.tex)
+(./Chapters/chapter_3.tex [17
 
-! Undefined control sequence.
-l.27 Il est notamment utilisÃ© par le logiciel \og
-                                                   Statistical Parametric Ma...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.27 ...iel \og Statistical Parametric Mapping \fg
-                                                   (SPM\footnote{\url{http:/...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no   in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-) (./Chapters/chapter_3.tex [11
-
-] [12
+] [18
 
 ]
 Chapter 3.
-) (./Chapters/chapter_4.tex [13] [14
+) (./Chapters/chapter_4.tex [19] [20
 
 ]
 Chapter 4.
@@ -1714,12 +1236,12 @@ Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) (./Chapters/chapter_5.tex [15]
+) (./Chapters/chapter_5.tex [21]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [16
+ [22
 
 ]
 Chapter 5.
@@ -1753,7 +1275,7 @@ Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) (./Chapters/chapter_6.tex [17]
+) (./Chapters/chapter_6.tex [23]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
@@ -1764,31 +1286,31 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [18
+ [24
 
 ]
 Chapter 6.
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) [19]
+) [25]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [20
+ [26
 
-] [21] [22] (./Chapters/chapter_7.tex
+] [27] [28] (./Chapters/chapter_7.tex
 Chapter 7.
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) (./Chapters/chapter_8.tex [23
+) (./Chapters/chapter_8.tex [29
 
 ]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [24
+ [30
 
 ]
 Chapter 8.
@@ -1796,12 +1318,12 @@ Missing character: There is no Ã in font cmbx12!
 Missing character: There is no ‰ in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) (./Chapters/chapter_9.tex [25]
+) (./Chapters/chapter_9.tex [31]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no ‰ in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [26
+ [32
 
 ]
 Chapter 9.
@@ -1809,21 +1331,21 @@ Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) (./Chapters/chapter_10.tex [27]
+) (./Chapters/chapter_10.tex [33]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [28
+ [34
 
 ]
 Chapter 10.
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
-) (./Chapters/chapter_11.tex [29]
+) (./Chapters/chapter_11.tex [35]
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
- [30
+ [36
 
 ]
 Chapter 11.
@@ -1839,11 +1361,11 @@ Missing character: There is no Ã in font cmbx12!
 Missing character: There is no ‰ in font cmbx12!
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no   in font cmbx12!
-) [31] [32
+) [37] [38
 
-] [33] [34] (./main.bbl [35
+] [39] [40] (./main.bbl [41
 
-] [36
+] [42
 
 ]
 Missing character: There is no Ã in font cmti12!
@@ -1866,75 +1388,58 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¨ in font cmr12!
- [37] [38]
+ [43] [44]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [39]
+ [45]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-) [40] (./main.lof
-
-! Package babel Error: You haven't loaded the option french yet.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \select@language {french}
-                             
-You may proceed, but expect unexpected results
-
-)
+) [46] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [41
+
+[47
 
 
-] [42
+] [48
 
-] (./main.lot
-
-! Package babel Error: You haven't loaded the option french yet.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \select@language {french}
-                             
-You may proceed, but expect unexpected results
-
-)
+] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [43] (./main.aux)
+
+
+Package natbib Warning: There were undefined citations.
+
+[49] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19825 strings out of 493848
- 319142 string characters out of 1152824
- 435657 words of memory out of 3000000
- 22481 multiletter control sequences out of 15000+50000
- 12924 words of font info for 50 fonts, out of 3000000 for 9000
+ 20442 strings out of 493848
+ 327252 string characters out of 1152824
+ 444496 words of memory out of 3000000
+ 23080 multiletter control sequences out of 15000+50000
+ 11377 words of font info for 42 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 58i,12n,55p,499b,421s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,12n,55p,1046b,559s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (47 pages, 237302 bytes).
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (53 pages, 268882 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 523 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

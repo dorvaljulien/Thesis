@@ -3,77 +3,171 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \addstarredchapter{\textsc{introduction générale}}
-\markboth{\bfseries\textsc{Introduction Générale}}{}
-
-%----------------------------------------------------------------------------------------
-
-\section*{Contexte}
-\addcontentsline{toc}{section}{Contexte}
-L'Imagerie par Résonnance Magnétique du Tenseur de Diffusion (IRM-DT) est une modalité d'imagerie qui permet de visualiser \textit{in vivo} la structure des faisceaux de la substance blanche estimée à partir de la diffusion des molécules d'eau dans le cerveau.
-Mathématiquement, la diffusion des molécules d'eau en chaque voxel est définie par un tenseur du second ordre $T$, représenté par une matrice symétrique définie positive de dimensions trois, $T \subset \mbox{Sym}^+(3)$. Visuellement, elle est modélisée par une ellipsoïde dont l'axe principal correspond à la direction principale de la diffusion en ce voxel.
-
-Cette modalité d'imagerie a largement été utilisée pour étudier l'intégrité de la substance blanche dans le cas de pathologies neurodégénératives. Par exemple, en comparant deux images consécutives dans le temps d'un même patient pour examiner l'évolution de la pthologie ou encore, en comparant deux groupes de sujets, sains et atteints, selon les données d'imagerie, des scores cognitifs ou des données cliniques.
-La comparaison de groupes permet de mettre en évidence statistiquement les régions du cerveau atteintes par la maladie. Cet type d'étude permet d'aider au diagnostique, au pronostique et à la compréhension des mécanismes des pathologies dégénératives du système nerveux central.
+\markboth{\bfseries\textsc{General Introduction}}{}
 
 
 
-\section*{Problématiques}
-\addcontentsline{toc}{section}{Problématiques}
-Les approches usuelles pour réaliser une comparaison de groupes ne tiennent pas compte de la forme complète du tenseur de diffusion ni de sa géométrie particulière de matrice définie positive.
 
 
-% The usual apporachs to perform group comparison for Diffusion Tensor Images (DTI) are based on regions of interest analysis \cite{Snook2007}, tract analysis \cite{Smith2006, Zhu2011} and voxel analysis \cite{Cercignani2010}. 
-% In this paper, we will steer our investigation on frameworks which use voxel-based analysis. 
-% The major interest of the voxel-based analysis is that it does not make any assumption on the spatial location of the expected changes.
-% 
-% Most of the published voxel-based studies rely on the comparison of scalar images derived from DT-MRI such as Fractional Anisotropy (FA) or Mean Diffusivity (MD) using the voxel-based analysis framework \cite{Friston2006} provided in SPM\footnote{\url{http://www.fil.ion.ucl.ac.uk/spm/}}. 
-% This regression model is based on the general linear model and allows to perform standard statistical tests such as the T-test and the F-test on the regressors.
-% 
-% The scalar indices represent only a specific information concerning the diffusion. 
-% In comparison with the tensor of diffusion which contains the whole diffusion information, there is a deterioration of information using scalar indices in DTI group comparisons. 
-% Thus, scalar-based detection methods cannot highlight all kind of diffusion changes.
-% 
-% To make up this gap, multivariate statistical analysis have been proposed to compare several scalar indices simultaneously based on the SPM model \cite{Chapell2008} or to compare eigenvalues or eigenvectors of diffusion tensors \cite{Schwartzman2010}. 
-% But these methods cannot include clinical data in the statistical analysis which makes impossible to highlight the correlation between neuroimaging data and clinical data as for example to investigate the effect of drug therapy \cite{Chen2009} or the effect of age in the brain development.
-% 
-% Models using the whole tensor are also proposed \cite{Zhu2009, Schwartzman2010, Yuan2012, Bouchon2014, Kim2014} but they have to deal with the inability of an Euclidean framework to take into account of the definite-positiveness of a diffusion tensor. 
-% Two manifolds with associated metrics and accounting for the positive-definite nature of diffusion tensors have been proposed: the Log-Euclidean \cite{Arsigny2006} and the Riemanian manifolds \cite{Pennec1999}. 
-% A few works have already evaluated the impact of these metrics for various image processing problems \cite{Arsigny2006, Pasternak2010}, but there is still no consensus on the most appropriate manifold for handling diffusion tensors, especially in the context of group comparison.
 
-\section*{Contributions}
-\addcontentsline{toc}{section}{Contributions}
+Looking at the four fundamental forces, gravity is probably the one that we, as a species, take the most for granted. Of course, few of us stop and meditate on the strong and nuclear forces on a daily basis, but we never experience their direct effect. We do not feel the strong nuclear force tying together the protons inside our bodies,  neither do we feel the weak nuclear interaction inducing our potassium atoms to decay into calcium. The electromagnetic force is more present in our mind on a daily basis. Even more so since the arrival of the \textit{f\'ee \'electricit\'e} in our lives and the advent of her child, the electronic age. Even though some manifestations of the electromagnetic force, such as sunlight, are taken for granted, humans keep a sense of wonder about electromagnetism. Magnets, lightning, electromagnetism \textit{feels} magical, as humans have only understood it for a few generations.
 
-\section*{Organisation du manuscrit}
-\addcontentsline{toc}{section}{Organisation du manuscrit}
-Le manuscrit s'organise autour de trois grandes parties :
+What about gravity ? Gravity is part of our mental landscape, we experience its direct effects all the time. If we drop something, it falls, if we throw something, it curves back to the ground, we know this, instinctively. The absence of gravity feels much stranger as our brains evolved under the influence of this fundamental force. Thus we rarely reflect on it. 
+
+However, it is by no means the least interesting of forces.
+ 
+Gravity is the Great Herder, the maker of galaxies, the creator of stars and author of planets. It brings matter together.  
+
+
+\subsection*{Nbody dynamics}
+
+\subsubsection{History of nbody simulations}
 
 \begin{itemize}
-    \item \textsc{ \textbf{Contexte physique et médical}} : la première partie s'appliquera à mettre en place le contexte aussi bien physique que médical. Elle servira à définir les bases afin que tous types de lecteurs, spécialistes du domaine ou novices, puissent comprendre les enjeux et les aboutissements de ce travail de thèse.
-    \item \textsc{ \textbf{Méthodes de comparaison de deux populations de tenseurs de diffusion}} :
-    \item \textsc{ \textbf{Simulations et validations}} :
+\item newton, binary
+\item three-body encounters, stability
+\item three-body hand calculations Stromgren 1900,1909
+\item lightbulbs, holmberg 1941
+\item first numerical von hoerner 1960s ( force polynomials, individual time steps )
+\item softening and collisionals
+\item KS regularisation
+\item tree codes and statistical systems
+\item Grape
+\item GPU
+\end{itemize}
+
+An N-body system is a number n of point masses interacting gravitationnally. It is not, in itself, restricted to astrophysical applications, but to have particles free of all physical influence apart from their mutual gravitationnal attraction is not found on Earth and only happens for massive objects (stars, galaxies) moving freely in space.
+
+
+\subsection*{From Aristotle to GPU computing}
+
+\subsubsection*{Motion}
+For two thousand years, Aristote physics dominated european science. Rocks fell to the ground because they wanted to join their element, objects in the sky were attached to eternal rotating crystal spheres, and motion was either natural or violent, the latter needing a continuous force to exist. As the importance of projectiles grew in middle-age warfare, some improvement were made to explain trajectories, such as the impetus, a "contained source of motion" imprinted to a projectile by the thrower. Introduced by Philopon in the 6th century and relayed by Avicenne in the 11th century, it was properly formalized by Jean Buridan in the 14th century in his "Questions on Aristotle's Metaphysics". Buridan's impetus had a lot in common with momentum, in that it was proportionnal to mass and velocity, but could be circular, as shown by this description of celestial motion from Buridan:
+
+"God, when He created the world, moved each of the celestial orbs as He pleased, and in moving them he impressed in them impetuses which moved them without his having to move them any more...And those impetuses which he impressed in the celestial bodies were not decreased or corrupted afterwards, because there was no inclination of the celestial bodies for other movements. Nor was there resistance which would be corruptive or repressive of that impetus." \citep{clagett1959}
+
+Despite the conceptual mistake of a circular momentum, Buridan, with this text, is the first to include the motion of celestial bodies in the same framework used for everyday, terrestrial motion. The impetus is not a good model, but it is a model for everything in the universe. No more eternal crystal spheres, everything in the universe must obey the same laws. Scientific revolutions do not happen in a vacuum: Buridan and others paved the way for the intellectual landslide of the 16th and 17th century.
+
+\subsubsection*{Geocentrism and heliocentrism}
+
+While the concept of motion was slowly being refined, our vision of the universe was undergoing some faster changes. The dominant system in Europe since 150AD was the Ptolemaic geocentric model: the Sun and planets went around the Earth, following convoluted trajectories made of circles within circles called epicycles. Though complex, this system was consistent with Aristotle principles of celestial spheres and was accurate to a reasonable extent. Some alternate geocentric models were proposed by arab astronomers, such as Nasir ad-Din at-Tusi and Ibn al-Shatir, as well as rejected attempts to heliocentric models.
+
+Nicolaus Copernicus studied astronomy in Cracow and Bologna, under the influence of hard critics of the ptolemaic system. Strangely, this criticism was not fueled by observations, but by astrology. Astronomy and astrology were closely intertwined, and the chaotic structure of the ptolemaic system made astrological considerations complicated \citep{barker2014}. In a quest for consistency and simplicity, Copernicus proposed his heliocentric system, published in \textit{De revolutionibus orbium coelestium} in 1543, the year of his death, in which all planets went around the sun, in the correct order. However, clinging to circular orbits, Copernicus had to preserve ptolemaic workarounds such as epicycles. 
+
+The astronomical evidence was, at the time, paradoxically against him. The apparent size changes of planets could not be measured yet, as well as stars parallaxes, contradicting heliocentrism. The idea of a moving Earth seemed extremely counter-intuitive and was used as a common sens argument againt Copernicus. Building on this apparent counter-evidence and on the work of indian astronomer Nilakantha Somayaji, Tycho Brahe, the most renowned astronomer of his time, proposed an alternative model known as the Tychonic system in the late 16th century \citep{ramasubramanian1998}. Brahe maintained the Earth as the center of the universe, circled by the sun, orbited by all other planets. The system was quickly adopted by the Church as efficient and in compliance with the Holy Scriptures.
+
+Despite Brahe's work, the seed of heliocentrism was planted in european scientific minds. The idea exalted the impetuous Giordano Bruno, who pushed the decentralization of Earth to the extreme, claiming stars were other suns, harboring other planets, which themselves could sustain intelligent life. For this, his rejection of catholic dogma and his vehement refusal of retractation, Bruno was burned at the stake on the Campo de Fiori in 1600. Bruno, the fiery dialectist, despised geometry and believed the mind alone could unravel any mystery. The contrast could not be greater with the next mind on our way to the scientific revolution.
+
+Johanes Kepler believed in geometry, in consistency and in observations. Ardent supporter of copernicism, he convinced Tycho Brahe to grant him access to his astronomical data, unsurpassed at the time. Focusing on the motion of Mars, Kepler, through trial and error, found out the planet was moving around the Sun following an ellipse. He formulated his first two laws of planetary motions. Further exploration led him to the third law. The three laws of Kepler were formulated, initiating the mathematisation of astronomy, and with it of all physics.
+
+\subsubsection*{The Starry Messenger}
+
+
+The father of modern astronomy, and precursor of modern science, Galileo Galilei was born in Pisa in 1564. For the first part of his scientific career, Galileo got famous for his lectures on mechanics and motion. Building on Buridan and Oresme's ideas, he expressed the mathematical form of free fall motion $ d = \frac{gt^2}{2}$. Galileo also formulated what was essentially the future first law of motion from Newton.
+
+In 1609, his passion for scientific instruments led Galileo to build his own "dutch perspective glass", or telescope, a pioneering optical device from the netherlands. Once pointed at the sky, the device triggered an avalanche of observations who would forever bury the aristotelitian view of perfect and unchanged heavens. Moving Jupiter satellites, Moon craters and mountains, millions of stars in the Milky Way, these were consigned into \textit{Sidereus Nuncius} (Starry messenger), the first scientific publication of astronomical observations \citep{galileo1610}.
+
+Strong advocate of copernicism, but lacking proper evidence, Galileo caused a large controversy with his 
+\textit{Dialogue Concerning the Two Chief World Systems} published in 1632, a pamphlet against the ptolemaic system, presenting (arguably unintentionnaly) one of its advocates as a simpleton. Despite his friendship with the pope, he had to retract his work and reject copernicism. Galileo spent the rest of his life on house arrest. This was the last spasm of a Church caught in its own contradictions, having absorbed Ptolemy and Aristotle principle into its doctrine, in a time where the debate was shifting from theology to physics and observations.
+
+The relativity of motion is often attributed to Galileo, as he includes it in its controversial pamphlet, stating that a traveller inside a ship sailing smoothly would not be able to tell he's moving. Thus, people could be standing on a moving Earth without feeling it. However, this thought experiment was nothing new at the time and had been a recurring theme of mechanical philosophy since Buridan. Oresme, Copernicus and Bruno had been building on the idea, expanding and improving it, developing over the centuries an implicit understanding of inertia, until Bruno actually gives it a name: \textit{virt\`u}. Galileo may have met Bruno himself, and had surely been influenced by his writings \citep{DeAngelis2015}. Galileo's formulation was clearer, and part of a larger understanding of motion, introducing the concept of reference frame. After Copernicus decentralized the Earth, Galileo decentralized human subjectivity itself, setting the scene for the revolution to come. 
+
+\subsubsection*{On the shoulders of giants}
+
+Isaac Newton is without a doubt the father of modern mathematical science. Admitted in Cambridge in 1661, Newton supplemented the -still- official aristotelitian teaching with more modern authors: Copernicus, Galileo, Kepler, and most of all, Descartes. The french philospher had a profound impact on the young student, rooting his love for mathematics and deductive reasoning. However, while Descartes showed disdain for experimentation, Newton was an acute observer of the natural world. 
+
+In 1666, while in is mother's farm, having been forced out of Cambridge by the Plague, Newton began his reflexion on the motion of celestial bodies. He derived from Kepler's law that the Sun had to exert an inverse squared distance attraction on the planets. Extending the concept to the Earth, moon, and a famous apple, Newton found a way to verify his hypothesis, using data from Galileo mechanical studies on the strength of Earth attraction. The wrong estimate of Earth radius he used at the time introduced a discrepancy which put the young man off his \textit{gravitas} studies for 18 years.
+
+Edmond Halley, astronomer and friend of Newton, having heard of Newton inverse squared law, urged him in 1684 to communicate his work the Royal Society. With a new accurate measure of Earth radius and confronted to a concurrent claim to his law from Robert Hooke \citep{Kramer1982}, Newton capitulated to Halley's eager enthousiasm and communicated his work in the famous \textit{Philosophiæ Naturalis Principia Mathematica} \citep{Newton1687}. Published at Halley's own expense, the Principia shook all of Europe. Newton had invented Calculus (in parallel of Leibniz) and applied it to derive the universal law of Gravitation.
+
+\begin{equation}
+F = G \frac{m_1.m_2}{r^2}
+\end{equation}
+
+
+Where:
+\begin{itemize}[label=]
+ \setlength\itemsep{-0.5em}
+  \item[$F$] Gravitational attraction between object 1 and object 2
+\item[$G$] Gravitational constant, $6.67408.10^{-11} m^3 kg^{-1} s^{-2}$ \citep{Pavese2015}
+\item[$m_i$] Masses of object 1 and 2
+\item[$r$] Distance between object 1 and 2
+\end{itemize}
+
+Though Newton was part of continuous line of geniuses and innovative minds building from each others, as he puts it "If I have seen further it is by standing on the shoulders of giants" \citep{Maury1992}, his input was truly revolutionnary. He made large advances in optics and mathematics, and created a consistent mathematical framework to compute motions, essentially founding modern science and sowing the seeds of the industrial revolution. This framework is summed up by Newton's three laws of motion (from recent translation \citealt{Cohen1999}):
+
+\begin{quote}
+Law I : Every body persists in its state of being at rest or of moving uniformly straight forward, except insofar as it is compelled to change its state by force impressed.
+\end{quote}
+
+\begin{quote}
+Law II: The alteration of motion is ever proportional to the motive force impress'd; and is made in the direction of the right line in which that force is impress'd.
+\end{quote}
+ 
+ \begin{quote}
+ Law III: To every action there is always opposed an equal reaction: or the mutual actions of two bodies upon each other are always equal, and directed to contrary parts.
+ \end{quote}
+
+The second law can be mathematically formulated in more modern terms:
+
+\begin{equation}
+\sum \bold{F} = \frac{d \bold{p}}{dt}
+\end{equation}
+
+Meaning the sum of all forces $\bold{F}$ applied to an object is equal to the time derivative of its momentum $\bold{p} = m.\bold{v}$.
+
+
+
+\subsubsection*{The n=3 body problem}
+
+As the Enlightenment brought a scientific revolution in many fields, I will now limit the discussion to the development of celestial mechanics, while acknowledging input from other fields.
+
+While the two-body problem had been solved by Newton and expanded by Bernoulli in 1710 \citep{Barrow1997}, in the 18th century the three-body problem remained the object of much investigation and development. A general solution for the Earth-Moon-Sun system would have had applications on nautical astronomy and trans-continental navigation. Extended analytical work by d'Alembert, Clairaut, Euler and Lagrange led to the development of early families of approximate solutions or exact solutions to special cases.
+
+From 1773 to 1793, Joseph-Louis Lagrange, helped by his invention of Lagrangian mechanics, would make a lot of advances on the three-body problem. He introduced the concept of potential and discovered libration points (later known as Lagrange points). In the same time, Pierre-Simon de Laplace proved the stability of the solar system using a newly developped perturbation theory. The solar system dynamics were being unraveled, with finely tuned perturbation computation, but the general three-body problem remained unsolved.
+
+In 1888, Henri Poincaré, greatest mathematician of his time, submitted an entry to a contest organized by the King of Sweden Oskar II. The goal was to determine a usable solution to the n-body problem, for any given n. While Poincaré does not submit a complete solution, he wins the contest by presenting an in-depth exploration of the phase-space of the restricted three-body problem, which would later give rise to the Chaos theory ,see \cite{Yoccoz2010}. Poincaré managed to prove that the three-body problem had no  solution involving simple functions.
+
+Contrary to popular belief, the three-body problem \textit{has} a solution, it was derived by Karl F. Sundman in 1910 \citep{Sundman1910}. However, any attempt to obtain accurate trajectory predictions would face tremendous convergence time and is in practice unusable \citep{Beloriszky1930}.
+
+It is interesting to note that Elis Str\"omgren performed by-hand calculation of a three-body system, see \cite{Aarseth2003,Stromgren1909}, prefiguring the advent of numerical orbit computation.
+
+\subsubsection*{The n$>$3 body problem}
+
+\begin{quote}
+"The Sun attracts Jupiter and the other planets, Jupiter attracts its satellites and similarly the satellites act on one another."
+\end{quote}
+
+By this sentence from the \textit{Principia}, Newton formulates the n-body gravitational problem, an arbitrary number of massive bodies all interacting gravitationally, for the solar system. The "n$>$3-body" problem didn't receive a lot of attention at first, as the unruly three-body problem was on everyone's mind, and a n$>$3-body problem seemed abstract, the solar system example being appropriatly dealt in approximations.
+
+In 1764, Charles Messier resolved individual stars in Messier 4, a globular cluster, hundreds of thousands of stars grouped together. Many new clusters were to be found afterwards, extending the catalog of real-life n-body systems. However, nothing was known of their kinematics, the stars were somehow suspended motionless in the sky. This was the case until the advent of Doppler spectroscopy, which allowed astronomer to measure stars velocities \citep{Doppler1842}. Stellar dynamics had begun.
+
+The n$>$3-body problem was still inaccessible, so scientists like James Jeans and Arthur Eddington decided to take the problem from the other hand, and took advantage of the large number of stars. Inspired by \cite{Poincare1906}, both astronomers applied the statistical theory of gas to stellar systems, founding the field of stellar dynamics \citep{Jeans1916,Eddington1916}.
+
+An interesting experiment was conducted by \cite{Holmberg1941} to understand the collision of two stellar systems (galaxies). With too few points to warrant a statistical approach, and before the rise of numerical integration, Holmberg modelled two galaxies with lightbulbs and photocells, measuring the attractive force with the amount of light received in each direction, taking advantage of the inverse squared fall of luminosity with distance, akin to gravity.
+
+
+
+
+\newpage
+\subsubsection{NBODY6}
+
+\begin{itemize}
+\item history
+\item Hermite scheme
+\item block time step
+\item neighbour scheme
+\item KS reg
 \end{itemize}
 
 
 
-% To the best of the author's knowledge, three principal and relatively new methods \cite{Zhu2009, Yuan2012, Kim2014} emerge from the literature to carry out multivariate statistical analysis, taking into account clinical data, on a Riemannian manifolds. 
-% The work of Zhu \textit{et al.} \cite{Zhu2009} proposed a versatile Riemanian framework accounting for the positive definiteness of diffusion tensor.
-% This method consists on estimating the geodesic distance between the data and the predicted data with a semi-parametric model based on a generalized linear model.
-% To this end, they successed to define the residuals with projection and translation of each data matrix on the same specific tangent space $T_{I_m}Sym^{+}(m)$ at the identity $I_m$ matrix ($m=3$).
-% Unfortunately, the regression step suffers from being computationally intensive.
-% Yuan \textit{et al.} proposed later \cite{Yuan2012} a polynomial regression adapted for positive definite matrices. 
-% The major interests of this paper are the non-parametric estimation of the regressors and the complete investigation about the use of different metrics. 
-% The lastest published, Kim \textit{et al.} \cite{Kim2014} presented a multivariate geodesic regression based on the univariate of Fletcher \cite{Fletcher2013}. This framework is described in the subsection ``Data analysis: Riemanian framework''.
-% The estimation of regressors on Riemannian space is solved with a gradients' descent. 
-% Moreover, the code source\footnote{\url{https://www.nitrc.org/projects/riem\_mglm}} is available online for free.
-% 
-% In this context, a question arises to seek for the relevant choices to do about statistical analysis for group comparisons on diffusion tensor imaging.
-% 
-% In this paper, we present several points: we first investigated the relevance of the whole tensor information compared to scalar indices only. To this end, we validated our method via a simulation framework based on DT-MRI acquisitions of healthy subjects in which different kinds of lesions have been introduced. 
-% Second, as it is well explained in the literature \cite{Klein2009, Schwarz2014}, the registration step may have an influence on results of a voxel-based analysis. 
-% Third, we propose to compare the influence of considering either an Euclidean, a Log-Euclidean or a Riemanian metric in the regression problem. It will allow to review the pertinence of regression on Riemannian manifold compared to Euclidean manifold.
-% Fourth, we also presented results and analysis of a cohort of patients suffering from neuromyelitis optica (NMO).
-% 
-% The content of this paper is organized as follows:
-% the section ``Proposed frameworks for group comparison on DTI'' describes each parts of the different frameworks such as pre-processing, data analysis and post-processing. 
-% In the section ``Materials'', the different cohorts and the evaluation method are presented. Various results are showed and discussed in the last section ``Results and discussion''.
-% The paper will finish by a conclusion of our study.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3526 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@ARTICLE{VonHoerner1960,
+  author = {{von Hoerner}, S.},
+  title = {{Die numerische Integration des n-K{\"o}rper-Problemes f{\"u}r Sternhaufen.
+	I}},
+  journal = {\zap},
+  year = {1960},
+  volume = {50},
+  pages = {184-214},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1960ZA.....50..184V},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{VanAlbada1982,
+  author = {{van Albada}, T.~S.},
+  title = {{Dissipationless galaxy formation and the R to the 1/4-power law}},
+  journal = {\mnras},
+  year = {1982},
+  volume = {201},
+  pages = {939-955},
+  month = dec,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1982MNRAS.201..939V},
+  keywords = {Astronomical Models, Boundary Value Problems, Dissipation, Elliptical
+	Galaxies, Galactic Evolution, Many Body Problem, Anisotropic Media,
+	Body Kinematics, Density Distribution, Gravitational Collapse, Mass
+	Distribution, Velocity Distribution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Aarseth2003,
+  title = {{Gravitational N-Body Simulations}},
+  year = {2003},
+  author = {{Aarseth}, S.~J.},
+  pages = {430},
+  month = oct,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003gnbs.book.....A},
+  booktitle = {Gravitational N-Body Simulations, by Sverre J.~Aarseth, pp.~430.~ISBN
+	0521432723.~Cambridge, UK: Cambridge University Press, November 2003.},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Aarseth1974,
+  author = {{Aarseth}, S.~J. and {H\'enon}, M. and {Wielen}, R.},
+  title = {{A comparison of numerical methods for the study of star cluster
+	dynamics}},
+  journal = {\aap},
+  year = {1974},
+  volume = {37},
+  pages = {183-187},
+  month = dec,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1974A%26A....37..183A},
+  keywords = {Astronomical Models, Computerized Simulation, Numerical Analysis,
+	Star Clusters, Stellar Evolution, Celestial Mechanics, Fluid Dynamics,
+	Fokker-Planck Equation, Many Body Problem, Mathematical Models, Monte
+	Carlo Method, Numerical Integration, Relaxation Method (Mathematics)},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Aarseth1964,
+  author = {{Aarseth}, S.~J. and {Hoyle}, F.},
+  title = {{An assessment of the present state of the N-body problem}},
+  journal = {Astrophysica Norvegica},
+  year = {1964},
+  volume = {9},
+  pages = {313},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1964ApNr....9..313A},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Aarseth1975,
+  author = {{Aarseth}, S.~J. and {Lecar}, M.},
+  title = {{Computer simulations of stellar systems}},
+  journal = {\araa},
+  year = {1975},
+  volume = {13},
+  pages = {1-21},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1975ARA%26A..13....1A},
+  doi = {10.1146/annurev.aa.13.090175.000245},
+  keywords = {Astrodynamics, Computerized Simulation, Galactic Clusters, Globular
+	Clusters, Interacting Galaxies, Many Body Problem, Star Distribution,
+	Stellar Systems, Binary Stars, Celestial Mechanics, Collisionless
+	Plasmas, Equipartition Theorem, Galactic Evolution, Relaxation Time,
+	Star Clusters},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Aarseth1988,
+  author = {{Aarseth}, S.~J. and {Lin}, D.~N.~C. and {Papaloizou}, J.~C.~B. },
+  title = {{On the collapse and violent relaxation of protoglobular clusters}},
+  journal = {\apj},
+  year = {1988},
+  volume = {324},
+  pages = {288-310},
+  month = jan,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1988ApJ...324..288A},
+  doi = {10.1086/165895},
+  keywords = {Computational Astrophysics, Globular Clusters, Gravitational Collapse,
+	Molecular Relaxation, Star Formation, Stellar Evolution, Many Body
+	Problem, Stellar Magnitude, Stellar Mass, Stellar Structure, Velocity
+	Distribution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Aarseth1988a,
+  author = {{Aarseth}, S.~J. and {Lin}, D.~N.~C. and {Papaloizou}, J.~C.~B. },
+  title = {{On the collapse and violent relaxation of protoglobular clusters}},
+  journal = {\apj},
+  year = {1988},
+  volume = {324},
+  pages = {288-310},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1988ApJ...324..288A},
+  doi = {10.1086/165895},
+  keywords = {Computational Astrophysics, Globular Clusters, Gravitational Collapse,
+	Molecular Relaxation, Star Formation, Stellar Evolution, Many Body
+	Problem, Stellar Magnitude, Stellar Mass, Stellar Structure, Velocity
+	Distribution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Allison2009,
+  author = {{Allison}, R.~J. and {Goodwin}, S.~P. and {Parker}, R.~J. and {de
+	Grijs}, R. and {Portegies Zwart}, S.~F. and {Kouwenhoven}, M.~B.~N.
+	},
+  title = {{Dynamical Mass Segregation on a Very Short Timescale}},
+  journal = {\apjl},
+  year = {2009},
+  volume = {700},
+  pages = {L99-L103},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009ApJ...700L..99A},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/700/2/L99},
+  eprint = {0906.4806},
+  keywords = {galaxies: star clusters, methods: N-body simulations, stars: formation,
+	stellar dynamics},
+  owner = {dorval},
+  primaryclass = {astro-ph.GA},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Allison2010,
+  author = {{Allison}, R.~J. and {Goodwin}, S.~P. and {Parker}, R.~J. and {Portegies
+	Zwart}, S.~F. and {de Grijs}, R.},
+  title = {{The early dynamical evolution of cool, clumpy star clusters}},
+  journal = {\mnras},
+  year = {2010},
+  volume = {407},
+  pages = {1098-1107},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010MNRAS.407.1098A},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2010.16939.x},
+  eprint = {1004.5244},
+  keywords = {stars: formation, stars: kinematics and dynamics},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Allison2009b,
+  author = {{Allison}, R.~J. and {Goodwin}, S.~P. and {Parker}, R.~J. and {Portegies
+	Zwart}, S.~F. and {de Grijs}, R. and {Kouwenhoven}, M.~B.~N. },
+  title = {{Using the minimum spanning tree to trace mass segregation}},
+  journal = {\mnras},
+  year = {2009},
+  volume = {395},
+  pages = {1449-1454},
+  month = may,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009MNRAS.395.1449A},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2009.14508.x},
+  eprint = {0901.2047},
+  keywords = {methods: data analysis},
+  owner = {dorval},
+  primaryclass = {astro-ph.GA},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Anderson2009,
+  author = {{Anderson}, J. and {Piotto}, G. and {King}, I.~R. and {Bedin}, L.~R.
+	and {Guhathakurta}, P.},
+  title = {{Mixed Populations in Globular Clusters: Et Tu, 47 Tuc?}},
+  journal = {\apjl},
+  year = {2009},
+  volume = {697},
+  pages = {L58-L62},
+  month = may,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009ApJ...697L..58A},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/697/1/L58},
+  eprint = {0904.1626},
+  keywords = {globular clusters: individual: NGC 104, Hertzsprung-Russell (HR) diagram},
+  owner = {dorval},
+  primaryclass = {astro-ph.GA},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Andre2007,
+  author = {{Andr{\'e}}, P. and {Belloche}, A. and {Motte}, F. and {Peretto},
+	N. },
+  title = {{The initial conditions of star formation in the Ophiuchus main cloud:
+	Kinematics of the protocluster condensations}},
+  journal = {\aap},
+  year = {2007},
+  volume = {472},
+  pages = {519},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2007A%26A...472..519A},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361:20077422},
+  eprint = {0706.1535},
+  keywords = {stars: formation, stars: circumstellar matter, ISM: clouds, ISM: structure,
+	ISM : kinematics and dynamics, ISM: molecules},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Andre2014,
+  author = {{Andr{\'e}}, P. and {Di Francesco}, J. and {Ward-Thompson}, D. and
+	{Inutsuka}, S.-I. and {Pudritz}, R.~E. and {Pineda}, J.~E.},
+  title = {{From Filamentary Networks to Dense Cores in Molecular Clouds: Toward
+	a New Paradigm for Star Formation}},
+  booktitle = {Protostars and Planets VI},
+  year = {2014},
+  editor = {{Beuther}, H. and {Klessen}, R.~S. and {Dullemond}, C.~P. and {Henning},
+	T.~K.},
+  pages = {27},
+  publisher = {The University of Arizona Press, Tucson, AZ},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014prpl.conf...27A},
+  archiveprefix = {arXiv},
+  doi = {10.2458/azu_uapress_9780816531240-ch002},
+  eprint = {1312.6232},
+  location = {Tucson},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Andre2013,
+  author = {{Andr{\'e}}, P. and {K{\"o}nyves}, V. and {Arzoumanian}, D. and {Palmeirim},
+	P. and {Peretto}, N.},
+  title = {{Star Formation as Revealed by Herschel}},
+  booktitle = {New Trends in Radio Astronomy in the ALMA Era},
+  year = {2013},
+  editor = {{Kawabe}, R. and {Kuno}, N. and {Yamamoto}, S.},
+  volume = {476},
+  series = {ASP Conf. Series},
+  pages = {95},
+  month = oct,
+  publisher = {PASP, San Francisco, CA},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2013ASPC..476...95A},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bacon1996,
+  author = {{Bacon}, D. and {Sigurdsson}, S. and {Davies}, M.~B.},
+  title = {{Close approach during hard binary-binary scattering}},
+  journal = {\mnras},
+  year = {1996},
+  volume = {281},
+  pages = {830-846},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1996MNRAS.281..830B},
+  doi = {10.1093/mnras/281.3.830},
+  eprint = {astro-ph/9603036},
+  keywords = {CELESTIAL MECHANICS, STELLAR DYNAMICS, BINARIES: CLOSE, BLUE STRAGGLERS,
+	GLOBULAR CLUSTERS: GENERAL},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bagla2005,
+  author = {{Bagla}, J.~S.},
+  title = {{Cosmological N-Body simulation: Techniques, Scope and Status}},
+  journal = {Current Science},
+  year = {2005},
+  volume = {88},
+  pages = {1088-1100},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2005CSci...88.1088B},
+  eprint = {astro-ph/0411043},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bagla2009,
+  author = {{Bagla}, J.~S. and {Prasad}, J.},
+  title = {{Gravitational collapse in an expanding background and the role of
+	substructure - II. Excess power at small scales and its effect on
+	collapse of structures at larger scales}},
+  journal = {\mnras},
+  year = {2009},
+  volume = {393},
+  pages = {607-614},
+  month = feb,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009MNRAS.393..607B},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2008.14224.x},
+  eprint = {0802.2796},
+  keywords = {gravitation , cosmology: theory , dark matter , large-scale structure
+	of Universe},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Barker2014,
+  author = {Barker, Peter and Dear, Peter and Christianson, J. R. and Westman,
+	Robert S.},
+  title = {Why was Copernicus a Copernican?},
+  journal = {Metascience},
+  year = {2014},
+  volume = {23},
+  pages = {203--223},
+  number = {2},
+  __markedentry = {[dorval:6]},
+  doi = {10.1007/s11016-013-9841-z},
+  issn = {1467-9981},
+  owner = {dorval},
+  timestamp = {2016.06.25},
+  url = {http://dx.doi.org/10.1007/s11016-013-9841-z}
+}
+
+@ARTICLE{Barnes2009,
+  author = {{Barnes}, E.~I. and {Lanzel}, P.~A. and {Williams}, L.~L.~R. },
+  title = {{The Radial Orbit Instability in Collisionless N-Body Simulations}},
+  journal = {\apj},
+  year = {2009},
+  volume = {704},
+  pages = {372-384},
+  month = oct,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009ApJ...704..372B},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/704/1/372},
+  eprint = {0908.3873},
+  keywords = {galaxies: kinematics and dynamics, galaxies: structure},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Basri2006,
+  author = {{Basri}, G. and {Reiners}, A.},
+  title = {{A Survey for Spectroscopic Binaries among Very Low Mass Stars}},
+  journal = {\aj},
+  year = {2006},
+  volume = {132},
+  pages = {663-675},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2006AJ....132..663B},
+  doi = {10.1086/505198},
+  eprint = {astro-ph/0604259},
+  keywords = {Stars: Binaries: Close, Stars: Formation, Stars: Low-Mass, Brown Dwarfs},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bastian2010,
+  author = {{Bastian}, N. and {Covey}, K.~R. and {Meyer}, M.~R.},
+  title = {{A Universal Stellar Initial Mass Function? A Critical Look at Variations}},
+  journal = {\araa},
+  year = {2010},
+  volume = {48},
+  pages = {339-389},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010ARA%26A..48..339B},
+  archiveprefix = {arXiv},
+  doi = {10.1146/annurev-astro-082708-101642},
+  eprint = {1001.2965},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bate2012,
+  author = {{Bate}, M.~R.},
+  title = {{Stellar, brown dwarf and multiple star properties from a radiation
+	hydrodynamical simulation of star cluster formation}},
+  journal = {\mnras},
+  year = {2012},
+  volume = {419},
+  pages = {3115-3146},
+  month = feb,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012MNRAS.419.3115B},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.19955.x},
+  eprint = {1110.1092},
+  keywords = {hydrodynamics, radiative transfer, binaries: general, stars: formation,
+	stars: low-mass, stars: luminosity function, mass function},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bate2011,
+  author = {{Bate}, M.~R.},
+  title = {{Collapse of a molecular cloud core to stellar densities: the formation
+	and evolution of pre-stellar discs}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {417},
+  pages = {2036-2056},
+  month = nov,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.417.2036B},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.19386.x},
+  eprint = {1108.0009},
+  keywords = {accretion, accretion discs, hydrodynamics, radiative transfer, brown
+	dwarfs, stars: formation, stars: low-mass, stars: winds, outflows},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bate2014,
+  author = {{Bate}, M.~R. and {Tricco}, T.~S. and {Price}, D.~J.},
+  title = {{Collapse of a molecular cloud core to stellar densities: stellar-core
+	and outflow formation in radiation magnetohydrodynamic simulations}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {437},
+  pages = {77-95},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.437...77B},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stt1865},
+  eprint = {1310.1092},
+  keywords = {accretion, accretion discs, MHD, radiative transfer, stars: evolution,
+	stars: formation, stars: winds, outflows},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Becker2013,
+  author = {{Becker}, C. and {Moraux}, E. and {Duch{\^e}ne}, G. and {Maschberger},
+	T. and {Lawson}, W.},
+  title = {{Reverse dynamical evolution of {$\eta$} Chamaeleontis}},
+  journal = {\aap},
+  year = {2013},
+  volume = {552},
+  pages = {A46},
+  month = apr,
+  eid = {A46},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2013A%26A...552A..46B},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/201219204},
+  eprint = {1303.0193},
+  keywords = {binaries: general, stars: luminosity function, mass function, stars:,
+	kinematics and dynamics, methods: numerical, open clusters and, associations:
+	individual:{$\eta$}Chamaeleontis},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Benhaiem2015,
+  author = {{Benhaiem}, D. and {Sylos Labini}, F.},
+  title = {{Violent relaxation of ellipsoidal clouds}},
+  journal = {\mnras},
+  year = {2015},
+  volume = {448},
+  pages = {2634-2643},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015MNRAS.448.2634B},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stv075},
+  eprint = {1503.04962},
+  keywords = {methods: numerical, galaxies: elliptical and lenticular, cD, galaxies:
+	formation},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Binney2004,
+  author = {{Binney}, J.},
+  title = {{Discreteness effects in cosmological N-body simulations}},
+  journal = {\mnras},
+  year = {2004},
+  volume = {350},
+  pages = {939-948},
+  month = may,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2004MNRAS.350..939B},
+  doi = {10.1111/j.1365-2966.2004.07699.x},
+  eprint = {astro-ph/0311155},
+  keywords = {methods: N-body simulations, galaxies: formation, dark matter},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Binney2008,
+  title = {{Galactic Dynamics (2nd ed.)}},
+  publisher = {Princeton Univ. Press, Princeton, NJ},
+  year = {2008},
+  author = {{Binney}, J. and {Tremaine}, S.},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2008gady.book.....B},
+  booktitle = {Galactic Dynamics, 2nd edition, by James Binney and Scott Tremaine.~ISBN
+	978-0-691-13026-2 (HB).~Published by Princeton University Press,
+	Princeton, NJ USA, 2008.},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Boily2002,
+  author = {{Boily}, C.~M. and {Athanassoula}, E. and {Kroupa}, P.},
+  title = {{Scaling up tides in numerical models of galaxy and halo formation}},
+  journal = {\mnras},
+  year = {2002},
+  volume = {332},
+  pages = {971-984},
+  month = jun,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2002MNRAS.332..971B},
+  doi = {10.1046/j.1365-8711.2002.05372.x},
+  eprint = {astro-ph/0204378},
+  keywords = {galaxies: formation, galaxies: haloes, dark matter},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Boily1999,
+  author = {{Boily}, C.~M. and {Clarke}, C.~J. and {Murray}, S.~D.},
+  title = {{Collapse and evolution of flattened star clusters}},
+  journal = {\mnras},
+  year = {1999},
+  volume = {302},
+  pages = {399-412},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1999MNRAS.302..399B},
+  doi = {10.1046/j.1365-8711.1999.02153.x},
+  keywords = {CELESTIAL MECHANICS, STELLAR DYNAMICS, STARS: FORMATION, GLOBULAR
+	CLUSTERS: GENERAL},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Boily2003,
+  author = {{Boily}, C.~M. and {Kroupa}, P.},
+  title = {{The impact of mass loss on star cluster formation - II. Numerical
+	N-body integration and further applications}},
+  journal = {\mnras},
+  year = {2003},
+  volume = {338},
+  pages = {673-686},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003MNRAS.338..673B},
+  doi = {10.1046/j.1365-8711.2003.06101.x},
+  eprint = {astro-ph/0211026},
+  keywords = {stellar dynamics, methods: N-body simulations, galaxies: formation,
+	galaxies: star clusters},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Boily2004,
+  author = {{Boily}, C.~M. and {Nakasato}, N. and {Spurzem}, R. and {Tsuchiya},
+	T. },
+  title = {{Satellite Survival in Cold Dark Matter Cosmology}},
+  journal = {\apj},
+  year = {2004},
+  volume = {614},
+  pages = {26-30},
+  month = oct,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2004ApJ...614...26B},
+  archiveprefix = {arXiv},
+  doi = {10.1086/423421},
+  eprint = {0705.2556},
+  keywords = {Cosmology: Theory, Cosmology: Dark Matter, Galaxies: Dwarf, Methods:
+	n-Body Simulations},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Bonnell2004,
+  author = {{Bonnell}, I.~A. and {Vine}, S.~G. and {Bate}, M.~R.},
+  title = {{Massive star formation: nurture, not nature}},
+  journal = {\mnras},
+  year = {2004},
+  volume = {349},
+  pages = {735-741},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2004MNRAS.349..735B},
+  doi = {10.1111/j.1365-2966.2004.07543.x},
+  eprint = {astro-ph/0401059},
+  keywords = {stars: formation, stars: luminosity function, mass function, globular
+	clusters: general, open clusters and associations: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Cambresy2006,
+  author = {{Cambr{\'e}sy}, L. and {Petropoulou}, V. and {Kontizas}, M. and {Kontizas},
+	E.},
+  title = {{Surface density of the young cluster <ASTROBJ>IC 348</ASTROBJ> in
+	the <ASTROBJ>Perseus</ASTROBJ> molecular cloud}},
+  journal = {\aap},
+  year = {2006},
+  volume = {445},
+  pages = {999-1003},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2006A%26A...445..999C},
+  doi = {10.1051/0004-6361:20054123},
+  eprint = {astro-ph/0509560},
+  keywords = {stars: pre-main sequence, ISM: dust, extinction, open clusters and
+	associations: individual: IC 348},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Caputo2014,
+  author = {{Caputo}, D.~P. and {de Vries}, N. and {Portegies Zwart}, S. },
+  title = {{On the effects of subvirial initial conditions and the birth temperature
+	of R136}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {445},
+  pages = {674-685},
+  month = nov,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.445..674C},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stu1769},
+  eprint = {1409.4765},
+  keywords = {methods: numerical, galaxies: star clusters: general, galaxies: star
+	clusters: individual: R136},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Casertano1985,
+  author = {{Casertano}, S. and {Hut}, P.},
+  title = {{Core radius and density measurements in N-body experiments Connections
+	with theoretical and observational definitions}},
+  journal = {\apj},
+  year = {1985},
+  volume = {298},
+  pages = {80-94},
+  month = nov,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1985ApJ...298...80C},
+  doi = {10.1086/163589},
+  keywords = {Astronomical Models, Density Distribution, Galactic Clusters, Many
+	Body Problem, Star Clusters, Gravitational Effects, Monte Carlo Method},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Chabrier2005,
+  author = {{Chabrier}, G.},
+  title = {{The Initial Mass Function: from Salpeter 1955 to 2005}},
+  booktitle = {The Initial Mass Function 50 Years Later},
+  year = {2005},
+  editor = {{Corbelli}, E. and {Palla}, F. and {Zinnecker}, H.},
+  volume = {327},
+  series = {Astr. \& Space Sci.},
+  pages = {41},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2005ASSL..327...41C},
+  eprint = {astro-ph/0409465},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Chabrier2003,
+  author = {{Chabrier}, G.},
+  title = {{Galactic Stellar and Substellar Initial Mass Function}},
+  journal = {\pasp},
+  year = {2003},
+  volume = {115},
+  pages = {763-795},
+  month = jul,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003PASP..115..763C},
+  doi = {10.1086/376392},
+  eprint = {astro-ph/0304382},
+  keywords = {Galaxies: Luminosity Function, Mass Function, Invited Reviews},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Clagett1959,
+  title = {The science of mechanics in the Middle Ages},
+  publisher = {University of Wisconsin Press},
+  year = {1959},
+  author = {Clagett, M.},
+  series = {University of Wisconsin publications in medieval science},
+  __markedentry = {[dorval:6]},
+  lccn = {lc59005309},
+  owner = {dorval},
+  timestamp = {2016.06.25},
+  url = {https://books.google.fr/books?id=bY4IAAAAMAAJ}
+}
+
+@ARTICLE{Close2003,
+  author = {{Close}, L.~M. and {Siegler}, N. and {Freed}, M. and {Biller}, B.
+	},
+  title = {{Detection of Nine M8.0-L0.5 Binaries: The Very Low Mass Binary Population
+	and Its Implications for Brown Dwarf and Very Low Mass Star Formation}},
+  journal = {\apj},
+  year = {2003},
+  volume = {587},
+  pages = {407-422},
+  month = apr,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003ApJ...587..407C},
+  doi = {10.1086/368177},
+  eprint = {astro-ph/0301095},
+  keywords = {Stars: Binaries: General, Instrumentation: Adaptive Optics, Stars:
+	Evolution, Stars: Formation, Stars: Low-Mass, Brown Dwarfs},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Cohn1980,
+  author = {{Cohn}, H.},
+  title = {{Late core collapse in star clusters and the gravothermal instability}},
+  journal = {\apj},
+  year = {1980},
+  volume = {242},
+  pages = {765-771},
+  month = dec,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1980ApJ...242..765C},
+  doi = {10.1086/158511},
+  keywords = {Dynamic Stability, Globular Clusters, Gravitational Collapse, Star
+	Clusters, Stellar Gravitation, Stellar Motions, Thermal Instability,
+	Cores, Fokker-Planck Equation, Star Distribution, Stellar Evolution,
+	Stellar Structure},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Cortes2010,
+  author = {{Cortes}, P.~C. and {Parra}, R. and {Cortes}, J.~R. and {Hardy},
+	E. },
+  title = {{G30.79 FIR 10: a gravitationally bound infalling high-mass star-forming
+	clump}},
+  journal = {\aap},
+  year = {2010},
+  volume = {519},
+  pages = {A35},
+  month = sep,
+  eid = {A35},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010A%26A...519A..35C},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/200811137},
+  eprint = {1006.5093},
+  keywords = {magnetic fields, stars: formation, ISM: individual objects: G30.79
+	FIR 10},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Cottaar2015,
+  author = {{Cottaar}, M. and {Covey}, K.~R. and {Foster}, J.~B. and {Meyer},
+	M.~R. and {Tan}, J.~C. and {Nidever}, D.~L. and {Chojnowski}, S.~D.
+	and {da Rio}, N. and {Flaherty}, K.~M. and {Frinchaboy}, P.~M. and
+	{Majewski}, S. and {Skrutskie}, M.~F. and {Wilson}, J.~C. and {Zasowski},
+	G.},
+  title = {{IN-SYNC. III. The Dynamical State of IC 348 - A Super-virial Velocity
+	Dispersion and a Puzzling Sign of Convergence}},
+  journal = {\apj},
+  year = {2015},
+  volume = {807},
+  pages = {27},
+  month = jul,
+  eid = {27},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015ApJ...807...27C},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/807/1/27},
+  eprint = {1505.07504},
+  keywords = {open clusters and associations: individual: IC 348, stars: pre-main
+	sequence, techniques: radial velocities},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Czekaj2014,
+  author = {{Czekaj}, M.~A. and {Robin}, A.~C. and {Figueras}, F. and {Luri},
+	X. and {Haywood}, M.},
+  title = {{The Besan{\c c}on Galaxy model renewed. I. Constraints on the local
+	star formation history from Tycho data}},
+  journal = {\aap},
+  year = {2014},
+  volume = {564},
+  pages = {A102},
+  month = apr,
+  eid = {A102},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014A%26A...564A.102C},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/201322139},
+  eprint = {1402.3257},
+  keywords = {Galaxy: disk, Galaxy: evolution, galaxies: structure, Galaxy: general,
+	solar neighborhood, Galaxy: stellar content},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Davies2009,
+  author = {{Davies}, B. and {Figer}, D.~F. and {Kudritzki}, R.-P. and {Trombley},
+	C. and {Kouveliotou}, C. and {Wachter}, S.},
+  title = {{The Progenitor Mass of the Magnetar SGR1900+14}},
+  journal = {\apj},
+  year = {2009},
+  volume = {707},
+  pages = {844-851},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009ApJ...707..844D},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/707/1/844},
+  eprint = {0910.4859},
+  keywords = {open clusters and associations: individual: Cl 1900+14, stars: evolution,
+	stars: individual: SGR1900+14, stars: neutron},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{DeRosa2014,
+  author = {{De Rosa}, R.~J. and {Patience}, J. and {Wilson}, P.~A. and {Schneider},
+	A. and {Wiktorowicz}, S.~J. and {Vigan}, A. and {Marois}, C. and
+	{Song}, I. and {Macintosh}, B. and {Graham}, J.~R. and {Doyon}, R.
+	and {Bessell}, M.~S. and {Thomas}, S. and {Lai}, O. },
+  title = {{The VAST Survey - III. The multiplicity of A-type stars within 75
+	pc}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {437},
+  pages = {1216-1240},
+  month = jan,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.437.1216D},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stt1932},
+  eprint = {1311.7141},
+  keywords = {techniques: high angular resolution, binaries: close, binaries: general,
+	binaries: visual, stars: early-type},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Dorval2015,
+  author = {{Dorval}, J. and {Boily}, C.},
+  title = {{Early dynamical evolution of substructured stellar clusters}},
+  journal = {IAU General Assembly},
+  year = {2015},
+  volume = {22},
+  pages = {2251265},
+  month = aug,
+  eid = {2251265},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015IAUGA..2251265D},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Dorval2016,
+  author = {{Dorval}, J. and {Boily}, C.~M. and {Moraux}, E. and {Maschberger},
+	T. and {Becker}, C.},
+  title = {{Hubble-Lema{\^i}tre fragmentation and the path to equilibrium of
+	merger-driven cluster formation}},
+  journal = {\mnras},
+  year = {2016},
+  volume = {459},
+  pages = {1213-1232},
+  month = jun,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2016MNRAS.459.1213D},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stw714},
+  eprint = {1603.07223},
+  keywords = {methods: numerical, stars: kinematics and dynamics, globular clusters:
+	general, open clusters and associations: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{DM91,
+  author = {{Duquennoy}, A. and {Mayor}, M.},
+  title = {{Multiplicity among solar-type stars in the solar neighbourhood.
+	II - Distribution of the orbital elements in an unbiased sample}},
+  journal = {\aap},
+  year = {1991},
+  volume = {248},
+  pages = {485-524},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1991A%26A...248..485D},
+  keywords = {Binary Stars, Dwarf Stars, G Stars, Solar Neighborhood, Stellar Orbits,
+	Brown Dwarf Stars, Orbital Elements, Peculiar Stars, Radial Velocity,
+	Stellar Evolution, Variable Stars},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Ehlerova1997,
+  author = {{Ehlerova}, S. and {Palous}, J. and {Theis}, C. and {Hensler}, G.
+	},
+  title = {{Fragmentation of expanding shells in spiral and irregular galaxies}},
+  journal = {\aap},
+  year = {1997},
+  volume = {328},
+  pages = {121-129},
+  month = dec,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1997A26A...328..121E},
+  eprint = {astro-ph/9712187},
+  keywords = {STARS: FORMATION, ISM: BUBBLES, KINEMATICS AND DYNAMICS, GALAXY: STRUCTURE},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Eisenstein1998,
+  author = {{Eisenstein}, D.~J. and {Hut}, P.},
+  title = {{HOP: A New Group-Finding Algorithm for N-Body Simulations}},
+  journal = {\apj},
+  year = {1998},
+  volume = {498},
+  pages = {137-142},
+  month = may,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1998ApJ...498..137E},
+  doi = {10.1086/305535},
+  eprint = {astro-ph/9712200},
+  keywords = {COSMOLOGY: THEORY, COSMOLOGY: DARK MATTER, METHODS: NUMERICAL, Cosmology:
+	Theory, Cosmology: Dark Matter, Methods: Numerical},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Faber2008,
+  author = {{Faber}, N.~T. and {Boily}, C.~M. and {Portegies Zwart}, S.},
+  title = {{On time-dependent orbital complexity in gravitational N-body simulations}},
+  journal = {\mnras},
+  year = {2008},
+  volume = {386},
+  pages = {425-439},
+  month = may,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2008MNRAS.386..425F},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2008.13041.x},
+  eprint = {0801.4933},
+  keywords = {methods: N-body simulations , methods: numerical , stars: kinematics},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Fischer1992,
+  author = {{Fischer}, D.~A. and {Marcy}, G.~W.},
+  title = {{Multiplicity among M dwarfs}},
+  journal = {\apj},
+  year = {1992},
+  volume = {396},
+  pages = {178-194},
+  month = sep,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1992ApJ...396..178F},
+  doi = {10.1086/171708},
+  keywords = {Binary Stars, Companion Stars, Dwarf Stars, M Stars, Radial Velocity,
+	Stellar Spectra, Late Stars, Sky Surveys (Astronomy), Statistical
+	Analysis},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Fleck2006,
+  author = {{Fleck}, J.-J. and {Boily}, C.~M. and {Lan{\c c}on}, A. and {Deiters},
+	S.},
+  title = {{On the mass of dense star clusters in starburst galaxies from spectrophotometry}},
+  journal = {\mnras},
+  year = {2006},
+  volume = {369},
+  pages = {1392-1406},
+  month = jul,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2006MNRAS.369.1392F},
+  doi = {10.1111/j.1365-2966.2006.10390.x},
+  eprint = {astro-ph/0604194},
+  keywords = {methods: numerical: stars: evolution: stars: kinematics: stars: luminosity
+	function, mass function: galaxies: clusters: individual: NGC 1818:
+	galaxies: star clusters, methods: numerical, stars: evolution, stars:
+	kinematics, stars: luminosity function, mass function, galaxies:
+	clusters: individual: NGC 1818, galaxies: star clusters},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Foster2015,
+  author = {{Foster}, J.~B. and {Cottaar}, M. and {Covey}, K.~R. and {Arce},
+	H.~G. and {Meyer}, M.~R. and {Nidever}, D.~L. and {Stassun}, K.~G.
+	and {Tan}, J.~C. and {Chojnowski}, S.~D. and {da Rio}, N. and {Flaherty},
+	K.~M. and {Rebull}, L. and {Frinchaboy}, P.~M. and {Majewski}, S.~R.
+	and {Skrutskie}, M. and {Wilson}, J.~C. and {Zasowski}, G.},
+  title = {{IN-SYNC. II. Virial Stars from Subvirial Cores{\mdash}the Velocity
+	Dispersion of Embedded Pre-main-sequence Stars in NGC 1333}},
+  journal = {\apj},
+  year = {2015},
+  volume = {799},
+  pages = {136},
+  month = feb,
+  eid = {136},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015ApJ...799..136F},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/799/2/136},
+  eprint = {1411.6013},
+  keywords = {ISM: kinematics and dynamics, stars: kinematics and dynamics, stars:
+	pre-main sequence, stars: protostars},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Foster2015a,
+  author = {{Foster}, J.~B. and {Cottaar}, M. and {Covey}, K.~R. and {Arce},
+	H.~G. and {Meyer}, M.~R. and {Nidever}, D.~L. and {Stassun}, K.~G.
+	and {Tan}, J.~C. and {Chojnowski}, S.~D. and {da Rio}, N. and {Flaherty},
+	K.~M. and {Rebull}, L. and {Frinchaboy}, P.~M. and {Majewski}, S.~R.
+	and {Skrutskie}, M. and {Wilson}, J.~C. and {Zasowski}, G.},
+  title = {{IN-SYNC. II. Virial Stars from Subvirial Cores{\mdash}the Velocity
+	Dispersion of Embedded Pre-main-sequence Stars in NGC{\nbsp}1333}},
+  journal = {\apj},
+  year = {2015},
+  volume = {799},
+  pages = {136},
+  month = feb,
+  eid = {136},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015ApJ...799..136F},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/799/2/136},
+  eprint = {1411.6013},
+  keywords = {ISM: kinematics and dynamics, stars: kinematics and dynamics, stars:
+	pre-main sequence, stars: protostars },
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Freeman2015,
+  title = {Lessons from the local group : a conference in honour of David Block
+	and Bruce Elmegreen},
+  publisher = {Springer},
+  year = {2015},
+  author = {Freeman, Kenneth C. and Block, David and Elmegreen, Bruce G. and
+	Woolway, Matthew},
+  __markedentry = {[dorval:]},
+  owner = {dorval},
+  timestamp = {2016.06.25},
+  url = {http://ci.nii.ac.jp/ncid/BB17640868}
+}
+
+@BOOK{Frenkel2001,
+  title = {Understanding Molecular Simulation},
+  publisher = {Academic Press, Inc.},
+  year = {2001},
+  author = {Frenkel, Daan and Smit, Berend},
+  address = {Orlando, FL, USA},
+  edition = {2nd},
+  __markedentry = {[dorval:]},
+  isbn = {0122673514},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Friedman1978,
+  author = {{Friedman}, J.~L. and {Schutz}, B.~F.},
+  title = {{Lagrangian perturbation theory of nonrelativistic fluids}},
+  journal = {\apj},
+  year = {1978},
+  volume = {221},
+  pages = {937-957},
+  month = may,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1978ApJ...221..937F},
+  doi = {10.1086/156098},
+  keywords = {Euler-Lagrange Equation, Flow Stability, Newtonian Fluids, Nonrelativistic
+	Mechanics, Perturbation Theory, Stellar Rotation, Angular Momentum,
+	Canonical Forms, Displacement, Energy Conservation, Flow Equations,
+	Gauge Invariance, Operators (Mathematics), Variational Principles},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Fujii2016,
+  author = {{Fujii}, M.~S. and {Portegies Zwart}, S.},
+  title = {{The Formation and Dynamical Evolution of Young Star Clusters}},
+  journal = {\apj},
+  year = {2016},
+  volume = {817},
+  pages = {4},
+  month = jan,
+  eid = {4},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2016ApJ...817....4F},
+  archiveprefix = {arXiv},
+  doi = {10.3847/0004-637X/817/1/4},
+  eprint = {1512.00090},
+  keywords = {galaxies: star clusters: general, ISM: clouds, methods: numerical,
+	open clusters and associations: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Fujii2012,
+  author = {{Fujii}, M.~S. and {Saitoh}, T.~R. and {Portegies Zwart}, S.~F. },
+  title = {{The Formation of Young Dense Star Clusters through Mergers}},
+  journal = {\apj},
+  year = {2012},
+  volume = {753},
+  pages = {85},
+  month = jul,
+  eid = {85},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012ApJ...753...85F},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/753/1/85},
+  eprint = {1205.1434},
+  keywords = {galaxies: star clusters: individual: R136, methods: numerical, open
+	clusters and associations: individual: NGC 3603 Westerlund 1 Westerlund
+	2},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Fukushige2005,
+  author = {{Fukushige}, T. and {Makino}, J. and {Kawai}, A.},
+  title = {{GRAPE-6A: A Single-Card GRAPE-6 for Parallel PC-GRAPE Cluster Systems}},
+  journal = {\pasj},
+  year = {2005},
+  volume = {57},
+  pages = {1009-1021},
+  month = dec,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2005PASJ...57.1009F},
+  doi = {10.1093/pasj/57.6.1009},
+  eprint = {astro-ph/0504407},
+  keywords = {galaxies: star clusters, methods: n-body simulations, stellar dynamics},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Galileo1610,
+  title = {Sidereus nuncius},
+  publisher = {Thomas Baglioni},
+  year = {1610},
+  author = {Galileo, G.},
+  __markedentry = {[dorval:6]},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Giersz1998,
+  author = {{Giersz}, M.},
+  title = {{Monte Carlo simulations of star clusters - I. First Results}},
+  journal = {\mnras},
+  year = {1998},
+  volume = {298},
+  pages = {1239-1248},
+  month = aug,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1998MNRAS.298.1239G},
+  doi = {10.1046/j.1365-8711.1998.01734.x},
+  eprint = {astro-ph/9804127},
+  keywords = {METHODS: NUMERICAL, STARS: KINEMATICS, GLOBULAR CLUSTERS: GENERAL},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Girichidis2012,
+  author = {{Girichidis}, P. and {Federrath}, C. and {Allison}, R. and {Banerjee},
+	R. and {Klessen}, R.~S.},
+  title = {{Importance of the initial conditions for star formation - III. Statistical
+	properties of embedded protostellar clusters}},
+  journal = {\mnras},
+  year = {2012},
+  volume = {420},
+  pages = {3264-3280},
+  month = mar,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012MNRAS.420.3264G},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.20250.x},
+  eprint = {1111.5440},
+  keywords = {hydrodynamics, instabilities, turbulence, stars: formation, stars:
+	kinematics and dynamics},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Goodwin2004,
+  author = {{Goodwin}, S.~P. and {Whitworth}, A.~P.},
+  title = {{The dynamical evolution of fractal star clusters: The survival of
+	substructure}},
+  journal = {\aap},
+  year = {2004},
+  volume = {413},
+  pages = {929-937},
+  month = jan,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2004A%26A...413..929G},
+  doi = {10.1051/0004-6361:20031529},
+  eprint = {astro-ph/0310333},
+  keywords = {stellar dynamics, open clusters and associations: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Goodwin2004a,
+  author = {{Goodwin}, S.~P. and {Whitworth}, A.~P. and {Ward-Thompson}, D. },
+  title = {{Simulating star formation in molecular cores. II. The effects of
+	different levels of turbulence}},
+  journal = {\aap},
+  year = {2004},
+  volume = {423},
+  pages = {169-182},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2004A%26A...423..169G},
+  doi = {10.1051/0004-6361:20040285},
+  eprint = {astro-ph/0405117},
+  keywords = {methods: numerical, stellar dynamics, stars: formation, ISM: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Gunawardhana2011,
+  author = {{Gunawardhana}, M.~L.~P. and {Hopkins}, A.~M. and {Sharp}, R.~G.
+	and {Brough}, S. and {Taylor}, E. and {Bland-Hawthorn}, J. and {Maraston},
+	C. and {Tuffs}, R.~J. and {Popescu}, C.~C. and {Wijesinghe}, D. and
+	{Jones}, D.~H. and {Croom}, S. and {Sadler}, E. and {Wilkins}, S.
+	and {Driver}, S.~P. and {Liske}, J. and {Norberg}, P. and {Baldry},
+	I.~K. and {Bamford}, S.~P. and {Loveday}, J. and {Peacock}, J.~A.
+	and {Robotham}, A.~S.~G. and {Zucker}, D.~B. and {Parker}, Q.~A.
+	and {Conselice}, C.~J. and {Cameron}, E. and {Frenk}, C.~S. and {Hill},
+	D.~T. and {Kelvin}, L.~S. and {Kuijken}, K. and {Madore}, B.~F. and
+	{Nichol}, B. and {Parkinson}, H.~R. and {Pimbblet}, K.~A. and {Prescott},
+	M. and {Sutherland}, W.~J. and {Thomas}, D. and {van Kampen}, E.},
+  title = {{Galaxy and Mass Assembly (GAMA): the star formation rate dependence
+	of the stellar initial mass function}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {415},
+  pages = {1647-1662},
+  month = aug,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.415.1647G},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.18800.x},
+  eprint = {1104.2379},
+  keywords = {galaxies: evolution, galaxies: formation, galaxies: star formation,
+	galaxies: stellar content},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Gutermuth2009,
+  author = {{Gutermuth}, R.~A. and {Megeath}, S.~T. and {Myers}, P.~C. and {Allen},
+	L.~E. and {Pipher}, J.~L. and {Fazio}, G.~G.},
+  title = {{A Spitzer Survey of Young Stellar Clusters Within One Kiloparsec
+	of the Sun: Cluster Core Extraction and Basic Structural Analysis}},
+  journal = {\apjs},
+  year = {2009},
+  volume = {184},
+  pages = {18-83},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009ApJS..184...18G},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0067-0049/184/1/18},
+  eprint = {0906.0201},
+  keywords = {infrared: stars, stars: formation, stars: pre-main sequence},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Henon1973,
+  author = {{H\'enon}, M.},
+  title = {{Numerical Experiments on the Stability of Spherical Stellar Systems}},
+  journal = {\aap},
+  year = {1973},
+  volume = {24},
+  pages = {229},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1973A%26A....24..229H},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Haas2010,
+  author = {{Haas}, M.~R. and {Anders}, P.},
+  title = {{Variations in integrated galactic initial mass functions due to
+	sampling method and cluster mass function}},
+  journal = {\aap},
+  year = {2010},
+  volume = {512},
+  pages = {A79},
+  month = mar,
+  eid = {A79},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010A%26A...512A..79H},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/200912967},
+  eprint = {1001.2009},
+  keywords = {stars: luminosity function, mass function, Galaxy: stellar content,
+	galaxies: fundamental parameters, methods: numerical, methods: statistical},
+  owner = {dorval},
+  primaryclass = {astro-ph.GA},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Haghi2014,
+  author = {{Haghi}, H. and {Hoseini-Rad}, S.~M. and {Zonoozi}, A.~H. and {K{\"u}pper},
+	A.~H.~W.},
+  title = {{The effect of primordial mass segregation on the size scale of globular
+	clusters}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {444},
+  pages = {3699-3708},
+  month = nov,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.444.3699H},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stu1714},
+  eprint = {1409.1332},
+  keywords = {galaxies: star clusters: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Heggie2003,
+  title = {{The Gravitational Million-Body Problem: A Multidisciplinary Approach
+	to Star Cluster Dynamics}},
+  year = {2003},
+  author = {{Heggie}, D. and {Hut}, P.},
+  month = feb,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003gmbp.book.....H},
+  booktitle = {The Gravitational Million-Body Problem: A Multidisciplinary Approach
+	to Star Cluster Dynamics, by Douglas Heggie and Piet Hut.~ Cambridge
+	University Press, 2003, 372 pp.},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Heggie1975,
+  author = {{Heggie}, D.~C.},
+  title = {{Binary evolution in stellar dynamics}},
+  journal = {\mnras},
+  year = {1975},
+  volume = {173},
+  pages = {729-787},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1975MNRAS.173..729H},
+  doi = {10.1093/mnras/173.3.729},
+  keywords = {Binary Stars, Many Body Problem, Stellar Evolution, Equations Of Motion,
+	Kinetic Energy, Numerical Integration, Stellar Motions},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Heggie1986,
+  author = {{Heggie}, D.~C. and {Mathieu}, R.~D.},
+  title = {{Standardised Units and Time Scales}},
+  booktitle = {The Use of Supercomputers in Stellar Dynamics},
+  year = {1986},
+  editor = {{Hut}, P. and {McMillan}, S.~L.~W.},
+  volume = {267},
+  series = {Lecture Notes in Physics, Berlin Springer Verlag},
+  pages = {233},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1986LNP...267..233H},
+  doi = {10.1007/BFb0116419},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Heggie2006,
+  author = {{Heggie}, D.~C. and {Trenti}, M. and {Hut}, P.},
+  title = {{Star clusters with primordial binaries - I. Dynamical evolution
+	of isolated models}},
+  journal = {\mnras},
+  year = {2006},
+  volume = {368},
+  pages = {677-689},
+  month = may,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2006MNRAS.368..677H},
+  doi = {10.1111/j.1365-2966.2006.10122.x},
+  eprint = {astro-ph/0602408},
+  keywords = {stellar dynamics , methods: N-body simulations , globular clusters:
+	general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Hillenbrand1998,
+  author = {{Hillenbrand}, L.~A. and {Hartmann}, L.~W.},
+  title = {{A Preliminary Study of the Orion Nebula Cluster Structure and Dynamics}},
+  journal = {\apj},
+  year = {1998},
+  volume = {492},
+  pages = {540-553},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1998ApJ...492..540H},
+  doi = {10.1086/305076},
+  keywords = {CELESTIAL MECHANICS, STELLAR DYNAMICS, GALAXY: OPEN CLUSTERS AND ASSOCIATIONS:
+	INDIVIDUAL NAME: ORION NEBULA CLUSTER, STARS: EVOLUTION, Celestial
+	Mechanics, Stellar Dynamics, Galaxy: Open Clusters and Associations:
+	Individual: Name: Orion Nebula Cluster, Stars: Evolution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Hills1975,
+  author = {{Hills}, J.~G.},
+  title = {{Encounters between binary and single stars and their effect on the
+	dynamical evolution of stellar systems}},
+  journal = {\aj},
+  year = {1975},
+  volume = {80},
+  pages = {809-825},
+  month = oct,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1975AJ.....80..809H},
+  doi = {10.1086/111815},
+  keywords = {Binary Stars, Computerized Simulation, Encounters, Galactic Evolution,
+	Star Clusters, Stellar Systems, Eccentricity, Globular Clusters,
+	Open Clusters, Probability Theory, Stellar Motions, Tables (Data)},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Hockney1981,
+  title = {{Computer Simulation Using Particles}},
+  year = {1981},
+  author = {{Hockney}, R.~W. and {Eastwood}, J.~W.},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1981csup.book.....H},
+  booktitle = {Computer Simulation Using Particles, New York: McGraw-Hill, 1981},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Hoversten2008,
+  author = {{Hoversten}, E.~A. and {Glazebrook}, K.},
+  title = {{Evidence for a Nonuniversal Stellar Initial Mass Function from the
+	Integrated Properties of SDSS Galaxies}},
+  journal = {\apj},
+  year = {2008},
+  volume = {675},
+  pages = {163-187},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2008ApJ...675..163H},
+  archiveprefix = {arXiv},
+  doi = {10.1086/524095},
+  eprint = {0711.1309},
+  keywords = {Galaxies: Evolution, Galaxies: Stellar Content, Stars: Luminosity
+	Function, Mass Function},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Hubber2005,
+  author = {{Hubber}, D.~A. and {Whitworth}, A.~P.},
+  title = {{Binary star formation from ring fragmentation}},
+  journal = {\aap},
+  year = {2005},
+  volume = {437},
+  pages = {113-125},
+  month = jul,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2005A%26A...437..113H},
+  doi = {10.1051/0004-6361:20042428},
+  eprint = {astro-ph/0503412},
+  keywords = {binaries: general, methods: N-body simulations, methods: statistical,
+	stars: formation},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Hut2003,
+  author = {{Hut}, P. and {Shara}, M.~M. and {Aarseth}, S.~J. and {Klessen},
+	R.~S. and {Lombardi}, Jr., J.~C. and {Makino}, J. and {McMillan},
+	S. and {Pols}, O.~R. and {Teuben}, P.~J. and {Webbink}, R.~F.},
+  title = {{MODEST-1: Integrating stellar evolution and stellar dynamics}},
+  journal = {\na},
+  year = {2003},
+  volume = {8},
+  pages = {337-370},
+  month = may,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003NewA....8..337H},
+  doi = {10.1016/S1384-1076(02)00229-4},
+  eprint = {astro-ph/0207318},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Henault-Brunet2012,
+  author = {{H{\'e}nault-Brunet}, V. and {Gieles}, M. and {Evans}, C.~J. and
+	{Sana}, H. and {Bastian}, N. and {Ma{\'{\i}}z Apell{\'a}niz}, J.
+	and {Taylor}, W.~D. and {Markova}, N. and {Bressert}, E. and {de
+	Koter}, A. and {van Loon}, J.~T.},
+  title = {{The VLT-FLAMES Tarantula Survey. VI. Evidence for rotation of the
+	young massive cluster R136}},
+  journal = {\aap},
+  year = {2012},
+  volume = {545},
+  pages = {L1},
+  month = sep,
+  eid = {L1},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012A%26A...545L...1H},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/201219472},
+  eprint = {1207.7071},
+  keywords = {galaxies: star clusters: individual: R136, Magellanic Clouds, stars:
+	kinematics and dynamics, globular clusters: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Henon1975,
+  author = {{H{\'e}non}, M.},
+  title = {{Two Recent Developments Concerning the Monte Carlo Method}},
+  booktitle = {Dynamics of the Solar Systems},
+  year = {1975},
+  editor = {{Hayli}, A.},
+  volume = {69},
+  series = {IAU Symposium},
+  pages = {133},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1975IAUS...69..133H},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Henon1971,
+  author = {{H{\'e}non}, M.~H.},
+  title = {{The Monte Carlo Method (Papers appear in the Proceedings of IAU
+	Colloquium No. 10 Gravitational N-Body Problem (ed. by Myron Lecar),
+	R. Reidel Publ. Co. , Dordrecht-Holland.)}},
+  journal = {\apss},
+  year = {1971},
+  volume = {14},
+  pages = {151-167},
+  month = nov,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1971Ap%26SS..14..151H},
+  doi = {10.1007/BF00649201},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Joshi2000,
+  author = {{Joshi}, K.~J. and {Rasio}, F.~A. and {Portegies Zwart}, S.},
+  title = {{Monte Carlo Simulations of Globular Cluster Evolution. I. Method
+	and Test Calculations}},
+  journal = {\apj},
+  year = {2000},
+  volume = {540},
+  pages = {969-982},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2000ApJ...540..969J},
+  doi = {10.1086/309350},
+  eprint = {astro-ph/9909115},
+  keywords = {Celestial Mechanics, Stellar Dynamics, Galaxy: Globular Clusters:
+	General, Methods: n-Body Simulations, Methods: Numerical},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kandrup1997,
+  author = {{Kandrup}, H.~E. and {Eckstein}, B.~L. and {Bradley}, B.~O.},
+  title = {{Chaos, complexity, and short time Lyapunov exponents: two alternative
+	characterisations of chaotic orbit segments.}},
+  journal = {\aap},
+  year = {1997},
+  volume = {320},
+  pages = {65-73},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1997A%26A...320...65K},
+  keywords = {GALAXIES: KINEMATICS AND DYNAMICS, CHAOS},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{King2012a,
+  author = {{King}, R.~R. and {Goodwin}, S.~P. and {Parker}, R.~J. and {Patience},
+	J. },
+  title = {{Testing the universality of star formation - II. Comparing separation
+	distributions of nearby star-forming regions and the field}},
+  journal = {\mnras},
+  year = {2012},
+  volume = {427},
+  pages = {2636-2646},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012MNRAS.427.2636K},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2012.22108.x},
+  eprint = {1209.2415},
+  keywords = {binaries: general, stars: formation, stars: kinematics and dynamics,
+	open clusters and associations: general},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{King2012,
+  author = {{King}, R.~R. and {Parker}, R.~J. and {Patience}, J. and {Goodwin},
+	S.~P. },
+  title = {{Testing the universality of star formation - I. Multiplicity in
+	nearby star-forming regions}},
+  journal = {\mnras},
+  year = {2012},
+  volume = {421},
+  pages = {2025-2042},
+  month = apr,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012MNRAS.421.2025K},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2012.20437.x},
+  eprint = {1201.1311},
+  keywords = {methods: numerical, binaries: general, stars: formation, stars: kinematics
+	and dynamics, open clusters and associations: general},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kirk2011,
+  author = {{Kirk}, H. and {Myers}, P.~C.},
+  title = {{Young Stellar Groups and Their Most Massive Stars}},
+  journal = {\apj},
+  year = {2011},
+  volume = {727},
+  pages = {64},
+  month = feb,
+  eid = {64},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011ApJ...727...64K},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/727/2/64},
+  eprint = {1011.1416},
+  keywords = {ISM: clouds, stars: formation},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Klessen2004,
+  author = {{Klessen}, R.~S. and {Ballesteros-Paredes}, J. and {Li}, Y. and {Mac
+	Low}, M.-M.},
+  title = {{Gravoturbulent Star Cluster Formation}},
+  booktitle = {The Formation and Evolution of Massive Young Star Clusters},
+  year = {2004},
+  editor = {{Lamers}, H.~J.~G.~L.~M. and {Smith}, L.~J. and {Nota}, A.},
+  volume = {322},
+  series = {Astronomical Society of the Pacific Conference Series},
+  pages = {299-308},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2004ASPC..322..299K},
+  eprint = {astro-ph/0403469},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Klessen2001,
+  author = {{Klessen}, R.~S. and {Burkert}, A.},
+  title = {{The Formation of Stellar Clusters: Gaussian Cloud Conditions. II.}},
+  journal = {\apj},
+  year = {2001},
+  volume = {549},
+  pages = {386-401},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2001ApJ...549..386K},
+  doi = {10.1086/319053},
+  eprint = {astro-ph/0006016},
+  keywords = {Hydrodynamics, ISM: Clouds, ISM: Kinematics and Dynamics, ISM: Structure,
+	Stars: Formation, Turbulence},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Klessen2000,
+  author = {{Klessen}, R.~S. and {Burkert}, A.},
+  title = {{The Formation of Stellar Clusters: Gaussian Cloud Conditions. I.}},
+  journal = {\apjs},
+  year = {2000},
+  volume = {128},
+  pages = {287-319},
+  month = may,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2000ApJS..128..287K},
+  doi = {10.1086/313371},
+  eprint = {astro-ph/9904090},
+  keywords = {Hydrodynamics, ISM: Clouds, ISM: Kinematics and Dynamics, ISM: Structure,
+	Stars: Formation, Turbulence},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Korntreff2012,
+  author = {{Korntreff}, C. and {Kaczmarek}, T. and {Pfalzner}, S.},
+  title = {{Towards the field binary population: influence of orbital decay
+	on close binaries}},
+  journal = {\aap},
+  year = {2012},
+  volume = {543},
+  pages = {A126},
+  month = jul,
+  eid = {A126},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012A%26A...543A.126K},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/201118019},
+  eprint = {1205.6311},
+  keywords = {binaries: general, galaxies: clusters: general, methods: numerical},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kouwenhoven2007,
+  author = {{Kouwenhoven}, M.~B.~N. and {Brown}, A.~G.~A. and {Portegies Zwart},
+	S.~F. and {Kaper}, L.},
+  title = {{The primordial binary population. II.. Recovering the binary population
+	for intermediate mass stars in Scorpius OB2}},
+  journal = {\aap},
+  year = {2007},
+  volume = {474},
+  pages = {77-104},
+  month = oct,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2007A%26A...474...77K},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361:20077719},
+  eprint = {0707.2746},
+  keywords = {Galaxy: open clusters and associations: individual: Scorpius OB2,
+	stars: binaries: visual, stars: binaries: general, stars: formation},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kouwenhoven2010,
+  author = {{Kouwenhoven}, M.~B.~N. and {Goodwin}, S.~P. and {Parker}, R.~J.
+	and {Davies}, M.~B. and {Malmberg}, D. and {Kroupa}, P.},
+  title = {{The formation of very wide binaries during the star cluster dissolution
+	phase}},
+  journal = {\mnras},
+  year = {2010},
+  volume = {404},
+  pages = {1835-1848},
+  month = jun,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010MNRAS.404.1835K},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2010.16399.x},
+  eprint = {1001.3969},
+  keywords = {methods: N-body simulations, binaries: general, galaxies: star clusters},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kroupa2002,
+  author = {{Kroupa}, P.},
+  title = {{The Initial Mass Function of Stars: Evidence for Uniformity in Variable
+	Systems}},
+  journal = {Science},
+  year = {2002},
+  volume = {295},
+  pages = {82-91},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2002Sci...295...82K},
+  doi = {10.1126/science.1067524},
+  eprint = {astro-ph/0201098},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kroupa2001a,
+  author = {{Kroupa}, P.},
+  title = {{On the variation of the initial mass function}},
+  journal = {\mnras},
+  year = {2001},
+  volume = {322},
+  pages = {231-246},
+  month = apr,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2001MNRAS.322..231K},
+  doi = {10.1046/j.1365-8711.2001.04022.x},
+  eprint = {astro-ph/0009005},
+  keywords = {BINARIES: GENERAL, STARS: FORMATION, STARS: KINEMATICS, STARS: LUMINOSITY
+	FUNCTION, MASS FUNCTION, GLOBULAR CLUSTERS: GENERAL, OPEN CLUSTERS
+	AND ASSOCIATIONS: GENERAL},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kroupa1995,
+  author = {{Kroupa}, P.},
+  title = {{Inverse dynamical population synthesis and star formation}},
+  journal = {\mnras},
+  year = {1995},
+  volume = {277},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1995MNRAS.277.1491K},
+  doi = {10.1093/mnras/277.4.1491},
+  eprint = {astro-ph/9508117},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kroupa1995a,
+  author = {{Kroupa}, P.},
+  title = {{Star cluster evolution, dynamical age estimation and the kinematical
+	signature of star formation}},
+  journal = {\mnras},
+  year = {1995},
+  volume = {277},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1995MNRAS.277.1522K},
+  doi = {10.1093/mnras/277.4.1522},
+  eprint = {astro-ph/9507017},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kroupa2001,
+  author = {{Kroupa}, P. and {Burkert}, A.},
+  title = {{On the Origin of the Distribution of Binary Star Periods}},
+  journal = {\apj},
+  year = {2001},
+  volume = {555},
+  pages = {945-949},
+  month = jul,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2001ApJ...555..945K},
+  doi = {10.1086/321515},
+  eprint = {astro-ph/0103429},
+  keywords = {Stars: Binaries: General, methods: N-body simulations, Galaxy: Open
+	Clusters and Associations: General, Stars: Formation, Stars: Late-Type},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Kupper2011,
+  author = {{K{\"u}pper}, A.~H.~W. and {Maschberger}, T. and {Kroupa}, P. and
+	{Baumgardt}, H.},
+  title = {{Mass segregation and fractal substructure in young massive clusters
+	- I. The McLuster code and method calibration}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {417},
+  pages = {2300-2317},
+  month = nov,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.417.2300K},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.19412.x},
+  eprint = {1107.2395},
+  keywords = {methods: data analysis, Magellanic Clouds, galaxies: star clusters:
+	individual: R136},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Lada2003,
+  author = {{Lada}, C.~J. and {Lada}, E.~A.},
+  title = {{Embedded Clusters in Molecular Clouds}},
+  journal = {\araa},
+  year = {2003},
+  volume = {41},
+  pages = {57-115},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003ARA%26A..41...57L},
+  doi = {10.1146/annurev.astro.41.011802.094844},
+  eprint = {astro-ph/0301540},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Lejeune1999,
+  author = {Lejeune, A. and Perdang, J. and Richert, J.},
+  title = {Application of cellular automata to \textit{N} -body systems},
+  journal = {Phys. Rev. E},
+  year = {1999},
+  volume = {60},
+  pages = {2601--2611},
+  month = {Sep},
+  __markedentry = {[dorval:]},
+  doi = {10.1103/PhysRevE.60.2601},
+  issue = {3},
+  numpages = {0},
+  owner = {dorval},
+  publisher = {American Physical Society},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Lomax2015,
+  author = {{Lomax}, O. and {Whitworth}, A.~P. and {Hubber}, D.~A. and {Stamatellos},
+	D. and {Walch}, S.},
+  title = {{Simulations of star formation in Ophiuchus - II. Multiplicity}},
+  journal = {\mnras},
+  year = {2015},
+  volume = {447},
+  pages = {1550-1564},
+  month = feb,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015MNRAS.447.1550L},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stu2530},
+  eprint = {1411.7943},
+  keywords = {binaries: general, stars: formation, stars: low-mass, stars: statistics},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Lomax2014,
+  author = {{Lomax}, O. and {Whitworth}, A.~P. and {Hubber}, D.~A. and {Stamatellos},
+	D. and {Walch}, S.},
+  title = {{Simulating star formation in Ophiuchus}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {439},
+  pages = {3039-3050},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.439.3039L},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stu177},
+  eprint = {1401.7237},
+  keywords = {hydrodynamics, stars: formation, stars: low-mass, stars: luminosity
+	function, mass function, stars: pre-main-sequence},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{MacLow2004,
+  author = {{Mac Low}, M.-M. and {Klessen}, R.~S.},
+  title = {{Control of star formation by supersonic turbulence}},
+  journal = {Rev. Mod. Phys.},
+  year = {2004},
+  volume = {76},
+  pages = {125-194},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2004RvMP...76..125M},
+  doi = {10.1103/RevModPhys.76.125},
+  eprint = {astro-ph/0301093},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Makino1991,
+  author = {{Makino}, J.},
+  title = {{Optimal order and time-step criterion for Aarseth-type N-body integrators}},
+  journal = {\apj},
+  year = {1991},
+  volume = {369},
+  pages = {200-212},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1991ApJ...369..200M},
+  doi = {10.1086/169751},
+  keywords = {Fokker-Planck Equation, Hermitian Polynomial, Many Body Problem, Numerical
+	Integration, Runge-Kutta Method, Chaos, Energy Conservation, Statistical
+	Analysis},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Makino1992,
+  author = {{Makino}, J. and {Aarseth}, S.~J.},
+  title = {{On a Hermite integrator with Ahmad-Cohen scheme for gravitational
+	many-body problems}},
+  journal = {\pasj},
+  year = {1992},
+  volume = {44},
+  pages = {141-151},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1992PASJ...44..141M},
+  keywords = {Computational Astrophysics, Gravitational Effects, Many Body Problem,
+	Numerical Integration, Accuracy, Computer Programs, Parallel Computers},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Makino1988,
+  author = {{Makino}, J. and {Hut}, P.},
+  title = {{Performance analysis of direct N-body calculations}},
+  journal = {\apjs},
+  year = {1988},
+  volume = {68},
+  pages = {833-856},
+  month = dec,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1988ApJS...68..833M},
+  doi = {10.1086/191306},
+  keywords = {Computerized Simulation, Cost Analysis, Galactic Evolution, Many Body
+	Problem, Star Clusters, Computational Astrophysics, Globular Clusters,
+	Spatial Distribution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Marks2012,
+  author = {{Marks}, M. and {Kroupa}, P.},
+  title = {{Inverse dynamical population synthesis. Constraining the initial
+	conditions of young stellar clusters by studying their binary populations}},
+  journal = {\aap},
+  year = {2012},
+  volume = {543},
+  pages = {A8},
+  month = jul,
+  eid = {A8},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012A%26A...543A...8M},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/201118231},
+  eprint = {1205.1508},
+  keywords = {binaries: general, open clusters and associations: general, globular
+	clusters: general, galaxies: star clusters: general, methods: numerical},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Marks2011,
+  author = {{Marks}, M. and {Kroupa}, P. and {Oh}, S.},
+  title = {{An analytical description of the evolution of binary orbital-parameter
+	distributions in N-body computations of star clusters}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {417},
+  pages = {1684-1701},
+  month = nov,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.417.1684M},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.19257.x},
+  eprint = {1106.5050},
+  keywords = {methods: analytical, binaries: general, globular clusters: general,
+	open clusters and associations: general, galaxies: star clusters:
+	general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Maschberger2013,
+  author = {{Maschberger}, T.},
+  title = {{On the function describing the stellar initial mass function}},
+  journal = {\mnras},
+  year = {2013},
+  volume = {429},
+  pages = {1725-1733},
+  month = feb,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2013MNRAS.429.1725M},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/sts479},
+  eprint = {1212.0939},
+  keywords = {methods: data analysis, methods: statistical, stars: luminosity function,
+	mass function},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Maschberger2011,
+  author = {{Maschberger}, T. and {Clarke}, C.~J.},
+  title = {{Global mass segregation in hydrodynamical simulations of star formation}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {416},
+  pages = {541-546},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.416..541M},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.19067.x},
+  eprint = {1106.1181},
+  keywords = {methods: data analysis, stars: formation, open clusters and associations:
+	general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Maschberger2010,
+  author = {{Maschberger}, T. and {Clarke}, C.~J. and {Bonnell}, I.~A. and {Kroupa},
+	P.},
+  title = {{Properties of hierarchically forming star clusters}},
+  journal = {\mnras},
+  year = {2010},
+  volume = {404},
+  pages = {1061-1080},
+  month = may,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010MNRAS.404.1061M},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2010.16346.x},
+  eprint = {1002.4401},
+  keywords = {stars: formation, stars: luminosity function, mass function, open
+	clusters and associations: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Mason1998,
+  author = {{Mason}, B.~D. and {Gies}, D.~R. and {Hartkopf}, W.~I. and {Bagnuolo},
+	Jr., W.~G. and {ten Brummelaar}, T. and {McAlister}, H.~A.},
+  title = {{ICCD speckle observations of binary stars. XIX - an astrometric/spectroscopic
+	survey of O stars}},
+  journal = {\aj},
+  year = {1998},
+  volume = {115},
+  pages = {821},
+  month = feb,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1998AJ....115..821M},
+  doi = {10.1086/300234},
+  keywords = {Binary Stars, Astrometry, Stellar Spectrophotometry, O Stars, Speckle
+	Interferometry, Open Clusters, Radial Velocity, Mass Distribution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{McGlynn1984,
+  author = {{McGlynn}, T.~A.},
+  title = {{Dissipationless collapse of galaxies and initial conditions}},
+  journal = {\apj},
+  year = {1984},
+  volume = {281},
+  pages = {13-30},
+  month = jun,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1984ApJ...281...13M},
+  doi = {10.1086/162072},
+  keywords = {Astronomical Models, Collapse, Elliptical Galaxies, Galactic Evolution,
+	Computerized Simulation, Density Distribution, Galactic Structure,
+	Mass Distribution, Potential Theory, Spherical Harmonics, Velocity
+	Distribution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{McMillan2012,
+  author = {McMillan,Stephen and Vesperini,Enrico and Kruczek,Nicholas},
+  title = {Rapid Mass Segregation in Massive Star Clusters},
+  booktitle = {Highlights of Astronomy},
+  year = {2012},
+  volume = {10},
+  series = {Proceedings of the International Astronomical Union},
+  pages = {259--261},
+  month = {8},
+  __markedentry = {[dorval:]},
+  doi = {10.1017/S1743921314005687},
+  issue = {Highlights H16},
+  numpages = {3},
+  owner = {dorval},
+  timestamp = {2016.06.25},
+  url = {http://journals.cambridge.org/article_S1743921314005687}
+}
+
+@ARTICLE{McMillan1986,
+  author = {{McMillan}, S.~L.~W.},
+  title = {{A unified N-body and statistical treatment of stellar dynamics.
+	III - Early postcollapse evolution of globular clusters}},
+  journal = {\apj},
+  year = {1986},
+  volume = {307},
+  pages = {126-138},
+  month = aug,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1986ApJ...307..126M},
+  doi = {10.1086/164400},
+  keywords = {Globular Clusters, Many Body Problem, Stellar Evolution, Stellar Motions,
+	Binary Stars, Collapse, Stellar Cores, Stellar Oscillations},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{McMillan2007,
+  author = {{McMillan}, S.~L.~W. and {Vesperini}, E. and {Portegies Zwart}, S.~F.
+	},
+  title = {{A Dynamical Origin for Early Mass Segregation in Young Star Clusters}},
+  journal = {\apjl},
+  year = {2007},
+  volume = {655},
+  pages = {L45-L49},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2007ApJ...655L..45M},
+  doi = {10.1086/511763},
+  eprint = {astro-ph/0609515},
+  keywords = {Galaxy: Globular Clusters: General, Methods: n-Body Simulations, Galaxy:
+	Open Clusters and Associations: General, Stars: Formation, Stellar
+	Dynamics},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Merritt2013,
+  title = {{Dynamics and Evolution of Galactic Nuclei}},
+  publisher = {Princeton Univ. Press, Princeton, NJ},
+  year = {2013},
+  author = {{Merritt}, D.},
+  month = jul,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2013degn.book.....M},
+  booktitle = {Dynamics and Evolution of Galactic Nuclei, by David Merritt.~ISBN:
+	<ISBN>9780691158600</ISBN>.~544 pp.~| 6 x 9 | 5 halftones.~136 line
+	illus.~Princeton: Princeton University Press, 2013},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Meylan1997,
+  author = {{Meylan}, G. and {Heggie}, D.~C.},
+  title = {{Internal dynamics of globular clusters}},
+  journal = {\aapr},
+  year = {1997},
+  volume = {8},
+  pages = {1-143},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1997A%26ARv...8....1M},
+  doi = {10.1007/s001590050008},
+  eprint = {astro-ph/9610076},
+  keywords = {Stellar Dynamics, Globular clusters: general, Globular clusters: individual,
+	Galaxies: star clusters},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Moeckel2011,
+  author = {{Moeckel}, N. and {Clarke}, C.~J.},
+  title = {{The formation of permanent soft binaries in dispersing clusters}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {415},
+  pages = {1179-1187},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.415.1179M},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.18731.x},
+  eprint = {1103.2306},
+  keywords = {binaries: general, stars: formation},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Moeckel2011a,
+  author = {{Moeckel}, N. and {Clarke}, C.~J.},
+  title = {{Collisional formation of very massive stars in dense clusters}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {410},
+  pages = {2799-2806},
+  month = feb,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.410.2799M},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2010.17659.x},
+  eprint = {1009.0283},
+  keywords = {methods: numerical, stars: formation, stars: kinematics and dynamics},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Moeckel2012,
+  author = {{Moeckel}, N. and {Holland}, C. and {Clarke}, C.~J. and {Bonnell},
+	I.~A. },
+  title = {{The rapid dispersal of low-mass virialized clusters}},
+  journal = {\mnras},
+  year = {2012},
+  volume = {425},
+  pages = {450-459},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012MNRAS.425..450M},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2012.21494.x},
+  eprint = {1205.1677},
+  keywords = {stars: formation, open clusters and associations: general },
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Moraux2007,
+  author = {{Moraux}, E. and {Bouvier}, J. and {Stauffer}, J.~R. and {Barrado
+	y Navascu{\'e}s}, D. and {Cuillandre}, J.-C.},
+  title = {{The lower mass function of the young open cluster Blanco 1: from
+	30 M$_{Jup}$ to 3 M$_{\&sun;}$}},
+  journal = {\aap},
+  year = {2007},
+  volume = {471},
+  pages = {499-513},
+  month = aug,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2007A%26A...471..499M},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361:20066308},
+  eprint = {0706.2102},
+  keywords = {stars: low-mass, brown dwarfs, stars: luminosity function, mass function,
+	Galaxy: open clusters and associations: individual: Blanco 1},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Moraux2003,
+  author = {{Moraux}, E. and {Bouvier}, J. and {Stauffer}, J.~R. and {Cuillandre},
+	J.-C. },
+  title = {{Brown dwarfs in the Pleiades cluster: Clues to the substellar mass
+	function}},
+  journal = {\aap},
+  year = {2003},
+  volume = {400},
+  pages = {891-902},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003A%26A...400..891M},
+  doi = {10.1051/0004-6361:20021903},
+  eprint = {astro-ph/0212571},
+  keywords = {stars: low-mass, brown dwarfs, stars: luminosity function, mass function,
+	open clusters and associations: individual: Pleiades},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Motte2003,
+  author = {{Motte}, F. and {Schilke}, P. and {Lis}, D.~C.},
+  title = {{From Massive Protostars to a Giant H II Region: Submillimeter Imaging
+	of the Galactic Ministarburst W43}},
+  journal = {\apj},
+  year = {2003},
+  volume = {582},
+  pages = {277-291},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003ApJ...582..277M},
+  doi = {10.1086/344538},
+  eprint = {astro-ph/0208519},
+  keywords = {ISM: Dust, Extinction, ISM: H II Regions, ISM: Individual: Alphanumeric:
+	W43, ISM: Structure, Stars: Formation, Submillimeter},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Murphy1991,
+  author = {{Murphy}, B.~W. and {Cohn}, H.~N. and {Durisen}, R.~H.},
+  title = {{Dynamical and luminosity evolution of active galactic nuclei - Models
+	with a mass spectrum}},
+  journal = {\apj},
+  year = {1991},
+  volume = {370},
+  pages = {60-77},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1991ApJ...370...60M},
+  doi = {10.1086/169793},
+  keywords = {Active Galactic Nuclei, Astronomical Models, Black Holes (Astronomy),
+	Galactic Evolution, Luminosity, Mass Spectra, Fokker-Planck Equation,
+	Red Shift, Stellar Evolution, Stellar Mass Ejection, Stellar Systems},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Newton1687,
+  title = {Philosophiae Naturalis Principia Mathematica},
+  year = {1687},
+  author = {Sir. I. Newton},
+  volume = {1},
+  __markedentry = {[dorval:]},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Nitadori2012,
+  author = {{Nitadori}, K. and {Aarseth}, S.~J.},
+  title = {{Accelerating NBODY6 with graphics processing units}},
+  journal = {\mnras},
+  year = {2012},
+  volume = {424},
+  pages = {545-552},
+  month = jul,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2012MNRAS.424..545N},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2012.21227.x},
+  eprint = {1205.1222},
+  keywords = {methods: numerical, globular clusters: general},
+  owner = {dorval},
+  primaryclass = {astro-ph.IM},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Offner2014,
+  author = {{Offner}, S.~S.~R. and {Clark}, P.~C. and {Hennebelle}, P. and {Bastian},
+	N. and {Bate}, M.~R. and {Hopkins}, P.~F. and {Moraux}, E. and {Whitworth},
+	A.~P.},
+  title = {{The Origin and Universality of the Stellar Initial Mass Function}},
+  booktitle = {Protostars and Planets VI},
+  year = {2014},
+  editor = {{Beuther}, H. and {Klessen}, R.~S. and {Dullemond}, C.~P. and {Henning},
+	T.~K.},
+  pages = {53},
+  publisher = {The University of Arizona Press, Tucson, AZ},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014prpl.conf...53O},
+  archiveprefix = {arXiv},
+  doi = {10.2458/azu_uapress_9780816531240-ch003},
+  eprint = {1312.5326},
+  location = {Tucson},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Olczak2011,
+  author = {{Olczak}, C. and {Spurzem}, R. and {Henning}, T.},
+  title = {{A highly efficient measure of mass segregation in star clusters}},
+  journal = {\aap},
+  year = {2011},
+  volume = {532},
+  pages = {A119},
+  month = aug,
+  eid = {A119},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011A%26A...532A.119O},
+  archiveprefix = {arXiv},
+  doi = {10.1051/0004-6361/201116902},
+  eprint = {1107.1842},
+  keywords = {methods: numerical, galaxies: star clusters: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Papaphilippou1996,
+  author = {{Papaphilippou}, Y. and {Laskar}, J.},
+  title = {{Frequency map analysis and global dynamics in a galactic potential
+	with two degrees of freedom.}},
+  journal = {\aap},
+  year = {1996},
+  volume = {307},
+  pages = {427-449},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1996A%26A...307..427P},
+  keywords = {FREQUENCY MAP ANALYSIS, CHAOTIC PHENOMENA, GALAXIES: KINEMATICS AND
+	DYNAMICS, INSTABILITIES, DIFFUSION, STELLAR DYNAMICS},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Parker2011,
+  author = {{Parker}, R.~J. and {Goodwin}, S.~P. and {Allison}, R.~J.},
+  title = {{The evolution of binary populations in cool, clumpy star clusters}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {418},
+  pages = {2565-2575},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.418.2565P},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.19646.x},
+  eprint = {1108.3566},
+  keywords = {methods: numerical, stars: formation, Galaxy: kinematics and dynamics,
+	open clusters and associations: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Parker2009,
+  author = {{Parker}, R.~J. and {Goodwin}, S.~P. and {Kroupa}, P. and {Kouwenhoven},
+	M.~B.~N. },
+  title = {{Do binaries in clusters form in the same way as in the field?}},
+  journal = {\mnras},
+  year = {2009},
+  volume = {397},
+  pages = {1577-1586},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2009MNRAS.397.1577P},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2009.15032.x},
+  eprint = {0905.2140},
+  keywords = {methods: N-body simulations , binaries: general , stars: formation
+	, open clusters and associations: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Parker2014,
+  author = {{Parker}, R.~J. and {Meyer}, M.~R.},
+  title = {{Binaries in the field: fossils of the star formation process?}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {442},
+  pages = {3722-3736},
+  month = aug,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.442.3722P},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stu1101},
+  eprint = {1406.0844},
+  keywords = {methods: numerical, binaries: general, stars: formation, open clusters
+	and associations: general},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Parker2014a,
+  author = {{Parker}, R.~J. and {Wright}, N.~J. and {Goodwin}, S.~P. and {Meyer},
+	M.~R.},
+  title = {{Dynamical evolution of star-forming regions}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {438},
+  pages = {620-638},
+  month = feb,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.438..620P},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stt2231},
+  eprint = {1311.3639},
+  keywords = {methods: numerical, stars: formation, open clusters and associations:
+	general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Patience2002,
+  author = {{Patience}, J. and {Ghez}, A.~M. and {Reid}, I.~N. and {Matthews},
+	K. },
+  title = {{A High Angular Resolution Multiplicity Survey of the Open Clusters
+	{$\alpha$} Persei and Praesepe}},
+  journal = {\aj},
+  year = {2002},
+  volume = {123},
+  pages = {1570-1602},
+  month = mar,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2002AJ....123.1570P},
+  doi = {10.1086/338431},
+  eprint = {astro-ph/0111156},
+  keywords = {Stars: Binaries: General, Galaxy: Open Clusters and Associations:
+	Individual: Name: {$\alpha$} Persei, Galaxy: Open Clusters and Associations:
+	Individual: Name: Praesepe},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Peebles1980,
+  title = {{The large-scale structure of the universe}},
+  publisher = {Princeton Univ. Press, Princeton, NJ},
+  year = {1980},
+  author = {{Peebles}, P.~J.~E.},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1980lssu.book.....P},
+  booktitle = {Research supported by the National Science Foundation.~Princeton,
+	N.J., Princeton University Press, 1980.~435 p.},
+  keywords = {Cosmology, Galactic Clusters, Galactic Evolution, Universe, Astronomical
+	Models, Correlation, Mass Distribution, Particle Motion, Relativistic
+	Theory, Statistical Distributions},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Plummer1911,
+  author = {{Plummer}, H.~C.},
+  title = {{On the problem of distribution in globular star clusters}},
+  journal = {\mnras},
+  year = {1911},
+  volume = {71},
+  pages = {460-470},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1911MNRAS..71..460P},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{PortegiesZwart2007,
+  author = {{Portegies Zwart}, S. and {Gaburov}, E. and {Chen}, H.-C. and {G{\"u}rkan},
+	M.~A.},
+  title = {{The present day mass function in the central region of the Arches
+	cluster}},
+  journal = {\mnras},
+  year = {2007},
+  volume = {378},
+  pages = {L29-L33},
+  month = jun,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2007MNRAS.378L..29P},
+  doi = {10.1111/j.1745-3933.2007.00313.x},
+  eprint = {astro-ph/0702693},
+  keywords = {methods: N-body simulations, open clusters and associations: individual:
+	Arches, galaxies: star clusters},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{PortegiesZwart2004,
+  author = {{Portegies Zwart}, S.~F. and {Baumgardt}, H. and {Hut}, P. and {Makino},
+	J. and {McMillan}, S.~L.~W.},
+  title = {{Formation of massive black holes through runaway collisions in dense
+	young star clusters}},
+  journal = {\nat},
+  year = {2004},
+  volume = {428},
+  pages = {724-726},
+  month = apr,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2004Natur.428..724P},
+  doi = {10.1038/nature02448},
+  eprint = {astro-ph/0402622},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{PortegiesZwart2010,
+  author = {{Portegies Zwart}, S.~F. and {McMillan}, S.~L.~W. and {Gieles}, M.
+	},
+  title = {{Young Massive Star Clusters}},
+  journal = {\araa},
+  year = {2010},
+  volume = {48},
+  pages = {431-493},
+  month = sep,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010ARA%26A..48..431P},
+  archiveprefix = {arXiv},
+  doi = {10.1146/annurev-astro-081309-130834},
+  eprint = {1002.1961},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{PortegiesZwart2001,
+  author = {{Portegies Zwart}, S.~F. and {McMillan}, S.~L.~W. and {Hut}, P. and
+	{Makino}, J.},
+  title = {{Star cluster ecology - IV. Dissection of an open star cluster: photometry}},
+  journal = {\mnras},
+  year = {2001},
+  volume = {321},
+  pages = {199-226},
+  month = feb,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2001MNRAS.321..199P},
+  eprint = {astro-ph/0005248},
+  keywords = {BINARIES: CLOSE, BLUE STRAGGLERS, STARS: EVOLUTION, STARS: MASS-LOSS,
+	OPEN CLUSTERS AND ASSOCIATIONS: GENERAL, binaries: close, blue stragglers,
+	stars: evolution, stars: mass-loss, open clusters and associations:
+	general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Preibisch1999,
+  author = {{Preibisch}, T. and {Balega}, Y. and {Hofmann}, K.-H. and {Weigelt},
+	G. and {Zinnecker}, H.},
+  title = {{Multiplicity of the massive stars in the Orion Nebula cluster}},
+  journal = {\na},
+  year = {1999},
+  volume = {4},
+  pages = {531-542},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1999NewA....4..531P},
+  doi = {10.1016/S1384-1076(99)00042-1},
+  keywords = {TECHNIQUES: INTERFEROMETRIC, STARS: INDIVIDUAL: PAR 1993, PAR 2074,
+	PAR 2271, PAR 2425, STARS: BINARIES, STARS: PRE-MAIN SEQUENCE},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Press2007,
+  title = {Numerical Recipes 3rd Edition: The Art of Scientific Computing},
+  publisher = {Cambridge University Press},
+  year = {2007},
+  author = {Press, William H. and Teukolsky, Saul A. and Vetterling, William
+	T. and Flannery, Brian P.},
+  address = {New York, NY, USA},
+  edition = {3},
+  isbn = {0521880688, 9780521880688},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Press2002,
+  title = {{Numerical recipes in C++ : the art of scientific computing}},
+  year = {2002},
+  author = {{Press}, W.~H. and {Teukolsky}, S.~A. and {Vetterling}, W.~T. and
+	{Flannery}, B.~P.},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2002nrc..book.....P},
+  booktitle = {Numerical recipes in C++ : the art of scientific computing by William
+	H.~Press.~xxviii, 1,002 p.~: ill.~; 26 cm.~ Includes bibliographical
+	references and index.~ISBN : 0521750334},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Raghavan2010,
+  author = {{Raghavan}, D. and {McAlister}, H.~A. and {Henry}, T.~J. and {Latham},
+	D.~W. and {Marcy}, G.~W. and {Mason}, B.~D. and {Gies}, D.~R. and
+	{White}, R.~J. and {ten Brummelaar}, T.~A.},
+  title = {{A Survey of Stellar Families: Multiplicity of Solar-type Stars}},
+  journal = {\apjs},
+  year = {2010},
+  volume = {190},
+  pages = {1-42},
+  month = sep,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010ApJS..190....1R},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0067-0049/190/1/1},
+  eprint = {1007.0414},
+  keywords = {binaries: general, planetary systems, stars: solar-type, stars: statistics,
+	surveys},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Ramasubramanian1998,
+  author = {{Ramasubramanian}, K.},
+  title = {{Model of planetary motion in the works of Kerala astronomers}},
+  journal = {Bulletin of the Astronomical Society of India},
+  year = {1998},
+  volume = {26},
+  pages = {11},
+  __markedentry = {[dorval:6]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/1998BASI...26...11R},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Rathborne2015,
+  author = {{Rathborne}, J.~M. and {Longmore}, S.~N. and {Jackson}, J.~M. and
+	{Alves}, J.~F. and {Bally}, J. and {Bastian}, N. and {Contreras},
+	Y. and {Foster}, J.~B. and {Garay}, G. and {Kruijssen}, J.~M.~D.
+	and {Testi}, L. and {Walsh}, A.~J.},
+  title = {{A Cluster in the Making: ALMA Reveals the Initial Conditions for
+	High-mass Cluster Formation}},
+  journal = {\apj},
+  year = {2015},
+  volume = {802},
+  pages = {125},
+  month = apr,
+  eid = {125},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015ApJ...802..125R},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0004-637X/802/2/125},
+  eprint = {1501.07368},
+  keywords = {dust, extinction, infrared: ISM, ISM: clouds, radio lines: ISM, stars:
+	formation},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Reipurth2001,
+  author = {{Reipurth}, B. and {Clarke}, C.},
+  title = {{The Formation of Brown Dwarfs as Ejected Stellar Embryos}},
+  journal = {\aj},
+  year = {2001},
+  volume = {122},
+  pages = {432-439},
+  month = jul,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2001AJ....122..432R},
+  doi = {10.1086/321121},
+  eprint = {astro-ph/0103019},
+  keywords = {Stars: Binaries: General, Stars: Formation, Stars: Low-Mass, Brown
+	Dwarfs, Stars: Luminosity Function, Mass Function, Stars: Pre-Main-Sequence},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@INPROCEEDINGS{Reipurth2014,
+  author = {{Reipurth}, B. and {Clarke}, C.~J. and {Boss}, A.~P. and {Goodwin},
+	S.~P. and {Rodr{\'{\i}}guez}, L.~F. and {Stassun}, K.~G. and {Tokovinin},
+	A. and {Zinnecker}, H.},
+  title = {{Multiplicity in Early Stellar Evolution}},
+  booktitle = {Protostars and Planets VI},
+  year = {2014},
+  editor = {{Beuther}, H. and {Klessen}, R.~S. and {Dullemond}, C.~P. and {Henning},
+	T.~K.},
+  pages = {267},
+  publisher = {The University of Arizona Press, Tucson, AZ},
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014prpl.conf..267R},
+  archiveprefix = {arXiv},
+  doi = {10.2458/azu_uapress_9780816531240-ch012},
+  eprint = {1403.1907},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Renaud2011,
+  author = {{Renaud}, F. and {Gieles}, M. and {Boily}, C.~M.},
+  title = {{Evolution of star clusters in arbitrary tidal fields}},
+  journal = {\mnras},
+  year = {2011},
+  volume = {418},
+  pages = {759-769},
+  month = dec,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2011MNRAS.418..759R},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2011.19531.x},
+  eprint = {1107.5820},
+  keywords = {methods: analytical, methods: numerical, globular clusters: general,
+	open clusters and associations: general, galaxies: star clusters:
+	general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Rybizki2015,
+  author = {{Rybizki}, J. and {Just}, A.},
+  title = {{Towards a fully consistent Milky Way disc model - III. Constraining
+	the initial mass function}},
+  journal = {\mnras},
+  year = {2015},
+  volume = {447},
+  pages = {3880-3891},
+  month = mar,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015MNRAS.447.3880R},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stu2734},
+  eprint = {1501.02630},
+  keywords = {methods: statistical, Hertzsprung-Russell and colour-magnitude diagrams,
+	stars: luminosity function, mass function, Galaxy: disc, Galaxy:
+	evolution, solar neighbourhood},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Salpeter1955,
+  author = {{Salpeter}, E.~E.},
+  title = {{The Luminosity Function and Stellar Evolution.}},
+  journal = {\apj},
+  year = {1955},
+  volume = {121},
+  pages = {161},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1955ApJ...121..161S},
+  doi = {10.1086/145971},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Skory2010,
+  author = {{Skory}, S. and {Turk}, M.~J. and {Norman}, M.~L. and {Coil}, A.~L.
+	},
+  title = {{Parallel HOP: A Scalable Halo Finder for Massive Cosmological Data
+	Sets}},
+  journal = {\apjs},
+  year = {2010},
+  volume = {191},
+  pages = {43-57},
+  month = nov,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010ApJS..191...43S},
+  archiveprefix = {arXiv},
+  doi = {10.1088/0067-0049/191/1/43},
+  eprint = {1001.3411},
+  keywords = {galaxies: halos, methods: data analysis, methods: numerical},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Spitzer1987,
+  title = {{Dynamical evolution of globular clusters}},
+  year = {1987},
+  author = {{Spitzer}, L.},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1987degc.book.....S},
+  booktitle = {Princeton, NJ, Princeton University Press, 1987, 191 p.},
+  keywords = {Astronomical Models, Evolution (Development), Globular Clusters, Binary
+	Stars, Diffusion Coefficient, Encounters, Evaporation, Fokker-Planck
+	Equation, Gravitational Collapse, Gravitational Effects, Monte Carlo
+	Method, Perturbation Theory, Three Body Problem, Time Dependence,
+	Two Body Problem, Velocity Distribution},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Springel2005,
+  author = {{Springel}, V. and {White}, S.~D.~M. and {Jenkins}, A. and {Frenk},
+	C.~S. and {Yoshida}, N. and {Gao}, L. and {Navarro}, J. and {Thacker},
+	R. and {Croton}, D. and {Helly}, J. and {Peacock}, J.~A. and {Cole},
+	S. and {Thomas}, P. and {Couchman}, H. and {Evrard}, A. and {Colberg},
+	J. and {Pearce}, F.},
+  title = {{Simulations of the formation, evolution and clustering of galaxies
+	and quasars}},
+  journal = {\nat},
+  year = {2005},
+  volume = {435},
+  pages = {629-636},
+  month = jun,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2005Natur.435..629S},
+  doi = {10.1038/nature03597},
+  eprint = {astro-ph/0504097},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Stahler2010,
+  author = {{Stahler}, S.~W.},
+  title = {{The orbital decay of embedded binary stars}},
+  journal = {\mnras},
+  year = {2010},
+  volume = {402},
+  pages = {1758-1766},
+  month = mar,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010MNRAS.402.1758S},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2009.15994.x},
+  eprint = {0911.1177},
+  keywords = {binaries: general, stars: early-type, stars: formation, ISM: clouds},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@BOOK{Stoer2002,
+  title = {Introduction to numerical analysis},
+  publisher = {Springer},
+  year = {2002},
+  author = {Stoer, Josef and Bulirsch, Roland and Bartels, Richard H. and Gautschi,
+	Walter and Witzgall, Christoph},
+  series = {Texts in applied mathematics},
+  address = {New York},
+  __markedentry = {[dorval:]},
+  isbn = {0-387-95452-X},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Theis1999,
+  author = {{Theis}, C. and {Spurzem}, R.},
+  title = {{On the evolution of shape in N-body simulations}},
+  journal = {\aap},
+  year = {1999},
+  volume = {341},
+  pages = {361-370},
+  month = jan,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1999A%26A...341..361T},
+  eprint = {astro-ph/9810023},
+  keywords = {METHODS: N-BODY SIMULATIONS, GALAXIES: EVOLUTION, GALAXIES: KINEMATICS
+	AND DYNAMICS},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Vesperini2014,
+  author = {{Vesperini}, E. and {Varri}, A.~L. and {McMillan}, S.~L.~W. and {Zepf},
+	S.~E.},
+  title = {{Kinematical fingerprints of star cluster early dynamical evolution}},
+  journal = {\mnras},
+  year = {2014},
+  volume = {443},
+  pages = {L79-L83},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2014MNRAS.443L..79V},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnrasl/slu088},
+  eprint = {1406.3634},
+  keywords = {globular clusters: general},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Wang2007,
+  author = {{Wang}, J. and {White}, S.~D.~M.},
+  title = {{Discreteness effects in simulations of hot/warm dark matter}},
+  journal = {\mnras},
+  year = {2007},
+  volume = {380},
+  pages = {93-103},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2007MNRAS.380...93W},
+  doi = {10.1111/j.1365-2966.2007.12053.x},
+  eprint = {astro-ph/0702575},
+  keywords = {neutrinos, methods: N-body simulations, methods: numerical, dark matter},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Ward-Duong2015,
+  author = {{Ward-Duong}, K. and {Patience}, J. and {De Rosa}, R.~J. and {Bulger},
+	J. and {Rajan}, A. and {Goodwin}, S.~P. and {Parker}, R.~J. and {McCarthy},
+	D.~W. and {Kulesa}, C.},
+  title = {{The M-dwarfs in Multiples (MINMS) survey - I. Stellar multiplicity
+	among low-mass stars within 15 pc}},
+  journal = {\mnras},
+  year = {2015},
+  volume = {449},
+  pages = {2618-2637},
+  month = may,
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2015MNRAS.449.2618W},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stv384},
+  eprint = {1503.00724},
+  keywords = {techniques: high angular resolution, binaries: close, binaries: general,
+	binaries: visual, stars: late-type, stars: low-mass},
+  owner = {dorval},
+  primaryclass = {astro-ph.SR},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Weidner2005,
+  author = {{Weidner}, C. and {Kroupa}, P.},
+  title = {{The Variation of Integrated Star Initial Mass Functions among Galaxies}},
+  journal = {\apj},
+  year = {2005},
+  volume = {625},
+  pages = {754-762},
+  month = jun,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2005ApJ...625..754W},
+  doi = {10.1086/429867},
+  eprint = {astro-ph/0502525},
+  keywords = {Galaxies: Abundances, Galaxies: Evolution, Galaxies: General, Galaxies:
+	Star Clusters, Galaxies: Stellar Content, Galaxies: Structure},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Weidner2003,
+  author = {{Weidner}, C. and {Kroupa}, P.},
+  title = {{Varying Galactic-field Stellar IMF through Clustered Star Formation}},
+  journal = {Astronomische Nachrichten Supplement},
+  year = {2003},
+  volume = {324},
+  pages = {58},
+  month = jul,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2003ANS...324...58W},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Weidner2013,
+  author = {{Weidner}, C. and {Kroupa}, P. and {Pflamm-Altenburg}, J.},
+  title = {{The m$_{max}$-M$_{ecl}$ relation, the IMF and IGIMF: probabilistically
+	sampled functions}},
+  journal = {\mnras},
+  year = {2013},
+  volume = {434},
+  pages = {84-101},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2013MNRAS.434...84W},
+  archiveprefix = {arXiv},
+  doi = {10.1093/mnras/stt1002},
+  eprint = {1306.1229},
+  keywords = {stars: formation, stars: luminosity function, mass function, open
+	clusters and associations: general, galaxies: stellar content},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Wisdom1991,
+  author = {{Wisdom}, J. and {Holman}, M.},
+  title = {{Symplectic maps for the n-body problem}},
+  journal = {\aj},
+  year = {1991},
+  volume = {102},
+  pages = {1528-1538},
+  month = oct,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/1991AJ....102.1528W},
+  doi = {10.1086/115978},
+  keywords = {Many Body Problem, Planetary Evolution, Pluto (Planet), Astronomical
+	Maps, Gravitational Effects},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Wunsch2010,
+  author = {{W{\"u}nsch}, R. and {Dale}, J.~E. and {Palou{\v s}}, J. and {Whitworth},
+	A.~P.},
+  title = {{The fragmentation of expanding shells - II. Thickness matters}},
+  journal = {\mnras},
+  year = {2010},
+  volume = {407},
+  pages = {1963-1971},
+  month = sep,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2010MNRAS.407.1963W},
+  archiveprefix = {arXiv},
+  doi = {10.1111/j.1365-2966.2010.17045.x},
+  eprint = {1005.4399},
+  keywords = {hydrodynamics, instabilities, stars: formation, stars: winds, outflows,
+	HII regions, ISM: structure},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+@ARTICLE{Yoshikawa2005,
+  author = {{Yoshikawa}, K. and {Fukushige}, T.},
+  title = {{PPPM and TreePM Methods on GRAPE Systems for Cosmological N-Body
+	Simulations}},
+  journal = {\pasj},
+  year = {2005},
+  volume = {57},
+  pages = {849-860},
+  month = dec,
+  __markedentry = {[dorval:]},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://cdsads.u-strasbg.fr/abs/2005PASJ...57..849Y},
+  doi = {10.1093/pasj/57.6.849},
+  eprint = {astro-ph/0504095},
+  keywords = {cosmology: miscellaneous, mithods: n-body simulations},
+  owner = {dorval},
+  timestamp = {2016.06.25}
+}
+
+
+@ARTICLE{DeAngelis2015,
+   author = {{De Angelis}, A. and {Santo}, C.~E.},
+    title = "{The contribution of Giordano Bruno to the principle of relativity}",
+  journal = {Journal of Astronomical History and Heritage},
+archivePrefix = "arXiv",
+   eprint = {1504.01604},
+ keywords = {Galileo Galilei, Giordano Bruno, principle of relativity, heliocentric system, Nicolaus Copernicus, Doctores Parisienses, Jean Buridan, Nicole Oresme},
+     year = 2015,
+    month = nov,
+   volume = 18,
+    pages = {241-248},
+   adsurl = {http://cdsads.u-strasbg.fr/abs/2015JAHH...18..241D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@BOOK{Newton1687,
+   author = {{Newton}, I.},
+    title = "{Philosophiae Naturalis Principia Mathematica. Auctore Js. Newton}",
+booktitle = {Philosophiae Naturalis Principia Mathematica.~Auctore Js.~Newton, by Newton, Isaac, 1687.},
+     year = 1687,
+      doi = {10.3931/e-rara-440},
+   adsurl = {http://cdsads.u-strasbg.fr/abs/1687pnpm.book.....N},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@book{Kramer1982,
+  title={The Nature and Growth of Modern Mathematics},
+  author={Kramer, E.E.},
+  isbn={9780691023724},
+  lccn={84672402},
+  series={Princeton paperbacks},
+  url={https://books.google.fr/books?id=LLEZQC74gVcC},
+  year={1982},
+  publisher={Princeton University Press}
+}
+
+
+@book{Maury1992,
+  title={Newton: Understanding the Cosmos},
+  author={Maury, J.P.},
+  isbn={9780500300237},
+  lccn={93191860},
+  series={New horizons in history series},
+  url={https://books.google.com.mx/books?id=8N5tQgAACAAJ},
+  year={1992},
+  publisher={Thames and Hudson}
+}
+
+@ARTICLE{Pavese2015,
+   author = {{Pavese}, F.},
+    title = "{The New SI and the CODATA recommended values of the fundamental constants 2014 (arXiv:1507.07956)}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1512.03668},
+ primaryClass = "physics.data-an",
+ keywords = {Physics - Data Analysis, Statistics and Probability, Physics - Atomic Physics, Physics - Classical Physics},
+     year = 2015,
+    month = dec,
+   adsurl = {http://cdsads.u-strasbg.fr/abs/2015arXiv151203668P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@book{Cohen1999,
+ ISBN = {9780520088160},
+ URL = {http://www.jstor.org/stable/10.1525/j.ctt9qh28z},
+ author = {I. Bernard Cohen, Anne Whitman, Julia Budenz, I. Bernard Cohen},
+ edition = {1},
+ publisher = {University of California Press},
+ title = {The Principia: Mathematical Principles of Natural Philosophy},
+ year = {1999}
+}
+
+@book{Barrow1997,
+  title={Poincar{\'e} and the Three Body Problem},
+  author={Barrow-Green, J.},
+  number={vol.~2},
+  isbn={9780821803677},
+  lccn={96011112},
+  series={History of mathematics},
+  url={https://books.google.fr/books?id=j7i\_MrqWzaIC},
+  year={1997},
+  publisher={American Mathematical Society}
+}
+
+
+@ARTICLE{Yoccoz2010,
+   author = {{Yoccoz}, J.~C.},
+    title = "{Une erreur féconde du mathématicien Henri Poincaré}",
+  journal = {La Lettre du Collège de France},
+     year = 2010,
+    month = apr,
+   volume = 28,
+    pages = {38-42},
+}
+
+@ARTICLE{Sundman1912,
+   author = {{Sundman}, K.~F.},
+    title = "{Mémoire sur le problème des trois corps}",
+  journal = {Acta Mathematica},
+     year = 1912,
+   volume = 36,
+    pages = {105-179},
+}
+
+@ARTICLE{Beloriszky1930,
+   author = {{Beloriszky}, D.},
+    title = "{Application pratique des méthodes de M. Sundman à un cas particulier du problème des trois corps}",
+  journal = {Bulletin Astronomique Acta Mathematica},
+     year = 1912,
+   volume = 36,
+    pages = {105-179},
+}
+
+
+@ARTICLE{Beloriszky1930,
+   author = {{Belorizky}, D.},
+    title = "{Application pratique des m{\'e}thodes de M. Sundman {\`a} un cas particulier du probl{\`e}me des trois corps}",
+  journal = {Bulletin Astronomique},
+     year = 1930,
+   volume = 6,
+    pages = {417-434},
+   adsurl = {http://adsabs.harvard.edu/abs/1930BuAst...6..417B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{Stromgren1909,
+   author = {{Str{\"o}mgren}, E.},
+    title = "{Ein numerisch gerechneter Spezialfall des Dreik{\"o}rper problems mit Massen und Distanzen von derselben Gr{\"o}{\ss}enordnung}",
+  journal = {Astronomische Nachrichten},
+     year = 1909,
+    month = sep,
+   volume = 182,
+    pages = {181},
+      doi = {10.1002/asna.19091821202},
+   adsurl = {http://cdsads.u-strasbg.fr/abs/1909AN....182..181S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Jeans1913,
+   author = {{Jeans}, J.~H.},
+    title = "{On the ''kinetic theory'' of star-clusters}",
+  journal = {\mnras},
+     year = 1913,
+    month = dec,
+   volume = 74,
+    pages = {109-112},
+      doi = {10.1093/mnras/74.2.109},
+   adsurl = {http://adsabs.harvard.edu/abs/1913MNRAS..74..109J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@book{Doppler1942,
+   author = {{Doppler}, C.},
+    title = "{Über das farbige Licht der Doppelsterne und einiger anderer Gestirne des Himmels}",
+ publisher = {Verlag der Königl. Böhm.},
+ year = {1842}
+ }
+
+@article{Poincare1906,
+ author={Poincar\'e, Henri},
+title={{La Voie lact\'ee et la th\'eorie des gaz}},
+journal={Bulletin de la soci\'et\'e astronomique de France},
+volume={20},
+year={1906},
+pages={153--165} }
+
+
+@ARTICLE{Jeans1916,
+   author = {{Jeans}, J.~H.},
+    title = "{On the law of distribution in star-clusters}",
+  journal = {\mnras},
+     year = 1916,
+    month = may,
+   volume = 76,
+    pages = {567},
+      doi = {10.1093/mnras/76.7.567},
+   adsurl = {http://cdsads.u-strasbg.fr/abs/1916MNRAS..76..567J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{Eddington1916,
+   author = {{Eddington}, A.~S.},
+    title = "{The distribution of stars in globular clusters}",
+  journal = {\mnras},
+     year = 1916,
+    month = may,
+   volume = 76,
+    pages = {572-585},
+      doi = {10.1093/mnras/76.7.572},
+   adsurl = {http://cdsads.u-strasbg.fr/abs/1916MNRAS..76..572E},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Holmberg1941,
+   author = {{Holmberg}, E.},
+    title = "{On the Clustering Tendencies among the Nebulae. II. a Study of Encounters Between Laboratory Models of Stellar Systems by a New Integration Procedure.}",
+  journal = {\apj},
+     year = 1941,
+    month = nov,
+   volume = 94,
+    pages = {385},
+      doi = {10.1086/144344},
+   adsurl = {http://cdsads.u-strasbg.fr/abs/1941ApJ....94..385H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+
+
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
