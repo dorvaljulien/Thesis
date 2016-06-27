@@ -1,0 +1,35 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapitre 3 - INTRO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{Introduction}
+\markboth{\textbf{Introduction}}{}
+%---------------------------------------------------------------------------------------
+
+Cette partie aborde les diverses problématiques liées à la détection de changements ainsi que les solutions proposées au cours de la thèse. 
+Vu la complexité et l'importance d'un sujet tel que la détection de changements en imagerie médicale, les notions présentées seront spécifiques à l'imagerie du tenseur de diffusion. 
+Pour un état de l'art plus général, il est conseillé de se réferrer à {\color{red}CITATIONS}.
+
+
+Le point de départ, ou plus présicément la problématique centrale, peut se résumer de la sorte :
+la modéle mathématique de la diffusion prend la forme d'un tenseur de diffusion d'ordre 2. Ce tenseur est caractérisé par une matrice symétrique définie positive de dimension 3 (\chaptername\ \ref{Chapter1}) dont les six éléments supérieurs décrivent totalement la diffusion de l'eau en chaque voxel de l'image. 
+Comment prendre en compte toute l'information de diffusion (contenue dans ces six éléments) pour détecter des changements en imagerie de diffusion ?
+
+
+Le premier chapitre introduit la notion principale de cette thèse : la comparaison de groupes. 
+Un contexte et les différentes problématiques sont exposés ainsi qu'une revue ciblée des différentes méthodes déjà existantes dans la litérature.
+Enfin, les pré-traitements, répondant à certaines premières problématiques et retenus pour la chaîne de traitements, sont décrits.
+
+
+Le deuxième chapitre présente la solution développée au cours de cette thèse pour répondre à la problématique centrale. 
+Elle se base sur le Modèle Linéaire Général (MLG) et propose de l'étendre, sous certaines hypothèses, aux tenseurs de diffusion.
+En effet, ce modèle est le plus répandu en comparaison de groupes en ITD. 
+Il est notamment utilisé par le logiciel \og Statistical Parametric Mapping \fg (SPM\footnote{\url{http://www.fil.ion.ucl.ac.uk/spm/}}).
+
+
+Le \chaptername\ \ref{Chapter1} de la première partie aborde également les bases sur la géométrie particulière des tenseurs de diffusion : la géométrie Riemanienne.
+En effet, les métriques Euclidennes ne permettent pas de tenir compte de la positivité des matrices tensorielles.
+Pour pallier à cette limite, différentes approches ont été proposées comme la géométrie Log-Euclidenne \cite{Arsigny2006} ou encore des métriques Riemaniennes.
+Ces points sont traités dans le troisième chapitre de cette partie.
+
+Dans le quatrième chapitre, nous verrons quels post-traitements généraux sont appliqués et comment pousser encore plus loin les études de comparaison de groupes en imagerie du tenseur de diffusion.

@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introduction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \addstarredchapter{\textsc{introduction générale}}
+\markboth{\textsc{Introduction Générale}}{}
+
+%----------------------------------------------------------------------------------------
+
+\section*{Contexte}
+\addcontentsline{toc}{section}{Contexte}
+L'Imagerie par Résonnance Magnétique du Tenseur de Diffusion (IRM-DT) est une modalité d'imagerie qui permet de visualiser \textit{in vivo} la structure des faisceaux de la substance blanche estimée à partir de la diffusion des molécules d'eau dans le cerveau.
+Mathématiquement, la diffusion des molécules d'eau en chaque voxel est définie par un tenseur du second ordre $T$, représenté par une matrice symétrique définie positive de dimensions trois, $T \subset \mbox{Sym}^+(3)$. Visuellement, elle est modélisée par une ellipsoïde dont l'axe principal correspond à la direction principale de la diffusion en ce voxel.
+
+Cette modalité d'imagerie a largement été utilisée pour étudier l'intégrité de la substance blanche dans le cas de pathologies neurodégénératives. Par exemple, en comparant deux images consécutives dans le temps d'un même patient pour examiner l'évolution de la pthologie ou encore, en comparant deux groupes de sujets, sains et atteints, selon les données d'imagerie, des scores cognitifs ou des données cliniques.
+La comparaison de groupes permet de mettre en évidence statistiquement les régions du cerveau atteintes par la maladie. Cet type d'étude permet d'aider au diagnostique, au pronostique et à la compréhension des mécanismes des pathologies dégénératives du système nerveux central.
+
+
+
+\section*{Problématiques}
+\addcontentsline{toc}{section}{Problématiques}
+Les approches usuelles pour réaliser une comparaison de groupes ne tiennent pas compte de la forme complète du tenseur de diffusion ni de sa géométrie particulière de matrice définie positive.
+
+
+% The usual apporachs to perform group comparison for Diffusion Tensor Images (DTI) are based on regions of interest analysis \cite{Snook2007}, tract analysis \cite{Smith2006, Zhu2011} and voxel analysis \cite{Cercignani2010}. 
+% In this paper, we will steer our investigation on frameworks which use voxel-based analysis. 
+% The major interest of the voxel-based analysis is that it does not make any assumption on the spatial location of the expected changes.
+% 
+% Most of the published voxel-based studies rely on the comparison of scalar images derived from DT-MRI such as Fractional Anisotropy (FA) or Mean Diffusivity (MD) using the voxel-based analysis framework \cite{Friston2006} provided in SPM\footnote{\url{http://www.fil.ion.ucl.ac.uk/spm/}}. 
+% This regression model is based on the general linear model and allows to perform standard statistical tests such as the T-test and the F-test on the regressors.
+% 
+% The scalar indices represent only a specific information concerning the diffusion. 
+% In comparison with the tensor of diffusion which contains the whole diffusion information, there is a deterioration of information using scalar indices in DTI group comparisons. 
+% Thus, scalar-based detection methods cannot highlight all kind of diffusion changes.
+% 
+% To make up this gap, multivariate statistical analysis have been proposed to compare several scalar indices simultaneously based on the SPM model \cite{Chapell2008} or to compare eigenvalues or eigenvectors of diffusion tensors \cite{Schwartzman2010}. 
+% But these methods cannot include clinical data in the statistical analysis which makes impossible to highlight the correlation between neuroimaging data and clinical data as for example to investigate the effect of drug therapy \cite{Chen2009} or the effect of age in the brain development.
+% 
+% Models using the whole tensor are also proposed \cite{Zhu2009, Schwartzman2010, Yuan2012, Bouchon2014, Kim2014} but they have to deal with the inability of an Euclidean framework to take into account of the definite-positiveness of a diffusion tensor. 
+% Two manifolds with associated metrics and accounting for the positive-definite nature of diffusion tensors have been proposed: the Log-Euclidean \cite{Arsigny2006} and the Riemanian manifolds \cite{Pennec1999}. 
+% A few works have already evaluated the impact of these metrics for various image processing problems \cite{Arsigny2006, Pasternak2010}, but there is still no consensus on the most appropriate manifold for handling diffusion tensors, especially in the context of group comparison.
+
+\section*{Contributions}
+\addcontentsline{toc}{section}{Contributions}
+
+\section*{Organisation du manuscrit}
+\addcontentsline{toc}{section}{Organisation du manuscrit}
+Le manuscrit s'organise autour de trois grandes parties :
+
+\begin{itemize}
+    \item \textsc{ \textbf{Contexte physique et médical}} : la première partie s'appliquera à mettre en place le contexte aussi bien physique que médical. Elle servira à définir les bases afin que tous types de lecteurs, spécialistes du domaine ou novices, puissent comprendre les enjeux et les aboutissements de ce travail de thèse.
+    \item \textsc{ \textbf{Méthodes de comparaison de deux populations de tenseurs de diffusion}} :
+    \item \textsc{ \textbf{Simulations et validations}} :
+\end{itemize}
+
+
+
+% To the best of the author's knowledge, three principal and relatively new methods \cite{Zhu2009, Yuan2012, Kim2014} emerge from the literature to carry out multivariate statistical analysis, taking into account clinical data, on a Riemannian manifolds. 
+% The work of Zhu \textit{et al.} \cite{Zhu2009} proposed a versatile Riemanian framework accounting for the positive definiteness of diffusion tensor.
+% This method consists on estimating the geodesic distance between the data and the predicted data with a semi-parametric model based on a generalized linear model.
+% To this end, they successed to define the residuals with projection and translation of each data matrix on the same specific tangent space $T_{I_m}Sym^{+}(m)$ at the identity $I_m$ matrix ($m=3$).
+% Unfortunately, the regression step suffers from being computationally intensive.
+% Yuan \textit{et al.} proposed later \cite{Yuan2012} a polynomial regression adapted for positive definite matrices. 
+% The major interests of this paper are the non-parametric estimation of the regressors and the complete investigation about the use of different metrics. 
+% The lastest published, Kim \textit{et al.} \cite{Kim2014} presented a multivariate geodesic regression based on the univariate of Fletcher \cite{Fletcher2013}. This framework is described in the subsection ``Data analysis: Riemanian framework''.
+% The estimation of regressors on Riemannian space is solved with a gradients' descent. 
+% Moreover, the code source\footnote{\url{https://www.nitrc.org/projects/riem\_mglm}} is available online for free.
+% 
+% In this context, a question arises to seek for the relevant choices to do about statistical analysis for group comparisons on diffusion tensor imaging.
+% 
+% In this paper, we present several points: we first investigated the relevance of the whole tensor information compared to scalar indices only. To this end, we validated our method via a simulation framework based on DT-MRI acquisitions of healthy subjects in which different kinds of lesions have been introduced. 
+% Second, as it is well explained in the literature \cite{Klein2009, Schwarz2014}, the registration step may have an influence on results of a voxel-based analysis. 
+% Third, we propose to compare the influence of considering either an Euclidean, a Log-Euclidean or a Riemanian metric in the regression problem. It will allow to review the pertinence of regression on Riemannian manifold compared to Euclidean manifold.
+% Fourth, we also presented results and analysis of a cohort of patients suffering from neuromyelitis optica (NMO).
+% 
+% The content of this paper is organized as follows:
+% the section ``Proposed frameworks for group comparison on DTI'' describes each parts of the different frameworks such as pre-processing, data analysis and post-processing. 
+% In the section ``Materials'', the different cohorts and the evaluation method are presented. Various results are showed and discussed in the last section ``Results and discussion''.
+% The paper will finish by a conclusion of our study.

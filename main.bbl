@@ -1,0 +1,264 @@
+\begin{thebibliography}{10}
+
+\bibitem{Basser1994}
+P.~Basser, J.~Mattiello, and D.~LeBihan, ``Mr diffusion tensor spectroscopy and
+  imaging,'' {\em Biophysical Journal}, vol.~66, no.~1, pp.~259--267, 1994.
+
+\bibitem{Barmpoutis2009}
+A.~Barmpoutis, B.~Vemuri, D.~Howland, and J.~Forder, ``Regularized
+  positive-definite fourth order tensor field estimation from dw-mri,'' {\em
+  NeuroImage}, vol.~45, no.~1 Suppl, pp.~S153--S162, 2009.
+
+\bibitem{Stejskal1965}
+E.~Stejskal and J.~Tanner, ``{Spin Diffusion Measurements: Spin Echoes in the
+  Presence of a Time-Dependent Field Gradient},'' {\em The Journal of Chemical
+  Physics}, vol.~42, pp.~288--292, 1965.
+
+\bibitem{Descoteaux2007}
+M.~Descoteaux, E.~Angelino, S.~Fitzgibbons, and R.~Deriche, ``Regularized,
+  fast, and robust analytical q-ball imaging,'' {\em Magnetic Resonance in
+  Medicine}, vol.~58, no.~3, pp.~497--510, 2007.
+
+\bibitem{Boisgontier_PhD}
+H.~Boisgontier, {\em Détection automatique de changements en IRM de diffusion
+  : application à la sclérose en plaques.}
+\newblock PhD thesis, Université de Strasbourg, Juillet 2010.
+
+\bibitem{Grigis_PhD}
+A.~Grigis, {\em Approches statistiques pour la détection de changements en IRM
+  de diffusion. Application au suivi longitudinal de pathologies
+  neuro-dégénératives.}
+\newblock PhD thesis, Université de Strasbourg, 2012.
+
+\bibitem{Barmpoutis2010}
+A.~Barmpoutis and B.~Vemuri, ``A unified framework for estimation diffusion
+  tensors of any order with symmetric positive-definite constraints,'' in {\em
+  Proceedings of International Symposium on Biomedical Imaging: From nano to
+  macro}, pp.~1385--1388, 2010.
+
+\bibitem{Pennec2006}
+X.~Pennec, P.~Fillard, and N.~Ayache, ``A riemannian framework for tensor
+  computing,'' {\em International Journal of Computer Vision}, vol.~66, no.~1,
+  pp.~41--66, 2006.
+
+\bibitem{Fletcher2007}
+T.~Fletcher and S.~Joshi, ``Riemannian geometry for the statistical analysis,''
+  {\em Signal Processing}, vol.~87, pp.~250--262, June 2007.
+
+\bibitem{Arsigny2006}
+V.~Arsigny, P.~Fillard, X.~Pennec, and N.~Ayache, ``Log-euclidean metrics for
+  fast and simple calculus on diffusion tensors,'' in {\em Magnetic Resonance
+  in Medicine}, 2006.
+
+\bibitem{Grigis2012}
+A.~Grigis, V.~Noblet, F.~Heitz, F.~Blanc, J.~De~Sèze, S.~Kremer, L.~Rumbach,
+  and J.-P. Armspach, ``{Longitudinal change detection in diffusion MRI using
+  multivariate statistial testing on tensors},'' {\em NeuroImage}, vol.~60,
+  pp.~2206--2221, 2012.
+
+\bibitem{Pennec1999}
+X.~Pennec, ``Probabilities and statistics on riemannian manifolds: Basic tools
+  for geometric measurements,'' in {\em {Proc. of Nonlinear Signal and Image
+  Processing (NSIP'99)}}, (June 20-23, Antalya, Turkey), pp.~194--198, 1999.
+
+\bibitem{Pennec2004}
+X.~Pennec, ``Probabilities and statistics on riemannian manifolds: A geometric
+  approach,'' Tech. Rep. RR-5093, Jan 2004.
+
+\bibitem{Arsigny2005}
+V.~Arsigny, P.~Fillard, X.~Pennec, and N.~Ayache, ``Fast and simple
+  computations on tensors with log-{Euclidean} metrics,'' Tech. Rep. RR-5584,
+  INRIA, May 2005.
+
+\bibitem{Pasternak2010}
+O.~Pasternak, N.~Sochen, and P.~J. Basser, ``{The effect of metric selection on
+  the analysis of diffusion tensor MRI data},'' {\em NeuroImage}, vol.~49,
+  pp.~2190--2204, Feb 2010.
+
+\bibitem{Noblet_PhD}
+V.~Noblet, {\em Recalage non rigide d'images c\'er\'ebrales 3D avec contrainte
+  de conservation de la topologie}.
+\newblock PhD thesis, Universit\'e Louis Pasteur - Strasbourg I, Mar 2006.
+
+\bibitem{Klein2009}
+A.~Klein, J.~Andersson, B.~A. Ardekani, J.~Ashburner, B.~Avants, M.-C. Chiang,
+  G.~E. Christensen, D.~L. Collins, J.~Gee, P.~Hellier, J.~H. Song,
+  M.~Jenkinson, C.~Lepage, D.~Rueckert, P.~Thompson, T.~Vercauteren, R.~P.
+  Woods, J.~J. Mann, and R.~V. Parsey, ``Evaluation of 14 nonlinear deformation
+  algorithms applied to human brain mri registration,'' {\em NeuroImage},
+  vol.~46, pp.~786--802, 2009.
+
+\bibitem{Sotiras2013}
+A.~Sotiras, C.~Davatzikos, and N.~Paragios, ``Deformable medical image
+  registration: A survey,'' {\em IEEE Transactions on Medical Imaging},
+  vol.~32, no.~7, pp.~1153--1190, 2013.
+
+\bibitem{Oliviera2014}
+F.~Oliviera and J.~Tavares, ``Medical image registration: a review,'' {\em
+  Computer Methods in Biomechanics and Biomedical Engineering}, vol.~17, no.~2,
+  pp.~73--93, 2014.
+
+\bibitem{Zhang2007}
+H.~Zhang, A.~B.B., P.~Yushkevich, J.~Woo, S.~Wang, L.~McCluskey, L.~Elman,
+  E.~Melhem, and J.~Gee, ``{High-dimensional spatial normalization of Diffusion
+  Tensor Imaging improves the detection of white matter differences: An example
+  study using Amyotrophic Lateral Sclerosis},'' {\em IEEE Transactions on
+  Medical Imaging}, vol.~26, no.~11, pp.~1585--1597, 2007.
+
+\bibitem{Wang2011}
+Y.~Wang, A.~Gupta, Z.~Liu, H.~Zhang, M.~L. Escolar, J.~H. Gilmore, S.~Gouttard,
+  P.~Fillard, E.~Maltbie, G.~Gerig, and M.~Styner, ``Dti registration in atlas
+  based fiber analysis of infantile krabbe disease,'' {\em NeuroImage},
+  vol.~55, no.~4, pp.~1577--1586, 2011.
+
+\bibitem{Schwarz2014}
+C.~G. Schwarz, R.~I. Reid, J.~L. Gunter, M.~L. Senjem, S.~a. Przybelski, S.~M.
+  Zuk, J.~L. Whitwell, P.~Vemuri, K.~a. Josephs, K.~Kantarci, P.~M. Thompson,
+  R.~C. Petersen, and C.~R. Jack, ``Improved dti registration allows
+  voxel-based analysis that outperforms tract-based spatial statistics,'' {\em
+  NeuroImage}, vol.~94, pp.~65--78, 2014.
+
+\bibitem{Zhu2009}
+H.~Zhu, Y.~Chen, J.~Ibrahim, Y.~Li, C.~Hall, and W.~Lin, ``{Intrinsic
+  regression models for positive-definite matrices with applications to
+  Diffusion Tensor Imaging},'' {\em Journal of the American Statistical
+  Association}, vol.~104, no.~487, pp.~1203--1212, 2009.
+
+\bibitem{Schwartzman2010}
+A.~Schwartzman, R.~Dougherty, and J.~Taylor, ``{Group comparison of eigenvalues
+  and eigenvectors of diffusion tensors},'' {\em Journal of the American
+  Statistical Association}, vol.~105, no.~490, pp.~588--599, 2010.
+
+\bibitem{Yuan2012}
+Y.~Yuan, H.~Zhu, W.~Lin, and J.~Marron, ``{Local polynomial regression for
+  symmetric positive definite matrices},'' {\em Journal of the Royal
+  Statistical Society}, vol.~74, no.~4, pp.~697--719, 2012.
+
+\bibitem{Bouchon2014}
+A.~Bouchon, V.~Noblet, F.~Heitz, J.~Lamy, F.~Blanc, and J.-P. Armspach,
+  ``{General linear models for group studies in diffusion tensor imaging},'' in
+  {\em Proceedings of International Symposium on Biomedical Imaging: From nano
+  to macro}, (Beijing, China), 2014.
+
+\bibitem{Kim2014}
+H.~Kim, B.~Bendlin, N.~Adluru, M.~Collins, M.~Chung, S.~Johnson, R.~Davidson,
+  and V.~Singh, ``{Multivariate General Linear Models (MGLM) on Riemannian
+  Manifolds with Applications to Statistical Analysis of Diffusion Weighted
+  Images},'' in {\em {Computer Vision and Pattern Recognition (CVPR), 2014 IEEE
+  Conference on}}, pp.~2705--2712, June 2014.
+
+\bibitem{Jones2010}
+D.~Jones and M.~Cercignani, ``{Twenty-five pitfalls in the analysis of
+  diffusion MRI data},'' {\em NMR in Biomedicine}, vol.~23, no.~7,
+  pp.~803--820, 2010.
+
+\bibitem{Zhu2007}
+H.~Zhu, H.~Zhang, J.~G. Ibrahim, and B.~S. Peterson, ``Statistical analysis of
+  diffusion tensors in diffusion-weighted magnetic resonance imaging data,''
+  {\em Journal of the American Statistical Association}, vol.~102, no.~480,
+  pp.~1085--1102, 2007.
+
+\bibitem{Noblet2006}
+V.~Noblet, C.~Heinrich, F.~Heitz, and J.-P. Armspach, ``{Retrospective
+  evaluation of a topology preserving non-rigid registration method},'' {\em
+  Medical Image Analysis}, vol.~10, no.~3, pp.~366--384, 2006.
+
+\bibitem{Alexander2001}
+D.~Alexander, C.~Pierpaoli, P.~Basser, and J.~Gee, ``{Spatial transformations
+  of diffusion tensor magnetic resonance images},'' {\em IEEE Transactions on
+  Medical Imaging}, vol.~20, no.~11, pp.~1131--1139, 2001.
+
+\bibitem{Zhang2006}
+H.~Zhang, P.~Yushkevich, D.~Alexander, and J.~Gee, ``{Deformable registration
+  of Diffusion Tensor MR images with explicit orientation optimization},'' {\em
+  Medical Image Analysis}, vol.~10, no.~5, pp.~764--785, 2006.
+
+\bibitem{Keihaninejad2013}
+S.~Keihaninejad, H.~Zhang, N.~Ryan, I.~Malone, M.~Modat, M.~Cardoso, D.~Cash,
+  N.~Fox, and S.~Ourselin, ``{An unbiased longitudinal analysis framework for
+  tracking white matter changes using Diffusion Tensor Imaging with application
+  to Alzheimer's disease},'' {\em NeuroImage}, vol.~72, pp.~153--163, 2013.
+
+\bibitem{Tustison2014}
+N.~J. Tustison, B.~B. Avants, P.~A. Cook, J.~Kim, J.~Whyte, J.~C. Gee, and
+  J.~R. Stone, ``Logical circularity in voxel-based analysis: Normalization
+  strategy may induce statistcal bias,'' {\em Human brain mapping}, vol.~35,
+  no.~3, pp.~745--59, 2014.
+
+\bibitem{Chung2008}
+S.~Chung, D.~Pelletier, M.~Sdika, Y.~Lu, J.~I. Berman, and R.~G. Henry, ``Whole
+  brain voxel-wise analysis of single-subject serial dti by permutation
+  testing,'' {\em NeuroImage}, vol.~39, no.~4, pp.~1693--1705, 2008.
+
+\bibitem{Whitlock2005}
+M.~C. Whitlock, ``{Combining probability from independent tests: the weighted
+  Z-method is superior to Fisher’s approach},'' {\em Journal of Evolutionary
+  Biology}, vol.~18, pp.~1368--1373, 2005.
+
+\bibitem{Yap2009}
+P.-T. Yap, G.~Wu, H.~Zhu, W.~Lin, and D.~Shen, ``{TIMER: Tensor Image Morphing
+  for Elastic Registration},'' {\em NeuroImage}, vol.~47, pp.~549--563, 2009.
+
+\bibitem{Abdi2007}
+H.~Abdi, {\em Bonferroni and Sidak corrections for multiple comparisons},
+  pp.~103--107.
+\newblock Sage, 2007.
+
+\bibitem{Benjamini1995}
+Y.~Benjamini and Y.~Hochberg, ``Controlling the false discovery rate: A
+  practical and powerful approach to multiple testing,'' {\em Journal of the
+  Royal Statistical Society. Series B (Methodological)}, vol.~57, no.~1,
+  pp.~289--300, 1995.
+
+\bibitem{Benjamini2001}
+Y.~Benjamini and D.~Yekutieli, ``The control of the false discovery rate in
+  multiple testing under dependency,'' {\em Annals of Statistics}, vol.~29,
+  no.~4, pp.~1165--1188, 2001.
+
+\bibitem{Harsan2006}
+L.~A. Harsan, P.~Poulet, B.~Guignard, J.~Steibel, N.~Parizel, P.~de~Sousa,
+  N.~Boehm, D.~Grucker, and M.~S. Ghandour, ``{Brain dysmyelination and
+  recovery assessment by noninvasive in vivo diffusion tensor magnetic
+  resonance imaging},'' {\em Journal of Neuroscience Research}, vol.~83, no.~3,
+  pp.~392--402, 2006.
+
+\bibitem{Boisgontier2012}
+H.~Boisgontier, V.~Noblet, F.~Heitz, L.~Rumbach, and J.-P. Armspach,
+  ``{Generalized likelihood ratio tests for change detection in diffusion
+  tensor images: application to multiple sclerosis},'' {\em Medical Image
+  Analysis}, vol.~16, no.~1, pp.~325--338, 2012.
+
+\bibitem{Fawcett2006}
+T.~Fawcett, ``{An introduction to ROC analysis},'' {\em Pattern Recognition
+  Letters}, vol.~27, no.~8, pp.~861--874, 2006.
+
+\bibitem{Yu2008}
+C.~Yu, F.~Lin, K.~Li, T.~Jiang, W.~Qin, H.~Sun, and P.~Chan, ``{Pathologenesis
+  of normal-appearing white matter damage in neuromyelitis optica:
+  Diffusion-Tensor MR Imaging},'' {\em Radiology}, vol.~246, no.~1,
+  pp.~222--228, 2008.
+
+\bibitem{Heitz2014}
+C.~Heitz, V.~Noblet, B.~Cretin, and al, ``{Neural correlates of visual
+  hallucinations in dementia in Lewy bodies},'' {\em Alzheimer's research and
+  therapy}, in press 2014.
+
+\bibitem{McKeith2005}
+I.~McKeith, D.~Dickson, J.~Lowe, and al, ``{Diagnosis and management of
+  dementia with Lewy bodies: third report of the DLB Consortium},'' {\em
+  Neurology}, vol.~65, no.~12, pp.~1863--1872, 2005.
+
+\bibitem{Dubois2007}
+B.~Dubois, H.~H. Feldman, C.~Jacova, S.~T. DeKosky, P.~Barberger-Gateau,
+  J.~Cummings, A.~Delacourte, D.~Galasko, S.~Gauthier, G.~Jicha, K.~Meguro,
+  J.~O'Brien, F.~Pasquier, P.~Robert, M.~Rossor, S.~Salloway, Y.~Stern, P.~J.
+  Visser, and P.~Scheltens, ``Research criteria for the diagnosis of
+  alzheimer's disease: revising the nincds–adrda criteria,'' {\em The Lancet
+  Neurology}, vol.~6, no.~8, pp.~734 -- 746, 2007.
+
+\bibitem{Whitcher2007}
+B.~Whitcher, J.~J. Wisco, N.~Hadjikhani, and D.~S. Tuch, ``Statistical group
+  comparison of diffusion tensors via multivariate hypothesis testing,'' {\em
+  Magnetic resonance in medicine}, vol.~57, pp.~1065--1074, jun 2007.
+
+\end{thebibliography}

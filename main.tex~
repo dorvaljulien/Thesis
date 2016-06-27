@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,twoside,openright]{book}
+
+\input{Preambule/preambule}
+\overfullrule=3cm
+% Infos de la page de garde
+\auteur{Alix}{Bouchon}
+\titre{Détection statistique de changements en imagerie IRM de diffusion. Application au suivi de cohortes de patients.}
+\specialite{Traitement du Signal et des Images}
+\directeur{Fabrice}{Heitz}
+\encadrant{Vincent}{Noblet}
+\ecole{Université de Strasbourg}
+
+\hypersetup{
+  pdfauthor={Alix BOUCHON},
+  pdftitle={Détection statistique de changements en imagerie IRM de diffusion. Application au suivi de cohortes de patients.},
+  pdfsubject={Traitement du Signal et des Images}
+}
+
+\begin{document}
+    % FRONT MATTER
+    \frontmatter
+    
+    \pagestyle{empty}
+    \input{Page-de-garde/page-de-garde}
+    
+%     \dominitoc
+    
+    \pagestyle{front}
+%     \setcounter{tocdepth}{2}
+    \tableofcontents
+    
+    % MAIN MATTER
+    \mainmatter
+    
+    \pagestyle{introduction}
+    % introduction
+    \introchapitre{Introduction générale}
+    \label{Intro}
+    \input{Introduction/introduction}
+    
+    \pagestyle{main}
+      % partie 1
+    \part{Contexte physique et médical}
+    \label{Part1}
+    \input{Chapitres/chapitre_1}
+    \input{Chapitres/chapitre_2}
+    
+      % partie 2
+    \part{Méthodes de comparaison de deux populations de tenseurs de diffusion}
+    \label{Part2}
+    \input{Introduction/part_2_intro}
+    \input{Chapitres/chapitre_3}
+    \input{Chapitres/chapitre_4}
+    \input{Chapitres/chapitre_5}
+    \input{Chapitres/chapitre_6}
+    
+      % partie 3
+    \part{Simulations et validations}
+    \label{Part3}
+    \input{Chapitres/chapitre_7}
+    \input{Chapitres/chapitre_8}
+    \input{Chapitres/chapitre_9}
+    \input{Chapitres/chapitre_10}
+    \input{Chapitres/chapitre_11}
+    
+    \part{Conclusion}
+    \label{Conclu}
+    
+    
+    \pagestyle{introduction}
+      % bibliographie
+    \biblio{Bibliographie}
+    \label{Biblio}
+    \bibliographystyle{ieeetr}
+    \bibliography{Bibliographie/bibliographie}
+%     \addstarredchapter{\textsc{Bibliographie}}
+    \markboth{\textsc{Bibliographie}}{}
+    
+    \backmatter
+    \listoffigures
+%     \addstarredchapter{Liste des figures}
+    \listoftables
+%     \addstarredchapter{Liste des tableaux}
+%     
+%     \appendix
+
+
+\end{document}

@@ -1,0 +1,19 @@
+\select@language {french}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces R\IeC {\'e}capitulatif des propri\IeC {\'e}t\IeC {\'e}s de la diffusion de mol\IeC {\'e}cules d'eau dans le liquide c\IeC {\'e}phalorachidien, la substance grise et la substance blanche.}}{19}{table.2.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Choix possibles lors de la d\IeC {\'e}cision : probabilit\IeC {\'e} d'accepter ou de rejeter l'hypoth\IeC {\`e}se $\mathcal {H}_{0}$ exprim\IeC {\'e}e par l'erreur de premi\IeC {\`e}re esp\IeC {\`e}ce $\alpha $ et de deuxi\IeC {\`e}me esp\IeC {\`e}ce $\beta $. Les probabilit\IeC {\'e}s sont associ\IeC {\'e}es aux types de d\IeC {\'e}tections {$VNeg$, $VPos$, $FPos$, $FNeg$} correspondant respectivement aux nombres de Vrais N\IeC {\'e}gatifs, Vrais Positifs, Faux Postitifs et Faux N\IeC {\'e}gatifs.}}{40}{table.4.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Exemple de liste pr\IeC {\'e}sentant les r\IeC {\'e}sultats de la caract\IeC {\'e}risation.}}{52}{table.6.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Equations pour simuler les 4 types de l\IeC {\'e}sions (\cite {Boisgontier2012} pour les d\IeC {\'e}tails). $\lambda _{i}$ corresponds \IeC {\`a} la $i^{\text {\IeC {\`e}me}}$ valeur propre du tenseur de diffusion tri\IeC {\'e}e par ordre d\IeC {\'e}croissant ($\lambda _{1}$ repr\IeC {\'e}sente la valeur propre associ\IeC {\'e}e \IeC {\`a} la direction principale)}}{58}{table.7.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces R\IeC {\'e}sultats de la m\IeC {\'e}thode de caract\IeC {\'e}risation pour la m\IeC {\'e}thode \textit {GLM-DT} (seuil statistique $p_{FDR}=0.05$ et seuil $N_c=10$). (L\IeC {\'e}gende: $+=$ augmentation significative, $-=$ diminution significative, $n.s.=$ non significatif)}}{65}{table.8.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Temps d'ex\IeC {\'e}cution en $s$ pour les analyses statistiques de la base NMO.}}{68}{table.9.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {11.1}{\ignorespaces R\IeC {\'e}sultats ($p_\text {corrig\IeC {\'e}es}<0.05$) de la caract\IeC {\'e}risation pour la m\IeC {\'e}thode \textit {GLM-DT} (seuil statistique $p_{FDR}=0.05$ et seuil $N_c=10$). (L\IeC {\'e}gende: $+=$ augmentation significative, $-=$ diminution significative, $n.s.=$ non significatif, d. $=$ droite, l. $=$ gauche, inf. $=$ inf\IeC {\'e}rieur, sup. $=$ sup\IeC {\'e}rieur, long. $=$ longitudinale)}}{72}{table.11.1}

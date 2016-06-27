@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: main.aux
+The style file: ieeetr.bst
+Database file #1: Bibliographie/bibliographie.bib
+Warning--empty institution in Pennec2004
+Warning--can't use both author and editor fields in Abdi2007
+You've used 48 entries,
+            1876 wiz_defined-function locations,
+            808 strings with 13957 characters,
+and the built_in function-call counts, 16453 in all, are:
+= -- 1578
+> -- 784
+< -- 2
++ -- 280
+- -- 232
+* -- 1283
+:= -- 2337
+add.period$ -- 52
+call.type$ -- 48
+change.case$ -- 44
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 788
+empty$ -- 1385
+format.name$ -- 232
+if$ -- 4000
+int.to.chr$ -- 0
+int.to.str$ -- 48
+missing$ -- 44
+newline$ -- 151
+num.names$ -- 48
+pop$ -- 98
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 627
+stack$ -- 0
+substring$ -- 1257
+swap$ -- 397
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 135
+width$ -- 50
+write$ -- 498
+(There were 2 warnings)
