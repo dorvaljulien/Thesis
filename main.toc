@@ -9,7 +9,11 @@
 \contentsline {subsection}{\numberline {0.1.7}The numerical age}{5}{subsection.0.1.7}
 \contentsline {section}{\numberline {0.2}NBODY6}{7}{section.0.2}
 \contentsline {subsection}{\numberline {0.2.1}Block time-step}{7}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {0.2.2}KS-regularization}{7}{subsection.0.2.2}
-\contentsline {subsection}{\numberline {0.2.3}Hermite prediction scheme}{7}{subsection.0.2.3}
-\contentsline {subsection}{\numberline {0.2.4}Ahmad-Cohen neighbour scheme}{7}{subsection.0.2.4}
-\contentsline {part}{I\hspace {1em}Conclusion}{9}{part.1}
+\contentsline {subsection}{\numberline {0.2.2}KS-regularization}{8}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {0.2.3}Hermite prediction scheme}{8}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {0.2.4}Ahmad-Cohen neighbour scheme}{8}{subsection.0.2.4}
+\contentsline {section}{\numberline {0.3}Young star clusters}{9}{section.0.3}
+\contentsline {chapter}{\numberline {1}The Hubble-Lema\^itre fragmented model}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}How to build a Hubble-Lema\^itre model}{11}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Initial state}{11}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Fragmentation}{12}{subsection.1.1.2}

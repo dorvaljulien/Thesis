@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  27 JUN 2016 17:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  28 JUN 2016 17:27
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -923,28 +923,37 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 114.
 
-<Figures/0_N_increase.png, id=188, 1314.9125pt x 867.24pt>
+<Figures/0_N_increase.png, id=208, 1314.9125pt x 867.24pt>
 File: Figures/0_N_increase.png Graphic file (type png)
 
 <use Figures/0_N_increase.png> [5] [6 <./Figures/0_N_increase.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 173.
+<Figures/0_block_timesteps.png, id=286, 925.4575pt x 554.07pt>
+File: Figures/0_block_timesteps.png Graphic file (type png)
 
+<use Figures/0_block_timesteps.png> [7 <./Figures/0_block_timesteps.png (PNG co
+py)>] [8]) (./Chapters/chapter_HLmodel.tex [9] [10
 
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+]
+Chapter 1.
+[11]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
-) [7] [8
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
+ [12]
+<Figures/1_apextime.png, id=348, 578.16pt x 433.62pt>
+File: Figures/1_apextime.png Graphic file (type png)
 
-]
+<use Figures/1_apextime.png>) [13] [14 <./Figures/1_apextime.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 68.
+(Font)              using `OT1/cmr/bx/n' instead on input line 74.
 
-[9] [10] (./main.bbl [11
+(./main.bbl [15
 
-] [12
+] [16
 
 ]
 Missing character: There is no Ã in font cmr10!
@@ -953,51 +962,53 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
- [13]
+ [17]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¨ in font cmr10!
-) [14] (./main.lof)
+) [18] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [15
+ [19
 
 
-] [16
+] [20
 
 ] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
-
-[17] (./main.aux)
+ [21]
+(./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20113 strings out of 493848
- 322462 string characters out of 1152824
- 439944 words of memory out of 3000000
- 22853 multiletter control sequences out of 15000+50000
+ 20188 strings out of 493848
+ 323755 string characters out of 1152824
+ 446404 words of memory out of 3000000
+ 22883 multiletter control sequences out of 15000+50000
  12626 words of font info for 47 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 58i,12n,55p,1049b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,14n,55p,1049b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (21 pages, 322720 bytes).
+cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (25 pages, 431269 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

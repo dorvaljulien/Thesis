@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -7,6 +7,10 @@
 
 \bibitem[{{Aarseth}(2003)}]{Aarseth2003}
 {Aarseth} S.~J., 2003, {Gravitational N-Body Simulations}. p. 430
+
+\bibitem[{{Aarseth}, {H\'enon} \& {Wielen}(1974){Aarseth}, {H\'enon}, \&
+  {Wielen}}]{Aarseth1974}
+{Aarseth} S.~J., {H\'enon} M., {Wielen} R., 1974, \aap, 37, 183
 
 \bibitem[{{Aarseth} \& {Hoyle}(1964)}]{Aarseth1964}
 {Aarseth} S.~J., {Hoyle} F., 1964, Astrophysica Norvegica, 9, 313
@@ -62,11 +66,21 @@ Clagett M., 1959, The science of mechanics in the Middle Ages, University of
 {Elsen} E., {Houston} M., {Vishal} V., {Darve} E., {Hanrahan} P., V. P., 2006,
   "n-body simulation on gpus."
 
+\bibitem[{Freeman {et~al}\mbox{.}(2015)Freeman, Block, Elmegreen, \&
+  Woolway}]{Freeman2015}
+Freeman K.~C., Block D., Elmegreen B.~G., Woolway M., 2015, Lessons from the
+  local group : a conference in honour of David Block and Bruce Elmegreen.
+  Springer
+
 \bibitem[{Galileo(1610)}]{galileo1610}
 Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 
 \bibitem[{{Holmberg}(1941)}]{Holmberg1941}
 {Holmberg} E., 1941, \apj, 94, 385
+
+\bibitem[{{Hubble}(1929)}]{Hubble1929}
+{Hubble} E., 1929, Contributions from the Mount Wilson Observatory, vol.~3,
+  pp.23-28, 3, 23
 
 \bibitem[{{Ito} {et~al}\mbox{.}(1991){Ito}, {Ebisuzaki}, {Makino}, \&
   {Sugimoto}}]{Ito1991}
@@ -75,9 +89,16 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Jeans}(1916)}]{Jeans1916}
 {Jeans} J.~H., 1916, \mnras, 76, 567
 
+\bibitem[{{Kragh} \& {Smith}(2003)}]{Kragh2003}
+{Kragh} H., {Smith} R.~W., 2003, History of Science, 41, 141
+
 \bibitem[{Kramer(1982)}]{Kramer1982}
 Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
   paperbacks. Princeton University Press
+
+\bibitem[{{Lema{\^i}tre}(1927)}]{Lemaitre1927}
+{Lema{\^i}tre} G., 1927, Annales de la Soci{\'e}t{\'e} Scientifique de
+  Bruxelles, 47, 49
 
 \bibitem[{Maury(1992)}]{Maury1992}
 Maury J., 1992, Newton: Understanding the Cosmos, New horizons in history
@@ -123,6 +144,9 @@ Poincar\'e H., 1906, Bulletin de la soci\'et\'e astronomique de France, 20, 153
 
 \bibitem[{{van Albada}(1968{\natexlab{b}})}]{VanAlbada1968a}
 {van Albada} T.~S., 1968{\natexlab{b}}, \bain, 20, 40
+
+\bibitem[{{van den Bergh}(2011)}]{VanDenBergh2011}
+{van den Bergh} S., 2011, \jrasc, 105, 197
 
 \bibitem[{{von Hoerner}(1960)}]{VonHoerner1960}
 {von Hoerner} S., 1960, \zap, 50, 184

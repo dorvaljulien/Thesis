@@ -162,7 +162,14 @@ In the first Nbody simulations, the system was integrated with an universal time
  
 With $\bold{F}^{(j)}_i$ begin the j-th derivative of the force applied to particle i and $\eta$ a user-defined accuracy parameter. Such a complex formulation is the result of extensive tests and is quite robust for many special cases. Individual time-steps leads to desynchronized particles, hence the need to interpolate the positions of other particles to compute $\bold{F}_i$, which was achieved through fourth-order polynoms.
  
+ To limit the amount of desynchronization, block-time steps were introduced. Instead of having as many time steps as particles, one only allows quantized power of 2 of an initial time step. $\Delta t_0$,$\frac{\Delta t_0}{2}$, $\frac{\Delta t_0}{4}$, $\frac{\Delta t_0}{2^i}$. All time steps are then commensurate and regularly fall back on the same time steps, minimizing the amount of interpolation during the force calculations.
  
+\begin{figure}
+\label{Fig:blocktimesteps}
+\center
+\includegraphics[width=0.6\linewidth]{Figures/0_block_timesteps.png}
+\caption{Illustration of block time steps on 4 particles. Particles get their positions updated for each arrow symbol, common time steps are shown as vertical dotted lines. Figure from NB6++ User Manual. }
+\end{figure} 
  
  
 \subsection{KS-regularization}
@@ -171,14 +178,11 @@ With $\bold{F}^{(j)}_i$ begin the j-th derivative of the force applied to partic
 
 \subsection{Ahmad-Cohen neighbour scheme}
 
-\begin{itemize}
-\item history
-\item Hermite scheme
-\item block time step
-\item neighbour scheme
-\item KS reg
-\end{itemize}
 
+
+
+\newpage
+ \section{Young star clusters}
 
 
 

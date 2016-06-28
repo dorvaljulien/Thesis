@@ -8,45 +8,45 @@ Warning--entry type for "Nyland2004" isn't style-file defined
 --line 3636 of file Bibliography/bibdatabase.bib
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Newton1687
-You've used 39 entries,
+You've used 45 entries,
             2938 wiz_defined-function locations,
-            879 strings with 9947 characters,
-and the built_in function-call counts, 14794 in all, are:
-= -- 1265
-> -- 751
+            922 strings with 10966 characters,
+and the built_in function-call counts, 17114 in all, are:
+= -- 1466
+> -- 879
 < -- 10
-+ -- 269
-- -- 257
-* -- 1083
-:= -- 2836
-add.period$ -- 8
-call.type$ -- 39
-change.case$ -- 229
-chr.to.int$ -- 41
-cite$ -- 41
-duplicate$ -- 663
-empty$ -- 1085
-format.name$ -- 284
-if$ -- 2894
++ -- 314
+- -- 301
+* -- 1259
+:= -- 3284
+add.period$ -- 9
+call.type$ -- 45
+change.case$ -- 265
+chr.to.int$ -- 47
+cite$ -- 47
+duplicate$ -- 761
+empty$ -- 1246
+format.name$ -- 334
+if$ -- 3346
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 34
-newline$ -- 121
-num.names$ -- 160
-pop$ -- 214
+missing$ -- 40
+newline$ -- 139
+num.names$ -- 184
+pop$ -- 246
 preamble$ -- 1
-purify$ -- 225
+purify$ -- 261
 quote$ -- 0
-skip$ -- 619
+skip$ -- 710
 stack$ -- 0
-substring$ -- 680
-swap$ -- 77
+substring$ -- 790
+swap$ -- 83
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 324
+type$ -- 375
 warning$ -- 2
-while$ -- 181
+while$ -- 209
 width$ -- 0
-write$ -- 389
+write$ -- 449
 (There were 4 warnings)
