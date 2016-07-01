@@ -140,11 +140,25 @@ There was two ways to increase the number of stars in simulations: buy a better 
 
 The 1970s brought two new important optimisation methods: KS regularization of close pairs \citep{Aarseth1972} and Ahmad-Cohen neighbour scheme \citep{AhmadCohen1973}. The number of stars in simulations kept growing, reaching 1000 with \cite{Terlevich1980} and materializing into the \textit{NBODY5} integrator. At this point various methods departing from a pure collisional calculation began to emerge, such as the simplified distant interaction with the \cite{BarnesHut1986} tree algorithm.
 
-To go beyond the regular improvement of computing power with time, a group of japanese researchers, among whom Junichiro Makino, designed and built special purpose hardware for many-body problems, such as n-body gravitational interaction \citep{Ebisuzaki1990,Ito1991}. These cards vastly improved the speed of nbody simulations and were a milestone on the road to the parallelization of computing. With the force calculation directly implemented in the hardware, GRAPE dominated the field for 15 years.
+To go beyond the regular improvement of computing power with time, a group of japanese researchers, among whom Junichiro Makino, designed and built special purpose hardware for many-body problems: GRAPE \citep{Ebisuzaki1990,Ito1991}. These cards vastly improved the speed of nbody simulations and were a milestone on the road to the parallelization of computing. With the force calculation directly implemented in the hardware, GRAPE dominated the field for 15 years.
 
 The latest technological leap in Nbody simulations came from graphic cards, see \cite{Bedorf2012} for a more detailed historical perspective. Graphical Processing Units, or GPU, were originally designed for computer games visual rendering, applying the same transformations to a lot of pixels at the same time. These made them very efficient parallel computing machines for physics. Interest in GPU computing started to grew in the 2000s \citep{Nyland2004,Elsen2006,SPZ2007} until the advent of usable GPU programming languages, like CUDA, in the late 2000s. At this point GPU were more efficient than GRAPE hardware for force calculation. Keigo Nitadori and Sverre Aarseth developped a GPU-accelerated version of the latest NBODY code, NBODY6, in 2012 \citep{Nitadori2012}.
 
 Last year, 329 years after the publication of the \textit{Principia}, a collisional nbody simulation of one million stars was performed with a modified version of NBODY6 running on GPU \citep{Wang2015}. Computers have made it possible for humans to study systems of incredible scales in space and time, only using the universal law of gravitation. N-body numerical integrators are the culmination of centuries of scientific development on the motion of massive bodies.
+
+
+
+\newpage
+\section{Star clusters}
+
+\subsection{But why star clusters ?}
+
+The widest definition possible for a star cluster is "An area of the sky with visibly grouped stars". However, this includes binary stars and galaxies. We are interested in intermediate systems, such as open clusters, globular clusters or associations, in which stars are, if not bound, at least under direct mutual gravitational influence. 
+Clusters are the result of bursts of star formation in Giant Molecular Clouds. All stars within a cluster were born approximately at the same time, which explains the sustained interest of the scientific community for star clusters for more than a century. They are the best laboratories of stellar physics available to us: a large population of stars sharing the same age and distance to Earth. The age of the cluster can be derived from the most massive stars in the population, as stars have lifetimes inversely correlated with their mass. Overall, integrated spectral features from all members of a star cluster can provide a wealth of information.
+
+
+
+
 
 \newpage
 \section{NBODY6}
