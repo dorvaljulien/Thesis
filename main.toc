@@ -1,29 +1,25 @@
 \contentsline {section}{Foreword}{1}{chapter*.2}
-\contentsline {section}{\numberline {0.1}From Aristotle to GPU computing : an history of physics and gravity}{1}{section.0.1}
-\contentsline {subsection}{\numberline {0.1.1}Motion}{1}{subsection.0.1.1}
-\contentsline {subsection}{\numberline {0.1.2}Geocentrism and heliocentrism}{2}{subsection.0.1.2}
-\contentsline {subsection}{\numberline {0.1.3}The Starry Messenger}{2}{subsection.0.1.3}
-\contentsline {subsection}{\numberline {0.1.4}On the shoulders of giants}{3}{subsection.0.1.4}
-\contentsline {subsection}{\numberline {0.1.5}The n=3 body problem}{4}{subsection.0.1.5}
-\contentsline {subsection}{\numberline {0.1.6}The n$>$3 body problem}{5}{subsection.0.1.6}
-\contentsline {subsection}{\numberline {0.1.7}The numerical age}{5}{subsection.0.1.7}
-\contentsline {section}{\numberline {0.2}Star clusters}{7}{section.0.2}
-\contentsline {subsection}{\numberline {0.2.1}But why star clusters ?}{7}{subsection.0.2.1}
-\contentsline {section}{\numberline {0.3}NBODY6}{8}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}Block time-step}{8}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {0.3.2}KS-regularization}{9}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {0.3.3}Hermite prediction scheme}{9}{subsection.0.3.3}
-\contentsline {subsection}{\numberline {0.3.4}Ahmad-Cohen neighbour scheme}{9}{subsection.0.3.4}
-\contentsline {section}{\numberline {0.4}Young star clusters}{10}{section.0.4}
-\contentsline {chapter}{\numberline {1}The Hubble-Lema\^itre fragmented model}{11}{chapter.1}
-\contentsline {section}{\numberline {1.1}How to build a Hubble-Lema\^itre model}{11}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Initial state}{11}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Fragmentation}{12}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Perturbation theory}{14}{section.1.2}
-\contentsline {section}{\numberline {1.3}Analysis of the fragmented system}{14}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Clump finding algorithm}{14}{subsection.1.3.1}
-\contentsline {chapter}{\numberline {2}Dynamical evolution}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Bla}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Scaling to physical units}{17}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Collapse and virialisation}{18}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Global mass segregation}{19}{section.2.2}
+\contentsline {section}{\numberline {0.1}From Aristotle to GPU computing : an history of physics and gravity}{2}{section.0.1}
+\contentsline {section}{\numberline {0.2}Star clusters}{8}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}What are star clusters ? And why study them ?}{8}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {0.2.2}Formation in Giant Molecular Clouds}{11}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {0.2.3}Early dynamical evolution}{11}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {0.2.4}Binary stars in clusters}{11}{subsection.0.2.4}
+\contentsline {section}{\numberline {0.3}NBODY6}{12}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}Block time-step}{12}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}KS-regularization}{13}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {0.3.3}Hermite prediction scheme}{13}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {0.3.4}Ahmad-Cohen neighbour scheme}{13}{subsection.0.3.4}
+\contentsline {section}{\numberline {0.4}Young star clusters}{14}{section.0.4}
+\contentsline {chapter}{\numberline {1}The Hubble-Lema\^itre fragmented model}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}How to build a Hubble-Lema\^itre model}{15}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Initial state}{15}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Fragmentation}{16}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Perturbation theory}{18}{section.1.2}
+\contentsline {section}{\numberline {1.3}Analysis of the fragmented system}{18}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Clump finding algorithm}{18}{subsection.1.3.1}
+\contentsline {chapter}{\numberline {2}Dynamical evolution}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}Bla}{21}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Scaling to physical units}{21}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Collapse and virialisation}{22}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Global mass segregation}{23}{section.2.2}

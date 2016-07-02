@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{65}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -42,6 +42,15 @@ Barrow-Green J., 1997, Poincar{\'e} and the Three Body Problem, History of
 \bibitem[{{Belorizky}(1930)}]{Beloriszky1930}
 {Belorizky} D., 1930, Bulletin Astronomique, 6, 417
 
+\bibitem[{{Binney} \& {Tremaine}(2008)}]{BT}
+{Binney} J., {Tremaine} S., 2008, {Galactic Dynamics (2nd ed.)}. Princeton
+  Univ. Press, Princeton, NJ
+
+\bibitem[{{Boyles} {et~al}\mbox{.}(2011){Boyles}, {Lorimer}, {Turk},
+  {Mnatsakanov}, {Lynch}, {Ransom}, {Freire}, \& {Belczynski}}]{Boyles2011}
+{Boyles} J., {Lorimer} D.~R., {Turk} P.~J., {Mnatsakanov} R., {Lynch} R.~S.,
+  {Ransom} S.~M., {Freire} P.~C., {Belczynski} K., 2011, \apj, 742, 51
+
 \bibitem[{Clagett(1959)}]{Clagett1959}
 Clagett M., 1959, The science of mechanics in the Middle Ages, University of
   Wisconsin publications in medieval science. University of Wisconsin Press
@@ -50,9 +59,18 @@ Clagett M., 1959, The science of mechanics in the Middle Ages, University of
 {Cohen} I.~B., Anne~Whitman J.~B., 1999, The Principia: Mathematical Principles
   of Natural Philosophy, 1st edn. University of California Press
 
+\bibitem[{{D'Antona} {et~al}\mbox{.}(2016){D'Antona}, {Vesperini}, {D'Ercole},
+  {Ventura}, {Milone}, {Marino}, \& {Tailo}}]{Dantona2016}
+{D'Antona} F., {Vesperini} E., {D'Ercole} A., {Ventura} P., {Milone} A.~P.,
+  {Marino} A.~F., {Tailo} M., 2016, \mnras, 458, 2122
+
 \bibitem[{{De Angelis} \& {Santo}(2015)}]{DeAngelis2015}
 {De Angelis} A., {Santo} C.~E., 2015, Journal of Astronomical History and
   Heritage, 18, 241
+
+\bibitem[{{de Marchi}, {Pulone} \& {Paresce}(2006){de Marchi}, {Pulone}, \&
+  {Paresce}}]{DeMarchi2006}
+{de Marchi} G., {Pulone} L., {Paresce} F., 2006, \aap, 449, 161
 
 \bibitem[{{Doppler}(1842)}]{Doppler1842}
 {Doppler} C., 1842, {Über das farbige Licht der Doppelsterne und einiger
@@ -73,6 +91,9 @@ Clagett M., 1959, The science of mechanics in the Middle Ages, University of
   {Hanrahan}, \& V.}]{Elsen2006}
 {Elsen} E., {Houston} M., {Vishal} V., {Darve} E., {Hanrahan} P., V. P., 2006,
   "n-body simulation on gpus."
+
+\bibitem[{{Forbes} \& {Bridges}(2010)}]{Forbes2010}
+{Forbes} D.~A., {Bridges} T., 2010, \mnras, 404, 1203
 
 \bibitem[{Freeman {et~al}\mbox{.}(2015)Freeman, Block, Elmegreen, \&
   Woolway}]{Freeman2015}
@@ -102,6 +123,14 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Jeans}(1916)}]{Jeans1916}
 {Jeans} J.~H., 1916, \mnras, 76, 567
 
+\bibitem[{{Kharchenko} {et~al}\mbox{.}(2004){Kharchenko}, {Piskunov},
+  {R{\"o}ser}, {Schilbach}, \& {Scholz}}]{Kharchenko2004}
+{Kharchenko} N.~V., {Piskunov} A.~E., {R{\"o}ser} S., {Schilbach} E., {Scholz}
+  R.-D., 2004, Astronomische Nachrichten, 325, 740
+
+\bibitem[{{King}(1966)}]{King1966}
+{King} I.~R., 1966, \aj, 71, 64
+
 \bibitem[{{Kirk} \& {Myers}(2011)}]{Kirk2011}
 {Kirk} H., {Myers} P.~C., 2011, \apj, 727, 64
 
@@ -115,6 +144,9 @@ Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
 \bibitem[{{Lema{\^i}tre}(1927)}]{Lemaitre1927}
 {Lema{\^i}tre} G., 1927, Annales de la Soci{\'e}t{\'e} Scientifique de
   Bruxelles, 47, 49
+
+\bibitem[{{Marks} \& {Kroupa}(2010)}]{Marks2010}
+{Marks} M., {Kroupa} P., 2010, \mnras, 406, 2000
 
 \bibitem[{{Maschberger} {et~al}\mbox{.}(2010){Maschberger}, {Clarke},
   {Bonnell}, \& {Kroupa}}]{Maschberger2010}
@@ -140,8 +172,18 @@ Newton S.~I., 1687, Philosophiae Naturalis Principia Mathematica, Vol.~1
   {Henning}}]{Olczak2011}
 {Olczak} C., {Spurzem} R., {Henning} T., 2011, \aap, 532, A119
 
+\bibitem[{{Pasquato} \& {Chung}(2016)}]{Pasquato2016}
+{Pasquato} M., {Chung} C., 2016, \aap, 589, A95
+
 \bibitem[{{Pavese}(2015)}]{Pavese2015}
 {Pavese} F., 2015, ArXiv e-prints
+
+\bibitem[{{Piotto} {et~al}\mbox{.}(2007){Piotto}, {Bedin}, {Anderson}, {King},
+  {Cassisi}, {Milone}, {Villanova}, {Pietrinferni}, \& {Renzini}}]{Piotto2007}
+{Piotto} G. {et~al.}, 2007, \apjl, 661, L53
+
+\bibitem[{{Plummer}(1911)}]{Plummer1911}
+{Plummer} H.~C., 1911, \mnras, 71, 460
 
 \bibitem[{Poincar\'e(1906)}]{Poincare1906}
 Poincar\'e H., 1906, Bulletin de la soci\'et\'e astronomique de France, 20, 153
@@ -150,6 +192,10 @@ Poincar\'e H., 1906, Bulletin de la soci\'et\'e astronomique de France, 20, 153
   {Belleman}, \& {Geldof}}]{SPZ2007}
 {Portegies Zwart} S.~F., {Belleman} R.~G., {Geldof} P.~M., 2007, \na, 12, 641
 
+\bibitem[{{Portegies Zwart}, {McMillan} \& {Gieles}(2010){Portegies Zwart},
+  {McMillan}, \& {Gieles}}]{PortegiesZwart2010}
+{Portegies Zwart} S.~F., {McMillan} S.~L.~W., {Gieles} M., 2010, \araa, 48, 431
+
 \bibitem[{{Ramasubramanian}(1998)}]{ramasubramanian1998}
 {Ramasubramanian} K., 1998, Bulletin of the Astronomical Society of India, 26,
   11
@@ -157,6 +203,11 @@ Poincar\'e H., 1906, Bulletin de la soci\'et\'e astronomique de France, 20, 153
 \bibitem[{{Skory} {et~al}\mbox{.}(2010){Skory}, {Turk}, {Norman}, \&
   {Coil}}]{Skory2010}
 {Skory} S., {Turk} M.~J., {Norman} M.~L., {Coil} A.~L., 2010, \apjs, 191, 43
+
+\bibitem[{{Stassun} {et~al}\mbox{.}(2002){Stassun}, {van den Berg}, {Mathieu},
+  \& {Verbunt}}]{Stassun2002}
+{Stassun} K.~G., {van den Berg} M., {Mathieu} R.~D., {Verbunt} F., 2002, \aap,
+  382, 899
 
 \bibitem[{{Str{\"o}mgren}(1909)}]{Stromgren1909}
 {Str{\"o}mgren} E., 1909, Astronomische Nachrichten, 182, 181

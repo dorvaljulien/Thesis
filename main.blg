@@ -1,52 +1,82 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys caputo14 and Caputo14
+---line 133 of file main.aux
+ : \citation{caputo14
+ :                   }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys theis99 and Theis99
+---line 134 of file main.aux
+ : \citation{theis99
+ :                  }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys caputo14 and Caputo14
+---line 139 of file main.aux
+ : \citation{caputo14
+ :                   }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys theis99 and Theis99
+---line 140 of file main.aux
+ : \citation{theis99
+ :                  }
+I'm skipping whatever remains of this command
 The style file: mn2e.bst
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
 --line 3628 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
 --line 3636 of file Bibliography/bibdatabase.bib
+Warning--I didn't find a database entry for "Cottaar15"
+Warning--I didn't find a database entry for "Moeckel12"
+Warning--I didn't find a database entry for "Fujii16"
+Warning--I didn't find a database entry for "Theis99"
+Warning--I didn't find a database entry for "Boily02"
+Warning--I didn't find a database entry for "Barnes09"
+Warning--I didn't find a database entry for "Caputo14"
+Warning--I didn't find a database entry for "Benhaiem15"
+Warning--I didn't find a database entry for "mcmillan07"
+Warning--I didn't find a database entry for "allison10"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Newton1687
-You've used 52 entries,
+You've used 65 entries,
             2938 wiz_defined-function locations,
-            966 strings with 12191 characters,
-and the built_in function-call counts, 20510 in all, are:
-= -- 1744
-> -- 1150
+            1067 strings with 14747 characters,
+and the built_in function-call counts, 26748 in all, are:
+= -- 2250
+> -- 1648
 < -- 10
-+ -- 406
-- -- 389
-* -- 1562
-:= -- 3926
-add.period$ -- 9
-call.type$ -- 52
-change.case$ -- 320
-chr.to.int$ -- 54
-cite$ -- 54
-duplicate$ -- 880
-empty$ -- 1428
-format.name$ -- 436
-if$ -- 4003
++ -- 574
+- -- 552
+* -- 2091
+:= -- 5111
+add.period$ -- 10
+call.type$ -- 65
+change.case$ -- 421
+chr.to.int$ -- 67
+cite$ -- 67
+duplicate$ -- 1098
+empty$ -- 1774
+format.name$ -- 621
+if$ -- 5213
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 47
-newline$ -- 160
-num.names$ -- 212
-pop$ -- 294
+missing$ -- 60
+newline$ -- 199
+num.names$ -- 264
+pop$ -- 385
 preamble$ -- 1
-purify$ -- 316
+purify$ -- 417
 quote$ -- 0
-skip$ -- 819
+skip$ -- 1030
 stack$ -- 0
-substring$ -- 937
-swap$ -- 90
+substring$ -- 1203
+swap$ -- 103
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 438
+type$ -- 552
 warning$ -- 2
-while$ -- 240
+while$ -- 299
 width$ -- 0
-write$ -- 519
-(There were 4 warnings)
+write$ -- 649
+(There were 4 error messages)
