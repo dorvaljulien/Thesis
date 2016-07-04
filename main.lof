@@ -3,10 +3,10 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces Hertzprung-Russel diagram of the Pleiades and M67. An arrow points at the Main-Sequence turn-off for each cluster. The figures were taken from the \href {http://www.astrophysicsspectator.com/topics/stars/HertzsprungRussellClusters.html}{Astrophysics Spectator} website and data can be found in \cite {Stassun2002,Kharchenko2004} }}{8}{figure.0.3}
 \contentsline {figure}{\numberline {4}{\ignorespaces From left to right: 47 Tucanae, Messier 12 and NGC 2808. Credits: ESA/Hubble. }}{10}{figure.0.4}
 \contentsline {figure}{\numberline {5}{\ignorespaces Radius-Mass Diagram for Milky Way clusters. Blue dots are open clusters, red dots Globular clusters and purple squares show Young Massive Clusters. Dashed lines show constant density within half-mass radius $\rho _h = 3M/8\pi r^3_{hm}$ and dotted lines show constant relaxation time. The plot was taken from the review \cite {PortegiesZwart2010}.}}{10}{figure.0.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Illustration of block time steps on 4 particles. Particles get their positions updated for each arrow symbol, common time steps are shown as vertical dotted lines. Figure from NB6++ User Manual. }}{12}{figure.0.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Illustration of block time steps on 4 particles. Particles get their positions updated for each arrow symbol, common time steps are shown as vertical dotted lines. Figure from NB6++ User Manual. }}{13}{figure.0.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Theoretical values of the apex time, at which the system stops expanding, as a function of initial HL parameter, which tunes the strength of the initial expansion.}}{18}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of a Minimum Spanning Tree and its use to isolate subgroups, using a cutting length $d_{cut}$.}}{18}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces }}{19}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces }}{20}{figure.1.4}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Theoretical values of the apex time, at which the system stops expanding, as a function of initial HL parameter, which tunes the strength of the initial expansion.}}{22}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of a Minimum Spanning Tree and its use to isolate subgroups, using a cutting length $d_{cut}$.}}{22}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces }}{23}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces }}{24}{figure.1.4}
 \addvspace {10\p@ }

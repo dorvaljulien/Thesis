@@ -6,20 +6,21 @@
 \contentsline {subsection}{\numberline {0.2.3}Early dynamical evolution}{11}{subsection.0.2.3}
 \contentsline {subsection}{\numberline {0.2.4}Binary stars in clusters}{11}{subsection.0.2.4}
 \contentsline {section}{\numberline {0.3}NBODY6}{12}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}Block time-step}{12}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {0.3.2}KS-regularization}{13}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {0.3.3}Hermite prediction scheme}{13}{subsection.0.3.3}
-\contentsline {subsection}{\numberline {0.3.4}Ahmad-Cohen neighbour scheme}{13}{subsection.0.3.4}
-\contentsline {section}{\numberline {0.4}Young star clusters}{14}{section.0.4}
-\contentsline {chapter}{\numberline {1}The Hubble-Lema\^itre fragmented model}{15}{chapter.1}
-\contentsline {section}{\numberline {1.1}How to build a Hubble-Lema\^itre model}{15}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Initial state}{15}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Fragmentation}{16}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Perturbation theory}{18}{section.1.2}
-\contentsline {section}{\numberline {1.3}Analysis of the fragmented system}{18}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Clump finding algorithm}{18}{subsection.1.3.1}
-\contentsline {chapter}{\numberline {2}Dynamical evolution}{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}Bla}{21}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Scaling to physical units}{21}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Collapse and virialisation}{22}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Global mass segregation}{23}{section.2.2}
+\contentsline {subsection}{\numberline {0.3.1}H\'enon units}{12}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}Block time-step}{13}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {0.3.3}KS-regularization}{13}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {0.3.4}Hermite integration scheme}{14}{subsection.0.3.4}
+\contentsline {subsection}{\numberline {0.3.5}Ahmad-Cohen neighbour scheme}{15}{subsection.0.3.5}
+\contentsline {section}{\numberline {0.4}Young star clusters}{17}{section.0.4}
+\contentsline {chapter}{\numberline {1}The Hubble-Lema\^itre fragmented model}{19}{chapter.1}
+\contentsline {section}{\numberline {1.1}How to build a Hubble-Lema\^itre model}{19}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Initial state}{19}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Fragmentation}{20}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Perturbation theory}{22}{section.1.2}
+\contentsline {section}{\numberline {1.3}Analysis of the fragmented system}{22}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Clump finding algorithm}{22}{subsection.1.3.1}
+\contentsline {chapter}{\numberline {2}Dynamical evolution}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}Bla}{25}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Scaling to physical units}{25}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Collapse and virialisation}{26}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Global mass segregation}{27}{section.2.2}

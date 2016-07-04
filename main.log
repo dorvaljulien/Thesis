@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  2 JUL 2016 18:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  4 JUL 2016 09:00
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -911,11 +911,11 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 (./Introduction/introduction.tex [1
 
 ]
-<Figures/0_PtolemaicModel.png, id=162, 1047.915pt x 858.20625pt>
+<Figures/0_PtolemaicModel.png, id=167, 1047.915pt x 858.20625pt>
 File: Figures/0_PtolemaicModel.png Graphic file (type png)
 
 <use Figures/0_PtolemaicModel.png>
-<Figures/0_CopernicusModel.jpg, id=164, 726.3135pt x 708.246pt>
+<Figures/0_CopernicusModel.jpg, id=169, 726.3135pt x 708.246pt>
 File: Figures/0_CopernicusModel.jpg Graphic file (type jpg)
 
 <use Figures/0_CopernicusModel.jpg> [2] [3 <./Figures/0_PtolemaicModel.png> <./
@@ -933,15 +933,15 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
-[5] <Figures/0_N_increase.png, id=252, 1314.9125pt x 867.24pt>
+[5] <Figures/0_N_increase.png, id=257, 1314.9125pt x 867.24pt>
 File: Figures/0_N_increase.png Graphic file (type png)
 
 <use Figures/0_N_increase.png> [6] [7 <./Figures/0_N_increase.png (PNG copy)>]
-<Figures/0_HRDiagram_Pleiades.png, id=323, 1599.9775pt x 1199.48125pt>
+<Figures/0_HRDiagram_Pleiades.png, id=328, 1599.9775pt x 1199.48125pt>
 File: Figures/0_HRDiagram_Pleiades.png Graphic file (type png)
 
 <use Figures/0_HRDiagram_Pleiades.png>
-<Figures/0_HRDiagram_M67.png, id=324, 1584.92125pt x 1185.42876pt>
+<Figures/0_HRDiagram_M67.png, id=329, 1584.92125pt x 1185.42876pt>
 File: Figures/0_HRDiagram_M67.png Graphic file (type png)
 
 <use Figures/0_HRDiagram_M67.png> [8 <./Figures/0_HRDiagram_Pleiades.png (PNG c
@@ -955,94 +955,95 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 208.
 
-<Figures/0_47Tuc.jpg, id=365, 490.83376pt x 490.83376pt>
+<Figures/0_47Tuc.jpg, id=370, 490.83376pt x 490.83376pt>
 File: Figures/0_47Tuc.jpg Graphic file (type jpg)
 
 <use Figures/0_47Tuc.jpg>
-<Figures/0_M12.jpg, id=366, 476.78125pt x 476.78125pt>
+<Figures/0_M12.jpg, id=371, 476.78125pt x 476.78125pt>
 File: Figures/0_M12.jpg Graphic file (type jpg)
  <use Figures/0_M12.jpg>
-<Figures/0_NGC2808.jpg, id=367, 501.875pt x 501.875pt>
+<Figures/0_NGC2808.jpg, id=372, 501.875pt x 501.875pt>
 File: Figures/0_NGC2808.jpg Graphic file (type jpg)
 
 <use Figures/0_NGC2808.jpg>
-<Figures/0_MassRadiusClusters.png, id=368, 1173.38374pt x 1115.16624pt>
+<Figures/0_MassRadiusClusters.png, id=373, 1173.38374pt x 1115.16624pt>
 File: Figures/0_MassRadiusClusters.png Graphic file (type png)
 
 <use Figures/0_MassRadiusClusters.png> [9] [10 <./Figures/0_47Tuc.jpg> <./Figur
 es/0_M12.jpg> <./Figures/0_NGC2808.jpg> <./Figures/0_MassRadiusClusters.png (PN
-G copy)>] [11] <Figures/0_block_timesteps.png, id=403, 925.4575pt x 554.07pt>
+G copy)>] [11] [12]
+<Figures/0_block_timesteps.png, id=422, 925.4575pt x 554.07pt>
 File: Figures/0_block_timesteps.png Graphic file (type png)
 
-<use Figures/0_block_timesteps.png> [12 <./Figures/0_block_timesteps.png (PNG c
-opy)>] [13]) (./Chapters/chapter_HLmodel.tex [14]
-Chapter 1.
-[15
+<use Figures/0_block_timesteps.png> [13 <./Figures/0_block_timesteps.png (PNG c
+opy)>] [14] [15] [16]) (./Chapters/chapter_HLmodel.tex [17] [18
 
-] [16] <Figures/1_apextime.png, id=460, 578.16pt x 433.62pt>
+]
+Chapter 1.
+[19] [20] <Figures/1_apextime.png, id=529, 578.16pt x 433.62pt>
 File: Figures/1_apextime.png Graphic file (type png)
 
-<use Figures/1_apextime.png> <Figures/1_MST.png, id=461, 867.24pt x 361.35pt>
+<use Figures/1_apextime.png> <Figures/1_MST.png, id=530, 867.24pt x 361.35pt>
 File: Figures/1_MST.png Graphic file (type png)
 
-<use Figures/1_MST.png> [17] [18 <./Figures/1_apextime.png> <./Figures/1_MST.pn
+<use Figures/1_MST.png> [21] [22 <./Figures/1_apextime.png> <./Figures/1_MST.pn
 g>]
 
-LaTeX Warning: Reference `Fig:Ndcut' on page 19 undefined on input line 179.
+LaTeX Warning: Reference `Fig:Ndcut' on page 23 undefined on input line 179.
 
-<Figures/1_Ndcut.png, id=502, 633.8079pt x 529.0164pt>
+<Figures/1_Ndcut.png, id=572, 633.8079pt x 529.0164pt>
 File: Figures/1_Ndcut.png Graphic file (type png)
 
 <use Figures/1_Ndcut.png>
-<Figures/1_clumpsABC.png, id=504, 1445.4pt x 505.89pt>
+<Figures/1_clumpsABC.png, id=574, 1445.4pt x 505.89pt>
 File: Figures/1_clumpsABC.png Graphic file (type png)
 
 <use Figures/1_clumpsABC.png>) (./Chapters/chapter_dynamicalevolution.tex
-[19 <./Figures/1_Ndcut.png>] [20 <./Figures/1_clumpsABC.png>]
+[23 <./Figures/1_Ndcut.png>] [24 <./Figures/1_clumpsABC.png>]
 Chapter 2.
 
-Package natbib Warning: Citation `Cottaar15' on page 21 undefined on input line
+Package natbib Warning: Citation `Cottaar15' on page 25 undefined on input line
  40.
 
 
-Package natbib Warning: Citation `Moeckel12' on page 21 undefined on input line
+Package natbib Warning: Citation `Moeckel12' on page 25 undefined on input line
  40.
 
 
-Package natbib Warning: Citation `Fujii16' on page 21 undefined on input line 4
+Package natbib Warning: Citation `Fujii16' on page 25 undefined on input line 4
 0.
 
 
-Package natbib Warning: Citation `Theis99' on page 21 undefined on input line 4
+Package natbib Warning: Citation `Theis99' on page 25 undefined on input line 4
 2.
 
 
-Package natbib Warning: Citation `Boily02' on page 21 undefined on input line 4
+Package natbib Warning: Citation `Boily02' on page 25 undefined on input line 4
 2.
 
 
-Package natbib Warning: Citation `Barnes09' on page 21 undefined on input line 
+Package natbib Warning: Citation `Barnes09' on page 25 undefined on input line 
 42.
 
 
-Package natbib Warning: Citation `Caputo14' on page 21 undefined on input line 
+Package natbib Warning: Citation `Caputo14' on page 25 undefined on input line 
 42.
 
 
-Package natbib Warning: Citation `Benhaiem15' on page 21 undefined on input lin
+Package natbib Warning: Citation `Benhaiem15' on page 25 undefined on input lin
 e 42.
 
-[21
+[25
 
 ]
 
-LaTeX Warning: Reference `Eqn:Trel' on page 22 undefined on input line 53.
+LaTeX Warning: Reference `Eqn:Trel' on page 26 undefined on input line 53.
 
 
-LaTeX Warning: Reference `Eqn:Tms' on page 22 undefined on input line 53.
+LaTeX Warning: Reference `Eqn:Tms' on page 26 undefined on input line 53.
 
 
-LaTeX Warning: Reference `Fig:Rhm_global' on page 22 undefined on input line 71
+LaTeX Warning: Reference `Fig:Rhm_global' on page 26 undefined on input line 71
 .
 
 
@@ -1051,45 +1052,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--80
  []
 
 
-Package natbib Warning: Citation `caputo14' on page 22 undefined on input line 
+Package natbib Warning: Citation `caputo14' on page 26 undefined on input line 
 83.
 
 
-Package natbib Warning: Citation `theis99' on page 22 undefined on input line 8
+Package natbib Warning: Citation `theis99' on page 26 undefined on input line 8
 3.
 
-[22]
+[26]
 
-Package natbib Warning: Citation `caputo14' on page 23 undefined on input line 
+Package natbib Warning: Citation `caputo14' on page 27 undefined on input line 
 101.
 
 
-Package natbib Warning: Citation `theis99' on page 23 undefined on input line 1
+Package natbib Warning: Citation `theis99' on page 27 undefined on input line 1
 01.
 
-[23]
+[27]
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 24 undefined on input line 127.
-
-
-
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 24 undefined on input line 127.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 28 undefined on input line 127.
 
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 24 undefined on input line 129.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 28 undefined on input line 127.
 
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 24 undefined on input line 129.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 28 undefined on input line 129.
 
 
 
-LaTeX Warning: Reference `Sec:discussion' on page 24 undefined on input line 13
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 28 undefined on input line 129.
+
+
+
+LaTeX Warning: Reference `Sec:discussion' on page 28 undefined on input line 13
 2.
 
 
-LaTeX Warning: Reference `Fig:Lagrange' on page 24 undefined on input line 132.
+LaTeX Warning: Reference `Fig:Lagrange' on page 28 undefined on input line 132.
 
 
 
@@ -1098,37 +1099,37 @@ Overfull \hbox (113.453pt too wide) in paragraph at lines 138--150
  []
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 24 undefined on input line 154.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 28 undefined on input line 154.
 
 
 
-LaTeX Warning: Reference `Subsec:ClumpSegregation' on page 24 undefined on inpu
+LaTeX Warning: Reference `Subsec:ClumpSegregation' on page 28 undefined on inpu
 t line 154.
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 24 undefined on input line 154.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 28 undefined on input line 154.
 
 
 
-Package natbib Warning: Citation `mcmillan07' on page 24 undefined on input lin
+Package natbib Warning: Citation `mcmillan07' on page 28 undefined on input lin
 e 154.
 
 
-Package natbib Warning: Citation `allison10' on page 24 undefined on input line
+Package natbib Warning: Citation `allison10' on page 28 undefined on input line
  154.
 
 )
 Underfull \vbox (badness 2547) has occurred while \output is active []
 
- [24]
-[25] [26
+ [28]
+[29] [30
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 76.
 
-(./main.bbl [27] [28
+(./main.bbl [31] [32
 
 ]
 Missing character: There is no Ã in font cmr10!
@@ -1137,18 +1138,18 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
- [29] [30]
+ [33] [34]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¨ in font cmr10!
-) [31] [32
+) [35] [36
 
 ] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [33
+ [37
 
-] [34
+] [38
 
 ] (./main.lot)
 \tf@lot=\write7
@@ -1158,22 +1159,19 @@ Missing character: There is no ¨ in font cmr10!
 
 Package natbib Warning: There were undefined citations.
 
-[35] (./main.aux)
+[39] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 20468 strings out of 493848
- 328358 string characters out of 1152824
- 453979 words of memory out of 3000000
- 23085 multiletter control sequences out of 15000+50000
+ 20519 strings out of 493848
+ 329133 string characters out of 1152824
+ 454426 words of memory out of 3000000
+ 23101 multiletter control sequences out of 15000+50000
  15433 words of font info for 58 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  58i,14n,55p,2452b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1192,9 +1190,9 @@ sfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
 /share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (39 pages, 2088199 bytes).
+Output written on main.pdf (43 pages, 2114857 bytes).
 PDF statistics:
- 739 PDF objects out of 1000 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 816 PDF objects out of 1000 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
