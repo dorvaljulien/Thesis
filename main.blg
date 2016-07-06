@@ -1,22 +1,22 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 Case mismatch error between cite keys caputo14 and Caputo14
----line 143 of file main.aux
+---line 141 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 144 of file main.aux
+---line 142 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys caputo14 and Caputo14
----line 149 of file main.aux
+---line 147 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 150 of file main.aux
+---line 148 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
@@ -26,6 +26,14 @@ Warning--entry type for "Elsen2006" isn't style-file defined
 --line 3628 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
 --line 3636 of file Bibliography/bibdatabase.bib
+Repeated entry---line 4009 of file Bibliography/bibdatabase.bib
+ : @article{Dias2002
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4094 of file Bibliography/bibdatabase.bib
+ : @article{MacLow2004
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cottaar15"
 Warning--I didn't find a database entry for "Moeckel12"
 Warning--I didn't find a database entry for "Fujii16"
@@ -38,45 +46,45 @@ Warning--I didn't find a database entry for "mcmillan07"
 Warning--I didn't find a database entry for "allison10"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Newton1687
-You've used 68 entries,
+You've used 69 entries,
             2938 wiz_defined-function locations,
-            1087 strings with 15101 characters,
-and the built_in function-call counts, 27898 in all, are:
-= -- 2354
-> -- 1705
+            1091 strings with 15626 characters,
+and the built_in function-call counts, 28970 in all, are:
+= -- 2419
+> -- 1880
 < -- 10
-+ -- 594
-- -- 572
-* -- 2175
-:= -- 5331
++ -- 648
+- -- 625
+* -- 2264
+:= -- 5538
 add.period$ -- 10
-call.type$ -- 68
-change.case$ -- 438
-chr.to.int$ -- 70
-cite$ -- 70
-duplicate$ -- 1148
-empty$ -- 1852
-format.name$ -- 645
-if$ -- 5438
+call.type$ -- 69
+change.case$ -- 459
+chr.to.int$ -- 71
+cite$ -- 71
+duplicate$ -- 1165
+empty$ -- 1872
+format.name$ -- 702
+if$ -- 5642
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 208
-num.names$ -- 276
-pop$ -- 402
+missing$ -- 64
+newline$ -- 211
+num.names$ -- 280
+pop$ -- 421
 preamble$ -- 1
-purify$ -- 434
+purify$ -- 455
 quote$ -- 0
-skip$ -- 1076
+skip$ -- 1104
 stack$ -- 0
-substring$ -- 1266
-swap$ -- 106
+substring$ -- 1274
+swap$ -- 107
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 579
+type$ -- 588
 warning$ -- 2
-while$ -- 314
+while$ -- 317
 width$ -- 0
-write$ -- 679
-(There were 4 error messages)
+write$ -- 689
+(There were 6 error messages)
