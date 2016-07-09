@@ -1,36 +1,36 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 Case mismatch error between cite keys caputo14 and Caputo14
----line 141 of file main.aux
+---line 184 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 142 of file main.aux
+---line 185 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys caputo14 and Caputo14
----line 147 of file main.aux
+---line 190 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 148 of file main.aux
+---line 191 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
 The style file: mn2e.bst
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
---line 3628 of file Bibliography/bibdatabase.bib
+--line 3644 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
---line 3636 of file Bibliography/bibdatabase.bib
-Repeated entry---line 4009 of file Bibliography/bibdatabase.bib
+--line 3652 of file Bibliography/bibdatabase.bib
+Repeated entry---line 4025 of file Bibliography/bibdatabase.bib
  : @article{Dias2002
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4094 of file Bibliography/bibdatabase.bib
+Repeated entry---line 4110 of file Bibliography/bibdatabase.bib
  : @article{MacLow2004
  :                    ,
 I'm skipping whatever remains of this entry
@@ -46,45 +46,46 @@ Warning--I didn't find a database entry for "mcmillan07"
 Warning--I didn't find a database entry for "allison10"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Newton1687
-You've used 69 entries,
+Warning--empty publisher in Reipurth2008
+You've used 104 entries,
             2938 wiz_defined-function locations,
-            1091 strings with 15626 characters,
-and the built_in function-call counts, 28970 in all, are:
-= -- 2419
-> -- 1880
-< -- 10
-+ -- 648
-- -- 625
-* -- 2264
-:= -- 5538
+            1299 strings with 22843 characters,
+and the built_in function-call counts, 48272 in all, are:
+= -- 3880
+> -- 3776
+< -- 12
++ -- 1262
+- -- 1227
+* -- 3841
+:= -- 9212
 add.period$ -- 10
-call.type$ -- 69
-change.case$ -- 459
-chr.to.int$ -- 71
-cite$ -- 71
-duplicate$ -- 1165
-empty$ -- 1872
-format.name$ -- 702
-if$ -- 5642
-int.to.chr$ -- 2
+call.type$ -- 104
+change.case$ -- 784
+chr.to.int$ -- 104
+cite$ -- 107
+duplicate$ -- 1760
+empty$ -- 2791
+format.name$ -- 1358
+if$ -- 9384
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 64
-newline$ -- 211
-num.names$ -- 280
-pop$ -- 421
+missing$ -- 98
+newline$ -- 316
+num.names$ -- 420
+pop$ -- 720
 preamble$ -- 1
-purify$ -- 455
+purify$ -- 780
 quote$ -- 0
-skip$ -- 1104
+skip$ -- 1748
 stack$ -- 0
-substring$ -- 1274
-swap$ -- 107
-text.length$ -- 9
+substring$ -- 1985
+swap$ -- 155
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 588
-warning$ -- 2
-while$ -- 317
+type$ -- 900
+warning$ -- 3
+while$ -- 480
 width$ -- 0
-write$ -- 689
+write$ -- 1038
 (There were 6 error messages)
