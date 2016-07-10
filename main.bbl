@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{118}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -60,9 +60,18 @@ Barrow-Green J., 1997, Poincar{\'e} and the Three Body Problem, History of
 \bibitem[{{Bastian} \& {Goodwin}(2006)}]{Bastian2006}
 {Bastian} N., {Goodwin} S.~P., 2006, \mnras, 369, L9
 
+\bibitem[{{Bate}(2009)}]{Bate2009}
+{Bate} M.~R., 2009, \mnras, 392, 590
+
+\bibitem[{{Bate}(2012)}]{Bate2012}
+{Bate} M.~R., 2012, \mnras, 419, 3115
+
 \bibitem[{{Bate}, {Bonnell} \& {Bromm}(2003){Bate}, {Bonnell}, \&
   {Bromm}}]{Bate2003}
 {Bate} M.~R., {Bonnell} I.~A., {Bromm} V., 2003, \mnras, 339, 577
+
+\bibitem[{{Bate} \& {Burkert}(1997)}]{Bate1997}
+{Bate} M.~R., {Burkert} A., 1997, \mnras, 288, 1060
 
 \bibitem[{{B{\'e}dorf} \& {Portegies Zwart}(2012)}]{Bedorf2012}
 {B{\'e}dorf} J., {Portegies Zwart} S., 2012, European Physical Journal Special
@@ -92,6 +101,11 @@ Barrow-Green J., 1997, Poincar{\'e} and the Three Body Problem, History of
 \bibitem[{Clagett(1959)}]{Clagett1959}
 Clagett M., 1959, The science of mechanics in the Middle Ages, University of
   Wisconsin publications in medieval science. University of Wisconsin Press
+
+\bibitem[{{Clarke}(2012)}]{Clarke2012}
+{Clarke} C., 2012, in Astronomical Society of the Pacific Conference Series,
+  Vol. 453, Advances in Computational Astrophysics: Methods, Tools, and
+  Outcome, {Capuzzo-Dolcetta} R., {Limongi} M., {Tornamb{\`e}} A., eds., p.~3
 
 \bibitem[{{Cohen} I.~B.(1999)}]{Cohen1999}
 {Cohen} I.~B., Anne~Whitman J.~B., 1999, The Principia: Mathematical Principles
@@ -174,6 +188,9 @@ Freeman K.~C., Block D., Elmegreen B.~G., Woolway M., 2015, Lessons from the
 {Frisch} U., {Bec} J., {Villone} B., 2001, Physica D Nonlinear Phenomena, 152,
   620
 
+\bibitem[{{Fujii} \& {Portegies Zwart}(2016)}]{Fujii2016}
+{Fujii} M.~S., {Portegies Zwart} S., 2016, \apj, 817, 4
+
 \bibitem[{{Fujii}, {Saitoh} \& {Portegies Zwart}(2012){Fujii}, {Saitoh}, \&
   {Portegies Zwart}}]{Fujii2012}
 {Fujii} M.~S., {Saitoh} T.~R., {Portegies Zwart} S.~F., 2012, \apj, 753, 85
@@ -191,6 +208,9 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 
 \bibitem[{{Goodwin} \& {Bastian}(2006)}]{Goodwin2006}
 {Goodwin} S.~P., {Bastian} N., 2006, \mnras, 373, 752
+
+\bibitem[{{Goodwin} \& {Whitworth}(2004)}]{Goodwin2004}
+{Goodwin} S.~P., {Whitworth} A.~P., 2004, \aap, 413, 929
 
 \bibitem[{{Gutermuth} {et~al}\mbox{.}(2009){Gutermuth}, {Megeath}, {Myers},
   {Allen}, {Pipher}, \& {Fazio}}]{Gutermuth2009}
@@ -238,12 +258,22 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Klessen} \& {Burkert}(2000)}]{Klessen2000}
 {Klessen} R.~S., {Burkert} A., 2000, \apjs, 128, 287
 
+\bibitem[{{Kouwenhoven} {et~al}\mbox{.}(2010){Kouwenhoven}, {Goodwin},
+  {Parker}, {Davies}, {Malmberg}, \& {Kroupa}}]{Kouwenhoven2010}
+{Kouwenhoven} M.~B.~N., {Goodwin} S.~P., {Parker} R.~J., {Davies} M.~B.,
+  {Malmberg} D., {Kroupa} P., 2010, \mnras, 404, 1835
+
 \bibitem[{{Kragh} \& {Smith}(2003)}]{Kragh2003}
 {Kragh} H., {Smith} R.~W., 2003, History of Science, 41, 141
 
 \bibitem[{Kramer(1982)}]{Kramer1982}
 Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
   paperbacks. Princeton University Press
+
+\bibitem[{{Kruijssen} {et~al}\mbox{.}(2012){Kruijssen}, {Maschberger},
+  {Moeckel}, {Clarke}, {Bastian}, \& {Bonnell}}]{Kruijssen2012}
+{Kruijssen} J.~M.~D., {Maschberger} T., {Moeckel} N., {Clarke} C.~J., {Bastian}
+  N., {Bonnell} I.~A., 2012, \mnras, 419, 841
 
 \bibitem[{{Kuhn}, {Getman} \& {Feigelson}(2015){Kuhn}, {Getman}, \&
   {Feigelson}}]{Kuhn2015}
@@ -283,12 +313,25 @@ Maury J., 1992, Newton: Understanding the Cosmos, New horizons in history
 \bibitem[{{McKee} \& {Ostriker}(2007)}]{McKee2007}
 {McKee} C.~F., {Ostriker} E.~C., 2007, \araa, 45, 565
 
+\bibitem[{{McMillan}, {Vesperini} \& {Portegies Zwart}(2007){McMillan},
+  {Vesperini}, \& {Portegies Zwart}}]{McMillan2007}
+{McMillan} S.~L.~W., {Vesperini} E., {Portegies Zwart} S.~F., 2007, \apjl, 655,
+  L45
+
 \bibitem[{{Mikkola} \& {Aarseth}(1993)}]{Mikkola1993}
 {Mikkola} S., {Aarseth} S.~J., 1993, Celestial Mechanics and Dynamical
   Astronomy, 57, 439
 
 \bibitem[{{Miller} \& {Scalo}(1979)}]{Miller1979}
 {Miller} G.~E., {Scalo} J.~M., 1979, \apjs, 41, 513
+
+\bibitem[{{Moeckel} \& {Bate}(2010)}]{Moeckel2010}
+{Moeckel} N., {Bate} M.~R., 2010, \mnras, 404, 721
+
+\bibitem[{{Myers} {et~al}\mbox{.}(2014){Myers}, {Klein}, {Krumholz}, \&
+  {McKee}}]{Myers2014}
+{Myers} A.~T., {Klein} R.~I., {Krumholz} M.~R., {McKee} C.~F., 2014, \mnras,
+  439, 3420
 
 \bibitem[{Newton(1687)}]{Newton1687}
 Newton S.~I., 1687, Philosophiae Naturalis Principia Mathematica, Vol.~1
@@ -308,6 +351,9 @@ Newton S.~I., 1687, Philosophiae Naturalis Principia Mathematica, Vol.~1
 \bibitem[{{Olczak}, {Spurzem} \& {Henning}(2011){Olczak}, {Spurzem}, \&
   {Henning}}]{Olczak2011}
 {Olczak} C., {Spurzem} R., {Henning} T., 2011, \aap, 532, A119
+
+\bibitem[{{Parker} \& {Wright}(2016)}]{Parker2016}
+{Parker} R.~J., {Wright} N.~J., 2016, \mnras, 457, 3430
 
 \bibitem[{{Pavese}(2015)}]{Pavese2015}
 {Pavese} F., 2015, ArXiv e-prints
@@ -364,6 +410,14 @@ Poincar\'e H., 1906, Bulletin de la soci\'et\'e astronomique de France, 20, 153
 \bibitem[{{Terlevich}(1980)}]{Terlevich1980}
 {Terlevich} E., 1980, in IAU Symposium, Vol.~85, Star Clusters, {Hesser} J.~E.,
   ed., p. 165
+
+\bibitem[{{Teyssier}(2002)}]{Teyssier2002}
+{Teyssier} R., 2002, \aap, 385, 337
+
+\bibitem[{{Turner} {et~al}\mbox{.}(1995){Turner}, {Chapman}, {Bhattal},
+  {Disney}, {Pongracic}, \& {Whitworth}}]{Turner1995}
+{Turner} J.~A., {Chapman} S.~J., {Bhattal} A.~S., {Disney} M.~J., {Pongracic}
+  H., {Whitworth} A.~P., 1995, \mnras, 277, 705
 
 \bibitem[{{Tutukov}(1978)}]{Tutukov1978}
 {Tutukov} A.~V., 1978, \aap, 70, 57

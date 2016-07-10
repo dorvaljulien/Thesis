@@ -2,182 +2,28 @@
 % Introduction
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
-\section*{Foreword}
-\addcontentsline{toc}{section}{Foreword}
-
-Looking at the four fundamental forces, gravity is probably the one that we, as a species, take the most for granted. Of course, few of us stop and meditate on the strong and nuclear forces on a daily basis, but we never experience their direct effect. We do not feel the strong nuclear force tying together the protons inside our bodies,  neither do we feel the weak nuclear interaction inducing our potassium atoms to decay into calcium. The electromagnetic force is more present in our mind on a daily basis. Even more so since the arrival of the \textit{f\'ee \'electricit\'e} in our lives and the advent of her child, the electronic age. Even though some manifestations of the electromagnetic force, such as sunlight, are taken for granted, humans keep a sense of wonder about electromagnetism. Magnets, lightning, electromagnetism \textit{feels} magical, as humans have only understood it for a few generations.
-
-What about gravity ? Gravity is part of our mental landscape, we experience its direct effects all the time. If we drop something, it falls, if we throw something, it curves back to the ground, we know this, instinctively. The absence of gravity feels much stranger as our brains evolved under the influence of this fundamental force. Thus we rarely reflect on it. 
-\\
-\\
-But it is, by no means, the least interesting of forces.
-\\
-\\
-Gravity is the Great Herder, the maker of galaxies, the architect of stars and creator of planets. It brings matter together and kindles hydrogen, illuminating the universe. This work focuses on its role as stellar choregrapher. Gravity makes stars dance.
+\chapter{Introduction}
 
 \newpage
 
+\section{Introduction to star clusters}
 
-\section{From Aristotle to GPU computing : an history of physics and gravity}
 
-\subsection*{Motion}
-For two thousand years, Aristote physics dominated european philosophy. Rocks fell to the ground because they wanted to join their element, objects in the sky were attached to eternal rotating crystal spheres, and motion was either natural or violent, the latter needing a continuous force to exist. As the importance of projectiles grew in middle-age warfare, some improvement were made to explain trajectories, such as the impetus, a "contained source of motion" imprinted to a projectile by the thrower. Introduced by Philopon in the 6th century and relayed by Avicenne in the 11th century, it was properly formalized by Jean Buridan in the 14th century in his "Questions on Aristotle's Metaphysics". Buridan's impetus had a lot in common with momentum, in that it was proportionnal to mass and velocity, but could be circular, as shown by this description of celestial motion from Buridan \citep{Clagett1959}:
+\subsection{What are star clusters ? }
 
-\begin{quote}
-God, when He created the world, moved each of the celestial orbs as He pleased, and in moving them he impressed in them impetuses which moved them without his having to move them any more...And those impetuses which he impressed in the celestial bodies were not decreased or corrupted afterwards, because there was no inclination of the celestial bodies for other movements. Nor was there resistance which would be corruptive or repressive of that impetus.
-\end{quote} 
 
+The widest definition possible for a star cluster is "An area of the sky with visibly grouped stars". However, this includes random line of sight groups and galaxies. We are interested in physical objects, smaller than galaxies, in which stars are, if not bound, at least under direct mutual gravitational influence. Such objects include open clusters, globular clusters or associations.  \cite{Lada2003} adopted the following definition: a cluster is a stellar system with N$>35$ and a density $\rho > 1~\Mo /\textrm{pc}^3$. These objects can either dissolve in less than a million year or remain bound for billions of years.
 
-Despite the conceptual mistake of a circular momentum, Buridan, with this text, is the first to include the motion of celestial bodies in the same framework used for everyday, terrestrial motion. The impetus is not a good model, but it is a model for everything in the universe. No more eternal crystal spheres, everything in the universe must obey the same laws. Scientific revolutions do not happen in a vacuum: Buridan and others paved the way for the intellectual landslide of the 16th and 17th century.
+Who discovered the first star cluster ? His name is long lost, as is that of the discoverer of the Moon. A few clusters are visible to the naked eye and have been known for as long as mankind looked up to the night sky: the Pleiades, the Hyades or the Beehive cluster. In 1609 when Galileo first pointed his telescope to the sky, he added many stars to these objects, and discovered others. When Charles Messier published his famous catalogue of diffuse objects in 1781, many of those were star clusters, not always recognized as such at the time. As observation techniques improved over time, many more star clusters were discovered and their origins were progressively unraveled.
 
-\subsection*{Geocentrism and heliocentrism}
 
-While the concept of motion was slowly being refined, our vision of the universe was undergoing some faster changes. The dominant system in Europe since 150AD was the Ptolemaic geocentric model: the Sun and planets went around the Earth, following convoluted trajectories made of circles within circles called epicycles. Though complex, this system was consistent with Aristotle principles of celestial spheres and was accurate to a reasonable extent. Some alternate geocentric models were proposed by arab astronomers, such as Nasir ad-Din at-Tusi and Ibn al-Shatir, as well as rejected attempts to heliocentric models.
+\subsection{Why study them ?}
 
-Nicolaus Copernicus studied astronomy in Cracow and Bologna, under the influence of hard critics of the ptolemaic system. Strangely, this criticism was not fueled by observations, but by astrology. Astronomy and astrology were closely intertwined, and the chaotic structure of the ptolemaic system made astrological considerations complicated \citep{Barker2014}. In a quest for consistency and simplicity, Copernicus proposed his heliocentric system, published in \textit{De revolutionibus orbium coelestium} in 1543, the year of his death, in which all planets went around the sun, in the correct order. However, clinging to circular orbits, Copernicus had to preserve ptolemaic workarounds such as epicycles. 
+Clusters are the result of bursts of star formation in Giant Molecular Clouds. All stars within a cluster were born approximately at the same time, which explains the sustained interest of the scientific community for star clusters: they are the best available stellar physics laboratories, a large population of stars sharing the same age and distance to Earth. The age of the cluster can be derived from the most massive surviving stars in the population, as stars have lifetimes inversely correlated with their mass. Overall, integrated spectral features from all members of a star cluster can provide a wealth of information.
 
+As we will see, clusters are also crucial to understand stellar formation. They harbour the most massive and young stars, which cause large-scale ionisation, winds and shockwaves from their explosive death in supernovaes. Massive stars caused the re-iniozation of the entire known universe 400 Myr after the Big Bang. To understand massive stars is to understand star formation, and to understand star formation is to understand star clusters.
 
-\begin{figure}
-\center
-\includegraphics[width=0.45\linewidth]{Figures/0_PtolemaicModel.png}
-\includegraphics[width=0.38\linewidth]{Figures/0_CopernicusModel.jpg}
-\caption{ Left: Depiction of the Ptolemaic geocentric system, the equant is not shown . Right: Copernicus illustration of his own heliocentric system, from \textit{De revolutionibus}. }
-\label{Fig:0_PtolemyCopernicus}
-\end{figure}
 
-
-
-The astronomical evidence was, at the time, paradoxically against him. The apparent size changes of planets could not be measured yet, as well as stars parallaxes, contradicting heliocentrism. The idea of a moving Earth implied some effect on falling bodies (known today as coriolis effect) which were also not measurable at the time. Building on this apparent counter-evidence and on the work of indian astronomer Nilakantha Somayaji, Tycho Brahe, the most renowned astronomer of his time, proposed an alternative model known as the Tychonic system in the late 16th century \citep{ramasubramanian1998}. Brahe maintained the Earth as the center of the universe, circled by the sun, itself orbited by all other planets. The system was very efficient and was quickly adopted by the Church and considered in compliance with the Holy Scriptures.
-
-However, the seed of heliocentrism was planted in european scientific minds. The idea exalted the impetuous and visionnary Giordano Bruno, who pushed the decentralization of Earth to the extreme, claiming stars were other suns, harboring other planets, which themselves could sustain intelligent life. For this, his rejection of catholic dogma and his vehement refusal of retractation, Bruno was burned at the stake on the Campo de Fiori in 1600. Bruno, the fiery dialectist, despised geometry and believed the mind alone could unravel any mystery. 
-
-Johanes Kepler believed in geometry, in consistency and in observations. Ardent supporter of copernicism, he convinced Tycho Brahe to grant him access to his astronomical data, unsurpassed at the time. Focusing on the motion of Mars, Kepler, through trial and error, found out the planet was moving around the Sun following an ellipse. He formulated his first two laws of planetary motions. Further exploration led him to the third law. The three laws of Kepler were formulated, initiating the mathematisation of astronomy, and with it of all physics.
-
-\subsection*{The Starry Messenger}
-
-
-The father of modern astronomy, and precursor of modern science, Galileo Galilei was born in Pisa in 1564. For the first part of his scientific career, Galileo got famous for his lectures on mechanics and motion. Building on Buridan and Oresme's ideas, he expressed the mathematical form of free fall motion $ d = \frac{gt^2}{2}$. Galileo also formulated what was essentially the future first law of motion from Newton.
-
-In 1609, his passion for scientific instruments led Galileo to build his own "dutch perspective glass", or telescope, a pioneering optical device from the netherlands. Once pointed at the sky, the device triggered an avalanche of observations who would forever bury the aristotelitian view of perfect and unchanged heavens. Moving Jupiter satellites, Moon craters and mountains, millions of stars in the Milky Way, these were consigned into \textit{Sidereus Nuncius} (Starry messenger), the first scientific publication of astronomical observations \citep{galileo1610}.
-
-Strong advocate of copernicism, but lacking proper evidence, Galileo caused a large controversy with his 
-\textit{Dialogue Concerning the Two Chief World Systems} published in 1632, a pamphlet against the ptolemaic system, presenting (arguably unintentionnaly) one of its advocates as a simpleton. Despite his friendship with the pope, he had to retract his work and reject copernicism. Galileo spent the rest of his life on house arrest. Observationnal evidence at the time was still on the side of geocentrism, but the extent of the backslash against Galileo showed the febrility of a Church having absorbed Ptolemy and Aristotle principle into its doctrine, in a time where the debate was shifting from theology to physics and observations.
-
-The relativity of motion is often attributed to Galileo, as he includes it in its controversial pamphlet, stating that a traveller inside a ship sailing smoothly would not be able to tell he's moving. Thus, people could be standing on a moving Earth without feeling it. However, this thought experiment was nothing new at the time and had been a recurring theme of mechanical philosophy since Buridan. Oresme, Copernicus and Bruno had been building on the idea, expanding and improving it, developing over the centuries an implicit understanding of inertia, until Bruno actually gives it a name: \textit{virt\`u}. Galileo may have met Bruno himself, and had surely been influenced by his writings \citep{DeAngelis2015}. Galileo's formulation was clearer, and part of a larger understanding of motion, introducing the concept of reference frame. After Copernicus decentralized the Earth, Galileo decentralized human subjectivity itself, setting the scene for the revolution to come. 
-
-\subsection*{On the shoulders of giants}
-
-Isaac Newton is without a doubt the father of modern mathematical science. Admitted in Cambridge in 1661, Newton supplemented the -still- official aristotelitian teaching with more modern authors: Copernicus, Galileo, Kepler, and most of all, Descartes. The french philospher had a profound impact on the young student, rooting his love for mathematics and deductive reasoning. However, while Descartes showed disdain for experimentation, Newton was an acute observer of the natural world. 
-
-In 1666, while in is mother's farm, having been forced out of Cambridge by the Plague, Newton began his reflexion on the motion of celestial bodies. He derived from Kepler's law that the Sun had to exert an inverse squared distance attraction on the planets. Extending the concept to the Earth, moon, and a famous apple, Newton found a way to verify his hypothesis, using data from Galileo mechanical studies on the strength of Earth attraction. The wrong estimate of Earth radius he used at the time introduced a discrepancy which put the young man off his \textit{gravitas} studies for 18 years.
-
-Edmond Halley, astronomer and friend of Newton, having heard of Newton inverse squared law, urged him in 1684 to communicate his work the Royal Society. With a new accurate measure of Earth radius and confronted to a concurrent claim to his law from Robert Hooke \citep{Kramer1982}, Newton capitulated to Halley's eager enthousiasm and communicated his work in the famous \textit{Philosophiæ Naturalis Principia Mathematica} \citep{Newton1687}. Published at Halley's own expense, the Principia shook all of Europe. Newton had invented Calculus (in parallel of Leibniz) and applied it to derive the universal law of Gravitation.
-
-\begin{equation}
-F = G \frac{m_1.m_2}{r^2}
-\end{equation}
-
-
-Where:
-\begin{itemize}
- \setlength\itemsep{-0.5em}
-  \item[$F$] Gravitational attraction between object 1 and object 2
-\item[$G$] Gravitational constant, $6.67408.10^{-11} m^3 kg^{-1} s^{-2}$ \citep{Pavese2015}
-\item[$m_i$] Masses of object 1 and 2
-\item[$r$] Distance between object 1 and 2
-\end{itemize}
-
-Though Newton was part of continuous line of geniuses and innovative minds building from each others, as he puts it "If I have seen further it is by standing on the shoulders of giants" \citep{Maury1992}, his input was truly revolutionnary. He made large advances in optics and mathematics, and created a consistent mathematical framework to compute motions, essentially founding modern science and sowing the seeds of the industrial revolution. This framework is summed up by Newton's three laws of motion (from recent translation \citealt{Cohen1999}):
-
-\begin{quote}
-Law I : Every body persists in its state of being at rest or of moving uniformly straight forward, except insofar as it is compelled to change its state by force impressed.
-\end{quote}
-
-\begin{quote}
-Law II: The alteration of motion is ever proportional to the motive force impress'd; and is made in the direction of the right line in which that force is impress'd.
-\end{quote}
- 
- \begin{quote}
- Law III: To every action there is always opposed an equal reaction: or the mutual actions of two bodies upon each other are always equal, and directed to contrary parts.
- \end{quote}
-
-The second law can be mathematically formulated in more modern terms:
-
-\begin{equation}
-\sum \bold{F} = \frac{d \bold{p}}{dt}
-\end{equation}
-
-Meaning the sum of all forces $\bold{F}$ applied to an object is equal to the time derivative of its momentum $\bold{p} = m.\bold{v}$.
-
-
-
-\subsection*{The n=3 body problem}
-
-As the Enlightenment brought a scientific revolution in many fields, I will now limit the discussion to the development of celestial mechanics, while acknowledging input from other fields.
-
-While the two-body problem had been solved by Newton and expanded by Bernoulli in 1710 \citep{Barrow1997}, in the 18th century the three-body problem remained the object of much investigation and development. A general solution for the Earth-Moon-Sun system would have had applications on nautical astronomy and trans-continental navigation. Extended analytical work by d'Alembert, Clairaut, Euler and Lagrange led to the development of early families of approximate solutions or exact solutions to special cases.
-
-From 1773 to 1793, Joseph-Louis Lagrange, helped by his invention of Lagrangian mechanics, would make a lot of advances on the three-body problem. He introduced the concept of potential and discovered libration points (later known as Lagrange points). In the same time, Pierre-Simon de Laplace proved the stability of the solar system using a newly developped perturbation theory. The solar system dynamics were being unraveled, with finely tuned perturbation computation, but the general three-body problem remained unsolved.
-
-In 1888, Henri Poincaré, greatest mathematician of his time, submitted an entry to a contest organized by the King of Sweden Oskar II. The goal was to determine a usable solution to the n-body problem, for any given n. While Poincaré does not submit a complete solution, he wins the contest by presenting an in-depth exploration of the phase-space of the restricted three-body problem, which would later give rise to the Chaos theory ,see \cite{Yoccoz2010}. Poincaré managed to prove that the three-body problem had no  solution involving simple functions.
-
-Contrary to popular belief, the three-body problem \textit{has} a solution, it was derived by Karl F. Sundman in 1912 \citep{Sundman1912}. However, any attempt to obtain accurate trajectory predictions would face tremendous convergence time and is in practice unusable \citep{Beloriszky1930}.
-
-It is interesting to note that Elis Str\"omgren performed by-hand calculation of a three-body system, see \cite{Aarseth2003,Stromgren1909}, prefiguring the advent of numerical orbit computation.
-
-\subsection*{The n$>$3 body problem}
-
-\begin{quote}
-"The Sun attracts Jupiter and the other planets, Jupiter attracts its satellites and similarly the satellites act on one another."
-\end{quote}
-
-By this sentence from the \textit{Principia}, Newton formulates the n-body gravitational problem, an arbitrary number of massive bodies all interacting gravitationally, for the solar system. The "n$>$3-body" problem didn't receive a lot of attention at first, as the unruly three-body problem was on everyone's mind, and a n$>$3-body problem seemed abstract, the solar system example being appropriatly dealt in approximations.
-
-In 1764, Charles Messier resolved individual stars in Messier 4, a globular cluster, hundreds of thousands of stars grouped together. Many new clusters were to be found afterwards, extending the catalog of real-life n-body systems. However, nothing was known of their kinematics, the stars were, in a sense, suspended motionless in the sky. This was the case until the advent of Doppler spectroscopy, which allowed astronomer to measure stars velocities \citep{Doppler1842}. Stellar dynamics had begun.
-
-The n$>$3-body problem was still inaccessible, so scientists like James Jeans and Arthur Eddington decided to take the problem from the other hand, and took advantage of the large number of stars. Inspired by \cite{Poincare1906}, both astronomers applied the statistical theory of gas to stellar systems, founding the field of stellar dynamics \citep{Jeans1916,Eddington1916}.
-
-An interesting experiment was conducted by \cite{Holmberg1941} to understand the collision of two stellar systems (galaxies). With too few points to warrant a statistical approach, and before the rise of numerical integration, Holmberg modelled two galaxies with dozens of lightbulbs and photocells, measuring the attractive force with the amount of light received in each direction, taking advantage of the inverse squared fall of luminosity with distance, akin to gravity.
-
-\subsection*{The numerical age}
-
-The first numerical N-body computations were performed by Sebastian Von Hoerner in 1959 when visiting the University of T\"ubingen, on a Siemens 2002, a cutting edge calculator at the time. The very first had N=4. Then, Von Hoerner, back in Heidelberg, worked his way up to 16 stars, then 25, programming and debugging on punch cards. This story was told by Von Hoerner himself in \cite{VonHoerner2001}. He very quickly realized the importance of binary stars and their impact on computations. He was also able to confirm some theoretical prediction on cluster dynamics, and found an interesting radial density profile with a center cusp \citep{VonHoerner1960,VonHoerner1963}.
-
-\begin{figure}
-\label{Fig:N_increase}
-\includegraphics[width=0.9\linewidth]{Figures/0_N_increase.png}
-\caption{The evolution of the number of particles in N-body simulations. Solid line shows the Moore law. The figure was taken from \protect\cite{Bedorf2012}. }
-\end{figure}
-
-
-There was two ways to increase the number of stars in simulations: buy a better computer or improve the algorithm. Sverre Aarseth got invested in the second path, which would take over his scientific life. Aarseth pioneered the use of individual time-step, changing the rate at which particles positions are updated, gravitationnal softening, allowing convergence for close approach, and polynomial prediction for force calculations \citep{Aarseth1964}. As power and optimization grew, investigations expanded, such as the interaction star-gas \citep{VanAlbada1968a} and binary formation \citep{VanAlbada1968b}.
-
-The 1970s brought two new important optimisation methods: KS regularization of close pairs \citep{Aarseth1972} and Ahmad-Cohen neighbour scheme \citep{AhmadCohen1973}. The number of stars in simulations kept growing, reaching 1000 with \cite{Terlevich1980} and materializing into the \textit{NBODY5} integrator. At this point various methods departing from a pure collisional calculation began to emerge, such as the simplified distant interaction with the \cite{BarnesHut1986} tree algorithm.
-
-To go beyond the regular improvement of computing power with time, a group of japanese researchers, among whom Junichiro Makino, designed and built special purpose hardware for many-body problems: GRAPE \citep{Ebisuzaki1990,Ito1991}. These cards vastly improved the speed of nbody simulations and were a milestone on the road to the parallelization of computing. With the force calculation directly implemented in the hardware, GRAPE dominated the field for 15 years.
-
-The latest technological leap in Nbody simulations came from graphic cards, see \cite{Bedorf2012} for a more detailed historical perspective. Graphical Processing Units, or GPU, were originally designed for computer games visual rendering, applying the same transformations to a lot of pixels at the same time. These made them very efficient parallel computing machines for physics. Interest in GPU computing started to grew in the 2000s \citep{Nyland2004,Elsen2006,SPZ2007} until the advent of usable GPU programming languages, like CUDA, in the late 2000s. At this point GPU were more efficient than GRAPE hardware for force calculation. Keigo Nitadori and Sverre Aarseth developped a GPU-accelerated version of the latest NBODY code, NBODY6, in 2012 \citep{Nitadori2012}.
-
-Last year, 329 years after the publication of the \textit{Principia}, a collisional nbody simulation of one million stars was performed with a modified version of NBODY6 running on GPU \citep{Wang2015}. Computers have made it possible for humans to study systems of incredible scales in space and time, only using the universal law of gravitation. N-body numerical integrators are the culmination of centuries of scientific development on the motion of massive bodies.
-
-
-
-\newpage
-\section{Star clusters}
-
-
-
-\subsubsection*{What are star clusters ? And why study them ?}
-
-
-The widest definition possible for a star cluster is "An area of the sky with visibly grouped stars". However, this includes binary stars and galaxies. We are interested in intermediate systems, such as open clusters, globular clusters or associations, in which stars are, if not bound, at least under direct mutual gravitational influence. \cite{Lada2003} adopted the following definition: a stellar system with N$>35$ and a density $\rho > 1~\Mo /\textrm{pc}^3$. These objects can either dissolve in less than a million year or remain bound for billions of years.
-
-Who discovered the first star cluster ? Their name is long lost, as is those of the discoverers of the Moon. A few clusters are visible to the naked eye and has been known for as long as mankind looked up to the night sky: the Pleiades, the Hyades or the Beehive cluster. In 1609 when Galileo first pointed his telescope to the sky, he added many stars to these objects, and discovered others. When Charles Messier published his famous catalogue of diffuse objects in 1781, many of those were star clusters, not always recognized as such at the time. As observation techniques improved over time, many more star clusters were discovered and their origins were progressively unraveled.
-
-Clusters are the result of bursts of star formation in Giant Molecular Clouds. All stars within a cluster were born approximately at the same time, which explains the sustained interest of the scientific community for star clusters for more than a century. They are the best laboratories of stellar physics available to us: a large population of stars sharing the same age and distance to Earth. The age of the cluster can be derived from the most massive surviving stars in the population, as stars have lifetimes inversely correlated with their mass. Overall, integrated spectral features from all members of a star cluster can provide a wealth of information.
 
 %
 %\begin{figure}
@@ -192,7 +38,7 @@ Clusters are the result of bursts of star formation in Giant Molecular Clouds. A
 
 \subsection{Types of star clusters}
 
-Star clusters are historically divided into two main categories: globular clusters and open clusters. As observationnal techniques improve, categories tends to blend into a spectrum of size, age, and dynamical state, with Young Massive Clusters, embedded clusters and OB associations. Several of these categories have significant overlap, but each one emphasizes a particular characteristic of star cluster, thus these are useful for a comprehensive discussion.
+Star clusters are historically divided into two main categories: globular clusters and open clusters. As observationnal techniques improved, categories tended to blend into a spectrum of size, age, and dynamical state, with Young Massive Clusters, embedded clusters and OB associations. Several of these categories have significant overlap, but each one emphasizes a particular characteristic of star cluster, thus these are useful for a comprehensive discussion.
 
 
 
@@ -218,7 +64,7 @@ Star clusters are historically divided into two main categories: globular cluste
 
 \end{itemize}
 
-"All stars form in clusters" is a recurring statement in the field of stellar and cluster formation. Near Infra-Red (NIR) studies of star forming region yieilded an star formation rate from embedded clusters of $\sim 3 10^3 \Mo \textrm{Myr}^{-1} \textrm{kpc}^2$ \citep{Lada2003} while the same estimation for field stars in the milky way gives $\sim 3-7 10^3 \Mo \textrm{Myr}^{-1} \textrm{kpc}^2$ \citep{Miller1979}. Another clue at the clustered nature of star formation is that high-mass O stars are for the vast majority, clustered, see \cite{DeWit2005}. Due to their short life, O stars are often observed at the very location of their birth, or not very far. However, some work by, e.g,  \cite{Gutermuth2011} seemed to point at a spatially hierarchical star formation. So stars do form in clusters, as in, in groups, but these groups are diverse and their dynamical evolution is complex.
+"All stars form in clusters" is a recurring statement in the field of stellar and cluster formation. Near Infra-Red (NIR) studies of star forming region yielded an star formation rate from embedded clusters of $\sim 3 10^3 \Mo \textrm{Myr}^{-1} \textrm{kpc}^2$ \citep{Lada2003} while the same estimation for field stars in the milky way gives $\sim 3-7 10^3 \Mo \textrm{Myr}^{-1} \textrm{kpc}^2$ \citep{Miller1979}. Another clue at the clustered nature of star formation is that high-mass O stars are for the vast majority, clustered, see \cite{DeWit2005}. Due to their short life, O stars are often observed at the very location of their birth, or not very far. However, some work by, e.g,  \cite{Gutermuth2011} seemed to point at a spatially hierarchical star formation. So stars do form in clusters, as in, in groups, but these groups are diverse and their dynamical evolution is complex.
 
 
 
@@ -260,16 +106,16 @@ Star clusters are historically divided into two main categories: globular cluste
 %\end{figure} 
 
 
-\subsection{Structure and dynamics}
+\section{Some important dynamical concepts}
 
-\subsubsection{Static models}
-\subsubsection{Dynamical timescales}
-\subsubsection{Mass segregation}
+\subsection{Static models}
+\subsection{Dynamical timescales}
+\subsection{Mass segregation}
 
 
-\subsection{Formation and evolution}
+\section{The origin of star clusters}
 
-\subsubsection{From gas to stars}
+\subsection{From gas to stars}
 
 The interstellar medium, or ISM, is made of dust and gas in various phases, densities and temperatures, ranging from a hot ionized medium ($T>10^5 K$ and $n < 0.01 cm^{-3}$) to a cold neutral medium ($T<100 K$ and $n > 10 cm^{-3}$),  see \cite{Field1969}. Finally, in colder denser regions, $T\sim 10k$ and $n>30cm^{-3}$, the hydrogen takes molecular form H$_2$ in what is called molecular clouds. The dust contained in these regions makes them optically thick, obscuring background stars. These "holes in the sky", as William Herschel exclaimed upon the Dark Ophiucus Nebula\citep{Houghton1942}, come in different sizes, from the "block globules" to Giant Molecular Clouds (GMCs).
 The interstellar dust absorbs the light in the visible and re-emits it in the infrared, thus the advent of infrared astronomy unveiled the interior of molecular clouds. In particular, recent observations with the Herschel Space Observatory showed a prevalence of filaments in clouds, see \cite{Andre2010}.
@@ -294,7 +140,7 @@ with $c_s$, $\rho$ and $n$ the local sound speed, density and number density. Th
 After about a Myr, accretion stops and the object becomes a Pre-Main Sequence (PMS) star. It slowly contracts, following the Hayashi track, first described by \cite{Hayashi1961}. The source of energy of the star is still gravitational contracting, until central temperature reaches 10$^6$K and hydrogen starts fusing into Helium. The stars enters the Main Sequence and begin its life.
 
 
-\subsubsection{Substructure and early dynamical evolution}
+\subsection{Substructure and early dynamical evolution}
 
 Observations show molecular clouds are substructured (see e.g. \citealt{Cambresy1999}). This substructure can be seen as a fractal distribution \citep{Elmegreen1996} or a network of filaments \citep{Andre2010}, both consistent with compressible turbulence \citep{McKee2007}	. This hierarchical structure is inherited by the cores and protostars that emerges from the overdensities, as many observational studies of star forming regions shows \citep{Schneider1979,Hartmann2002,Bressert2010}. Examples of substructured young clusters include the Taurus Ariga region, $\rho$-Ophiucus and Aquila, details and other examples can be found in both volumes of \textit{The handbook of star forming region} \cite{Reipurth2008}.  
 
@@ -303,7 +149,7 @@ However, other young clusters do not display such fractal, clumpy or filamentary
 This rough picture of substructured stellar formation and early evolution is backed up to some extent by hydrodynamical simulations of fragmentation modes in the turbulent ISM \citep{Klessen2000,Bate2003,MacLow2004,Offner2009}. When the newly born stars emerges in clumps, if the background tidal field is weak and the star forming region sits well inside its Roche radius, the clumps then converge to the system barycentre  and form a unique, relaxed  self-bound association over a  course of a few crossing time (see e.g. \citealt{Allison2009,Maschberger2010,Fujii2012}).
 
 
-\subsubsection{Star formation efficiency and infant mortality}
+\subsection{Star formation efficiency and infant mortality}
 
 In their seminal paper on embedded clusters, \cite{Lada2003} coined the term "infant mortality" for young star clusters. Comparing the populations of embedded clusters and older open clusters, the authors concluded clusters had a 90\% mortality rate before 10~Myr. This is explained by the traditionnal picture of gas expulsion in clusters: a portion of the gas in a molecular clouds form a group of protostars, which quickly accrete their envelope, then start nuclear burning. This portion is expressed as the star formation efficiency:
 \begin{equation}
@@ -314,16 +160,41 @@ This picture is backed up by observations of young dissolving clusters \citep{Ba
 
 However, the picture is more complicated than it seems. First, the efficiency of stellar feedback is a complex problem, winds, photionisation and supernovaes have various impacts depending on the size and morphology of the clouds; they also seem to influence each other, for an overview of the problem see the serie of papers from \cite{Dale2011,Dale2013} and references therein. Furthermore, recent hydrodynamical simulations such as \cite{Pelupessy2012} show the exact timescale of gas removal has a crucial importance on the fate of the cluster, with a slow removal allowing survival with $\epsilon$ as low as 5\%.
 
-Finally, most of the previously mentionned simulations assumed a relaxed embedded stellar system. However, as mentionned in previous section, star formation is substructured. Dynamical evolution occurs
-on timescales comparable to gas expulsion, making the stellar spatial distribution of huge importance for survival, as shown by \cite{Farias2015}.
-
-\subsection{Initial conditions for simulations}
-
-\subsubsection{Hydrodynamical simulations}
-\subsubsection{Artificial substructure}
+Finally, most of the previously mentionned simulations assumed a relaxed embedded stellar system. However, as mentionned in previous section, star formation is substructured. Dynamical evolution between clumps and subclusters occurs on timescales comparable to gas expulsion, making the stellar spatial distribution of huge importance for survival, as shown by \cite{Farias2015}. Hydrodynamical simulations (e.g \citealt{Kruijssen2012}) even point at subclusters being primordially gas-less due to localized high $\epsilon$, thus increasing the importance of substructure over gas expulsion.
 
 
+\section{Simulating star clusters evolution}
 
+
+\subsection{Hydrodynamical simulations}
+
+I invoked hydrodynamical simulations multiple times in the previous section. Let us look at them in more details. To model the formation of a star cluster from a core-less molecular cloud is no easy task. The model has to reproduce turbulence, core condensation, gravitational collapse, accretion, and for the most realistic ones, radiative cooling and stellar feedback. Two numerical path has been explored in the past: AMR and SPH.
+
+Adaptative Mesh Refinement, AMR, is an Eulerian approach. The hydrodynamical equations (conservation of mass, momentum, the equation of state) are discretized and solved on a grid of cells following the finite volumes methods (see the RAMSES code, \citealt{Teyssier2002}). Smoothed Particle Hydrodynamics, SPH, is a Lagrangian approach: instead of looking at inputs and outputs of matter in a cell, the gas is subdivided in particles free to move in the system. They are attributed a density, temperature and pressure. This method is akin the N-body integrator, and many SPH codes can work as purely gravitational integrators. SPH is popular in star formation simulations, as the problem is itself Lagrangian: grains of highly dense matter condensates and move around. Even if these codes can handle high density contrast, the collapse and formation of a protostar can still bring the numerical computation to a standstill. The usual workaround is the use of sink-particles: passed a given density threshold, several particles are merged into a single point-like object able to accrete any infalling matter. This works well though it suppresses any physical process below this accretion limit, usually a few to a hundred AU. \citep{Bate1997}.
+
+The precision, size and complexity of large scale cluster formation simulations have been steadily improving for 20 years (see \citealt{Turner1995,Klessen2000,Bate2003,Offner2009,Myers2014} and citations). Nevertheless, no simulation to date include realistic cooling processes, radiative and wind feedback, magnetic fields and dust chemistry, all at the same time. All these are crucial to achieve precise and realistic simulation of the star formation process. Moreover, one of the most detailed star formation simulations to date, e.g \cite{Bate2012}, only form a few hundred stars and evolved them for less than 0.2~Myr with a simulation run time of several months.
+
+However, good results are already being achieved, see the short review by \cite{Clarke2012}. Stellar properties and general structure agree with observations. In a nutshell, hydrodynamical simulations are not yet fully realistic, but they provide a good approximation of reality for small clusters.
+
+
+\subsection{Artificial substructure}
+
+Hydrodynamics is obviously needed to simulate the formation of stars, but once the stars formed and most of the gas has been either accreted or expulsed, the purely gravitational and collisional evolution of young stellar objects takes over. Nbody integration becomes sufficient to follow the evolution of the system. Because it is computationnaly less expansive, it makes models of larger clusters possible, as wall as longer evolution.
+
+ To simulate the very early evolution of star clusters, it is essential to obtain a good model of their phase-space distribution to use as initial conditions. As star formation is substructured, one cannot use a simple King or Plummer model to build a good young cluster. No known phase-space distribution can be sampled to reproduce the clumps and filamentary structure of the newborn stellar objects in a star-forming regions. Several methods have been explored to solve this.
+ 
+\begin{itemize}
+\item[\textbf{Sink particle distribution}] is the most straightforward solution. \cite{Moeckel2010} took the distribution of sink particles formed in the hydrodynamical simulation by \cite{Bate2009} and directly converted it as a stellar distribution, preserving the masses, positions and velocities of the "stellar seeds". This is probably the best initial conditions for nbody simulations of young clusters that can be achieved, at the cost of speed, sampling and size. The initial hydrodynamical simulation took months to complete, making it hard to run it again and impossible to run it multiple times to obtain a good statistical sampling of the model. The size of the cluster achieved cannot exceeds 1000 stars given the current state of hydrodynamical simulations.
+
+\item[\textbf{Stellar spawning from hydrodynamics}] is a variant of the previous method. \cite{Fujii2016} started from hydrodynamical simulations of massive molecular clouds and stopped the integration once the main structures had formed but before local gravitational collapse had set in. Stars were then spawned in space following the distribution of gas. This enables larger clusters and quicker initial conditions of structures. However, the velocity distribution of these new stars is artificial, as it can at best inherit the gas velocity, without including the impact of the early collisional evolution that occurs between protostars in the clumps.
+
+\item[\textbf{Scattered Plummer spheres}] is an analytic answer to the substructure problem. \cite{McMillan2007} created a clumpy model for a young star cluster by spawning several Plummer spheres randomly in space. This is almost immediate and is a good approximation. The authors obtained interesting results on the inheritance of mass segregation during mergers. However, clumps within a young star clusters have no reason to follow a Plummer profile, this places a constraint on the clumps internal dynamics which bias the dynamical evolution.
+
+\item[\textbf{Fractal models}] were introduced by \cite{Goodwin2004} and has been used in numerous studies ever since, e.g. \cite{Allison2009b,Kouwenhoven2010,Parker2016}. The idea is to grow a 3D pseudo-fractal tree with probabilistic branching, down to a given level, turning the final leaves into stars. The method is fast and the result is spatially realistic, fitting the observation that finds a fractal structure in the molecular clouds and star forming regions. However, the velocity distribution is artificial, drawn from successive gaussians at each levels. The clumps will relax when integration starts, shaking the whole system right off the bat.
+
+\end{itemize}
+
+It seems the generation of substructure has to balance realism and compututational cost. The most realistic method is too costly, and most of the quicker alternatives are disconnected from the dynamical effect arising from the collisional effects young stars undergo inside a clumpy configuration.
 
 
 
@@ -489,10 +360,6 @@ with $\Delta T_{reg}$ the regular time step. This ensures that fast approaching 
 
 When $N_{nb} \ll N$ for most particles, there is a great performance improvement, without loss of accuracy. 
 
-
-
-\newpage
- \section{Young star clusters}
 
 
 

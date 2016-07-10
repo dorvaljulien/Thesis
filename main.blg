@@ -1,22 +1,22 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 Case mismatch error between cite keys caputo14 and Caputo14
----line 184 of file main.aux
+---line 193 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 185 of file main.aux
+---line 194 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys caputo14 and Caputo14
----line 190 of file main.aux
+---line 199 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 191 of file main.aux
+---line 200 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
@@ -47,45 +47,45 @@ Warning--I didn't find a database entry for "allison10"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
-You've used 104 entries,
+You've used 118 entries,
             2938 wiz_defined-function locations,
-            1299 strings with 22843 characters,
-and the built_in function-call counts, 48272 in all, are:
-= -- 3880
-> -- 3776
-< -- 12
-+ -- 1262
-- -- 1227
-* -- 3841
-:= -- 9212
+            1380 strings with 25276 characters,
+and the built_in function-call counts, 54439 in all, are:
+= -- 4397
+> -- 4188
+< -- 14
++ -- 1403
+- -- 1364
+* -- 4353
+:= -- 10381
 add.period$ -- 10
-call.type$ -- 104
-change.case$ -- 784
-chr.to.int$ -- 104
-cite$ -- 107
-duplicate$ -- 1760
-empty$ -- 2791
-format.name$ -- 1358
-if$ -- 9384
+call.type$ -- 118
+change.case$ -- 879
+chr.to.int$ -- 118
+cite$ -- 121
+duplicate$ -- 2001
+empty$ -- 3166
+format.name$ -- 1516
+if$ -- 10583
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 98
-newline$ -- 316
-num.names$ -- 420
-pop$ -- 720
+missing$ -- 111
+newline$ -- 358
+num.names$ -- 478
+pop$ -- 809
 preamble$ -- 1
-purify$ -- 780
+purify$ -- 875
 quote$ -- 0
-skip$ -- 1748
+skip$ -- 1969
 stack$ -- 0
-substring$ -- 1985
-swap$ -- 155
-text.length$ -- 11
+substring$ -- 2280
+swap$ -- 174
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 900
+type$ -- 1026
 warning$ -- 3
-while$ -- 480
+while$ -- 547
 width$ -- 0
-write$ -- 1038
+write$ -- 1178
 (There were 6 error messages)

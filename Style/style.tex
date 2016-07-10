@@ -1,0 +1,229 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Liste des packages         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% Réglage des fontes et typo
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage[frenchb]{babel}
+%
+%\usepackage{mathptmx}
+\usepackage{avant}
+
+
+
+%% Apparence globale
+\usepackage{color}
+\usepackage[top=1.5cm, bottom=3.5cm, inner=2cm, outer=3cm]{geometry}
+
+% \usepackage[french]{minitoc}		% Permet de faire une table des matieres par chapitre
+% \setcounter{minitocdepth}{3}		% Mini-toc détaillées (sections/sous-sections)
+% \usepackage{silence}
+% \WarningFilter{minitoc(hints)}{W0023}	% Virer les erreur dues à minitoc
+% \WarningFilter{minitoc(hints)}{W0024}
+% \WarningFilter{minitoc(hints)}{W0028}
+% \WarningFilter{minitoc(hints)}{W0030}
+% \WarningFilter{blindtext}{} % this takes care of the `blindtext` messages
+
+\usepackage{titlesec}
+\usepackage{enumerate}
+%\usepackage{enumitem}
+%\usepackage{pdflscape}			% Permet d'utiliser des pages au format paysage
+\usepackage{url}
+\usepackage{listings}			% Permet d'insérer du code source
+\usepackage{changepage}
+
+\usepackage{natbib}
+\usepackage{paralist}
+\usepackage{aas_macros}
+
+\usepackage{hyperref}
+\definecolor{citations}{rgb}{0,0,0.4}
+\definecolor{liens}{rgb}{0.5,0,0}
+\hypersetup{
+	bookmarks=false,
+	unicode=true,
+	pdffitwindow=true,
+	pdfnewwindow=false,
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	urlcolor=cyan}
+% \usepackage{breakurl}
+% \usepackage{ifmtarg}
+
+%% Maths
+\usepackage{amsmath}	% Permet de taper des formules mathématiques
+\usepackage{amssymb}	% Permet d'utiliser des symboles mathématiques
+\usepackage{amsfonts}	% Permet d'utiliser des polices mathématiques
+\usepackage{amsthm}
+\usepackage{nicefrac}	% Permet de taper de belles fractions
+\usepackage{relsize}
+
+\usepackage[ruled,vlined]{algorithm2e}
+%\SetKwInput{Data}{\textbf{Données}}
+%\SetKwInput{Res}{\textbf{Résultats}}
+%\SetKwFor{Pour}{pour}{faire}{fin boucle}
+%\SetKwBlock{Deb}{début}{fin}
+%\SetKwInput{Entree}{Entrées}
+%\SetKwInput{Sortie}{Sorties}
+%%     \SetKw{KwA}{à}
+%%     \SetKw{Retour}{retourner}
+%%     \SetKwIF{Si}{SinonSi}{Sinon}{si}{alors}{sinon si}{alors}{finsi}
+%%     \SetKwSwitch{Suivant}{Cas}{Autre}{suivant}{faire}{cas où}{autres cas}{fin d’alternative}
+%%     \SetKwFor{Tq}{tant que}{faire}{fintq}
+%%     \SetKwFor{PourCh}{pour chaque}{faire}{finprch}
+%%     \SetKwFor{PourTous}{pour tous}{faire}{finprts}
+%%     \SetKwRepeat{Repeter}{répèter}{jusqu’à}
+
+
+%% Tableaux
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{threeparttable}	% Permet de faire des ``tablenotes'' dans un tableau
+\newcolumntype{D}[1]{>{\centering}m{#1}}
+\usepackage{diagbox}
+
+%% Graphiques
+\usepackage{graphicx}		% Permet l'inclusion d'images
+\usepackage{pdfpages}		% Permet d'inclure des pdf plus facilement \includepdf
+\usepackage{tikz}		% Permet de creer des elements graphiques
+\usepackage{eso-pic}		% Permet d'ajouter des commandes graphiques a chaque page
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         Bibliography                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{Bibliography/journals.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         Commande Personnelles        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titleformat{\chapter}[display]
+  {\normalfont\Huge\bfseries\raggedleft}
+  {\MakeUppercase{\chaptertitlename%}
+      \enspace \thechapter}}
+  {11pt}{\Huge}
+%     \enspace \resizebox{!}{2cm}{\thechapter}
+%     \enspace \rlap{\rule{5cm}{1.5cm}}}
+% \titlespacing*{\chapter}{0pt}{30pt}{20pt}
+
+\titleformat{\part}[frame]
+  {\normalfont\bfseries\scshape}
+  {\filright \Large \enspace Part \thepart \enspace}
+  {11pt}{\Huge\filcenter}
+% \titlespacing*{\part}{0pt}{30pt}{20pt}
+
+
+% \newcommand{\partie}[1]{ \part{\textsc{#1}} }
+\newcommand{\introchapitre}[1]{ \chapter*{\textbf{\MakeUppercase{#1}}}}
+\newcommand{\biblio}[1]{ \chapter*{\textsc{#1}} }
+
+%\newcommand{\algoref}[1]{Algorithme \ref{#1}}
+\newcommand{\secref}[1]{Section \ref{#1}}
+\newcommand{\chapref}[1]{Chapter \ref{#1}}
+\newcommand{\figref}[1]{\textsc{Figure}. \ref{#1}}
+\newcommand{\tabref}[1]{\textsc{Table}. \ref{#1}}
+
+
+\newcommand{\Hub}{{\textrm{H}}}
+\newcommand{\inv}[1]{\frac{1}{#1}}
+\newcommand{\Mo}{{\textrm{M}_\odot}}
+
+
+%\newcommand{\etco}{\textit{et coll.}\ }
+%\newcommand{\dtitk}{\textit{DTI-TK}\ }
+%\newcommand{\fa}{Fraction d'Anisotropie\ }
+%\newcommand{\md}{Diffusion Moyenne\ }
+%\newcommand{\da}{Diffusion Axiale\ }
+%\newcommand{\dr}{Diffusion Radiale\ }
+%\newcommand{\mlg}{Modèle Linéaire Général\ }
+%\newcommand{\irmd}{Imagerie par Résonance Magnétique de diffusion\ }
+%\newcommand{\rmn}{Résonance Magnétique Nucléaire\ }
+%\newcommand{\itd}{Imagerie du Tenseur de Diffusion\ }
+
+%\addto\captionsfrench{\def\tablename{\textsc{Tableau}}}
+%
+%\newcommand{\largedot}{\mathlarger{\mathlarger{\mathlarger{\cdot}}}}
+
+%\makeatletter
+%\def \@date{\data{today}}
+%
+%\def\@author{Author}
+%\newcommand{\author}[2]{\def\@author{#1~\textsc{#2}}}
+%
+%\def\@title{Thesis title}
+%\newcommand{\title}[1]{\def\@title{#1}}
+%
+%\def\@field{Field}
+%\newcommand{\field}[1]{\def\@field{#1}}
+%
+%\def\@advisor{advisor}
+%\newcommand{\advisor}[2]{\def\@advisor{#1~\textsc{#2}}}
+%
+%\def\@university{University}
+%\newcommand{\university}[1]{\def\@university{#1}}
+
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         En tete et pied de page      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{fancyhdr}			% Permet de générer automatiquement des en-têtes et des pieds de pages
+
+  \setlength{\headheight}{2cm}	% hauteur de l'en-tête
+  
+  %%%%%%%%% style front %%%%%%%%
+  \fancypagestyle{front}
+  {
+      \fancyhf{}				% en-tête vide
+      
+      \fancyfoot[RO,LE]{\textbf{\thepage}}	% pied de page avec : page numéro
+      \renewcommand{\footrulewidth}{0pt}
+      \renewcommand{\headrulewidth}{0pt}
+  }
+  
+   %%%%%%%%% style intro %%%%%%%%
+  \fancypagestyle{introduction}
+  {
+      \fancyhf{}				% en-tête vide
+      
+      \fancyfoot[RO,LE]{\textbf{\thepage}}	% pied de page avec : page numéro
+      \renewcommand{\footrulewidth}{1pt}
+      \renewcommand{\headrulewidth}{1pt}
+  }
+  %%%%%%%%% style main %%%%%%%%
+  \fancypagestyle{main}
+  {
+      \fancyhf{}
+      
+      \renewcommand{\chaptermark}[1]{\markboth{\textbf{\MakeUppercase{\chaptername}\ \thechapter.\ ##1}}{}}
+%       \renewcommand{\sectionmark}[1]{\markright{\thesection\ ##1}}
+      \renewcommand{\sectionmark}[1]{\markright{##1}}
+      \fancyhead[L]{\leftmark\\[0.3em] \hspace{3cm} \rightmark \vspace{0.3em}}
+      \renewcommand{\headrulewidth}{1pt}
+      
+      \renewcommand{\footrulewidth}{0pt}
+      \fancyfoot[C]{\thepage}
+  }
+  
+  %%%%%%%%% style back %%%%%%%%
+  \fancypagestyle{back}
+  {
+      \fancyhf{}
+      
+      \fancyfoot[RO,LE]{\textbf{\thepage}}
+      \renewcommand{\footrulewidth}{1pt}
+  }
+  
+  
+  

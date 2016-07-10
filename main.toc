@@ -1,36 +1,37 @@
-\contentsline {section}{Foreword}{1}{chapter*.2}
-\contentsline {section}{\numberline {0.1}From Aristotle to GPU computing : an history of physics and gravity}{2}{section.0.1}
-\contentsline {section}{\numberline {0.2}Star clusters}{8}{section.0.2}
-\contentsline {subsection}{\numberline {0.2.1}Types of star clusters}{8}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {0.2.2}Structure and dynamics}{10}{subsection.0.2.2}
-\contentsline {subsubsection}{Static models}{10}{subsubsection*.3}
-\contentsline {subsubsection}{Dynamical timescales}{10}{subsubsection*.4}
-\contentsline {subsubsection}{Mass segregation}{10}{subsubsection*.5}
-\contentsline {subsection}{\numberline {0.2.3}Formation and evolution}{10}{subsection.0.2.3}
-\contentsline {subsubsection}{From gas to stars}{10}{subsubsection*.6}
-\contentsline {subsubsection}{Substructure and early dynamical evolution}{11}{subsubsection*.7}
-\contentsline {subsubsection}{Star formation efficiency and infant mortality}{12}{subsubsection*.8}
-\contentsline {subsection}{\numberline {0.2.4}Initial conditions for simulations}{13}{subsection.0.2.4}
-\contentsline {subsubsection}{Hydrodynamical simulations}{13}{subsubsection*.9}
-\contentsline {subsubsection}{Artificial substructure}{13}{subsubsection*.10}
-\contentsline {section}{\numberline {0.3}NBODY6}{14}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}H\'enon units}{14}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {0.3.2}Block time-step}{15}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {0.3.3}KS-regularization}{15}{subsection.0.3.3}
-\contentsline {subsection}{\numberline {0.3.4}Hermite integration scheme}{16}{subsection.0.3.4}
-\contentsline {subsection}{\numberline {0.3.5}Ahmad-Cohen neighbour scheme}{17}{subsection.0.3.5}
-\contentsline {section}{\numberline {0.4}Young star clusters}{19}{section.0.4}
-\contentsline {chapter}{\numberline {1}The Hubble-Lema\^itre fragmented model}{21}{chapter.1}
-\contentsline {section}{\numberline {1.1}How to build a Hubble-Lema\^itre model}{21}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Initial state}{21}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Fragmentation}{22}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Perturbation theory}{24}{section.1.2}
-\contentsline {section}{\numberline {1.3}Analysis of the fragmented system}{24}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Clump finding algorithm}{24}{subsection.1.3.1}
-\contentsline {chapter}{\numberline {2}Dynamical evolution}{27}{chapter.2}
-\contentsline {section}{\numberline {2.1}Bla}{27}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Scaling to physical units}{27}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Collapse and virialisation}{28}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Global mass segregation}{29}{section.2.2}
-\contentsline {chapter}{\numberline {3}Binary population evolution}{33}{chapter.3}
-\contentsline {section}{\numberline {3.1}Shock}{34}{section.3.1}
+\contentsline {section}{Historical foreword: from Aristotle to GPU computing}{1}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction to star clusters}{12}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}What are star clusters ? }{12}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Why study them ?}{12}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Types of star clusters}{12}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Some important dynamical concepts}{14}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Static models}{14}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Dynamical timescales}{14}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Mass segregation}{14}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}The origin of star clusters}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}From gas to stars}{14}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Substructure and early dynamical evolution}{15}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Star formation efficiency and infant mortality}{16}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Simulating star clusters evolution}{17}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Hydrodynamical simulations}{17}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Artificial substructure}{17}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}NBODY6}{19}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}H\'enon units}{19}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Block time-step}{20}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}KS-regularization}{20}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Hermite integration scheme}{21}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Ahmad-Cohen neighbour scheme}{22}{subsection.1.5.5}
+\contentsline {chapter}{\numberline {2}The Hubble-Lema\^itre fragmented model}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}How to build a Hubble-Lema\^itre model}{25}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Initial state}{25}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Fragmentation}{26}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Perturbation theory}{28}{section.2.2}
+\contentsline {section}{\numberline {2.3}Analysis of the fragmented system}{28}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Clump finding algorithm}{28}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Dynamical evolution}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Bla}{31}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Scaling to physical units}{31}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Collapse and virialisation}{32}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Global mass segregation}{33}{section.3.2}
+\contentsline {chapter}{\numberline {4}Binary population evolution}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Shock}{38}{section.4.1}
