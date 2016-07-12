@@ -108,9 +108,111 @@ Star clusters are historically divided into two main categories: globular cluste
 
 \section{Some important dynamical concepts}
 
-\subsection{Static models}
+
+\subsection{Virial theorem}
+
+A self-gravitating system is a system bound by its own gravity. This applies to a star, a molecular cloud, a star cluster or a galaxy. In all cases, gravity is set against a counteracting force that prevents the total collapse of matter into a single point. This force can be pressure for stars and clouds, but for stellar systems such as clusters and galaxies, it is the agitation of its components, the kinetic energy of the stars. Other forces include magnetic pressure or tidal fields.
+
+The exchange between the gravitational potential energy and the kinetic energy follows the famous virial theorem, written in the general form \citep{McKee2007,BT}:
+
+\begin{equation}
+\frac{1}{2} \frac{d^2 I}{dt^2} = 2 ( E_k - E_{k,s}) +  E_p + E_{tides} + E_m
+\end{equation}
+with $I$ the moment of inertia, $E_k$ the kinetic energy, $E_p$ the potential energy. $E_{k,s}$  a thermal pressure surface term, $E_{tides}$ the energy injected by a tidal field and $E_m$ the magnetic pressure. For a stationnary system, $\frac{1}{2} \frac{d^2 I}{dt^2} = 0$, and in a purely gravitational system with N particles, there is no thermal or magnetic pressure, thus the virial theorem can be written in its more common form:
+
+\begin{equation}
+2 E_k + E_p = 0
+\end{equation}
+
+with :
+
+\begin{equation}
+ E_k = \sum_{i=1}^N m_i v_i^2 ~~~~\textrm{and}~~~~ E_p = - \sum_{i=1}^N \sum_{j>i}^N \frac{G m_i m_j}{\| \bold{r_i} - \bold{r_j}\| } .
+\end{equation}
+
+We define the virial parameter $Q$ as:
+\begin{equation}
+Q = - \frac{E_p}{E_k},
+\end{equation}
+
+$Q=0.5$ is a system in virial equilibrium. If the amplitude of the velocities is not sufficient to counteract the current value of potential energy, $Q<0.5$, the system is said to be dynamically cold, or \textit{subvirial}. While if the stars are too close together compared to the velocities amplitudes, $Q>0.5$, the system is hot and \textit{survirial}. If $Q>1$, the total energy is positive and the system is unbound. 
+
+
 \subsection{Dynamical timescales}
-\subsection{Mass segregation}
+
+Dynamical systems tend to virial equilibrium. In such self-gravitating systems, it is useful to define a few dynamical time scales. The most simple one is the \textbf{crossing time}, defined as:
+\begin{equation}
+\label{Eq:0_tcr}
+t_{cr} = \frac{R}{\sigma}
+\end{equation}
+with $R$ the typical radius of the system and $\sigma$ the velocity dispersion. It is the typical time it takes for a particle to cross the system. Another crucial timescale in stellar dynamics is the \textbf{relaxation time}. \cite{BT} define it as:
+
+\begin{equation}
+\label{Eq:0_tr}
+t_r \simeq \frac{0.1 N}{ln N} t_{cr}.
+\end{equation}
+
+In a self-gravitating system, stars have orbits. If N is large enough, the potential inside the system is smooth and stars have stationnary orbits. The relaxation time is the timescale at which the impact of numerous encounters a star endures is comparable to the motion of its initial orbit. In other words, the initial conditions of a system are dynamically erased by collisional evolution after a relaxation time.
+
+In a relaxed cluster, the core is dense with a high velocity dispersion, whereas the outskirts, the halo, is less dense and stars are slower. The definition from equation (\ref{Eq:0_tcr}) and (\ref{Eq:0_tr}) imply the relaxation time changes with distance to the center. It is therefore useful to define a global timescale for the whole system, the \textbf{half-mass relaxation time} \cite{Heggie2003}:
+
+
+\begin{equation}
+\label{Eq:0_trhm}
+t_{rh} \simeq   \frac{0.138}{ln N} \sqrt{ \frac{N}{G m}} R_h^\frac{3}{2}
+\end{equation}
+
+with $m$ the mass of a star and $R_h$ the half-mass radius. Let us compute two examples, taking G in appropriate units:
+
+\begin{equation}
+G \simeq 4.48 \times 10^{-3}~~ \textrm{pc}^3 ~\textrm{Myr}^{-2} ~\Mo^{-1}.
+\end{equation}
+
+A cluster with 1000 stars of 0.5$\Mo$ and $R_{h} = 1$ pc has $t_{rh} = 13$ Myr, while a cluster with 10$^6$ stars of the same mass and a $R_{h} = 6$ pc have $t_{rh} = 3.1$ Gyr.
+
+
+Equations (\ref{Eq:0_tr}) and (\ref{Eq:0_trhm}) assume identical stellar masses in the system. In a real cluster, stars have different masses, differently affected by collisional evolution. The most massive stars cause gravitational focusing and exchange energy with other stars at a higher rate. They lose their energy to lighter stars, progressively sinking at the center. \cite{Heggie2003} give an estimation of the segregation timescale $t_{seg}(m_1)$of a mass $m_1$:
+\begin{equation}
+t_{seg}(m_1) = \frac{m_1}{\langle m \rangle} t_{rh}
+\end{equation} 
+so a 30 $\Mo$ star in the previous 1000 star cluster will have a relaxation time of $\frac{0.5}{30} 13 = 0.21$ Myr, so 200,000 years, much faster. A mass spread in a system speeds up considerably the collisional evolution.
+
+
+
+\subsection{Static models}
+
+It is useful to have a static reference model for a self-gravitating system at equilibrium. Considering a relaxed system with enough particles, one can use a statistical description to model its evolution, namely the "collisionless Boltzmann equation":
+
+\begin{equation}
+\frac{\partial f}{\partial t} + \bold{v} \cdot \nabla_r f - \nabla \Phi \cdot \nabla_v f = 0
+\end{equation}
+
+with $f(\bold{r},\bold{v},t)$ the phase space distribution and $\Phi$ the gravitational potential. There are several solutions to this equations, these are "static" models for star clusters as they are considered in equilibrium. Of course, the collisional equation can never be fully neglected and these models are approximations. 
+
+The \textbf{Plummer model} is simple model with constant density in the core and a null potential at infinity. It is defined by its potential as a function of radius \citep{BT}:
+
+\begin{equation}
+\Phi(r) = - \frac{G M}{\sqrt{r^2 + b^2}}
+\end{equation}
+
+with $b$ the Plummer parameter, setting the depth of the central potential. From this expression, one can derive the radial density distribution:
+
+\begin{equation}
+\label{Eq:0_plummerrho}
+\rho(r) = \frac{3 M}{4 \pi b^3} \left( 1 + \frac{r^2}{b^2} \right) ^{- \frac{5}{2}}
+\end{equation}
+
+Equation (\ref{Eq:0_plummerrho}) makes the computational generation of a cluster straightforward, which is why the Plummer model has been widely used in numerical simulations of star clusters.
+However, a Plummer model theoretically extends to infinity, and is not consistent with many globular cluster observations. Another, more complex, model has the observers on his side. The \textbf{King model} has been sucessfully used to fit light-profiles of globular clusters \citep{King1981}. It is defined as a distribution in energy:
+
+\begin{equation}
+  f_k(E)=\begin{cases}
+    f_0 \left(e^{-2j^2E} - e^{-2j^2E_0}\right)  , & \text{if $E<E_0$}.\\
+    0, & \text{otherwise}.
+  \end{cases}
+\end{equation}
+
+This model has a bounded radius and the shape of the potential and density can be tuned through a parameter $W_0 =2j^2(E_0 - E_c)$ with $E_c$ the rest energy at the center. 
 
 
 \section{The origin of star clusters}
@@ -120,7 +222,7 @@ Star clusters are historically divided into two main categories: globular cluste
 The interstellar medium, or ISM, is made of dust and gas in various phases, densities and temperatures, ranging from a hot ionized medium ($T>10^5 K$ and $n < 0.01 cm^{-3}$) to a cold neutral medium ($T<100 K$ and $n > 10 cm^{-3}$),  see \cite{Field1969}. Finally, in colder denser regions, $T\sim 10k$ and $n>30cm^{-3}$, the hydrogen takes molecular form H$_2$ in what is called molecular clouds. The dust contained in these regions makes them optically thick, obscuring background stars. These "holes in the sky", as William Herschel exclaimed upon the Dark Ophiucus Nebula\citep{Houghton1942}, come in different sizes, from the "block globules" to Giant Molecular Clouds (GMCs).
 The interstellar dust absorbs the light in the visible and re-emits it in the infrared, thus the advent of infrared astronomy unveiled the interior of molecular clouds. In particular, recent observations with the Herschel Space Observatory showed a prevalence of filaments in clouds, see \cite{Andre2010}.
 
-Star formation occurs in the higher density clumps or filaments inside the clouds. The origin of these overdensities has been the object of extensive theoretical development for 60 years. Turbulent motion was very early on designed as the main cause of overdensity. Turbulence is the transfer of energy from large scales to small scales, creating motions on small scales from a large energy driver. The well known Kolmogorov incompressible turbulence is hardly applicable to the ISM, as it is highly compressible \citep{Scalo1998}, instead, molecular clouds are subject to supersonic turbulence, or Burgers turbulence \citep{Frisch2001}. Nearby supernovas or tidal perturbation feed energy into the cloud, which is transfered through turbulence to smaller scales as supersonic internal motions, shocks forming overdense sheets. \cite{McKee2007} argue that filaments originate both from the intersection of such sheets and the primordial morphology of the cloud, as self-gravitating pressureless matter condense as filaments \citep{Springel2005}.
+Star formation occurs in the higher density clumps or filaments inside the clouds. The origin of these overdensities has been the object of extensive theoretical development for 60 years. Turbulent motion was very early on designated as the main cause of overdensity. Turbulence is the transfer of energy from large scales to small scales, creating motions on small scales from a large energy driver. The well known Kolmogorov incompressible turbulence is hardly applicable to the ISM, as it is highly compressible \citep{Scalo1998}, instead, molecular clouds are subject to supersonic turbulence, or Burgers turbulence \citep{Frisch2001}. Nearby supernovas or tidal perturbation feed energy into the cloud, which is transfered through turbulence to smaller scales as supersonic internal motions, shocks forming overdense sheets. \cite{McKee2007} argue that filaments originate both from the intersection of such sheets and the primordial morphology of the cloud, as self-gravitating pressureless matter condense as filaments \citep{Springel2005}.
 
 
 Individual condensates of matter called cores form in clumps and filaments, these are stellar seeds. To collapse, they have to overcome their magnetic and thermal pressure and their internal turbulence. The idealized picture of an hydrodynamical collapse relies on an estimation of the Jeans length $\lambda_\textrm{J}$, the maximum wavelength of a density perturbation in a uniform gas above which pressure cannot respond fast enough and gravitational collapse is triggered. The corresponding Jeans mass M$_\textrm{J}$, of diameter $\lambda_\textrm{J}$ is the minimum mass of a cloud to collapse. These quantities are derived in \cite{BT} and are expressed
@@ -174,14 +276,17 @@ Adaptative Mesh Refinement, AMR, is an Eulerian approach. The hydrodynamical equ
 
 The precision, size and complexity of large scale cluster formation simulations have been steadily improving for 20 years (see \citealt{Turner1995,Klessen2000,Bate2003,Offner2009,Myers2014} and citations). Nevertheless, no simulation to date include realistic cooling processes, radiative and wind feedback, magnetic fields and dust chemistry, all at the same time. All these are crucial to achieve precise and realistic simulation of the star formation process. Moreover, one of the most detailed star formation simulations to date, e.g \cite{Bate2012}, only form a few hundred stars and evolved them for less than 0.2~Myr with a simulation run time of several months.
 
-However, good results are already being achieved, see the short review by \cite{Clarke2012}. Stellar properties and general structure agree with observations. In a nutshell, hydrodynamical simulations are not yet fully realistic, but they provide a good approximation of reality for small clusters.
+However, good results are already being achieved, see the short review by \cite{Clarke2012}. Stellar properties and general structure agree with observations and interesting results are being obtained. \cite{Maschberger2011} and \cite{Moeckel2011} have noted that massive stars tend to sit at the heart of gas clumps in hydrodynamical simulations, some as the result of merger events with low-mass proto-stars. 
+
+In a nutshell, hydrodynamical simulations are not yet fully realistic, but they provide a good approximation of reality for small clusters and allow exploration or early dynamical processes.
 
 
 \subsection{Artificial substructure}
 
-Hydrodynamics is obviously needed to simulate the formation of stars, but once the stars formed and most of the gas has been either accreted or expulsed, the purely gravitational and collisional evolution of young stellar objects takes over. Nbody integration becomes sufficient to follow the evolution of the system. Because it is computationnaly less expansive, it makes models of larger clusters possible, as wall as longer evolution.
+There is a persitent difficulty to bridge over self-consistently from the star formation phase, to the equilibrium configuration of bound clusters. Hydrodynamical calculations of star forming regions evolve for  up to a few $\times 10^5$ years, when a stable configuration would require several $\times 10^6$ years at typical cluster densities of $10^4$ to $10^5$ stars per cubic parsec. A way to overcome this issue is to switch to purely gravitational N-body simulations once the stars formed and most of the gas has been either accreted or expulsed. It is computationaly less expensive and allows for longer integration of larger systems.
 
- To simulate the very early evolution of star clusters, it is essential to obtain a good model of their phase-space distribution to use as initial conditions. As star formation is substructured, one cannot use a simple King or Plummer model to build a good young cluster. No known phase-space distribution can be sampled to reproduce the clumps and filamentary structure of the newborn stellar objects in a star-forming regions. Several methods have been explored to solve this.
+It is then essential to obtain a good model of the stars phase-space distribution at the end of a hydrodynamical simulation. While King and Plummer model have a known distribution one can sample from, no such thing exist for the clumps and filamentary structure of the newborn stellar objects in a star-forming regions. Several methods have been explored to solve this.
+
  
 \begin{itemize}
 \item[\textbf{Sink particle distribution}] is the most straightforward solution. \cite{Moeckel2010} took the distribution of sink particles formed in the hydrodynamical simulation by \cite{Bate2009} and directly converted it as a stellar distribution, preserving the masses, positions and velocities of the "stellar seeds". This is probably the best initial conditions for nbody simulations of young clusters that can be achieved, at the cost of speed, sampling and size. The initial hydrodynamical simulation took months to complete, making it hard to run it again and impossible to run it multiple times to obtain a good statistical sampling of the model. The size of the cluster achieved cannot exceeds 1000 stars given the current state of hydrodynamical simulations.
@@ -198,10 +303,77 @@ It seems the generation of substructure has to balance realism and compututation
 
 
 
+\section{Binary stars}
+
+\subsection{What is a binary star ?}
+
+When two massive bodies of mass $m_1$ and $m_2$ interact gravitationally, they can have different types of trajectory depending on their total energy:
+
+\begin{equation}
+E = E_k + E_p = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2  - \frac{G m_1 m_2}{\| \bold{r_1} - \bold{r_2}\| }.
+\end{equation}
+
+%\begin{itemize}
+%\item[$\bold{E>0}$], the system is unbound, the bodies follow hyperbolic trajectories. They have a distance of closer approach then move away from each other forever.
+%\item[$\bold{E=0}$], the system is marginally unbound, the bodies follow parabolic trajectories.
+%\item[$\bold{E<0}$], the system is bound, the bodies have stable elliptical orbits around each others.
+%\end{itemize}
+
+If $E<0$, they are bound and locked in a binary system. Such systems are characterised by their semi-major axis $a$, their eccentricity $e$, their period $p$, their total mass $m_t = m_1 + m_2$, mass ratio $q = m_2/m_1$ with $m_1$ being the primary, more massive than $m_2$.
+Mass, period and semi-major axis are related by Kepler's third law:
+
+\begin{equation}
+\frac{G m_t}{4\pi^2} =  \frac{a^3}{p^2}.
+\end{equation}
+
+Interestingly, expressed in AU, $\Mo$ and years, $G \simeq 4 \pi^2$, thus the law can be written:
+
+\begin{equation}
+\left( \frac{m_t}{1 \Mo} \right) = \left( \frac{p}{1 \textrm{yr}} \right) \left( \frac{a}{1 \textrm{AU}} \right)^3 .
+\end{equation}
+
+
+The total energy of the binary can be expressed as a function of $a$ and $m_t$:
+
+\begin{equation}
+E = - \frac{G m_1 m_2}{2a} 
+\end{equation}
 
 
 
+\subsection{Multiplicity fraction}
 
+In a stellar population, some fraction of stars will be found in multiple systems: some  in binaries and some in higher order hierarchies. A hierarchical triple is a stable 3-body bound system, it is binary of which one of the component is a binary itself. The same principle applies to quadruple, quintuple, etc. For example, one of the brightest stars in the night sky, Castor, is a sextuple hierarchical system, with 6 stars in a stable system.
+
+Counting binaries and multiples is not straightforward: do you count triples as two binaries or three stars in a multiple system ? In their SPH simulation paper, \cite{Goodwin2004a} discuss several ways to measure the degree of multiplicity among stars in a system, each of them quantifying different properties, such as companion probability, companion frequency or pairing factor. 
+ 
+ Let  S be the number of single stars, and B,T, and Q the number of binary-, triple-, and quadruple systems, respectively. The fraction of multiple stars bound in binaries, triples, .. to the total number of multiple plus single stars, is
+
+\begin{equation}
+\label{Eq:0_fm} 
+f_m = \frac{B + T + Q}{S + B + T + Q}. 
+\end{equation}
+
+This last  measure is used in seminal observationnal papers \citep{DM91,Raghavan2010} and is our adopted choice. As pointed out by \cite{Hubber2005}, $f_m$ in Eq. (\ref{Eq:0_fm}) has several advantages: 1) it  may be  restricted to a given mass $m$, setting  $S_m$ the number of single stars, and $B_m,\, T_m,\, Q_m$  the multiple stars with a primary of that mass ;  2)  the multiplicity fraction is observationally robust: when a binary is being reclassified as a triple, or an even higher order multiple system, the fraction does not change. 
+ These definitions may be extended to cover a mass range  in a coherent way, by substituting $m \rightarrow \langle m\rangle$, the mean value over the range. This is useful mostly when comparing  systems with different stellar mass functions. 
+
+
+\subsection{Observed population}
+
+The first real complete survey of binary stars in the field was performed by \cite{DM91}. This seminal paper was updated and completed by \cite{Raghavan2010}, who essentially confirmed the main results from the first study. They observed hundreds of F and G main-sequence stars in pairs and derived their binary parameters. The total binary fraction for these stars was found to be $\sim$ 53\%. Binaries are quite common in the galaxy.
+  The authors also derived a period distribution, extending from less than a day to more than a Myr. The distribution was consistently well fitted by a log-normal distribution. The period distribution for F and G stars (as well as K and M stars, see \citealt{Fischer1992}) is:
+\begin{equation}
+f( \log{P})\propto \exp \left[ \frac{- ( \log{P} - \mu_{logP})}{ 2 \sigma_{logP}^2} \right]
+\end{equation}
+
+with the peak value $\mu_{logP} = 5.03$, about 300 years, and the dispersion $\sigma_{logP} = 	2.28$, the distribution is shown on fig [TODO].
+
+\cite{Raghavan2010} also compiled several observational studies of binaries with primaries of various spectral types. High mass stars, types O,B,A, (from 30+ down to 2$\Mo$) have a high multiplicity fraction, about 75\%  while lower mass stars such as M-dwarfs only have 10-30\% multiplicity. This trend of increasing multiplicity with increasing primary mass is found in many surveys.
+Binary surveys are easier in the field due to the very large sample and low stellar density. To perform similar studies in young star clusters is much harder due to source crowding and embedded stars. \cite{Kouwenhoven2007} attempted to characterize the birth binary population in the OB association Scorpius OB2. They found a very high multiplicity fraction, consistent with 100\%, and a period distribution more consistent with a powerlaw than a log-normal distribution. From this survey and others, it is likely that the binary population in clusters undergoes an erosion through dynamical processing, with the field distribution as an end-result.
+
+\subsection{Simulate binary population in cluster}
+
+The best way to learn what happens to binaries in a dense environment is to put binaries in a cluster and see what happens. Nbody simulations o 
 
 
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{118}
+\begin{thebibliography}{126}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -136,6 +136,9 @@ Clagett M., 1959, The science of mechanics in the Middle Ages, University of
 {Doppler} C., 1842, {Über das farbige Licht der Doppelsterne und einiger
   anderer Gestirne des Himmels}. Verlag der Königl. Böhm.
 
+\bibitem[{{Duquennoy} \& {Mayor}(1991)}]{DM91}
+{Duquennoy} A., {Mayor} M., 1991, \aap, 248, 485
+
 \bibitem[{{Ebisuzaki} {et~al}\mbox{.}(1990){Ebisuzaki}, {Ito}, {Makino}, \&
   {Sugimoto}}]{Ebisuzaki1990}
 {Ebisuzaki} T., {Ito} T., {Makino} J., {Sugimoto} D., 1990, Astronomical
@@ -170,6 +173,9 @@ Clagett M., 1959, The science of mechanics in the Middle Ages, University of
   {Habing}}]{Field1969}
 {Field} G.~B., {Goldsmith} D.~W., {Habing} H.~J., 1969, in \baas, Vol.~1,
   Bulletin of the American Astronomical Society, p. 240
+
+\bibitem[{{Fischer} \& {Marcy}(1992)}]{Fischer1992}
+{Fischer} D.~A., {Marcy} G.~W., 1992, \apj, 396, 178
 
 \bibitem[{{Foster} {et~al}\mbox{.}(2015){Foster}, {Cottaar}, {Covey}, {Arce},
   {Meyer}, {Nidever}, {Stassun}, {Tan}, {Chojnowski}, {da Rio}, {Flaherty},
@@ -212,6 +218,10 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Goodwin} \& {Whitworth}(2004)}]{Goodwin2004}
 {Goodwin} S.~P., {Whitworth} A.~P., 2004, \aap, 413, 929
 
+\bibitem[{{Goodwin}, {Whitworth} \& {Ward-Thompson}(2004){Goodwin},
+  {Whitworth}, \& {Ward-Thompson}}]{Goodwin2004a}
+{Goodwin} S.~P., {Whitworth} A.~P., {Ward-Thompson} D., 2004, \aap, 423, 169
+
 \bibitem[{{Gutermuth} {et~al}\mbox{.}(2009){Gutermuth}, {Megeath}, {Myers},
   {Allen}, {Pipher}, \& {Fazio}}]{Gutermuth2009}
 {Gutermuth} R.~A., {Megeath} S.~T., {Myers} P.~C., {Allen} L.~E., {Pipher}
@@ -231,6 +241,10 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Hayashi}(1961)}]{Hayashi1961}
 {Hayashi} C., 1961, \pasj, 13
 
+\bibitem[{{Heggie} \& {Hut}(2003)}]{Heggie2003}
+{Heggie} D., {Hut} P., 2003, {The Gravitational Million-Body Problem: A
+  Multidisciplinary Approach to Star Cluster Dynamics}
+
 \bibitem[{{Hillenbrand} \& {Hartmann}(1998)}]{Hillenbrand1998}
 {Hillenbrand} L.~A., {Hartmann} L.~W., 1998, \apj, 492, 540
 
@@ -240,6 +254,9 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Houghton}(1942)}]{Houghton1942}
 {Houghton} H.~E., 1942, Monthly Notes of the Astronomical Society of South
   Africa, 1, 107
+
+\bibitem[{{Hubber} \& {Whitworth}(2005)}]{Hubber2005}
+{Hubber} D.~A., {Whitworth} A.~P., 2005, \aap, 437, 113
 
 \bibitem[{{Hubble}(1929)}]{Hubble1929}
 {Hubble} E., 1929, Contributions from the Mount Wilson Observatory, vol.~3,
@@ -252,11 +269,19 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Jeans}(1916)}]{Jeans1916}
 {Jeans} J.~H., 1916, \mnras, 76, 567
 
+\bibitem[{{King}(1981)}]{King1981}
+{King} I.~R., 1981, \qjras, 22, 227
+
 \bibitem[{{Kirk} \& {Myers}(2011)}]{Kirk2011}
 {Kirk} H., {Myers} P.~C., 2011, \apj, 727, 64
 
 \bibitem[{{Klessen} \& {Burkert}(2000)}]{Klessen2000}
 {Klessen} R.~S., {Burkert} A., 2000, \apjs, 128, 287
+
+\bibitem[{{Kouwenhoven} {et~al}\mbox{.}(2007){Kouwenhoven}, {Brown}, {Portegies
+  Zwart}, \& {Kaper}}]{Kouwenhoven2007}
+{Kouwenhoven} M.~B.~N., {Brown} A.~G.~A., {Portegies Zwart} S.~F., {Kaper} L.,
+  2007, \aap, 474, 77
 
 \bibitem[{{Kouwenhoven} {et~al}\mbox{.}(2010){Kouwenhoven}, {Goodwin},
   {Parker}, {Davies}, {Malmberg}, \& {Kroupa}}]{Kouwenhoven2010}
@@ -371,6 +396,11 @@ Poincar\'e H., 1906, Bulletin de la soci\'et\'e astronomique de France, 20, 153
 \bibitem[{{Portegies Zwart}, {McMillan} \& {Gieles}(2010){Portegies Zwart},
   {McMillan}, \& {Gieles}}]{PortegiesZwart2010}
 {Portegies Zwart} S.~F., {McMillan} S.~L.~W., {Gieles} M., 2010, \araa, 48, 431
+
+\bibitem[{{Raghavan} {et~al}\mbox{.}(2010){Raghavan}, {McAlister}, {Henry},
+  {Latham}, {Marcy}, {Mason}, {Gies}, {White}, \& {ten
+  Brummelaar}}]{Raghavan2010}
+{Raghavan} D. {et~al.}, 2010, \apjs, 190, 1
 
 \bibitem[{{Ramasubramanian}(1998)}]{ramasubramanian1998}
 {Ramasubramanian} K., 1998, Bulletin of the Astronomical Society of India, 26,
