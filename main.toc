@@ -14,18 +14,19 @@
 \contentsline {subsection}{\numberline {1.3.3}Star formation efficiency and infant mortality}{16}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Simulating star clusters evolution}{17}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Hydrodynamical simulations}{17}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Artificial substructure}{17}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Artificial substructure}{18}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Binary stars}{19}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}What is a binary star ?}{19}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Multiplicity fraction}{19}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Observed population}{20}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}Simulate binary population in cluster}{20}{subsection.1.5.4}
-\contentsline {section}{\numberline {1.6}NBODY6}{21}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}H\'enon units}{21}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Block time-step}{22}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}KS-regularization}{22}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Hermite integration scheme}{23}{subsection.1.6.4}
-\contentsline {subsection}{\numberline {1.6.5}Ahmad-Cohen neighbour scheme}{24}{subsection.1.6.5}
+\contentsline {subsection}{\numberline {1.5.2}Why binaries ?}{19}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Multiplicity fraction}{19}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Observed population}{20}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Simulate binary populations in clusters}{20}{subsection.1.5.5}
+\contentsline {section}{\numberline {1.6}NBODY6}{22}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}H\'enon units}{22}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Block time-step}{23}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}KS-regularization}{23}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Hermite integration scheme}{24}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Ahmad-Cohen neighbour scheme}{25}{subsection.1.6.5}
 \contentsline {chapter}{\numberline {2}The Hubble-Lema\^itre fragmented model}{27}{chapter.2}
 \contentsline {section}{\numberline {2.1}How to build a Hubble-Lema\^itre model}{27}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Initial state}{27}{subsection.2.1.1}

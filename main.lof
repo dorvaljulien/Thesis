@@ -2,7 +2,7 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces The evolution of the number of particles in N-body simulations. Solid line shows the Moore law. The figure was taken from \cite {Bedorf2012}. }}{6}{figure.0.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Radius-Mass Diagram for Milky Way clusters. Blue dots are open clusters, red dots Globular clusters and purple squares show Young Massive Clusters. Dashed lines show constant density within half-mass radius $\rho _h = 3M/8\pi r^3_{hm}$ and dotted lines show constant relaxation time. The plot was taken from the review \cite {PortegiesZwart2010}.}}{11}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of block time steps on 4 particles. Particles get their positions updated for each arrow symbol, common time steps are shown as vertical dotted lines. Figure from NB6++ User Manual. }}{22}{figure.1.2}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of block time steps on 4 particles. Particles get their positions updated for each arrow symbol, common time steps are shown as vertical dotted lines. Figure from NB6++ User Manual. }}{23}{figure.1.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Theoretical values of the apex time, at which the system stops expanding, as a function of initial HL parameter, which tunes the strength of the initial expansion.}}{30}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of a Minimum Spanning Tree and its use to isolate subgroups, using a cutting length $d_{cut}$.}}{30}{figure.2.2}

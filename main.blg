@@ -1,22 +1,27 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys goodwin2004 and Goodwin2004
+---line 167 of file main.aux
+ : \citation{goodwin2004
+ :                      ,Allison2009,Parker2011,Parker2014}
+I'm skipping whatever remains of this command
 Case mismatch error between cite keys caputo14 and Caputo14
----line 221 of file main.aux
+---line 237 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 222 of file main.aux
+---line 238 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys caputo14 and Caputo14
----line 227 of file main.aux
+---line 243 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 228 of file main.aux
+---line 244 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
@@ -48,45 +53,45 @@ Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
-You've used 126 entries,
+You've used 143 entries,
             2938 wiz_defined-function locations,
-            1428 strings with 26765 characters,
-and the built_in function-call counts, 58005 in all, are:
-= -- 4693
-> -- 4453
+            1522 strings with 29544 characters,
+and the built_in function-call counts, 66098 in all, are:
+= -- 5370
+> -- 5076
 < -- 14
-+ -- 1492
-- -- 1451
-* -- 4634
-:= -- 11061
++ -- 1705
+- -- 1660
+* -- 5318
+:= -- 12592
 add.period$ -- 10
-call.type$ -- 126
-change.case$ -- 936
-chr.to.int$ -- 126
-cite$ -- 130
-duplicate$ -- 2135
-empty$ -- 3376
-format.name$ -- 1617
-if$ -- 11276
+call.type$ -- 143
+change.case$ -- 1063
+chr.to.int$ -- 143
+cite$ -- 147
+duplicate$ -- 2424
+empty$ -- 3819
+format.name$ -- 1860
+if$ -- 12845
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 119
-newline$ -- 382
-num.names$ -- 510
-pop$ -- 863
+missing$ -- 136
+newline$ -- 433
+num.names$ -- 578
+pop$ -- 979
 preamble$ -- 1
-purify$ -- 932
+purify$ -- 1059
 quote$ -- 0
-skip$ -- 2099
+skip$ -- 2373
 stack$ -- 0
-substring$ -- 2429
-swap$ -- 182
+substring$ -- 2789
+swap$ -- 199
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1095
+type$ -- 1248
 warning$ -- 4
-while$ -- 584
+while$ -- 665
 width$ -- 0
-write$ -- 1257
-(There were 6 error messages)
+write$ -- 1427
+(There were 7 error messages)
