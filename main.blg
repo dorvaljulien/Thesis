@@ -1,27 +1,27 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 Case mismatch error between cite keys goodwin2004 and Goodwin2004
----line 167 of file main.aux
+---line 180 of file main.aux
  : \citation{goodwin2004
  :                      ,Allison2009,Parker2011,Parker2014}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys caputo14 and Caputo14
----line 237 of file main.aux
+---line 254 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 238 of file main.aux
+---line 255 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys caputo14 and Caputo14
----line 243 of file main.aux
+---line 260 of file main.aux
  : \citation{caputo14
  :                   }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys theis99 and Theis99
----line 244 of file main.aux
+---line 261 of file main.aux
  : \citation{theis99
  :                  }
 I'm skipping whatever remains of this command
@@ -55,7 +55,7 @@ Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
 You've used 143 entries,
             2938 wiz_defined-function locations,
-            1522 strings with 29544 characters,
+            1523 strings with 29542 characters,
 and the built_in function-call counts, 66098 in all, are:
 = -- 5370
 > -- 5076
