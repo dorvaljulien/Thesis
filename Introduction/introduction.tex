@@ -9,7 +9,7 @@
 \section{Introduction to star clusters}
 
 
- What is a star cluster ? The widest definition possible for a star cluster is "An area of the sky with visibly grouped stars". However, this includes galaxies and random line-of-sight groups. We are interested in physical objects, smaller than galaxies, in which stars are, if not bound, at least under direct mutual gravitational influence. Such objects include open clusters, globular clusters or associations.  \cite{Lada2003} adopted the following definition: a cluster is a stellar system with N$>35$ and a density $\rho > 1~\Mo /\textrm{pc}^3$. These objects can either dissolve in less than a million year or remain bound for billions of years. In the last century, thanks to the improvement of observation techniques, many  clusters have been discovered and their origins are progressively unraveled.
+ What is a star cluster ? The widest definition possible for a star cluster is "An area of the sky with visibly grouped stars". However, this includes galaxies and random line-of-sight groups. We are interested in physical objects, smaller than galaxies, in which stars are, if not bound, at least under direct mutual gravitational influence. Such objects include open clusters, globular clusters or associations.  \cite{Lada2003} adopted the following definition: a cluster is a stellar system with N$>35$ and a density $\rho > 1~\Mo /\textrm{pc}^3$. These objects can either dissolve in less than a million year or remain bound for billions of years. In the last century, thanks to the improvement of observation techniques, many  clusters have been discovered and their origins are progressively unravelled.
 
 
 \subsection{Why study them ?}
@@ -265,13 +265,20 @@ The main difference with the Plummer model can be seen in Fig~\ref{Fig:0_plummer
 
 \subsection{From gas to stars}
 
-The interstellar medium, or ISM, is made of dust and gas in various phases, densities and temperatures, ranging from a hot ionized medium ($T>10^5 K$ and $n < 0.01 cm^{-3}$) to a cold neutral medium ($T<100 K$ and $n > 10 cm^{-3}$),  see \cite{Field1969}. Finally, in colder denser regions, $T\sim 10k$ and $n>30cm^{-3}$, the hydrogen takes molecular form H$_2$ in what is called molecular clouds. The dust contained in these regions makes them optically thick, obscuring background stars. These "holes in the sky", as William Herschel exclaimed upon the Dark Ophiucus Nebula\citep{Houghton1942}, come in different sizes, from the "block globules" to Giant Molecular Clouds (GMCs).
+The interstellar medium, or ISM, is made of dust and gas in various phases, densities and temperatures, ranging from a hot ionized medium ($T>10^5 K$ and $n < 0.01 cm^{-3}$) to a cold neutral medium ($T<100 K$ and $n > 10 cm^{-3}$),  see \cite{Field1969}. Finally, in colder denser regions, $T\sim 10k$ and $n>30cm^{-3}$, the hydrogen takes molecular form H$_2$ in what is called molecular clouds. The dust contained in these regions makes them optically thick, obscuring background stars. These "holes in the sky", as William Herschel exclaimed upon the Dark Ophiucus Nebula\citep{Houghton1942}, come in different sizes, from the "bock globules" to Giant Molecular Clouds (GMCs).
 The interstellar dust absorbs the light in the visible and re-emits it in the infrared, thus the advent of infrared astronomy unveiled the interior of molecular clouds. In particular, recent observations with the Herschel Space Observatory showed a prevalence of filaments in clouds, see \cite{Andre2010}.
 
 Star formation occurs in the higher density clumps or filaments inside the clouds. The origin of these overdensities has been the object of extensive theoretical development for 60 years. Turbulent motion was very early on designated as the main cause of overdensity. Turbulence is the transfer of energy from large scales to small scales, creating motions on small scales from a large energy driver. The well known Kolmogorov incompressible turbulence is hardly applicable to the ISM, as it is highly compressible \citep{Scalo1998}, instead, molecular clouds are subject to supersonic turbulence, or Burgers turbulence \citep{Frisch2001}. Nearby supernovas or tidal perturbation feed energy into the cloud, which is transfered through turbulence to smaller scales as supersonic internal motions, shocks forming overdense sheets. \cite{McKee2007} argue that filaments originate both from the intersection of such sheets and the primordial morphology of the cloud, as self-gravitating pressureless matter condense as filaments \citep{Springel2005}.
 
+\begin{figure}
+\center
+\includegraphics[width=0.95\linewidth]{Figures/0_horsehead_visible2}
+\includegraphics[width=0.95\linewidth]{Figures/0_horsehead_infrared}
+\caption{Visible light  and infrared view of a part of the Orion star forming complex. Horshead nebula is visible on the right, as well as the very bright star Alnitak, part of the Orion belt. NGC 2071 and 2068 are visible on the left. Pink infrared coloring shows radiation from very bright yong massive stars forming in the cloud. Colder filaments are visible all around. White on lower right of visible shows 1 parsec. \textit{Credits: Digitized Sky Survey; ESA/Herschel/PACS}. }
+\label{Fig:0_horsehead}
+\end{figure}
 
-Individual condensates of matter called cores form in clumps and filaments, these are stellar seeds. To collapse, they have to overcome their magnetic and thermal pressure and their internal turbulence. The idealized picture of an hydrodynamical collapse relies on an estimation of the Jeans length $\lambda_\textrm{J}$, the maximum wavelength of a density perturbation in a uniform gas above which pressure cannot respond fast enough and gravitational collapse is triggered. The corresponding Jeans mass M$_\textrm{J}$, of diameter $\lambda_\textrm{J}$ is the minimum mass of a cloud to collapse. These quantities are derived in \cite{BT} and are expressed
+Individual condensates of matter called cores form in clumps and filaments, these are stellar seeds (Fig~\ref{Fig:0_proto_1}). To collapse, they have to overcome their magnetic and thermal pressure and their internal turbulence. The idealized picture of an hydrodynamical collapse relies on an estimation of the Jeans length $\lambda_\textrm{J}$, the maximum wavelength of a density perturbation in a uniform gas above which pressure cannot respond fast enough and gravitational collapse is triggered. The corresponding Jeans mass M$_\textrm{J}$, of diameter $\lambda_\textrm{J}$ is the minimum mass of a cloud to collapse. These quantities are derived in \cite{BT} and are expressed
 
 \begin{align}
 \lambda_\textrm{J} & = \sqrt{\frac{\pi}{G \rho}} c_s \\
@@ -283,9 +290,46 @@ M_\textrm{J} &=  \frac{4 \pi}{3} \rho ( \lambda_\textrm{J} )^3 =    \left( \frac
  & \simeq  2.7 \Mo \left( \frac{c_s}{0.2 ~ \textrm{km.s}^{-1}} \right)^3 \left( \frac{n}{10^3 ~ \textrm{cm}^3} \right)^{-\frac{1}{2}}
 \end{align}
 
-with $c_s$, $\rho$ and $n$ the local sound speed, density and number density. These are the typical values expected for a prestellar core with such sound speeds and number densities. The molecular gas remains isothermal throughout the collapse, as the center radiates away the thermal energy from the increased density. When density reaches $10^10$ cm$^{-3}$, the dust mixed in the protostellar material turns the core of the cloud optically thick, energy cannot be radiated away anymore, temperature rises and collapse stops. It continues to accrete material, increasing its central density and temperature. When T reaches 2000K, molecular hydrogen starts to dissociate, absorbing energy. This allows a second collapse, stopped when all initial molecular hydrogen has been dissociated. The resulting core is called a protostar, its density profile is peaked in the cente and reaches about $10^{21}$ cm$^{-3}$ and a temperature of 20,000K. The protostar has a mass of $\sim$ a thousandth of its future stellar mass, as most of it is acquired during the next phase, accretion. Angular momentum from the original cloud shapes the gaseous envelope into a disk around the protostar, and magnetic activity starts creating jets. This stage has been divided into several classes, based on the Spectral Energy Distributions (SED) emitted by the objects, has the emission shifts from far infrared to mid, then near-infrared as the envelope is accreted. See \cite{Evans2009} for an historical description of the SED classes and \cite{Larson1969} for a theoretical overview of the principles of collapse and protostellar formation. 
+with $c_s$, $\rho$ and $n$ the local sound speed, density and number density. These are the typical values expected for a prestellar core with such sound speeds and number densities. The molecular gas remains isothermal throughout the collapse, as the center radiates away the thermal energy from the increased density. When density reaches $10^10$ cm$^{-3}$, the dust mixed in the protostellar material turns the core of the cloud optically thick, energy cannot be radiated away anymore, temperature rises and collapse stops. It continues to accrete material, increasing its central density and temperature. When T reaches 2000K, molecular hydrogen starts to dissociate, absorbing energy. This allows a second collapse, stopped when all initial molecular hydrogen has been dissociated. The resulting core is called a protostar (Fig~\ref{Fig:0_proto_2}), its density profile is peaked in the cente and reaches about $10^{21}$ cm$^{-3}$ and a temperature of 20,000K. The protostar has a mass of $\sim$ a thousandth of its future stellar mass, as most of it is acquired during the next phase, accretion. Angular momentum from the original cloud shapes the gaseous envelope into a disk around the protostar, and magnetic activity starts creating jets (Fig~\ref{Fig:0_proto_3}). This stage has been divided into several classes, based on the Spectral Energy Distributions (SED) emitted by the objects, has the emission shifts from far infrared to mid, then near-infrared as the envelope is accreted. See \cite{Evans2009} for an historical description of the SED classes and \cite{Larson1969} for a theoretical overview of the principles of collapse and protostellar formation. 
 
-After about a Myr, accretion stops and the object becomes a Pre-Main Sequence (PMS) star. It slowly contracts, following the Hayashi track, first described by \cite{Hayashi1961}. The source of energy of the star is still gravitational contracting, until central temperature reaches 10$^6$K and hydrogen starts fusing into Helium. The stars enters the Main Sequence and begin its life.
+
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.19\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_proto_1.jpg}
+        \caption{  Starless core\\\centering (NIR)}
+        \label{Fig:0_proto_1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.19\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_proto_2.jpg}
+        \caption{Young protostar  \\ \centerline{ (IR)}}
+        \label{Fig:0_proto_2}
+    \end{subfigure}
+        \begin{subfigure}[b]{0.19\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_proto_3.jpg}
+        \caption{Protostar \\\centering (IR,UV)}
+        \label{Fig:0_proto_3}
+    \end{subfigure}
+        \begin{subfigure}[b]{0.19\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_proto_4.jpg}
+        \caption{Pre-MS star \\ \centering (visible)}
+        \label{Fig:0_proto_4}
+    \end{subfigure}  
+        \begin{subfigure}[b]{0.19\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_proto_5.jpg}
+        \caption{MS star \\\centering (visible) }
+        \label{Fig:0_proto_5}
+    \end{subfigure}
+     \caption{Stages of stellar birth. (a) is just cold molecular gas and contains no central source yet. (b) is more advanced, though hidden in visible light, its central protostar shines in infrared.The protostar in (c) is actively accreting its disk and produces jets. (d) is a pre main-sequence star, free from its envelope and surrounded by primordial gas. (e) is the mature stellar stage: the main sequence.\textit{Credits: \protect\cite{Kandori2005}; NASA/JPL-Caltech/Evans,N; Burrows,C/HST-NASA; ESA/Hubble \& NASA; DSS}}
+     \label{Fig:0_protoevolution}
+\end{figure}
+
+
+
+
+
+After about a Myr, accretion stops and the object becomes a Pre-Main Sequence (PMS) star (Fig~\ref{Fig:0_proto_4}). It slowly contracts, following the Hayashi track, first described by \cite{Hayashi1961}. The source of energy of the star is still gravitational contracting, until central temperature reaches 10$^6$K and hydrogen starts fusing into Helium. The  object enters the Main Sequence and begin its life as a proper star(Fig~\ref{Fig:0_proto_5}).
 
 
 \subsection{Substructure and early dynamical evolution}
@@ -294,7 +338,27 @@ Observations show molecular clouds are substructured (see e.g. \citealt{Cambresy
 
 However, other young clusters do not display such fractal, clumpy or filamentary structure. Instead, they are smooth, centrally condensed systems. The most known example is the Orion Nebula Cluster, or ONC. Located in the heart of the Orion complex, the largest and most active star forming region in the solar neighborhood, the age of the ONC is estimated to a few Myr. \cite{Hillenbrand1998} found no clumps or filaments in the stellar distribution of the cluster, but a smooth distribution with a high density core formed by the Trapezium, a dense system of massive stars. This mass segregation, if not fully primordial, implies that some amount of dynamical evolution took place in the ONC since the formation of the stars. This dynamical evolution could have erased the initial substructures.
 
-This rough picture of substructured stellar formation and early evolution is backed up to some extent by hydrodynamical simulations of fragmentation modes in the turbulent ISM \citep{Klessen2000,Bate2003,MacLow2004,Offner2009}. When the newly born stars emerges in clumps, if the background tidal field is weak and the star forming region sits well inside its Roche radius, the clumps then converge to the system barycentre  and form a unique, relaxed  self-bound association over a  course of a few crossing time (see e.g. \citealt{Allison2009,Maschberger2010,Fujii2012}).
+These observations point at a rough picture of substructured stellar formation and early evolution: when the newly born stars emerges in clumps, if the background tidal field is weak and the star forming region sits well inside its Roche radius, the clumps then progressively merge and converge to the system barycentre to form a unique, relaxed  self-bound association over a  course of a few crossing time. This picture is backed up to some extent by hydrodynamical simulations of fragmentation modes in the turbulent ISM \citep{Klessen2000,Bate2003,MacLow2004,Offner2009,Maschberger2010} and by recent observationnal clues that subclusters show dynamical traces of mergers \citep{Kuhn2015b}. 
+
+\begin{figure}
+\center
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_clumpsobserved.png}
+        \caption{Observed distribution of gas and protostars}
+        \label{Fig:0_clumps_obs}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}
+
+        \includegraphics[width=0.9\textwidth]{Figures/0_clumpssimulated.png}
+        \caption{Hydrodynamical simulation}
+        \label{Fig:0_clumps_sim}
+    \end{subfigure}
+\caption{(a): observational data from the Monoceros R2 star forming region. Protostars are shown as red  points and gas density (traced through extinction) is shown in greyscale. The figure was extracted from \cite{Gutermuth2011}. (b): hydrodynamical simulation of a star forming region yellow points are star-like sink particles and red levels show gas density. The figure was extracted from \cite{Bonnell2011}.}
+\label{Fig:0_clumps}
+\end{figure}
+
+Figure \ref{Fig:0_clumps} shows the similarity of stellar distribution obtained by observations and simulations of star forming regions.
 
 
 \subsection{Star formation efficiency and infant mortality}
@@ -308,7 +372,26 @@ This picture is backed up by observations of young dissolving clusters \citep{Ba
 
 However, the picture is more complicated than it seems. First, the efficiency of stellar feedback is a complex problem, winds, photionisation and supernovaes have various impacts depending on the size and morphology of the clouds; they also seem to influence each other, for an overview of the problem see the serie of papers from \cite{Dale2011,Dale2013} and references therein. Furthermore, recent hydrodynamical simulations such as \cite{Pelupessy2012} show the exact timescale of gas removal has a crucial importance on the fate of the cluster, with a slow removal allowing survival with $\epsilon$ as low as 5\%.
 
-Finally, most of the previously mentionned simulations assumed a relaxed embedded stellar system. However, as mentionned in previous section, star formation is substructured. Dynamical evolution between clumps and subclusters occurs on timescales comparable to gas expulsion, making the stellar spatial distribution of huge importance for survival, as shown by \cite{Farias2015}. Hydrodynamical simulations (e.g \citealt{Kruijssen2012}) even point at subclusters being primordially gas-less due to localized high $\epsilon$, thus increasing the importance of substructure over gas expulsion.
+\begin{figure}
+\center
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=0.9\textwidth]{Figures/0_ejectionwind.png}
+        \caption{Simulation of gas expulsion}
+        \label{Fig:0_ejection_1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}
+
+        \includegraphics[width=\textwidth]{Figures/0_virializedclumps.png}
+        \caption{Virial states of stellar clumps}
+        \label{Fig:0_ejection_2}
+    \end{subfigure}
+\caption{(a): hydrodynamical simulation of wind-induced gas expulsion around a small cluster, the figure was extracted from \cite{Dale2013}. (b) virial parameter of stellar clumps in a star forming hydrodynamical simulation, ignoring the potential of the gas to predict their post-expulsion fate. The figure was extracted from \cite{Kruijssen2012}.}
+\label{Fig:0_clumps}
+\end{figure}
+
+
+Finally, most of the previously mentionned simulations assumed a relaxed embedded stellar system. However, as mentionned in previous section, star formation is substructured. Dynamical evolution between clumps and subclusters occurs on timescales comparable to gas expulsion, making the stellar spatial distribution of huge importance for survival, as shown by \cite{Farias2015}. Hydrodynamical simulations (e.g \citealt{Kruijssen2012}) even point at subclusters being primordially quasi gas-less due to localized high $\epsilon$, thus increasing the importance of substructure over gas expulsion.
 
 
 \section{Simulating star clusters evolution}
@@ -332,6 +415,37 @@ In a nutshell, hydrodynamical simulations are not yet fully realistic, but they 
 There is a persitent difficulty to bridge over self-consistently from the star formation phase, to the equilibrium configuration of bound clusters. Hydrodynamical calculations of star forming regions evolve for  up to a few $\times 10^5$ years, when a stable configuration would require several $\times 10^6$ years at typical cluster densities of $10^4$ to $10^5$ stars per cubic parsec. A way to overcome this issue is to switch to purely gravitational N-body simulations once the stars formed and most of the gas has been either accreted or expulsed. It is computationaly less expensive and allows for longer integration of larger systems.
 
 It is then essential to obtain a good model of the stars phase-space distribution at the end of a hydrodynamical simulation. While King and Plummer model have a known distribution one can sample from, no such thing exist for the clumps and filamentary structure of the newborn stellar objects in a star-forming regions. Several methods have been explored to solve this.
+
+
+
+\begin{figure}
+\center
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_bonnell.png}
+        \caption{Hydrodynamical output}
+        \label{Fig:0_substructure_0}
+    \end{subfigure}
+    ~~
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=0.93\textwidth]{Figures/0_fujii.png}
+        \caption{Stellar spawning}
+        \label{Fig:0_substructure_1}
+    \end{subfigure}
+    \\
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=0.95\textwidth]{Figures/0_plummers.png}
+        \caption{Multiple Plummer}
+        \label{Fig:0_substructure_2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_fractals.png}
+        \caption{Fractal configuration}
+        \label{Fig:0_substructure_3}
+    \end{subfigure}
+\caption{Representation of four methods to generate substructures. (a) is extracted from \citep{Kruijssen2012}, constructed with data from \cite{Bonnell2003}, (b) is extracted from \cite{Fujii2015}. (c) and (d) were generated for this work.}
+\label{Fig:0_substructures}
+\end{figure}
 
  
 \begin{itemize}

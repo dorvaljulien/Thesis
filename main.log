@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  13 JUL 2016 17:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  14 JUL 2016 19:20
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -815,7 +815,11 @@ File: frame.tss 2007/08/12
 \f@ncyO@erf=\skip81
 \f@ncyO@olf=\skip82
 \f@ncyO@orf=\skip83
-)) (./main.aux)
+)) (./main.aux
+
+LaTeX Warning: Label `Fig:0_clumps' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -834,8 +838,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count167
 \scratchdimen=\dimen212
@@ -987,105 +990,178 @@ File: Figures/0_NGC1333_scale_contrast.jpg Graphic file (type jpg)
 <Figures/0_MassRadiusClusters.png, id=441, 1173.38374pt x 1115.16624pt>
 File: Figures/0_MassRadiusClusters.png Graphic file (type png)
 
-<use Figures/0_MassRadiusClusters.png> [11 <./Figures/0_R136_scale.jpg> <./Figu
-res/0_NGC1333_scale_contrast.jpg>] [12 <./Figures/0_MassRadiusClusters.png (PNG
- copy)>] [13] [14] <Figures/0_kingplummer.png, id=540, 1011.78pt x 361.35pt>
+<use Figures/0_MassRadiusClusters.png>
+
+Package natbib Warning: Citation `Kuhn2015' on page 11 undefined on input line 
+91.
+
+[11 <./Figures/0_R136_scale.jpg> <./Figures/0_NGC1333_scale_contrast.jpg>]
+[12 <./Figures/0_MassRadiusClusters.png (PNG copy)>] [13] [14]
+<Figures/0_kingplummer.png, id=537, 1011.78pt x 361.35pt>
 File: Figures/0_kingplummer.png Graphic file (type png)
 
-<use Figures/0_kingplummer.png> [15 <./Figures/0_kingplummer.png>] [16]
-[17]
-Underfull \vbox (badness 1810) has occurred while \output is active []
+<use Figures/0_kingplummer.png> [15 <./Figures/0_kingplummer.png>]
+<Figures/0_horsehead_visible2.jpg, id=564, 1343.0175pt x 524.96124pt>
+File: Figures/0_horsehead_visible2.jpg Graphic file (type jpg)
 
- [18]
-[19] [20] [21]
+<use Figures/0_horsehead_visible2.jpg>
+<Figures/0_horsehead_infrared.jpg, id=565, 1185.42876pt x 460.72125pt>
+File: Figures/0_horsehead_infrared.jpg Graphic file (type jpg)
 
-Package natbib Warning: Citation `goodwin2004' on page 22 undefined on input li
-ne 430.
+<use Figures/0_horsehead_infrared.jpg> [16 <./Figures/0_horsehead_visible2.jpg>
+ <./Figures/0_horsehead_infrared.jpg>]
+<Figures/0_proto_1.jpg, id=587, 200.75pt x 200.75pt>
+File: Figures/0_proto_1.jpg Graphic file (type jpg)
 
-[22] [23] <Figures/0_block_timesteps.png, id=877, 925.4575pt x 554.07pt>
+<use Figures/0_proto_1.jpg>
+<Figures/0_proto_2.jpg, id=588, 486.81876pt x 486.81876pt>
+File: Figures/0_proto_2.jpg Graphic file (type jpg)
+
+<use Figures/0_proto_2.jpg>
+<Figures/0_proto_3.jpg, id=589, 435.6275pt x 435.6275pt>
+File: Figures/0_proto_3.jpg Graphic file (type jpg)
+
+<use Figures/0_proto_3.jpg>
+<Figures/0_proto_4.jpg, id=590, 155.58125pt x 155.58125pt>
+File: Figures/0_proto_4.jpg Graphic file (type jpg)
+
+<use Figures/0_proto_4.jpg>
+<Figures/0_proto_5.jpg, id=591, 110.4125pt x 110.4125pt>
+File: Figures/0_proto_5.jpg Graphic file (type jpg)
+
+<use Figures/0_proto_5.jpg> [17 <./Figures/0_proto_1.jpg (PNG copy)> <./Figures
+/0_proto_2.jpg> <./Figures/0_proto_3.jpg> <./Figures/0_proto_4.jpg> <./Figures/
+0_proto_5.jpg>] <Figures/0_clumpsobserved.png, id=643, 930.47626pt x 851.18pt>
+File: Figures/0_clumpsobserved.png Graphic file (type png)
+
+<use Figures/0_clumpsobserved.png>
+<Figures/0_clumpssimulated.png, id=644, 536.0025pt x 519.9425pt>
+File: Figures/0_clumpssimulated.png Graphic file (type png)
+
+<use Figures/0_clumpssimulated.png> [18 <./Figures/0_clumpsobserved.png (PNG co
+py)> <./Figures/0_clumpssimulated.png>]
+<Figures/0_ejectionwind.png, id=694, 503.8825pt x 488.82625pt>
+File: Figures/0_ejectionwind.png Graphic file (type png)
+
+<use Figures/0_ejectionwind.png>
+<Figures/0_virializedclumps.png, id=695, 693.59125pt x 561.09625pt>
+File: Figures/0_virializedclumps.png Graphic file (type png)
+
+<use Figures/0_virializedclumps.png> [19 <./Figures/0_ejectionwind.png (PNG cop
+y)> <./Figures/0_virializedclumps.png (PNG copy)>] [20]
+<Figures/0_bonnell.png, id=760, 694.595pt x 664.4825pt>
+File: Figures/0_bonnell.png Graphic file (type png)
+
+<use Figures/0_bonnell.png>
+<Figures/0_fujii.png, id=761, 542.025pt x 548.0475pt>
+File: Figures/0_fujii.png Graphic file (type png)
+
+<use Figures/0_fujii.png>
+<Figures/0_plummers.png, id=762, 625.33624pt x 595.22375pt>
+File: Figures/0_plummers.png Graphic file (type png)
+
+<use Figures/0_plummers.png>
+<Figures/0_fractals.png, id=763, 642.4pt x 565.11125pt>
+File: Figures/0_fractals.png Graphic file (type png)
+
+<use Figures/0_fractals.png>
+Underfull \vbox (badness 4726) has occurred while \output is active []
+
+ [21]
+[22 <./Figures/0_bonnell.png (PNG copy)> <./Figures/0_fujii.png> <./Figures/0_p
+lummers.png> <./Figures/0_fractals.png>] [23] [24]
+
+Package natbib Warning: Citation `goodwin2004' on page 25 undefined on input li
+ne 544.
+
+
+Package natbib Warning: Citation `Allison2009' on page 25 undefined on input li
+ne 544.
+
+[25] [26] <Figures/0_block_timesteps.png, id=946, 925.4575pt x 554.07pt>
 File: Figures/0_block_timesteps.png Graphic file (type png)
 
-<use Figures/0_block_timesteps.png> [24 <./Figures/0_block_timesteps.png (PNG c
-opy)>] <Figures/0_hermite_scheme.png, id=897, 1416.29124pt x 997.7275pt>
+<use Figures/0_block_timesteps.png> [27 <./Figures/0_block_timesteps.png (PNG c
+opy)>] <Figures/0_hermite_scheme.png, id=967, 1416.29124pt x 997.7275pt>
 File: Figures/0_hermite_scheme.png Graphic file (type png)
 
-<use Figures/0_hermite_scheme.png> [25] [26 <./Figures/0_hermite_scheme.png (PN
-G copy)>]) (./Chapters/chapter_HLmodel.tex [27] [28
+<use Figures/0_hermite_scheme.png> [28] [29 <./Figures/0_hermite_scheme.png (PN
+G copy)>]) (./Chapters/chapter_HLmodel.tex [30]
+Chapter 2.
+[31
 
 ]
-Chapter 2.
-[29]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
- [30]
-<Figures/1_apextime.png, id=982, 578.16pt x 433.62pt>
+ [32]
+<Figures/1_apextime.png, id=1047, 578.16pt x 433.62pt>
 File: Figures/1_apextime.png Graphic file (type png)
 
-<use Figures/1_apextime.png> <Figures/1_MST.png, id=983, 867.24pt x 361.35pt>
+<use Figures/1_apextime.png> <Figures/1_MST.png, id=1048, 867.24pt x 361.35pt>
 File: Figures/1_MST.png Graphic file (type png)
 
-<use Figures/1_MST.png> [31] [32 <./Figures/1_apextime.png> <./Figures/1_MST.pn
+<use Figures/1_MST.png> [33] [34 <./Figures/1_apextime.png> <./Figures/1_MST.pn
 g>]
 
-LaTeX Warning: Reference `Fig:Ndcut' on page 33 undefined on input line 179.
+LaTeX Warning: Reference `Fig:Ndcut' on page 35 undefined on input line 179.
 
-<Figures/1_Ndcut.png, id=1024, 633.8079pt x 529.0164pt>
+<Figures/1_Ndcut.png, id=1090, 633.8079pt x 529.0164pt>
 File: Figures/1_Ndcut.png Graphic file (type png)
 
 <use Figures/1_Ndcut.png>
-<Figures/1_clumpsABC.png, id=1026, 1445.4pt x 505.89pt>
+<Figures/1_clumpsABC.png, id=1092, 1445.4pt x 505.89pt>
 File: Figures/1_clumpsABC.png Graphic file (type png)
 
 <use Figures/1_clumpsABC.png>) (./Chapters/chapter_dynamicalevolution.tex
-[33 <./Figures/1_Ndcut.png>] [34 <./Figures/1_clumpsABC.png>]
+[35 <./Figures/1_Ndcut.png>] [36 <./Figures/1_clumpsABC.png>]
 Chapter 3.
 
-Package natbib Warning: Citation `Cottaar15' on page 35 undefined on input line
+Package natbib Warning: Citation `Cottaar15' on page 37 undefined on input line
  40.
 
 
-Package natbib Warning: Citation `Moeckel12' on page 35 undefined on input line
+Package natbib Warning: Citation `Moeckel12' on page 37 undefined on input line
  40.
 
 
-Package natbib Warning: Citation `Fujii16' on page 35 undefined on input line 4
+Package natbib Warning: Citation `Fujii16' on page 37 undefined on input line 4
 0.
 
 
-Package natbib Warning: Citation `Theis99' on page 35 undefined on input line 4
+Package natbib Warning: Citation `Theis99' on page 37 undefined on input line 4
 2.
 
 
-Package natbib Warning: Citation `Boily02' on page 35 undefined on input line 4
+Package natbib Warning: Citation `Boily02' on page 37 undefined on input line 4
 2.
 
 
-Package natbib Warning: Citation `Barnes09' on page 35 undefined on input line 
+Package natbib Warning: Citation `Barnes09' on page 37 undefined on input line 
 42.
 
 
-Package natbib Warning: Citation `Caputo14' on page 35 undefined on input line 
+Package natbib Warning: Citation `Caputo14' on page 37 undefined on input line 
 42.
 
 
-Package natbib Warning: Citation `Benhaiem15' on page 35 undefined on input lin
+Package natbib Warning: Citation `Benhaiem15' on page 37 undefined on input lin
 e 42.
 
-[35
+[37
 
 ]
 
-LaTeX Warning: Reference `Eqn:Trel' on page 36 undefined on input line 53.
+LaTeX Warning: Reference `Eqn:Trel' on page 38 undefined on input line 53.
 
 
-LaTeX Warning: Reference `Eqn:Tms' on page 36 undefined on input line 53.
+LaTeX Warning: Reference `Eqn:Tms' on page 38 undefined on input line 53.
 
 
-LaTeX Warning: Reference `Fig:Rhm_global' on page 36 undefined on input line 71
+LaTeX Warning: Reference `Fig:Rhm_global' on page 38 undefined on input line 71
 .
 
 
@@ -1094,45 +1170,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--80
  []
 
 
-Package natbib Warning: Citation `caputo14' on page 36 undefined on input line 
+Package natbib Warning: Citation `caputo14' on page 38 undefined on input line 
 83.
 
 
-Package natbib Warning: Citation `theis99' on page 36 undefined on input line 8
+Package natbib Warning: Citation `theis99' on page 38 undefined on input line 8
 3.
 
-[36]
+[38]
 
-Package natbib Warning: Citation `caputo14' on page 37 undefined on input line 
+Package natbib Warning: Citation `caputo14' on page 39 undefined on input line 
 101.
 
 
-Package natbib Warning: Citation `theis99' on page 37 undefined on input line 1
+Package natbib Warning: Citation `theis99' on page 39 undefined on input line 1
 01.
 
-[37]
+[39]
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 38 undefined on input line 127.
-
-
-
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 38 undefined on input line 127.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 40 undefined on input line 127.
 
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 38 undefined on input line 129.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 40 undefined on input line 127.
 
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 38 undefined on input line 129.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 40 undefined on input line 129.
 
 
 
-LaTeX Warning: Reference `Sec:discussion' on page 38 undefined on input line 13
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 40 undefined on input line 129.
+
+
+
+LaTeX Warning: Reference `Sec:discussion' on page 40 undefined on input line 13
 2.
 
 
-LaTeX Warning: Reference `Fig:Lagrange' on page 38 undefined on input line 132.
+LaTeX Warning: Reference `Fig:Lagrange' on page 40 undefined on input line 132.
 
 
 
@@ -1141,63 +1217,64 @@ Overfull \hbox (113.453pt too wide) in paragraph at lines 138--150
  []
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 38 undefined on input line 154.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 40 undefined on input line 154.
 
 
 
-LaTeX Warning: Reference `Subsec:ClumpSegregation' on page 38 undefined on inpu
+LaTeX Warning: Reference `Subsec:ClumpSegregation' on page 40 undefined on inpu
 t line 154.
 
 
-LaTeX Warning: Reference `Fig:Rhm_segr' on page 38 undefined on input line 154.
+LaTeX Warning: Reference `Fig:Rhm_segr' on page 40 undefined on input line 154.
 
 
 
-Package natbib Warning: Citation `mcmillan07' on page 38 undefined on input lin
+Package natbib Warning: Citation `mcmillan07' on page 40 undefined on input lin
 e 154.
 
 
-Package natbib Warning: Citation `allison10' on page 38 undefined on input line
+Package natbib Warning: Citation `allison10' on page 40 undefined on input line
  154.
 
 ) (./Chapters/chapter_binaries.tex
 Underfull \vbox (badness 2547) has occurred while \output is active []
 
- [38]
-[39] [40
+ [40]
+[41] [42
 
 ]
 Chapter 4.
-[41]) [42]
+[43]) [44]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 79.
 
-(./main.bbl [43
+(./main.bbl [45
 
-] [44
+] [46
 
-] [45]
+] [47]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no œ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
- [46] [47] [48] [49]
+ [48] [49] [50] [51]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¨ in font cmr10!
-) [50] (./main.lof)
+) [52] (./main.lof
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [53
+
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [51
 
-
-] [52
-
-]
-(./main.lot)
+[54] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
@@ -1205,7 +1282,9 @@ Missing character: There is no ¨ in font cmr10!
 
 Package natbib Warning: There were undefined citations.
 
-[53] (./main.aux)
+[55
+
+] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1213,14 +1292,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21889 strings out of 493848
- 353592 string characters out of 1152824
- 484929 words of memory out of 3000000
- 24315 multiletter control sequences out of 15000+50000
+ 22008 strings out of 493848
+ 356392 string characters out of 1152824
+ 487250 words of memory out of 3000000
+ 24411 multiletter control sequences out of 15000+50000
  17105 words of font info for 65 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  58i,14n,55p,2452b,681s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1239,9 +1318,9 @@ sfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
 /share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (57 pages, 1784609 bytes).
+Output written on main.pdf (59 pages, 3658073 bytes).
 PDF statistics:
- 1326 PDF objects out of 1440 (max. 8388607)
- 350 named destinations out of 1000 (max. 500000)
- 424 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1436 PDF objects out of 1440 (max. 8388607)
+ 358 named destinations out of 1000 (max. 500000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
