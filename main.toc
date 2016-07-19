@@ -13,30 +13,30 @@
 \contentsline {subsection}{\numberline {1.3.3}Star formation efficiency and infant mortality}{18}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Simulating star clusters evolution}{20}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Hydrodynamical simulations}{20}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Artificial substructure}{20}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Artificial substructure}{21}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Binary stars}{23}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}What is a binary star ?}{23}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Why binaries ?}{23}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Multiplicity fraction}{23}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}Observed population}{24}{subsection.1.5.4}
-\contentsline {subsection}{\numberline {1.5.5}Simulate binary populations in clusters}{24}{subsection.1.5.5}
-\contentsline {section}{\numberline {1.6}NBODY6}{26}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}H\'enon units}{26}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Block time-step}{27}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}KS-regularization}{27}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Hermite integration scheme}{28}{subsection.1.6.4}
-\contentsline {subsection}{\numberline {1.6.5}Ahmad-Cohen neighbour scheme}{30}{subsection.1.6.5}
-\contentsline {chapter}{\numberline {2}The Hubble-Lema\^itre fragmented model}{31}{chapter.2}
-\contentsline {section}{\numberline {2.1}How to build a Hubble-Lema\^itre model}{31}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Initial state}{31}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Fragmentation}{32}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Perturbation theory}{34}{section.2.2}
-\contentsline {section}{\numberline {2.3}Analysis of the fragmented system}{34}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Clump finding algorithm}{34}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3}Dynamical evolution}{37}{chapter.3}
-\contentsline {section}{\numberline {3.1}Bla}{37}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Scaling to physical units}{37}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Collapse and virialisation}{38}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Global mass segregation}{39}{section.3.2}
-\contentsline {chapter}{\numberline {4}Binary population evolution}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Shock}{44}{section.4.1}
+\contentsline {subsection}{\numberline {1.5.3}Multiplicity fraction}{24}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Observed population}{25}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Simulate binary populations in clusters}{26}{subsection.1.5.5}
+\contentsline {section}{\numberline {1.6}NBODY6}{27}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}H\'enon units}{27}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Block time-step}{28}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}KS-regularization}{28}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Hermite integration scheme}{29}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Ahmad-Cohen neighbour scheme}{31}{subsection.1.6.5}
+\contentsline {chapter}{\numberline {2}The Hubble-Lema\^itre fragmented model}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}How to build a Hubble-Lema\^itre model}{33}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Initial state}{33}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Fragmentation}{34}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}The growth of overdensities: analytical study}{36}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Working equations}{36}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Linear density perturbation}{37}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Consistent initial conditions}{39}{subsection.2.2.3}
+\contentsline {subsubsection}{Initial conditions}{39}{subsubsection*.25}
+\contentsline {subsubsection}{Fourier modes: resolution issues}{39}{subsubsection*.27}
+\contentsline {subsection}{\numberline {2.2.4}Segregation time-scale}{40}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Example with N = 15000}{43}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}N-body simulations}{43}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Clump finding algorithm}{43}{subsection.2.3.1}

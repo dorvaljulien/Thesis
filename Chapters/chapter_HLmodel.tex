@@ -62,7 +62,13 @@ By multiplying on both sides by $v$ and integrating between a given time and $t=
 v^2(t) - v^2_0 = 2GM \left( \inv{R} - \inv{R_0} \right)
 \end{equation}
 
-Which becomes, by taking $\nu = v/v0$,  $x= R/R0$ and $E_\ast = \frac{2GM}{R_0 v_0^2}$, which is a dimensionless measure of the total energy of the system:
+Which becomes, by taking $\nu = v/v0$,  $x= R/R0$ and defining:
+
+\begin{equation}
+\label{Eq:1_Estar}
+E_\ast = \frac{2GM}{R_0 v_0^2}
+\end{equation}
+which is a dimensionless measure of the total energy of the system:
 
 \begin{equation}
 \nu^2  = 1 + E_\ast \left( \inv{x} - 1 \right) .
@@ -115,6 +121,7 @@ We know that $x$ varies from 1 to $x_a$, thus $u$ varies from $1/x_a$ to 1. We c
 which becomes after simplifications:
 
 \begin{equation}
+\label{Eq:1_integrand_theta}
 [ 1 - \cos(2\theta)]d\theta = \frac{\tilde{\Hub_0}}{x_a} dt .
 \end{equation}
 
@@ -151,14 +158,368 @@ See figure \ref{Fig:apextime} for the value of $t_a$ as a function of \Hub$_0$
 
 
 
-\section{Perturbation theory}
+\section{The growth of overdensities: analytical study}
 
 
-\section{Analysis of the fragmented system}
+
+\subsection{Working equations}
+
+
+
+\begin{table}
+\begin{center}
+\caption{Summary of main variables.}
+\label{Tab:identities}
+\begin{tabularx}{\columnwidth}{rl}
+\hline
+$E$ & Total system energy \\
+$E_*$ & Dimensionless total energy \\
+$W$ & Total potential energy \\
+$E_k$ & Total kinetic energy\\
+$\cal M$ & Total system mass\\
+$R_o$ & Initial bouding radius\\
+$\Hub_0$ & Initial Hubble parameter\\
+$v_o$ & Initial velocity at bounding radius\\
+$\Hub$ & Variable Hubble parameter\\
+$\tau$ & Dimensionless time\\
+$x$ & Comoving spatial coordinate\\
+$a(t)$ & Rescaling function\\
+$\theta$ & Calculation angle\\
+$\nu(\tau)$ & Dimensionless velocity $1 + E_*(1/a(\tau)-1)$\\
+$\xi$ & Radial displacement from comoving \\
+$\delta\rho,\delta M,\delta\rho$ & Perturbed quantities\\
+$\mu(\tau)$ & Central point mass\\
+$\eta$ & Peculiar velocity $d\xi/dt$\\
+\hline
+\end{tabularx}
+\end{center}
+\end{table}
+
+During the expansion and in the mean-field approximation, the mass inside any shell of radius $r(t)$ is conserved as they move outwards. The position of a mass element is known in parametric form from a rescaling of its initial coordinates and we may write 
+
+\begin{align} 
+\bold{r}(t) &= a(t)\bold{x}\\
+\bold{v}(t) &= \dot{a}\bold{x} = \Hub(t)\bold{r} 
+\end{align} 
+
+ where $\bold{x}$ is a co-moving coordinate of position, and $a(t)$ is a dimensionless function of time. The flow is homological and no shell-crossing takes place. It is convenient to introduce a dimensionless time $\tau$ such that 
+ 
+ \begin{equation} 
+ \label{Eq:1_taudef}
+  t = \frac{\tau}{\Hub_0}.
+ \end{equation} 
+ 
+  We then have from equation (\ref{Eq:1_integrand_theta}):
+\begin{equation}
+\label{Eq:1_Expansion} 
+\left. \left[ \frac{ E_\ast}{E_\ast -1} \right]^{\frac{3}{2}} \, \left[ 2\theta - \sin{2\theta} \right]\, \right\vert_{\theta_o}^\theta =  2\sqrt{E_\ast} \tau 
+\end{equation}
+with 
+
+\begin{equation}  
+\label{Eq:1_atheta} 
+		a(t)  \equiv  \frac{\sin^2\theta(\tau)} {\sin^2\theta_o}  
+\end{equation}
+
+
+The dimensionless energy parameter $E_\ast$ satisfies  $E_\ast  > 1$ for bound systems. The origin of time $\tau = 0 $ coincides with  the angle $\theta_o$ found from solving 
+ $\sin^2\theta_o = (E_\ast - 1) /  E_\ast $. 
+%% With $R_o$ and $\Hub_0^{-1}$ dimensional constants for the scales of length and time, repectively, 
+The solution (\ref{Eq:1_Expansion})  
+provides the time-sequence for the position and velocity of any shell $ 0 < x < R_o$ as parametric functions of $\tau$~: 
+
+\begin{subequations}
+\label{Eq:1_HubbleExpr} 
+\begin{equation}
+ v(t) = \Hub_0 x  \sqrt{ 1 + E_\ast \left( \frac{1}{a(\tau)} - 1 \right) } = \Hub_0 ~ x ~\nu(\tau)
+ \end{equation} 
+ \begin{equation} 
+  \Hub(t) = \Hub_0 ~ \frac{\nu(\tau)}{a(\tau)} 
+ \end{equation} 
+\begin{equation}
+\rho(t) = \frac{3\Mtot}{4\pi R_o^3}\frac{1}{a^3(\tau)}\ . 
+\end{equation}			
+\end{subequations}
+
+ 
+\subsection{Linear density perturbation}
+\label{Sub:1_FragmentationModes}
+An actual Hubble-Lema\^itre model will develop 3-dimensional clumps during the expansion, but to get an analytic view of this process, it is necessary to fall back on one dimension. This will shed light on the growth of clumps and help understand general trends in the system.
+
+We follow radial density perturbations in the expanding uniform sphere described by equations (\ref{Eq:1_Expansion}) and (\ref{Eq:1_atheta}), as the local density increase also gauges the rise in velocity dispersion. A simplified calculation for radial modes of perturbation in the linear approximation will be derived here, with the goal to determine when the clumps become mostly self-gravitating. A more detailed analysis can be found in the classic work by \cite{Friedman1978}, \cite{Peebles1980} and \cite{Aarseth1988} .
+
+We introduce a Lagrangian perturbation in the position of a shell of constant mass by substituting $\mathbf{x} \rightarrow \mathbf{x} + \boldsymbol\xi(\mathbf{x},t)$ and we set $\boldsymbol\xi = \xi \bold{u_r}$ for a radial displacement. A linear treatment of the continuity equation yields an expression for the perturbed density. Starting from the well known equation
+
+\begin{equation}
+\frac{\partial \rho}{\partial t} + \nabla(\rho \bold{v}) = 0 
+\end{equation}
+
+which transforms into
+
+\begin{equation}
+\delta \rho + \nabla (\rho \bold{v} \delta t) = 0.
+\end{equation}
+
+We make use of the equivalence:
+\begin{equation}
+\label{Eq:1_derivequiv}
+\frac{\partial}{\partial r} \equiv \frac{1}{a} \frac{\partial}{\partial x}
+\end{equation}
+to obtain, considering $ \bold{v} \delta t = \delta \bold{r} = a(\tau) \boldsymbol\xi$ and ignoring second order terms from $\delta \rho$:
+
+\begin{equation} 
+\label{Eq:1_DeltaRho} 
+\delrho = - \mathbf{\nabla}\cdot (a\rho\mathbf{\xi}) =  - \rho(\tau) \frac{1}{x^2}\frac{\partial}{\partial x} ( x^2\xi ) 
+\end{equation}
+
+which leads to a perturbation in  the mass integrated up to  radius $r$ 
+
+\begin{align}
+\delta M(<r) &= \delta \left( \rho \frac{4}{3} \pi r^3 \right)\\
+    &= - 4\pi a^3(\tau) \rho x^2 \xi . 
+\end{align}
+Poisson's equation in spherical symmetry gives the perturbed potential 
+
+\begin{equation} 
+\label{Eq:1_Poisson} 
+\frac{1}{r^2}\frac{\partial}{\partial r} r^2\frac{\partial}{\partial r} \delphi =\frac{1}{a^2}\frac{1}{x^2}\frac{\partial}{\partial x} x^2\frac{\partial}{\partial x} \delphi  = 4\pi G\delrho .
+\end{equation}
+Substituting for $\delrho$ from (\ref{Eq:1_DeltaRho}) in (\ref{Eq:1_Poisson}), and using (\ref{Eq:1_derivequiv}), we obtain:
+\begin{equation}
+\frac{\partial}{\partial x} \left( x^2 \frac{\partial \delphi}{\partial x} \right) = - 4\pi a^2 G \rho_0 \frac{\partial}{\partial x} \left( x^2 \xi \right)
+\end{equation}
+Integrating once, we obtain the general solution
+\begin{equation}
+\label{Eq:1_Gradpsi} 
+a(\tau)\nabla \delphi = \frac{3G\Mtot}{R_o^3} \left( - \xi + R_o^3\frac{\mu(\tau)}{x^2} \right) 
+\end{equation}
+where $\mu$ stands for a central point mass. A point mass would form by shell crossing at the center of coordinates. In an expanding system, shell crossing at the center is unlikely. For that reason, we make $ \mu = 0$ in the remainder of this paper.
+
+The equations of motion at co-moving radius $x +\xi(x,t)$ can be expanded to first order in $\xi$~; identifying terms of the same order we obtain (with $\partial/\partial x = \nabla_x$)
+
+\begin{equation} 
+a(\tau) \frac{d^2}{d t^2} \xi + 2 \dot{a}(\tau) \frac{d}{dt}\xi = - \nabla\delphi - \xi \nabla_x \nabla\phi - \ddot{a}(\tau)\xi \ . 
+\end{equation} 
+The second and third terms on the right-hand side cancel out exactly~; the first is known from (\ref{Eq:1_Gradpsi}). 
+It is standard practice to demote this second-order dynamical equation to a set of first order equations~; for convenience we use the initial system radius $R_o$ as unit of length,  and we introduce starred ($\ast$) dimensionless variables. We then have $x = R_o x_\ast, \xi = R_o\xistar$, and so on.  After simplification using the dimensionless functions of $\tau$  defined in (\ref{Eq:1_taudef}) and recalling that $\dot{a}(\tau) = \textrm{H}(\tau)$, the differential equations read
+
+\begin{subequations}
+ \label{Eq:1_system}
+    \begin{align}
+    	\label{Eq:1_systema}
+		\frac{d}{d\tau} \xistar &=  \etastar(\tau)  \\ 
+		\label{Eq:1_systemb}
+		\frac{d}{d\tau} \etastar &= \frac{3 \Estar}{a(\tau)^2}\,\xistar - 2 		\frac{\textrm{H}(\tau)}{a(\tau)} \etastar   
+	\end{align}
+\end{subequations}
+where we have introduced the peculiar velocity $\eta \equiv d\xi/dt = \Hub_0R_o \eta_\ast$.  
+
+
+\subsection{Consistent initial conditions} 
+\subsubsection{Initial conditions} 
+Equations (\ref{Eq:1_system}) can be numerically integrated with an explicit integration scheme once the initial values $R_o, \Hub_0, {\cal M}$ and $\xistar(0)$ are specified and values of $a(\tau)$ are obtained from (\ref{Eq:1_atheta}) and (\ref{Eq:1_Expansion}). All functions of the dimensionless time $\tau$ are set to unity except that $\etastar(0) = 0$. The solution is shown on Fig~\ref{Fig:1_tau_ms}.
+
+
+The Hubble parameter $\Hub(\tau) \rightarrow 0$ when the system reaches a maximum radius $a(\tau)R_o$ ($\theta[\tau] = \pi/2$ in Eq.~\ref{Eq:1_atheta}). Around that time, equation (\ref{Eq:1_systemb}) transforms so the Lagrangian displacement $\xistar$ grows exponentially, and the clumps become the densest. We investigate the growth of a density perturbation as a Fourier fragmentation mode before that. In the linear regime, such a mode is decoupled from all the others. We pick 
+
+ \begin{figure}
+	\center
+ 	\includegraphics[width=0.7\textwidth]{Figures/1_perturbation.png}
+	\caption{Schematic illustration of a sinewave density perturbation (red line) applied to an uniform distribution of matter (blue dots) and the resulting distribution (red dots). The mode displayed here has $m=10$ and its amplitude was exaggerated.} 
+	\label{Fig:1_perturbation}
+\end{figure}
+
+\begin{equation} 
+\label{Eq:1_FourierMode} 
+   \xistar(x,0) = \xistaro \sin( kx ) ,
+\end{equation}  
+where the wavenumber $k$ is such that $k R_o = m \pi$ and $\xistar(R_o,0) = \xistar(R_o,\tau) = 0$ at all times. When deciding which wavenumber to choose, we must bear in mind the finite numerical resolution of the models that we will present later. The next subsection gives quantitative arguments that motivated our choices.  
+The aspect of the perturbed system is shown as a rough schematic on Fig~\ref{Fig:1_perturbation}.
+
+\subsubsection{Fourier modes: resolution issues} 
+\label{Ssub:1_FourierModes}
+An uniform distribution of $N$ discrete mass elements cannot resolve infinitely small wavelengths, the lower limit depends on the mean separation $l_o\simeq R_o / N^{1/3}$ which gives a reference wavelength $\lambda / R_o = \lambda_\ast \ge N^{-1/3}$ for a resolved  Fourier mode. 
+Since $kR_o = m\pi$, this also implies that $ m \le 2 N^{1/3}$.  
+
+The initial amplitude $\xistaro$  of the perturbation can be tailored to the actual Poissonian fluctuations in a uniform distribution of discrete elements. The radius bounding a shell of $N$ mass elements distributed randomly will fluctuate freely between $r$, $r + \delta r$ due to stochasticity. The radius $r$ of a uniform sphere being a power-law of mass $M$, we 
+find:
+\begin{equation}
+\frac{\delta r}{r} = \frac{1}{3}\,\frac{\delta M}{M} =  \frac{1}{3}\,\frac{\delta N}{N} = \frac{1}{3} N^{-\frac{1}{2}}
+\end{equation}
+ for identical mass elements. We then compute the number-averaged value $\langle \delta r/r\rangle$ by summing over  all elements from 1 to $N$ and dividing by $N-1$ to find 
+\begin{equation}
+\langle \frac{\delta r}{r} \rangle = \langle \xistaro\rangle = \frac{2}{3} \frac{\sqrt{N} - 1 }{N - 1} \ .
+\end{equation}  
+
+Thus the mean amplitude (in units of $R_o$) is $\langle\xistaro\rangle\simeq 1/10$ for $N=32$ which drops to $\langle\xistaro\rangle\simeq 6\times 10^{-4}$ when $N = 10^6$. We checked that the mode with the shortest wavelength $\lambda_\ast$ still resolved would have a displacement $\langle\xistaro\rangle$ initially 
+smaller than $\lambda_\ast/2$ for any sensible value of $N$. This in turn implies that this mode may grow over time to reach an amplitude $\xistar(x,\tau) \simeq \lambda_\ast/2$, which is the point when orbit-crossing between shells of constant mass must occur. In other words, at this point, the overdensity transitions from linear convergence of particles to  collisional evolution (not covered by Eqs.~\ref{Eq:1_system}). The time when shell-crossing occurs can be seen as the "birth" of a clump, whether this clumps undergoes consequent two-body relaxation effects depends on its characteristics, such as density and membership, and the remaining time before the end of expansion. 
+
+\subsection{Segregation time-scale} 
+\label{Sec:Timescales} 
+We already noted that $\Hub_0^{-1}$ sets a time-scale for the expansion of the system. That time should be chosen so that it matches the hydrodynamical star formation
+phase of $0.5 - 1$ Myr \citep{Maschberger2011,Bate2014}. 
+When $\Hub(\tau) = 0$ and the expansion is over, the stars relax to a new equilibrium driven by star-star interactions. Therefore we need to address first the 
+internal dynamics in clumps in time units of $\Hub_0^{-1}$, before discussing the later phase of violent relaxation and consider the system as a whole. 
+The definitions are the same, only the face values change between the two phases of evolution. 
+
+Let us consider a clump of membership $N_\lambda$ initiated by a Fourier mode of wavelength $\lambda$. With its total density $\rho + \delrho$ given by Eq.~(\ref{Eq:1_DeltaRho}), we may write 
+
+\begin{equation}
+ \rho_g = \frac{\rho_o}{a^3(\tau)} \, \left( 1 + \frac{\delrho}{\rho} \right) \equiv  \frac{\rho_o}{a^3(\tau)} \, \rho_\ast.
+ \end{equation}
+ 
+Combining this with Eqs.~(\ref{Eq:0_tcr}), (\ref{Eq:0_trel}) and (\ref{Eq:0_ms2}) from the introduction, the mass-segregation timescale in the clump now reads:
+
+\begin{equation}
+ \tms = \frac{0.138}{6}\pi \left(\frac{3}{4\pi}\right)^{1/2} \frac{\langle m_\star\rangle}{\max\{m_\star\}} \, \frac{N_\lambda}{\ln 0.4 N_\lambda} \, (G\rho_g)^{-\frac{1}{2}}\, . \end{equation}
+  
+Making use of the equality 
+
+\begin{equation}
+\frac{4\pi}{3} G\rho_o = \Hub_0^2 \Estar ,
+\end{equation} 
+the last three relations simplify to the expression of the new dimensionless mass-segregation timescale:
+
+\begin{equation}\label{Eqn:Taums} 
+\tau_{ms} = \Hub_0 \tms = \frac{0.138}{6} \pi \, \frac{a_\lambda^{3/2}}{(\rho_\ast\Estar)^{1/2}} \, \frac{\langle m_\star\rangle}{\max\{m_\star\}} \, \frac{N_\lambda}{\ln 0.4 N_\lambda} 
+\end{equation}
+where $a_\lambda$ refers to the expansion factor $a(\tau)$ evaluated at time $\tau$ when $\xistar \simeq \lambda_\ast/2$. Note that our use of Eq.~(\ref{Eq:1_DeltaRho}) to compute $\rho_g$ means that the gravitational radius $r_g$ does not have its usual definition based on the gravitational energy $W$ of the system. Linking 
+$\rho_g$ to $R_g$ in this way has the advantage that $R_g$ is not derived from an implied mass profile, which is (by definition) not resolved 
+here. 
+
+Clearly the segregation time depends strongly on the mass spectrum of individual clumps, on their membership $N_\lambda$, as well as the density contrast $\rho_\ast(\tau_\lambda)$. We find the density contrast from (\ref{Eq:1_FourierMode}) and (\ref{Eq:1_DeltaRho}),  
+
+\[ \left.\frac{\delrho}{\rho}\right|_{\tau=0} \!\!\!\! = - \frac{1}{x^2}\frac{\partial}{\partial x^2} x^2\xi = - \left( 2 \frac{\sin\, m\pi x_\ast }{m\pi x_\ast} + \cos\,m\pi x_\ast \right) m\pi   \xistaro
+\]
+which admits an upper-bound of $3 m\pi \xistaro$. In the course of evolution, the initial amplitude of perturbation grows to $\xistar = \lambda_\ast/2$ so that the density contrast peaks at 
+
+\begin{equation} \label{Eqn:Densitypeak} 
+  \rho_\ast = 1 + \frac{\delrho}{\rho} = 1 + 3 m\pi \lambda_\ast / 2 = 1 + 3\pi\, ,
+\end{equation}
+where the last substitution follows from the definition of the integer $m$. The mass $M_\lambda$ in a shell bounded by $r, r+ \lambda$, is known from the unperturbed density profile~; in terms of the total system mass ${\cal M}$, we find 
+
+\begin{equation} \label{Eqn:Clumpmass} 
+   \frac{M_\lambda}{{\cal M} } = ( \overline{3 x_\ast^2} + \lambda_\ast^2/4 ) \lambda_\ast = ( 1 + \lambda_\ast^2/4) \lambda_\ast \, , 
+\end{equation}
+where we have replaced $3x_\ast^2$ by its space-averaged value in  the last step.  Eq. (\ref{Eqn:Clumpmass}) provides an estimate of  bound mass of a clump formed through the growth of a radial perturbation mode. If all the stars have equal mass, or, if the stellar mass function is symmetric with respect to the mean value $\langle m_\ast\rangle$, the ratio of the number $N_\lambda$ of stars in the clump to the total number $N$ is in the same proportion as $\frac{M_\lambda}{\cal M}$. We find an estimate for $N_\lambda$ which reads 
+
+\begin{equation} \label{Eqn:Clumpn} 
+   N_\lambda = N \left( 1 + \frac{\lambda_\ast^2}{4} \right) \lambda_* .
+\end{equation} 
+
+We argued in \S2.3.2 that a resolved mode should have $\lambda_\ast \ge N^{-1/3}$, which translates as: 
+
+\begin{equation} \label{Eqn:Clumpn} 
+   N_\lambda > N^{2/3}\left( 1 + \frac{N^{-2/3}}{4} \right) .
+\end{equation}
+This number inserted into Eq.(\ref{Eqn:Taums}) leads to a rough picture of the segregation process in clumps. The rate of mass segregation leans  on the choice of initial value for the expansion phase, $\Hub_0$. In the limit when $\Hub_0 = 0$, there is no expansion whatsoever, and the clumps form unsegregated (aside from random associations when attributing positions and velocities to the stars) during global infall. If by contrast, the expansion is vigourous, $a_\lambda \gg 1$, and the segregation timescale remains large. For $N \sim 10^4$, we compute from (\ref{Eqn:Clumpn}) $N_\lambda \gtrsim 464$: a clump with that many stars will mass-segregate rapidly only if its stellar mass function includes very massive stars. We note that one-dimensional (radial) modes would in fact split into several smaller fragments in a three-dimensional calculation.\footnote{ A full-grown radial mode forms a thin shell subject to fragmentation. See \textit{e.g.}  \cite{Ehlerova1997,Wunsch2010}.} We expect  the clumps to form quickly  and contain $N_\lambda \ll 464$ stars, so  that the internal dynamics 
+will drive mass segregation {\it before} the system expansion stops. Because this depends in the details on $\Hub_0$ and other important parameters, 
+% on the clump stellar mass function, the density contrast reached, and the initial expansion rate, among important parameters, 
+we defer the analysis to \S \ref{TODO} and N-body simulations. 
+% Still, this simple one-dimensional mode analysis helps to understand the basics of the fragmentation proces
+
+
+
+\subsection{Example with N = 15000} 
+\label{Sec:HubbleExpansion}
+%This section discusses the growth of fragments and their properties at the end of the Hubble expansion phase. Because hydrodynamical calculations of supersonic turbulence show proto-stars forming during a single free-fall time,  
+%
+%\begin{equation} \label{Eqn:Freefall} 
+%   t_{ff} = \left(\frac{3\pi}{32 G\rho_o} \right)^{1/2} \sim 0.5 - 1 {\rm Myr}
+%\end{equation}
+%(where $\rho_o$ is taken as the global mean density), we should pick a set of parameters such that the clumps form over a physical time to match that of Eq.~(\ref{Eqn:Freefall}). In this work, we choose to evolve the models until $H = 0$ to allow for fully-developed individual clumps. More precisely, we look for a computational setup such that $\Hub(\tau) = 0$ in a minimum of one star-formation timescale $t_{ff}$. We do so although the approach taken here to form clumps would allow to stop the calculation {\it before} $H = 0 $ and {\it subtract} the residual radial velocities using Eqs \ref{Eq:1_HubbleExpr}. As a result, the configuration would be less fragmented than for the case when $H =0$. Thereafter the dynamical evolution would proceed similarly in all the cases, but with different clump mass- and size distributions. The choice of initial Hubble parameter $\Hub_0$ must always yield $E < 0$ in (\ref{Eq:1_Estar}) . Note again that when $\Hub_0$ is set equal to zero, we recover the classic configuration for the cold collapse of uniform bodies.
+
+
+
+
+ \begin{figure}
+\center
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/1_tau_ms.png}
+        \caption{Regimes of overdensity evolution}
+        \label{Fig:1_tau_ms}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/1_segregation_zone.png}
+        \caption{Segregation domains}
+        \label{Fig:1_segregation_zone}
+    \end{subfigure}
+\caption{(a): growth of perturbation $\xi_*$ over dimensionless time $\tau$ until the end of expansion at $\tau = 3.84$. An overdensity seeded with a wavelength $\lambda_*$ begins its collisional evolution when $\xi_*$ reaches $\frac{\lambda_*}{2}$. These regimes are illustrated for $\lambda_* =0.04$ and  $\lambda_* =0.08$. The overdensities have to evolve collisionally for at least $\tau_{ms}$ to mass-segregate. This time-scale is also shown for each case. The blue case evolve collisionally for several $\tau_{ms}$ and will end up mass-segregated, while the red case visibly don't have have time to segregate. Modes of large wavelength tend to produce less mass-segregated clumps. (b) for a given number of nodes $m$, a model on the right of the corresponding line (arrow for $m=10$) will have mass-segregated overdensities at the end of the expansion, will on the left, the collisional evolution is too short for segregation to sets in. The red crosses show the minimum N below which the modes cannot be resolved.} 
+\label{Fig:0_perturbation_growth}
+\end{figure}
+
+
+We now make use of all previous development to follow the evolution of a perturbation in a given system and assess its dynamical state.
+
+To ease comparisons with N-body calculations cast in standard H\'enon units, we set ${\cal M} = G = R_o = 1 $ and use $\Hub_0 = 1.0833 .. \simeq 1$ so that the total binding energy $E = -1/4$. The Hubble expansion proceeds until a time $t = \tau / \Hub_0 \simeq 3.87 / \Hub_0$, when $H = 0$ and the bounding radius $R$ reaches $R = a(\tau)R_o \simeq 2.4 R_o$. The evolution time up to that point coincides almost exactly with the {\it current} global system free-fall time of $\approx 4.1$ time units. System-wide collapse to the barycentre will ensue on the same time-scale, but now this process will involve the merging / scattering of several high-density clumps. 
+
+The mass of individual stars follow a  truncated \cite{Salpeter1955} distribution function, where the distribution function $ dN/dm \propto m_\star^{-\alpha}$ with index $\alpha = 2.35$ for masses in the range  $0.3 M_\odot < m_\star < 100 M_\odot$ giving a mean value of $\simeq 1 M_\odot$. We chose this form mainly for simplicity, and for ease of calculations. 
+
+
+Let us fix $\Estar = 6/7$, with $\Hub_0 = 1$ and set $N = 15 000$ as reference\footnote{The more accurate value is $\Hub_0 = 1 + 1/12 = 1.0833$ but we rounded up to 1 to simplify the discussion}. We compute a mean initial amplitude of perturbation $\xistaro \approx 0.005 $ with a shortest-resolved wavelength $\lambda_\ast \approx 0.04$. Fig.~\ref{Fig:1_tau_ms} displays the solution from integrating Eqs.~(\ref{Eq:1_system}). The amplitude $\xistar(\tau)$ grows monotonically and crosses the values $\lambda_\ast/2$ at $\tau \approx 2.3$~: thereafter the perturbation enters a non-linear regime of evolution during which the internal dynamics may become collisional $( \Delta\tau > \delta\tau_{ms})$. A second case is depicted on Fig.~\ref{Fig:1_tau_ms}, where the wavelength $\lambda_\ast = 0.08$ and the perturbation reaches amplitude $\xistar = \lambda_\ast/2$ at $\tau \approx 3.6$: there is then too little time left before the end of the Hubble expansion phase for a clump of stars to evolve collisionally ($\Delta\tau < \delta\tau_{ms}$). 
+
+
+
+
+
+The dynamical state of individual clumps is clearly a question of membership $N_\lambda$ and mass spectrum as shown in (\ref{Eqn:Taums}). We have been arguing that most small-size clumps will show collisional internal evolution~: a small cluster of stars would lose low-mass stars in the process and so have an increased ratio of average-    to maximum stellar mass. It is not clear, then, whether this trend is strong enough to compensate for the (almost) linear dependence on membership. 
+%Anticipating the results of the next section, we take $N_\lambda$ from Eq.~(\ref{Eqn:Clumpn}) to compute  a product  $N_\lambda / \ln 0.4 N_\lambda \times \langle m_\ast\rangle / \max(m_\ast) \sim 14 $ for the case of a Salpeter mass function truncated at $20 M_\odot$ ;  and about $3$ for a truncation value of $100 M_\odot$. In practice, the results of N-body 
+%calculations yielded values scattered in the range [3, 14] $M_\odot$, 
+%consistent with there being {\it no trend}  with clump membership $N_\lambda$. To inspect further the actual properties of clumps, we next turn to  N-body calculations. 
+
+
+
+
+
+
+\section{N-body simulations}
+
+After the previous analytical study, we present here the characteristics of actual, numerically obtained, Hubble-Lema\^itre fragmented models. The integration was performed with NBODY6, which treats the gravitational forces of stars with no softening of the potential. An example of the evolution of the system is shown on Fig~\ref{Fig:1_fragmentation}. 
+
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/1_fragmentation}
+\caption{Progressive fragmentation through the Hubble expansion. The left panel shows the initial uniform sphere; the middle panel, an intermediate step, slightly fragmented with a slowed down expansion; the right panel is the final stage, when the expansion has stopped and the fragmentation is fully developed. N=10000 particles were used in this N-body model, with $\Hub_0 = 1.0$. Time and coordinates are in H\'enon units.}
+\label{Fig:1_fragmentation}
+\end{center}
+\end{figure}
+
+%\subsection{Presentation of the runs}
+%
+%We draw $N$ stars from an Salpeter distribution function which we truncate by default to $100 M_\odot$~; in some calculations we will  use a lower bound of $20 M_\odot$, and in others we use identical masses. The code preserves the total energy and angular momentum to better than one part in $10^4$ for integration over $\sim 100 $ time units. The numerical integration starts with the expansion phase, but we will refer to the time at which this initial expansion stops ($H = 0$) as $t=0$, as we consider this dynamical state as initial conditions for cluster evolution. Memberships of 15000,40000 and 80000 were used, and 30 instances of each 15k model was performed to obtain statistically robust results.
+%Table \ref{Tab:1_fragmentationmodels} summarises the main simulations used in this section to investigate the fragmentation of such systems.
+%
+%\begin{table}
+%\begin{center}
+%\caption{Summary of fragmentation models and their characteristics. These simulations started from an uniform sphere and were stopped when the expansion halted, at t=3 H.u . The third column shows the number of independent computations for each model.}
+%\label{Tab:1_fragmentationmodels}
+%\begin{tabularx}{\columnwidth}{XXlXX}
+%\hline
+%Name & N & Sampling & Mass range  \\
+%\hline
+%Rmh20 & 15000 & 30 & [0.35- 20 ]\\
+%Rmh100 & 15000 & 30 & [0.3 - 100]\\
+%Rmh1 & 15000 & 30 & 1.0 \\
+%R40h20 & 40000 & 1 & [0.35- 20 ] \\
+%R40h100 & 40000 & 1 & [0.3 - 100] \\
+%R80h100 & 80000 & 1 & [0.3 - 100] \\
+%\hline
+%\end{tabularx}
+%\end{center}
+%\end{table}
+
+
 
 \subsection{Clump finding algorithm}
 
+As seen on Fig~\ref{Fig:1_fragmentation}, once expansion stops, the distribution is roughly spherical and visibly clumpy. By clump we mean here a local overdensity of stars. To characterize the model, is to characterize these substructures. Such analysis requires to find and isolate clumps, using an efficient clump-identification algorithm (or, {\it halo-finding} in cosmology).  Several methods are commonly used such as the HOP algorithm \citep{Eisenstein1998,Skory2010} which relies on attributing local densities to each particle and separating the clumps through density thresholds. The HOP algorithm is very robust on large cosmological data sets. However, our calculations have comparatively coarse statistics and noisy density fields. This issue, coupled with the  large number of free parameters of the HOP algorithm, makes the method less appealing. 
 
+Instead we follow \cite{Maschberger2010} who adapted the minimum spanning tree (MST~; see e.g.\citealt{Allison2009b,Olczak2011}) technique to the detection of clumps. A spanning tree is a set of edges connecting a group of  particles but without closed loops~; the MST seeks to minimise the total length of the edges. One may then construct the MST for the whole system, and then delete all edges larger than a chosen cutting length, $d_{cut}$. The sub-sets that are still connected  are labeled as clumps. This process is illustrated in Fig \ref{Fig:1_MST}. In practice a minimum sub-set size $N_d$  is also chosen so as to avoid many small-N subgroups~: experience led us to choose  $N_d = 12$ for the minimum number of stars per clump. 
 
 \begin{figure}
 \begin{center}
@@ -168,24 +529,37 @@ See figure \ref{Fig:apextime} for the value of $t_a$ as a function of \Hub$_0$
 \label{Fig:1_MST}
 \end{figure}
 
-The study of substructures requires an efficient clump-identification algorithm (or, {\it halo-finding} in cosmology). By clump we mean here a local overdensity of stars. Several methods are commonly used such as the HOP algorithm \citep{Eisenstein1998,Skory2010} which relies on attributing local densities to each particle and separating the clumps through density thresholds. The HOP algorithm is very robust on large cosmological data sets. However, our calculations have comparatively coarse statistics and noisy density fields. This issue, coupled with the  large number of free parameters of the HOP algorithm, makes the method less appealing. Instead we follow \cite{Maschberger2010} who adapted the minimum spanning tree (MST~; see e.g. \citealt{Allison2009b,Olczak2011}) technique to the detection of clumps. A spanning tree is a set of edges connecting a group of  particles but without closed loops~; the MST seeks to minimise the total length of the edges. One may then construct the MST for the whole system, and then delete all edges larger than a chosen cutting length, $d_{cut}$. The sub-sets that are still connected  are labeled as clumps. This process is illustrated in Fig \ref{Fig:1_MST}. In practice a minimum sub-set size $N_d$  is also chosen so as to avoid many small-N subgroups~: experience led us to choose  $N_d = 12$ for the minimum number of stars per clump. 
-
-
-
 
 With $N_d$ fixed, the length $d_{cut}$ is then the only free parameter left. There is some freedom 
-in choosing an appropriate value. 
+in choosing an appropriate value.
+ 
 \cite{Maschberger2010} fixed the value of  $d_{cut}$ by visual inspection of clumps.
- We instead  identified  clumps in a fragmented system for a range of values for $d_{cut}$ and settled for the value  which optimised the number of identifications. This is shown on Fig.~\ref{Fig:Ndcut} for an N = 80k fully-fragmented Hubble model. For small $d_{cut}$'s, the number of detected clumps at first  increases rapidly. The rise is due  to the length $d_{cut}$ initially being small compared with the typical volume spawned by $N_d$ or more  nearest-neighbours. Beyond a certain value, a transition to another regime occurs, whereby the algorithm starts to connect previously separated clumps, counting them as one. The number of clumps thereafter begins to decrease. The value $d_{cut} \approx 0.025$ H.u optimises the outcome of the clump-search. This is a generic feature of the MST algorithm and we have adopted the same strategy throughout, adapting the value of $d_{cut}$ to the number $N$ of stars used. 
+ We instead  identified  clumps in a fragmented system for a range of values for $d_{cut}$ and settled for the value  which optimised the number of identifications. This is shown on Fig.~\ref{Fig:1_Ndcut} for an N = 80k fully-fragmented Hubble model. For small $d_{cut}$'s, the number of detected clumps at first  increases rapidly. The rise is due  to the length $d_{cut}$ initially being small compared with the typical volume spawned by $N_d$ or more  nearest-neighbours. Beyond a certain value, a transition to another regime occurs, whereby the algorithm starts to connect previously separated clumps, counting them as one. The number of clumps thereafter begins to decrease. The value $d_{cut} \approx 0.025$ H.u optimises the outcome of the clump-search. This is a generic feature of the MST algorithm and we have adopted the same strategy throughout, adapting the value of $d_{cut}$ to the number $N$ of stars used. 
+
+Another method to find the critical cutting length was used by \cite{Gutermuth2009,Kirk2011}. In these works, the authors build the MST, then trace the cumulative distribution function of all edges in the tree. In a clumpy configuration, there are at least two regimes: the "intra-clump" regime, with the majority of small edges, and the "inter-clump" regime with longer, scarcer edges. The intersection of a fit to these regimes provide a good cutting length for clump detection. This procedure was applied to our system and gave the same result than the clump counting, as shown on Fig~\ref{1_dcutcumulated}.
+
  
+
  
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.6\columnwidth]{Figures/1_Ndcut.png}
-\end{center}
-\caption{}
-\label{Fig:1_Ndcut}
-\end{figure} 
+ \begin{figure}
+\center
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/1_Ndcut.png}
+        \caption{Number of clumps vs $d_{cut}$}
+        \label{Fig:1_Ndcut}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/1_dcutdistribution.png}
+        \caption{Cumulative distribution of MST edges}
+        \label{Fig:1_dcutcumulated}
+    \end{subfigure}
+\caption{Two different methods to identify the critical $d_{cut}$ for clump detection. Both methods give the same value. For this 80k model, the value is 0.024 in H\'enon units. The ref linear fit on (b) was made on the linear portion with sufficient data points, discarding the very few further points departing from the tendency.}
+\label{Fig:0_dcutchoice}
+\end{figure}
+
  
    On Fig.~\ref{Fig:1_clumpsABC}, a sub-set of the model is shown where we have identified stars that belong to clumps with filled symbols. The three panels on that figure are each for a different value of $d_{cut}$, increasing from top to bottom. For the smallest value $d_{cut}$=0.015 H.u, clumps look somewhat truncated as we are still in the under-sampling regime and only their cores registered as clumps. The second, optimal, value $d_{cut}$=0.025 H.u produces visually well-isolated clumps. Finally, the third and  largest value is so that clumps begin to merge together~: this is shown by the unique clump identified in the bottom panel (filled blue squares).
    
@@ -200,7 +574,6 @@ in choosing an appropriate value.
 \end{figure} 
 
 
-The procedure developed here gives results in agreement with other clump-identification algorithms developed using the MST (see e.g. \citealt{Gutermuth2009,Kirk2011}).
 
 
 

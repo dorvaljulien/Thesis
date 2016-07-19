@@ -1,99 +1,62 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
-Case mismatch error between cite keys goodwin2004 and Goodwin2004
----line 232 of file main.aux
- : \citation{goodwin2004
- :                      ,Allison2009,Parker2011,Parker2014}
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys caputo14 and Caputo14
----line 304 of file main.aux
- : \citation{caputo14
- :                   }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys theis99 and Theis99
----line 305 of file main.aux
- : \citation{theis99
- :                  }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys caputo14 and Caputo14
----line 310 of file main.aux
- : \citation{caputo14
- :                   }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys theis99 and Theis99
----line 311 of file main.aux
- : \citation{theis99
- :                  }
-I'm skipping whatever remains of this command
 The style file: mn2e.bst
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
---line 3644 of file Bibliography/bibdatabase.bib
+--line 3625 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
---line 3652 of file Bibliography/bibdatabase.bib
-Repeated entry---line 4025 of file Bibliography/bibdatabase.bib
+--line 3633 of file Bibliography/bibdatabase.bib
+Repeated entry---line 4011 of file Bibliography/bibdatabase.bib
  : @article{Dias2002
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4110 of file Bibliography/bibdatabase.bib
+Repeated entry---line 4096 of file Bibliography/bibdatabase.bib
  : @article{MacLow2004
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Kuhn2015"
-Warning--I didn't find a database entry for "Cottaar15"
-Warning--I didn't find a database entry for "Moeckel12"
-Warning--I didn't find a database entry for "Fujii16"
-Warning--I didn't find a database entry for "Theis99"
-Warning--I didn't find a database entry for "Boily02"
-Warning--I didn't find a database entry for "Barnes09"
-Warning--I didn't find a database entry for "Caputo14"
-Warning--I didn't find a database entry for "Benhaiem15"
-Warning--I didn't find a database entry for "mcmillan07"
-Warning--I didn't find a database entry for "allison10"
-Warning--I didn't find a database entry for "Bonnel2008"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
-You've used 144 entries,
+You've used 155 entries,
             2938 wiz_defined-function locations,
-            1535 strings with 29861 characters,
-and the built_in function-call counts, 66954 in all, are:
-= -- 5419
-> -- 5200
+            1577 strings with 31471 characters,
+and the built_in function-call counts, 71807 in all, are:
+= -- 5826
+> -- 5547
 < -- 14
-+ -- 1740
-- -- 1694
-* -- 5378
-:= -- 12756
-add.period$ -- 10
-call.type$ -- 144
-change.case$ -- 1080
-chr.to.int$ -- 145
-cite$ -- 148
-duplicate$ -- 2440
-empty$ -- 3847
-format.name$ -- 1894
-if$ -- 13016
++ -- 1858
+- -- 1808
+* -- 5772
+:= -- 13681
+add.period$ -- 11
+call.type$ -- 155
+change.case$ -- 1157
+chr.to.int$ -- 156
+cite$ -- 159
+duplicate$ -- 2624
+empty$ -- 4137
+format.name$ -- 2026
+if$ -- 13961
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 137
-newline$ -- 436
-num.names$ -- 582
-pop$ -- 995
+missing$ -- 148
+newline$ -- 469
+num.names$ -- 626
+pop$ -- 1062
 preamble$ -- 1
-purify$ -- 1076
+purify$ -- 1153
 quote$ -- 0
-skip$ -- 2405
+skip$ -- 2580
 stack$ -- 0
-substring$ -- 2816
-swap$ -- 198
+substring$ -- 3028
+swap$ -- 209
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1257
+type$ -- 1353
 warning$ -- 4
-while$ -- 668
+while$ -- 718
 width$ -- 0
-write$ -- 1437
-(There were 7 error messages)
+write$ -- 1547
+(There were 2 error messages)
