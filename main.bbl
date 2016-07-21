@@ -1,4 +1,4 @@
-\begin{thebibliography}{155}
+\begin{thebibliography}{157}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -342,6 +342,9 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Klessen} \& {Burkert}(2000)}]{Klessen2000}
 {Klessen} R.~S., {Burkert} A., 2000, \apjs, 128, 287
 
+\bibitem[{{Klessen} \& {Burkert}(2001)}]{Klessen2001}
+{Klessen} R.~S., {Burkert} A., 2001, \apj, 549, 386
+
 \bibitem[{{Knigge}, {Leigh} \& {Sills}(2009){Knigge}, {Leigh}, \&
   {Sills}}]{Knigge2009}
 {Knigge} C., {Leigh} N., {Sills} A., 2009, \nat, 457, 288
@@ -421,6 +424,10 @@ Maury J., 1992, Newton: Understanding the Cosmos, New horizons in history
   {Vesperini}, \& {Portegies Zwart}}]{McMillan2007}
 {McMillan} S.~L.~W., {Vesperini} E., {Portegies Zwart} S.~F., 2007, \apjl, 655,
   L45
+
+\bibitem[{{Merritt}(2013)}]{Merritt2013}
+{Merritt} D., 2013, {Dynamics and Evolution of Galactic Nuclei}. Princeton
+  Univ. Press, Princeton, NJ
 
 \bibitem[{{Meylan} \& {Heggie}(1997)}]{Meylan1997}
 {Meylan} G., {Heggie} D.~C., 1997, \aapr, 8, 1

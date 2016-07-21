@@ -1,5 +1,10 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys Maclow2004 and MacLow2004
+---line 441 of file main.aux
+ : \citation{Klessen2001,Maclow2004
+ :                                 ,Maschberger2010,Bate2014}
+I'm skipping whatever remains of this command
 The style file: mn2e.bst
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
@@ -18,45 +23,45 @@ Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
-You've used 155 entries,
+You've used 157 entries,
             2938 wiz_defined-function locations,
-            1577 strings with 31471 characters,
-and the built_in function-call counts, 71807 in all, are:
-= -- 5826
-> -- 5547
+            1587 strings with 31833 characters,
+and the built_in function-call counts, 72534 in all, are:
+= -- 5890
+> -- 5581
 < -- 14
-+ -- 1858
-- -- 1808
-* -- 5772
-:= -- 13681
-add.period$ -- 11
-call.type$ -- 155
-change.case$ -- 1157
-chr.to.int$ -- 156
-cite$ -- 159
-duplicate$ -- 2624
-empty$ -- 4137
-format.name$ -- 2026
-if$ -- 13961
++ -- 1870
+- -- 1820
+* -- 5821
+:= -- 13820
+add.period$ -- 12
+call.type$ -- 157
+change.case$ -- 1168
+chr.to.int$ -- 158
+cite$ -- 161
+duplicate$ -- 2656
+empty$ -- 4196
+format.name$ -- 2040
+if$ -- 14106
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 148
-newline$ -- 469
-num.names$ -- 626
-pop$ -- 1062
+missing$ -- 150
+newline$ -- 475
+num.names$ -- 634
+pop$ -- 1074
 preamble$ -- 1
-purify$ -- 1153
+purify$ -- 1164
 quote$ -- 0
-skip$ -- 2580
+skip$ -- 2612
 stack$ -- 0
-substring$ -- 3028
-swap$ -- 209
+substring$ -- 3060
+swap$ -- 211
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1353
+type$ -- 1368
 warning$ -- 4
-while$ -- 718
+while$ -- 727
 width$ -- 0
-write$ -- 1547
-(There were 2 error messages)
+write$ -- 1567
+(There were 3 error messages)

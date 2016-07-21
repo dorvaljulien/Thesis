@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {1.6.3}KS-regularization}{28}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Hermite integration scheme}{29}{subsection.1.6.4}
 \contentsline {subsection}{\numberline {1.6.5}Ahmad-Cohen neighbour scheme}{31}{subsection.1.6.5}
-\contentsline {chapter}{\numberline {2}The Hubble-Lema\^itre fragmented model}{33}{chapter.2}
+\contentsline {chapter}{\numberline {2}The Hubble-Lema\^itre fragmented model: analytical approach}{33}{chapter.2}
 \contentsline {section}{\numberline {2.1}How to build a Hubble-Lema\^itre model}{33}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Initial state}{33}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Fragmentation}{34}{subsection.2.1.2}
@@ -38,5 +38,14 @@
 \contentsline {subsubsection}{Fourier modes: resolution issues}{39}{subsubsection*.27}
 \contentsline {subsection}{\numberline {2.2.4}Segregation time-scale}{40}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Example with N = 15000}{43}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}N-body simulations}{43}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Clump finding algorithm}{43}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Nbody application}{45}{chapter.3}
+\contentsline {section}{\numberline {3.1}Approaching the N-body simulations}{45}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Presentation of the runs}{45}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Clump finding algorithm}{45}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Clump mass function}{47}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Influence of stellar mass function}{47}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Influence of H and N}{50}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Clump contents}{52}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The velocity field}{52}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Clumps stellar mass function}{54}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Mass segregation}{54}{subsection.3.3.3}

@@ -2,7 +2,7 @@
 % Chapitre 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{The Hubble-Lema\^itre fragmented model} 
+\chapter{The Hubble-Lema\^itre fragmented model: analytical approach} 
 \label{ChapterHL}
 
 \section{How to build a Hubble-Lema\^itre model}
@@ -474,104 +474,15 @@ The dynamical state of individual clumps is clearly a question of membership $N_
 
 
 
-
-\section{N-body simulations}
-
-After the previous analytical study, we present here the characteristics of actual, numerically obtained, Hubble-Lema\^itre fragmented models. The integration was performed with NBODY6, which treats the gravitational forces of stars with no softening of the potential. An example of the evolution of the system is shown on Fig~\ref{Fig:1_fragmentation}. 
-
-
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=\textwidth]{Figures/1_fragmentation}
-\caption{Progressive fragmentation through the Hubble expansion. The left panel shows the initial uniform sphere; the middle panel, an intermediate step, slightly fragmented with a slowed down expansion; the right panel is the final stage, when the expansion has stopped and the fragmentation is fully developed. N=10000 particles were used in this N-body model, with $\Hub_0 = 1.0$. Time and coordinates are in H\'enon units.}
-\label{Fig:1_fragmentation}
-\end{center}
-\end{figure}
-
-%\subsection{Presentation of the runs}
-%
-%We draw $N$ stars from an Salpeter distribution function which we truncate by default to $100 M_\odot$~; in some calculations we will  use a lower bound of $20 M_\odot$, and in others we use identical masses. The code preserves the total energy and angular momentum to better than one part in $10^4$ for integration over $\sim 100 $ time units. The numerical integration starts with the expansion phase, but we will refer to the time at which this initial expansion stops ($H = 0$) as $t=0$, as we consider this dynamical state as initial conditions for cluster evolution. Memberships of 15000,40000 and 80000 were used, and 30 instances of each 15k model was performed to obtain statistically robust results.
-%Table \ref{Tab:1_fragmentationmodels} summarises the main simulations used in this section to investigate the fragmentation of such systems.
-%
-%\begin{table}
-%\begin{center}
-%\caption{Summary of fragmentation models and their characteristics. These simulations started from an uniform sphere and were stopped when the expansion halted, at t=3 H.u . The third column shows the number of independent computations for each model.}
-%\label{Tab:1_fragmentationmodels}
-%\begin{tabularx}{\columnwidth}{XXlXX}
-%\hline
-%Name & N & Sampling & Mass range  \\
-%\hline
-%Rmh20 & 15000 & 30 & [0.35- 20 ]\\
-%Rmh100 & 15000 & 30 & [0.3 - 100]\\
-%Rmh1 & 15000 & 30 & 1.0 \\
-%R40h20 & 40000 & 1 & [0.35- 20 ] \\
-%R40h100 & 40000 & 1 & [0.3 - 100] \\
-%R80h100 & 80000 & 1 & [0.3 - 100] \\
-%\hline
-%\end{tabularx}
-%\end{center}
-%\end{table}
-
-
-
-\subsection{Clump finding algorithm}
-
-As seen on Fig~\ref{Fig:1_fragmentation}, once expansion stops, the distribution is roughly spherical and visibly clumpy. By clump we mean here a local overdensity of stars. To characterize the model, is to characterize these substructures. Such analysis requires to find and isolate clumps, using an efficient clump-identification algorithm (or, {\it halo-finding} in cosmology).  Several methods are commonly used such as the HOP algorithm \citep{Eisenstein1998,Skory2010} which relies on attributing local densities to each particle and separating the clumps through density thresholds. The HOP algorithm is very robust on large cosmological data sets. However, our calculations have comparatively coarse statistics and noisy density fields. This issue, coupled with the  large number of free parameters of the HOP algorithm, makes the method less appealing. 
-
-Instead we follow \cite{Maschberger2010} who adapted the minimum spanning tree (MST~; see e.g.\citealt{Allison2009b,Olczak2011}) technique to the detection of clumps. A spanning tree is a set of edges connecting a group of  particles but without closed loops~; the MST seeks to minimise the total length of the edges. One may then construct the MST for the whole system, and then delete all edges larger than a chosen cutting length, $d_{cut}$. The sub-sets that are still connected  are labeled as clumps. This process is illustrated in Fig \ref{Fig:1_MST}. In practice a minimum sub-set size $N_d$  is also chosen so as to avoid many small-N subgroups~: experience led us to choose  $N_d = 12$ for the minimum number of stars per clump. 
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.8\columnwidth]{Figures/1_MST.png}
-\end{center}
-\caption{Illustration of a Minimum Spanning Tree and its use to isolate subgroups, using a cutting length $d_{cut}$.}
-\label{Fig:1_MST}
-\end{figure}
-
-
-With $N_d$ fixed, the length $d_{cut}$ is then the only free parameter left. There is some freedom 
-in choosing an appropriate value.
- 
-\cite{Maschberger2010} fixed the value of  $d_{cut}$ by visual inspection of clumps.
- We instead  identified  clumps in a fragmented system for a range of values for $d_{cut}$ and settled for the value  which optimised the number of identifications. This is shown on Fig.~\ref{Fig:1_Ndcut} for an N = 80k fully-fragmented Hubble model. For small $d_{cut}$'s, the number of detected clumps at first  increases rapidly. The rise is due  to the length $d_{cut}$ initially being small compared with the typical volume spawned by $N_d$ or more  nearest-neighbours. Beyond a certain value, a transition to another regime occurs, whereby the algorithm starts to connect previously separated clumps, counting them as one. The number of clumps thereafter begins to decrease. The value $d_{cut} \approx 0.025$ H.u optimises the outcome of the clump-search. This is a generic feature of the MST algorithm and we have adopted the same strategy throughout, adapting the value of $d_{cut}$ to the number $N$ of stars used. 
-
-Another method to find the critical cutting length was used by \cite{Gutermuth2009,Kirk2011}. In these works, the authors build the MST, then trace the cumulative distribution function of all edges in the tree. In a clumpy configuration, there are at least two regimes: the "intra-clump" regime, with the majority of small edges, and the "inter-clump" regime with longer, scarcer edges. The intersection of a fit to these regimes provide a good cutting length for clump detection. This procedure was applied to our system and gave the same result than the clump counting, as shown on Fig~\ref{1_dcutcumulated}.
-
- 
-
- 
- \begin{figure}
-\center
-    \centering
-    \begin{subfigure}[b]{0.49\textwidth}
-    	\centering
-    	\includegraphics[width=\textwidth]{Figures/1_Ndcut.png}
-        \caption{Number of clumps vs $d_{cut}$}
-        \label{Fig:1_Ndcut}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.49\textwidth}
-    	\centering
-    	\includegraphics[width=\textwidth]{Figures/1_dcutdistribution.png}
-        \caption{Cumulative distribution of MST edges}
-        \label{Fig:1_dcutcumulated}
-    \end{subfigure}
-\caption{Two different methods to identify the critical $d_{cut}$ for clump detection. Both methods give the same value. For this 80k model, the value is 0.024 in H\'enon units. The ref linear fit on (b) was made on the linear portion with sufficient data points, discarding the very few further points departing from the tendency.}
-\label{Fig:0_dcutchoice}
-\end{figure}
-
- 
-   On Fig.~\ref{Fig:1_clumpsABC}, a sub-set of the model is shown where we have identified stars that belong to clumps with filled symbols. The three panels on that figure are each for a different value of $d_{cut}$, increasing from top to bottom. For the smallest value $d_{cut}$=0.015 H.u, clumps look somewhat truncated as we are still in the under-sampling regime and only their cores registered as clumps. The second, optimal, value $d_{cut}$=0.025 H.u produces visually well-isolated clumps. Finally, the third and  largest value is so that clumps begin to merge together~: this is shown by the unique clump identified in the bottom panel (filled blue squares).
    
 
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.9\columnwidth]{Figures/1_clumpsABC.png}
-\end{center}
-\caption{}
-\label{Fig:1_clumpsABC}
-\end{figure} 
+
+
+
+
+
+
 
 
 
