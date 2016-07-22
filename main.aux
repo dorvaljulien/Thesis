@@ -409,7 +409,7 @@
 \newlabel{Tab:2_fragmentationmodels}{{3.1}{47}{Summary of fragmentation models and their characteristics. These simulations started from an uniform sphere and were stopped when the expansion halted, at t=3 H.u . The third column shows the number of independent computations for each model.\relax \relax }{table.caption.33}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Clump mass function}{47}{section.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Influence of stellar mass function}{47}{subsection.3.2.1}}
-\newlabel{Sec:ClumpMassFunction}{{3.2.1}{47}{Influence of stellar mass function\relax }{subsection.3.2.1}{}}
+\newlabel{Sub:2_ClumpMF_MF}{{3.2.1}{47}{Influence of stellar mass function\relax }{subsection.3.2.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of detected clumps for three cutting length, 0.014 (top panel), 0.024 (middle panel), 0.034 (bottom panel), which were labeled A,B,C in Fig.\nobreakspace  {}\ref  {Fig:2_Ndcut}. A cube within a 80k particles fragmented model was extracted and projected. Empty circles are stars which do not belong to any clump, black circles are clump members, and blue squares are stars that are identified as a single large clump. Tick marks are spaced by 0.05 length units for a box size of 0.35 units.\relax }}{48}{figure.caption.32}}
 \newlabel{Fig:2_clumpsABC}{{3.4}{48}{Example of detected clumps for three cutting length, 0.014 (top panel), 0.024 (middle panel), 0.034 (bottom panel), which were labeled A,B,C in Fig.~\ref {Fig:2_Ndcut}. A cube within a 80k particles fragmented model was extracted and projected. Empty circles are stars which do not belong to any clump, black circles are clump members, and blue squares are stars that are identified as a single large clump. Tick marks are spaced by 0.05 length units for a box size of 0.35 units.\relax \relax }{figure.caption.32}{}}
 \newlabel{Fig:2_ClumpMF_MF_1}{{3.5a}{49}{Stellar mass range $[0.35, 20]\, M_\odot $ \relax \relax }{figure.caption.34}{}}
@@ -420,187 +420,256 @@
 \newlabel{Fig:2_ClumpMF_MF}{{3.5}{49}{Mass function of the clumps identified with the MST algorithm. The calculations all had $N = 15 000$ stars, and we have averaged over 30 realisations for each configuration. The results for three stellar mass functions are displayed~: a model with equal-mass stars (green dashed line)~; a Salpeter distribution function truncated at $20 M_\odot $ (solid red line, left)~; a Salpeter distribution function truncated at $100 M_\odot $(solid red line, right). (a) The clumps mass function for equal-mass models shows a trend with mass roughly in agreement with an $M^{-3}$ power-law. By comparison, the results for an Salpeter stellar distribution function truncated at $20 M_\odot $ has a bell-shaped profile, with a peak around $M = 20.5 M_{\odot }$~; only the tail-end shows marginal agreement with an $\propto M^{-2}$ power-law (dotted line on the figure)~; (b) another Salpeter distribution function but with the upper-mass truncation set at $100 M_\odot $. The tail at large clump mass is now much flatter, with a slope $\approx M^{-1}$, (dotted line on the figure as well). The bins used had constant logarithmic mass intervals.\relax \relax }{figure.caption.34}{}}
 \citation{Merritt2013}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Influence of H and N}{50}{subsection.3.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Clump mass function for several memberships and two ${\textrm  {H}}_0$. Masses in the top panels are in H\'enon units, the x-axis was scaled with a factor 100 to get a percentage of the total mass of the system. Bottom panel masses are in physical units. The mass functions were averaged over each membership sampling.\relax }}{51}{figure.caption.35}}
-\newlabel{Fig:2_ClumpMF_N}{{3.6}{51}{Clump mass function for several memberships and two $\Hub _0$. Masses in the top panels are in H\'enon units, the x-axis was scaled with a factor 100 to get a percentage of the total mass of the system. Bottom panel masses are in physical units. The mass functions were averaged over each membership sampling.\relax \relax }{figure.caption.35}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Clump mass function (real mass) for several ${\textrm  {H}}_0$ and two memberships.\relax }}{52}{figure.caption.36}}
-\newlabel{Fig:2_ClumpMF_H}{{3.7}{52}{Clump mass function (real mass) for several $\Hub _0$ and two memberships.\relax \relax }{figure.caption.36}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Clump contents}{52}{section.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}The velocity field}{52}{subsection.3.3.1}}
-\newlabel{sec:velocityfield}{{3.3.1}{52}{The velocity field\relax }{subsection.3.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Clump mass function (real mass) for several ${\textrm  {H}}_0$ and two memberships.\relax }}{51}{figure.caption.35}}
+\newlabel{Fig:2_apextime_NH}{{3.6}{51}{Clump mass function (real mass) for several $\Hub _0$ and two memberships.\relax \relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Clump mass function for several memberships and two ${\textrm  {H}}_0$. Masses in the top panels are in H\'enon units, the x-axis was scaled with a factor 100 to get a percentage of the total mass of the system. Bottom panel masses are in physical units. In each panel, top sub-panel shows actual clump count in each bin (averaged over sampling), while bottom sub-panel normalize the count by the model membership. \relax }}{52}{figure.caption.36}}
+\newlabel{Fig:2_ClumpMF_N}{{3.7}{52}{Clump mass function for several memberships and two $\Hub _0$. Masses in the top panels are in H\'enon units, the x-axis was scaled with a factor 100 to get a percentage of the total mass of the system. Bottom panel masses are in physical units. In each panel, top sub-panel shows actual clump count in each bin (averaged over sampling), while bottom sub-panel normalize the count by the model membership. \relax \relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Clump mass function (real mass) for several ${\textrm  {H}}_0$ and two memberships.\relax }}{53}{figure.caption.37}}
+\newlabel{Fig:2_ClumpMF_H}{{3.8}{53}{Clump mass function (real mass) for several $\Hub _0$ and two memberships.\relax \relax }{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Clump contents}{53}{section.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}The velocity field}{53}{subsection.3.3.1}}
+\newlabel{sec:velocityfield}{{3.3.1}{53}{The velocity field\relax }{subsection.3.3.1}{}}
 \citation{Klessen2000}
 \citation{Klessen2000}
+\newlabel{Fig:2_Vx_histogram_1}{{3.9a}{54}{Distribution clumps/field\relax \relax }{figure.caption.38}{}}
+\newlabel{sub@Fig:2_Vx_histogram_1}{{a}{54}{Distribution clumps/field\relax \relax }{figure.caption.38}{}}
+\newlabel{Fig:2_Vx_histogram_2}{{3.9b}{54}{Distribution for different \tHub \relax \relax }{figure.caption.38}{}}
+\newlabel{sub@Fig:2_Vx_histogram_2}{{b}{54}{Distribution for different \tHub \relax \relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces (a) Distribution of the one-dimensional velocity field for the whole cluster as the thick solid black line, in the simulation labelled as R40h20 at the apex time (H$ = 0$). The red dashed distribution matches clump members and thin solid blue the field particles. (b) The distribution for three different values of ${\textrm  {H}}_0$\nobreakspace  {}: when ${\textrm  {H}}_0 = 0$, the distribution is a Dirac-$\delta $ around $v = 0$. The central distribution broadens as ${\textrm  {H}}_0$\nobreakspace  {}increases to 0.3 and 1. Observe the exponential profiles at large $|v|$. Velocities are in H.u\relax }}{54}{figure.caption.38}}
+\newlabel{Fig:2_Vx_histogram}{{3.9}{54}{(a) Distribution of the one-dimensional velocity field for the whole cluster as the thick solid black line, in the simulation labelled as R40h20 at the apex time (H$ = 0$). The red dashed distribution matches clump members and thin solid blue the field particles. (b) The distribution for three different values of \tHub : when $\Hub _0 = 0$, the distribution is a Dirac-$\delta $ around $v = 0$. The central distribution broadens as \tHub increases to 0.3 and 1. Observe the exponential profiles at large $|v|$. Velocities are in H.u\relax \relax }{figure.caption.38}{}}
 \citation{Klessen2000}
 \citation{Klessen2000}
-\newlabel{Fig:2_Vx_histogram_1}{{3.8a}{53}{Distribution clumps/field\relax \relax }{figure.caption.37}{}}
-\newlabel{sub@Fig:2_Vx_histogram_1}{{a}{53}{Distribution clumps/field\relax \relax }{figure.caption.37}{}}
-\newlabel{Fig:2_Vx_histogram_2}{{3.8b}{53}{Distribution for different \tHub \relax \relax }{figure.caption.37}{}}
-\newlabel{sub@Fig:2_Vx_histogram_2}{{b}{53}{Distribution for different \tHub \relax \relax }{figure.caption.37}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces (a) Distribution of the one-dimensional velocity field for the whole cluster as the thick solid black line, in the simulation labelled as R40h20 at the apex time (H$ = 0$). The red dashed distribution matches clump members and thin solid blue the field particles. (b) The distribution for three different values of {${\textrm  {H}}_0$}: when ${\textrm  {H}}_0 = 0$, the distribution is a Dirac-$\delta $ around $v = 0$. The central distribution broadens as {${\textrm  {H}}_0$}increases to 0.3 and 1. Observe the exponential profiles at large $|v|$. Velocities are in H.u\relax }}{53}{figure.caption.37}}
-\newlabel{Fig:2_Vx_histogram}{{3.8}{53}{(a) Distribution of the one-dimensional velocity field for the whole cluster as the thick solid black line, in the simulation labelled as R40h20 at the apex time (H$ = 0$). The red dashed distribution matches clump members and thin solid blue the field particles. (b) The distribution for three different values of \tHub : when $\Hub _0 = 0$, the distribution is a Dirac-$\delta $ around $v = 0$. The central distribution broadens as \tHub increases to 0.3 and 1. Observe the exponential profiles at large $|v|$. Velocities are in H.u\relax \relax }{figure.caption.37}{}}
 \citation{BT}
 \citation{Klessen2001,MacLow2004,Maschberger2010,Bate2014}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Clumps stellar mass function}{54}{subsection.3.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Mass segregation}{54}{subsection.3.3.3}}
+\citation{Czekaj2014,Rybizki2015,Bastian2010}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}The stellar mass function in clumps}{55}{subsection.3.3.2}}
+\citation{Bonnell2004}
+\citation{Maschberger2010}
+\citation{Weidner2013}
+\citation{Weidner2010}
+\citation{Weidner2013}
+\citation{Weidner2010}
+\citation{Weidner2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces Top panel\nobreakspace  {}: Mass function of all stars belonging to a detected clump (solid red). The expectation drawn from a Salpeter distribution function for the same total number of stars in dotted black\nobreakspace  {}; the grey shade are $1\sigma $ uncertainties. The green dashed line is the distribution for the full cluster. Bottom panel\nobreakspace  {}: same data normalised to the Salpeter expectation.\relax }}{56}{figure.caption.39}}
+\newlabel{Fig:2_ClumpMembers}{{3.10}{56}{Top panel~: Mass function of all stars belonging to a detected clump (solid red). The expectation drawn from a Salpeter distribution function for the same total number of stars in dotted black~; the grey shade are $1\sigma $ uncertainties. The green dashed line is the distribution for the full cluster. Bottom panel~: same data normalised to the Salpeter expectation.\relax \relax }{figure.caption.39}{}}
+\newlabel{Fig:2_MaxMass}{{3.11a}{57}{Distribution clumps/field\relax \relax }{figure.caption.40}{}}
+\newlabel{sub@Fig:2_MaxMass}{{a}{57}{Distribution clumps/field\relax \relax }{figure.caption.40}{}}
+\newlabel{Fig:2_weidner}{{3.11b}{57}{Distribution for different \tHub \relax \relax }{figure.caption.40}{}}
+\newlabel{sub@Fig:2_weidner}{{b}{57}{Distribution for different \tHub \relax \relax }{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces (a) Mass of the heavier star in each clump, shown as white dots, as a function of clump mass. The color map shows the likelihood for the maximum mass if all clump members were sampled from a Salpeter IMF\nobreakspace  {}; the orange crest gives the maximum likelihood. The red dashed line shows the relation $m_{clump} = 2 m_{max}$ (see. section \ref  {Sub:2_ClumpMF_MF}). The data was taken from the R40h100 run. (b) is a similar distribution from \cite {Weidner2013}, built with data about young embedded star clusters from \cite  {Weidner2010}. The black frame notes the range of masses displayed in (a). \relax }}{57}{figure.caption.40}}
+\newlabel{Fig:2_McMmax}{{3.11}{57}{(a) Mass of the heavier star in each clump, shown as white dots, as a function of clump mass. The color map shows the likelihood for the maximum mass if all clump members were sampled from a Salpeter IMF~; the orange crest gives the maximum likelihood. The red dashed line shows the relation $m_{clump} = 2 m_{max}$ (see. section \ref {Sub:2_ClumpMF_MF}). The data was taken from the R40h100 run. (b) is a similar distribution from \protect \cite {Weidner2013}, built with data about young embedded star clusters from \cite {Weidner2010}. The black frame notes the range of masses displayed in (a). \relax \relax }{figure.caption.40}{}}
+\citation{Olczak2011}
+\citation{Maschberger2010}
+\citation{Maschberger2010}
+\citation{Goodwin2004,Allison2009}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Illustration of the radial ranking method. Stars marked 1,2 and 3 are the first, second and third most massive stars in the clump. Distances to the geometrical center are computed then sorted. The position in the sorted list is converted to a number, the radial rank.\relax }}{58}{figure.caption.41}}
+\newlabel{Fig:2_radial_ranking}{{3.12}{58}{Illustration of the radial ranking method. Stars marked 1,2 and 3 are the first, second and third most massive stars in the clump. Distances to the geometrical center are computed then sorted. The position in the sorted list is converted to a number, the radial rank.\relax \relax }{figure.caption.41}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Mass segregation}{58}{subsection.3.3.3}}
+\newlabel{Sec:2_ClumpSegregation}{{3.3.3}{58}{Mass segregation\relax }{subsection.3.3.3}{}}
+\citation{Allison2009}
+\citation{Caputo2014}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces Histograms of radial ranking of first, second and third most massive star in each clump for a model with N = 40 000 stars (R40h100).\relax }}{59}{figure.caption.42}}
+\newlabel{Fig:2_ClumpSeg}{{3.13}{59}{Histograms of radial ranking of first, second and third most massive star in each clump for a model with N = 40 000 stars (R40h100).\relax \relax }{figure.caption.42}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Concluding remarks}{59}{section.3.4}}
+\citation{Cottaar2015}
+\citation{Moeckel2012}
+\citation{Fujii2016}
+\citation{Theis1999,Boily2002,Barnes2009,Caputo2014,Benhaiem2015}
+\citation{Caputo2014}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Collapse and dynamical evolution}{61}{chapter.4}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Presentation of the simulations}{61}{section.4.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of collapse simulations and their characteristics. These simulations started from a subvirial state: cold uniform sphere or fully fragmented Hubble model; each were evolved up to t = 40 H.u\relax }}{61}{table.caption.43}}
+\newlabel{Tab:evolution_models}{{4.1}{61}{Summary of collapse simulations and their characteristics. These simulations started from a subvirial state: cold uniform sphere or fully fragmented Hubble model; each were evolved up to t = 40 H.u\relax \relax }{table.caption.43}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Number of initially ejected stars in two collapse calculations\relax }}{62}{table.caption.44}}
+\newlabel{tab:Ejectedstars}{{4.2}{62}{Number of initially ejected stars in two collapse calculations\relax \relax }{table.caption.44}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Scaling to physical units}{62}{subsection.4.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Collapse and virialisation}{62}{subsection.4.1.2}}
+\newlabel{Subsec:Collapse}{{4.1.2}{62}{Collapse and virialisation\relax }{subsection.4.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Half-mass radius as function of time for two systems undergoing collapse\nobreakspace  {}: a uniform-density sphere (thin red solid curve) and a clumpy Hubble model (thick blue solid curve). Half-mass radii are in H.u, as well as the time axis, where $t_{Henon} = 1 {\rm  unit} = 0.270 \times 10^5 $ years. Dashed lines are the half-mass radii of the same systems for the same systems but including only the bound stars.\relax }}{63}{figure.caption.45}}
+\newlabel{Fig:3_Rhm_global}{{4.1}{63}{Half-mass radius as function of time for two systems undergoing collapse~: a uniform-density sphere (thin red solid curve) and a clumpy Hubble model (thick blue solid curve). Half-mass radii are in H.u, as well as the time axis, where $t_{Henon} = 1 {\rm unit} = 0.270 \times 10^5 $ years. Dashed lines are the half-mass radii of the same systems for the same systems but including only the bound stars.\relax \relax }{figure.caption.45}{}}
+\citation{caputo14}
+\citation{theis99}
+\citation{caputo14}
+\citation{theis99}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces The ten-percentile mass radii (10\% to 90\%) as function of time. Radii and time axis are in H.u, with $t_{Henon} = 1 {\rm  unit} = 0.270 \times 10^5 $ years. Left panels show the Uniform model and right panels show the Hubble fragmented models. Panels a and b show the evolution of the whole systems, while panels c and d shows the same radii computed for the bound stars only. Panel e shows the Uniform bound model (Ru20b) for which radius and time were rescaled to compensate the difference of initial kinetic energy (see text for details). Panel f shows the same information as panel d with smoothed data. 10\% and 90\% radii are labelled in the top right panel. \relax }}{65}{figure.caption.46}}
+\newlabel{Fig:3_Lagr_radius}{{4.2}{65}{The ten-percentile mass radii (10\% to 90\%) as function of time. Radii and time axis are in H.u, with $t_{Henon} = 1 {\rm unit} = 0.270 \times 10^5 $ years. Left panels show the Uniform model and right panels show the Hubble fragmented models. Panels a and b show the evolution of the whole systems, while panels c and d shows the same radii computed for the bound stars only. Panel e shows the Uniform bound model (Ru20b) for which radius and time were rescaled to compensate the difference of initial kinetic energy (see text for details). Panel f shows the same information as panel d with smoothed data. 10\% and 90\% radii are labelled in the top right panel. \relax \relax }{figure.caption.46}{}}
+\citation{mcmillan07}
+\citation{allison10}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Global mass segregation}{66}{section.4.2}}
+\newlabel{Sec:Segregation}{{4.2}{66}{Global mass segregation\relax }{section.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Half-mass radii of stars selected by mass as function of time. Each bin identified with 0-10\%, 10-20\% .. 90-100\%, contains ten percent of the total system mass. The stars where sorted by mass in decreasing order, and used to fill each ten-percent mass bin in order. Hence the first ten-percentile contains the most massive stars, the next ten-percentile the second group of massive stars, and so on until the 90-percent bin which contains the least massive stars in the model and is the most populated. Half-mass radius and time are in H.u, with $t_{Henon} = 1\tmspace  +\thinmuskip {.1667em}unit = 0.270 \times 10^5$ years. Left panels show the evolution of the Uniform model (Ru20, Ru20b) and right panels do the same for the Hubble model (Rh20, Rh20b). The organization of panels follows the same layout than figure\nobreakspace  {}\ref  {Fig:Lagrange} with a different factor for the rescaling of the uniform system. \relax }}{67}{figure.caption.47}}
+\newlabel{Fig:3_Rhm_segr}{{4.3}{67}{Half-mass radii of stars selected by mass as function of time. Each bin identified with 0-10\%, 10-20\% .. 90-100\%, contains ten percent of the total system mass. The stars where sorted by mass in decreasing order, and used to fill each ten-percent mass bin in order. Hence the first ten-percentile contains the most massive stars, the next ten-percentile the second group of massive stars, and so on until the 90-percent bin which contains the least massive stars in the model and is the most populated. Half-mass radius and time are in H.u, with $t_{Henon} = 1\,unit = 0.270 \times 10^5$ years. Left panels show the evolution of the Uniform model (Ru20, Ru20b) and right panels do the same for the Hubble model (Rh20, Rh20b). The organization of panels follows the same layout than figure~\ref {Fig:Lagrange} with a different factor for the rescaling of the uniform system. \relax \relax }{figure.caption.47}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Values of half-mass radii and their ratio to that of the most massive stars. The results are for the rescaled bound uniform model (rescaled Ru20b) and the bound Hubble model (Rh20b), after the collapse, and before dynamical mass segregation sets in.\relax }}{68}{table.caption.48}}
+\newlabel{Tab:RhmVal}{{4.3}{68}{Values of half-mass radii and their ratio to that of the most massive stars. The results are for the rescaled bound uniform model (rescaled Ru20b) and the bound Hubble model (Rh20b), after the collapse, and before dynamical mass segregation sets in.\relax \relax }{table.caption.48}{}}
 \bibstyle{mn2e}
 \bibdata{Bibliography/bibdatabase}
-\newlabel{Biblio}{{3.3.3}{55}{\textsc {Bibliography}\relax }{chapter*.38}{}}
+\newlabel{Biblio}{{4.2}{69}{\textsc {Bibliography}\relax }{chapter*.49}{}}
 \bibcite{Aarseth1972}{{1}{1972}{{Aarseth}}{{}}}
 \bibcite{Aarseth2003}{{2}{2003}{{Aarseth}}{{}}}
 \bibcite{Aarseth1974}{{3}{1974}{{{Aarseth}, {H\'enon} \& {Wielen}}}{{{Aarseth}, {H\'enon}, \& {Wielen}}}}
 \bibcite{Aarseth1964}{{4}{1964}{{{Aarseth} \& {Hoyle}}}{{}}}
 \bibcite{Aarseth1988}{{5}{1988}{{{Aarseth}, {Lin} \& {Papaloizou}}}{{{Aarseth}, {Lin}, \& {Papaloizou}}}}
 \bibcite{AhmadCohen1973}{{6}{1973}{{{Ahmad} \& {Cohen}}}{{}}}
-\bibcite{Allison2009b}{{7}{2009}{{{Allison} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Allison}, {Goodwin}, {Parker}, {Portegies Zwart}, {de Grijs}, \& {Kouwenhoven}}}}
-\bibcite{Andersen2009}{{8}{2009}{{{Andersen} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Andersen}, {Zinnecker}, {Moneti}, {McCaughrean}, {Brandl}, {Brandner}, {Meylan}, \& {Hunter}}}}
-\bibcite{anderson2009}{{9}{2009}{{{Anderson} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Anderson}, {Piotto}, {King}, {Bedin}, \& {Guhathakurta}}}}
-\bibcite{Andre2010}{{10}{2010}{{{Andr{\'e}} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Andr{\'e}}, {Men'shchikov}, {Bontemps}, {K{\"o}nyves}, {Motte}, {Schneider}, {Didelon}, {Minier}, {Saraceno}, {Ward-Thompson}, {di Francesco}, {White}, {Molinari}, {Testi}, {Abergel}, {Griffin}, {Henning}, {Royer}, {Mer{\'{\i }}n}, {Vavrek}, {Attard}, {Arzoumanian}, {Wilson}, {Ade}, {Aussel}, {Baluteau}, {Benedettini}, {Bernard}, {Blommaert}, {Cambr{\'e}sy}, {Cox}, {di Giorgio}, {Hargrave}, {Hennemann}, {Huang}, {Kirk}, {Krause}, {Launhardt}, {Leeks}, {Le Pennec}, {Li}, {Martin}, {Maury}, {Olofsson}, {Omont}, {Peretto}, {Pezzuto}, {Prusti}, {Roussel}, {Russeil}, {Sauvage}, {Sibthorpe}, {Sicilia-Aguilar}, {Spinoglio}, {Waelkens}, {Woodcraft}, \& {Zavagno}}}}
-\bibcite{bacon1996}{{11}{1996}{{{Bacon}, {Sigurdsson} \& {Davies}}}{{{Bacon}, {Sigurdsson}, \& {Davies}}}}
-\bibcite{Barker2014}{{12}{2014}{{Barker {et~al}\unhbox \voidb@x \hbox {.}}}{{Barker, Dear, Christianson, \& Westman}}}
-\bibcite{BarnesHut1986}{{13}{1986}{{{Barnes} \& {Hut}}}{{}}}
-\bibcite{Barrow1997}{{14}{1997}{{Barrow-Green}}{{}}}
-\bibcite{Bastian2006}{{15}{2006}{{{Bastian} \& {Goodwin}}}{{}}}
-\bibcite{Bate2009}{{16}{2009}{{Bate}}{{}}}
-\bibcite{Bate2012}{{17}{2012}{{Bate}}{{}}}
-\bibcite{Bate2003}{{18}{2003}{{{Bate}, {Bonnell} \& {Bromm}}}{{{Bate}, {Bonnell}, \& {Bromm}}}}
-\bibcite{Bate1997}{{19}{1997}{{{Bate} \& {Burkert}}}{{}}}
-\bibcite{Bate2014}{{20}{2014}{{{Bate}, {Tricco} \& {Price}}}{{{Bate}, {Tricco}, \& {Price}}}}
-\bibcite{Bedorf2012}{{21}{2012}{{{B{\'e}dorf} \& {Portegies Zwart}}}{{}}}
-\bibcite{Beloriszky1930}{{22}{1930}{{Belorizky}}{{}}}
-\bibcite{BT}{{23}{2008}{{{Binney} \& {Tremaine}}}{{}}}
-\bibcite{Boily2002}{{24}{2002}{{{Boily}, {Athanassoula} \& {Kroupa}}}{{{Boily}, {Athanassoula}, \& {Kroupa}}}}
-\bibcite{Boily2003a}{{25}{2003{a}}{{{Boily} \& {Kroupa}}}{{}}}
-\bibcite{Boily2003b}{{26}{2003{b}}{{{Boily} \& {Kroupa}}}{{}}}
-\bibcite{Boily2004}{{27}{2004}{{{Boily} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Boily}, {Nakasato}, {Spurzem}, \& {Tsuchiya}}}}
-\bibcite{Bonnell2003}{{28}{2003}{{{Bonnell}, {Bate} \& {Vine}}}{{{Bonnell}, {Bate}, \& {Vine}}}}
-\bibcite{Bonnell2011}{{29}{2011}{{{Bonnell} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Bonnell}, {Smith}, {Clark}, \& {Bate}}}}
-\bibcite{Bressert2010}{{30}{2010}{{{Bressert} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Bressert}, {Bastian}, {Gutermuth}, {Megeath}, {Allen}, {Evans}, {Rebull}, {Hatchell}, {Johnstone}, {Bourke}, {Cieza}, {Harvey}, {Merin}, {Ray}, \& {Tothill}}}}
-\bibcite{Cambresy1999}{{31}{1999}{{Cambr{\'e}sy}}{{}}}
-\bibcite{Caputo2014}{{32}{2014}{{{Caputo}, {de Vries} \& {Portegies Zwart}}}{{{Caputo}, {de Vries}, \& {Portegies Zwart}}}}
-\bibcite{Clagett1959}{{33}{1959}{{Clagett}}{{}}}
-\bibcite{Clarke2012}{{34}{2012}{{Clarke}}{{}}}
-\bibcite{Cohen1999}{{35}{1999}{{{Cohen} I.~B.}}{{}}}
-\bibcite{Dale2011}{{36}{2011}{{{Dale} \& {Bonnell}}}{{}}}
-\bibcite{Dale2013}{{37}{2013}{{{Dale} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Dale}, {Ngoumou}, {Ercolano}, \& {Bonnell}}}}
-\bibcite{davies2009}{{38}{2009}{{{Davies} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Davies}, {Figer}, {Kudritzki}, {Trombley}, {Kouveliotou}, \& {Wachter}}}}
-\bibcite{DeAngelis2015}{{39}{2015}{{{De Angelis} \& {Santo}}}{{}}}
-\bibcite{DeWit2005}{{40}{2005}{{{de Wit} {et~al}\unhbox \voidb@x \hbox {.}}}{{{de Wit}, {Testi}, {Palla}, \& {Zinnecker}}}}
-\bibcite{Dias2002}{{41}{2002}{{{Dias} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Dias}, {Alessi}, {Moitinho}, \& {L{\'e}pine}}}}
-\bibcite{Doppler1842}{{42}{1842}{{Doppler}}{{}}}
-\bibcite{Dsouza2013}{{43}{2013}{{{D'Souza} \& {Rix}}}{{}}}
-\bibcite{DM91}{{44}{1991}{{{Duquennoy} \& {Mayor}}}{{}}}
-\bibcite{Ebisuzaki1990}{{45}{1990}{{{Ebisuzaki} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Ebisuzaki}, {Ito}, {Makino}, \& {Sugimoto}}}}
-\bibcite{Eddington1916}{{46}{1916}{{Eddington}}{{}}}
-\bibcite{Ehlerova1997}{{47}{1997}{{{Ehlerova} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Ehlerova}, {Palous}, {Theis}, \& {Hensler}}}}
-\bibcite{Eisenstein1998}{{48}{1998}{{{Eisenstein} \& {Hut}}}{{}}}
-\bibcite{Elmegreen1996}{{49}{1996}{{{Elmegreen} \& {Falgarone}}}{{}}}
-\bibcite{Elsen2006}{{50}{2006}{{{Elsen} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Elsen}, {Houston}, {Vishal}, {Darve}, {Hanrahan}, \& V.}}}
-\bibcite{Evans2009}{{51}{2009}{{{Evans} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Evans}, {Dunham}, {J{\o }rgensen}, {Enoch}, {Mer{\'{\i }}n}, {van Dishoeck}, {Alcal{\'a}}, {Myers}, {Stapelfeldt}, {Huard}, {Allen}, {Harvey}, {van Kempen}, {Blake}, {Koerner}, {Mundy}, {Padgett}, \& {Sargent}}}}
-\bibcite{Farias2015}{{52}{2015}{{{Farias} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Farias}, {Smith}, {Fellhauer}, {Goodwin}, {Candlish}, {Bla{\~n}a}, \& {Dominguez}}}}
-\bibcite{Field1969}{{53}{1969}{{{Field}, {Goldsmith} \& {Habing}}}{{{Field}, {Goldsmith}, \& {Habing}}}}
-\bibcite{Fischer1992}{{54}{1992}{{{Fischer} \& {Marcy}}}{{}}}
-\bibcite{Fleck2006}{{55}{2006}{{{Fleck} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Fleck}, {Boily}, {Lan{\c c}on}, \& {Deiters}}}}
-\bibcite{Foster2015}{{56}{2015}{{{Foster} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Foster}, {Cottaar}, {Covey}, {Arce}, {Meyer}, {Nidever}, {Stassun}, {Tan}, {Chojnowski}, {da Rio}, {Flaherty}, {Rebull}, {Frinchaboy}, {Majewski}, {Skrutskie}, {Wilson}, \& {Zasowski}}}}
-\bibcite{Freeman2015}{{57}{2015}{{Freeman {et~al}\unhbox \voidb@x \hbox {.}}}{{Freeman, Block, Elmegreen, \& Woolway}}}
-\bibcite{Friedman1978}{{58}{1978}{{{Friedman} \& {Schutz}}}{{}}}
-\bibcite{Frisch2001}{{59}{2001}{{{Frisch}, {Bec} \& {Villone}}}{{{Frisch}, {Bec}, \& {Villone}}}}
-\bibcite{Fujii2015}{{60}{2015}{{Fujii}}{{}}}
-\bibcite{Fujii2016}{{61}{2016}{{{Fujii} \& {Portegies Zwart}}}{{}}}
-\bibcite{galileo1610}{{62}{1610}{{Galileo}}{{}}}
-\bibcite{Garcia2010}{{63}{2010}{{{Garcia} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Garcia}, {Herrero}, {Castro}, {Corral}, \& {Rosenberg}}}}
-\bibcite{Geller2013}{{64}{2013}{{{Geller} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Geller}, {de Grijs}, {Li}, \& {Hurley}}}}
-\bibcite{Goodwin1997}{{65}{1997}{{Goodwin}}{{}}}
-\bibcite{Goodwin2006}{{66}{2006}{{{Goodwin} \& {Bastian}}}{{}}}
-\bibcite{Goodwin2004}{{67}{2004}{{{Goodwin} \& {Whitworth}}}{{}}}
-\bibcite{Goodwin2004a}{{68}{2004}{{{Goodwin}, {Whitworth} \& {Ward-Thompson}}}{{{Goodwin}, {Whitworth}, \& {Ward-Thompson}}}}
-\bibcite{Gutermuth2009}{{69}{2009}{{{Gutermuth} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Gutermuth}, {Megeath}, {Myers}, {Allen}, {Pipher}, \& {Fazio}}}}
-\bibcite{Gutermuth2011}{{70}{2011}{{{Gutermuth} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Gutermuth}, {Pipher}, {Megeath}, {Myers}, {Allen}, \& {Allen}}}}
-\bibcite{Harris1996}{{71}{1996}{{Harris}}{{}}}
-\bibcite{Hartmann2002}{{72}{2002}{{Hartmann}}{{}}}
-\bibcite{Hayashi1961}{{73}{1961}{{Hayashi}}{{}}}
-\bibcite{Heggie2003}{{74}{2003}{{{Heggie} \& {Hut}}}{{}}}
-\bibcite{Heggie1992}{{75}{1992}{{{Heggie} \& {Aarseth}}}{{}}}
-\bibcite{Hillenbrand1998}{{76}{1998}{{{Hillenbrand} \& {Hartmann}}}{{}}}
-\bibcite{Holmberg1941}{{77}{1941}{{Holmberg}}{{}}}
-\bibcite{Houghton1942}{{78}{1942}{{Houghton}}{{}}}
-\bibcite{Hubber2005}{{79}{2005}{{{Hubber} \& {Whitworth}}}{{}}}
-\bibcite{Hubble1929}{{80}{1929}{{Hubble}}{{}}}
-\bibcite{Ito1991}{{81}{1991}{{{Ito} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Ito}, {Ebisuzaki}, {Makino}, \& {Sugimoto}}}}
-\bibcite{Jeans1916}{{82}{1916}{{Jeans}}{{}}}
-\bibcite{Kandori2005}{{83}{2005}{{{Kandori} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kandori}, {Nakajima}, {Tamura}, {Tatematsu}, {Aikawa}, {Naoi}, {Sugitani}, {Nakaya}, {Nagayama}, {Nagata}, {Kurita}, {Kato}, {Nagashima}, \& {Sato}}}}
-\bibcite{King1981}{{84}{1981}{{King}}{{}}}
-\bibcite{Kirk2011}{{85}{2011}{{{Kirk} \& {Myers}}}{{}}}
-\bibcite{Klessen2000}{{86}{2000}{{{Klessen} \& {Burkert}}}{{}}}
-\bibcite{Klessen2001}{{87}{2001}{{{Klessen} \& {Burkert}}}{{}}}
-\bibcite{Knigge2009}{{88}{2009}{{{Knigge}, {Leigh} \& {Sills}}}{{{Knigge}, {Leigh}, \& {Sills}}}}
-\bibcite{Kouwenhoven2007}{{89}{2007}{{{Kouwenhoven} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kouwenhoven}, {Brown}, {Portegies Zwart}, \& {Kaper}}}}
-\bibcite{Kouwenhoven2010}{{90}{2010}{{{Kouwenhoven} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kouwenhoven}, {Goodwin}, {Parker}, {Davies}, {Malmberg}, \& {Kroupa}}}}
-\bibcite{Kragh2003}{{91}{2003}{{{Kragh} \& {Smith}}}{{}}}
-\bibcite{Kramer1982}{{92}{1982}{{Kramer}}{{}}}
-\bibcite{Kroupa2001}{{93}{2001}{{{Kroupa} \& {Burkert}}}{{}}}
-\bibcite{Kruijssen2012}{{94}{2012}{{{Kruijssen} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kruijssen}, {Maschberger}, {Moeckel}, {Clarke}, {Bastian}, \& {Bonnell}}}}
-\bibcite{Kuhn2015b}{{95}{2015}{{{Kuhn} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kuhn}, {Feigelson}, {Getman}, {Sills}, {Bate}, \& {Borissova}}}}
-\bibcite{Kuhn2015a}{{96}{2015}{{{Kuhn}, {Getman} \& {Feigelson}}}{{{Kuhn}, {Getman}, \& {Feigelson}}}}
-\bibcite{KS1965}{{97}{1965}{{{Kustaanheimo} \& {Stiefel}}}{{}}}
-\bibcite{Lada2003}{{98}{2003}{{{Lada} \& {Lada}}}{{}}}
-\bibcite{Larson1969}{{99}{1969}{{Larson}}{{}}}
-\bibcite{Lemaitre1927}{{100}{1927}{{Lema{\^i}tre}}{{}}}
-\bibcite{MacLow2004}{{101}{2004}{{{Mac Low} \& {Klessen}}}{{}}}
-\bibcite{Makino1991}{{102}{1991}{{Makino}}{{}}}
-\bibcite{Marks2012}{{103}{2012}{{{Marks} \& {Kroupa}}}{{}}}
-\bibcite{Maschberger2011}{{104}{2011}{{{Maschberger} \& {Clarke}}}{{}}}
-\bibcite{Maschberger2010}{{105}{2010}{{{Maschberger} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Maschberger}, {Clarke}, {Bonnell}, \& {Kroupa}}}}
-\bibcite{Maury1992}{{106}{1992}{{Maury}}{{}}}
-\bibcite{McKee2007}{{107}{2007}{{{McKee} \& {Ostriker}}}{{}}}
-\bibcite{McMillan2007}{{108}{2007}{{{McMillan}, {Vesperini} \& {Portegies Zwart}}}{{{McMillan}, {Vesperini}, \& {Portegies Zwart}}}}
-\bibcite{Merritt2013}{{109}{2013}{{Merritt}}{{}}}
-\bibcite{Meylan1997}{{110}{1997}{{{Meylan} \& {Heggie}}}{{}}}
-\bibcite{Mikkola1993}{{111}{1993}{{{Mikkola} \& {Aarseth}}}{{}}}
-\bibcite{Miller1979}{{112}{1979}{{{Miller} \& {Scalo}}}{{}}}
-\bibcite{Moeckel2010}{{113}{2010}{{{Moeckel} \& {Bate}}}{{}}}
-\bibcite{Moeckel2011}{{114}{2011}{{{Moeckel} \& {Clarke}}}{{}}}
-\bibcite{Myers2014}{{115}{2014}{{{Myers} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Myers}, {Klein}, {Krumholz}, \& {McKee}}}}
-\bibcite{Newton1687}{{116}{1687}{{Newton}}{{}}}
-\bibcite{Nitadori2012}{{117}{2012}{{{Nitadori} \& {Aarseth}}}{{}}}
-\bibcite{Nyland2004}{{118}{2004}{{{Nyland}, {Harris} \& {Prins}}}{{{Nyland}, {Harris}, \& {Prins}}}}
-\bibcite{Offner2009}{{119}{2009}{{{Offner}, {Hansen} \& {Krumholz}}}{{{Offner}, {Hansen}, \& {Krumholz}}}}
-\bibcite{Olczak2011}{{120}{2011}{{{Olczak}, {Spurzem} \& {Henning}}}{{{Olczak}, {Spurzem}, \& {Henning}}}}
-\bibcite{Parker2011}{{121}{2011}{{{Parker}, {Goodwin} \& {Allison}}}{{{Parker}, {Goodwin}, \& {Allison}}}}
-\bibcite{Parker2014}{{122}{2014}{{{Parker} \& {Meyer}}}{{}}}
-\bibcite{Parker2016}{{123}{2016}{{{Parker} \& {Wright}}}{{}}}
-\bibcite{Pavese2015}{{124}{2015}{{Pavese}}{{}}}
-\bibcite{Peebles1980}{{125}{1980}{{Peebles}}{{}}}
-\bibcite{Pelupessy2012}{{126}{2012}{{{Pelupessy} \& {Portegies Zwart}}}{{}}}
-\bibcite{Poincare1906}{{127}{1906}{{Poincar\'e}}{{}}}
-\bibcite{SPZ2007}{{128}{2007}{{{Portegies Zwart}, {Belleman} \& {Geldof}}}{{{Portegies Zwart}, {Belleman}, \& {Geldof}}}}
-\bibcite{PortegiesZwart2010}{{129}{2010}{{{Portegies Zwart}, {McMillan} \& {Gieles}}}{{{Portegies Zwart}, {McMillan}, \& {Gieles}}}}
-\bibcite{Raghavan2010}{{130}{2010}{{{Raghavan} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Raghavan}, {McAlister}, {Henry}, {Latham}, {Marcy}, {Mason}, {Gies}, {White}, \& {ten Brummelaar}}}}
-\bibcite{ramasubramanian1998}{{131}{1998}{{Ramasubramanian}}{{}}}
-\bibcite{Reipurth2008}{{132}{2008}{{Reipurth}}{{}}}
-\bibcite{Renaud2011}{{133}{2011}{{{Renaud}, {Gieles} \& {Boily}}}{{{Renaud}, {Gieles}, \& {Boily}}}}
-\bibcite{Rubenstein1997}{{134}{1997}{{{Rubenstein} \& {Bailyn}}}{{}}}
-\bibcite{Salpeter1955}{{135}{1955}{{Salpeter}}{{}}}
-\bibcite{Scalo1998}{{136}{1998}{{{Scalo} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Scalo}, {V{\'a}zquez-Semadeni}, {Chappell}, \& {Passot}}}}
-\bibcite{Schneider1979}{{137}{1979}{{{Schneider} \& {Elmegreen}}}{{}}}
-\bibcite{Skory2010}{{138}{2010}{{{Skory} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Skory}, {Turk}, {Norman}, \& {Coil}}}}
-\bibcite{Springel2005}{{139}{2005}{{{Springel} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Springel}, {White}, {Jenkins}, {Frenk}, {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole}, {Thomas}, {Couchman}, {Evrard}, {Colberg}, \& {Pearce}}}}
-\bibcite{Stromgren1909}{{140}{1909}{{Str{\"o}mgren}}{{}}}
-\bibcite{Sundman1912}{{141}{1912}{{Sundman}}{{}}}
-\bibcite{Tailo2015}{{142}{2015}{{{Tailo} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Tailo}, {D'Antona}, {Vesperini}, {di Criscienzo}, {Ventura}, {Milone}, {Bellini}, {Dotter}, {Decressin}, {D'Ercole}, {Caloi}, \& {Capuzzo-Dolcetta}}}}
-\bibcite{Terlevich1980}{{143}{1980}{{Terlevich}}{{}}}
-\bibcite{Teyssier2002}{{144}{2002}{{Teyssier}}{{}}}
-\bibcite{Turner1995}{{145}{1995}{{{Turner} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Turner}, {Chapman}, {Bhattal}, {Disney}, {Pongracic}, \& {Whitworth}}}}
-\bibcite{Tutukov1978}{{146}{1978}{{Tutukov}}{{}}}
-\bibcite{VanAlbada1968b}{{147}{1968{a}}{{van Albada}}{{}}}
-\bibcite{VanAlbada1968a}{{148}{1968{b}}{{van Albada}}{{}}}
-\bibcite{VanDenBergh2011}{{149}{2011}{{van den Bergh}}{{}}}
-\bibcite{VonHoerner1960}{{150}{1960}{{von Hoerner}}{{}}}
-\bibcite{VonHoerner1963}{{151}{1963}{{von Hoerner}}{{}}}
-\bibcite{VonHoerner2001}{{152}{2001}{{von Hoerner}}{{}}}
-\bibcite{Wang2016}{{153}{2016}{{{Wang} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Wang}, {Spurzem}, {Aarseth}, {Giersz}, {Askar}, {Berczik}, {Naab}, {Schadow}, \& {Kouwenhoven}}}}
-\bibcite{Whitmore2010}{{154}{2010}{{{Whitmore} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Whitmore}, {Chandar}, {Schweizer}, {Rothberg}, {Leitherer}, {Rieke}, {Rieke}, {Blair}, {Mengel}, \& {Alonso-Herrero}}}}
-\bibcite{Wright2014}{{155}{2014}{{{Wright} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Wright}, {Parker}, {Goodwin}, \& {Drake}}}}
-\bibcite{Wunsch2010}{{156}{2010}{{{W{\"u}nsch} {et~al}\unhbox \voidb@x \hbox {.}}}{{{W{\"u}nsch}, {Dale}, {Palou{\v s}}, \& {Whitworth}}}}
-\bibcite{Yoccoz2010}{{157}{2010}{{Yoccoz}}{{}}}
+\bibcite{Allison2009}{{7}{2009{a}}{{{Allison} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Allison}, {Goodwin}, {Parker}, {de Grijs}, {Portegies Zwart}, \& {Kouwenhoven}}}}
+\bibcite{Allison2009b}{{8}{2009{b}}{{{Allison} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Allison}, {Goodwin}, {Parker}, {Portegies Zwart}, {de Grijs}, \& {Kouwenhoven}}}}
+\bibcite{Andersen2009}{{9}{2009}{{{Andersen} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Andersen}, {Zinnecker}, {Moneti}, {McCaughrean}, {Brandl}, {Brandner}, {Meylan}, \& {Hunter}}}}
+\bibcite{anderson2009}{{10}{2009}{{{Anderson} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Anderson}, {Piotto}, {King}, {Bedin}, \& {Guhathakurta}}}}
+\bibcite{Andre2010}{{11}{2010}{{{Andr{\'e}} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Andr{\'e}}, {Men'shchikov}, {Bontemps}, {K{\"o}nyves}, {Motte}, {Schneider}, {Didelon}, {Minier}, {Saraceno}, {Ward-Thompson}, {di Francesco}, {White}, {Molinari}, {Testi}, {Abergel}, {Griffin}, {Henning}, {Royer}, {Mer{\'{\i }}n}, {Vavrek}, {Attard}, {Arzoumanian}, {Wilson}, {Ade}, {Aussel}, {Baluteau}, {Benedettini}, {Bernard}, {Blommaert}, {Cambr{\'e}sy}, {Cox}, {di Giorgio}, {Hargrave}, {Hennemann}, {Huang}, {Kirk}, {Krause}, {Launhardt}, {Leeks}, {Le Pennec}, {Li}, {Martin}, {Maury}, {Olofsson}, {Omont}, {Peretto}, {Pezzuto}, {Prusti}, {Roussel}, {Russeil}, {Sauvage}, {Sibthorpe}, {Sicilia-Aguilar}, {Spinoglio}, {Waelkens}, {Woodcraft}, \& {Zavagno}}}}
+\bibcite{bacon1996}{{12}{1996}{{{Bacon}, {Sigurdsson} \& {Davies}}}{{{Bacon}, {Sigurdsson}, \& {Davies}}}}
+\bibcite{Barker2014}{{13}{2014}{{Barker {et~al}\unhbox \voidb@x \hbox {.}}}{{Barker, Dear, Christianson, \& Westman}}}
+\bibcite{BarnesHut1986}{{14}{1986}{{{Barnes} \& {Hut}}}{{}}}
+\bibcite{Barrow1997}{{15}{1997}{{Barrow-Green}}{{}}}
+\bibcite{Bastian2010}{{16}{2010}{{{Bastian}, {Covey} \& {Meyer}}}{{{Bastian}, {Covey}, \& {Meyer}}}}
+\bibcite{Bastian2006}{{17}{2006}{{{Bastian} \& {Goodwin}}}{{}}}
+\bibcite{Bate2009}{{18}{2009}{{Bate}}{{}}}
+\bibcite{Bate2012}{{19}{2012}{{Bate}}{{}}}
+\bibcite{Bate2003}{{20}{2003}{{{Bate}, {Bonnell} \& {Bromm}}}{{{Bate}, {Bonnell}, \& {Bromm}}}}
+\bibcite{Bate1997}{{21}{1997}{{{Bate} \& {Burkert}}}{{}}}
+\bibcite{Bate2014}{{22}{2014}{{{Bate}, {Tricco} \& {Price}}}{{{Bate}, {Tricco}, \& {Price}}}}
+\bibcite{Bedorf2012}{{23}{2012}{{{B{\'e}dorf} \& {Portegies Zwart}}}{{}}}
+\bibcite{Beloriszky1930}{{24}{1930}{{Belorizky}}{{}}}
+\bibcite{BT}{{25}{2008}{{{Binney} \& {Tremaine}}}{{}}}
+\bibcite{Boily2002}{{26}{2002}{{{Boily}, {Athanassoula} \& {Kroupa}}}{{{Boily}, {Athanassoula}, \& {Kroupa}}}}
+\bibcite{Boily2003a}{{27}{2003{a}}{{{Boily} \& {Kroupa}}}{{}}}
+\bibcite{Boily2003b}{{28}{2003{b}}{{{Boily} \& {Kroupa}}}{{}}}
+\bibcite{Boily2004}{{29}{2004}{{{Boily} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Boily}, {Nakasato}, {Spurzem}, \& {Tsuchiya}}}}
+\bibcite{Bonnell2003}{{30}{2003}{{{Bonnell}, {Bate} \& {Vine}}}{{{Bonnell}, {Bate}, \& {Vine}}}}
+\bibcite{Bonnell2011}{{31}{2011}{{{Bonnell} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Bonnell}, {Smith}, {Clark}, \& {Bate}}}}
+\bibcite{Bonnell2004}{{32}{2004}{{{Bonnell}, {Vine} \& {Bate}}}{{{Bonnell}, {Vine}, \& {Bate}}}}
+\bibcite{Bressert2010}{{33}{2010}{{{Bressert} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Bressert}, {Bastian}, {Gutermuth}, {Megeath}, {Allen}, {Evans}, {Rebull}, {Hatchell}, {Johnstone}, {Bourke}, {Cieza}, {Harvey}, {Merin}, {Ray}, \& {Tothill}}}}
+\bibcite{Cambresy1999}{{34}{1999}{{Cambr{\'e}sy}}{{}}}
+\bibcite{Caputo2014}{{35}{2014}{{{Caputo}, {de Vries} \& {Portegies Zwart}}}{{{Caputo}, {de Vries}, \& {Portegies Zwart}}}}
+\bibcite{Clagett1959}{{36}{1959}{{Clagett}}{{}}}
+\bibcite{Clarke2012}{{37}{2012}{{Clarke}}{{}}}
+\bibcite{Cohen1999}{{38}{1999}{{{Cohen} I.~B.}}{{}}}
+\bibcite{Czekaj2014}{{39}{2014}{{{Czekaj} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Czekaj}, {Robin}, {Figueras}, {Luri}, \& {Haywood}}}}
+\bibcite{Dale2011}{{40}{2011}{{{Dale} \& {Bonnell}}}{{}}}
+\bibcite{Dale2013}{{41}{2013}{{{Dale} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Dale}, {Ngoumou}, {Ercolano}, \& {Bonnell}}}}
+\bibcite{davies2009}{{42}{2009}{{{Davies} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Davies}, {Figer}, {Kudritzki}, {Trombley}, {Kouveliotou}, \& {Wachter}}}}
+\bibcite{DeAngelis2015}{{43}{2015}{{{De Angelis} \& {Santo}}}{{}}}
+\bibcite{DeWit2005}{{44}{2005}{{{de Wit} {et~al}\unhbox \voidb@x \hbox {.}}}{{{de Wit}, {Testi}, {Palla}, \& {Zinnecker}}}}
+\bibcite{Dias2002}{{45}{2002}{{{Dias} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Dias}, {Alessi}, {Moitinho}, \& {L{\'e}pine}}}}
+\bibcite{Doppler1842}{{46}{1842}{{Doppler}}{{}}}
+\bibcite{Dsouza2013}{{47}{2013}{{{D'Souza} \& {Rix}}}{{}}}
+\bibcite{DM91}{{48}{1991}{{{Duquennoy} \& {Mayor}}}{{}}}
+\bibcite{Ebisuzaki1990}{{49}{1990}{{{Ebisuzaki} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Ebisuzaki}, {Ito}, {Makino}, \& {Sugimoto}}}}
+\bibcite{Eddington1916}{{50}{1916}{{Eddington}}{{}}}
+\bibcite{Ehlerova1997}{{51}{1997}{{{Ehlerova} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Ehlerova}, {Palous}, {Theis}, \& {Hensler}}}}
+\bibcite{Eisenstein1998}{{52}{1998}{{{Eisenstein} \& {Hut}}}{{}}}
+\bibcite{Elmegreen1996}{{53}{1996}{{{Elmegreen} \& {Falgarone}}}{{}}}
+\bibcite{Elsen2006}{{54}{2006}{{{Elsen} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Elsen}, {Houston}, {Vishal}, {Darve}, {Hanrahan}, \& V.}}}
+\bibcite{Evans2009}{{55}{2009}{{{Evans} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Evans}, {Dunham}, {J{\o }rgensen}, {Enoch}, {Mer{\'{\i }}n}, {van Dishoeck}, {Alcal{\'a}}, {Myers}, {Stapelfeldt}, {Huard}, {Allen}, {Harvey}, {van Kempen}, {Blake}, {Koerner}, {Mundy}, {Padgett}, \& {Sargent}}}}
+\bibcite{Farias2015}{{56}{2015}{{{Farias} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Farias}, {Smith}, {Fellhauer}, {Goodwin}, {Candlish}, {Bla{\~n}a}, \& {Dominguez}}}}
+\bibcite{Field1969}{{57}{1969}{{{Field}, {Goldsmith} \& {Habing}}}{{{Field}, {Goldsmith}, \& {Habing}}}}
+\bibcite{Fischer1992}{{58}{1992}{{{Fischer} \& {Marcy}}}{{}}}
+\bibcite{Fleck2006}{{59}{2006}{{{Fleck} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Fleck}, {Boily}, {Lan{\c c}on}, \& {Deiters}}}}
+\bibcite{Foster2015}{{60}{2015}{{{Foster} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Foster}, {Cottaar}, {Covey}, {Arce}, {Meyer}, {Nidever}, {Stassun}, {Tan}, {Chojnowski}, {da Rio}, {Flaherty}, {Rebull}, {Frinchaboy}, {Majewski}, {Skrutskie}, {Wilson}, \& {Zasowski}}}}
+\bibcite{Freeman2015}{{61}{2015}{{Freeman {et~al}\unhbox \voidb@x \hbox {.}}}{{Freeman, Block, Elmegreen, \& Woolway}}}
+\bibcite{Friedman1978}{{62}{1978}{{{Friedman} \& {Schutz}}}{{}}}
+\bibcite{Frisch2001}{{63}{2001}{{{Frisch}, {Bec} \& {Villone}}}{{{Frisch}, {Bec}, \& {Villone}}}}
+\bibcite{Fujii2015}{{64}{2015}{{Fujii}}{{}}}
+\bibcite{Fujii2016}{{65}{2016}{{{Fujii} \& {Portegies Zwart}}}{{}}}
+\bibcite{galileo1610}{{66}{1610}{{Galileo}}{{}}}
+\bibcite{Garcia2010}{{67}{2010}{{{Garcia} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Garcia}, {Herrero}, {Castro}, {Corral}, \& {Rosenberg}}}}
+\bibcite{Geller2013}{{68}{2013}{{{Geller} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Geller}, {de Grijs}, {Li}, \& {Hurley}}}}
+\bibcite{Goodwin1997}{{69}{1997}{{Goodwin}}{{}}}
+\bibcite{Goodwin2006}{{70}{2006}{{{Goodwin} \& {Bastian}}}{{}}}
+\bibcite{Goodwin2004}{{71}{2004}{{{Goodwin} \& {Whitworth}}}{{}}}
+\bibcite{Goodwin2004a}{{72}{2004}{{{Goodwin}, {Whitworth} \& {Ward-Thompson}}}{{{Goodwin}, {Whitworth}, \& {Ward-Thompson}}}}
+\bibcite{Gutermuth2009}{{73}{2009}{{{Gutermuth} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Gutermuth}, {Megeath}, {Myers}, {Allen}, {Pipher}, \& {Fazio}}}}
+\bibcite{Gutermuth2011}{{74}{2011}{{{Gutermuth} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Gutermuth}, {Pipher}, {Megeath}, {Myers}, {Allen}, \& {Allen}}}}
+\bibcite{Harris1996}{{75}{1996}{{Harris}}{{}}}
+\bibcite{Hartmann2002}{{76}{2002}{{Hartmann}}{{}}}
+\bibcite{Hayashi1961}{{77}{1961}{{Hayashi}}{{}}}
+\bibcite{Heggie2003}{{78}{2003}{{{Heggie} \& {Hut}}}{{}}}
+\bibcite{Heggie1992}{{79}{1992}{{{Heggie} \& {Aarseth}}}{{}}}
+\bibcite{Hillenbrand1998}{{80}{1998}{{{Hillenbrand} \& {Hartmann}}}{{}}}
+\bibcite{Holmberg1941}{{81}{1941}{{Holmberg}}{{}}}
+\bibcite{Houghton1942}{{82}{1942}{{Houghton}}{{}}}
+\bibcite{Hubber2005}{{83}{2005}{{{Hubber} \& {Whitworth}}}{{}}}
+\bibcite{Hubble1929}{{84}{1929}{{Hubble}}{{}}}
+\bibcite{Ito1991}{{85}{1991}{{{Ito} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Ito}, {Ebisuzaki}, {Makino}, \& {Sugimoto}}}}
+\bibcite{Jeans1916}{{86}{1916}{{Jeans}}{{}}}
+\bibcite{Kandori2005}{{87}{2005}{{{Kandori} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kandori}, {Nakajima}, {Tamura}, {Tatematsu}, {Aikawa}, {Naoi}, {Sugitani}, {Nakaya}, {Nagayama}, {Nagata}, {Kurita}, {Kato}, {Nagashima}, \& {Sato}}}}
+\bibcite{King1981}{{88}{1981}{{King}}{{}}}
+\bibcite{Kirk2011}{{89}{2011}{{{Kirk} \& {Myers}}}{{}}}
+\bibcite{Klessen2000}{{90}{2000}{{{Klessen} \& {Burkert}}}{{}}}
+\bibcite{Klessen2001}{{91}{2001}{{{Klessen} \& {Burkert}}}{{}}}
+\bibcite{Knigge2009}{{92}{2009}{{{Knigge}, {Leigh} \& {Sills}}}{{{Knigge}, {Leigh}, \& {Sills}}}}
+\bibcite{Kouwenhoven2007}{{93}{2007}{{{Kouwenhoven} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kouwenhoven}, {Brown}, {Portegies Zwart}, \& {Kaper}}}}
+\bibcite{Kouwenhoven2010}{{94}{2010}{{{Kouwenhoven} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kouwenhoven}, {Goodwin}, {Parker}, {Davies}, {Malmberg}, \& {Kroupa}}}}
+\bibcite{Kragh2003}{{95}{2003}{{{Kragh} \& {Smith}}}{{}}}
+\bibcite{Kramer1982}{{96}{1982}{{Kramer}}{{}}}
+\bibcite{Kroupa2001}{{97}{2001}{{{Kroupa} \& {Burkert}}}{{}}}
+\bibcite{Kruijssen2012}{{98}{2012}{{{Kruijssen} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kruijssen}, {Maschberger}, {Moeckel}, {Clarke}, {Bastian}, \& {Bonnell}}}}
+\bibcite{Kuhn2015b}{{99}{2015}{{{Kuhn} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Kuhn}, {Feigelson}, {Getman}, {Sills}, {Bate}, \& {Borissova}}}}
+\bibcite{Kuhn2015a}{{100}{2015}{{{Kuhn}, {Getman} \& {Feigelson}}}{{{Kuhn}, {Getman}, \& {Feigelson}}}}
+\bibcite{KS1965}{{101}{1965}{{{Kustaanheimo} \& {Stiefel}}}{{}}}
+\bibcite{Lada2003}{{102}{2003}{{{Lada} \& {Lada}}}{{}}}
+\bibcite{Larson1969}{{103}{1969}{{Larson}}{{}}}
+\bibcite{Lemaitre1927}{{104}{1927}{{Lema{\^i}tre}}{{}}}
+\bibcite{MacLow2004}{{105}{2004}{{{Mac Low} \& {Klessen}}}{{}}}
+\bibcite{Makino1991}{{106}{1991}{{Makino}}{{}}}
+\bibcite{Marks2012}{{107}{2012}{{{Marks} \& {Kroupa}}}{{}}}
+\bibcite{Maschberger2011}{{108}{2011}{{{Maschberger} \& {Clarke}}}{{}}}
+\bibcite{Maschberger2010}{{109}{2010}{{{Maschberger} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Maschberger}, {Clarke}, {Bonnell}, \& {Kroupa}}}}
+\bibcite{Maury1992}{{110}{1992}{{Maury}}{{}}}
+\bibcite{McKee2007}{{111}{2007}{{{McKee} \& {Ostriker}}}{{}}}
+\bibcite{McMillan2007}{{112}{2007}{{{McMillan}, {Vesperini} \& {Portegies Zwart}}}{{{McMillan}, {Vesperini}, \& {Portegies Zwart}}}}
+\bibcite{Merritt2013}{{113}{2013}{{Merritt}}{{}}}
+\bibcite{Meylan1997}{{114}{1997}{{{Meylan} \& {Heggie}}}{{}}}
+\bibcite{Mikkola1993}{{115}{1993}{{{Mikkola} \& {Aarseth}}}{{}}}
+\bibcite{Miller1979}{{116}{1979}{{{Miller} \& {Scalo}}}{{}}}
+\bibcite{Moeckel2010}{{117}{2010}{{{Moeckel} \& {Bate}}}{{}}}
+\bibcite{Moeckel2011}{{118}{2011}{{{Moeckel} \& {Clarke}}}{{}}}
+\bibcite{Myers2014}{{119}{2014}{{{Myers} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Myers}, {Klein}, {Krumholz}, \& {McKee}}}}
+\bibcite{Newton1687}{{120}{1687}{{Newton}}{{}}}
+\bibcite{Nitadori2012}{{121}{2012}{{{Nitadori} \& {Aarseth}}}{{}}}
+\bibcite{Nyland2004}{{122}{2004}{{{Nyland}, {Harris} \& {Prins}}}{{{Nyland}, {Harris}, \& {Prins}}}}
+\bibcite{Offner2009}{{123}{2009}{{{Offner}, {Hansen} \& {Krumholz}}}{{{Offner}, {Hansen}, \& {Krumholz}}}}
+\bibcite{Olczak2011}{{124}{2011}{{{Olczak}, {Spurzem} \& {Henning}}}{{{Olczak}, {Spurzem}, \& {Henning}}}}
+\bibcite{Parker2011}{{125}{2011}{{{Parker}, {Goodwin} \& {Allison}}}{{{Parker}, {Goodwin}, \& {Allison}}}}
+\bibcite{Parker2014}{{126}{2014}{{{Parker} \& {Meyer}}}{{}}}
+\bibcite{Parker2016}{{127}{2016}{{{Parker} \& {Wright}}}{{}}}
+\bibcite{Pavese2015}{{128}{2015}{{Pavese}}{{}}}
+\bibcite{Peebles1980}{{129}{1980}{{Peebles}}{{}}}
+\bibcite{Pelupessy2012}{{130}{2012}{{{Pelupessy} \& {Portegies Zwart}}}{{}}}
+\bibcite{Poincare1906}{{131}{1906}{{Poincar\'e}}{{}}}
+\bibcite{SPZ2007}{{132}{2007}{{{Portegies Zwart}, {Belleman} \& {Geldof}}}{{{Portegies Zwart}, {Belleman}, \& {Geldof}}}}
+\bibcite{PortegiesZwart2010}{{133}{2010}{{{Portegies Zwart}, {McMillan} \& {Gieles}}}{{{Portegies Zwart}, {McMillan}, \& {Gieles}}}}
+\bibcite{Raghavan2010}{{134}{2010}{{{Raghavan} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Raghavan}, {McAlister}, {Henry}, {Latham}, {Marcy}, {Mason}, {Gies}, {White}, \& {ten Brummelaar}}}}
+\bibcite{ramasubramanian1998}{{135}{1998}{{Ramasubramanian}}{{}}}
+\bibcite{Reipurth2008}{{136}{2008}{{Reipurth}}{{}}}
+\bibcite{Renaud2011}{{137}{2011}{{{Renaud}, {Gieles} \& {Boily}}}{{{Renaud}, {Gieles}, \& {Boily}}}}
+\bibcite{Rubenstein1997}{{138}{1997}{{{Rubenstein} \& {Bailyn}}}{{}}}
+\bibcite{Rybizki2015}{{139}{2015}{{{Rybizki} \& {Just}}}{{}}}
+\bibcite{Salpeter1955}{{140}{1955}{{Salpeter}}{{}}}
+\bibcite{Scalo1998}{{141}{1998}{{{Scalo} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Scalo}, {V{\'a}zquez-Semadeni}, {Chappell}, \& {Passot}}}}
+\bibcite{Schneider1979}{{142}{1979}{{{Schneider} \& {Elmegreen}}}{{}}}
+\bibcite{Skory2010}{{143}{2010}{{{Skory} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Skory}, {Turk}, {Norman}, \& {Coil}}}}
+\bibcite{Springel2005}{{144}{2005}{{{Springel} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Springel}, {White}, {Jenkins}, {Frenk}, {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole}, {Thomas}, {Couchman}, {Evrard}, {Colberg}, \& {Pearce}}}}
+\bibcite{Stromgren1909}{{145}{1909}{{Str{\"o}mgren}}{{}}}
+\bibcite{Sundman1912}{{146}{1912}{{Sundman}}{{}}}
+\bibcite{Tailo2015}{{147}{2015}{{{Tailo} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Tailo}, {D'Antona}, {Vesperini}, {di Criscienzo}, {Ventura}, {Milone}, {Bellini}, {Dotter}, {Decressin}, {D'Ercole}, {Caloi}, \& {Capuzzo-Dolcetta}}}}
+\bibcite{Terlevich1980}{{148}{1980}{{Terlevich}}{{}}}
+\bibcite{Teyssier2002}{{149}{2002}{{Teyssier}}{{}}}
+\bibcite{Turner1995}{{150}{1995}{{{Turner} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Turner}, {Chapman}, {Bhattal}, {Disney}, {Pongracic}, \& {Whitworth}}}}
+\bibcite{Tutukov1978}{{151}{1978}{{Tutukov}}{{}}}
+\bibcite{VanAlbada1968b}{{152}{1968{a}}{{van Albada}}{{}}}
+\bibcite{VanAlbada1968a}{{153}{1968{b}}{{van Albada}}{{}}}
+\bibcite{VanDenBergh2011}{{154}{2011}{{van den Bergh}}{{}}}
+\bibcite{VonHoerner1960}{{155}{1960}{{von Hoerner}}{{}}}
+\bibcite{VonHoerner1963}{{156}{1963}{{von Hoerner}}{{}}}
+\bibcite{VonHoerner2001}{{157}{2001}{{von Hoerner}}{{}}}
+\bibcite{Wang2016}{{158}{2016}{{{Wang} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Wang}, {Spurzem}, {Aarseth}, {Giersz}, {Askar}, {Berczik}, {Naab}, {Schadow}, \& {Kouwenhoven}}}}
+\bibcite{Weidner2010}{{159}{2010}{{{Weidner}, {Kroupa} \& {Bonnell}}}{{{Weidner}, {Kroupa}, \& {Bonnell}}}}
+\bibcite{Weidner2013}{{160}{2013}{{{Weidner}, {Kroupa} \& {Pflamm-Altenburg}}}{{{Weidner}, {Kroupa}, \& {Pflamm-Altenburg}}}}
+\bibcite{Whitmore2010}{{161}{2010}{{{Whitmore} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Whitmore}, {Chandar}, {Schweizer}, {Rothberg}, {Leitherer}, {Rieke}, {Rieke}, {Blair}, {Mengel}, \& {Alonso-Herrero}}}}
+\bibcite{Wright2014}{{162}{2014}{{{Wright} {et~al}\unhbox \voidb@x \hbox {.}}}{{{Wright}, {Parker}, {Goodwin}, \& {Drake}}}}
+\bibcite{Wunsch2010}{{163}{2010}{{{W{\"u}nsch} {et~al}\unhbox \voidb@x \hbox {.}}}{{{W{\"u}nsch}, {Dale}, {Palou{\v s}}, \& {Whitworth}}}}
+\bibcite{Yoccoz2010}{{164}{2010}{{Yoccoz}}{{}}}
 \citation{Bedorf2012}
 \citation{PortegiesZwart2010}
 \citation{Kandori2005}
@@ -613,3 +682,5 @@
 \citation{Fujii2015}
 \citation{Raghavan2010}
 \citation{Parker2011}
+\citation{Weidner2013}
+\citation{Weidner2010}

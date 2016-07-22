@@ -1,67 +1,54 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
-Case mismatch error between cite keys Maclow2004 and MacLow2004
----line 441 of file main.aux
- : \citation{Klessen2001,Maclow2004
- :                                 ,Maschberger2010,Bate2014}
-I'm skipping whatever remains of this command
 The style file: mn2e.bst
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
---line 3625 of file Bibliography/bibdatabase.bib
+--line 3608 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
---line 3633 of file Bibliography/bibdatabase.bib
-Repeated entry---line 4011 of file Bibliography/bibdatabase.bib
- : @article{Dias2002
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4096 of file Bibliography/bibdatabase.bib
- : @article{MacLow2004
- :                    ,
-I'm skipping whatever remains of this entry
+--line 3616 of file Bibliography/bibdatabase.bib
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
-You've used 157 entries,
+You've used 164 entries,
             2938 wiz_defined-function locations,
-            1587 strings with 31833 characters,
-and the built_in function-call counts, 72534 in all, are:
-= -- 5890
-> -- 5581
+            1628 strings with 33067 characters,
+and the built_in function-call counts, 75917 in all, are:
+= -- 6172
+> -- 5841
 < -- 14
-+ -- 1870
-- -- 1820
-* -- 5821
-:= -- 13820
++ -- 1962
+- -- 1909
+* -- 6127
+:= -- 14459
 add.period$ -- 12
-call.type$ -- 157
-change.case$ -- 1168
-chr.to.int$ -- 158
-cite$ -- 161
-duplicate$ -- 2656
-empty$ -- 4196
-format.name$ -- 2040
-if$ -- 14106
-int.to.chr$ -- 3
+call.type$ -- 164
+change.case$ -- 1221
+chr.to.int$ -- 164
+cite$ -- 168
+duplicate$ -- 2775
+empty$ -- 4379
+format.name$ -- 2143
+if$ -- 14757
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 150
-newline$ -- 475
-num.names$ -- 634
-pop$ -- 1074
+missing$ -- 157
+newline$ -- 496
+num.names$ -- 662
+pop$ -- 1120
 preamble$ -- 1
-purify$ -- 1164
+purify$ -- 1217
 quote$ -- 0
-skip$ -- 2612
+skip$ -- 2717
 stack$ -- 0
-substring$ -- 3060
-swap$ -- 211
+substring$ -- 3210
+swap$ -- 220
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1368
+type$ -- 1431
 warning$ -- 4
-while$ -- 727
+while$ -- 760
 width$ -- 0
-write$ -- 1567
-(There were 3 error messages)
+write$ -- 1637
+(There were 6 warnings)
