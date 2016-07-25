@@ -60,6 +60,13 @@
 \usepackage{amsthm}
 \usepackage{nicefrac}	% Permet de taper de belles fractions
 \usepackage{relsize}
+\usepackage{mathtools}
+
+
+\newenvironment{rcases}
+  {\left.\begin{aligned}}
+  {\end{aligned}\right\rbrace}
+
 
 \usepackage[ruled,vlined]{algorithm2e}
 %\SetKwInput{Data}{\textbf{Données}}
@@ -137,8 +144,10 @@
 \newcommand{\inv}[1]{\frac{1}{#1}}
 \newcommand{\Mo}{{\textrm{M}_\odot}}
 \newcommand{\pc}{{\textrm{pc}}}
+\newcommand{\cm}{{\textrm{cm}}}
 \newcommand{\Myr}{{\textrm{Myr}}}
 \newcommand{\yr}{{\textrm{yr}}}
+\newcommand{\Hen}{{\textrm{H\'enon}}}
 \newcommand{\trel}{t_{rel}}
 \newcommand{\tc}{t_{cr}} 
 \newcommand{\tms}{t_{ms}} 

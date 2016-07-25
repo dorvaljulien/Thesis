@@ -2,30 +2,30 @@
 \contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction to star clusters}{10}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Why study them ?}{10}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Types of star clusters}{10}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Types of star clusters}{11}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}Some important dynamical concepts}{13}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Virial theorem}{13}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Dynamical timescales}{13}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Static models}{14}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}The origin of star clusters}{15}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}From gas to stars}{15}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Substructure and early dynamical evolution}{17}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Star formation efficiency and infant mortality}{18}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Simulating star clusters evolution}{20}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Hydrodynamical simulations}{20}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.3}The origin of star clusters}{16}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}From gas to stars}{16}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Substructure and early dynamical evolution}{18}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Star formation efficiency and infant mortality}{19}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Simulating star clusters evolution}{21}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Hydrodynamical simulations}{21}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Artificial substructure}{21}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Binary stars}{23}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}What is a binary star ?}{23}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Why binaries ?}{23}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Multiplicity fraction}{24}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.2}Why binaries ?}{24}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Multiplicity fraction}{25}{subsection.1.5.3}
 \contentsline {subsection}{\numberline {1.5.4}Observed population}{25}{subsection.1.5.4}
 \contentsline {subsection}{\numberline {1.5.5}Simulate binary populations in clusters}{26}{subsection.1.5.5}
 \contentsline {section}{\numberline {1.6}NBODY6}{27}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}H\'enon units}{27}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.1}H\'enon units}{28}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Block time-step}{28}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}KS-regularization}{28}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Hermite integration scheme}{29}{subsection.1.6.4}
-\contentsline {subsection}{\numberline {1.6.5}Ahmad-Cohen neighbour scheme}{31}{subsection.1.6.5}
+\contentsline {subsection}{\numberline {1.6.3}KS-regularization}{29}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Hermite integration scheme}{30}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Ahmad-Cohen neighbour scheme}{32}{subsection.1.6.5}
 \contentsline {chapter}{\numberline {2}The Hubble-Lema\^itre fragmented model: analytical approach}{33}{chapter.2}
 \contentsline {section}{\numberline {2.1}How to build a Hubble-Lema\^itre model}{33}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Initial state}{33}{subsection.2.1.1}
@@ -51,7 +51,13 @@
 \contentsline {subsection}{\numberline {3.3.3}Mass segregation}{58}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Concluding remarks}{59}{section.3.4}
 \contentsline {chapter}{\numberline {4}Collapse and dynamical evolution}{61}{chapter.4}
-\contentsline {section}{\numberline {4.1}Presentation of the simulations}{61}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Scaling to physical units}{62}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Collapse and virialisation}{62}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Global mass segregation}{66}{section.4.2}
+\contentsline {section}{\numberline {4.1}The simulations}{61}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Description of the models}{61}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Scaling to physical units}{62}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Removal of the ejected stars}{63}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Collapse and virialisation}{64}{section.4.2}
+\contentsline {section}{\numberline {4.3}Global mass segregation}{67}{section.4.3}
+\contentsline {chapter}{\numberline {5}Detecting and injecting binaries}{71}{chapter.5}
+\contentsline {section}{\numberline {5.1}A new binary detection algorithm}{71}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Density comparison}{71}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Choosing a density ratio}{73}{subsection.5.1.2}
