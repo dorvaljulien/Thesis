@@ -31,7 +31,7 @@ y &= R \sin{\theta} \sin{\phi}\\
 z &= R \cos{\theta} \\
 \end{align}
 
-The N particles are then homogeneously distributed in space in a sphere of radius $R_0$. The next step is to attribute velocities. Unlike other models like the Plummer model, the velocities are here straightforward. We use the well known velocity field of neighbouring galaxies: velocities are radial from the Milky Way, larger with increasing distances, taking the form:
+The N particles are then homogeneously distributed in space in a sphere of radius $R_0$. The next step is to attribute velocities. Unlike other models like the Plummer model, the velocities are here straightforward. We use the Hubble-Lema\^itre velocity field of neighbouring galaxies: velocities are radial from the Milky Way, larger with increasing distances, taking the form:
 
 \begin{equation}
 \label{Eq:1_Hubble}
@@ -40,14 +40,15 @@ The N particles are then homogeneously distributed in space in a sphere of radiu
 
 with H$_0$ being an equivalent of the well-known Hubble parameter. For historical accuracy, I added the name of Georges Lema\^itre when I named my model. It has now been shown that the astronomical observations of redshifted galaxies and its interpretation as the consequence of an expanding universe predated Hubble's paper \citep{Hubble1929}. Georges Lema\^itre had published his conclusion on an expanding universe two years earlier \citep{Lemaitre1927}. The account of this can be found in \cite{Kragh2003,VanDenBergh2011} and \cite{Freeman2015}.
 
-An appropriate H$_0$ to obtain a fragmented subvirial model has to be inferior to 1.4 (see next section). The model obtained from this is then evolved through a nbody integrator, which in my case is NBODY6.
+An appropriate H$_0$ to obtain a fragmented subvirial model has to be inferior to $\sqrt{2}$ (see next section). The model obtained from this is then evolved through a nbody integrator, which in this case is NBODY6.
 
 
 \subsection{Fragmentation}
+\label{Sec:1_apextime}
 
-The cluster expands, driven by the initial Hubble-Lema\^itre velocity field. During this expansion, poissonian fluctuation in density from the uniform model starts to grow: the part of the cluster with more mass initially attract more stars, forming clumps, clumps merge, spontaneously building substructure. These clumps will be analyzed in another section. If H$_0$ is well chosen, the expansion stops at some point, the apex, at which the initial kinetic energy has been spent and converted to potential energy: the cluster is now larger, substructured and subvirial, about to collapse. The apex time $t_a$ of the end of the expansion and the critical value of H$_0$ can be derived from Newton's second law applied to an expanding spherical shell of matter.
+The cluster expands, driven by the initial Hubble-Lema\^itre velocity field. During this expansion, poissonian fluctuation in density from the uniform model starts to grow: parts of the cluster with more mass initially attract more stars, forming clumps, clumps merge, spontaneously building substructure. These clumps will be analyzed in another section. If the system is bound, the expansion stops at some point, the apex, at which the initial kinetic energy has been spent and converted to potential energy: the cluster is now larger, substructured and subvirial, about to collapse. The apex time $t_a$ of the end of the expansion and the critical value of H$_0$ can be derived from Newton's second law applied to an expanding spherical shell of matter.
 
-We start from a uniform sphere of radius $R_0$, total mass $M$. We consider spherical shells as mass elements, situated at distance $r$ from the origin. As previously said, they are attributed a radial velocity following (for the shell at $r=R_0$) $\vec v_0 = \Hub_0 \vec R_0 = \Hub_0 R_0 \vec u_r$. We want to follow the radial motion of the last shell of mass m, situated at $R$ from the origin. Newton's second law gives:
+We start from a uniform sphere of radius $R_0$, total mass $M$. We consider spherical shells as mass elements, situated at distance $r$ from the origin. As previously said, they are attributed a radial velocity following (for the shell at $r=R_0$) $\bold v_0 = \Hub_0 \bold R_0 = \Hub_0 R_0 \bold u_r$. We want to follow the radial motion of the last shell of mass m, situated at $R$ from the origin. Newton's second law gives:
 
 
 %\begin{equation}
@@ -56,19 +57,19 @@ m \frac{dv}{dt} & = - \frac{G M m}{R^2}
 \end{align}
 %\end{equation}
 
-By multiplying on both sides by $v$ and integrating between a given time and $t=0$, one finds:
+By multiplying on both sides by $v$ and integrating between a given time and $t=0$, one finds
 
 \begin{equation}
-v^2(t) - v^2_0 = 2GM \left( \inv{R} - \inv{R_0} \right)
+v^2(t) - v^2_0 = 2GM \left( \inv{R} - \inv{R_0} \right).
 \end{equation}
 
-Which becomes, by taking $\nu = v/v0$,  $x= R/R0$ and defining:
+We take $\nu = v/v0$,  $x= R/R0$ and define:
 
 \begin{equation}
 \label{Eq:1_Estar}
 E_\ast = \frac{2GM}{R_0 v_0^2}
 \end{equation}
-which is a dimensionless measure of the total energy of the system:
+which is a dimensionless measure of the total energy of the system. It comes
 
 \begin{equation}
 \nu^2  = 1 + E_\ast \left( \inv{x} - 1 \right) .
@@ -87,51 +88,50 @@ We only consider in the following the case in which $E_\ast<1$. We have the expr
 \begin{equation}
 \nu = \sqrt{1+E_\ast\left(\inv{x} - 1\right)}
 \end{equation}
-
-Taking the time derivative gives:
+which, when derived over time gives
 
 \begin{equation}
-\frac{d \nu}{dt} = - \frac{E_\ast}{2 x^2} \left[ 1 + E_\ast\left(\inv{x} -1\right)\right]^{-\frac{1}{2}} \frac{dx}{dt}
+\frac{d \nu}{dt} = - \frac{E_\ast}{2 x^2} \left[ 1 + E_\ast\left(\inv{x} -1\right)\right]^{-\frac{1}{2}} \frac{dx}{dt}.
 \end{equation}
 
-Combining this with (\ref{eq:newton}), one obtains:
+Combining this with (\ref{eq:newton}), one obtains
 
 \begin{equation}
 \frac{dx}{dt} = \Hub_0 \sqrt{1+ E_\ast\left( \inv{x} -1\right)}
 \end{equation}
 
-which can be rewritten, using $\tilde{\Hub_0} = \Hub_0 \sqrt{E_\ast-1}$ and $x_t=\frac{E_\ast}{E_\ast-1}$
+which can be rewritten, using $\tilde{\Hub}_0 = \Hub_0 \sqrt{E_\ast-1}$ and $x_t=\frac{E_\ast}{E_\ast-1}$,
 
 \begin{equation}
-\frac{dx}{dt} = \tilde{\Hub_0} \sqrt{\frac{x_t}{x}-1}
+\frac{dx}{dt} = \tilde{\Hub}_0 \sqrt{\frac{x_t}{x}-1},
 \end{equation}
 
 $x_a$ being the extent of the maximum expansion as we assumed a bound system. The subscript a is for apex. If we choose the notation $u = \frac{x}{x_a}$:
 
 \begin{equation}
-\sqrt{\frac{u}{u-1}} \frac{du}{dt} = \frac{\tilde{\Hub_0}}{x_a}
+\sqrt{\frac{u}{u-1}} \frac{du}{dt} = \frac{\tilde{\Hub}_0}{x_a}
 \end{equation}
 
-We know that $x$ varies from 1 to $x_a$, thus $u$ varies from $1/x_a$ to 1. We can then make the change of variable $u = \sin^2\theta$ and separate the variables:
+We know that $x$ varies from 1 to $x_a$, thus $u$ varies from $1/x_a$ to 1. We can then make the change of variable $u = \sin^2\theta$ and separate the variables to get
 
 \begin{equation}
-\sqrt{\frac{\sin^2\theta}{1-\sin^2\theta}} 2 \sin\theta \cos\theta d \theta = \frac{\tilde{\Hub_0}}{x_a} dt
+\sqrt{\frac{\sin^2\theta}{1-\sin^2\theta}} 2 \sin\theta \cos\theta d \theta = \frac{\tilde{\Hub}_0}{x_a} dt
 \end{equation}
 
-which becomes after simplifications:
+which becomes after simplifications
 
 \begin{equation}
 \label{Eq:1_integrand_theta}
-[ 1 - \cos(2\theta)]d\theta = \frac{\tilde{\Hub_0}}{x_a} dt .
+[ 1 - \cos(2\theta)]d\theta = \frac{\tilde{\Hub}_0}{x_a} dt .
 \end{equation}
 
 
 We now integrate the expression from $t=0$ to $t$, the time at which the expansions stops and $x$ reaches $x_a$ (wich implies $u_a = 1$ and $\theta_a = \pi /2)$:
 
 \begin{align}
-\int^{\pi/2}_{\theta_0} [ 1 - \cos(2\theta)]d\theta  & = \int^t_0 \frac{\tilde{\Hub_0}}{x_a} dt\\
-\frac{\pi}{2} - \theta_0 + \frac{\sin(2\theta_0)}{2} & =  \frac{\tilde{\Hub_0}}{x_a} t\\
-\pi - 2 \theta_0 + \frac{2}{\sqrt{x_a}}\sqrt{1-\inv{x_a}} & = 2 \frac{\tilde{\Hub_0}}{x_a} t 
+\int^{\pi/2}_{\theta_0} [ 1 - \cos(2\theta)]d\theta  & = \int^t_0 \frac{\tilde{\Hub}_0}{x_a} dt\\
+\frac{\pi}{2} - \theta_0 + \frac{\sin(2\theta_0)}{2} & =  \frac{\tilde{\Hub}_0}{x_a} t\\
+\pi - 2 \theta_0 + \frac{2}{\sqrt{x_a}}\sqrt{1-\inv{x_a}} & = 2 \frac{\tilde{\Hub}_0}{x_a} t 
 \end{align}
 
 which boils down to the expression of the time at which the expansion stops:
@@ -248,7 +248,7 @@ An actual Hubble-Lema\^itre model will develop 3-dimensional clumps during the e
 
 We follow radial density perturbations in the expanding uniform sphere described by equations (\ref{Eq:1_Expansion}) and (\ref{Eq:1_atheta}), as the local density increase also gauges the rise in velocity dispersion. A simplified calculation for radial modes of perturbation in the linear approximation will be derived here, with the goal to determine when the clumps become mostly self-gravitating. A more detailed analysis can be found in the classic work by \cite{Friedman1978}, \cite{Peebles1980} and \cite{Aarseth1988} .
 
-We introduce a Lagrangian perturbation in the position of a shell of constant mass by substituting $\mathbf{x} \rightarrow \mathbf{x} + \boldsymbol\xi(\mathbf{x},t)$ and we set $\boldsymbol\xi = \xi \bold{u_r}$ for a radial displacement. A linear treatment of the continuity equation yields an expression for the perturbed density. Starting from the well known equation
+We introduce a Lagrangian perturbation in the position of a shell of constant mass by substituting $\mathbf{x} \rightarrow \mathbf{x} + \boldsymbol\xi(\mathbf{x},t)$ and we set $\boldsymbol\xi = \xi \bold{u_r}$ for a radial displacement. Starting from the continuity equation, a linear treatment yields an expression for the perturbed density.
 
 \begin{equation}
 \frac{\partial \rho}{\partial t} + \nabla(\rho \bold{v}) = 0 
@@ -265,6 +265,7 @@ We make use of the equivalence:
 \label{Eq:1_derivequiv}
 \frac{\partial}{\partial r} \equiv \frac{1}{a} \frac{\partial}{\partial x}
 \end{equation}
+
 to obtain, considering $ \bold{v} \delta t = \delta \bold{r} = a(\tau) \boldsymbol\xi$ and ignoring second order terms from $\delta \rho$:
 
 \begin{equation} 
@@ -286,7 +287,7 @@ Poisson's equation in spherical symmetry gives the perturbed potential
 \end{equation}
 Substituting for $\delrho$ from (\ref{Eq:1_DeltaRho}) in (\ref{Eq:1_Poisson}), and using (\ref{Eq:1_derivequiv}), we obtain:
 \begin{equation}
-\frac{\partial}{\partial x} \left( x^2 \frac{\partial \delphi}{\partial x} \right) = - 4\pi a^2 G \rho_0 \frac{\partial}{\partial x} \left( x^2 \xi \right)
+\frac{\partial}{\partial x} \left( x^2 \frac{\partial \delphi}{\partial x} \right) = - 4\pi a^2 G \rho_0 \frac{\partial}{\partial x} \left( x^2 \xi \right).
 \end{equation}
 Integrating once, we obtain the general solution
 \begin{equation}
@@ -317,10 +318,10 @@ where we have introduced the peculiar velocity $\eta \equiv d\xi/dt = \Hub_0R_o 
 
 \subsection{Consistent initial conditions} 
 \subsubsection{Initial conditions} 
-Equations (\ref{Eq:1_system}) can be numerically integrated with an explicit integration scheme once the initial values $R_o, \Hub_0, {\cal M}$ and $\xistar(0)$ are specified and values of $a(\tau)$ are obtained from (\ref{Eq:1_atheta}) and (\ref{Eq:1_Expansion}). All functions of the dimensionless time $\tau$ are set to unity except that $\etastar(0) = 0$. The solution is shown on Fig~\ref{Fig:1_tau_ms}.
+Equations (\ref{Eq:1_system}) can be numerically integrated with an explicit integration scheme once the initial values $R_o, \Hub_0, {\cal M}$ and $\xistar(0)$ are specified and values of $a(\tau)$ are obtained from (\ref{Eq:1_atheta}) and (\ref{Eq:1_Expansion}). All functions of the dimensionless time $\tau$ are set to unity except that $\etastar(0) = 0$. The solution is shown in the next section,  on Fig~\ref{Fig:1_tau_ms}.
 
 
-The Hubble parameter $\Hub(\tau) \rightarrow 0$ when the system reaches a maximum radius $a(\tau)R_o$ ($\theta[\tau] = \pi/2$ in Eq.~\ref{Eq:1_atheta}). Around that time, equation (\ref{Eq:1_systemb}) transforms so the Lagrangian displacement $\xistar$ grows exponentially, and the clumps become the densest. We investigate the growth of a density perturbation as a Fourier fragmentation mode before that. In the linear regime, such a mode is decoupled from all the others. We pick 
+The Hubble parameter $\Hub(\tau) \rightarrow 0$ when the system reaches a maximum radius $a(\tau)R_o$ ($\theta[\tau]=\pi/2$ in Eq.~\ref{Eq:1_atheta}). Around that time, equation (\ref{Eq:1_systemb}) transforms so the Lagrangian displacement $\xistar$ grows exponentially, and the clumps become the densest. We investigate the growth of a density perturbation as a Fourier fragmentation mode before that. In the linear regime, such a mode is decoupled from all the others. We pick 
 
  \begin{figure}
 	\center
@@ -401,7 +402,7 @@ where the last substitution follows from the definition of the integer $m$. The 
 \begin{equation} \label{Eqn:Clumpmass} 
    \frac{M_\lambda}{{\cal M} } = ( \overline{3 x_\ast^2} + \lambda_\ast^2/4 ) \lambda_\ast = ( 1 + \lambda_\ast^2/4) \lambda_\ast \, , 
 \end{equation}
-where we have replaced $3x_\ast^2$ by its space-averaged value in  the last step.  Eq. (\ref{Eqn:Clumpmass}) provides an estimate of  bound mass of a clump formed through the growth of a radial perturbation mode. If all the stars have equal mass, or, if the stellar mass function is symmetric with respect to the mean value $\langle m_\ast\rangle$, the ratio of the number $N_\lambda$ of stars in the clump to the total number $N$ is in the same proportion as $\frac{M_\lambda}{\cal M}$. We find an estimate for $N_\lambda$ which reads 
+where we have replaced $3x_\ast^2$ by its space-averaged value in  the last step.  Eq. (\ref{Eqn:Clumpmass}) provides an estimate of  bound mass of a clump formed through the growth of a radial perturbation mode. If all the stars have equal masses, or, if the stellar mass function is symmetric with respect to the mean value $\langle m_\ast\rangle$, the ratio of the number $N_\lambda$ of stars in the clump to the total number $N$ is in the same proportion as $\frac{M_\lambda}{\cal M}$. We find an estimate for $N_\lambda$ which reads 
 
 \begin{equation} \label{Eqn:Clumpn} 
    N_\lambda = N \left( 1 + \frac{\lambda_\ast^2}{4} \right) \lambda_* .
@@ -454,12 +455,12 @@ we defer the analysis to \S \ref{TODO} and N-body simulations.
 
 We now make use of all previous development to follow the evolution of a perturbation in a given system and assess its dynamical state.
 
-To ease comparisons with N-body calculations cast in standard H\'enon units, we set ${\cal M} = G = R_o = 1 $ and use $\Hub_0 = 1.0833 .. \simeq 1$ so that the total binding energy $E = -1/4$. The Hubble expansion proceeds until a time $t = \tau / \Hub_0 \simeq 3.87 / \Hub_0$, when $H = 0$ and the bounding radius $R$ reaches $R = a(\tau)R_o \simeq 2.4 R_o$. The evolution time up to that point coincides almost exactly with the {\it current} global system free-fall time of $\approx 4.1$ time units. System-wide collapse to the barycentre will ensue on the same time-scale, but now this process will involve the merging / scattering of several high-density clumps. 
+To ease comparisons with N-body calculations cast in standard H\'enon units, we set ${\cal M} = G = R_o = 1 $ and use $\Hub_0 = 1.0833 .. \simeq 1$ so that the total binding energy $E = -1/4$, which gives a value of $\Estar \simeq 6/7$. The Hubble expansion proceeds until a time $t = \tau / \Hub_0 \simeq 3.87 / \Hub_0$, when $H = 0$ and the bounding radius $R$ reaches $R = a(\tau)R_o \simeq 2.4 R_o$. The evolution time up to that point coincides almost exactly with the {\it current} global system free-fall time of $\approx 4.1$ time units. System-wide collapse to the barycentre will ensue on the same time-scale, but now this process will involve the merging / scattering of several high-density clumps. 
 
-The mass of individual stars follow a  truncated \cite{Salpeter1955} distribution function, where the distribution function $ dN/dm \propto m_\star^{-\alpha}$ with index $\alpha = 2.35$ for masses in the range  $0.3 M_\odot < m_\star < 100 M_\odot$ giving a mean value of $\simeq 1 M_\odot$. We chose this form mainly for simplicity, and for ease of calculations. 
+For simplicity, and for ease of calculations, we chose the mass of individual stars to follow a  truncated \cite{Salpeter1955} distribution function, where the distribution function $ dN/dm \propto m_\star^{-\alpha}$ with index $\alpha = 2.35$ for masses in the range  $0.3 M_\odot < m_\star < 100 M_\odot$ giving a mean value of $\simeq 1 M_\odot$.
 
 
-Let us fix $\Estar = 6/7$, with $\Hub_0 = 1$ and set $N = 15 000$ as reference\footnote{The more accurate value is $\Hub_0 = 1 + 1/12 = 1.0833$ but we rounded up to 1 to simplify the discussion}. We compute a mean initial amplitude of perturbation $\xistaro \approx 0.005 $ with a shortest-resolved wavelength $\lambda_\ast \approx 0.04$. Fig.~\ref{Fig:1_tau_ms} displays the solution from integrating Eqs.~(\ref{Eq:1_system}). The amplitude $\xistar(\tau)$ grows monotonically and crosses the values $\lambda_\ast/2$ at $\tau \approx 2.3$~: thereafter the perturbation enters a non-linear regime of evolution during which the internal dynamics may become collisional $( \Delta\tau > \delta\tau_{ms})$. A second case is depicted on Fig.~\ref{Fig:1_tau_ms}, where the wavelength $\lambda_\ast = 0.08$ and the perturbation reaches amplitude $\xistar = \lambda_\ast/2$ at $\tau \approx 3.6$: there is then too little time left before the end of the Hubble expansion phase for a clump of stars to evolve collisionally ($\Delta\tau < \delta\tau_{ms}$). 
+We set $\Hub_0 = 1$ and $N = 15 000$ as reference\footnote{The more accurate value is $\Hub_0 = 1 + 1/12 = 1.0833$ but we rounded up to 1 to simplify the discussion}. We compute a mean initial amplitude of perturbation $\xistaro \approx 0.005 $ with a shortest-resolved wavelength $\lambda_\ast \approx 0.04$. Fig.~\ref{Fig:1_tau_ms} displays the solution from integrating Eqs.~(\ref{Eq:1_system}). The amplitude $\xistar(\tau)$ grows monotonically and crosses the values $\lambda_\ast/2$ at $\tau \approx 2.3$~: thereafter the perturbation enters a non-linear regime of evolution during which the internal dynamics may become collisional $( \Delta\tau > \tau_{ms})$. A second case is depicted on Fig.~\ref{Fig:1_tau_ms}, where the wavelength $\lambda_\ast = 0.08$ and the perturbation reaches amplitude $\xistar = \lambda_\ast/2$ at $\tau \approx 3.6$: there is then too little time left before the end of the Hubble expansion phase for a clump of stars to evolve collisionally ($\Delta\tau < \tau_{ms}$). 
 
 
 

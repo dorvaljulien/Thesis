@@ -43,12 +43,12 @@
 \contentsline {subsection}{\numberline {3.1.1}Presentation of the runs}{45}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Clump finding algorithm}{45}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Clump mass function}{47}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Influence of stellar mass function}{47}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Influence of H and N}{50}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.1}Influence of H and N}{47}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Influence of stellar mass function}{51}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Clump contents}{53}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}The velocity field}{53}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}The stellar mass function in clumps}{55}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Mass segregation}{58}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Mass segregation}{57}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Concluding remarks}{59}{section.3.4}
 \contentsline {chapter}{\numberline {4}Collapse and dynamical evolution}{61}{chapter.4}
 \contentsline {section}{\numberline {4.1}The simulations}{61}{section.4.1}

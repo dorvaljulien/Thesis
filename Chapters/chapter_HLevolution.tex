@@ -43,26 +43,26 @@ The numerical integration were done once more with the Nbody6 integrator with th
 Before discussing the results, it is useful to translate the units of computation to physical scales. This is important if we want to discuss the state of the systems using one and the same physical time, such that the hypothesis of no stellar evolution holds good.
 To do so, we compute the free-fall time of an uniform sphere (a good approximation for fragmented model as well) both in physical units and H\'enon units, which provide a conversion factor. We first have to choose an initial physical length scale for the system by setting $R_h = 1$ pc. With a total system mass of $M = 15\times 10^3\, M_\odot$, this gives a half-mass volume density 
 \begin{equation}
-\rho_h = \frac{M/2}{\frac{4}{3}\pi r_h^3}  \simeq 10^3 M_\odot / pc^3,
+\rho_h = \frac{M/2}{\frac{4}{3}\pi r_h^3}  \simeq 1.8 \times10^3 M_\odot / pc^3,
 \end{equation}
 well within values typically inferred from observations.
 
  The free-fall time of an uniform sphere, obtained from conservation of energy and integration, is expressed:
 \begin{equation}
-t_{ff} = \sqrt{\frac{3\pi}{32 G \rho_0}}
+t_{ff} = \sqrt{\frac{3\pi}{32 G \rho_{h	}}}
 \end{equation}
 Computing $\rho_{h,\textrm{H\'enon}} \simeq 0.13$, we can now compute both values of the free-fall time:
 \begin{align}
 t_{ff} &\simeq 1.5~ t_\Hen\\
-	   &\simeq 0.25~ \Myr
+	   &\simeq 0.2~ \Myr
 \end{align}
 Which gives: 
 \begin{equation}
-1 ~ t_\Hen \equiv 0.16~ \Myr = 1.6 \times 10^5 \yr 
+1 ~ t_\Hen \equiv 0.13~ \Myr = 1.3 \times 10^5 \yr 
 \end{equation}
 
 
-Thus by running up to 40 H.u we ensure that the systems evolve for at least 15 crossing times and $ \sim  5 \times 10^6 $ years, about the lifetime of a 50$\Mo$ star. \footnote{For our models with more massive stars, up to 100$\Mo$, these represent only $\sim$ 5\% of the total mass and their removal would not significantly alter the dynamics of the system.}
+Thus by running up to 40 H.u we ensure that the systems evolve for $ \sim  6 \times 10^6 $ years, about the lifetime of a 50$\Mo$ star. \footnote{For our models with more massive stars, up to 100$\Mo$, these represent only $\sim$ 5\% of the total mass and their removal would not significantly alter the dynamics of the system.}
 
 We now want to evaluate the crossing and relaxation timescales in such a system, as they were defined in the introduction (\ref{Sub:0_timescales}), and how they relate to the total duration of the simulation. We could attempt to derive a crossing time for the initial, subvirial state but it would not be representative of the evolution of the system. Instead, the more useful crossing time has to be computed from the equilibrium state achieved. Using the virial theorem and conservation of energy, we can derive dynamical timescales for the equilibrium system. From the definition, the crossing times is defined:
 \begin{equation}
@@ -70,7 +70,7 @@ We now want to evaluate the crossing and relaxation timescales in such a system,
 t_{cr,eq} = \frac{2 R_{h,eq}}{\sigma_{1d,eq}}
 \end{equation}
 
-From here on, initial values are noted with the subscript 0 and equilibrium values by the absence of subscript. To obtain both $R_{h}$ and $\sigma_{1d}$ we start from the total energy of the system. At t=0, velocities are null, all energy is potential energy. It can be computed by integrating from the center to $R_0$. We obtain
+From here on, we write the subscript 0 for initial values and no subscript for equilibrium values. To obtain both $R_{h}$ and $\sigma_{1d}$ we start from the total energy of the system. At t=0, velocities are null, all energy is potential energy. It can be computed by integrating from the center to $R_0$. We obtain
 \begin{equation}
 E_0 = - \frac{3}{5} \frac{G M^2}{R_0}.
 \end{equation}
@@ -109,25 +109,25 @@ R_v = \frac{5}{12} R_0.
 \end{equation}
 
 
-We can now write a good approximation of the crossing time in the relaxed, equilibrium system
+Knowing that $R_0 = 2^{1/3} R_{h,0}$, we can now write a good approximation of the crossing time in the relaxed, equilibrium system
 \begin{align}
 t_{cr}  &\simeq 2.28 \frac{R_0^{3/2}}{\sqrt{GM}}\\
-        &\simeq 2.28~ t_\Hen\\
-	    &\simeq 0.35~ \Myr
+        &\simeq 3.21~ t_\Hen\\
+	    &\simeq 0.5~ \Myr
 \end{align}
 
  With $N = 15 000$  we find from (\ref{Eq:0_trel}) a two-body relaxation timescale
 
 \begin{align}
-t_{rel}  &\simeq 270~ t_\Hen\\
-	     &\simeq 42~ \Myr
+t_{rel}  &\simeq 380~ t_\Hen\\
+	     &\simeq 60~ \Myr
 \end{align}
 
 and from (\ref{Eq:0_ms2}), considering a mass range of $m_{max}/\langle m\rangle = 20$, we find a mass-segregation timescale
 
 \begin{align}
-t_{ms}  &\simeq 14~ t_\Hen\\
-	    &\simeq 2~ \Myr
+t_{ms}  &\simeq 20~ t_\Hen\\
+	    &\simeq 2.8~ \Myr
 \end{align}
 
 Our simulations last for far less than a relaxation time, but we can expect to see some mass segregation set in in our models.
@@ -135,9 +135,9 @@ Our simulations last for far less than a relaxation time, but we can expect to s
 
 \subsection{Removal of the ejected stars}
 
-The previous section considered there was no mass loss during the collapse and relaxation that leads to the equilibrium system. However, a look at the simulations shows this assumption does not hold. A part of the stars are ejected from the system after the collapse, when the system bounces. These stars are not part of the equilibrium system as they have no influence on the central dynamics.
+The previous section considered there was no mass loss during the collapse and relaxation that leads to the equilibrium system. However, a look at the simulations shows this assumption does not hold. Some stars are ejected from the system after the collapse, when the system bounces. These stars are not part of the equilibrium system as they have no influence on the central dynamics.
 
-To understand better the evolution of the central, bound system only, we need to isolate and substract the ejected stars. The obvious way to do this would be to compute the stars mechanical energy and to remove all stars with positive energy. Though this works for a majority of the ejected stars, a subset of them has a marginally negative energy. These register as bound when they are essentially out of the system (far beyond the original system radius). 
+To better understand the evolution of the central, bound system only, we need to isolate and substract the ejected stars. The obvious way to do this would be to compute the stars mechanical energy and to remove all stars with positive energy. Though this works for a majority of the ejected stars, a subset of them has a marginally negative energy. These register as bound when they are essentially out of the system (far beyond the original system radius). 
 
 To collect a maximum number of ejected stars efficiently, we spotted the time when the potential energy is maximum, when the collapse occurs. We  then identified all stars whose distance to the center increased monotonically from there onwards. The full selection criteria is therefore~:
 
@@ -173,7 +173,7 @@ The constant diffusion of kinetic energy by two-body interaction means that no s
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Figures/3_Rhm_global}
-\caption{Half-mass radius as function of time for two systems undergoing collapse~: a uniform-density sphere (thin red solid curve) and a clumpy Hubble model (thick blue solid curve). Half-mass radii are in H.u, as well as the time axis, where $t_{Henon} = 1 {\rm unit} =  0.270 \times 10^5 $ years. Dashed lines are the half-mass radii of the same systems for the same systems but including only the bound stars.}
+\caption{Half-mass radius as function of time for two systems undergoing collapse~: a uniform-density sphere (thin red solid curve) and a clumpy Hubble model (thick blue solid curve). Half-mass radii are in H.u, as well as the time axis, where $t_{Henon} = 1 {\rm unit} =  0.13 \Myr$. Dashed lines are the half-mass radii of the same systems for the same systems but including only the bound stars.}
 \label{Fig:3_Rhm_global}
 \end{center}
 \end{figure}
@@ -194,7 +194,7 @@ Rh20  &  1932 & 12\% \\
 
 
 
-With this in mind  we turn to Fig.~\ref{Fig:Rhm_global} in which we show the evolution of the half-mass radius for the cold uniform model (labeled Ru20~; thick red curve), and the Hubble model (labeled Rh20~; thin blue curve). Both systems have the same bounding radius initially, contract to a small radius when $t \simeq 1.4 $ units and then rebound at time $t \simeq 2 $ units. When all the stars are included in the calculation for $r_h$, we find that the radius increases at near-constant speed after the collapse. That trend does not appear to be slowing down which indicates that a fraction of the stars are escaping. The first batch of escapers is driven by the violent relaxation, however the trend continues beyond $ t = 14$ units, corresponding to $t > t_{ms}$ which implies two-body scattering and effective energy exchange between the stars. Note how the uniform model has a much deeper collapse and rebounds much more violently, shedding a fraction twice as large of its stars (Table~\ref{tab:Ejectedstars}). The half-mass radius $R_h$ increases steadily in both models, from the bounce at $t \approx 2$, until the end of the simulation (values in H.u):  
+With this in mind  we turn to Fig.~\ref{Fig:3_Rhm_global} in which we show the evolution of the half-mass radius for the cold uniform model (labeled Ru20~; thick red curve), and the Hubble model (labeled Rh20~; thin blue curve). Both systems have the same bounding radius initially, contract to a small radius when $t \simeq 1.4 $ units and then rebound at time $t \simeq 2 $ units. When all the stars are included in the calculation for $r_h$, we find that the radius increases at near-constant speed after the collapse. That trend does not appear to be slowing down which indicates that a fraction of the stars are escaping. The first batch of escapers is driven by the violent relaxation, however the trend continues beyond $ t = 14$ units, corresponding to $t > t_{ms}$ which implies two-body scattering and effective energy exchange between the stars. Note how the uniform model has a much deeper collapse and rebounds much more violently, shedding a fraction twice as large of its stars (Table~\ref{tab:Ejectedstars}). The half-mass radius $R_h$ increases steadily in both models, from the bounce at $t \approx 2$, until the end of the simulation (values in H.u):  
 \begin{center}
 \begin{tabular}{lllrr}
 % & Deepest (t=2) & t=40  \\
@@ -215,7 +215,7 @@ Clearly the gentler collapse of the fragmented model has led to a more extended 
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/3_Lagr_radius}
-\caption{The ten-percentile mass radii (10\% to 90\%) as function of time. Radii and time axis are in H.u, with $t_\Hen = 1 {\rm unit} =  0.16 \Myr$. Left panels show the Uniform model and right panels show the Hubble fragmented models. Panels a and b show the evolution of the whole systems, while panels c and d shows the same radii computed for the bound stars only. Panel e shows the Uniform bound model (Ru20b) for which radius and time were rescaled to compensate the difference of initial kinetic energy (see text for details). Panel f shows the same information as panel d with smoothed data. 10\% and 90\% radii are labelled in the top right panel.
+\caption{The ten-percentile mass radii (10\% to 90\%) as function of time. Radii and time axis are in H.u, with $t_\Hen = 1 {\rm unit} =  0.13 \Myr$. Left panels show the Uniform model and right panels show the Hubble fragmented models. Panels a and b show the evolution of the whole systems, while panels c and d shows the same radii computed for the bound stars only. Panel e shows the Uniform bound model (Ru20b) for which radius and time were rescaled to compensate the difference of initial kinetic energy (see text for details). Panel f shows the same information as panel d with smoothed data. 10\% and 90\% radii are labelled in the top right panel.
 %For both, the bottom panel show the bounded systems, with "b" appended to the name,  from which the ejected stars from the initial collapse were removed.
 }
 \label{Fig:3_Lagr_radius}
@@ -225,7 +225,7 @@ Clearly the gentler collapse of the fragmented model has led to a more extended 
 
 At the bounce, the half-mass radius of the Hubble model is $\approx 4$ times larger than that of the of the initially uniform sphere at rest (Fig.~\ref{Fig:3_Rhm_global}). The half-mass radii overlap at time $t \approx 15 \,H.u.$ (solid curves) or $t \approx 50 \,H.u.$ (dashed curves). Is the same trend applicable to all Lagrangian radii? To answer this question we plot on Fig.~\ref{Fig:3_Lagr_radius} the ten-percentile mass radii for the two models. The results are displayed for the two situations including all the stars (top row) or bound stars only (middle row). 
 
-It is striking that the curves show very little evolution at all mass fractions for the case of the Hubble model (see right-hand panels on the figure), whereas all mass shells either contract or expand in time for the uniform one. We have noted how this model should undergo two-body relaxation on a timescale of $t \approx 270 \,H.u$ while the innermost 10\% mass shell shows an  indication of \textit{core-collapse} at $t \simeq 5 \,H.u.$. This is due to the presence of a mass spectrum, the time-scale for core-collapse should be closer to the mass-segregation timescale,  $t \simeq 14 \,H.u.$. The remaining difference can be attributed to the smaller total mass and the various assumptions made in section~\ref{Sec:3_Scaling}.
+It is striking that the curves show very little evolution at all mass fractions for the case of the Hubble model (see right-hand panels on the figure), whereas all mass shells either contract or expand in time for the uniform one. We have noted how this model should undergo two-body relaxation on a timescale of $t \approx 380 \,H.u$ while the innermost 10\% mass shell shows an  indication of \textit{core-collapse} at $t \simeq 5 \,H.u.$. This is due to the presence of a mass spectrum, the time-scale for core-collapse should be closer to the mass-segregation timescale,  $t \simeq 20 \,H.u.$. The remaining difference can be attributed to the smaller total mass (due to the ejecta) and the various assumptions made in section~\ref{Sec:3_Scaling}.
 
 We note here that the two sets of curves reach very similar values at the end of the calculations ($t = 40\, H.u$). A key difference between the two models, therefore, is that the final configuration of the Hubble model is almost identical to what it was at the bounce ; the same simply does not hold in the case of a uniform-density collapse. Furthermore, the Hubble calculation shows no hint of two-body relaxation or core-collapse.
 % This raises the possibility that the system properties in the final configuration remain better correlated with those at the on-set of (global) collapse (we return to this point in \S7).
@@ -257,7 +257,7 @@ To investigate the state of mass segregation in our models, we follow the analys
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth,clip=true]{Figures/3_Rhm_segr}
-\caption{Half-mass radii of stars selected by mass as function of time. Each bin identified with 0-10\%, 10-20\% .. 90-100\%, contains ten percent of the total system mass. The stars where sorted by mass in decreasing order, and used to fill each ten-percent mass bin in order. Hence the first ten-percentile contains the most massive stars, the next ten-percentile the second group of massive stars, and so on until the 90-percent bin which contains the least massive stars in the model and is the most populated. Half-mass radius and time are in H.u, with $t_{Henon} = 1\,unit = 0.16 \Myr$. Left panels show the evolution of the Uniform model (Ru20, Ru20b) and right panels do the same for the Hubble model (Rh20, Rh20b). The organization of panels follows the same layout than figure~\ref{Fig:3_Lagr_radius} with a different factor for the rescaling of the uniform system. }
+\caption{Half-mass radii of stars selected by mass as function of time. Each bin identified with 0-10\%, 10-20\% .. 90-100\%, contains ten percent of the total system mass. The stars where sorted by mass in decreasing order, and used to fill each ten-percent mass bin in order. Hence the first ten-percentile contains the most massive stars, the next ten-percentile the second group of massive stars, and so on until the 90-percent bin which contains the least massive stars in the model and is the most populated. Half-mass radius and time are in H.u, with $t_{Henon} = 1\,unit = 0.13 \Myr$. Left panels show the evolution of the Uniform model (Ru20, Ru20b) and right panels do the same for the Hubble model (Rh20, Rh20b). The organization of panels follows the same layout than figure~\ref{Fig:3_Lagr_radius} with a different factor for the rescaling of the uniform system. }
 \label{Fig:3_Rhm_segr}
 \end{center}
 \end{figure}
@@ -271,7 +271,7 @@ Figure \ref{Fig:3_Rhm_segr} graphs the results for initially uniform-density- an
 Another interesting remark is that the kinematics of the stars within the {\it system} half-mass radius is much different between the two models. For the Hubble calculation, the system half-mass radius, $ \approx 0.43 $ H.u, at $t = 40$ (cf. Fig.\ref{Fig:3_Rhm_segr}d) coincides with the half-mass radius of the $30-40\%$ bin stellar sub-population. All bins up to that range show little or no time-evolution, around the end of the run, which we interpret as efficient retention of these stars by the relaxed cluster. In the case of the uniform-collapse run, the system half-mass radius reaches $\approx 0.33$ H.u., which is significantly larger than the radius for the $30-40\%$ stellar sub-population. For that model, only the bins $0-10\%$ and $10-20\%$ are flat, and all the others increase almost linearly with time. Thus a fair fraction of bright stars deep in the cluster show systematic {\it outward streaming} motion, along with low-mass ones. This brings up the possibility to measure this signature motion through relatively bright stars, originating well inside the cluster half-mass radius. Recall that only post-bounce bound stars where selected to compute $R_h$ on Fig.~\ref{Fig:3_Rhm_segr}(c) and (d) ; the expansion is therefore not driven by chance events (e.g., Fig.~\ref{Fig:3_Rhm_segr}a), but rather through two-body relaxation. On the down side the bright tracers would be short-lived, and this may prove a strong constraint for observational detection.
 
 
-Given the early dynamical evolution associated with substructured stellar clusters, some observed dense objects may yet be out of equilibrium (see \S\ref{Sec:discussion}). We wish to investigate the out-of-equilibrium state of our models just after the collapse. To ease the comparison between the two systems, the same rescaling procedure as for Fig~\ref{Fig:Lagrange} was applied to the uniform model, only this time the scaling was chosen so that the two clusters have comparable densities after the bounce. Lengths were multiplied by $4$; the time-axis is then scaled up by a factor $(4)^{3/2} = 8$. The result can be seen in panel (e); panel (f) shows a smoothed and zoomed in Hubble model for comparison.
+Given the early dynamical evolution associated with substructured stellar clusters, some observed dense objects may yet be out of equilibrium (see \S\ref{Sec:discussion}(discussion) ). We wish to investigate the out-of-equilibrium state of our models just after the collapse. To ease the comparison between the two systems, the same rescaling procedure as for Fig~\ref{Fig:3_Lagr_radius} was applied to the uniform model, only this time the scaling was chosen so that the two clusters have comparable densities after the bounce. Lengths were multiplied by $4$; the time-axis is then scaled up by a factor $(4)^{3/2} = 8$. The result can be seen in panel (e); panel (f) shows a smoothed and zoomed in Hubble model for comparison.
 
 
 

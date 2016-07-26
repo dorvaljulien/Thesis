@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  25 JUL 2016 18:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  26 JUL 2016 18:23
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -1097,9 +1097,11 @@ File: Figures/0_ejectionwind.png Graphic file (type png)
 File: Figures/0_virializedclumps.png Graphic file (type png)
 
 <use Figures/0_virializedclumps.png> [19 <./Figures/0_clumpsobserved.png (PNG c
-opy)> <./Figures/0_clumpssimulated.png>] [20 <./Figures/0_ejectionwind.png (PNG
- copy)> <./Figures/0_virializedclumps.png (PNG copy)>]
-<Figures/0_bonnell.png, id=897, 694.595pt x 664.4825pt>
+opy)> <./Figures/0_clumpssimulated.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./Figures/0_ejectionwind.png (PNG copy)> <./Figures/0_virializedclumps.pn
+g (PNG copy)>] <Figures/0_bonnell.png, id=897, 694.595pt x 664.4825pt>
 File: Figures/0_bonnell.png Graphic file (type png)
 
 <use Figures/0_bonnell.png>
@@ -1150,7 +1152,7 @@ _evolution.png (PNG copy)>] [28]
 File: Figures/0_block_timesteps.png Graphic file (type png)
 
 <use Figures/0_block_timesteps.png> [29 <./Figures/0_block_timesteps.png (PNG c
-opy)>] <Figures/0_hermite_scheme.png, id=1149, 1416.29124pt x 997.7275pt>
+opy)>] <Figures/0_hermite_scheme.png, id=1151, 1416.29124pt x 997.7275pt>
 File: Figures/0_hermite_scheme.png Graphic file (type png)
 
 <use Figures/0_hermite_scheme.png> [30] [31 <./Figures/0_hermite_scheme.png (PN
@@ -1159,14 +1161,14 @@ Chapter 2.
 [33
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
  [34] [35]
-<Figures/1_apextime.png, id=1246, 578.16pt x 433.62pt>
+<Figures/1_apextime.png, id=1248, 578.16pt x 433.62pt>
 File: Figures/1_apextime.png Graphic file (type png)
 
 <use Figures/1_apextime.png>
@@ -1179,26 +1181,26 @@ Underfull \hbox (badness 10000) in alignment at lines 194--194
 d
 <to be read again> 
                    \relax 
-l.313 	\end{align}
+l.314 	\end{align}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{equation.2.2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.313 	\end{align}
+l.314 	\end{align}
                    [38]
-<Figures/1_perturbation.png, id=1307, 712.6625pt x 380.42125pt>
+<Figures/1_perturbation.png, id=1309, 712.6625pt x 380.42125pt>
 File: Figures/1_perturbation.png Graphic file (type png)
 
 <use Figures/1_perturbation.png> [39 <./Figures/1_perturbation.png (PNG copy)>]
 [40]
 
-LaTeX Warning: Reference `TODO' on page 41 undefined on input line 418.
+LaTeX Warning: Reference `TODO' on page 41 undefined on input line 419.
 
-<Figures/1_tau_ms.png, id=1351, 578.16pt x 505.89pt>
+<Figures/1_tau_ms.png, id=1353, 578.16pt x 505.89pt>
 File: Figures/1_tau_ms.png Graphic file (type png)
 
 <use Figures/1_tau_ms.png>
-<Figures/1_segregation_zone.png, id=1352, 578.16pt x 505.89pt>
+<Figures/1_segregation_zone.png, id=1354, 578.16pt x 505.89pt>
 File: Figures/1_segregation_zone.png Graphic file (type png)
 
 <use Figures/1_segregation_zone.png> [41] [42 <./Figures/1_tau_ms.png> <./Figur
@@ -1206,111 +1208,102 @@ es/1_segregation_zone.png>]) (./Chapters/chapter_HLnbody.tex [43] [44
 
 ]
 Chapter 3.
-<Figures/2_fragmentation.png, id=1392, 1084.05pt x 361.35pt>
+<Figures/2_fragmentation.png, id=1394, 1084.05pt x 361.35pt>
 File: Figures/2_fragmentation.png Graphic file (type png)
 
 <use Figures/2_fragmentation.png> [45 <./Figures/2_fragmentation.png>]
-<Figures/2_MST.png, id=1412, 867.24pt x 361.35pt>
+<Figures/2_MST.png, id=1414, 867.24pt x 361.35pt>
 File: Figures/2_MST.png Graphic file (type png)
  <use Figures/2_MST.png>
-<Figures/2_Ndcut.png, id=1416, 578.16pt x 433.62pt>
+<Figures/2_Ndcut.png, id=1418, 578.16pt x 433.62pt>
 File: Figures/2_Ndcut.png Graphic file (type png)
  <use Figures/2_Ndcut.png>
-<Figures/2_dcutdistribution.png, id=1417, 578.16pt x 433.62pt>
+<Figures/2_dcutdistribution.png, id=1419, 578.16pt x 433.62pt>
 File: Figures/2_dcutdistribution.png Graphic file (type png)
 
 <use Figures/2_dcutdistribution.png>
-<Figures/2_clumpsABC.png, id=1418, 1445.4pt x 505.89pt>
+<Figures/2_clumpsABC.png, id=1420, 1445.4pt x 505.89pt>
 File: Figures/2_clumpsABC.png Graphic file (type png)
 
 <use Figures/2_clumpsABC.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `2_dcutcumulated' on page 46 undefined on input line 7
-8.
-
 [46 <./Figures/2_MST.png>] [47 <./Figures/2_Ndcut.png> <./Figures/2_dcutdistrib
-ution.png>] <Figures/2_ClumpMF_MF_1.png, id=1451, 829.0975pt x 765.86125pt>
-File: Figures/2_ClumpMF_MF_1.png Graphic file (type png)
-
-<use Figures/2_ClumpMF_MF_1.png>
-<Figures/2_ClumpMF_MF_2.png, id=1452, 837.1275pt x 762.85pt>
-File: Figures/2_ClumpMF_MF_2.png Graphic file (type png)
-
-<use Figures/2_ClumpMF_MF_2.png> [48 <./Figures/2_clumpsABC.png>] [49 <./Figure
-s/2_ClumpMF_MF_1.png (PNG copy)> <./Figures/2_ClumpMF_MF_2.png (PNG copy)>]
-<Figures/2_apextime_NH.png, id=1468, 578.16pt x 433.62pt>
+ution.png>] <Figures/2_apextime_NH.png, id=1451, 578.16pt x 433.62pt>
 File: Figures/2_apextime_NH.png Graphic file (type png)
 
 <use Figures/2_apextime_NH.png>
-<Figures/2_ClumpMF_N.png, id=1470, 867.24pt x 1084.05pt>
+<Figures/2_ClumpMF_N.png, id=1453, 867.24pt x 1084.05pt>
 File: Figures/2_ClumpMF_N.png Graphic file (type png)
 
 <use Figures/2_ClumpMF_N.png>
-<Figures/2_ClumpMF_H.png, id=1471, 1084.05pt x 505.89pt>
+<Figures/2_ClumpMF_H.png, id=1454, 1084.05pt x 505.89pt>
 File: Figures/2_ClumpMF_H.png Graphic file (type png)
 
-<use Figures/2_ClumpMF_H.png> [50] [51 <./Figures/2_apextime_NH.png>] [52 <./Fi
-gures/2_ClumpMF_N.png>]
-<Figures/2_Vx_histogram_1.png, id=1496, 818.05624pt x 691.58376pt>
+<use Figures/2_ClumpMF_H.png> [48 <./Figures/2_clumpsABC.png>] [49 <./Figures/2
+_apextime_NH.png>] [50 <./Figures/2_ClumpMF_N.png>] [51 <./Figures/2_ClumpMF_H.
+png>] <Figures/2_ClumpMF_MF_1.png, id=1490, 469.755pt x 433.62pt>
+File: Figures/2_ClumpMF_MF_1.png Graphic file (type png)
+
+<use Figures/2_ClumpMF_MF_1.png>
+<Figures/2_ClumpMF_MF_2.png, id=1491, 469.755pt x 433.62pt>
+File: Figures/2_ClumpMF_MF_2.png Graphic file (type png)
+
+<use Figures/2_ClumpMF_MF_2.png> [52 <./Figures/2_ClumpMF_MF_1.png> <./Figures/
+2_ClumpMF_MF_2.png>]
+<Figures/2_Vx_histogram_1.png, id=1502, 818.05624pt x 691.58376pt>
 File: Figures/2_Vx_histogram_1.png Graphic file (type png)
 
 <use Figures/2_Vx_histogram_1.png>
-<Figures/2_Vx_histogram_2.png, id=1497, 806.01125pt x 686.565pt>
+<Figures/2_Vx_histogram_2.png, id=1503, 806.01125pt x 686.565pt>
 File: Figures/2_Vx_histogram_2.png Graphic file (type png)
 
-<use Figures/2_Vx_histogram_2.png> [53 <./Figures/2_ClumpMF_H.png>] [54 <./Figu
-res/2_Vx_histogram_1.png (PNG copy)> <./Figures/2_Vx_histogram_2.png (PNG copy)
->] [55] <Figures/2_ClumpMembers.png, id=1544, 1055.945pt x 1161.33875pt>
+<use Figures/2_Vx_histogram_2.png> [53] [54 <./Figures/2_Vx_histogram_1.png (PN
+G copy)> <./Figures/2_Vx_histogram_2.png (PNG copy)>]
+<Figures/2_ClumpMembers.png, id=1543, 650.43pt x 650.43pt>
 File: Figures/2_ClumpMembers.png Graphic file (type png)
 
-<use Figures/2_ClumpMembers.png>
-<Figures/2_MaxMass.png, id=1550, 1328.965pt x 1161.33875pt>
+<use Figures/2_ClumpMembers.png> [55] [56 <./Figures/2_ClumpMembers.png>]
+<Figures/2_MaxMass.png, id=1566, 1328.965pt x 1161.33875pt>
 File: Figures/2_MaxMass.png Graphic file (type png)
 
 <use Figures/2_MaxMass.png>
-<Figures/2_weidner.png, id=1551, 839.135pt x 876.27374pt>
+<Figures/2_weidner.png, id=1567, 839.135pt x 876.27374pt>
 File: Figures/2_weidner.png Graphic file (type png)
 
 <use Figures/2_weidner.png>
 
-LaTeX Warning: Float too large for page by 3.13605pt on input line 368.
+LaTeX Warning: Float too large for page by 3.13605pt on input line 376.
 
-[56 <./Figures/2_ClumpMembers.png (PNG copy)>] [57 <./Figures/2_MaxMass.png (PN
-G copy)> <./Figures/2_weidner.png (PNG copy)>]
-<Figures/2_radial_ranking_schema.png, id=1592, 1560.83125pt x 431.6125pt>
+<Figures/2_radial_ranking_schema.png, id=1591, 1560.83125pt x 431.6125pt>
 File: Figures/2_radial_ranking_schema.png Graphic file (type png)
 
-<use Figures/2_radial_ranking_schema.png> [58 <./Figures/2_radial_ranking_schem
-a.png (PNG copy)>] <Figures/2_ClumpSeg.png, id=1608, 1244.65pt x 974.64125pt>
+<use Figures/2_radial_ranking_schema.png> [57] [58 <./Figures/2_MaxMass.png (PN
+G copy)> <./Figures/2_weidner.png (PNG copy)>]
+<Figures/2_ClumpSeg.png, id=1615, 1244.65pt x 974.64125pt>
 File: Figures/2_ClumpSeg.png Graphic file (type png)
 
 <use Figures/2_ClumpSeg.png>) (./Chapters/chapter_HLevolution.tex [59 <./Figure
-s/2_ClumpSeg.png (PNG copy)>] [60
+s/2_radial_ranking_schema.png (PNG copy)> <./Figures/2_ClumpSeg.png (PNG copy)>
+] [60
 
 ]
 Chapter 4.
-[61] [62] [63] <Figures/3_DistOrigin.png, id=1692, 1342.01375pt x 1059.96pt>
+[61] [62] [63] <Figures/3_DistOrigin.png, id=1699, 1342.01375pt x 1059.96pt>
 File: Figures/3_DistOrigin.png Graphic file (type png)
 
 <use Figures/3_DistOrigin.png>
-<Figures/3_Rhm_global.png, id=1695, 1233.60875pt x 982.67125pt>
+<Figures/3_Rhm_global.png, id=1702, 1233.60875pt x 982.67125pt>
 File: Figures/3_Rhm_global.png Graphic file (type png)
 
-<use Figures/3_Rhm_global.png>
-
-LaTeX Warning: Reference `Fig:Rhm_global' on page 64 undefined on input line 19
-7.
-
-[64 <./Figures/3_DistOrigin.png (PNG copy)>]
-<Figures/3_Lagr_radius.png, id=1708, 2521.42pt x 3166.83125pt>
+<use Figures/3_Rhm_global.png> [64 <./Figures/3_DistOrigin.png (PNG copy)>]
+<Figures/3_Lagr_radius.png, id=1717, 2521.42pt x 3166.83125pt>
 File: Figures/3_Lagr_radius.png Graphic file (type png)
 
 <use Figures/3_Lagr_radius.png> [65 <./Figures/3_Rhm_global.png (PNG copy)>]
 [66 <./Figures/3_Lagr_radius.png (PNG copy)>]
-<Figures/3_Rhm_segr.png, id=1731, 1142.2675pt x 1443.3925pt>
+<Figures/3_Rhm_segr.png, id=1739, 1142.2675pt x 1443.3925pt>
 File: Figures/3_Rhm_segr.png Graphic file (type png)
 
 <use Figures/3_Rhm_segr.png>
@@ -1322,27 +1315,23 @@ LaTeX Warning: Float too large for page by 30.47144pt on input line 263.
 LaTeX Warning: Reference `Sec:discussion' on page 69 undefined on input line 27
 4.
 
-
-LaTeX Warning: Reference `Fig:Lagrange' on page 69 undefined on input line 274.
-
-
 [69]) (./Chapters/chapter_BinAlgo.tex [70]
 Chapter 5.
-<Figures/5_kdtree.png, id=1772, 626.5809pt x 556.479pt>
+<Figures/5_kdtree.png, id=1781, 626.5809pt x 556.479pt>
 File: Figures/5_kdtree.png Graphic file (type png)
 
 <use Figures/5_kdtree.png>
-<Figures/5_neighbours.png, id=1776, 961.5925pt x 601.24625pt>
+<Figures/5_neighbours.png, id=1785, 961.5925pt x 601.24625pt>
 File: Figures/5_neighbours.png Graphic file (type png)
 
 <use Figures/5_neighbours.png> [71
 
 ] [72 <./Figures/5_kdtree.png> <./Figures/5_neighbours.png (PNG copy)>]
-<Figures/5_sm_ratios.png, id=1795, 867.24pt x 433.62pt>
+<Figures/5_sm_ratios.png, id=1804, 867.24pt x 433.62pt>
 File: Figures/5_sm_ratios.png Graphic file (type png)
 
 <use Figures/5_sm_ratios.png> [73 <./Figures/5_sm_ratios.png>]
-<Figures/5_flickering.png, id=1810, 1044.90375pt x 1150.2975pt>
+<Figures/5_flickering.png, id=1819, 1044.90375pt x 1150.2975pt>
 File: Figures/5_flickering.png Graphic file (type png)
 
 <use Figures/5_flickering.png>) [74] [75 <./Figures/5_flickering.png>] [76
@@ -1376,7 +1365,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89]
-Underfull \vbox (badness 6125) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [90])
 \tf@lof=\write6
@@ -1401,10 +1390,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22996 strings out of 493848
- 375024 string characters out of 1152824
- 519182 words of memory out of 3000000
- 25165 multiletter control sequences out of 15000+50000
+ 22993 strings out of 493848
+ 374983 string characters out of 1152824
+ 518206 words of memory out of 3000000
+ 25162 multiletter control sequences out of 15000+50000
  19637 words of font info for 73 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  58i,14n,55p,1785b,735s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1430,9 +1419,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (97 pages, 13156583 bytes).
+Output written on main.pdf (97 pages, 13192800 bytes).
 PDF statistics:
- 2347 PDF objects out of 2487 (max. 8388607)
+ 2356 PDF objects out of 2487 (max. 8388607)
  533 named destinations out of 1000 (max. 500000)
  867 words of extra memory for PDF output out of 10000 (max. 10000000)
 
