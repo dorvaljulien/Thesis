@@ -25,10 +25,12 @@
     \pagestyle{empty}
     \input{Cover/cover}
     
-%     \dominitoc
+     \dominitoc
     
     \pagestyle{front}
 %     \setcounter{tocdepth}{2}
+
+	\input{Foreword/structure}
     \tableofcontents
     
     % MAIN MATTER
@@ -51,13 +53,14 @@
     
 %    \pagestyle{main}
 %      % partie 1
-%    \part{Contexte physique et médical}
+    \part{The fragmented model and its evolution}
 %    \label{Part1}
     \input{Chapters/chapter_HLmodel}
     \input{Chapters/chapter_HLnbody}
     \input{Chapters/chapter_HLevolution}   
 %    \input{Chapters/chapter_binaries} 
     
+    \input{Introduction/introduction_binaries}	
     \input{Chapters/chapter_BinAlgo}       
     
 %    \input{Chapters/chapter_2}

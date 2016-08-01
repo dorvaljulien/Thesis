@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  26 JUL 2016 18:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  1 AUG 2016 10:47
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -70,45 +70,96 @@ Package ifvtex Info: VTeX not detected.
 \Gm@dimlist=\toks15
 
 (/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+(/usr/share/texmf-texlive/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
+
+(/usr/share/texmf-texlive/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 60 ***.
+\tf@mtc=\write3
+\mtcindent=\skip43
+\mtcskipamount=\skip44
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks16
+\mtc@strutbox=\box26
+\mtc@hstrutbox=\box27
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `main.mtc0'.
+
+\openout3 = `main.mtc'.
+
+ (./main.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc0'.
+
+\c@mtc=\count92
+\c@minitocdepth=\count93
+\c@ptc=\count94
+\c@parttocdepth=\count95
+\ptcindent=\skip45
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
 (/usr/share/texmf-texlive/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2007/08/12 v2.8 Sectioning titles
-\ttl@box=\box26
-\beforetitleunit=\skip43
-\aftertitleunit=\skip44
+\ttl@box=\box28
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
 \ttl@plus=\dimen107
 \ttl@minus=\dimen108
-\ttl@toksa=\toks16
+\ttl@toksa=\toks17
 \titlewidth=\dimen109
 \titlewidthlast=\dimen110
 \titlewidthfirst=\dimen111
 )
 (/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks17
+\@enLab=\toks18
 )
 (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
-\lst@mode=\count92
-\lst@gtempboxa=\box27
-\lst@token=\toks18
-\lst@length=\count93
+\lst@mode=\count96
+\lst@gtempboxa=\box29
+\lst@token=\toks19
+\lst@length=\count97
 \lst@currlwidth=\dimen112
-\lst@column=\count94
-\lst@pos=\count95
+\lst@column=\count98
+\lst@pos=\count99
 \lst@lostspace=\dimen113
 \lst@width=\dimen114
-\lst@newlines=\count96
-\lst@lineno=\count97
+\lst@newlines=\count100
+\lst@lineno=\count101
 \lst@maxwidth=\dimen115
 
 (/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count98
-\lst@skipnumbers=\count99
-\lst@framebox=\box28
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
+\lst@framebox=\box30
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -117,23 +168,23 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
 (/usr/share/texmf-texlive/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count100
-\cp@tempcnt=\count101
+\c@cp@cntr=\count104
+\cp@tempcnt=\count105
 )
 (/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
 Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip45
-\bibsep=\skip46
+\bibhang=\skip48
+\bibsep=\skip49
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count102
+\c@NAT@ctr=\count106
 )
 (/usr/share/texmf-texlive/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
-\pltopsep=\skip47
-\plpartopsep=\skip48
-\plitemsep=\skip49
-\plparsep=\skip50
-\pl@lab=\toks19
+\pltopsep=\skip50
+\plpartopsep=\skip51
+\plitemsep=\skip52
+\plparsep=\skip53
+\pl@lab=\toks20
 ) (./aas_macros.sty)
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
@@ -149,8 +200,8 @@ O)
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen116
-\Hy@linkcounter=\count103
-\Hy@pagecounter=\count104
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -210,10 +261,10 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count105
+\Fld@menulength=\count109
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-\Field@toks=\toks20
+\Field@toks=\toks21
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -225,30 +276,30 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count106
-\c@Item=\count107
-\c@Hfootnote=\count108
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
 )
 *hyperref using default driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count109
+\Fld@listcount=\count113
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 52.
+(hyperref)                setting the option has no effect on input line 54.
 
-Package hyperref Info: Option `unicode' set `true' on input line 52.
+Package hyperref Info: Option `unicode' set `true' on input line 54.
 (/usr/share/texmf-texlive/tex/latex/hyperref/puenc.def
 File: puenc.def 2009/10/09 v6.79a Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `pdffitwindow' set `true' on input line 52.
-Package hyperref Info: Option `pdfnewwindow' set `false' on input line 52.
-Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 54.
+Package hyperref Info: Option `pdfnewwindow' set `false' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
@@ -256,7 +307,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen119
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
@@ -266,41 +317,41 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count110
+\inf@bad=\count114
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count111
-\leftroot@=\count112
+\uproot@=\count115
+\leftroot@=\count116
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count113
-\DOTSCASE@=\count114
+\classnum@=\count117
+\DOTSCASE@=\count118
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
+\Mathstrutbox@=\box31
+\strutbox@=\box32
 \big@size=\dimen121
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count115
-\c@MaxMatrixCols=\count116
+\macc@depth=\count119
+\c@MaxMatrixCols=\count120
 \dotsspace@=\muskip11
-\c@parentequation=\count117
-\dspbrk@lvl=\count118
-\tag@help=\toks22
-\row@=\count119
-\column@=\count120
-\maxfields@=\count121
-\andhelp@=\toks23
+\c@parentequation=\count121
+\dspbrk@lvl=\count122
+\tag@help=\toks23
+\row@=\count123
+\column@=\count124
+\maxfields@=\count125
+\andhelp@=\toks24
 \eqnshift@=\dimen122
 \alignsep@=\dimen123
 \tagshift@=\dimen124
 \tagwidth@=\dimen125
 \totwidth@=\dimen126
 \lineht@=\dimen127
-\@envbody=\toks24
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks25
+\@envbody=\toks25
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -316,21 +367,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks26
-\thm@bodyfont=\toks27
-\thm@headfont=\toks28
-\thm@notefont=\toks29
-\thm@headpunct=\toks30
-\thm@preskip=\skip54
-\thm@postskip=\skip55
-\thm@headsep=\skip56
-\dth@everypar=\toks31
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
+\dth@everypar=\toks32
 )
 (/usr/share/texmf-texlive/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip57
-\L@UnitsRaiseTextstyle=\skip58
-\L@UnitsRaiseScriptstyle=\skip59
+\L@UnitsRaiseDisplaystyle=\skip60
+\L@UnitsRaiseTextstyle=\skip61
+\L@UnitsRaiseScriptstyle=\skip62
 
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -343,26 +394,26 @@ Package: mathtools 2008/08/01 v1.06 mathematical typesetting tools (MH)
 
 (/usr/share/texmf-texlive/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count122
-\calc@Bcount=\count123
+\calc@Acount=\count126
+\calc@Bcount=\count127
 \calc@Adimen=\dimen128
 \calc@Bdimen=\dimen129
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count124
-\calc@Cskip=\skip62
+\calc@Ccount=\count128
+\calc@Cskip=\skip65
 )
 (/usr/share/texmf-texlive/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2007/12/03 v1.2 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count125
+\g_MT_multlinerow_int=\count129
 \l_MT_multwidth_dim=\dimen130
 )
 (/usr/share/texmf-texlive/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2005/10/04 v3.9 algorithms environments
-\c@AlgoLine=\count126
+\c@AlgoLine=\count130
 
 (/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
 Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
@@ -374,32 +425,32 @@ Package `algorithm2e' Release 3.9 -- october 04 2005 --
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 - Author: Christophe Fiorio (fiorio@lirmm.fr)
 ********************************************************
-\skiptotal=\skip63
-\skiprule=\skip64
-\skiphlne=\skip65
-\skiptext=\skip66
-\skiplength=\skip67
-\algomargin=\skip68
-\skipalgocfslide=\skip69
+\skiptotal=\skip66
+\skiprule=\skip67
+\skiphlne=\skip68
+\skiptext=\skip69
+\skiplength=\skip70
+\algomargin=\skip71
+\skipalgocfslide=\skip72
 \algowidth=\dimen131
 \inoutsize=\dimen132
 \inoutline=\dimen133
-\algocf@inoutbox=\box31
-\algocf@inputbox=\box32
-\AlCapSkip=\skip70
-\AlCapHSkip=\skip71
-\algocf@capbox=\box33
-\c@algocfline=\count127
-\c@algocf=\count128
-\algocf@algoframe=\box34
-\algocf@algobox=\box35
+\algocf@inoutbox=\box33
+\algocf@inputbox=\box34
+\AlCapSkip=\skip73
+\AlCapHSkip=\skip74
+\algocf@capbox=\box35
+\c@algocfline=\count131
+\c@algocf=\count132
+\algocf@algoframe=\box36
+\algocf@algobox=\box37
 ) (/usr/share/texmf-texlive/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen134
 \extrarowheight=\dimen135
-\NC@list=\toks32
-\extratabsurround=\skip72
-\backup@length=\skip73
+\NC@list=\toks33
+\extratabsurround=\skip75
+\backup@length=\skip76
 )
 (/usr/share/texmf-texlive/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
@@ -408,8 +459,8 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@old@col=\dimen138
 \TX@target=\dimen139
 \TX@delta=\dimen140
-\TX@cols=\count129
-\TX@ftn=\toks33
+\TX@cols=\count133
+\TX@ftn=\toks34
 )
 (/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen141
@@ -426,22 +477,22 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen149
 \cmidrulekern=\dimen150
 \defaultaddspace=\dimen151
-\@cmidla=\count130
-\@cmidlb=\count131
+\@cmidla=\count134
+\@cmidlb=\count135
 \@aboverulesep=\dimen152
 \@belowrulesep=\dimen153
-\@thisruleclass=\count132
-\@lastruleclass=\count133
+\@thisruleclass=\count136
+\@lastruleclass=\count137
 \@thisrulewidth=\dimen154
 )
 (/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
-\everycr=\toks34
-\minrowclearance=\skip74
+\everycr=\toks35
+\minrowclearance=\skip77
 )
 (/usr/share/texmf-texlive/tex/latex/ltxmisc/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box36
+\@tempboxb=\box38
 ) (./diagbox.sty
 Package: diagbox 2011/11/23 v2.0 Making table heads with diagonal lines
 
@@ -460,7 +511,7 @@ File: p2e-pdftex.def 2009/08/05 v0.1s Driver-dependant file (RN,HjG,JT)
 (/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-\pIIe@GRAPH=\toks35
+\pIIe@GRAPH=\toks36
 \@arclen=\dimen155
 \@arcrad=\dimen156
 \@tempdimd=\dimen157
@@ -471,19 +522,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texmf-texlive/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count134
+\actioncount=\count138
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count135
-\FP@xia=\count136
-\FP@xib=\count137
-\FP@xfa=\count138
-\FP@xfb=\count139
-\FP@rega=\count140
-\FP@regb=\count141
-\FP@regs=\count142
-\FP@times=\count143
+\FP@xs=\count139
+\FP@xia=\count140
+\FP@xib=\count141
+\FP@xfa=\count142
+\FP@xfb=\count143
+\FP@rega=\count144
+\FP@regb=\count145
+\FP@regs=\count146
+\FP@times=\count147
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -502,7 +553,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count144
+\FPseed=\count148
 )
 (/usr/share/texmf-texlive/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -513,9 +564,9 @@ Package: fp-upn 1996/10/21
 (/usr/share/texmf-texlive/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 ))
-\diagbox@boxa=\box37
-\diagbox@boxb=\box38
-\diagbox@boxm=\box39
+\diagbox@boxa=\box39
+\diagbox@boxb=\box40
+\diagbox@boxm=\box41
 \diagbox@wd=\dimen158
 \diagbox@ht=\dimen159
 \diagbox@sepl=\dimen160
@@ -547,19 +598,19 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 (/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box40
-\AM@toc@title=\toks36
-\c@AM@survey=\count145
-\AM@templatesizebox=\box41
+\AM@pagebox=\box42
+\AM@toc@title=\toks37
+\c@AM@survey=\count149
+\AM@templatesizebox=\box43
 )
 (/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks37
+\pgfutil@everybye=\toks38
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box42
+\pgfutil@abb=\box44
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
@@ -572,11 +623,11 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks38
-\pgfkeys@temptoks=\toks39
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks40
+\pgfkeys@tmptoks=\toks41
 ))
 \pgf@x=\dimen164
 \pgf@y=\dimen165
@@ -586,12 +637,12 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yb=\dimen169
 \pgf@xc=\dimen170
 \pgf@yc=\dimen171
-\w@pgf@writea=\write3
+\w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count146
-\c@pgf@countb=\count147
-\c@pgf@countc=\count148
-\c@pgf@countd=\count149
+\c@pgf@counta=\count150
+\c@pgf@countb=\count151
+\c@pgf@countc=\count152
+\c@pgf@countd=\count153
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -606,8 +657,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count150
-\pgfsyssoftpath@bigbuffer@items=\count151
+\pgfsyssoftpath@smallbuffer@items=\count154
+\pgfsyssoftpath@bigbuffer@items=\count155
 )
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -638,11 +689,11 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen172
-\pgfmath@count=\count152
-\pgfmath@box=\box43
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@count=\count156
+\pgfmath@box=\box45
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 )
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -653,7 +704,7 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count153
+\c@pgfmathroundto@lastzeros=\count157
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
@@ -684,10 +735,10 @@ File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box44
-\pgf@hbox=\box45
-\pgf@layerbox@main=\box46
-\pgf@picture@serial@count=\count154
+\pgfpic=\box46
+\pgf@hbox=\box47
+\pgf@layerbox@main=\box48
+\pgf@picture@serial@count=\count158
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
@@ -714,14 +765,14 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen195
-\pgf@sys@shading@range@num=\count155
+\pgf@sys@shading@range@num=\count159
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box47
+\pgfexternal@startupbox=\box49
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
@@ -734,7 +785,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box48
+\pgfnodeparttextbox=\box50
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
@@ -754,15 +805,15 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen198
 \pgffor@skip=\dimen199
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count156
+\pgf@plot@mark@count=\count160
 \pgfplotmarksize=\dimen200
 )
 \tikz@lastx=\dimen201
@@ -771,20 +822,20 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikz@lastysaved=\dimen204
 \tikzleveldistance=\dimen205
 \tikzsiblingdistance=\dimen206
-\tikz@figbox=\box49
-\tikz@tempbox=\box50
-\tikztreelevel=\count157
-\tikznumberofchildren=\count158
-\tikznumberofcurrentchild=\count159
-\tikz@fig@count=\count160
+\tikz@figbox=\box51
+\tikz@tempbox=\box52
+\tikztreelevel=\count161
+\tikznumberofchildren=\count162
+\tikznumberofcurrentchild=\count163
+\tikz@fig@count=\count164
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count161
-\pgfmatrixcurrentcolumn=\count162
-\pgf@matrix@numberofcolumns=\count163
+\pgfmatrixcurrentrow=\count165
+\pgfmatrixcurrentcolumn=\count166
+\pgf@matrix@numberofcolumns=\count167
 )
-\tikz@expandcount=\count164
+\tikz@expandcount=\count168
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -801,29 +852,29 @@ Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 \caption@parindent=\dimen211
 \caption@hangindent=\dimen212
 )
-\c@ContinuedFloat=\count165
+\c@ContinuedFloat=\count169
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: threeparttable package is loaded.
 )
 (/usr/share/texmf-texlive/tex/latex/caption/subcaption.sty
 Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
-\c@subfigure=\count166
-\c@subtable=\count167
+\c@subfigure=\count170
+\c@subtable=\count171
 )
 (/usr/share/texmf-texlive/tex/latex/titlesec/frame.tss
 File: frame.tss 2007/08/12
 )
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip75
-\f@ncyO@elh=\skip76
-\f@ncyO@erh=\skip77
-\f@ncyO@olh=\skip78
-\f@ncyO@orh=\skip79
-\f@ncyO@elf=\skip80
-\f@ncyO@erf=\skip81
-\f@ncyO@olf=\skip82
-\f@ncyO@orf=\skip83
+\fancy@headwidth=\skip78
+\f@ncyO@elh=\skip79
+\f@ncyO@erh=\skip80
+\f@ncyO@olh=\skip81
+\f@ncyO@orh=\skip82
+\f@ncyO@elf=\skip83
+\f@ncyO@erf=\skip84
+\f@ncyO@olf=\skip85
+\f@ncyO@orf=\skip86
 )) (./main.aux
 
 LaTeX Warning: Label `Fig:0_clumps' multiply defined.
@@ -852,16 +903,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count168
+\scratchcounter=\count172
 \scratchdimen=\dimen213
-\scratchbox=\box51
-\nofMPsegments=\count169
-\nofMParguments=\count170
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count171
+\scratchbox=\box53
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count175
 \MPscratchDim=\dimen214
-\MPnumerator=\count172
-\everyMPtoPDFconversion=\toks47
+\MPnumerator=\count176
+\everyMPtoPDFconversion=\toks48
 )
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -904,7 +955,36 @@ driver: pdftex
 \@twosidetrue \@mparswitchtrue 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-\c@lstlisting=\count173
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+
+Package minitoc(hints) Warning: W0099
+(minitoc(hints))                --- The titlesec package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+\c@lstlisting=\count177
 Package hyperref Info: Link coloring ON on input line 21.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -912,16 +992,16 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count174
+\c@section@level=\count178
 )
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
  (./main.out)
 (./main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
-\AtBeginShipoutBox=\box52
+\AtBeginShipoutBox=\box54
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -938,53 +1018,90 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 29.
+
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Hi
+storical foreword: from Aristotle to GPU computing}{\reset@font\mtcSfont 1}{cha
+pter*.3}}
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc1.
+\openout3 = `main.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc2.
+\openout3 = `main.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc3.
+\openout3 = `main.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc4.
+\openout3 = `main.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc5.
+\openout3 = `main.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc6.
+\openout3 = `main.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc7.
+\openout3 = `main.mtc7'.
+
+(./Foreword/structure.tex [2
 
 
-] (./main.toc [3])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+]) [3] [4
 
- [4]
+] (./main.toc [5])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [6]
 (./Foreword/foreword.tex [1
 
 
 ]
-<Figures/0_PtolemaicModel_2.png, id=343, 811.03pt x 835.12pt>
+<Figures/0_PtolemaicModel_2.png, id=383, 811.03pt x 835.12pt>
 File: Figures/0_PtolemaicModel_2.png Graphic file (type png)
 
 <use Figures/0_PtolemaicModel_2.png>
-<Figures/0_CopernicusModel.jpg, id=345, 726.3135pt x 708.246pt>
+<Figures/0_CopernicusModel.jpg, id=385, 726.3135pt x 708.246pt>
 File: Figures/0_CopernicusModel.jpg Graphic file (type jpg)
 
 <use Figures/0_CopernicusModel.jpg> [2 <./Figures/0_PtolemaicModel_2.png> <./Fi
 gures/0_CopernicusModel.jpg>]
-<Figures/0_galileodrawings_1.png, id=359, 254.9525pt x 221.82875pt>
+<Figures/0_galileodrawings_1.png, id=399, 254.9525pt x 221.82875pt>
 File: Figures/0_galileodrawings_1.png Graphic file (type png)
 
 <use Figures/0_galileodrawings_1.png>
-<Figures/0_galileodrawings_2.jpg, id=360, 72.27pt x 69.09012pt>
+<Figures/0_galileodrawings_2.jpg, id=400, 72.27pt x 69.09012pt>
 File: Figures/0_galileodrawings_2.jpg Graphic file (type jpg)
 
 <use Figures/0_galileodrawings_2.jpg>
-<Figures/0_young_galileo.jpg, id=361, 314.17375pt x 287.0725pt>
+<Figures/0_young_galileo.jpg, id=401, 314.17375pt x 287.0725pt>
 File: Figures/0_young_galileo.jpg Graphic file (type jpg)
 
 <use Figures/0_young_galileo.jpg> [3 <./Figures/0_galileodrawings_1.png (PNG co
 py)> <./Figures/0_galileodrawings_2.jpg> <./Figures/0_young_galileo.jpg>]
-<Figures/0_newtontree.jpg, id=376, 733.74126pt x 711.65875pt>
+<Figures/0_newtontree.jpg, id=415, 733.74126pt x 711.65875pt>
 File: Figures/0_newtontree.jpg Graphic file (type jpg)
 
 <use Figures/0_newtontree.jpg>
-<Figures/0_newtoncannon.jpg, id=377, 599.23875pt x 587.19376pt>
+<Figures/0_newtoncannon.jpg, id=416, 599.23875pt x 587.19376pt>
 File: Figures/0_newtoncannon.jpg Graphic file (type jpg)
 
 <use Figures/0_newtoncannon.jpg>
-<Figures/0_newtonportrait.jpg, id=378, 405.515pt x 399.4925pt>
+<Figures/0_newtonportrait.jpg, id=417, 405.515pt x 399.4925pt>
 File: Figures/0_newtonportrait.jpg Graphic file (type jpg)
 
 <use Figures/0_newtonportrait.jpg>
-<Figures/0_newtonhalley.jpg, id=379, 891.33pt x 904.37875pt>
+<Figures/0_newtonhalley.jpg, id=418, 891.33pt x 904.37875pt>
 File: Figures/0_newtonhalley.jpg Graphic file (type jpg)
 
 <use Figures/0_newtonhalley.jpg>
@@ -994,25 +1111,25 @@ Missing character: There is no ¦ in font cmti10!
 wtonportrait.jpg> <./Figures/0_newtonhalley.jpg>]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 198.
+d on input line 200.
 
-[5] <Figures/0_messier.jpg, id=421, 459.7175pt x 430.60875pt>
+[5] <Figures/0_messier.jpg, id=460, 459.7175pt x 430.60875pt>
 File: Figures/0_messier.jpg Graphic file (type jpg)
 
 <use Figures/0_messier.jpg>
-<Figures/0_poincare.jpg, id=422, 283.0575pt x 263.98625pt>
+<Figures/0_poincare.jpg, id=461, 283.0575pt x 263.98625pt>
 File: Figures/0_poincare.jpg Graphic file (type jpg)
 
 <use Figures/0_poincare.jpg> [6 <./Figures/0_messier.jpg> <./Figures/0_poincare
-.jpg>] <Figures/0_siemens2002.jpg, id=471, 4288.02pt x 2858.68pt>
+.jpg>] <Figures/0_siemens2002.jpg, id=510, 4288.02pt x 2858.68pt>
 File: Figures/0_siemens2002.jpg Graphic file (type jpg)
 
 <use Figures/0_siemens2002.jpg>
-<Figures/0_hydra.png, id=472, 578.16pt x 378.41376pt>
+<Figures/0_hydra.png, id=511, 578.16pt x 378.41376pt>
 File: Figures/0_hydra.png Graphic file (type png)
 
 <use Figures/0_hydra.png> [7 <./Figures/0_siemens2002.jpg> <./Figures/0_hydra.p
-ng>] <Figures/0_N_increase.png, id=511, 1314.9125pt x 867.24pt>
+ng>] <Figures/0_N_increase.png, id=551, 1314.9125pt x 867.24pt>
 File: Figures/0_N_increase.png Graphic file (type png)
 
 <use Figures/0_N_increase.png>) (./Introduction/introduction.tex [8 <./Figures/
@@ -1020,365 +1137,512 @@ File: Figures/0_N_increase.png Graphic file (type png)
 Chapter 1.
 [9
 
-] <Figures/0_Pleiades_scale.jpg, id=538, 602.25pt x 433.62pt>
+] <Figures/0_antennas.jpg, id=587, 911.405pt x 852.18375pt>
+File: Figures/0_antennas.jpg Graphic file (type jpg)
+
+<use Figures/0_antennas.jpg> [10 <./Figures/0_antennas.jpg>]
+<Figures/0_Pleiades_scale.jpg, id=605, 602.25pt x 433.62pt>
 File: Figures/0_Pleiades_scale.jpg Graphic file (type jpg)
 
 <use Figures/0_Pleiades_scale.jpg>
-<Figures/0_omega_centauri_scale.jpg, id=539, 433.62pt x 433.62pt>
+<Figures/0_omega_centauri_scale.jpg, id=606, 433.62pt x 433.62pt>
 File: Figures/0_omega_centauri_scale.jpg Graphic file (type jpg)
 
-<use Figures/0_omega_centauri_scale.jpg>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./Figures/0_Pleiades_scale.jpg> <./Figures/0_omega_centauri_scale.jpg>]
-<Figures/0_R136_scale.jpg, id=546, 409.53pt x 431.6125pt>
+<use Figures/0_omega_centauri_scale.jpg> [11]
+<Figures/0_R136_scale.jpg, id=614, 409.53pt x 431.6125pt>
 File: Figures/0_R136_scale.jpg Graphic file (type jpg)
 
 <use Figures/0_R136_scale.jpg>
-<Figures/0_NGC1333_scale_contrast.jpg, id=547, 543.02875pt x 431.6125pt>
+<Figures/0_NGC1333_scale_contrast.jpg, id=615, 543.02875pt x 431.6125pt>
 File: Figures/0_NGC1333_scale_contrast.jpg Graphic file (type jpg)
 
 <use Figures/0_NGC1333_scale_contrast.jpg>
-<Figures/0_MassRadiusClusters.png, id=560, 1173.38374pt x 1115.16624pt>
+<Figures/0_MassRadiusClusters.png, id=628, 1173.38374pt x 1115.16624pt>
 File: Figures/0_MassRadiusClusters.png Graphic file (type png)
 
-<use Figures/0_MassRadiusClusters.png> [11 <./Figures/0_R136_scale.jpg> <./Figu
-res/0_NGC1333_scale_contrast.jpg>] [12 <./Figures/0_MassRadiusClusters.png (PNG
- copy)>] [13] [14] <Figures/0_kingplummer.png, id=661, 1011.78pt x 361.35pt>
+<use Figures/0_MassRadiusClusters.png> [12 <./Figures/0_Pleiades_scale.jpg> <./
+Figures/0_omega_centauri_scale.jpg>] [13 <./Figures/0_R136_scale.jpg> <./Figure
+s/0_NGC1333_scale_contrast.jpg> <./Figures/0_MassRadiusClusters.png (PNG copy)>
+] [14] [15] <Figures/0_kingplummer.png, id=729, 1011.78pt x 361.35pt>
 File: Figures/0_kingplummer.png Graphic file (type png)
 
-<use Figures/0_kingplummer.png>
-Underfull \vbox (badness 1939) has occurred while \output is active []
-
- [15 <./Figures/0_kingplummer.png>]
-<Figures/0_horsehead_visible2.jpg, id=694, 1343.0175pt x 524.96124pt>
+<use Figures/0_kingplummer.png> [16 <./Figures/0_kingplummer.png>]
+<Figures/0_horsehead_visible2.jpg, id=761, 1343.0175pt x 524.96124pt>
 File: Figures/0_horsehead_visible2.jpg Graphic file (type jpg)
 
 <use Figures/0_horsehead_visible2.jpg>
-<Figures/0_horsehead_infrared.jpg, id=695, 1185.42876pt x 460.72125pt>
+<Figures/0_horsehead_infrared.jpg, id=762, 1185.42876pt x 460.72125pt>
 File: Figures/0_horsehead_infrared.jpg Graphic file (type jpg)
 
-<use Figures/0_horsehead_infrared.jpg> [16] [17 <./Figures/0_horsehead_visible2
+<use Figures/0_horsehead_infrared.jpg> [17] [18 <./Figures/0_horsehead_visible2
 .jpg> <./Figures/0_horsehead_infrared.jpg>]
-<Figures/0_proto_1.jpg, id=726, 200.75pt x 200.75pt>
+<Figures/0_proto_1.jpg, id=791, 200.75pt x 200.75pt>
 File: Figures/0_proto_1.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_1.jpg>
-<Figures/0_proto_2.jpg, id=727, 486.81876pt x 486.81876pt>
+<Figures/0_proto_2.jpg, id=792, 486.81876pt x 486.81876pt>
 File: Figures/0_proto_2.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_2.jpg>
-<Figures/0_proto_3.jpg, id=728, 435.6275pt x 435.6275pt>
+<Figures/0_proto_3.jpg, id=793, 435.6275pt x 435.6275pt>
 File: Figures/0_proto_3.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_3.jpg>
-<Figures/0_proto_4.jpg, id=729, 155.58125pt x 155.58125pt>
+<Figures/0_proto_4.jpg, id=794, 155.58125pt x 155.58125pt>
 File: Figures/0_proto_4.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_4.jpg>
-<Figures/0_proto_5.jpg, id=730, 110.4125pt x 110.4125pt>
+<Figures/0_proto_5.jpg, id=795, 110.4125pt x 110.4125pt>
 File: Figures/0_proto_5.jpg Graphic file (type jpg)
 
-<use Figures/0_proto_5.jpg> [18 <./Figures/0_proto_1.jpg (PNG copy)> <./Figures
+<use Figures/0_proto_5.jpg> [19 <./Figures/0_proto_1.jpg (PNG copy)> <./Figures
 /0_proto_2.jpg> <./Figures/0_proto_3.jpg> <./Figures/0_proto_4.jpg> <./Figures/
-0_proto_5.jpg>] <Figures/0_clumpsobserved.png, id=786, 930.47626pt x 851.18pt>
-File: Figures/0_clumpsobserved.png Graphic file (type png)
+0_proto_5.jpg>] <Figures/0_carina.png, id=853, 838.13126pt x 807.015pt>
+File: Figures/0_carina.png Graphic file (type png)
 
-<use Figures/0_clumpsobserved.png>
-<Figures/0_clumpssimulated.png, id=787, 536.0025pt x 519.9425pt>
-File: Figures/0_clumpssimulated.png Graphic file (type png)
+<use Figures/0_carina.png>
+Missing character: There is no Â in font cmr10!
+Missing character: There is no µ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no µ in font cmr10!
 
-<use Figures/0_clumpssimulated.png>
-<Figures/0_ejectionwind.png, id=797, 503.8825pt x 488.82625pt>
+<Figures/0_ejectionwind.png, id=858, 503.8825pt x 488.82625pt>
 File: Figures/0_ejectionwind.png Graphic file (type png)
 
 <use Figures/0_ejectionwind.png>
-<Figures/0_virializedclumps.png, id=798, 693.59125pt x 561.09625pt>
+<Figures/0_virializedclumps.png, id=859, 693.59125pt x 561.09625pt>
 File: Figures/0_virializedclumps.png Graphic file (type png)
 
-<use Figures/0_virializedclumps.png> [19 <./Figures/0_clumpsobserved.png (PNG c
-opy)> <./Figures/0_clumpssimulated.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use Figures/0_virializedclumps.png> [20 <./Figures/0_carina.png (PNG copy)>]
+[21 <./Figures/0_ejectionwind.png (PNG copy)> <./Figures/0_virializedclumps.png
+ (PNG copy)>] <Figures/0_bate2012.png, id=936, 608.2725pt x 637.38126pt>
+File: Figures/0_bate2012.png Graphic file (type png)
 
- [20 <./Figures/0_ejectionwind.png (PNG copy)> <./Figures/0_virializedclumps.pn
-g (PNG copy)>] <Figures/0_bonnell.png, id=897, 694.595pt x 664.4825pt>
+<use Figures/0_bate2012.png>
+<Figures/0_aquila_bate.png, id=937, 803.0pt x 733.74126pt>
+File: Figures/0_aquila_bate.png Graphic file (type png)
+
+<use Figures/0_aquila_bate.png> [22 <./Figures/0_bate2012.png (PNG copy)> <./Fi
+gures/0_aquila_bate.png (PNG copy)>]
+<Figures/0_bonnell.png, id=977, 694.595pt x 664.4825pt>
 File: Figures/0_bonnell.png Graphic file (type png)
 
 <use Figures/0_bonnell.png>
-<Figures/0_fujii.png, id=898, 542.025pt x 548.0475pt>
+<Figures/0_fujii.png, id=978, 542.025pt x 548.0475pt>
 File: Figures/0_fujii.png Graphic file (type png)
 
 <use Figures/0_fujii.png>
-<Figures/0_plummers.png, id=899, 625.33624pt x 595.22375pt>
+<Figures/0_plummers.png, id=979, 625.33624pt x 595.22375pt>
 File: Figures/0_plummers.png Graphic file (type png)
 
 <use Figures/0_plummers.png>
-<Figures/0_fractals.png, id=900, 642.4pt x 565.11125pt>
+<Figures/0_fractals.png, id=980, 642.4pt x 565.11125pt>
 File: Figures/0_fractals.png Graphic file (type png)
 
-<use Figures/0_fractals.png> [21] [22 <./Figures/0_bonnell.png (PNG copy)> <./F
+<use Figures/0_fractals.png> [23] [24 <./Figures/0_bonnell.png (PNG copy)> <./F
 igures/0_fujii.png> <./Figures/0_plummers.png> <./Figures/0_fractals.png>]
-[23] <Figures/0_albireo.jpg, id=969, 236.885pt x 236.885pt>
-File: Figures/0_albireo.jpg Graphic file (type jpg)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 571.
 
-<use Figures/0_albireo.jpg>
-<Figures/0_elliptictrajectories.png, id=970, 897.3525pt x 665.48625pt>
-File: Figures/0_elliptictrajectories.png Graphic file (type png)
 
-<use Figures/0_elliptictrajectories.png> [24 <./Figures/0_albireo.jpg> <./Figur
-es/0_elliptictrajectories.png (PNG copy)>]
-<Figures/0_binperiods.png, id=1010, 923.45pt x 702.625pt>
-File: Figures/0_binperiods.png Graphic file (type png)
-
-<use Figures/0_binperiods.png>
-<Figures/0_binfraction.png, id=1011, 914.41624pt x 672.5125pt>
-File: Figures/0_binfraction.png Graphic file (type png)
-
-<use Figures/0_binfraction.png> [25]
-<Figures/0_binfraction_evolution.png, id=1060, 430.60875pt x 369.38pt>
-File: Figures/0_binfraction_evolution.png Graphic file (type png)
-
-<use Figures/0_binfraction_evolution.png>
-<Figures/0_separation_evolution.png, id=1061, 902.37125pt x 782.925pt>
-File: Figures/0_separation_evolution.png Graphic file (type png)
-
-<use Figures/0_separation_evolution.png> [26 <./Figures/0_binperiods.png (PNG c
-opy)> <./Figures/0_binfraction.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27 <./Figures/0_binfraction_evolution.png (PNG copy)> <./Figures/0_separation
-_evolution.png (PNG copy)>] [28]
-<Figures/0_block_timesteps.png, id=1129, 925.4575pt x 554.07pt>
-File: Figures/0_block_timesteps.png Graphic file (type png)
-
-<use Figures/0_block_timesteps.png> [29 <./Figures/0_block_timesteps.png (PNG c
-opy)>] <Figures/0_hermite_scheme.png, id=1151, 1416.29124pt x 997.7275pt>
-File: Figures/0_hermite_scheme.png Graphic file (type png)
-
-<use Figures/0_hermite_scheme.png> [30] [31 <./Figures/0_hermite_scheme.png (PN
-G copy)>]) (./Chapters/chapter_HLmodel.tex [32]
-Chapter 2.
-[33
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
- [34] [35]
-<Figures/1_apextime.png, id=1248, 578.16pt x 433.62pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 571.
+ [25] [26]
+Chapter 2.
+
+Package natbib Warning: Citation `Henon1971' on page 27 undefined on input line
+ 592.
+
+[27
+
+] [28]) [29] [30
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 56.
+
+[31] [32] (./Chapters/chapter_HLmodel.tex
+Chapter 3.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(./main.mtc3) [33
+
+] [34] [35]
+<Figures/1_apextime.png, id=1183, 578.16pt x 433.62pt>
 File: Figures/1_apextime.png Graphic file (type png)
 
 <use Figures/1_apextime.png>
-Underfull \hbox (badness 10000) in alignment at lines 194--194
+Underfull \hbox (badness 10000) in alignment at lines 196--196
 [][] 
  []
 
-[36 <./Figures/1_apextime.png>] [37]pdfTeX warning (ext4): destination with the
- same identifier (name{equation.2.2.1}) has been already used, duplicate ignore
-d
+[36 <./Figures/1_apextime.png>] [37] [38]pdfTeX warning (ext4): destination wit
+h the same identifier (name{equation.3.2.1}) has been already used, duplicate i
+gnored
 <to be read again> 
                    \relax 
-l.314 	\end{align}
+l.316 	\end{align}
                   pdfTeX warning (ext4): destination with the same identifier (
-name{equation.2.2.2}) has been already used, duplicate ignored
+name{equation.3.2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.314 	\end{align}
-                   [38]
-<Figures/1_perturbation.png, id=1309, 712.6625pt x 380.42125pt>
+l.316 	\end{align}
+                  
+<Figures/1_perturbation.png, id=1249, 712.6625pt x 380.42125pt>
 File: Figures/1_perturbation.png Graphic file (type png)
 
 <use Figures/1_perturbation.png> [39 <./Figures/1_perturbation.png (PNG copy)>]
 [40]
 
-LaTeX Warning: Reference `TODO' on page 41 undefined on input line 419.
+LaTeX Warning: Reference `TODO' on page 41 undefined on input line 421.
 
-<Figures/1_tau_ms.png, id=1353, 578.16pt x 505.89pt>
+[41] <Figures/1_tau_ms.png, id=1307, 578.16pt x 505.89pt>
 File: Figures/1_tau_ms.png Graphic file (type png)
 
 <use Figures/1_tau_ms.png>
-<Figures/1_segregation_zone.png, id=1354, 578.16pt x 505.89pt>
+<Figures/1_segregation_zone.png, id=1308, 578.16pt x 505.89pt>
 File: Figures/1_segregation_zone.png Graphic file (type png)
 
-<use Figures/1_segregation_zone.png> [41] [42 <./Figures/1_tau_ms.png> <./Figur
-es/1_segregation_zone.png>]) (./Chapters/chapter_HLnbody.tex [43] [44
+<use Figures/1_segregation_zone.png> [42 <./Figures/1_tau_ms.png> <./Figures/1_
+segregation_zone.png>]) (./Chapters/chapter_HLnbody.tex [43] [44
 
 ]
-Chapter 3.
-<Figures/2_fragmentation.png, id=1394, 1084.05pt x 361.35pt>
+Chapter 4.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(./main.mtc4) <Figures/2_fragmentation.png, id=1345, 1084.05pt x 361.35pt>
 File: Figures/2_fragmentation.png Graphic file (type png)
 
-<use Figures/2_fragmentation.png> [45 <./Figures/2_fragmentation.png>]
-<Figures/2_MST.png, id=1414, 867.24pt x 361.35pt>
+<use Figures/2_fragmentation.png>
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\OT1/cmr/m/n/10.95 Mass
+ []
+
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 52.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 52.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 62.
+See the caption package documentation for explanation.
+
+[45] [46 <./Figures/2_fragmentation.png>]
+<Figures/2_MST.png, id=1371, 867.24pt x 361.35pt>
 File: Figures/2_MST.png Graphic file (type png)
  <use Figures/2_MST.png>
-<Figures/2_Ndcut.png, id=1418, 578.16pt x 433.62pt>
+<Figures/2_Ndcut.png, id=1376, 578.16pt x 433.62pt>
 File: Figures/2_Ndcut.png Graphic file (type png)
  <use Figures/2_Ndcut.png>
-<Figures/2_dcutdistribution.png, id=1419, 578.16pt x 433.62pt>
+<Figures/2_dcutdistribution.png, id=1377, 578.16pt x 433.62pt>
 File: Figures/2_dcutdistribution.png Graphic file (type png)
 
 <use Figures/2_dcutdistribution.png>
-<Figures/2_clumpsABC.png, id=1420, 1445.4pt x 505.89pt>
+<Figures/2_clumpsABC.png, id=1378, 1445.4pt x 505.89pt>
 File: Figures/2_clumpsABC.png Graphic file (type png)
 
-<use Figures/2_clumpsABC.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[46 <./Figures/2_MST.png>] [47 <./Figures/2_Ndcut.png> <./Figures/2_dcutdistrib
-ution.png>] <Figures/2_apextime_NH.png, id=1451, 578.16pt x 433.62pt>
+<use Figures/2_clumpsABC.png> [47 <./Figures/2_MST.png>] [48 <./Figures/2_Ndcut
+.png> <./Figures/2_dcutdistribution.png> <./Figures/2_clumpsABC.png>]
+<Figures/2_apextime_NH.png, id=1411, 578.16pt x 433.62pt>
 File: Figures/2_apextime_NH.png Graphic file (type png)
 
-<use Figures/2_apextime_NH.png>
-<Figures/2_ClumpMF_N.png, id=1453, 867.24pt x 1084.05pt>
+<use Figures/2_apextime_NH.png> [49 <./Figures/2_apextime_NH.png>]
+<Figures/2_ClumpMF_N.png, id=1420, 867.24pt x 1084.05pt>
 File: Figures/2_ClumpMF_N.png Graphic file (type png)
 
 <use Figures/2_ClumpMF_N.png>
-<Figures/2_ClumpMF_H.png, id=1454, 1084.05pt x 505.89pt>
+<Figures/2_ClumpMF_H.png, id=1421, 1084.05pt x 505.89pt>
 File: Figures/2_ClumpMF_H.png Graphic file (type png)
 
-<use Figures/2_ClumpMF_H.png> [48 <./Figures/2_clumpsABC.png>] [49 <./Figures/2
-_apextime_NH.png>] [50 <./Figures/2_ClumpMF_N.png>] [51 <./Figures/2_ClumpMF_H.
-png>] <Figures/2_ClumpMF_MF_1.png, id=1490, 469.755pt x 433.62pt>
+<use Figures/2_ClumpMF_H.png> [50] [51 <./Figures/2_ClumpMF_N.png>]
+<Figures/2_ClumpMF_MF_1.png, id=1442, 469.755pt x 433.62pt>
 File: Figures/2_ClumpMF_MF_1.png Graphic file (type png)
 
 <use Figures/2_ClumpMF_MF_1.png>
-<Figures/2_ClumpMF_MF_2.png, id=1491, 469.755pt x 433.62pt>
+<Figures/2_ClumpMF_MF_2.png, id=1443, 469.755pt x 433.62pt>
 File: Figures/2_ClumpMF_MF_2.png Graphic file (type png)
 
-<use Figures/2_ClumpMF_MF_2.png> [52 <./Figures/2_ClumpMF_MF_1.png> <./Figures/
-2_ClumpMF_MF_2.png>]
-<Figures/2_Vx_histogram_1.png, id=1502, 818.05624pt x 691.58376pt>
+<use Figures/2_ClumpMF_MF_2.png> [52 <./Figures/2_ClumpMF_H.png>] [53 <./Figure
+s/2_ClumpMF_MF_1.png> <./Figures/2_ClumpMF_MF_2.png>]
+<Figures/2_Vx_histogram_1.png, id=1460, 818.05624pt x 691.58376pt>
 File: Figures/2_Vx_histogram_1.png Graphic file (type png)
 
 <use Figures/2_Vx_histogram_1.png>
-<Figures/2_Vx_histogram_2.png, id=1503, 806.01125pt x 686.565pt>
+<Figures/2_Vx_histogram_2.png, id=1461, 806.01125pt x 686.565pt>
 File: Figures/2_Vx_histogram_2.png Graphic file (type png)
 
-<use Figures/2_Vx_histogram_2.png> [53] [54 <./Figures/2_Vx_histogram_1.png (PN
-G copy)> <./Figures/2_Vx_histogram_2.png (PNG copy)>]
-<Figures/2_ClumpMembers.png, id=1543, 650.43pt x 650.43pt>
+<use Figures/2_Vx_histogram_2.png> [54] [55 <./Figures/2_Vx_histogram_1.png (PN
+G copy)> <./Figures/2_Vx_histogram_2.png (PNG copy)>] [56]
+<Figures/2_ClumpMembers.png, id=1508, 650.43pt x 650.43pt>
 File: Figures/2_ClumpMembers.png Graphic file (type png)
 
-<use Figures/2_ClumpMembers.png> [55] [56 <./Figures/2_ClumpMembers.png>]
-<Figures/2_MaxMass.png, id=1566, 1328.965pt x 1161.33875pt>
+<use Figures/2_ClumpMembers.png>
+<Figures/2_MaxMass.png, id=1514, 1328.965pt x 1161.33875pt>
 File: Figures/2_MaxMass.png Graphic file (type png)
 
 <use Figures/2_MaxMass.png>
-<Figures/2_weidner.png, id=1567, 839.135pt x 876.27374pt>
+<Figures/2_weidner.png, id=1515, 839.135pt x 876.27374pt>
 File: Figures/2_weidner.png Graphic file (type png)
 
 <use Figures/2_weidner.png>
 
-LaTeX Warning: Float too large for page by 3.13605pt on input line 376.
+LaTeX Warning: Float too large for page by 3.13605pt on input line 382.
 
-<Figures/2_radial_ranking_schema.png, id=1591, 1560.83125pt x 431.6125pt>
+
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+ [57 <./Figures/2_ClumpMembers.png>] [58 <./Figures/2_MaxMass.png (PNG copy)> <
+./Figures/2_weidner.png (PNG copy)>]
+<Figures/2_radial_ranking_schema.png, id=1555, 1560.83125pt x 431.6125pt>
 File: Figures/2_radial_ranking_schema.png Graphic file (type png)
 
-<use Figures/2_radial_ranking_schema.png> [57] [58 <./Figures/2_MaxMass.png (PN
-G copy)> <./Figures/2_weidner.png (PNG copy)>]
-<Figures/2_ClumpSeg.png, id=1615, 1244.65pt x 974.64125pt>
+<use Figures/2_radial_ranking_schema.png> [59 <./Figures/2_radial_ranking_schem
+a.png (PNG copy)>] <Figures/2_ClumpSeg.png, id=1572, 1244.65pt x 974.64125pt>
 File: Figures/2_ClumpSeg.png Graphic file (type png)
 
-<use Figures/2_ClumpSeg.png>) (./Chapters/chapter_HLevolution.tex [59 <./Figure
-s/2_radial_ranking_schema.png (PNG copy)> <./Figures/2_ClumpSeg.png (PNG copy)>
-] [60
+<use Figures/2_ClumpSeg.png>
+Underfull \vbox (badness 1048) has occurred while \output is active []
 
-]
-Chapter 4.
-[61] [62] [63] <Figures/3_DistOrigin.png, id=1699, 1342.01375pt x 1059.96pt>
+ [60 <./Figures/2_ClumpSeg.png (PNG copy)>] [61]) (./Chapters/chapter_HLevoluti
+on.tex
+[62]
+Chapter 5.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(./main.mtc5) [63
+
+] [64] [65]
+<Figures/3_DistOrigin.png, id=1713, 1342.01375pt x 1059.96pt>
 File: Figures/3_DistOrigin.png Graphic file (type png)
 
 <use Figures/3_DistOrigin.png>
-<Figures/3_Rhm_global.png, id=1702, 1233.60875pt x 982.67125pt>
+<Figures/3_Rhm_global.png, id=1716, 1233.60875pt x 982.67125pt>
 File: Figures/3_Rhm_global.png Graphic file (type png)
 
-<use Figures/3_Rhm_global.png> [64 <./Figures/3_DistOrigin.png (PNG copy)>]
-<Figures/3_Lagr_radius.png, id=1717, 2521.42pt x 3166.83125pt>
+<use Figures/3_Rhm_global.png> [66 <./Figures/3_DistOrigin.png (PNG copy)>]
+[67 <./Figures/3_Rhm_global.png (PNG copy)>]
+<Figures/3_Lagr_radius.png, id=1736, 2521.42pt x 3166.83125pt>
 File: Figures/3_Lagr_radius.png Graphic file (type png)
 
-<use Figures/3_Lagr_radius.png> [65 <./Figures/3_Rhm_global.png (PNG copy)>]
-[66 <./Figures/3_Lagr_radius.png (PNG copy)>]
-<Figures/3_Rhm_segr.png, id=1739, 1142.2675pt x 1443.3925pt>
+<use Figures/3_Lagr_radius.png> [68] [69 <./Figures/3_Lagr_radius.png (PNG copy
+)>] <Figures/3_Rhm_segr.png, id=1759, 1142.2675pt x 1443.3925pt>
 File: Figures/3_Rhm_segr.png Graphic file (type png)
 
 <use Figures/3_Rhm_segr.png>
 
-LaTeX Warning: Float too large for page by 30.47144pt on input line 263.
+LaTeX Warning: Float too large for page by 30.47144pt on input line 247.
 
-[67] [68 <./Figures/3_Rhm_segr.png (PNG copy)>]
-
-LaTeX Warning: Reference `Sec:discussion' on page 69 undefined on input line 27
-4.
-
-[69]) (./Chapters/chapter_BinAlgo.tex [70]
-Chapter 5.
-<Figures/5_kdtree.png, id=1781, 626.5809pt x 556.479pt>
-File: Figures/5_kdtree.png Graphic file (type png)
-
-<use Figures/5_kdtree.png>
-<Figures/5_neighbours.png, id=1785, 961.5925pt x 601.24625pt>
-File: Figures/5_neighbours.png Graphic file (type png)
-
-<use Figures/5_neighbours.png> [71
-
-] [72 <./Figures/5_kdtree.png> <./Figures/5_neighbours.png (PNG copy)>]
-<Figures/5_sm_ratios.png, id=1804, 867.24pt x 433.62pt>
-File: Figures/5_sm_ratios.png Graphic file (type png)
-
-<use Figures/5_sm_ratios.png> [73 <./Figures/5_sm_ratios.png>]
-<Figures/5_flickering.png, id=1819, 1044.90375pt x 1150.2975pt>
-File: Figures/5_flickering.png Graphic file (type png)
-
-<use Figures/5_flickering.png>) [74] [75 <./Figures/5_flickering.png>] [76
+[70] [71 <./Figures/3_Rhm_segr.png (PNG copy)>] [72])
+(./Introduction/introduction_binaries.tex [73] [74
 
 ]
+Chapter 6.
+<Figures/0_albireo.jpg, id=1804, 236.885pt x 236.885pt>
+File: Figures/0_albireo.jpg Graphic file (type jpg)
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 89.
+<use Figures/0_albireo.jpg>
+<Figures/0_elliptictrajectories.png, id=1805, 897.3525pt x 665.48625pt>
+File: Figures/0_elliptictrajectories.png Graphic file (type png)
 
-(./main.bbl [77] [78
+<use Figures/0_elliptictrajectories.png> [75]
+<Figures/0_binperiods.png, id=1843, 923.45pt x 702.625pt>
+File: Figures/0_binperiods.png Graphic file (type png)
 
-] [79]
+<use Figures/0_binperiods.png>
+<Figures/0_binfraction.png, id=1844, 914.41624pt x 672.5125pt>
+File: Figures/0_binfraction.png Graphic file (type png)
+
+<use Figures/0_binfraction.png> [76 <./Figures/0_albireo.jpg> <./Figures/0_elli
+ptictrajectories.png (PNG copy)>] [77 <./Figures/0_binperiods.png (PNG copy)> <
+./Figures/0_binfraction.png (PNG copy)>]
+<Figures/0_binfraction_evolution.png, id=1900, 430.60875pt x 369.38pt>
+File: Figures/0_binfraction_evolution.png Graphic file (type png)
+
+<use Figures/0_binfraction_evolution.png>
+<Figures/0_separation_evolution.png, id=1901, 902.37125pt x 782.925pt>
+File: Figures/0_separation_evolution.png Graphic file (type png)
+
+<use Figures/0_separation_evolution.png>) (./Chapters/chapter_BinAlgo.tex
+[78 <./Figures/0_binfraction_evolution.png (PNG copy)> <./Figures/0_separation_
+evolution.png (PNG copy)>] [79] [80
+
+]
+Chapter 7.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(./main.mtc7) <Figures/5_kdtree.png, id=1958, 626.5809pt x 556.479pt>
+File: Figures/5_kdtree.png Graphic file (type png)
+
+<use Figures/5_kdtree.png> [81]
+<Figures/5_neighbours.png, id=1967, 961.5925pt x 601.24625pt>
+File: Figures/5_neighbours.png Graphic file (type png)
+
+<use Figures/5_neighbours.png>
+<Figures/5_sm_ratios.png, id=1972, 867.24pt x 433.62pt>
+File: Figures/5_sm_ratios.png Graphic file (type png)
+
+<use Figures/5_sm_ratios.png> [82 <./Figures/5_kdtree.png>] [83 <./Figures/5_ne
+ighbours.png (PNG copy)> <./Figures/5_sm_ratios.png>]
+<Figures/5_flickering.png, id=1994, 1044.90375pt x 1150.2975pt>
+File: Figures/5_flickering.png Graphic file (type png)
+
+<use Figures/5_flickering.png> [84] [85 <./Figures/5_flickering.png>]
+<Figures/5_spontaneous_primarymass.png, id=2017, 1346.02875pt x 1141.26375pt>
+File: Figures/5_spontaneous_primarymass.png Graphic file (type png)
+
+<use Figures/5_spontaneous_primarymass.png>
+
+Package natbib Warning: Citation `Wardduong2015' on page 86 undefined on input 
+line 148.
+
+
+Package natbib Warning: Citation `Wardduong2015' on page 86 undefined on input 
+line 148.
+
+[86 <./Figures/5_spontaneous_primarymass.png (PNG copy)>]
+<Figures/5_spontaneous_smaxis.png, id=2064, 1398.22375pt x 1122.1925pt>
+File: Figures/5_spontaneous_smaxis.png Graphic file (type png)
+
+<use Figures/5_spontaneous_smaxis.png>
+
+LaTeX Warning: Reference `Fig:completed_separations' on page 87 undefined on in
+put line 179.
+
+
+Package natbib Warning: Citation `raghavan2010' on page 87 undefined on input l
+ine 179.
+
+
+Package natbib Warning: Citation `bate2012' on page 87 undefined on input line 
+179.
+
+
+Package natbib Warning: Citation `kroupaburkert2001' on page 87 undefined on in
+put line 179.
+
+
+Package natbib Warning: Citation `parker2014' on page 87 undefined on input lin
+e 179.
+
+
+Package natbib Warning: Citation `goodwin2004' on page 87 undefined on input li
+ne 179.
+
+[87 <./Figures/5_spontaneous_smaxis.png (PNG copy)>]
+
+Package natbib Warning: Citation `parker2014' on page 88 undefined on input lin
+e 182.
+
+
+LaTeX Warning: Reference `Fig:spontaneous_binaryfractions' on page 88 undefined
+ on input line 183.
+
+
+Package natbib Warning: Citation `parker2014' on page 88 undefined on input lin
+e 192.
+
+
+LaTeX Warning: Reference `Sec:SpontBinFrac' on page 88 undefined on input line 
+192.
+
+
+LaTeX Warning: Reference `Fig:binaryfractions' on page 88 undefined on input li
+ne 192.
+
+
+LaTeX Warning: Reference `Fig:spontaneousseparations' on page 88 undefined on i
+nput line 192.
+
+<Figures/5_completed_primarymass.png, id=2085, 1346.02875pt x 1140.26pt>
+File: Figures/5_completed_primarymass.png Graphic file (type png)
+
+<use Figures/5_completed_primarymass.png>
+
+LaTeX Warning: Reference `Sec:Spont' on page 88 undefined on input line 207.
+
+[88] <Figures/5_completed_smaxis.png, id=2098, 1359.0775pt x 1107.13625pt>
+File: Figures/5_completed_smaxis.png Graphic file (type png)
+
+<use Figures/5_completed_smaxis.png>) [89 <./Figures/5_completed_primarymass.pn
+g (PNG copy)>] [90 <./Figures/5_completed_smaxis.png (PNG copy)>] (./main.bbl
+[91
+
+] [92
+
+] [93] [94]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no œ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
- [80] [81] [82] [83] [84]
+ [95] [96] [97] [98] [99]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¨ in font cmr10!
-) [85] [86
+) [100] (./main.lof [101
 
-] (./main.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87
 
 ]
-[88]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no µ in font cmr10!
+ [102]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90])
-\tf@lof=\write6
-\openout6 = `main.lof'.
+ [104]
 
+Package natbib Warning: Citation `Wardduong2015' on page 105 undefined on input
+ line 59.
 
-[91] [92
+)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [105] [106
 
 ] (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
- [93] (./main.aux)
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout3 = `main.maf'.
+
+
+
+Package minitoc(hints) Warning: W0033
+(minitoc(hints))                The caption package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main.log file.
+
+
+Package natbib Warning: There were undefined citations.
+
+[107] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1390,13 +1654,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22993 strings out of 493848
- 374983 string characters out of 1152824
- 518206 words of memory out of 3000000
- 25162 multiletter control sequences out of 15000+50000
+ 24705 strings out of 493848
+ 398801 string characters out of 1152824
+ 563112 words of memory out of 3000000
+ 26595 multiletter control sequences out of 15000+50000
  19637 words of font info for 73 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 58i,14n,55p,1785b,735s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,14n,55p,1768b,795s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/
@@ -1419,9 +1683,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (97 pages, 13192800 bytes).
+Output written on main.pdf (113 pages, 14280005 bytes).
 PDF statistics:
- 2356 PDF objects out of 2487 (max. 8388607)
- 533 named destinations out of 1000 (max. 500000)
- 867 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2680 PDF objects out of 2984 (max. 8388607)
+ 565 named destinations out of 1000 (max. 500000)
+ 935 words of extra memory for PDF output out of 10000 (max. 10000000)
 

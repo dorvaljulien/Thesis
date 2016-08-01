@@ -3,6 +3,9 @@
 \chapter{Collapse and dynamical evolution}
 
 
+In this chapter, we let the \HubLem models evolve and undergo violent relaxation. We compare their dynamical evolution with that of cold uniform models. We investigate the evolution of the structure and global mass segregation.
+
+\minitoc
 
 \section{The simulations}
 
@@ -13,26 +16,7 @@ The \HubLem fragmented system is subvirial by construction. The configuration we
 In the present chapter, simulations will use the fully fragmented state of Hubble models as initial conditions for the subsequent dynamical evolution. Observational clues point to  collapsing and violently relaxing clusters. For example, \cite{Cottaar2015} find IC348, a young (2-6 Myr) cluster, to be both survirial and with a convergent velocity field, consistent with infalling motion. Our models undergo dry collapse with no gas, while real objects such as IC348 still contain residual gas. The scenario of our simulations is an idealized situation: clearly if there was residual gas between the clumps and it was evacuated through stellar feedback, both the clump merger rate and the depth of the potential achieved during relaxation would be affected. As a limiting case, rapid gas removal may lead to total dissolution (see for instance \citealt{Moeckel2012} and \citealt{Fujii2016}). In the current situation, all clumps will merge. 
 
 
-\begin{table}
-\begin{center}
-\caption{Summary of collapse simulations and their characteristics. These simulations started from a subvirial state: cold uniform sphere or fully fragmented Hubble model; each were evolved up to t = 40 H.u}
-\label{Tab:evolution_models}
-\begin{tabularx}{0.6\textwidth}{XXlXX}
-\hline
-Name & N & Mass range & Model \\
-\hline
-Rh100 & 15000 & [0.3 - 100] & Hubble  \\
-Rh20 & 15000 & [0.35- 20 ] & Hubble  \\
-Ru100 & 15000 & [0.3 - 100] & Uniform  \\
-Ru20 & 15000 & [0.35- 20 ] & Uniform  \\
-\hline
-\end{tabularx}
-\end{center}
-\end{table}
-
-
-
-The numerical integration were done once more with the Nbody6 integrator with the same computational units. For comparison purposes, we also performed simulations of cold uniform sphere, a configuration which has been extensively used  in the past (e.g.,\citealt{Theis1999,Boily2002,Barnes2009,Caputo2014,Benhaiem2015}) and one that minimises the level of fragmentation and mass segregation in the on-set of collapse. Table~\ref{Tab:evolution_models} lists the simulations performed. We focus here on models with a mass function from 0.35$M_\odot$ to 20$M_\odot$ and 15000 stars, a compromise value for rich open clusters that should allow us to identify clearly collisional effects and trends with time, and ease comparison with the recent study by \cite{Caputo2014} where most calculations are performed with that sampling. We let both Hubble-fragmented- and uniform sphere evolve up to 40 H.u. 
+The numerical integration were done once more with the Nbody6 integrator with the same computational units. For comparison purposes, we also performed simulations of cold uniform sphere, a configuration which has been extensively used  in the past (e.g.,\citealt{Theis1999,Boily2002,Barnes2009,Caputo2014,Benhaiem2015}) and one that minimises the level of fragmentation and mass segregation in the on-set of collapse. The models are referenced as Rh100,Rh20,Ru100 and Ru20 in Table~\ref{Tab:2_models}. We focus here on models with a mass function from 0.35$M_\odot$ to 20$M_\odot$ and 15000 stars, a compromise value for rich open clusters that should allow us to identify clearly collisional effects and trends with time, and ease comparison with the recent study by \cite{Caputo2014} where most calculations are performed with that sampling. We let both Hubble-fragmented- and uniform sphere evolve up to 40 H.u. 
 
 
 
@@ -62,7 +46,7 @@ Which gives:
 \end{equation}
 
 
-Thus by running up to 40 H.u we ensure that the systems evolve for $ \sim  6 \times 10^6 $ years, about the lifetime of a 50$\Mo$ star. \footnote{For our models with more massive stars, up to 100$\Mo$, these represent only $\sim$ 5\% of the total mass and their removal would not significantly alter the dynamics of the system.}
+Thus by running up to 40 H.u we ensure that the systems evolve for $ \sim  6 \Myr $ years, about the lifetime of a 50$\Mo$ star. \footnote{For our models with more massive stars, up to 100$\Mo$, these represent only $\sim$ 5\% of the total mass and their removal would not significantly alter the dynamics of the system.}
 
 We now want to evaluate the crossing and relaxation timescales in such a system, as they were defined in the introduction (\ref{Sub:0_timescales}), and how they relate to the total duration of the simulation. We could attempt to derive a crossing time for the initial, subvirial state but it would not be representative of the evolution of the system. Instead, the more useful crossing time has to be computed from the equilibrium state achieved. Using the virial theorem and conservation of energy, we can derive dynamical timescales for the equilibrium system. From the definition, the crossing times is defined:
 \begin{equation}
@@ -150,7 +134,7 @@ This allows a more complete selection of the ejecta.  On Fig.~\ref{Fig:3_DistOri
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Figures/3_DistOrigin}
-\caption{Distance to origin for 750 stars from run Ru20 (see Table~\ref{Tab:evolution_models}). Red lines show the trajectory of stars that are considered ejected according to our criterion.}
+\caption{Distance to origin for 750 stars from run Ru20 (see Table~\ref{Tab:2_models}). Red lines show the trajectory of stars that are considered ejected according to our criterion.}
 \label{Fig:3_DistOrigin}
 \end{center}
 \end{figure}
@@ -194,7 +178,7 @@ Rh20  &  1932 & 12\% \\
 
 
 
-With this in mind  we turn to Fig.~\ref{Fig:3_Rhm_global} in which we show the evolution of the half-mass radius for the cold uniform model (labeled Ru20~; thick red curve), and the Hubble model (labeled Rh20~; thin blue curve). Both systems have the same bounding radius initially, contract to a small radius when $t \simeq 1.4 $ units and then rebound at time $t \simeq 2 $ units. When all the stars are included in the calculation for $r_h$, we find that the radius increases at near-constant speed after the collapse. That trend does not appear to be slowing down which indicates that a fraction of the stars are escaping. The first batch of escapers is driven by the violent relaxation, however the trend continues beyond $ t = 14$ units, corresponding to $t > t_{ms}$ which implies two-body scattering and effective energy exchange between the stars. Note how the uniform model has a much deeper collapse and rebounds much more violently, shedding a fraction twice as large of its stars (Table~\ref{tab:Ejectedstars}). The half-mass radius $R_h$ increases steadily in both models, from the bounce at $t \approx 2$, until the end of the simulation (values in H.u):  
+With this in mind  we turn to Fig.~\ref{Fig:3_Rhm_global} in which we show the evolution of the half-mass radius for the cold uniform model (labeled Ru20~; thick red curve), and the Hubble model (labeled Rh20~; thin blue curve). Both systems have the same bounding radius initially, contract to a small radius when $t \simeq 1.4 $ units and then rebound at time $t \simeq 2 $ units. When all the stars are included in the calculation for $r_h$, we find that the radius increases at near-constant speed after the collapse. That trend does not appear to be slowing down which indicates that a fraction of the stars are escaping. The first batch of escapers is driven by the violent relaxation, however the trend continues beyond $ t = 20$ units, corresponding to $t > t_{ms}$ which implies two-body scattering and effective energy exchange between the stars. Note how the uniform model has a much deeper collapse and rebounds much more violently, shedding a fraction twice as large of its stars (Table~\ref{tab:Ejectedstars}). The half-mass radius $R_h$ increases steadily in both models, from the bounce at $t \approx 2$, until the end of the simulation (values in H.u):  
 \begin{center}
 \begin{tabular}{lllrr}
 % & Deepest (t=2) & t=40  \\
@@ -271,7 +255,7 @@ Figure \ref{Fig:3_Rhm_segr} graphs the results for initially uniform-density- an
 Another interesting remark is that the kinematics of the stars within the {\it system} half-mass radius is much different between the two models. For the Hubble calculation, the system half-mass radius, $ \approx 0.43 $ H.u, at $t = 40$ (cf. Fig.\ref{Fig:3_Rhm_segr}d) coincides with the half-mass radius of the $30-40\%$ bin stellar sub-population. All bins up to that range show little or no time-evolution, around the end of the run, which we interpret as efficient retention of these stars by the relaxed cluster. In the case of the uniform-collapse run, the system half-mass radius reaches $\approx 0.33$ H.u., which is significantly larger than the radius for the $30-40\%$ stellar sub-population. For that model, only the bins $0-10\%$ and $10-20\%$ are flat, and all the others increase almost linearly with time. Thus a fair fraction of bright stars deep in the cluster show systematic {\it outward streaming} motion, along with low-mass ones. This brings up the possibility to measure this signature motion through relatively bright stars, originating well inside the cluster half-mass radius. Recall that only post-bounce bound stars where selected to compute $R_h$ on Fig.~\ref{Fig:3_Rhm_segr}(c) and (d) ; the expansion is therefore not driven by chance events (e.g., Fig.~\ref{Fig:3_Rhm_segr}a), but rather through two-body relaxation. On the down side the bright tracers would be short-lived, and this may prove a strong constraint for observational detection.
 
 
-Given the early dynamical evolution associated with substructured stellar clusters, some observed dense objects may yet be out of equilibrium (see \S\ref{Sec:discussion}(discussion) ). We wish to investigate the out-of-equilibrium state of our models just after the collapse. To ease the comparison between the two systems, the same rescaling procedure as for Fig~\ref{Fig:3_Lagr_radius} was applied to the uniform model, only this time the scaling was chosen so that the two clusters have comparable densities after the bounce. Lengths were multiplied by $4$; the time-axis is then scaled up by a factor $(4)^{3/2} = 8$. The result can be seen in panel (e); panel (f) shows a smoothed and zoomed in Hubble model for comparison.
+Given the early dynamical evolution associated with substructured stellar clusters, some observed dense objects may yet be out of equilibrium. We wish to investigate the out-of-equilibrium state of our models just after the collapse. To ease the comparison between the two systems, the same rescaling procedure as for Fig~\ref{Fig:3_Lagr_radius} was applied to the uniform model, only this time the scaling was chosen so that the two clusters have comparable densities after the bounce. Lengths were multiplied by $4$; the time-axis is then scaled up by a factor $(4)^{3/2} = 8$. The result can be seen in panel (e); panel (f) shows a smoothed and zoomed in Hubble model for comparison.
 
 
 
@@ -313,3 +297,19 @@ We compare the values of the different half-mass radii of the various population
 Both models appear mass segregated (since these ratios are significantly greater than unity). The Hubble model is more segregated, on the whole, albeit in a different way compared to the uniform model. The segregation in that one is more regular and spreads over more mass bins. In the Hubble model, the segregation is much enhanced for the first two mass bins. Such differences in the degree and nature of segregation can be explained by the clumps structure before the collapse. We showed in section \ref{Sec:2_ClumpSegregation} the clumps were mass segregated with the most massive members being preferentially located at their center. The low membership and mass of most clumps implies that segregation mostly affects the very top of the stellar mass function. This segregation, predominant among massive stars, is then found in the resulting centrally concentrated system, after the collapse, and visible on Fig.~\ref{Fig:3_Rhm_segr}. 
 
 The inheritance of mass segregation was studied by \cite{McMillan2007} for the case of merging Plummer spheres. \cite{Allison2010} furthermore showed that mass segregation in the system as a whole is enhanced for more filamentary  fractal initial condition (lower dimension, $D$ ; see their Fig. 5). Here our results confirm this observation. Mass segregation is a sensitive function of the initial clumpiness of the system and has immediate bearing on the dynamics of the virialised configuration, since all massive stars are more concentrated in the core.
+
+
+\section{Concluding remarks}
+
+
+We followed \HubLem fragmented models throughout collapse and subsequent dynamical evolution, and compared their structure and mass segregation to cold uniform models. 
+
+Fragmented models undergo a softer, shallower collapse than uniform models, due to their irregular spatial distribution and internal kinetic energy. Uniform models eject more than twice as much stars from the system at the bounce due to this deeper collapse and virialize with a 4 times smaller half-mass radius. This high concentration enhances two-body evolution and the system expands faster than the Hubble models, even when excluding the ejected stars from the system. Interestingly, after 40 H.u, or 6 Myr, both systems achieve approximately the same density and distribution.
+
+Both uniform and fragmented models develop mass-segregation over time, with the low-mass stars being preferentially ejected or diluted. However, just after collapse, \HubLem models exhibit a mass segregation mainly affecting the most massive stars. This characteristic is preserved throughout evolution while the segregation seen in uniform models is more spread out in the mass function. This is  a signature of the hierarchical formation, as this "Top-focused" segregation developed in small clumps and was inherited by the whole system. This would enhance colour gradient in the core of real clusters, opening the way for an observational criteria to assess the formation scenario of relaxed clusters.
+
+
+
+
+
+

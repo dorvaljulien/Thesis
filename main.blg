@@ -1,54 +1,91 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys raghavan2010 and Raghavan2010
+---line 589 of file main.aux
+ : \citation{DM91,raghavan2010
+ :                            }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys bate2012 and Bate2012
+---line 590 of file main.aux
+ : \citation{bate2012
+ :                   }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys parker2014 and Parker2014
+---line 594 of file main.aux
+ : \citation{parker2014
+ :                     }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys goodwin2004 and Goodwin2004
+---line 595 of file main.aux
+ : \citation{goodwin2004
+ :                      }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys parker2014 and Parker2014
+---line 596 of file main.aux
+ : \citation{parker2014
+ :                     }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys parker2014 and Parker2014
+---line 601 of file main.aux
+ : \citation{parker2014
+ :                     }
+I'm skipping whatever remains of this command
 The style file: mn2e.bst
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
 --line 3608 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
 --line 3616 of file Bibliography/bibdatabase.bib
+Repeated entry---line 5426 of file Bibliography/bibdatabase.bib
+ : @article{Renaud2011
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Wardduong2015"
+Warning--I didn't find a database entry for "kroupaburkert2001"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
-You've used 178 entries,
+Warning--empty publisher in Spitzer1987
+You've used 206 entries,
             2938 wiz_defined-function locations,
-            1709 strings with 35532 characters,
-and the built_in function-call counts, 82751 in all, are:
-= -- 6726
-> -- 6391
-< -- 15
-+ -- 2145
-- -- 2085
-* -- 6706
-:= -- 15748
+            1868 strings with 41279 characters,
+and the built_in function-call counts, 98074 in all, are:
+= -- 7889
+> -- 7854
+< -- 17
++ -- 2621
+- -- 2550
+* -- 7987
+:= -- 18655
 add.period$ -- 13
-call.type$ -- 178
-change.case$ -- 1333
-chr.to.int$ -- 181
-cite$ -- 182
-duplicate$ -- 3013
-empty$ -- 4757
-format.name$ -- 2343
-if$ -- 16093
-int.to.chr$ -- 4
+call.type$ -- 206
+change.case$ -- 1588
+chr.to.int$ -- 208
+cite$ -- 211
+duplicate$ -- 3490
+empty$ -- 5507
+format.name$ -- 2851
+if$ -- 19067
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 171
-newline$ -- 538
-num.names$ -- 718
-pop$ -- 1220
+missing$ -- 198
+newline$ -- 622
+num.names$ -- 832
+pop$ -- 1451
 preamble$ -- 1
-purify$ -- 1327
+purify$ -- 1582
 quote$ -- 0
-skip$ -- 2950
+skip$ -- 3462
 stack$ -- 0
-substring$ -- 3505
-swap$ -- 236
-text.length$ -- 13
+substring$ -- 4101
+swap$ -- 273
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1554
-warning$ -- 4
-while$ -- 823
+type$ -- 1803
+warning$ -- 5
+while$ -- 953
 width$ -- 0
-write$ -- 1777
-(There were 6 warnings)
+write$ -- 2056
+(There were 7 error messages)

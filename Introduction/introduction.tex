@@ -3,19 +3,49 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+
+
 \chapter{Introduction}
 
 \newpage
 
-\section{Introduction to star clusters}
+
+\section{A summary of the motivations}
+
+
+Globular Clusters(\textbf{GCs}) have long been considered invaluable witnesses of galaxy formation, given their old age and bond with their host galaxies. Observations of the GC specific frequency, the amount of GCs per galactic luminosity, showed elliptical galaxies harboured proportionally more globular clusters than spirals, see the review by \cite{Harris1991}. As elliptical are spiral-merger products, this pointed at merger events triggering episodes of globular cluster formations \citep{Ashman1992}.
+
+The relation between GC populations and galaxy formation history was strengthened and made more complex by the wealth of new observations brought by the advent of the Hubble Telescope. First, Young Massive Clusters, considered to be young globular clusters, were found in merging galaxies such as the Antennas \citep{Whitmore1995}. Then, cluster population around galaxies were observed to be bimodal: an extended, metal-poor blue population and a more concentrated, metal-rich red population \citep{Zepf1993,Geisler1996}. These clearly had different chemical and dynamical origins. Several hypothesis have been put forward to explain this puzzling observation: some advocated for the red population being created in merger events, others put forward the collection of blue clusters through accretion of dwarf galaxies, and others defended two distinct in-situ formation events in the galaxy, see the review by \cite{Brodie2006}.
+
+
+\begin{figure}
+\center
+\includegraphics[width=0.7\linewidth]{Figures/0_antennas.jpg}
+\caption{Composite visible and infrared picture of the merging Antennas galaxies (NGC 4038 and 4039). Very active star forming regions are seen in infrared as the gas is heated by newborn stars. Bright blue points are the hot OB stars found in the numerous Young Massive Clusters in the system. \textit{Credits}:NASA, ESA, and B. Whitmore (STScI). }
+\label{Fig:0_antennas}
+\end{figure}
+
+
+While this question remains unsettled, it is clear that understanding the formation of globular clusters is key to understand their link with the galaxy formation history. 10 years ago, a new observation brought even more complexity to our picture of cluster formation. Globular clusters had long been thought to be homogeneous single-age, single-metallicities, stellar populations. Yet, a study by \cite{Piotto2007} showed the globular cluster NGC 2808 contained at least three different stellar sequences. Many other GCs has been shown to contain multiple populations. As this cannot be explained by the natural age spread arising from a continuous star formation at the birth clusters, such observations have far-reaching implications on their formation scenario.
+
+A possible explanation is that globular clusters formed through the merging of smaller sub-clusters. These subclusters could have different metallicities, or possibly different ages, as a chain of successive, sequentially triggered star formation events could end up in the same cluster through merging. This picture is backed up by the most recent observations of star-forming regions in the Milky Way, showing a deeply substructured Inter-Stellar Medium (\textbf{ISM}) and star formation. That massive clusters form from merging of smaller fragmented have a strong influence of their survival rate to gas expulsion and their degree of primordial mass segregation. This in turn can affect our understanding of the ties between GC formation and galactic mergers, as the mass estimates of Young Massive Clusters in the Antennas hinge on their possible primordial mass segregation \citep{McCrady2005}.
+
+The dynamics of sub-clusters merging to form more massive systems emerged as a crucial aspect of cluster formation, and consequentially of our understanding of galaxy formation history. Hydrodynamical simulations of star cluster formation are computationally limited and can only address this issue at small scales. This work aims at circumventing this limitation through the creation of large-scale, dynamically consistent substructured initial conditions for cluster simulations, unveiling the dynamical behaviour of these massive merging systems.
+
+\paragraph*{}
+In this introduction, we first define star clusters and important dynamical concepts such as relaxation time and virial state. We then develop the current state of theory, observations and simulation on cluster formation, substructure and early dynamical evolution. Finally, we look at alternative ways to investigate substructured dynamical evolution.
+
+
+
+
+
+
+\section{What is a star cluster ?}
 
 
  What is a star cluster ? A direct, almost tautological, definition is "a group of stars". However, this includes galaxies and random line-of-sight groups. We are interested in physical objects, smaller than galaxies, in which stars are, if not bound together, at least under direct mutual gravitational influence. Such objects include open clusters, globular clusters or associations.  \cite{Lada2003} adopted the following definition: a cluster is a stellar system with N$>35$ and a density $\rho > 1~\Mo /\textrm{pc}^3$. These objects can either dissolve in less than a million year or remain bound for billions of years. In the last century, thanks to the improvement of observational technology, many  clusters have been discovered and their origins are progressively being unravelled.
 
-
-\subsection{Why study them ?}
-
-Clusters are the result of bursts of star formation in giant molecular clouds, or GMCs. All stars within a cluster were born approximately at the same time, which explains the sustained interest of the scientific community for star clusters: they are the best available stellar physics laboratories, a large population of stars sharing the same age and distance to Earth. The age of the cluster can be derived from the most massive surviving stars in the population, as stars have lifetimes inversely correlated with their mass. Overall, integrated spectral features from all members of a star cluster can provide a wealth of information.
+Clusters are the result of bursts of star formation in giant molecular clouds (\textbf{GMCs}). All stars within a cluster were born approximately at the same time, which explains the sustained interest of the community for star clusters: they are the best available stellar physics laboratories, a large population of stars sharing the same age and distance to Earth. The age of the cluster can be derived from the most massive surviving stars in the population, as stars have lifetimes inversely correlated with their mass. Overall, integrated spectral features from all members of a star cluster can provide a wealth of information. 
 
 \begin{figure}
     \centering
@@ -51,9 +81,8 @@ As we will see, clusters are also crucial to understand stellar formation. They 
 %
 %One example is the ability to date a cluster, thus its members, through the main-sequence turn off. On figure~\ref{Fig:0_HR} is shown the Hertzprung-Russel diagram for two different clusters: The Pleiades and M67. The HR diagram shows the luminosity of the star versus its color, redder on the right, bluer on the left. Stars spend most of their life on the Main Sequence, with the most massive, luminous blue stars on the left, and red fainter smaller stars on the right. Massive stars have shorter lives and depart from the main sequence before small stars. Looking at the Main Sequence turn-off in the HR diagram of a cluster tells us the mass of the stars currently leaving the MS, which gives its age and that of all other stars. As seen on the figure, the Pleiades are younger (100Myr) than M67 ($\sim$ 4 Gyr) as the stars leaving the MS are more massive.
 
-\subsection{Types of star clusters}
 
-Star clusters are historically divided into two main categories: globular clusters and open clusters. As observational technology improved, categories tended to blend into a spectrum of size, age, and dynamical state, with Young Massive Clusters, embedded clusters and OB associations. Several of these categories have significant overlap, but each one emphasizes a particular characteristic of star cluster, thus these are useful for a comprehensive discussion.
+Star clusters are historically divided into two "classical" categories: globular clusters and open clusters. As observational technology improved, categories tended to blend into a spectrum of size, age, and dynamical state, with Young Massive Clusters, embedded clusters and OB associations. Several of these categories have significant overlap, but each one emphasizes a particular characteristic of star cluster, thus these are useful for a comprehensive discussion.
 
 
 \begin{figure}
@@ -75,11 +104,11 @@ Star clusters are historically divided into two main categories: globular cluste
 \begin{itemize}
 
 
-\item[\textbf{Globular clusters}] are old and massive stellar systems. Most of them are older than 10 Gyr and more massive than $10^4~M_\odot$. The most massive known Globular cluster in the Milky Way is $\omega$ Centauri, with $4~10^6~\Mo$ \citep{Dsouza2013}, see Fig~\ref{Fig:0_openglobular1.glob}. They only contain stars, without any dust or gas. The 150 known globular clusters in the Milky way are scattered in the disk and the halo, with a higher concentration near the bulge \citep{Harris1996}. 
+\item[\textbf{Globular clusters}] are old and massive stellar systems, found orbiting most galaxies. Most of them are older than 10 Gyr and more massive than $10^4~M_\odot$. The most massive known Globular cluster in the Milky Way is $\omega$ Centauri, with $4~10^6~\Mo$ \citep{Dsouza2013}, see Fig~\ref{Fig:0_openglobular1.glob}. They only contain stars, without any dust or gas. The 150 known globular clusters in the Milky way are scattered in the disk and the halo, with a higher concentration near the bulge \citep{Harris1996}. 
 
-\item[\textbf{Open Clusters}] are lighter objects, rarely more massive than $10^3 \Mo$. They are also younger, with ages ranging from a few Myr to a few Gyr \citep{Dias2002}. In fact, open clusters do not have a clear definition other than the implicit and historical property of "not being a globular cluster" Overall, they are faint, sometimes irregular and volatile objects. Their small mass and lower density make them vulnerable to tidal disruption from passing massive clouds on nearby orbits. The pleiades are a famous example, see Fig~\ref{Fig:0_openglobular1.open}
+\item[\textbf{Open Clusters}] are lighter objects, rarely more massive than $10^3 \Mo$. They are also younger, with ages ranging from a few Myr to a few Gyr \citep{Dias2002}. Their small mass and lower density make them vulnerable to tidal disruption from passing massive clouds on nearby orbits. The pleiades are a famous example, see Fig~\ref{Fig:0_openglobular1.open}
 
-\item[\textbf{OB associations}] contain even less stars than open clusters, a few dozens in average. They get their name from the very massive luminous O and B type stars they contain, sometimes more massive than 50 $\Mo$. Such stars do not survive more than a few million years, OB association are thus young objects located in active star forming regions. They are often found near other associations, in a hierarchical structure.  Their density is much lower than a typical cluster, about $0.1 ~\Mo \textrm{pc}^{-3}$ \citep{Wright2014,Garcia2010},  in fact most are unbound and dissolving objects.
+\item[\textbf{OB associations}] contain even less stars than open clusters, a few dozens in average, among which very massive luminous O and B type stars, sometimes more massive than 50 $\Mo$. Such stars do not survive more than a few million years, OB association are thus young objects located in active star forming regions. They are often found near other associations, in a hierarchical structure.  Their density is much lower than a typical cluster, about $0.1 ~\Mo \textrm{pc}^{-3}$ \citep{Wright2014,Garcia2010},  in fact most are unbound and dissolving objects.
 
 \begin{figure}
 \center
@@ -88,9 +117,9 @@ Star clusters are historically divided into two main categories: globular cluste
 \label{Fig:0_SPZ}
 \end{figure}
 
-\item[\textbf{Embedded clusters}] are the youngest star clusters in the sky. Most of the stars, protostars and cores are still inside their primordial cloud, dust obscuring their optical light. The development of infrared astronomy unveiled the internal structure of these objects. As the gas is fully evacuated by 10~Myr \citep{Lada2003}, embedded clusters are younger and observed to be substructured \citep{Kuhn2015a}. Some have ongoing star formation, like NGC 1333, a very young embedded cluster with both proto-stars and stars, see \cite{Foster2015} and Fig~\ref{Fig:0_openglobular2.emb}.
+\item[\textbf{Embedded clusters}] are the youngest star clusters in the sky. Most of the stars, protostars and cores are still inside their primordial cloud, dust obscuring their optical light. The development of infrared astronomy unveiled the internal structure of these objects. Embedded clusters are young ($<$10Myr) and observed to be substructured \citep{Kuhn2015a}. Some have ongoing star formation, like NGC 1333, a very young embedded cluster with both proto-stars and stars, see \cite{Foster2015} and Fig~\ref{Fig:0_openglobular2.emb}.
 
-\item[\textbf{Young Massive Clusters}], or YMCs, are considered to be globular cluster progenitors. The review by \cite{PortegiesZwart2010} provides a definition of YMCs: bound systems more massive than $10^4 \Mo$ and younger than 100 Myr. Only a handful of such systems are known in the milky way (see Fig~\ref{Fig:0_SPZ}). The most studied YMC of the galactic neighborhood is R136, with a mass $\sim 10^5 \Mo$ \citep{Andersen2009}, see Fig~\ref{Fig:0_openglobular2.emb}. It is located in the Tarentula nebula, the most active known star forming region in the local group, inside in the Large Magellanic Cloud \footnote{A dwarf irregular galaxy orbiting the milky way.}. YMCs are found in large number in intense star forming environment such as starburst galaxies and galaxy mergers like the Antenna galaxies \citep{Whitmore2010}.
+\item[\textbf{Young Massive Clusters}], or \textbf{YMCs}, are considered to be globular cluster progenitors. The review by \cite{PortegiesZwart2010} provides a definition of YMCs: bound systems more massive than $10^4 \Mo$ and younger than 100 Myr. Only a handful of such systems are known in the milky way (see Fig~\ref{Fig:0_SPZ}). The most studied YMC of the galactic neighborhood is R136, with a mass $\sim 10^5 \Mo$ \citep{Andersen2009}, see Fig~\ref{Fig:0_openglobular2.emb}. It is located in the Tarentula nebula, the most active known star forming region in the local group, inside in the Large Magellanic Cloud \footnote{A dwarf irregular galaxy orbiting the milky way.}. YMCs are found in large number in intense star forming environment such as starburst galaxies and galaxy mergers like the Antenna galaxies \citep{Whitmore2010}.
 
 \end{itemize}
 
@@ -98,9 +127,7 @@ Star clusters are historically divided into two main categories: globular cluste
 
 
 
-"All stars form in clusters" is a recurring statement in the field of stellar and cluster formation. Near Infra-Red (NIR) studies of star forming region yielded an star formation rate from embedded clusters of $\sim 3~10^3~\Mo ~\textrm{Myr}^{-1}~ \textrm{kpc}^2$ \citep{Lada2003} while the same estimation for field stars in the milky way gives $\sim3-7~10^3~\Mo~\textrm{Myr}^{-1}~\textrm{kpc}^2$ \citep{Miller1979}. Another clue at the clustered nature of star formation is that high-mass O stars are for the vast majority, clustered, see \cite{DeWit2005}. Due to their short life, O stars are often observed at the very location of their birth, or not very far. However, some work by, e.g,  \cite{Gutermuth2011} shows a spatially hierarchical star formation. So stars do form in clusters, but these clusters and subclusters are diverse and their dynamical evolution is complex. Properties of clusters are expected to vary depending on what we decide to call a cluster.
-
-
+"All stars form in clusters" is a recurring statement in the field of stellar and cluster formation. Near Infra-Red (NIR) studies of star forming region yielded a star formation rate from embedded clusters of $\sim 3~10^3~\Mo ~\textrm{Myr}^{-1}~ \textrm{kpc}^2$ \citep{Lada2003} while the same estimation for field stars in the milky way gives $\sim3-7~10^3~\Mo~\textrm{Myr}^{-1}~\textrm{kpc}^2$ \citep{Miller1979}. Another clue at the clustered nature of star formation is that high-mass O stars are for the vast majority, clustered, see \cite{DeWit2005}. Due to their short life, O stars are often observed at the very location of their birth, or not very far. However, recent observations by, e.g,  \cite{Gutermuth2011} shows a spatially hierarchical star formation. The spherical, concentrated clusters we observe are then the outcome of a merging process from subclusters. 
 
 
 
@@ -142,6 +169,7 @@ Star clusters are historically divided into two main categories: globular cluste
 
 \section{Some important dynamical concepts}
 
+Before going into details about cluster formation and subsequent dynamical evolution, it is necessary to define some crucial dynamical concepts.
 
 \subsection{Virial theorem}
 
@@ -175,7 +203,7 @@ $Q=0.5$ is a system in virial equilibrium. If the amplitude of the velocities is
 \subsection{Dynamical timescales}
 \label{Sub:0_timescales}
 
-Dynamical systems tend to virial equilibrium. In such self-gravitating systems, it is useful to define a few dynamical time scales. The most simple one is the \textbf{crossing time}, defined as the time for a typical particle to cross the system. Following standard definitions \citep{Meylan1997,Fleck2006}, it is expressed as 
+Dynamical systems, like star clusters, tend to virial equilibrium. In such self-gravitating systems, it is useful to define a few dynamical time scales. The most simple one is the \textbf{crossing time}, defined as the time for a typical particle to cross the system. Following standard definitions \citep{Meylan1997,Fleck2006}, it is expressed as 
 
 \begin{equation}
 \label{Eq:0_tcr}
@@ -190,7 +218,7 @@ Another crucial timescale in stellar dynamics is the \textbf{relaxation time}, w
 \frac{\trel}{\tc} = \frac{0.138}{2} \left(\frac{R_h}{R_g}\right)^{1/2} \frac{N}{\ln 0.4 N}  
 \end{equation}
 
-In a self-gravitating system, stars have orbits. If N is large enough, the potential inside the system is smooth and stars have stationnary orbits. The relaxation time is the timescale at which the impact of numerous encounters a star endures is comparable to the motion of its initial orbit. In other words, the initial conditions of a system are dynamically erased by collisional evolution after a relaxation time.
+In a self-gravitating system, stars have orbits. If N is large enough, the potential inside the system is smooth and stars have stationary orbits. The relaxation time is the timescale at which the impact of numerous encounters a star endures is comparable to the motion of its initial orbit. In other words, the initial conditions of a system are dynamically erased by collisional evolution after a relaxation time.
 
 In a relaxed cluster, the core is dense with a high velocity dispersion, whereas the outskirts, the halo, is less dense and stars are slower. The definition from equation (\ref{Eq:0_tcr}) and (\ref{Eq:0_trel}) imply the relaxation time changes with distance to the center. It is therefore useful to define a global timescale for the whole system, the \textbf{half-mass relaxation time} defined by \cite{Heggie2003}:
 
@@ -215,7 +243,7 @@ Equations (\ref{Eq:0_trel}) and (\ref{Eq:0_trhm}) assume identical stellar masse
 \label{Eq:0_ms1}
 t_{ms}(m_1) = \frac{m_1}{\langle m \rangle} t_{rh}
 \end{equation} 
-so a 30 $\Mo$ star in the previous 1000 star cluster will have a relaxation time of $\frac{0.5}{30} 13 = 0.21$ Myr = 210,000 years, much faster. A mass spread in a system speeds up considerably its collisional evolution.
+so a 30 $\Mo$ star in the previous 1000 star cluster will have a much shorter relaxation time of $\frac{0.5}{30} 13 = 0.21$ Myr = 210,000 years. A mass spread in a system speeds up considerably its collisional evolution.
 
 A more general expression than (\ref{Eq:0_ms1}) can be obtained to quantify the global segregation timescale. From \cite{Fleck2006}, the mass-segregation timescale writes:
 
@@ -280,12 +308,15 @@ The main difference with the Plummer model can be seen in Fig~\ref{Fig:0_plummer
 
 \section{The origin of star clusters}
 
+In this section, we describe the current understanding of star formation and its substructured spatial distribution in relation to that of the ISM. We then describe the dynamical evolution brought by this distribution and how it relates to the expulsion of the primordial gas by the young stars.
+
+
 \subsection{From gas to stars}
 
 The interstellar medium, or ISM, is made of dust and gas in various phases, densities and temperatures, ranging from a hot ionized medium ($T>10^5 $~K and $n < 0.01 ~\cm^{-3}$) to a cold neutral medium ($T<100$~K and $n > 10 ~\cm^{-3}$),  see \cite{Field1969}. Finally, in colder denser regions, $T\sim 10$~K and $n>30~\cm^{-3}$, the hydrogen takes molecular form H$_2$ in what is called molecular clouds. The dust contained in these regions makes them optically thick, obscuring background stars. These "holes in the sky", as William Herschel exclaimed upon the Dark Ophiucus Nebula\citep{Houghton1942}, come in different sizes, from the Bok globules to Giant Molecular Clouds (GMCs).
 The interstellar dust absorbs the light in the visible and re-emits it in the infrared, thus the advent of infrared astronomy unveiled the interior of molecular clouds. In particular, recent observations with the Herschel Space Observatory showed a prevalence of filaments in clouds, see \cite{Andre2010} and Fig~\ref{Fig:0_horsehead}.
 
-Star formation occurs in the higher density clumps or filaments inside the clouds. The origin of these overdensities has been the object of extensive theoretical development for 60 years. Turbulent motion was very early on designated as the main cause of overdensity. Turbulence is the transfer of energy from large scales to small scales, creating motions on small scales from a large energy driver. The well known Kolmogorov incompressible turbulence is hardly applicable to the ISM, as it is highly compressible \citep{Scalo1998}, instead, molecular clouds are subject to supersonic turbulence, or Burgers turbulence \citep{Frisch2001}. Nearby supernovas or tidal perturbation feed energy into the cloud, which is transfered through turbulence to smaller scales as supersonic internal motions, shocks forming overdense sheets. \cite{McKee2007} argue that filaments originate both from the intersection of such sheets and the primordial morphology of the cloud, as self-gravitating pressureless matter condense as filaments \citep{Springel2005}.
+Star formation occurs in the higher density clumps or filaments inside the clouds. The origin of these overdensities has been the object of extensive theoretical development for 60 years. Turbulent motion was very early on designated as the main cause of overdensity. Turbulence is the transfer of energy from large scales to small scales, creating motions on small scales from a large energy driver. The well known Kolmogorov incompressible turbulence is hardly applicable to the ISM, as it is highly compressible \citep{Scalo1998}, instead, molecular clouds are subject to supersonic turbulence, or Burgers turbulence \citep{Frisch2001}. Nearby supernovas or tidal perturbation feed energy into the cloud, which is transfered through turbulence to smaller scales as supersonic internal motions, shocks forming overdense sheets. \cite{McKee2007} argue that filaments originate both from the intersection of such sheets and the primordial morphology of the cloud, as self-gravitating matter tends to condense as filaments \citep{Springel2005}.
 
 \begin{figure}
 \center
@@ -295,19 +326,21 @@ Star formation occurs in the higher density clumps or filaments inside the cloud
 \label{Fig:0_horsehead}
 \end{figure}
 
-Individual condensates of matter called cores form in clumps and filaments, these are stellar seeds (Fig~\ref{Fig:0_proto_1}). To collapse, they have to overcome their magnetic and thermal pressure and their internal turbulence. The idealized picture of an hydrodynamical collapse relies on an estimation of the Jeans length $\lambda_\textrm{J}$, the maximum wavelength of a density perturbation in a uniform gas above which pressure cannot respond fast enough to avoid gravitational collapse. The corresponding Jeans mass M$_\textrm{J}$, of diameter $\lambda_\textrm{J}$ is the minimum mass of a cloud to collapse. These quantities are derived in \cite{BT} and are expressed
+Individual condensates of matter called cores form in clumps and filaments, these are stellar seeds (Fig~\ref{Fig:0_proto_1}). They collapse when their self-gravity overcome their magnetic and thermal pressure and internal turbulence. When the central temperature increases and all molecular hydrogen has been dissociated, the collapse stops and the protostar is born (Fig~\ref{Fig:0_proto_2}). It starts accreting its gaseous envelope. Angular momentum from the original cloud shapes the envelope into a disk around the protostar, and magnetic activity starts creating jets (Fig~\ref{Fig:0_proto_3}). After about a Myr, accretion stops and the object becomes a Pre-Main Sequence (PMS) star (Fig~\ref{Fig:0_proto_4}). It slowly contracts, following the \cite{Hayashi1961} track, to finally reach 10$^6$K in its core and start fusing hydrogen into Helium. The  object enters the Main Sequence and begin its life as a "proper" star (Fig~\ref{Fig:0_proto_5}). See \cite{Larson1969} for a theoretical overview of the principles of collapse and protostellar formation. 
 
-\begin{align}
-\lambda_\textrm{J} & = \sqrt{\frac{\pi}{G \rho}} c_s \\
-	 & \simeq  0.2 \textrm{pc} \left( \frac{c_s}{0.2 ~ \textrm{km.s}^{-1}} \right) \left( \frac{n}{10^3 ~ \textrm{cm}^3} \right)^{-\frac{1}{2}}
-\end{align}
-
-\begin{align}
-M_\textrm{J} &=  \frac{4 \pi}{3} \rho  \lambda_\textrm{J} ^3 =    \frac{\pi}{6}  \frac{c_s^3}{G^\frac{3}{2}\rho^\frac{1}{2}} \\
- & \simeq  2.7 \Mo \left( \frac{c_s}{0.2 ~ \textrm{km.s}^{-1}} \right)^3 \left( \frac{n}{10^3 ~ \textrm{cm}^{-3}} \right)^{-\frac{1}{2}}
-\end{align}
-
-with $c_s$, $\rho$ and $n$ the local sound speed, density and number density. These are the typical values expected for a prestellar core with such sound speeds and number densities. It is reasonable to assume the gas remain isothermal for the first part of the collapse, as the center radiates away the thermal energy from the increased density. When density reaches $10^{10}$ cm$^{-3}$, the dust mixed in the protostellar material turns the core of the cloud optically thick, energy cannot be radiated away any more, temperature rises and collapse stops. Material continues to accumulate in the center, increasing the central density and temperature. When T reaches 2000K, molecular hydrogen starts to dissociate, absorbing energy. This allows a second collapse, stopped when all initial molecular hydrogen has been dissociated. The resulting core is called a protostar (Fig~\ref{Fig:0_proto_2}), its density profile is peaked in the center and reaches about $10^{21}$ cm$^{-3}$ and a temperature of 20,000K. The protostar has a mass of $\sim$ a thousandth of its future stellar mass, as most of it is acquired through accretion of the envelope. Angular momentum from the original cloud shapes the gaseous envelope into a disk around the protostar, and magnetic activity starts creating jets (Fig~\ref{Fig:0_proto_3}). This stage has been divided into several classes, based on the Spectral Energy Distributions (SED) emitted by the objects, as the emission shifts from far infrared to mid, then near-infrared as the envelope is accreted. See \cite{Evans2009} for an historical description of the SED classes and \cite{Larson1969} for a theoretical overview of the principles of collapse and protostellar formation. 
+%The idealized picture of an hydrodynamical collapse relies on an estimation of the Jeans length $\lambda_\textrm{J}$, the maximum wavelength of a density perturbation in a uniform gas above which pressure cannot respond fast enough to avoid gravitational collapse. The corresponding Jeans mass M$_\textrm{J}$, of diameter $\lambda_\textrm{J}$ is the minimum mass of a cloud to collapse. These quantities are derived in \cite{BT} and are expressed
+%
+%\begin{align}
+%\lambda_\textrm{J} & = \sqrt{\frac{\pi}{G \rho}} c_s \\
+%	 & \simeq  0.2 \textrm{pc} \left( \frac{c_s}{0.2 ~ \textrm{km.s}^{-1}} \right) \left( \frac{n}{10^3 ~ \textrm{cm}^3} \right)^{-\frac{1}{2}}
+%\end{align}
+%
+%\begin{align}
+%M_\textrm{J} &=  \frac{4 \pi}{3} \rho  \lambda_\textrm{J} ^3 =    \frac{\pi}{6}  \frac{c_s^3}{G^\frac{3}{2}\rho^\frac{1}{2}} \\
+% & \simeq  2.7 \Mo \left( \frac{c_s}{0.2 ~ \textrm{km.s}^{-1}} \right)^3 \left( \frac{n}{10^3 ~ \textrm{cm}^{-3}} \right)^{-\frac{1}{2}}
+%\end{align}
+%
+%with $c_s$, $\rho$ and $n$ the local sound speed, density and number density. These are the typical values expected for a prestellar core with such sound speeds and number densities. It is reasonable to assume the gas remain isothermal for the first part of the collapse, as the center radiates away the thermal energy from the increased density. When density reaches $10^{10}$ cm$^{-3}$, the dust mixed in the protostellar material turns the core of the cloud optically thick, energy cannot be radiated away any more, temperature rises and collapse stops. Material continues to accumulate in the center, increasing the central density and temperature. When T reaches 2000K, molecular hydrogen starts to dissociate, absorbing energy. This allows a second collapse, stopped when all initial molecular hydrogen has been dissociated. The resulting core is called a protostar (Fig~\ref{Fig:0_proto_2}), its density profile is peaked in the center and reaches about $10^{21}$ cm$^{-3}$ and a temperature of 20,000K. The protostar has a mass of $\sim$ a thousandth of its future stellar mass, as most of it is acquired through accretion of the envelope. Angular momentum from the original cloud shapes the gaseous envelope into a disk around the protostar, and magnetic activity starts creating jets (Fig~\ref{Fig:0_proto_3}). This stage has been divided into several classes, based on the Spectral Energy Distributions (SED) emitted by the objects, as the emission shifts from far infrared to mid, then near-infrared as the envelope is accreted. See \cite{Evans2009} for an historical description of the SED classes and \cite{Larson1969} for a theoretical overview of the principles of collapse and protostellar formation. 
 
 
 
@@ -346,41 +379,52 @@ with $c_s$, $\rho$ and $n$ the local sound speed, density and number density. Th
 
 
 
-After about a Myr, accretion stops and the object becomes a Pre-Main Sequence (PMS) star (Fig~\ref{Fig:0_proto_4}). It slowly contracts, following the \cite{Hayashi1961} track. The source of energy of the star is still gravitational contraction, until central temperature reaches 10$^6$K and hydrogen starts fusing into Helium. The  object enters the Main Sequence and begin its life as a "proper" star (Fig~\ref{Fig:0_proto_5}).
+
 
 
 \subsection{Substructure and early dynamical evolution}
 
-Observations show molecular clouds are substructured (see e.g. \citealt{Cambresy1999}). This substructure can be seen as a fractal distribution \citep{Elmegreen1996} or a network of filaments \citep{Andre2010}, both consistent with compressible turbulence \citep{McKee2007}	. This hierarchical structure is inherited by the cores and protostars that emerges from the overdensities, as many observational studies of star forming regions shows \citep{Schneider1979,Hartmann2002,Bressert2010}. Examples of substructured young clusters include the Taurus Ariga region, $\rho$-Ophiucus and Aquila, details and other examples can be found in both volumes of \textit{The handbook of star forming region} \cite{Reipurth2008}.  
+These stars emerges from molecular clouds, which are observed to be heavily substructured (see e.g. \citealt{Cambresy1999}). This substructure can be seen as a fractal distribution \citep{Elmegreen1996} or a network of filaments \citep{Andre2010}, both consistent with compressible turbulence \citep{McKee2007}. Cores and protostars inherit this hierarchical structure as many observational studies of star forming regions, or substructured young clusters, show \citep{Schneider1979,Hartmann2002,Bressert2010}. See for example the distribution of Young Stellar Objects in the Carina Nebula on Fig~\ref{Fig:0_carina}. Examples of substructured young clusters include the Taurus Ariga region, $\rho$-Ophiucus and Aquila, details and other examples can be found in both volumes of \textit{The handbook of star forming region} \cite{Reipurth2008}.  
 
 However, other young clusters do not display such fractal, clumpy or filamentary structure. Instead, they are smooth, centrally condensed systems. The most known example is the Orion Nebula Cluster, or ONC. Located in the heart of the Orion complex, the largest and most active star forming region in the solar neighborhood, the age of the ONC is estimated to a few Myr. \cite{Hillenbrand1998} found no clumps or filaments in the stellar distribution of the cluster, but a smooth distribution with a high density core formed by the Trapezium, a dense system of massive stars. This mass segregation, if not fully primordial, implies that some amount of dynamical evolution took place in the ONC since the formation of the stars. This dynamical evolution could have erased the initial substructures.
 
+This is consistent with observations by \cite{Andre2007} who found clumps of prestellar objects to have a very low velocity dispersion in Ophiucus, meaning these clumps are more likely to merge and interact than diverge and disperse in the field.
+
 These observations point at a rough picture of substructured stellar formation and early evolution: when the newly born stars emerges in clumps, if the background tidal field is weak and the star forming region sits well inside its Roche radius, the clumps then progressively merge and converge to the system barycentre to form a unique, relaxed  self-bound association over a  course of a few crossing time. This picture is backed up to some extent by hydrodynamical simulations of fragmentation modes in the turbulent ISM \citep{Klessen2000,Bate2003,MacLow2004,Offner2009,Maschberger2010} and by recent observationnal clues that subclusters show dynamical traces of mergers \citep{Kuhn2015b}. 
+
 
 \begin{figure}
 \center
-    \centering
-    \begin{subfigure}[b]{0.48\textwidth}
-        \includegraphics[width=\textwidth]{Figures/0_clumpsobserved.png}
-        \caption{Observed distribution of gas and protostars}
-        \label{Fig:0_clumps_obs}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.48\textwidth}
-
-        \includegraphics[width=0.9\textwidth]{Figures/0_clumpssimulated.png}
-        \caption{Hydrodynamical simulation}
-        \label{Fig:0_clumps_sim}
-    \end{subfigure}
-\caption{(a): observational data from the Monoceros R2 star forming region. Protostars are shown as red  points and gas density (traced through extinction) is shown in greyscale. The figure was extracted from \cite{Gutermuth2011}. (b): hydrodynamical simulation of a star forming region yellow points are star-like sink particles and red levels show gas density. The figure was extracted from \cite{Bonnell2011}.}
-\label{Fig:0_clumps}
+\includegraphics[width=0.7\linewidth]{Figures/0_carina}
+\caption{Herschel IR 70µm observations of the Carina Nebula, with YSOs as red points and diamonds. Cyan crosses show OB stars. Both the gas and prestellar objects follow a substructured distribution. The figure was extracted from \cite{Gaczkowski2013}.}
+\label{Fig:0_carina}
 \end{figure}
 
-Figure \ref{Fig:0_clumps} shows the similarity of stellar distribution obtained by observations and simulations of star forming regions.
+
+
+%\begin{figure}
+%\center
+%    \centering
+%    \begin{subfigure}[b]{0.48\textwidth}
+%        \includegraphics[width=\textwidth]{Figures/0_clumpsobserved.png}
+%        \caption{Observed distribution of gas and protostars}
+%        \label{Fig:0_clumps_obs}
+%    \end{subfigure}
+%    \begin{subfigure}[b]{0.48\textwidth}
+%
+%        \includegraphics[width=0.9\textwidth]{Figures/0_clumpssimulated.png}
+%        \caption{Hydrodynamical simulation}
+%        \label{Fig:0_clumps_sim}
+%    \end{subfigure}
+%\caption{(a): observational data from the Monoceros R2 star forming region. Protostars are shown as red  points and gas density (traced through extinction) is shown in greyscale. The figure was extracted from \cite{Gutermuth2011}. (b): hydrodynamical simulation of a star forming region yellow points are star-like sink particles and red levels show gas density. The figure was extracted from \cite{Bonnell2011}.}
+%\label{Fig:0_clumps}
+%\end{figure}
+%
 
 
 \subsection{Star formation efficiency and infant mortality}
 
-
+Though stars form in a hierarchical clumpy structure, star forming regions are vulnerable to gas expulsion and dispersion. 
 
 \begin{figure}
 \center
@@ -413,24 +457,50 @@ This picture is backed up by observations of young dissolving clusters \citep{Ba
 
 However, the picture is more complicated than it seems. The interaction between types of stellar feedback, such as winds, photoionisation and supernovaes, is not well understood \citep{Dale2011,Dale2013}, and their exact timescales can have a large influence on cluster survival \citep{Pelupessy2012}. Another serious issue with the classical picture of gas expulsion is that star formation is substructured and clusters undergo dynamical evolution while the gas is being evacuated, making survival heavily dependant on the clumpy structure, as shown by \cite{Farias2015}. Hydrodynamical simulations and recent observations show stellar clumps can be resistant to gas expulsion even before global dynamical relaxation \citep{Kruijssen2012,Kuhn2015b}, see Fig~\ref{Fig:0_ejection_2} which shows the distribution of virial parameter $Q$ of stellar clumps in a simulation, ignoring the gas potential. The vast majority have $Q<1$ and are expected to stay bound after expulsion.
 
+
 Substructure and dynamical evolution have a prominent place in the issue of cluster survival. In this work, we study this phenomenon without a hydrodynamical treatment of the gas to isolate purely dynamical effects.
 
 
 
 \section{Simulating star clusters evolution}
 
+In this section, we describe the general characteristics of the hydrodynamical simulations invoked
+earlier in this introduction. We emphasize their qualities and shortcomings, of which their limited system size. We then turn to alternative methods to numerically reproduce the early dynamical evolution of star clusters.
 
 \subsection{Hydrodynamical simulations}
 
-I invoked hydrodynamical simulations multiple times in the previous section. Let us look at them in more details. To model the formation of a star cluster from a core-less molecular cloud is no easy task. The model has to reproduce turbulence, core condensation, gravitational collapse, accretion, and for the most realistic ones, stellar feedback, magnetic effect and dust chemistry. Two numerical paths has been explored in the past: AMR and SPH.
+To model the formation of a star cluster from a core-less molecular cloud is no easy task. The model has to reproduce turbulence, core condensation, gravitational collapse, accretion, and for the most realistic ones, stellar feedback, magnetic effect and dust chemistry. Two numerical paths has been explored in the past: AMR and SPH.
 
 Adaptative Mesh Refinement, AMR, is an Eulerian approach. The hydrodynamical equations (conservation of mass, momentum, the equation of state) are discretized and solved on a grid of cells following the finite volumes methods (see the RAMSES code, \citealt{Teyssier2002}). Smoothed Particle Hydrodynamics, SPH, is a Lagrangian approach: instead of looking at inputs and outputs of matter in a cell, the gas is subdivided in particles free to move in the system. They are attributed a density, temperature and pressure. This method is akin the N-body integrator, and many SPH codes can work as purely gravitational integrators. Even if these codes can handle high density contrast, the collapse and formation of a protostar can still bring the numerical computation to a standstill. The usual workaround is the use of sink-particles: passed a given density threshold, several gas particles are merged into a single point-like object able to accrete any infalling matter. This works well though it suppresses any physical process below this accretion limit, usually a few to a hundred AU. \citep{Bate1997}.
 
-The precision, size and complexity of large scale cluster formation simulations have been steadily improving for 20 years (see \citealt{Turner1995,Klessen2000,Bate2003,Offner2009,Myers2014} and references). Nevertheless, no simulation to date include realistic cooling processes, radiative and wind feedback, magnetic fields and dust chemistry, all at the same time. All these are crucial to achieve precise and realistic simulation of the star formation process. Moreover, one of the most detailed star formation simulations to date, e.g \cite{Bate2012}, only form a few hundred stars and evolved them for less than 0.2~Myr with a simulation run time of several months.
 
-However, good results are already being achieved, see the short review by \cite{Clarke2012}. Stellar properties and general structure agree with observations and interesting results are being obtained. \cite{Maschberger2011} and \cite{Moeckel2011} have noted that massive stars tend to sit at the heart of gas clumps in hydrodynamical simulations, some as the result of merger events with low-mass proto-stars. 
 
-In summary, hydrodynamical simulations are not yet fully realistic, but they provide a good approximation of reality for small clusters and allow exploration of early dynamical processes.
+
+\begin{figure}
+\center
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+    	\centering
+        \includegraphics[width=0.9\textwidth]{Figures/0_bate2012.png}
+        \caption{Observed distribution of gas and protostars}
+        \label{Fig:0_bate2012}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{Figures/0_aquila_bate.png}
+        \caption{Hydrodynamical simulation}
+        \label{Fig:0_aquila_bate2012}
+    \end{subfigure}
+\caption{Comparison of star formation hydrodynamical simulation from \cite{Bate2012} (a) and Herschel infrared observations of the Aquila star forming complex, extracted from \cite{Konyves2010} (b). Gas column density is shown as levels of red and yellow on the left and as levels of blue and red on the right. The simulation spans 0.6 parsecs while the observations, with the distance estimate from the authors, span 7 parsecs. We inserted the simulation into the observation to compare the scales.}
+\label{Fig:0_clumps}
+\end{figure}
+
+
+
+The precision, size and complexity of cluster formation simulations have been steadily improving for 20 years (see \citealt{Turner1995,Klessen2000,Bate2003,Offner2009,Myers2014} and references). Nevertheless, no simulation to date include realistic cooling processes, radiative and wind feedback, magnetic fields and dust chemistry, all at the same time. All these are crucial to achieve precise and realistic simulation of the star formation process. Moreover, one of the most detailed star formation simulations to date, e.g \cite{Bate2012}, only form a few hundred stars in a volume spanning less than 1 pc and evolved them for less than 0.2~Myr with a simulation run time of several months. In fact, while looking at a typical star forming region, hydrodynamical simulations often reproduce a single fragment, see Fig~\ref{Fig:0_aquila_bate2012}.
+
+However, good results are already being achieved, see the short review by \cite{Clarke2012}. Stellar properties and general structure agree with observations and interesting results are being obtained. \cite{Maschberger2011} and \cite{Moeckel2011} have noted that massive stars tend to sit at the heart of gas clumps in hydrodynamical simulations, some as the result of merger events with low-mass proto-stars. The hydrodynamical treatement allows the formation of gaseous disks around protostars that can influence the dynamics on small scales.
+
+In summary, though hydrodynamical simulations are not yet fully realistic, they provide a good approximation of reality for small clusters and allow exploration of early dynamical processes. However, they cannot model the dynamical interactions between stellar sub-clusters and their consequences on a more massive final system.
 
 
 \subsection{Artificial substructure}
@@ -482,178 +552,44 @@ It is then essential to obtain a good model of the stars phase-space distributio
 
 \end{itemize}
 
-It seems the generation of substructure has to balance realism and computational cost. The most realistic method is too costly, and most of the quicker alternatives are disconnected from the dynamical effect arising from the collisional effects young stars undergo inside a clumpy configuration.
-
-
-
-\section{Binary stars}
-
-\subsection{What is a binary star ?}
-
-When two massive bodies of mass $m_1$ and $m_2$ interact gravitationally, they can have different types of trajectory depending on their total energy:
-
-\begin{equation}
-E = E_k + E_p = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2  - \frac{G m_1 m_2}{\| \bold{r_1} - \bold{r_2}\| }.
-\end{equation}
-
-%\begin{itemize}
-%\item[$\bold{E>0}$], the system is unbound, the bodies follow hyperbolic trajectories. They have a distance of closer approach then move away from each other forever.
-%\item[$\bold{E=0}$], the system is marginally unbound, the bodies follow parabolic trajectories.
-%\item[$\bold{E<0}$], the system is bound, the bodies have stable elliptical orbits around each others.
-%\end{itemize}
-
-If $E<0$, they are bound and locked in a binary system. Such systems are characterised by their semi-major axis $a$, their eccentricity $e$, their period $p$, their total mass $m_t = m_1 + m_2$, mass ratio $q = m_2/m_1$ with $m_1$ being the primary, more massive than $m_2$.
-Mass, period and semi-major axis are related by Kepler's third law:
-
-\begin{equation}
-\frac{G m_t}{4\pi^2} =  \frac{a^3}{p^2}.
-\end{equation}
-
-Interestingly, expressed in AU, $\Mo$ and years, $G \simeq 4 \pi^2$, thus the law can be written:
-
-\begin{equation}
-\left( \frac{m_t}{1 \Mo} \right) \simeq \left( \frac{p}{1 \textrm{yr}} \right) \left( \frac{a}{1 \textrm{AU}} \right)^3 .
-\end{equation}
-
-
-
-\begin{figure}
-\center
-    \centering
-    \begin{subfigure}[b]{0.48\textwidth}
-    	\centering
-        \includegraphics[width=0.6\textwidth]{Figures/0_albireo.jpg}
-        \caption{Albireo ($\beta$ Cygni)}
-        \label{Fig:0_binary_1}
-    \end{subfigure}
-    ~~
-    \begin{subfigure}[b]{0.48\textwidth}
-    	\centering
-        \includegraphics[width=0.93\textwidth]{Figures/0_elliptictrajectories.png}
-        \caption{Schematic of a two-body system}
-        \label{Fig:0_binary_2}
-    \end{subfigure}
-\caption{(a) Hubble observation of the binary star Albireo, fifth brightest star in the Cygnus constellation. Albireo A, the red star, is a close binary system itself (not represented on (b) for simplicity). The pair has a period of 213 years and a semi-major axis $a \simeq 66$ AU. }
-\label{Fig:0_binary}
-\end{figure}
+It seems the generation of substructure has to balance realism and computational cost. The most realistic method is too costly, and most of the quicker alternatives are disconnected from the dynamical effect arising from the collisional effects young stars undergo inside a clumpy configuration. There is a need for an computionally efficient method to produce dynamically consistent initial conditions to model young star clusters and study their evolution, which is what we introduce in the next section.
 
 
 
 
 
-The total energy of the binary can be expressed as a function of $a$ and $m_t$:
 
-\begin{equation}
-E = - \frac{G m_1 m_2}{2a} 
-\end{equation}
-
-\subsection{Why binaries ?}
-
-Binary stars are extremely important for a variety of reasons. They can be a reservoir of energy, supporting the core of a cluster against collapse by giving away their internal energy to perturbers, effectively ejecting stars and heating the system, affecting its global evolution and stopping core collapse (e.g \citealt{Heggie1992}).
-
-The statistical properties of binary star populations in dense stellar associations in particular may shed light on the discovery of multiple star-formation episodes in rich stellar clusters \citep{anderson2009}. For instance, binary stars enhance strong dynamical interactions which in turn may speed-up evolution off the main sequence and so boost enrichment of the ISM through winds (e.g., \citealt{Tailo2015}). Tight binaries of short-lived massive stars may evolve to produce exotic stellar remnants including black hole progenitors \citep{bacon1996,davies2009}. Blue stragglers, abnormally hot stars for the age of their host clusters, are thought to form in binary mergers, making them a dynamical record of the past binary population and dynamical state of the cluster \citep{Knigge2009}.
-
-Finally, accurate knowledge of binary populations in stellar clusters enable good estimation of their dynamical mass, as the integrated velocity dispersion is largely biased by the binaries internal motions, see \cite{Rubenstein1997}.
-
-\subsection{Multiplicity fraction}
-
-In a stellar population, some fraction of stars will be found in multiple systems: some  in binaries and some in higher order hierarchies. A hierarchical triple is a stable 3-body bound system, a binary of which one of the component is a binary itself. The same principle applies to quadruple, quintuple, etc. One of the brightest stars in the night sky, Castor, is a sextuple hierarchical system, with 6 stars in a stable system.
-
-Counting binaries and multiples is not straightforward: do you count triples as two binaries or three stars in a multiple system ? In their SPH simulation paper, \cite{Goodwin2004a} discuss several ways to measure the degree of multiplicity among stars in a system, each of them quantifying different properties, such as companion probability, companion frequency or pairing factor. 
-
-Let  S be the number of single stars, and B,T, and Q the number of binary-, triple-, and quadruple systems, respectively. The fraction of multiple stars bound in binaries, triples, .. to the total number of multiple plus single stars, is
-
-\begin{equation}
-\label{Eq:0_fm} 
-f_m = \frac{B + T + Q}{S + B + T + Q}. 
-\end{equation}
-
-This last  measure is used in seminal observationnal papers \citep{DM91,Raghavan2010} and is our adopted choice. As pointed out by \cite{Hubber2005}, $f_m$ in Eq. (\ref{Eq:0_fm}) has several advantages: 1) it  may be  restricted to a given mass $m$, setting  $S_m$ the number of single stars, and $B_m,\, T_m,\, Q_m$  the multiple stars with a primary of that mass ;  2)  the multiplicity fraction is observationally robust: when a binary is being reclassified as a triple, or an even higher order multiple system, the fraction does not change. 
- These definitions may be extended to cover a mass range  in a coherent way, by substituting $m \rightarrow \langle m\rangle$, the mean value over the range. This is useful mostly when comparing  systems with different stellar mass functions. 
+\section{A new method: the \HubLem fragmentation}
 
 
-\subsection{Observed population}
-\label{Sec:0_raghavan}
+For decades, cosmologists studied the development of substructures in the early universe. In an expanding universe, each point in space sees others moving away, with a velocity proportional to their distances, thus a smooth universe should stay smooth, no structure should develop. However, when the matter distribution is not perfectly smooth, the density fluctuations will grow through gravity, accreting nearby matter, against the cosmological flow.  These overdensities turn into galaxies, that then clump together to form galaxy clusters, building up a hierarchical density distribution, see \cite{White1978,Aarseth1979}. This is the general picture for galaxy formation.
 
-\begin{figure}
-\center
-    \centering
-    \begin{subfigure}[b]{0.48\textwidth}
-    	\centering
-        \includegraphics[width=\textwidth]{Figures/0_binperiods.png}
-        \caption{Period and semi-major axis distribution}
-        \label{Fig:0_binpop_1}
-    \end{subfigure}
-    ~~
-    \begin{subfigure}[b]{0.48\textwidth}
-    	\centering
-        \includegraphics[width=0.97\textwidth]{Figures/0_binfraction.png}
-        \caption{Binary fraction vs spectral type}
-        \label{Fig:0_binpop_2}
-    \end{subfigure}
-\caption{(a) shows the observed distribution of period and semi-major axis observed in the field. Different hatchings show different observation techniques: horizontal lines show unobserved companions detected by the proper-motion acceleration of components, positively sloped lines show spectroscopic binaries, negatively sloped lines visual binaries, cross hatching show objects found with both, and vertical lines are objects with common proper motions. (b) was compiled from several surveys, detailed in Fig 4.? (to come later). Both figures were extracted from \cite{Raghavan2010}. }
-\label{Fig:0_binpopulation}
-\end{figure}
+We applied this process to star clusters to obtain hierarchical substructures. We set up relatively smooth initial conditions by spawning stars in a uniform sphere, to which we attribute radial velocities  akin to the well-known Hubble velocity field of nearby galaxies. The model expands, reproducing the cosmological expansion, and overdensities grow, stars clump together, spontaneously forming substructures. We named this method the \HubLem fragmentation. The name of Georges Lema\^itre was added for historical accuracy. It has now been shown that the astronomical observations of redshifted galaxies and its interpretation as the consequence of an expanding universe predated Hubble's paper \citep{Hubble1929}. Georges Lema\^itre had published his conclusion on an expanding universe two years earlier \citep{Lemaitre1927}. The account of this can be found in \cite{Kragh2003,VanDenBergh2011} and \cite{Freeman2015}.
+
+As the model is analog to the cosmological model of an expanding universe, we adopted the usual notations in chapter \ref{Chap:analytical}. However, important differences should be noted:
+\begin{itemize}
+\item our model is not periodic but isolated and can be inserted in any environment;
+\item our particles follow a stellar mass function, at odds with the single-mass cosmological simulations;
+\item we use a collisional integrator and monitor close particles interactions;
+\item the expansion of our model slows down over time, as there is no internal energy source akin to the cosmological Dark Energy;
+\item the density fluctuations are not inserted from a known power spectrum but arise naturally from spatial Poisson noise and the stellar mass function.
+\end{itemize}
+
+Our view is that by following through with a full stellar IMF, the massive stars will define a radius of influence around themselves and sit preferentially, but not systematically, at the heart of sub-structures, retrieving a feature seen in star formation calculations \citep{Moeckel2011,Maschberger2010}, while short-cutting  costly computer calculations. The configuration that is sought here is not unlike the situation found in the formation of galaxy clusters in cosmology, as massive galaxies tend to drag in less massive ones and sit at the heart of clusters.
+
+In the first part of this thesis, we first analytically investigate the issue of fragmentation in an expanding cluster, deriving basic characteristics and timescales for the dynamical evolution of clumps. We then introduce N-body realization of \HubLem fragmented models, which we analyse and compare to hydrodynamical star formation simulations. The fragmented models are then used as initial conditions to study the dynamical evolution of substructured star clusters. 
+
+In the second part, we turn to binary stars, and the spontaneous binary population arising in the \HubLem models. We follow the effect of substructure and stellar density on the evolution of a binary population.
 
 
 
 
-A seminal survey of binary solar-type stars in the field was performed by \cite{DM91}. This seminal paper was updated and completed by \cite{Raghavan2010}, who essentially confirmed the main results from the first study. They observed hundreds of F and G main-sequence stars in pairs and derived their binary parameters. The total binary fraction for these stars was found to be $\sim$ 53\% as binaries are quite common in any stellar population.
-  The authors also derived a period distribution, extending from less than a day to more than a Myr. The distribution was consistently well fitted by a log-normal distribution. The period distribution for F and G stars (as well as K and M stars, see \citealt{Fischer1992}) is:
-\begin{equation}
-f( \log{P})\propto \exp \left[ \frac{- ( \log{P} - \mu_{logP})}{ 2 \sigma_{logP}^2} \right]
-\end{equation}
-
-with the peak value $\mu_{logP} = 5.03$, about 300 years, and the dispersion $\sigma_{logP} = 	2.28$, the distribution is shown on Fig~\ref{Fig:0_binpop_1}.
-
-\cite{Raghavan2010} also compiled several observational studies of binaries with primaries of various spectral types. High mass stars, types O,B,A, (from 30+ down to 2$\Mo$) have a high multiplicity fraction, about 75\%  while lower mass stars such as M-dwarfs only have 10-30\% multiplicity, see Fig~\ref{Fig:0_binpop_2}. This trend of increasing multiplicity with increasing primary mass is found in many surveys.
-Binary surveys are easier in the field due to the very large sample and low stellar density. To perform similar studies in young star clusters is much harder due to source crowding and embedded stars. \cite{Kouwenhoven2007} attempted to characterize the birth binary population in the OB association Scorpius OB2. They found a very high multiplicity fraction, consistent with 100\%, and a period distribution more consistent with a powerlaw than a log-normal distribution. From this survey and others, it is likely that the binary population in clusters undergoes an erosion through dynamical processing, with the field distribution as an end-result.
-
-\subsection{Simulate binary populations in clusters}
-
-As noted earlier, young clusters are born substructured, then undergo dynamical evolution. The rapid, global  merging of sub-structures would bring together stars at a different stage of their  formation (as in NGC1333, see \citealt{Foster2015}) while at the same time induce a shift from a clumpy Taurus-like profile to a more regular one. A simple but important question is how the internal dynamics of such complex configurations may affect the  characteristics of a population of binary stars. 
-
-Many authors have explored this question through optimised initial conditions \citep{Kroupa2001,Marks2012} or fractal configurations evolved with N-body integrators \citep{Parker2011,Geller2013,Parker2014}. A common feature to all these studies is that the binary fraction drops over time regardless of their components (masses), due e.g. to close star-star encounters or heating from the external galactic tidal field, see Fig~\ref{Fig:0_binsim_1}. It was also shown that wide binaries are, as expected, more prone to destruction than more compact systems, as is illustrated by the evolution of the population seen in Fig~\ref{Fig:0_binsim_2}.
-
- \cite{Parker2014} pointed out that the distribution of semi-major axes $a$ of the field population is a strong function of the primary's mass: at fixed $a$, low-mass binaries carry less binding energy so the distribution cuts off at shorter separation ($\sim 20 $ AU) compared to that for binaries with a more massive primary ($\sim 300$ AU). Their study of fractal initial conditions show that gravitational dynamics enhances the dissolution of low-mass systems. This then provides a clue to account for the larger relative fraction of heavy stars in binaries, such as seen in a compilation by \cite{Raghavan2010}. 
- 
- 
-\begin{figure}
-\center
-    \centering
-    \begin{subfigure}[b]{0.48\textwidth}
-    	\centering
-        \includegraphics[width=\textwidth]{Figures/0_binfraction_evolution.png}
-        \caption{Evolution of total binary fraction}
-        \label{Fig:0_binsim_1}
-    \end{subfigure}
-    ~~
-    \begin{subfigure}[b]{0.48\textwidth}
-    	\centering
-        \includegraphics[width=0.97\textwidth]{Figures/0_separation_evolution.png}
-        \caption{Evolution of semi-major axis distribution}
-        \label{Fig:0_binsim_2}
-    \end{subfigure}
-\caption{(a): total binary fraction over time in a subvirial fractal system. Corresponding models for the solid, dashed, dot-dashed and dotted are respectively 100\% initial binary fraction with log-normal distribution, 100\% fraction with Kroupa distribution, field-like fraction with log-normal distribution and field and 75\% fraction with log-normal distribution. (b): 100\% initial binary fraction with an initial log-normal distribution (open histogram) and the evolved distribution after 1Myr (hashed histogram). Solid red and dashed blue lines are fits for, respectively, the G-dwarf and M-dwarf populations. Both figures were extracted from \cite{Parker2011}.}
-\label{Fig:0_binsimulation}
-\end{figure}
-
- 
- 
-  We note that hydrodynamical calculations of star formation have found young heavy stars to be preferentially found in dense clumps \citep{Maschberger2010}. Furthermore, it is not clear yet whether binary populations should be tailored according to the total system mass because of the limited range of $M \sim 10^2$ to $ \sim 10^3 M_\odot$ of these studies \citep{Kroupa2001,Parker2011,Parker2014}. Recall that the intensity of the tidal field is a prime agent of binary heating.  A trend with mass may be expected on the ground that the drive to equilibrium of more massive systems leads to deeper potential wells (e.g. \citealt{Aarseth1988,Boily2002}). A steep potential will give rise to strong tidal fields which may disrupt bound sub-systems \citep{Boily2004,Renaud2011}. A definitive assesment of this effect is difficult to reach because the results are a strong function of the system initial mass distribution and kinetic energy content \citep{Boily2002,Caputo2014}.
+\chapter{Numerical tools}
 
 
+\section{H\'enon units}
 
-
-
-\section{NBODY6}
-
-
-NBODY6 is the second youngest iteration of the NBODY family, a suite of n-body integrators created by Sverre Aarseth. It can compute the gravitational interaction between up to 128,000 stars in a collisional fashion, meaning there is no softening of the potential, at any scale. This allows for very close binaries to form and remain in the system. To achieve its impressive performances, NBODY6 relies on several optimization technique which have been first developed in the 1960s and 1970s, and improved ever since. Here will be developped five major features of NBODY6, in chronological order of their implementation: H\'enon units, block time-step, KS-regularization, Hermite scheme and Ahmad-Cohen neighbour scheme. A full description can be found in Sverre Aarseth's book \citep{Aarseth2003}. Inspiration for this section should be credited to the user manual of NBODY6++, written by Emil Khalisi and Rainer Spurzem.
-
-\subsection{H\'enon units}
-
-NBODY6 uses a set of units specifically invented for the Nbody gravitational problem, the Nbody units, or H\'enon units (as prescribed by Douglas Heggie during the MODEST 2014 meeting). These units are based on three relations:
+Many N-body integrators use a set of units specifically invented for the Nbody gravitational problem, the Nbody units, or H\'enon units (as prescribed by Douglas Heggie during the MODEST 2014 meeting). They were introduced by \cite{Henon1971} and are based on three relations:
 
 \begin{align}
 G &= 1\\
@@ -683,141 +619,58 @@ r_h &= 4 (1-Q) |E_p| \cdot r\\
 v_h &= \sqrt{ \frac{Q}{4(1-Q) E_k} } \cdot v
 \end{align}
 
-with $E_p$ and $E_k$ being computed before rescaling with H\'enon masses and $G=1$. Such a system can be used as an input for NBODY6 without the need for the software to rescale anything.
-\subsection{Block time-step}
- 
-In the first Nbody simulations, the system was integrated with an universal time-step, determined by the most accelerated star. A star in the outer regions of the cluster with a small velocity did not need to be updated that often. One of the first improvement  was the introduction of individual time-step: each star is attributed its own time-step, depending on the force that is applied to it and its derivatives:
-
-\begin{equation}
-\label{Eq:0_timestep}
-\Delta t_i =  \eta \sqrt{\frac{ |\bold{F_i}||\bold{F^{(2)}_i}| + |\bold{F^{(1)}_i}|^2 }{|\bold{F^{(1)}_i}||\bold{F^{(3)}_i}| + |\bold{F^{(2)}_i}|^2}}
-\end{equation}
- 
-With $\bold{F}^{(j)}_i$ begin the j-th derivative of the force applied to particle i and $\eta$ a user-defined accuracy parameter. Such a complex formulation is the result of extensive tests and is quite robust for many special cases. Individual time-steps leads to desynchronized particles, hence the need to interpolate the positions of other particles to compute $\bold{F}_i$, which was achieved through fourth-order polynoms.
- 
- To limit the amount of desynchronization, block-time steps were introduced. Instead of having as many time steps as particles, one only allows quantized power of 2 of an initial time step. $\Delta t_0$,$\frac{\Delta t_0}{2}$, $\frac{\Delta t_0}{4}$, $\frac{\Delta t_0}{2^i}$. All time steps are then commensurate and regularly fall back on the same time steps, minimizing the amount of interpolation during the force calculations. The concept is illustrated on Fig~\ref{Fig:0_blocktimesteps}.
- 
-\begin{figure}
-
-\center
-\includegraphics[width=0.6\linewidth]{Figures/0_block_timesteps.png}
-\caption{Illustration of block time steps on 4 particles. Particles get their positions updated for each arrow symbol, common time steps are shown as vertical dotted lines. Figure from NB6++ User Manual. }
-\label{Fig:0_blocktimesteps}
-\end{figure} 
- 
- 
-\subsection{KS-regularization}
-
-Close binaries are extremely problematic in N-body simulations. They require a small time step as both binary components are much more accelerated than any other stars in the system, while the rest of the system is unaffected. Block time-step mitigate this problem, but the binary system still requires a lot of integration for an orbit that is essentially already known. Regularization is an answer to this problem. The essence of regularization is to decouple the integration of a sufficiently isolated sub-system, changing its coordinates to make integration easier, and including perturbations from external bodies. Several regularization scheme exist, NBODY6 implemented the Kustaanheimo-Stiefel method, or KS \citep{KS1965}.
-
-Two bodies are candidates for regularization when their impact parameter is lower that the one needed for an orthogonal deviation, wherein their trajectory are deviated of 90$^\circ$:
-\begin{equation}
-b_\perp = 2G \frac{m_1 +m_2}{v^2_\infty}
-\end{equation}
-with $m_i$ components masses and $v_\infty$ relative velocity before encounter. This impact parameter can be converted to a time step computed through equation ~\ref{Eq:0_timestep}:
-\begin{equation}
-dt_{min} = \kappa \frac{\eta}{0.03} \left( \frac{r^3_{min}}{\langle m \rangle}\right)^\frac{1}{2}.
-\end{equation}
-
-To be actually regularized, two bodies have to have a mutual time step lower than $dt_{min}$ and fulfill two conditions:
-
-\begin{align}
-\bold{R_r} \cdot \bold{V_r} &> 0.1 \sqrt{ G(m_1+m_2)R_r}\\
-\label{Eq:0_KSperturbation}
-\frac{\left| \Delta \bold{F_r} \right| \cdot R^2_r}{G(m_1+m_2)} &< 0.25.
-\end{align}
-
-$\bold{R_r}$ and $\bold{V_r}$ being the relative velocities and positions of the particles and $\left| \Delta \bold{F_r} \right|$ the differential force applied to them, or perturbation. These conditions mean the subsystem is dynamically decoupled from external influence, but not unperturbed. When they are satisfied, the subsystem is regularized: components are fused in a single particle at the system's center of mass in the global system, while the internal dynamics of the pair and computed separately, with a set of changed coordinates. These coordinates are tailored for binary motion and close approach, they are well behaved when $R_r \rightarrow 0$. The influence of perturbers is taken into account when necessary. When the perturbation ratio (left hand side of equation~\ref{Eq:0_KSperturbation}) drops below a certain value, the system is considered isolated and it is not computed anymore, its parameters being stored until the perturbation is strong enough to warrant integration.
-
-Regularisation have been extended to 3 and 4 bodies in hierarchical subsystems. NBODY6 can handle the regularization of a small-n non-hierarchical subsystem following the chain algorithm, see \cite{Mikkola1993}.
+with $E_p$ and $E_k$ being computed with H\'enon masses and $G=1$ but before rescaling length and velocities. Such a system can be used as an input for NBODY6 without the need for the software to rescale anything, as NBODY6 internally works with H\'enon units.
 
 
-\subsection{Hermite integration scheme}
-
-On the appropriate time-scales, the accelerations of the particles in a nbody system vary smoothly. It is therefore possible to predict the future acceleration then to correct the prediction, achivieving high order integration with limited computational cost. The Hermite integration scheme was first  introduced by \cite{Makino1991} and has since been implemented within NBODY6 \citep{Aarseth2003,Nitadori2012}.
-
-%Using individual time steps, the standard integration algorithm starts by determining the next particle whose motion to integrate, that is the one whose integration step will bring us to the smaller time: $ i = min_j(t_j + \Delta t_j)$.
-
-The first step is to compute the acceleration and its derivative at $t=t_0$ , for all particles $i$:
-
-\begin{figure}
-\center
-\includegraphics[width=0.9\linewidth]{Figures/0_hermite_scheme.png}
-\caption{Summary of the Hermite scheme starting from known positions and velocities at $t_0$ to obtain 5th order values at t.}
-\label{Fig:0_hermite_scheme}
-\end{figure} 
- 
-
-\begin{align}
-\label{Eq:0_Hermite_acc1}
-\bold{a}_{0,i} &= - \sum\limits_{i\neq j} G m_j \frac{\bold{R}}{R^3}\\
-\label{Eq:0_Hermite_acc2}
-\dot{\bold{a}}_{0,i} &=  - \sum\limits_{i\neq j} G m_j \left[ \frac{\bold{V}}{R^3}  + 
-	\frac{ 3 \bold{R} ( \bold{V} \cdot \bold{R} )  }{R^3}\right]
-\end{align}
-with $\bold{R} = \bold{r}_{0,i} - \bold{r}_{0,j} $ and $\bold{V} = \bold{v}_{0,i} - \bold{v}_{0,j} $. Using these quantities, it is now possible to predict the positions and velocities at $t$ through a Taylor serie, again for all particles $i$:
-
-\begin{align}
-\bold{r}_{p,i}(t) &= \bold{r}_0 + \bold{v}_0 (t-t_0) + \bold{a}_{0,i}\frac{(t-t_0)^2}{2!} 	
-		 +\dot{\bold{a}}_{0,i}\frac{(t-t_0)^3}{3!}\\
-\bold{v}_{p,i}(t) &= \bold{v}_0 + \bold{a}_{0,i}(t-t_0) + \dot{\bold{a}}_{0,i}\frac{(t-t_0)^2}{2!}
-\end{align}.
-
-The predicted accelerations and their derivatives $\bold{a}_{p,i}(t)$,  $\dot{\bold{a}}_{p,i}(t)$ are computed by injecting $\bold{r}_{p,i}(t)$ and $\bold{v}_{p,i}(t)$ into equations \ref{Eq:0_Hermite_acc1} and \ref{Eq:0_Hermite_acc2}. The accelerations at t, of which predicted values have just been computed, can also be obtained through Taylor series:
-
-\begin{align}
-\label{Eq:0_Hermite_taylor1}
-\bold{a}_{i}(t) &= \bold{a}_{0,i} + \dot{\bold{a}}_{0,i} (t-t_0) + \bold{a}^{(2)}_{0,i}\frac{(t-t_0)^2}{2!} + \bold{a}^{(3)}_{0,i}\frac{(t-t_0)^3}{3!}\\
-\label{Eq:0_Hermite_taylor2}
-\dot{\bold{a}}_{i}(t) &=  \dot{\bold{a}}_{0,i} +  \bold{a}^{(2)}_{0,i}(t-t_0) + \bold{a}^{(3)}_{0,i}\frac{(t-t_0)^2}{2!}
-\end{align}
-with $\bold{a}^{(2)}_{0,i}$,$\bold{a}^{(3)}_{0,i}$ the third and fourth derivative of the acceleration at $t=0$. Note that these quantities are unknown for now. To take the derivatives of equation \ref{Eq:0_Hermite_acc2} would be too computationnaly expansive. Instead, $\bold{a}_{p,i}(t)$ and  $\dot{\bold{a}}_{p,i}(t)$ are injected in the left hand side of equations \ref{Eq:0_Hermite_taylor1} and \ref{Eq:0_Hermite_taylor2} and solved for $\bold{a}^{(2)}_{0,i}$ and $\bold{a}^{(3)}_{0,i}$. This leads to the expressions:
-
-\begin{align}
-\bold{a}^{(3)}_{0,i} &= 12 \frac{\bold{a}_{0,i} - \bold{a}_{p,i}}{(t-t_0)^3} +6 \frac{\dot{\bold{a}}_{0,i} - \dot{\bold{a}}_{p,i}}{(t-t_0)^3}\\
-\bold{a}^{(2)}_{0,i} &= -6 \frac{\bold{a}_{0,i} - \bold{a}_{p,i}}{(t-t_0)^2} - 2 \frac{2\dot{\bold{a}}_{0,i} + \dot{\bold{a}}_{p,i}}{t-t_0}.
-\end{align}
-
-The predicted values of positions and velocities are then corrected using the second and third order derivatives of acceleration, yeilding fifth order accurate values.
-
-\begin{align}
-\bold{r}_{c,i}(t) &= \bold{r}_{p,i}(t) + \bold{a}^{(2)}_{0,i} \frac{(t-t_0)^4}{4!} +
-	 \bold{a}^{(3)}_{0,i} \frac{(t-t_0)^5}{5!}\\
-\bold{v}_{c,i}(t) &= \bold{v}_{p,i}(t) + \bold{a}^{(2)}_{0,i} \frac{(t-t_0)^3}{3!} +
-	 \bold{a}^{(3)}_{0,i} \frac{(t-t_0)^4}{4!}\\
-\end{align}
+\section{NBODY6}
 
 
+NBODY6 is a N-body integrator, it computes the trajectories in a system of interacting point masses. It is the second youngest iteration of the NBODY family, a suite of N-body integrators created by Sverre Aarseth. It can compute the gravitational interaction between up to 128,000 stars in a collisional fashion, meaning there is no softening of the potential, at any scale. This allows for very close binaries to form and remain in the system. The code preserves the total energy and angular momentum to better than one part in $10^4$ for integration over $\sim 100 $ time units.
 
-In a nutshell, the Hermite scheme is a way to obtain 5th order terms with limited cost. The steps are summarised in figure \ref{Fig:0_hermite_scheme}. First $r_0^{(2)}$ and $r_0^{(3)}$ are computed, then used to obtain predictions of $r_t^{(0)}$ and $r_t^{(1)}$, transformed with the equations of motions into predictions of $r_t^{(3)}$ and $r_t^{(4)}$. These last two can be expressed through Taylor series as functions of $r_0^{(3)}$,$r_0^{(4)}$ and $r_0^{(5)}$, which are solved for these last two terms. The predicted values of $r_t^{(0)}$ and $r_t^{(1)}$ are then corrected to the fifth order with $r_0^{(4)}$ and $r_0^{(5)}$.
+To achieve its impressive performances, NBODY6 relies on several optimization technique which have been first developed in the 1960s and 1970s, and improved ever since. NBODY1, first of its name, was developed in the early 1960s and based on the idea of force polynomial fitting: to ensure convergence, trajectories were computed by fitting polynomials to forces and obtaining high-order derivatives. Over time, the force fitting was enhanced, and additional techniques were added over the versions: NBODY3, NBODY2, NBODY4, NBODY5 (in that order, see \citealt{Aarseth1999} for a summary of the NBODYs development).
 
-The error for a single time step scales as $O(\Delta t^6)$. The Hermite scheme has shown itself very well suited for the block time step method, as the synchronization of particles limit the amount of prediction to be made, many positions at a given time being already known and computed with maximum accuracy.
+NBODY6 was a work-station version of NBODY5 and was first developed throughout the 1990s. It has been enhanced and optimized ever since. It inherited the major features from its NBODY ancestors that made them so successful. They are briefly described here in chronological order of their implementation:
 
+\begin{itemize}
+\item[\textbf{block time-steps}]; very early on, particles were attributed individual time-steps, functions of their acceleration. An innovation was to commensurate these time-steps: they could only be reduced by factors of 2, so all particles could easily resynchronise at some point in the simulation;
 
-\subsection{Ahmad-Cohen neighbour scheme}
+\item[\textbf{KS-regularization}] was introduced to circumvent the large acceleration in close pairs that slowed down integration, it relies on a change of variables for the pair that makes its integration faster, while still factoring perturbing influence from other particles; 
 
-For a given particle in an nbody system, the influence of direct neighbours changes on shorter timescales than the smooth potential from distant particles. The essence of the Ahmad-Cohen neighbour scheme is to decouple the two for computational efficiency \citep{AhmadCohen1973}. The acceleration is split into two components:
+\item[\textbf{Ahmad-Cohen Neighbour scheme}]; considering close neighbours and distant particles have distinct dynamical effects, their influence was split into regular and irregular integrationd, with some level of synchronization;
 
-\begin{equation}
-\bold{a}_i = \bold{a}_{i,reg} + \bold{a}_{i,irr}
-\end{equation}
+\item[\textbf{Hermite integration scheme}] was introduced as the latest integration scheme in the NBODY codes, it allows to obtain high-order estimates of future positions and velocities with limited computational cost.
 
-$\bold{a}_{i,irr}$ is the acceleration from particles inside a given "neighbour sphere" around particle $i$, while $\bold{a}_{i,reg}$ is the acceleration from all other, more distant, particles. Integration within the neighbours sphere,  \textit{irregular} integration, is decoupled from the global, \textit{regular}, integration. Regular time steps, where complete force summation are performed over all particles with eq \ref{Eq:0_Hermite_acc1}, are subdivided into irregular time steps, where regular acceleration is predicted and irregular acceleration is computed through a force summation on the $N_{i,nb}$ neighbours. The list of neighbours of $i$ is updated every regular time step and contains the particles within a sphere of radius $R_{i,s}$ centered on $i$. Also added to the neighbour list are the particles within $2^{\frac{1}{3}}R_{i,s} $ that satisfy the condition
-\begin{equation}
-\bold{R} \cdot \bold{V} < 0.1 \frac{R_s^2}{\Delta T_{reg}}
-\end{equation}
-with $\Delta T_{reg}$ the regular time step. This ensures that fast approaching particles are selected before they enter the actual neighbour sphere. $R_{i,s}$ is determined through local number density contrast and optimisation of the resulting $N_{i,nb}$. 
+\end{itemize}
 
-When $N_{nb} \ll N$ for most particles, there is a great performance improvement and a minimal loss of accuracy. 
+Appendix [TODO] contains additional details on these optimization techniques, while a complete description can be found in Sverre Aarseth's book \citep{Aarseth2003}.
 
+While a new generation, NBODY7, was developed to include post-newtonian effects and correctly integrate black hole binary dynamics \citep{Aarseth2003b}, the NBODY6 family has been extended into several branches. \cite{Spurzem1999} developped Nbody6++, a parallel version powered by MPI, while \citep{Nitadori2012} developed NBODY6GPU, a GPU-accelerated version. Recently, both versions were merged into a MPI-GPU hybrid NBODY6++-GPU \citep{Wang2015}. \cite{Renaud2011} and \cite{Renaud2015} introduced Nbody6tt, which allows the inclusion of complex tidal fields from large-scale galactic simulations.
 
-
+In this work, we adopted the widely used "vanilla" version NBODY6, and its GPU accelerated version when the number of particles exceeded 3000 (from several performance tests on our models).
 
 
+\section{StarFiddle, a N-body API}
 
+Over the course of this work, I developed several python interfaces and modules to handle snapshots of N-body simulations. Several C and Cuda libraries were implemented in these modules. Finally, all these were unified as a N-body python API called StarFiddle.
 
+It is centered around the PySnap class, which stores information about a N-body simulation snapshot: identities of particles (n), masses, position and velocities. This class has a wealth of methods to perform various analysis. The main methods are:
 
+\begin{itemize}
+\item Interactive Plot - 3d interactive and customizable 3D representation
+\item SelectParticles - allows boolean selection to produce a PySnap of a subsample;
+\item Binaries - detect binary stars using the algorithm described in chapter ?;
+\item kdTree - builds a kdTree of the spatial distribution to perform neighbour searches;
+\item Densities - computes local densities for each particles through the kdTree
+\item Energies - computes individual potential and kinetic energies for all particles
+\item Minimum Spanning Tree - builds the MST of the system, for structure analysis
+\item Clump detection - extract overdensities through the algorithm described in chapter ?
+\item Principal Component Analysis - performs a PCA on the system for structure analysis
+\item Write to file - writes the data to a ASCII file
+\end{itemize}
 
+Some computationally intensive methods were written in C or Cuda, then compiled into shared libraries. These can be called from C or Python through the ctypes module. The binary, energy, density were fully written for StarFiddle. The kdTree algorithm was adapted from C++ from \cite{numericalrecipes} to C, and its memory use was optimized; the algorithm was successfully ran on cosmological simulations for 20 million points. The minimum spanning tree was provided by the \href{http://mlpack.org/}{MLPACK library}. Binaries and kdTree are classes of their own which allows easy data storage and management.
 
+The cluster models module lets the user create PySnaps instances of various models of star clusters: King, Plummer, Uniform, Fractal or Hubble. The King model uses a C implementation of a fortran algorithm by Gerry Quinlan and Christian Boily. The model can be set to an arbitrary virial parameter $Q$ and injected with a primordial binary population. The stars can have identical masses or follow a Salpeter or L3 IMF (see Chap ?) with user-provided parameters.
 
+LaunchNB6 is a Python interface for NBODY6. I slightly modified NBODY6 so it prints ASCII snapshot files in place of the regular binary format output. LaunchNB6 creates the specified working directory and launch the integration from initial conditions, either a specific PySnap, or one created from the Cluster Models. It then reads the snapshot files to create a PyRun instance. PyRun is a class storing a list of PySnaps. It allows 
 
