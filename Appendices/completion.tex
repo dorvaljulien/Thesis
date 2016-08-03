@@ -1,0 +1,135 @@
+\chapter{Binary completion algorithm}
+
+The \HubLem expansion gives rise to a spontaneous binary population detailed in section ??. This population has a deficit of low-mass primary binaries compared to observed binary populations. Moreover, the semi-major axis of spontaneous binaries are too large compared to the canonical period/semi-major axis distribution from \cite{Raghavan2010}.
+
+We aim at injecting new binaries in the system to reproduce the characteristics of observed populations. The injected population should be designed to "fill" the discrepancy spontaneous/observed for low-mass primaries and short separations. In most cluster models, the binary injection procedure is straightforward: a normal model is generated, with some stars bearing the mass of both components of a binary. The binaries are then split with internal positions and velocities suiting the semi-major axis and eccentricity. 
+
+This cannot be directly applied to \HubLem models, as the star coordinates are not generated on the spot from a known distribution function, they are the product of the expansion. The binaries cannot be introduced into the initial uniform sphere, as such specific dynamical environment could have unexpected effects on the injected population, as could the expansion. The idea is then to introduce the fused binaries in the uniform sphere, let the expansion happen until apex, \textit{then} split the binaries.
+
+However, the number of spontaneous binaries is function of the total number of stars in the system, and introducing fused binaries lowers the effective number of spontaneous binaries. The population we injected in the uniform sphere is no longer appropriate to the current distribution of spontaneous. Moreover, many spontaneous binaries formed with one or two components being to-be-split fused binaries. Splitting the pairs will destroy them, further altering the spontaneous distribution.
+
+Actually, the picture is even more complex if one looks at the binary fractions in several primary-mass bins. A given primary star with a mass falling in the bin $i$, when merged with its secondary for the expansion, might fall into the bin $i+1$ and participate to the binary fraction in this bin. To converge towards a final population consistent with observations, we need to take into account the effects of injection, inter-bin transfers and splitting.
+
+\section{"Theoretical" population}
+\label{Sec:B_theoretical}
+
+Let us consider $N_{bin}$ primary mass bins $[m_i ; m_{i+1}]$ We label \textit{theoretical} binary fraction  $f_i^{th}$ the observed binary fraction in each of those bins. It is expressed:
+\begin{equation}
+\label{Eq:B_thfraction}
+f_i^{th} = \frac{n_i^{th}}{N_i^{s,th} + n_i^{th}}.
+\end{equation}
+with $n_i^{th}$ the theoretical number of binaries with a primary mass in the $i$th bin and $N_i^{s,th}$ the theoretical number of single stars falling into the $i$th bin. Given a total number of stars N, these have unique values as $f_i^{th}$ values are fixed. To inject an appropriate compensating population, we aim at obtaining $n_i^{th}$ binaries in each bins after splitting. To obtain these values is not straightforward, as though $f_i^{th}$ is known, $N_i^{s,th}$ depends on how much of the $N_i$ stars in the $i$th bins are part of a binary, be it as a primary ($n_i^{th}$) or a secondary, which depends on the number of binaries in all bins superiors or equal to $i$, as they cannot be secondary to a lighter star.
+
+We express $n_{i,j}^{th}$ the number of theoretical binaries with a primary in mass bin $i$ and a secondary in mass bin $j$, as the number of primaries in $i$ times the proportion of stars available to be secondaries in bin j compared to all other possible bins $k\le i$, considering full random pairing. The available secondaries in j are simply $N_j - n_j^{th}$, and $n_{i,j}^{th}$ writes
+\begin{equation}
+n_{i,j}^{th} = n_i^{th} \times \frac{N_j - n_j^{th} }{\sum\limits_{k\le i} \left( N_k - n_k^{th}. \right) }
+\end{equation}
+
+We can now write the theoretical number of single stars in bin $i$ as the total number of stars in said bin $N_i$ minus
+\begin{itemize}
+\item two times the number of binaries with primary \textit{and} secondary in $i$, as this removes two single stars;
+\item the number of binaries with a primary in $i$ and a secondary in $j<i$;
+\item the number of binaries with a primary in $j>i$ and a secondary in $i$;
+\end{itemize}
+which writes
+\begin{equation}
+N_i^{s,th} = N_i - 2  n_{i,i}^{th} - \sum\limits_{j<i} n_{i,j}^{th} - \sum\limits_{j>i} n_{j,i}^{th}
+\end{equation}
+
+Substituting in Eq.~\ref{Eq:B_thfraction}, we get
+
+\begin{equation}
+0 =  n_i^{th} \left( 1 - f_i^{th}\right) - f_i^{th}\left( N_i - 2  n_{i,i}^{th} - \sum\limits_{j<i} n_{i,j}^{th} - \sum\limits_{j>i} n_{j,i}^{th} \right)
+\end{equation}
+
+which is a system of $N_{bin}$ non linear equations with $N_{bin}$ unknown variables $n_i^{th}$. It can be numerically solved to obtain the appropriate number of binaries with primaries in each bins to have a system exhibiting the theoretical binary fraction distribution.
+
+\section{Injected and effective population}
+
+We consider a minimum mass of 0.1$\Mo$, a maximum mass of 30$\Mo$ and a total number of logarithmic mass bins $N_{bin} = 10$. This gives a bin width of $\simeq 0.24 < \log(2)$, meaning that the sum of two masses from the same bin systematically falls in the next bin\footnote{The smallest possible outcome, the lowest mass in the bin paired with itself, still falls in the next bin.}. With this in mind, we turn to the number of effective stars. As we inject binaries before the expansion as single objects, to be later split, the expansion happens with an effective total number of stars $\tilde{N} = N - n^{in}$ with $n^{in}$ the total number of injected binaries. On a single bin,  $n^{in}_i$ expresses the number of injected binaries with a primary in $i$. As in previous section, we define the number of injected binaries with a primary in mass bin $i$ and a secondary in mass bin $j$ as:
+\begin{equation}
+n_{i,j}^{in} = n_i^{in} \times \frac{N_j - n_j^{in} }{\sum\limits_{k\le i} \left( N_k - n_k^{in}. \right) }
+\end{equation}
+
+With this, we can express the number of effective stars in each bins (this number counts fused binaries as single stars) as the total number of stars in $i$, $N_i$,
+
+\begin{itemize}
+\item minus two times the number of injected binaries with both primaries and secondaries in $i$, as the merged object changes bins;
+\item minus the number of binaries with a secondary in $i$ and a primary in $j>i$, as the merged object cannot be in bin $i$;
+\item plus the number of injected binaries with both primaries and secondaries in $i-1$, as the merged objects from the lower bins count as single stars in the present bin.
+\end{itemize}
+
+The number of injected binaries with a primary in $i$ and secondary in $j<i$ has no effect on $\tilde{N}_i$ as the merged object still falls into $i$. The expression writes
+
+\begin{equation}
+\tilde{N}_i = N_i - 2  n_{i,i}^{in} - \sum\limits_{j>i} n_{j,i}^{in} + n_{i-1,i-1}^{in}
+\end{equation}
+
+
+This effective stellar population will experience the \HubLem expansion and form a spontaneous binary population. The spontaneous binary fraction $f_i^{sp}$ was obtained from several \HubLem fragmentation runs and did not significantly vary with N or \tHub. The presence of fused binaries slightly modifies the mass function of the system but we assume this does not affect the value of $f_i^{sp}$. We can write
+
+\begin{equation}
+\label{Eq:B_spfraction}
+f_i^{sp} = \frac{\tilde{n}_i^{sp}}{\tilde{N}_i^{s} + \tilde{n}_i^{sp}}.
+\end{equation}
+
+with $\tilde{n}_i^{sp}$ the number of spontaneous binaries with a primary mass in $i$ and $\tilde{N}_i^{s}$ the number of single stars in $i$, both in the effective population, in which a fused binary count as one star. Following previous notations, we write the number of spontaneous binaries with a primary in $i$ and secondary in $j$ as
+
+\begin{equation}
+\tilde{n}_{i,j}^{sp} = \tilde{n}_i^{in} \times \frac{\tilde{N}_j - \tilde{n}_j^{sp} }{\sum\limits_{k\le i} \left( \tilde{N}_k - \tilde{n}_k^{sp}. \right) }
+\end{equation}
+
+and the number of single stars in the effective population as
+
+\begin{equation}
+\tilde{N}_i^{s} = \tilde{N}_i - 2  \tilde{n}_{i,i}^{sp} - \sum\limits_{j<i} \tilde{n}_{i,j}^{sp} - \sum\limits_{j>i} \tilde{n}_{j,i}^{sp}.
+\end{equation}
+
+
+Substituting in Eq.~\ref{Eq:B_spfraction}, we get
+
+
+\begin{equation}
+\label{Eq:B_spontaneous}
+0 =  \tilde{n}_i^{sp} \left( 1 - f_i^{sp}\right) - f_i^{sp}\left( \tilde{N}_i - 2  \tilde{n}_{i,i}^{sp} - \sum\limits_{j<i} \tilde{n}_{i,j}^{sp} - \sum\limits_{j>i} \tilde{n}_{j,i}^{sp} \right)
+\end{equation}
+
+\section{Stable spontaneous}
+
+Some spontaneous binaries have one or two components that are fused binaries, we consider they do not survive splitting, as the algorithm will no longer register a bound pair. This can produce triple or quadruple hierarchical  systems if the spontaneous pair semi-major axis is sufficiently larger than the one(s) from the fused binary component(s), but we do not consider them here, the algorithm will only detect the inner pairs.
+
+Of the spontaneous binaries that arose in the effective population,  $\tilde{n}_i^{sp}$, only those without fused binaries as components survive. We assume this is a a necessary and sufficient condition for survival. We can obtain the number of \textit{stable} spontaneous binaries with a primary in $i$ and secondary in $j$ by multiplying the number of spontaneous binaries $\tilde{n}_{i,j}^{sp}$ by the proportions of effective stars in $i$ and $j$ that are \textit{not} fused binaries. Fused binaries in a given bin $k$ are the ones with primary and secondary both in $k-1$ and all binaries with a primary in $k$ and a secondary in any $l<k$. This writes
+
+\begin{equation}
+\tilde{n}_{i,j}^{sp,stable} = \tilde{n}_{i,j}^{sp}  	 \times
+\left( \frac{	\tilde{N}_i -
+				\tilde{n}_{i-1,i-1}^{sp} - 
+				\sum\limits_{k<i} \tilde{n}_{i,k}^{sp} }{\tilde{N}_i } \right) \times
+\left( \frac{ 	\tilde{N}_j -
+				\tilde{n}_{j-1,j-1}^{sp} - 
+				\sum\limits_{k<j} \tilde{n}_{j,k}^{sp} }{\tilde{N}_j } \right).
+\end{equation}
+
+Which translates, when talking about all stable spontaneous binaries with the primary in $i$, as
+
+\begin{equation}
+\tilde{n}_{i}^{sp,stable} = \sum\limits_{j\le i} \tilde{n}_{i,j}^{sp,stable}  
+\end{equation}
+
+
+We assume any injected binary survives when split, regardless of their final semi-major axis and the density of their environment, we will handle this later and it has no bearing on the present calculations. We can then finally writes the number of total surviving binaries
+
+Finally, we can write the number of surviving binaries in the system, both from the injected and stable spontaneous populations, and equate it to the target theoretical number so the system follows the theoretical binary fraction distribution:
+
+\begin{equation}
+\label{Eq:B_final}
+n_i^{th} = n_i^{in} + \tilde{n}_{i}^{sp,stable} .
+\end{equation}
+
+Since $n_i^{th}$ is known from section \ref{Sec:B_theoretical}, we have two sets of $N_{bin}$ unknown values, $n_i^{in}$ and $\tilde{n}_i^{sp}$, and two sets of $N_{bin}$ non-linear equations, Eq.~\ref{Eq:B_spontaneous} and Eq.~\ref{Eq:B_final}. This can be numerically solved to obtain the values of $n_i^{in}$.
+
+\section{Random pairing}
+
+
+
+

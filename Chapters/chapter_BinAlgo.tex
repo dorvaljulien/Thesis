@@ -145,7 +145,7 @@ Several studies have found a strong correlation between the binary fraction $f_m
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Figures/5_spontaneous_primarymass}
-\caption{Observational data of binary fractions (dots with uncertainties) as a function of primary mass. The data are taken from (in increasing primary mass): \protect\cite{Close2003,Basri2006,Fischer1992,Wardduong2015,Raghavan2010,Patience2002,Preibisch1999,Mason1998}. The red line is a  best-fit linear relation. The thin curves and 1-$\sigma$ dispersion shaded area are the results for a population of  spontaneous binaries obtained from HL  models.}
+\caption{Observational data of binary fractions (dots with uncertainties) as a function of primary mass. The data are taken from (in increasing primary mass): \protect\cite{Close2003,Basri2006,Fischer1992,Ward-Duong2015,Raghavan2010,Patience2002,Preibisch1999,Mason1998}. The red line is a  best-fit linear relation. The thin curves and 1-$\sigma$ dispersion shaded area are the results for a population of  spontaneous binaries obtained from HL  models.}
 \label{Fig:5_spontaneous_primarymass}
 \end{center}
 \end{figure}
@@ -176,49 +176,70 @@ characterise binary populations. Up to this point, the distances were given in  
 \end{figure}
 
 
-In practice the spontaneous binaries develop a bell-shaped  distribution of separation centered on $\sim 2000$ AU for a high-density HL model,  and $\sim 7000$ AU for a low-density one (see the broken curve on Fig~\ref{Fig:completed_separations}). This is much wider than the averaged value of $\sim 50$ AU for the Galactic field population \citep{DM91,raghavan2010}, where separations of $\sim 1 $ AU or lower are not uncommon. Hydrodynamical calculations by \cite{bate2012} show that orbital energy dissipated in the early stages of formation may cause binaries with an $\sim 10 $ AU  separation to shrink to $ a \sim  0.5 $ AU in the course of $t \sim 1 $ Myr. Analytical arguments by \cite{stahler2010} and \cite{korntreff2012} would have external drag forces from residual gas drive a tight binary to merge completely. \cite{kroupaburkert2001} have shown that stellar collisions  alone can not bring a narrow distribution of semi-major axes to the full width of observed values. Other studies such as \cite{parker2014}'s investigated the evolution of a binary population identical to the field but embedded in clumpy, fractal clusters \citep{goodwin2004} to test the robustness of the field population. 
+In practice the spontaneous binaries develop a bell-shaped  distribution of separation centered on $\sim 2000$ AU for a high-density HL model,  and $\sim 7000$ AU for a low-density one, shown on Fig.~\ref{Fig:5_spontaneous_smaxis}. This is much wider than the averaged value of $\sim 50$ AU for the Galactic field population \citep{DM91,Raghavan2010}, where separations of $\sim 1 $ AU or lower are not uncommon. Hydrodynamical calculations by \cite{Bate2012} show that orbital energy dissipated in the early stages of formation may cause binaries with an $\sim 10 $ AU  separation to shrink to $ a \sim  0.5 $ AU in the course of $t \sim 1 $ Myr. Analytical arguments by \cite{Stahler2010} and \cite{Korntreff2012} would have external drag forces from residual gas drive a tight binary to merge completely. \cite{Kroupa2001} have shown that stellar collisions  alone can not bring a narrow distribution of semi-major axes to the full width of observed values. Other studies such as \citeauthor{Parker2014}'s in \citeyear{Parker2014} investigated the evolution of a binary population identical to the field but embedded in clumpy, fractal clusters \citep{Goodwin2004} to test the robustness of the field population. 
 A full spectrum of separations is desirable for comparison with data and theoretical models but is not a  natural outcome of the HL fragmentation. 
 
-A trick was used to add  binaries to the fragmented HL initial conditions. We follow \cite{parker2014} to ease comparison with their setup, by supplementing the population of spontaneous binaries with one that matches the field galactic populations at small $a$. 
-In doing so, we should also constrain the statistical weights with mass so as to redress the deficit of small-mass primaries (Fig.~\ref{Fig:spontaneous_binaryfractions}).
+We follow \cite{Parker2014} to ease comparison with their setup, by supplementing the population of spontaneous binaries with one that matches the field galactic populations at small $a$. 
+In doing so, we should also constrain the primary mass distribution so as to redress the deficit of small-mass primaries (Fig.~\ref{Fig:5_spontaneous_primarymass}).
 
 
 
 \subsection{Completing the population}
 \label{Sec:Completing}
 
-To understand the fate of a binary population in a young cluster, one needs a proper and realistic binary population. [ talk about parker, meyer, etc ]
+\subsubsection*{Completion procedure}
 
-In a recent work by \cite{parker2014}, in which the author investigated the fate of a binary population in a fractally substructured cluster, the binary population injected in the system has a varying binary fraction depending on the primary mass. Following the trend illustrated in section~\ref{Sec:SpontBinFrac}, the binary fraction increases with primary mass and fits the observations. We wish to have such a population in our fragmented cluster, however, as shown on Fig~\ref{Fig:binaryfractions} and Fig~\ref{Fig:spontaneousseparations}, the spontaneous population shows a deficit of low-mass primary, short separations binaries.
+The addition of new binaries to the HL distribution is not straightforward, as the phase space coordinates of stars in an HL fragmented system are the consequence of the numerical evolution during the expansion (no known functional distribution function). A practical and coherent method is to build the extra binary population \textit{before} the HL expansion phase, and split them at apex.
 
-These missing binaries can be injected in the system to complete the spontaneous population and reconstitute a realistic, observations fitting population. The addition of new binaries is not straightforward, as the spatial coordinates of stars in a HL fragmented system are not under our direct control and are determined by the preceding expansion. A coherent method is to build the binary population to be injected in the system \textit{before} the expansion, and placing each binary in the initial uniform sphere as a single point bearing the mass of the two components. The HL expansion is then performed, leading to the fragmented configuration. Only then are these fused binaries split in two components with the relative positions and velocities matching their orbital parameters.
+The first step is to choose the proper distribution of primary mass for these new binaries. It should take into account the spontaneous population to preferentially populate the low-mass primary space. It should also take into account the fact that as the system expands with an effective number of stars $\tilde{N} = N - n_{in}$ with $n_{in}$ the number of injected binaries, as these contain two stars fused in a single object until apex. Thus, the number of spontaneous binaries is reduced. Moreover, some spontaneous pairs form at the end of the HL phase with one fused binary as a component. Many of these spontaneous binaries (we found $\approx 50\%$)  are no longer classified as bound pairs  once the massive point mass is split into the binary. By making a few assumptions, it is possible to account for these influences and derive a distribution of primary masses consistent with a final binary fraction distribution close to observations. The procedure is detailed in appendix ??. Once primaries are picked, secondaries are chosen through random pairing in the remaining population and fused binaries are introduced in the uniform, pre-expansion model.
 
-However, this implies the HL fragmentation occurs with less particles than intended in the full system, thus forming less spontaneous pairs. Furthermore, many of these spontaneous pairs form with at least one fused binary as a component, meaning they will be destroyed as this component splits into the binary it was intended to be. The proper quantity and distribution of binaries to inject is complex and dependant on several parameters: total N, HL parameter, mass function. Details on this process can be found in Dorval (2016,in prep.).
+Once the expansion ends and before binary splitting, the semi-major axis distribution of spontaneous binaries is measured. Many of these (we found $\approx 50\%$)  will no longer be classified as bound pairs once the massive point mass is split into the binary. A completion distribution is obtained by subtracting the semi-major axis distribution from spontaneous (only considering the ones expected to survive) from the \cite{Raghavan2010} distribution, so the final population recovers the observed population as much as possible. The injected binaries are split with semi-major axis drawn from this completion distribution. 
+
+%The binary detection algorithm is then ran on the system, bringing the resulting population. Binary fraction as a function of primary mass is seen on Fig~\ref{Fig:5_completed_primarymass}, while the semi-major axis distribution is shown as the green curve on Fig.~\ref{Fig:5_completed_smaxis}.
+
 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Figures/5_completed_primarymass}
-\caption{ Binary fraction as a function of primary mass for 20 20k particles models. Additional binaries were injected to complete the spontaneous population.}
+\caption{Binary fraction as a function of primary mass. The results displayed are the average of twenty realisations for 20k particles models; the shade indicates 1-$\sigma$ deviations. Short semi-major axis binaries were injected to complete the spontaneous population (compare with Fig~\protect\ref{Fig:spontaneous_binaryfractions}).}
 \label{Fig:5_completed_primarymass}
 \end{center}
 \end{figure}
 
-This was performed on 20 models, bearing the same characteristics than in section \ref{Sec:Spont}. The resulting binary fraction vs primary mass distribution is shown on Fig~\ref{Fig:5_completed_primarymass}. The deficit of low-mass primaries was bridged, whereas the high-mass primary binary fraction was slightly reduced. This was due to spontaneous high-mass primary binaries having a fused binary component and being destroyed at splitting. No massive binaries were introduced to compensate this, as the effect is small and the higher the spontaneous fraction, the harder it is to increase it by injecting new binaries.
+\subsubsection*{Result}
 
-As shown on Fig~\ref{Fig:5_spontaneous_smaxis}, spontaneous population exhibits a lack of small separation binaries that needs to be filled to obtain a completed distribution closer to the reality of the observed field population from \cite{Raghavan2010} that we use as a reference. We show on Fig~\ref{Fig:5_completed_smaxis} in short-dashed green the full spontaneous completion for the fragmented, before the splitting occurs. Not considering spontaneous binaries set not to survive the splitting (that is the ones with at least a fused binary as a component), we can correct the theoretical distribution by substracting the pre-existing population. This distribution is shown in long-dashed blue. The resulting distribution of semi-major axis in the system after splitting is shown in red, the theoretical distribution with a poissonian deviation is shown as a grey area.
+This procedure was tested on two sets of twenty \HubLem models, one with low density ($\approx 6$ stars$/\pc^3$), the other with high density ($\approx 400$ stars$/\pc^3$), both with 20k stars. The resulting binary fraction is plotted on Fig~\ref{Fig:5_completed_primarymass} as a function of the primary mass\footnote{Only the low mass primary models are shown, as density does not affect the primary-mass distribution.}. The deficit of low-mass primaries was bridged, while the fraction for high-mass primaries was slightly reduced (from 0.85 down to 0.75 for a primary mass of $\approx 20 \Mo$; note the increased scatter). This is the effect previously mentioned  of splitting fused spontaneous binary components with a heavy primary. (Several of these heavy spontaneous binaries with large separation no longer satisfy Eq~\ref{Eq:density_ratio}). No massive binaries were introduced to compensate for this effect, which remains relatively small. The values derived for this range of primary masses remain in complete agreement with observational data.
 
-The completed population has an excess of $\sim 10^4$ AU binaries, but a deficit of wider systems. The excess is due to the pre-existing spontaneous binaries and is hardly fixable. The "wide-axis" deficit, meaning binaries with a semi-major axis of $\sim 10^5$ AU were not found in the system,  as such systems cannot exist given the local stellar density. The low density models were used for Fig~\ref{Fig:5_completed_smaxis}, thus the mean stellar density is of 6 stars$/pc^3$. A quick calculation gives a mean distance between stars of $\sim 10^5$ AU in such an environment, making binaries this wide if not impossible, at least extremely short-lived and undetectable.
 
-While Hubble-Lemaitre fragmentation allows to obtain a self-consistent phase space distribution for a substructured model, the population completion presented here preserves this consistency by taking into account naturally occuring multiple systems, while allowing the user to inject a realistic binary population.
+Turning to the distribution of semi-major axis, we choose to truncate the injected binary population at short semi-major axis. Extensive numerical exploration of binary tidal heating has been performed by one of us (O. Roos 2012, unpublished). Binaries were put on highly eccentric orbits in cuspy \cite{Dehnen1993} potentials, so experiencing large variations in the tidal force. It was found the binary's binding energy varied by $ \approx 50\%$ or more only when the semi-major axis $a >  100$ AU. No binary-single stars or binary-binary interactions were included. The conclusion from this study is that binaries with axis $a$ shorter than 100 AU should rarely unbind due to tidal heating. Further tests with NBODY6, and the results of the next section, largely confirm this. With that in mind, and in view of the computational costs, we truncated the binary population at $a = 1$ AU. This choice allows to recover the range found in \cite{Bbate2012} SPH calculations, so a closer parallel can be made with his setup. 
+
+
+We show on Fig~\ref{Fig:5_completed_smaxis} in short-dashed  the full spontaneous binary population (with a peak value at $a \approx 7 000$ AU), prior to the procedure to split fused binaries. The distribution of separations for the fused binaries is shown as the long-dashed blue curve, with a dip around $ a \approx 10 000$ and 2000 AU for low and high density. Finally, the splitting procedure is carried out, and the result shown as the solid green curve. The grey shade is the expectation value for
+the parametrised Gaussian distribution of \cite{raghavan2010}. Discrepancies with this distribution are only significant for binaries with $a > 4 000$ AU for both densities. For low-density models, the peak of the spontaneous population, still visible after the splitting procedure, introduces an excess of binaries for (roughly)  $ 4 000 < a < 20 000 $ AU. Note how the excess of binaries in that range has been halved by the splitting procedure, dropping from a maximum of $\approx 370$ to $ \approx 170$. For the high-density model, as the spontaneous population is shifted towards short separation, their inclusion is easier and they only introduce a slight bump in the distribution at $ a \sim 2 000 $ AU.
+
+ For larger separations, the very wide binaries are not identified by the density threshold algorithm and are dropped from consideration. Since none of them is likely to survive for a long period of time given the density of the system, this will have no bearing on our conclusions. 
+
+\paragraph*{}
+While Hubble-Lemaitre fragmentation allows to obtain a self-consistent phase space distribution for a substructured model, the population completion presented here preserves this consistency by taking into account naturally occurring multiple systems, while allowing the user to inject a realistic binary population.
 
 
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{Figures/5_completed_smaxis}
-\caption{ Distribution histogram of binary semi-major axis for the completion of a population in a low density model. Spontaneous binaries before splitting are shown in short-dashed green, the population injected in the system in long-dashed blue and the resulting measured distribution in the completed system in red. The theoretical separation distribution from \protect\cite{Raghavan2010} is shown as a grey area, taking into account poisson dispersion.}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/5_completed_smaxis_LD}
+        \caption{Low-density model}
+        \label{Fig:5_completed_smaxis_LD}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/5_completed_smaxis_HD}
+        \caption{High-density model}
+        \label{Fig:5_completed_smaxis_HD}
+    \end{subfigure}
+\caption{Distributions of binary separations for the completion of a population in low and high density models. Spontaneous binaries before splitting are shown in short-dashed red, the population injected in the system in long-dashed blue and the resulting measured distribution in the completed system in green. The observational separation distribution from \protect\cite{raghavan2010} is shown as a grey area, taking into account Poisson dispersion.}
 \label{Fig:5_completed_smaxis}
-\end{center}
 \end{figure}
 

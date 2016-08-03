@@ -3,7 +3,7 @@
 \chapter{Nbody application}
 \label{Chap:nbody}
 
-After the previous analytical study, we present here the characteristics of  numerically obtained Hubble-Lema\^itre fragmented models. We present a clump-finding algorithm that we use to analyse the population of clumps obtained from the expansion. The influences of N, \tHub and stellar mass functions on the clumps mass function are investigated. We then look at the stellar content and distribution inside clumps, comparing them to clumps obtained from hydrodynamical simulations.
+After the previous analytical study, we present here the characteristics of numerically obtained Hubble-Lema\^itre fragmented models. The integrator NBODY6 and data analysis framework StarFiddle are described, as well as a clump-finding algorithm that we use to analyse the population of clumps obtained from the expansion. The influences of N, \tHub and stellar mass functions on the clumps mass function are investigated. We then look at the stellar content and distribution inside clumps, comparing them to clumps obtained from hydrodynamical simulations.
 
 
 \minitoc
@@ -18,63 +18,120 @@ After the previous analytical study, we present here the characteristics of  num
 \end{center}
 \end{figure}
 
-\section{N-body simulations}
+
+
+
+\section{Numerical tools}
+
+\subsection{H\'enon units}
+
+
+Many N-body integrators use a set of units specifically invented for the Nbody gravitational problem, the Nbody units, or H\'enon units (as prescribed by Douglas Heggie during the MODEST 2014 meeting). They were introduced by \cite{Henon1971} and are based on three relations:
+
+\begin{align}
+G &= 1\\
+M_t &= 1\\
+E &= -\frac{1}{4}
+\end{align}
+
+With $G$ the gravitational constant, $M_t$ the total mass of the system and $E$ total energy of the system. For a virialized system, that is a relaxed system in which the virial ratio 
+\begin{equation}
+Q = - \frac{E_k}{E_p} = 0.5
+\end{equation}
+it comes that $E_k=0.25$ and $E_p = -0.5$ and, considering the definition of the virial radius 
+\begin{equation}
+R_v = - \frac{G M_t^2}{2 E_p} = 1.
+\end{equation} 
+
+This unit system was designed for virialized systems, but can be used for out of equilibrium systems, as long as they are bound ($Q <1$), with energy expressions functions of $Q$
+\begin{align}
+E_p  &= - \frac{1}{4(1-Q)}\\
+E_k &= \frac{Q}{4(1-Q)}
+\end{align}
+which still fulfills the $E = -\frac{1}{4}$ condition. In practice, the H\'enon mass, radius and velocities are obtained through
+
+\begin{align}
+m_h &= \frac{m}{M_t}\\
+r_h &= 4 (1-Q) |E_p| \cdot r\\
+v_h &= \sqrt{ \frac{Q}{4(1-Q) E_k} } \cdot v
+\end{align}
+
+with $E_p$ and $E_k$ being computed with H\'enon masses and $G=1$ but before rescaling length and velocities. Such a system can be used as an input for NBODY6 without the need for the software to rescale anything, as NBODY6 internally works with H\'enon units.
+
+
+\subsection{NBODY6}
+
+
+NBODY6 is a N-body integrator, it computes the trajectories in a system of interacting point masses. It is the second youngest iteration of the NBODY family, a suite of N-body integrators created by Sverre Aarseth. It can compute the gravitational interaction between up to 128,000 stars in a collisional fashion, meaning there is no softening of the potential, at any scale. This allows for very close binaries to form and remain in the system. The code preserves the total energy and angular momentum to better than one part in $10^4$ for integration over $\sim 100 $ time units.
+
+To achieve its impressive performances, NBODY6 relies on several optimization technique which have been first developed in the 1960s and 1970s, and improved ever since. NBODY1, first of its name, was developed in the early 1960s and based on the idea of force polynomial fitting: to ensure convergence, trajectories were computed by fitting polynomials to forces and obtaining high-order derivatives. Over time, the force fitting was enhanced, and additional techniques were added over the versions: NBODY3, NBODY2, NBODY4, NBODY5 (in that order, see \citealt{Aarseth1999} for a summary of the NBODYs development).
+
+NBODY6 was a work-station version of NBODY5 and was first developed throughout the 1990s. It has been enhanced and optimized ever since. It inherited the major features from its NBODY ancestors that made them so successful. They are briefly described here in chronological order of their implementation:
+
+\begin{itemize}
+\item[\textbf{block time-steps}]; very early on, particles were attributed individual time-steps, functions of their acceleration. An innovation was to commensurate these time-steps: they could only be reduced by factors of 2, so all particles could easily resynchronise at some point in the simulation;
+
+\item[\textbf{KS-regularization}] was introduced to circumvent the large acceleration in close pairs that slowed down integration, it relies on a change of variables for the pair that makes its integration faster, while still factoring perturbing influence from other particles; 
+
+\item[\textbf{Ahmad-Cohen Neighbour scheme}]; considering close neighbours and distant particles have distinct dynamical effects, their influence was split into regular and irregular integrationd, with some level of synchronization;
+
+\item[\textbf{Hermite integration scheme}] was introduced as the latest integration scheme in the NBODY codes, it allows to obtain high-order estimates of future positions and velocities with limited computational cost.
+
+\end{itemize}
+
+Appendix [TODO] contains additional details on these optimization techniques, while a complete description can be found in Sverre Aarseth's book \citep{Aarseth2003}.
+
+While a new generation, NBODY7, was developed to include post-newtonian effects and correctly integrate black hole binary dynamics \citep{Aarseth2003b}, the NBODY6 family has been extended into several branches. \cite{Spurzem1999} developped Nbody6++, a parallel version powered by MPI, while \citep{Nitadori2012} developed NBODY6GPU, a GPU-accelerated version. Recently, both versions were merged into a MPI-GPU hybrid NBODY6++-GPU \citep{Wang2015}. \cite{Renaud2011} and \cite{Renaud2015} introduced Nbody6tt, which allows the inclusion of complex tidal fields from large-scale galactic simulations.
+
+In this work, we adopted the widely used "vanilla" version NBODY6, and its GPU accelerated version when the number of particles exceeded 3000 (from several performance tests on our models).
+
+
+
+\subsection{StarFiddle, an N-body API}
+
+
+
+\begin{figure}
+\center
+\includegraphics[width=\linewidth]{Figures/0_StarFiddle}
+\caption{Visualization of the StarFiddle API. Squared boxes are data storing classes while rounded boxes are modules.}
+\label{Fig:0_StarFiddle}
+\end{figure}
+
+
+Over the course of this work, I developed several python interfaces and modules to handle snapshots of N-body simulations. Several C and Cuda libraries were implemented in these modules. Finally, all these were unified as a N-body python API called StarFiddle.
+
+StarFiddle is centered around the PySnap class, which stores information about a N-body simulation snapshot: identities of particles (n), masses, position and velocities. This class has a wealth of methods to perform various analysis. The main methods are:
+
+\begin{itemize}
+\item Interactive Plot - 3d interactive and customizable 3D representation
+\item SelectParticles - allows boolean selection to produce a PySnap of a subsample;
+\item Binaries - detect binary stars using the algorithm described in chapter ?;
+\item kdTree - builds a kdTree of the spatial distribution to perform neighbour searches;
+\item Densities - computes local densities for each particles through the kdTree
+\item Energies - computes individual potential and kinetic energies for all particles
+\item Minimum Spanning Tree - builds the MST of the system, for structure analysis
+\item Clump detection - extract overdensities through the algorithm described in chapter ?
+\item Principal Component Analysis - performs a PCA on the system for structure analysis
+\item Write to file - writes the data to a ASCII file
+\end{itemize}
+
+Computationally intensive algorithms were written in C or Cuda, then compiled into shared libraries. These can be called from C or Python through the ctypes module. The binary, energy and density algorithm were fully written for StarFiddle. The kdTree algorithm was adapted from C++ from \cite{numericalrecipes} to C, and its memory use was optimized; the algorithm was successfully ran on cosmological simulations for 20 million points. The minimum spanning tree was provided by the \href{http://mlpack.org/}{MLPACK library}. Binaries and kdTree are classes of their own which allows easy data storage and management.
+
+The cluster models module lets the user create PySnap instances of various models of star clusters: King, Plummer, Uniform, Fractal or Hubble. The King model uses a C implementation of a fortran algorithm by Gerry Quinlan and Christian Boily. The model can be set to an arbitrary virial parameter $Q$ and injected with a primordial binary population. The stars can have identical masses or follow a Salpeter or L3 Initial Mass Function (\textbf{IMF}) with user-provided parameters.
+
+LaunchNB6 is a Python interface for NBODY6. I slightly modified NBODY6 so it prints ASCII snapshot files in place of the regular binary format output. LaunchNB6 creates the specified working directory and launch the integration from initial conditions, either a specific PySnap, or one created from the Cluster Models. It then reads the snapshot files to create a PyRun instance. A PyRun can be stored and retrieved from a HDF5 file. It is strongly related to the Animation module.
+
+The Animation module allows interactive 3D animation of a PyRun and the creation of synchronized plot to follow related data during the evolution. A specified subset of stars can be marked and follow during the animation. In addition to PyRun, Animation lets the user create interactive plots with an arbitrary number of sliders to easily explore a parameter space.
+
+StarFiddle is available on \href{https://github.com/dorvaljulien/StarFiddle}{GitHub}.
 
 
 
 
-\subsection{Presentation of the runs}
-
-To investigate the influence of various parameter and to follow the dynamical evolution (see next chapter), a large set of N-body simulation of \HubLem models was performed. They are summarised in table 
-
-\begin{table}
-\begin{center}
-\caption{Summary of fragmentation models and their characteristics. These simulations started from an uniform sphere and were stopped when the expansion halted at the apex time, $t_a$. The third column shows the number of independent computations for each model. Models that stops at 40 H.u set the fragmented system as initial conditons, shifting time by $t_a$. RunsHN are detailed in the two lower tables.}
-\label{Tab:2_models}
-\begin{tabularx}{0.8\textwidth}{XXXXXX}
-\hline
-Name & N & Sampling & Mass range & $t_{end}$ & Model \\
-\hline
-RunsHN & see below & 175 & [0.3 - 100] & $t_a$ & Hubble \\
-Rmh20 & 15000 & 30 & [0.35- 20 ] & $t_a$ & Hubble\\
-Rmh100 & 15000 & 30 & [0.3 - 100] & $t_a$ & Hubble\\
-Rmh1 & 15000 & 60 & 1.0  & $t_a$ & Hubble \\
-R40h20 & 40000 & 1 & [0.35- 20 ] & $t_a$ & Hubble \\
-R40h100 & 40000 & 1 & [0.3 - 100]& $t_a$ & Hubble \\
-R80h100 & 80000 & 1 & [0.3 - 100] & $t_a$ & Hubble\\
-Rh100 & 15000 & 1 & [0.3 - 100] & 40 H.u & Hubble \\
-Rh20 & 15000 & 1 & [0.35- 20 ] & 40 H.u & Hubble\\
-Ru100 & 15000 & 1 & [0.3 - 100]& 40 H.u & Uniform\\
-Ru20 & 15000 & 1 & [0.35- 20 ] & 40 H.u & Uniform\\
-\hline
-\end{tabularx}
-\end{center}
-\subcaption*{Detailed characteristics of RunsHN:}
-\begin{center}
-\begin{tabular}{l|rrrrr}
-\centering
-N   & 1000 & 2000 & 4000 & 8000 & 16000\\ 
-\hline
-Sampling & 12 & 8 & 5 & 5 & 5\\
-\end{tabular}
-\end{center}
-%Each one of these models were performed with 5 different $\Hub_0$:
-\subcaption*{ Each RunsHN model is performed with 5 different \tHub.}
-\begin{center}
-\begin{tabular}{l|rrrrr}
-$\Hub_0$ & 0.8 & 0.9 & 1.0 & 1.1 & 1.2
-\end{tabular}
-\end{center}
-\end{table}
 
 
 
-
-
-
-We draw $N$ stars from an Salpeter distribution function which we truncate by default to $100 M_\odot$~; in some calculations we will  use a lower bound of $20 M_\odot$, and in others we use identical masses. The integration was performed with NBODY6.  
-
-An example of the evolution of the system is shown on Fig~\ref{Fig:2_fragmentation}. 
 
 
 
@@ -99,8 +156,10 @@ With $N_d$ fixed, the length $d_{cut}$ is then the only free parameter left. The
 in choosing an appropriate value. \cite{Maschberger2010} fixed the value of  $d_{cut}$ by visual inspection of clumps.  We instead  identified  clumps in a fragmented system for a range of values for $d_{cut}$ and settled for the value  which optimised the number of identifications. This is shown on Fig.~\ref{Fig:2_Ndcut} for the fully-fragmented state of R80h100 (see table \ref{Tab:2_models}. For small values of $d_{cut}$, the number of detected clumps at first  increases rapidly. The rise is due  to the length $d_{cut}$ initially being small compared with the typical volume spawned by $N_d$ or more  nearest-neighbours. Beyond a certain value, a transition to another regime occurs, whereby the algorithm starts to connect previously separated clumps, counting them as one. The number of clumps thereafter begins to decrease. The value $d_{cut} \approx 0.023$ H.u optimises the outcome of the clump-search. This is a generic feature of the MST algorithm and we have adopted the same strategy throughout, adapting the value of $d_{cut}$ to the number $N$ of stars used. 
 
 
- \begin{figure}
-\center
+
+
+
+\begin{figure}
     \centering
     \begin{subfigure}[b]{0.49\textwidth}
     	\centering
@@ -143,6 +202,48 @@ Another method to find the critical cutting length was used by \cite{Gutermuth20
    
    
    
+
+
+\begin{table}
+\begin{center}
+\caption{Summary of fragmentation models and their characteristics. These simulations, performed with NBODY6, started from an uniform sphere and were stopped at the apex time, $t_a$, when the expansion halts. The third column shows the number of independent computations for each model. Stars are drawn from an Salpeter distribution with truncation values shown in the fourth column. All mass ranges preserve an average stellar mass of 1$\Mo$. Models that stops at 40 H.u starts from already fragmented configuration. The RunsHN runs are detailed in the two lower tables.}
+\label{Tab:2_models}
+\begin{tabularx}{0.8\textwidth}{XXXXXX}
+\hline
+Name & N & Sampling & Mass range & $t_{end}$ & Model \\
+\hline
+RunsHN & see below & 175 & [0.3 - 100] & $t_a$ & Hubble \\
+Rmh20 & 15000 & 30 & [0.35- 20 ] & $t_a$ & Hubble\\
+Rmh100 & 15000 & 30 & [0.3 - 100] & $t_a$ & Hubble\\
+Rmh1 & 15000 & 60 & 1.0  & $t_a$ & Hubble \\
+R40h20 & 40000 & 1 & [0.35- 20 ] & $t_a$ & Hubble \\
+R40h100 & 40000 & 1 & [0.3 - 100]& $t_a$ & Hubble \\
+R80h100 & 80000 & 1 & [0.3 - 100] & $t_a$ & Hubble\\
+Rh100 & 15000 & 1 & [0.3 - 100] & 40 H.u & Hubble \\
+Rh20 & 15000 & 1 & [0.35- 20 ] & 40 H.u & Hubble\\
+Ru100 & 15000 & 1 & [0.3 - 100]& 40 H.u & Uniform\\
+Ru20 & 15000 & 1 & [0.35- 20 ] & 40 H.u & Uniform\\
+\hline
+\end{tabularx}
+\end{center}
+\subcaption*{Detailed characteristics of RunsHN:}
+\begin{center}
+\begin{tabular}{l|rrrrr}
+\centering
+N   & 1000 & 2000 & 4000 & 8000 & 16000\\ 
+\hline
+Sampling & 12 & 8 & 5 & 5 & 5\\
+\end{tabular}
+\end{center}
+%Each one of these models were performed with 5 different $\Hub_0$:
+\subcaption*{ Each RunsHN run is performed with 5 different \tHub.}
+\begin{center}
+\begin{tabular}{l|rrrrr}
+$\Hub_0$ & 0.8 & 0.9 & 1.0 & 1.1 & 1.2
+\end{tabular}
+\end{center}
+\end{table}
+
 \section{Clump mass function}
 
 The numerical realizations of the \HubLem model allows to assess the influence of important parameters on the fragmentation, such as \tHub, N and the stellar mass function. 
@@ -432,7 +533,7 @@ It is striking that the measure of mass segregation attained here for a gas-free
 \section{Concluding remarks}
 
 
-We have developed a new approach based on adiabatic fragmentation to set up self-consistent configurations for stellar dynamics that link up the velocity field of stars to their irregular space configuration of arbitrary geometry, such as knots or filaments. The method offers great advantages: it is easy to implement; it can treat an arbitrary number of stars without any resolution issue; furthermore, the level of fragmentation can be tuned through the Hubble parameter. The light computational load allows for statistical ensemble averaging over large samples, as was done throughout this chapter. For instance, the computation time on a single card for 80,000 stars is about 12 hours. The methods has its limitations: the most significant one is the failure to include hydrodynamical effects. In the introduction, we mentioned other approaches partly based on hydrodynamics: such hybrid methods have been successful but remain limited in scope, for instance \cite{Moeckel2012}, or demanding in computational resources (and so constrain the number of realizations), as in \cite{Fujii2016}. 
+We have developed a new approach based on adiabatic fragmentation to set up self-consistent configurations for stellar dynamics that link up the velocity field of stars to their irregular space configuration of arbitrary geometry, such as knots or filaments. The method offers great advantages: it is easy to implement; it can treat an arbitrary number of stars without any resolution issue. The light computational load allows for statistical ensemble averaging over large samples, as was done throughout this chapter. For instance, the computation time on a single card for 80,000 stars is about 12 hours. The methods has its limitations: the most significant one is the failure to include hydrodynamical effects. In the introduction, we mentioned other approaches partly based on hydrodynamics: such hybrid methods have been successful but remain limited in scope, for instance \cite{Moeckel2012}, or demanding in computational resources (and so constrain the number of realizations), as in \cite{Fujii2016}. 
 
 \subsection*{The importance of massive stars}
 
@@ -445,7 +546,7 @@ We have also noted that the clumps are {\it mass segregated} at birth, i.e. at t
 
 \subsection*{The slope of the clump mass function}
 
-\cite{Klessen2000,Klessen2001} fit the gas clump mass function of their simulations with a power-law of index -3/2. On the other hand, the \textit{cluster} mass function in the Milky Way can be described as a power law $\frac{dN}{dM} \propto M^{-\beta}$ where $\beta$ takes value ranging from -2 to -2.4 \citep{Haas2010}. We have indicated that a power-law relation with a slope $ \beta \simeq -4$ is a rough fit for the case where all the stars are identical (Fig.~\ref{Fig:2_ClumpMF_MF}). This is not so  when a stellar mass spectrum is included~: if a Salpeter distribution function is truncated at $20 M_\odot$ a power-law with slope $ \beta \simeq -1.7$ still fits approximately the distribution of clumps of  mass $ > 20\, M_\odot$~; and when the Salpeter distribution function is truncated at $100 M_\odot$, a power-law similarly fits the tail-end of the distribution but now with a slope of $\simeq -1$ (see Fig.~\ref{Fig:2_ClumpMF_MF_2}). It is intriguing that the slope of the distribution should fall within the bracket of values for the observational data for clusters ($-2.4^+$) and hydrodynamical fragmentation models (-3/2). If the clumps formed from hydrodynamical fragmentation should become individual star clusters, and recover the $\beta \simeq -2 $ or lower slope of observational data, then the distribution function must become steeper and also cover a broader range of masses. The same conclusion applies to the Hubble clump distribution function.
+\cite{Klessen2000,Klessen2001} fit the gas clump mass function of their simulations with a power-law $\frac{dN}{dM} \propto M^{-\beta}$ where $\beta \simeq$ -3/2. On the other hand, the \textit{cluster} mass function in the Milky Way can be described as a power law with an index ranging from -2 to -2.4 \citep{Haas2010}. We have indicated that a power-law relation with a slope $ \beta \simeq -4$ is a rough fit for the case where all the stars are identical (Fig.~\ref{Fig:2_ClumpMF_MF}). This is not so  when a stellar mass spectrum is included~: if a Salpeter distribution function is truncated at $20 M_\odot$ a power-law with slope $ \beta \simeq -1.7$ still fits approximately the distribution of clumps of  mass $ > 20\, M_\odot$~; and when the Salpeter distribution function is truncated at $100 M_\odot$, a power-law similarly fits the tail-end of the distribution but now with a slope of $\simeq -1$ (see Fig.~\ref{Fig:2_ClumpMF_MF_2}). It is intriguing that the slope of the distribution should fall within the bracket of values for the observational data for clusters ($-2.4^+$) and hydrodynamical fragmentation models (-3/2). If the clumps formed from hydrodynamical fragmentation should become individual star clusters, and recover the $\beta \simeq -2 $ or lower slope of observational data, then the distribution function must become steeper and also cover a broader range of masses. The same conclusion applies to the Hubble clump distribution function.
 
 This implies either that clumps will merge so that a few very massive clusters will emerge, or that fewer massive clumps form in the first place. Comparison with existing cluster population needs us to assume these clumps do not fall back and merge through collapse. This is possible with an adequate galactic tidal field ripping apart this fragmented configuration and isolating the clumps before the collapse. Many of the small stellar overdensities detected as clumps would not survive more than a few million years before dispersing through dynamical interaction, however the larger clumps could survive and appear as isolated cluster or part of an association. These massive clumps   are the key to comparison to the galactic cluster mass function. We have shown how the stellar IMF provides seeds for the growth of massive clumps and have illustrated this with a Salpeter power-law IMF. A more realistic  IMF has a steeper power index at larger stellar masses \citep{Kroupa2002,Chabrier2005}. The fragmentation of stellar systems with fewer massive stars would deplete the clump mass function at larger masses more in line with observed statistics for clusters. 
 This variability in the clump mass function highlights the major influence of the stellar IMF on the fragmentation process. A full exploration of fragmentation requires hydrodynamical simulations, which we have not performed here. These simulations remain limited to much smaller systems \citep{Bate2014,Lomax2014}.

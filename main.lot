@@ -1,18 +1,19 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction}{9}{chapter.1}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Numerical tools}{27}{chapter.2}
+\contentsline {xchapter}{The Hubble-Lema\^itre fragmented model: analytical approach}{29}{chapter.2}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of main variables.\relax }}{34}{table.caption.22}
 \addvspace {10\p@ }
-\contentsline {xchapter}{The Hubble-Lema\^itre fragmented model: analytical approach}{33}{chapter.3}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of main variables.\relax }}{37}{table.caption.22}
+\contentsline {xchapter}{Nbody application}{41}{chapter.3}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of fragmentation models and their characteristics. These simulations, performed with NBODY6, started from an uniform sphere and were stopped at the apex time, $t_a$, when the expansion halts. The third column shows the number of independent computations for each model. Stars are drawn from an Salpeter distribution with truncation values shown in the fourth column. All mass ranges preserve an average stellar mass of 1${\textrm {M}_\odot }$. Models that stops at 40 H.u starts from already fragmented configuration. The RunsHN runs are detailed in the two lower tables.\relax }}{48}{table.caption.32}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Nbody application}{45}{chapter.4}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of fragmentation models and their characteristics. These simulations started from an uniform sphere and were stopped when the expansion halted at the apex time, $t_a$. The third column shows the number of independent computations for each model. Models that stops at 40 H.u set the fragmented system as initial conditons, shifting time by $t_a$. RunsHN are detailed in the two lower tables.\relax }}{46}{table.caption.28}
+\contentsline {xchapter}{Collapse and dynamical evolution}{63}{chapter.4}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Values of half-mass radii and their ratio to that of the most massive stars. The mass categories are labelled X\%-X+10\%, with the percent symbol ommitted for brevity. The results are for the rescaled bound uniform model (rescaled Ru20b) and the bound Hubble model (Rh20b), after the collapse, and before dynamical mass segregation sets in.\relax }}{72}{table.caption.46}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Collapse and dynamical evolution}{63}{chapter.5}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Number of initially ejected stars in two collapse calculations\relax }}{67}{table.caption.43}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Values of half-mass radii and their ratio to that of the most massive stars. The mass categories are labelled X\%-X+10\%, with the percent symbol ommitted for brevity. The results are for the rescaled bound uniform model (rescaled Ru20b) and the bound Hubble model (Rh20b), after the collapse, and before dynamical mass segregation sets in.\relax }}{72}{table.caption.46}
+\contentsline {xchapter}{Introduction to binaries}{77}{chapter.5}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction to binaries}{75}{chapter.6}
+\contentsline {xchapter}{Detecting and injecting binaries}{83}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Detecting and injecting binaries}{81}{chapter.7}
+\contentsline {xchapter}{NBODY6}{103}{appendix.A}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Binary completion algorithm}{109}{appendix.B}

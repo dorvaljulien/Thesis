@@ -1,7 +1,4 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}A new binary detection algorithm}{\reset@font\mtcSfont 81}{section.7.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.1}Density comparison}{\reset@font\mtcSSfont 81}{subsection.7.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.2}Choosing a density ratio}{\reset@font\mtcSSfont 82}{subsection.7.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}The spontaneous binary population}{\reset@font\mtcSfont 84}{section.7.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Binary fraction vs primary mass}{\reset@font\mtcSSfont 86}{subsection.7.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Spontaneous semi-major axis distribution}{\reset@font\mtcSSfont 87}{subsection.7.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Completing the population}{\reset@font\mtcSSfont 88}{subsection.7.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A.1}Block time-step}{\reset@font\mtcSfont 103}{section.A.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A.2}KS-regularization}{\reset@font\mtcSfont 103}{section.A.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A.3}Hermite integration scheme}{\reset@font\mtcSfont 105}{section.A.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {A.4}Ahmad-Cohen neighbour scheme}{\reset@font\mtcSfont 106}{section.A.4}}

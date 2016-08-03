@@ -5,9 +5,37 @@
 \chapter{The Hubble-Lema\^itre fragmented model: analytical approach} 
 \label{Chap:analytical}
 
-In this chapter we introduce the \HubLem model, derive the equations governing the expansion and perform a perturbation analysis to investigate the growth of idealized overdensities.
+In this chapter we introduce a new way to obtain substructured intial conditions: the \HubLem model. We derive the equations governing the expansion and perform a perturbation analysis to investigate the growth of idealized overdensities.
 
 \minitoc
+
+
+
+
+
+%\section{The \HubLem fragmentation model}
+
+
+For decades, cosmologists studied the development of substructures in the early universe. In an expanding universe, each point in space sees others moving away, with a velocity proportional to their distances, thus a smooth universe should stay smooth, no structure should develop. However, when the matter distribution is not perfectly smooth, the density fluctuations will grow through gravity, accreting nearby matter, against the cosmological flow.  These overdensities turn into galaxies, that then clump together to form galaxy clusters, building up a hierarchical density distribution, see \cite{White1978,Aarseth1979}. This is the general picture for galaxy formation.
+
+We apply this process to star clusters to obtain hierarchical substructures. We set up relatively smooth initial conditions by spawning stars in a uniform sphere, to which we attribute radial velocities  akin to the well-known Hubble velocity field of nearby galaxies. When left to evolve, the model expands, reproducing the cosmological expansion, and overdensities grow, stars clump together, spontaneously forming substructures. We name this method the \HubLem fragmentation. The name of Georges Lema\^itre was added for historical accuracy. It has now been shown that the astronomical observations of redshifted galaxies and its interpretation as the consequence of an expanding universe predated Hubble's paper \citep{Hubble1929}. Georges Lema\^itre had published his conclusion on an expanding universe two years earlier \citep{Lemaitre1927}. The account of this can be found in \cite{Kragh2003,VanDenBergh2011} and \cite{Freeman2015}.
+
+As the model is analog to the cosmological model of an expanding universe, we adopt the usual notations in the present chapter. However, important differences should be noted:
+\begin{itemize}
+\item our model is not periodic but isolated and can be inserted in any environment;
+\item our particles follow a stellar mass function, at odds with the single-mass cosmological simulations;
+\item we use a collisional integrator to perform the expansion and monitor close particles interactions;
+\item the expansion of our model slows down over time, as there is no internal energy source akin to the cosmological Dark Energy;
+\item the density fluctuations are not inserted from a known power spectrum but arise naturally from spatial Poisson noise and the stellar mass function.
+\end{itemize}
+
+Our view is that by following through with a full stellar IMF, the massive stars will define a radius of influence around themselves and sit preferentially, but not systematically, at the heart of sub-structures, retrieving a feature seen in star formation calculations \citep{Moeckel2011,Maschberger2010}, while short-cutting  costly computer calculations. The configuration that is sought here is not unlike the situation found in the formation of galaxy clusters in cosmology, as massive galaxies tend to drag in less massive ones and sit at the heart of clusters.
+
+%In the first part of this thesis, we analytically investigate the issue of fragmentation in an expanding cluster, deriving basic characteristics and timescales for the dynamical evolution of clumps. We then introduce N-body realizations of \HubLem fragmented models, which we analyse and compare to hydrodynamical star formation simulations. The fragmented models are then used as initial conditions to study the dynamical evolution of substructured star clusters. 
+%
+%In the second part, we turn to binary stars, and the spontaneous binary population arising in the \HubLem models. We follow the effect of substructure and stellar density on the evolution of a binary population.
+
+
 
 \section{How to build a Hubble-Lema\^itre model}
 
@@ -479,9 +507,7 @@ The dynamical state of individual clumps is clearly a question of membership $N_
 
 \section{Concluding remarks}
 
-We presented the recipe to build a \HubLem fragmented model. 
-
-With an appropriate \tHub, below $\sqrt{2}$, the expansion of our model ends at a time we named apex time. We derived its expression as a function of \tHub, as well as the governing equations of the expansion. A perturbation analysis was performed to follow idealized radial overdensities. We expect clumps to undergo a phase of linear convergence followed by collisional evolution. We can also expect mass-segregation to occur in our clumps, though quantitative prediction cannot be obtained from idealized radial shell-like overdensities. N-body simulations are needed to obtain detailed characteristics.
+We presented the procedure to build a \HubLem fragmented model. With an appropriate \tHub, below $\sqrt{2}$, the expansion of our model ends at a time we named apex time. We derived its expression as a function of \tHub, as well as the governing equations of the expansion. A perturbation analysis was performed to follow idealized radial overdensities. We expect clumps to undergo a phase of linear convergence followed by collisional evolution. We can also expect mass-segregation to occur in our clumps, though quantitative prediction cannot be obtained from idealized radial shell-like overdensities. N-body simulations are needed to obtain detailed characteristics.
 
 
 

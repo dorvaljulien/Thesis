@@ -1,14 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}A summary of the motivations}{\reset@font\mtcSfont 10}{section.1.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}What is a star cluster ?}{\reset@font\mtcSfont 11}{section.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Some important dynamical concepts}{\reset@font\mtcSfont 14}{section.1.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}Virial theorem}{\reset@font\mtcSSfont 14}{subsection.1.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.2}Dynamical timescales}{\reset@font\mtcSSfont 15}{subsection.1.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.3}Static models}{\reset@font\mtcSSfont 16}{subsection.1.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.4}The origin of star clusters}{\reset@font\mtcSfont 17}{section.1.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.1}From gas to stars}{\reset@font\mtcSSfont 17}{subsection.1.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.2}Substructure and early dynamical evolution}{\reset@font\mtcSSfont 19}{subsection.1.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.3}Star formation efficiency and infant mortality}{\reset@font\mtcSSfont 20}{subsection.1.4.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.5}Simulating star clusters evolution}{\reset@font\mtcSfont 21}{section.1.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.5.1}Hydrodynamical simulations}{\reset@font\mtcSSfont 22}{subsection.1.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.5.2}Artificial substructure}{\reset@font\mtcSSfont 23}{subsection.1.5.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.6}A new method: the Hubble-Lema\^itre\nobreakspace {}fragmentation}{\reset@font\mtcSfont 25}{section.1.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}What is a star cluster ?}{\reset@font\mtcSfont 12}{section.1.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Some important dynamical concepts}{\reset@font\mtcSfont 14}{section.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}Virial theorem}{\reset@font\mtcSSfont 14}{subsection.1.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Dynamical timescales}{\reset@font\mtcSSfont 15}{subsection.1.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.3}Static models}{\reset@font\mtcSSfont 16}{subsection.1.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}The origin of star clusters}{\reset@font\mtcSfont 17}{section.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}From gas to stars}{\reset@font\mtcSSfont 17}{subsection.1.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.2}Substructure and early dynamical evolution}{\reset@font\mtcSSfont 19}{subsection.1.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.3}Star formation efficiency and infant mortality}{\reset@font\mtcSSfont 20}{subsection.1.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.4}Simulating star clusters evolution}{\reset@font\mtcSfont 22}{section.1.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.1}Hydrodynamical simulations}{\reset@font\mtcSSfont 22}{subsection.1.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.2}Artificial substructure}{\reset@font\mtcSSfont 23}{subsection.1.4.2}}

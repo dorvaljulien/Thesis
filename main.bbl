@@ -1,4 +1,4 @@
-\begin{thebibliography}{206}
+\begin{thebibliography}{212}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -236,6 +236,9 @@ Clagett M., 1959, The science of mechanics in the Middle Ages, University of
   {Zinnecker}}]{DeWit2005}
 {de Wit} W.~J., {Testi} L., {Palla} F., {Zinnecker} H., 2005, \aap, 437, 247
 
+\bibitem[{{Dehnen}(1993)}]{Dehnen1993}
+{Dehnen} W., 1993, \mnras, 265, 250
+
 \bibitem[{{Dias} {et~al}\mbox{.}(2002){Dias}, {Alessi}, {Moitinho}, \&
   {L{\'e}pine}}]{Dias2002}
 {Dias} W.~S., {Alessi} B.~S., {Moitinho} A., {L{\'e}pine} J.~R.~D., 2002, \aap,
@@ -390,6 +393,9 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Heggie} \& {Aarseth}(1992)}]{Heggie1992}
 {Heggie} D.~C., {Aarseth} S.~J., 1992, \mnras, 257, 513
 
+\bibitem[{{H{\'e}non}(1971)}]{Henon1971}
+{H{\'e}non} M.~H., 1971, \apss, 14, 151
+
 \bibitem[{{Hillenbrand} \& {Hartmann}(1998)}]{Hillenbrand1998}
 {Hillenbrand} L.~A., {Hartmann} L.~W., 1998, \apj, 492, 540
 
@@ -456,7 +462,7 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 {K{\"o}nyves} V. {et~al.}, 2010, \aap, 518, L106
 
 \bibitem[{{Korntreff}, {Kaczmarek} \& {Pfalzner}(2012){Korntreff}, {Kaczmarek},
-  \& {Pfalzner}}]{korntreff2012}
+  \& {Pfalzner}}]{Korntreff2012}
 {Korntreff} C., {Kaczmarek} T., {Pfalzner} S., 2012, \aap, 543, A126
 
 \bibitem[{{Kouwenhoven} {et~al}\mbox{.}(2007){Kouwenhoven}, {Brown}, {Portegies
@@ -501,6 +507,9 @@ Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
   {Feigelson}}]{Kuhn2015a}
 {Kuhn} M.~A., {Getman} K.~V., {Feigelson} E.~D., 2015, \apj, 802, 60
 
+\bibitem[{{Kustaanheimo} \& {Stiefel}(1965)}]{KS1965}
+{Kustaanheimo} P., {Stiefel} E., 1965, J. Reine Angew. Math, 218, 204
+
 \bibitem[{{Lada} \& {Lada}(2003)}]{Lada2003}
 {Lada} C.~J., {Lada} E.~A., 2003, \araa, 41, 57
 
@@ -527,6 +536,9 @@ Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
 
 \bibitem[{{Mac Low} \& {Klessen}(2004)}]{MacLow2004}
 {Mac Low} M.-M., {Klessen} R.~S., 2004, Reviews of Modern Physics, 76, 125
+
+\bibitem[{{Makino}(1991)}]{Makino1991}
+{Makino} J., 1991, \apj, 369, 200
 
 \bibitem[{{Marks} \& {Kroupa}(2012)}]{Marks2012}
 {Marks} M., {Kroupa} P., 2012, \aap, 543, A8
@@ -566,6 +578,10 @@ Maury J., 1992, Newton: Understanding the Cosmos, New horizons in history
 
 \bibitem[{{Meylan} \& {Heggie}(1997)}]{Meylan1997}
 {Meylan} G., {Heggie} D.~C., 1997, \aapr, 8, 1
+
+\bibitem[{{Mikkola} \& {Aarseth}(1993)}]{Mikkola1993}
+{Mikkola} S., {Aarseth} S.~J., 1993, Celestial Mechanics and Dynamical
+  Astronomy, 57, 439
 
 \bibitem[{{Miller} \& {Scalo}(1979)}]{Miller1979}
 {Miller} G.~E., {Scalo} J.~M., 1979, \apjs, 41, 513
@@ -712,7 +728,7 @@ Press W.~H., Teukolsky S.~A., Vetterling W.~T., Flannery B.~P., 2007, Numerical
 \bibitem[{{Spurzem}(1999)}]{Spurzem1999}
 {Spurzem} R., 1999, Journal of Computational and Applied Mathematics, 109, 407
 
-\bibitem[{{Stahler}(2010)}]{stahler2010}
+\bibitem[{{Stahler}(2010)}]{Stahler2010}
 {Stahler} S.~W., 2010, \mnras, 402, 1758
 
 \bibitem[{{Str{\"o}mgren}(1909)}]{Stromgren1909}
@@ -772,6 +788,11 @@ Press W.~H., Teukolsky S.~A., Vetterling W.~T., Flannery B.~P., 2007, Numerical
   {Berczik}, {Kouwenhoven}, \& {Naab}}]{Wang2015}
 {Wang} L., {Spurzem} R., {Aarseth} S., {Nitadori} K., {Berczik} P.,
   {Kouwenhoven} M.~B.~N., {Naab} T., 2015, \mnras, 450, 4070
+
+\bibitem[{{Ward-Duong} {et~al}\mbox{.}(2015){Ward-Duong}, {Patience}, {De
+  Rosa}, {Bulger}, {Rajan}, {Goodwin}, {Parker}, {McCarthy}, \&
+  {Kulesa}}]{Ward-Duong2015}
+{Ward-Duong} K. {et~al.}, 2015, \mnras, 449, 2618
 
 \bibitem[{{Weidner}, {Kroupa} \& {Bonnell}(2010){Weidner}, {Kroupa}, \&
   {Bonnell}}]{Weidner2010}

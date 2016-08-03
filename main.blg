@@ -1,36 +1,26 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 Case mismatch error between cite keys raghavan2010 and Raghavan2010
----line 589 of file main.aux
- : \citation{DM91,raghavan2010
- :                            }
+---line 606 of file main.aux
+ : \citation{raghavan2010
+ :                       }
 I'm skipping whatever remains of this command
-Case mismatch error between cite keys bate2012 and Bate2012
----line 590 of file main.aux
- : \citation{bate2012
- :                   }
+Case mismatch error between cite keys raghavan2010 and Raghavan2010
+---line 609 of file main.aux
+ : \citation{raghavan2010
+ :                       }
 I'm skipping whatever remains of this command
-Case mismatch error between cite keys parker2014 and Parker2014
----line 594 of file main.aux
- : \citation{parker2014
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys goodwin2004 and Goodwin2004
----line 595 of file main.aux
- : \citation{goodwin2004
- :                      }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys parker2014 and Parker2014
----line 596 of file main.aux
- : \citation{parker2014
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys parker2014 and Parker2014
----line 601 of file main.aux
- : \citation{parker2014
- :                     }
+Case mismatch error between cite keys raghavan2010 and Raghavan2010
+---line 610 of file main.aux
+ : \citation{raghavan2010
+ :                       }
 I'm skipping whatever remains of this command
 The style file: mn2e.bst
+Case mismatch error between cite keys raghavan2010 and Raghavan2010
+---line 891 of file main.aux
+ : \citation{raghavan2010
+ :                       }
+I'm skipping whatever remains of this command
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
 --line 3608 of file Bibliography/bibdatabase.bib
@@ -40,52 +30,51 @@ Repeated entry---line 5426 of file Bibliography/bibdatabase.bib
  : @article{Renaud2011
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Wardduong2015"
-Warning--I didn't find a database entry for "kroupaburkert2001"
+Warning--I didn't find a database entry for "Bbate2012"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
 Warning--empty publisher in Spitzer1987
-You've used 206 entries,
+You've used 212 entries,
             2938 wiz_defined-function locations,
-            1868 strings with 41279 characters,
-and the built_in function-call counts, 98074 in all, are:
-= -- 7889
-> -- 7854
+            1906 strings with 42270 characters,
+and the built_in function-call counts, 100617 in all, are:
+= -- 8102
+> -- 8023
 < -- 17
-+ -- 2621
-- -- 2550
-* -- 7987
-:= -- 18655
++ -- 2677
+- -- 2605
+* -- 8174
+:= -- 19144
 add.period$ -- 13
-call.type$ -- 206
-change.case$ -- 1588
-chr.to.int$ -- 208
-cite$ -- 211
-duplicate$ -- 3490
-empty$ -- 5507
-format.name$ -- 2851
-if$ -- 19067
+call.type$ -- 212
+change.case$ -- 1628
+chr.to.int$ -- 214
+cite$ -- 217
+duplicate$ -- 3589
+empty$ -- 5664
+format.name$ -- 2912
+if$ -- 19564
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 198
-newline$ -- 622
-num.names$ -- 832
-pop$ -- 1451
+missing$ -- 204
+newline$ -- 640
+num.names$ -- 856
+pop$ -- 1487
 preamble$ -- 1
-purify$ -- 1582
+purify$ -- 1622
 quote$ -- 0
-skip$ -- 3462
+skip$ -- 3562
 stack$ -- 0
-substring$ -- 4101
-swap$ -- 273
+substring$ -- 4230
+swap$ -- 279
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1803
+type$ -- 1857
 warning$ -- 5
-while$ -- 953
+while$ -- 982
 width$ -- 0
-write$ -- 2056
-(There were 7 error messages)
+write$ -- 2116
+(There were 5 error messages)
