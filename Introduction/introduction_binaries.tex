@@ -1,9 +1,19 @@
 
 \chapter{Introduction to binaries}
 
-\section{Binary stars}
+In the second part of this thesis we turn to binary stars and their relation to star clusters. 
 
-\subsection{What is a binary star ?}
+\paragraph*{}
+Binary stars are crucial to understand the evolution of star clusters for a variety of reasons. They can be a reservoir of energy, supporting the core of a cluster against collapse by giving away their internal energy to perturbers, effectively ejecting stars and heating the system, affecting its global evolution and stopping core collapse (e.g \citealt{Heggie1992}).
+
+The statistical properties of binary star populations in dense stellar associations in particular may shed light on the discovery of multiple star-formation episodes in rich stellar clusters \citep{anderson2009}. For instance, binary stars enhance strong dynamical interactions which in turn may speed-up evolution off the main sequence and so boost enrichment of the ISM through winds (e.g., \citealt{Tailo2015}). Tight binaries of short-lived massive stars may evolve to produce exotic stellar remnants including black hole progenitors \citep{bacon1996,davies2009}. Blue stragglers, abnormally hot stars for the age of their host clusters, are thought to form in binary mergers, making them a dynamical record of the past binary population and dynamical state of the cluster \citep{Knigge2009}.
+
+Finally, accurate knowledge of binary populations in stellar clusters enable good estimation of their dynamical mass, as the integrated velocity dispersion is largely biased by the binaries internal motions, see \cite{Rubenstein1997}.
+
+In this short introduction to binaries, we define a binary system, detail
+
+
+\section{What is a binary star ?}
 
 When two massive bodies of mass $m_1$ and $m_2$ interact gravitationally, they can have different types of trajectory depending on their total energy:
 
@@ -62,15 +72,9 @@ The total energy of the binary can be expressed as a function of $a$ and $m_t$:
 E = - \frac{G m_1 m_2}{2a} 
 \end{equation}
 
-\subsection{Why binaries ?}
 
-Binary stars are extremely important for a variety of reasons. They can be a reservoir of energy, supporting the core of a cluster against collapse by giving away their internal energy to perturbers, effectively ejecting stars and heating the system, affecting its global evolution and stopping core collapse (e.g \citealt{Heggie1992}).
 
-The statistical properties of binary star populations in dense stellar associations in particular may shed light on the discovery of multiple star-formation episodes in rich stellar clusters \citep{anderson2009}. For instance, binary stars enhance strong dynamical interactions which in turn may speed-up evolution off the main sequence and so boost enrichment of the ISM through winds (e.g., \citealt{Tailo2015}). Tight binaries of short-lived massive stars may evolve to produce exotic stellar remnants including black hole progenitors \citep{bacon1996,davies2009}. Blue stragglers, abnormally hot stars for the age of their host clusters, are thought to form in binary mergers, making them a dynamical record of the past binary population and dynamical state of the cluster \citep{Knigge2009}.
-
-Finally, accurate knowledge of binary populations in stellar clusters enable good estimation of their dynamical mass, as the integrated velocity dispersion is largely biased by the binaries internal motions, see \cite{Rubenstein1997}.
-
-\subsection{Multiplicity fraction}
+\section{Multiplicity fraction}
 
 In a stellar population, some fraction of stars will be found in multiple systems: some  in binaries and some in higher order hierarchies. A hierarchical triple is a stable 3-body bound system, a binary of which one of the component is a binary itself. The same principle applies to quadruple, quintuple, etc. One of the brightest stars in the night sky, Castor, is a sextuple hierarchical system, with 6 stars in a stable system.
 
@@ -87,7 +91,7 @@ This last  measure is used in seminal observationnal papers \citep{DM91,Raghavan
  These definitions may be extended to cover a mass range  in a coherent way, by substituting $m \rightarrow \langle m\rangle$, the mean value over the range. This is useful mostly when comparing  systems with different stellar mass functions. 
 
 
-\subsection{Observed population}
+\section{Observed population}
 \label{Sec:0_raghavan}
 
 \begin{figure}
@@ -113,7 +117,7 @@ This last  measure is used in seminal observationnal papers \citep{DM91,Raghavan
 
 
 
-A seminal survey of binary solar-type stars in the field was performed by \cite{DM91}. This seminal paper was updated and completed by \cite{Raghavan2010}, who essentially confirmed the main results from the first study. They observed hundreds of F and G main-sequence stars in pairs and derived their binary parameters. The total binary fraction for these stars was found to be $\sim$ 53\% as binaries are quite common in any stellar population.
+A seminal survey of binary solar-type stars in the field was performed by \cite{DM91}. This seminal paper was updated and completed by \cite{Raghavan2010}, who essentially confirmed the main results from the first study. They observed hundreds of F and G main-sequence stars in pairs and derived their binary parameters. The total binary fraction for these stars was found to be $\sim$ 53\% as binaries are quite common in most stellar populations.
   The authors also derived a period distribution, extending from less than a day to more than a Myr. The distribution was consistently well fitted by a log-normal distribution. The period distribution for F and G stars (as well as K and M stars, see \citealt{Fischer1992}) is:
 \begin{equation}
 f( \log{P})\propto \exp \left[ \frac{- ( \log{P} - \mu_{logP})}{ 2 \sigma_{logP}^2} \right]
@@ -124,7 +128,7 @@ with the peak value $\mu_{logP} = 5.03$, about 300 years, and the dispersion $\s
 \cite{Raghavan2010} also compiled several observational studies of binaries with primaries of various spectral types. High mass stars, types O,B,A, (from 30+ down to 2$\Mo$) have a high multiplicity fraction, about 75\%  while lower mass stars such as M-dwarfs only have 10-30\% multiplicity, see Fig~\ref{Fig:0_binpop_2}. This trend of increasing multiplicity with increasing primary mass is found in many surveys.
 Binary surveys are easier in the field due to the very large sample and low stellar density. To perform similar studies in young star clusters is much harder due to source crowding and embedded stars. \cite{Kouwenhoven2007} attempted to characterize the birth binary population in the OB association Scorpius OB2. They found a very high multiplicity fraction, consistent with 100\%, and a period distribution more consistent with a powerlaw than a log-normal distribution. From this survey and others, it is likely that the binary population in clusters undergoes an erosion through dynamical processing, with the field distribution as an end-result.
 
-\subsection{Simulate binary populations in clusters}
+\section{Simulate binary populations in clusters}
 
 As noted earlier, young clusters are born substructured, then undergo dynamical evolution. The rapid, global  merging of sub-structures would bring together stars at a different stage of their  formation (as in NGC1333, see \citealt{Foster2015}) while at the same time induce a shift from a clumpy Taurus-like profile to a more regular one. A simple but important question is how the internal dynamics of such complex configurations may affect the  characteristics of a population of binary stars. 
 
@@ -156,3 +160,16 @@ Many authors have explored this question through optimised initial conditions \c
  
  
   We note that hydrodynamical calculations of star formation have found young heavy stars to be preferentially found in dense clumps \citep{Maschberger2010}. Furthermore, it is not clear yet whether binary populations should be tailored according to the total system mass because of the limited range of $M \sim 10^2$ to $ \sim 10^3 M_\odot$ of these studies \citep{Kroupa2001,Parker2011,Parker2014}. Recall that the intensity of the tidal field is a prime agent of binary heating.  A trend with mass may be expected on the ground that the drive to equilibrium of more massive systems leads to deeper potential wells (e.g. \citealt{Aarseth1988,Boily2002}). A steep potential will give rise to strong tidal fields which may disrupt bound sub-systems \citep{Boily2004,Renaud2011}. A definitive assesment of this effect is difficult to reach because the results are a strong function of the system initial mass distribution and kinetic energy content \citep{Boily2002,Caputo2014}.
+  
+  
+  
+\paragraph*{}
+In the following chapters, we present an algorithm to detect binary stars in N-body simulations. This algorithm is applied to \HubLem fragmented configurations, revealing a spontaneous binary population created by the expansion of the initial uniform sphere. We inject new binaries in the system to follow observed trends in the binary distribution. These systems are then left to collapse, as before, and the binary populations are monitored. We evaluate the influences of cluster membership and stellar density on the processing of binaries in substructured and subvirial systems. We also detail the formation of "extreme" binaries in our simulations, very short and very wide systems, and their dynamical origins.
+
+
+
+
+
+
+
+

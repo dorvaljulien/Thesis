@@ -1,4 +1,4 @@
-\begin{thebibliography}{212}
+\begin{thebibliography}{232}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -307,6 +307,11 @@ Freeman K.~C., Block D., Elmegreen B.~G., Woolway M., 2015, Lessons from the
   local group : a conference in honour of David Block and Bruce Elmegreen.
   Springer
 
+\bibitem[{{Fregeau} {et~al}\mbox{.}(2004){Fregeau}, {Cheung}, {Portegies
+  Zwart}, \& {Rasio}}]{Fregeau2004}
+{Fregeau} J.~M., {Cheung} P., {Portegies Zwart} S.~F., {Rasio} F.~A., 2004,
+  \mnras, 352, 1
+
 \bibitem[{{Friedman} \& {Schutz}(1978)}]{Friedman1978}
 {Friedman} J.~L., {Schutz} B.~F., 1978, \apj, 221, 937
 
@@ -341,6 +346,9 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Geller} {et~al}\mbox{.}(2013){Geller}, {de Grijs}, {Li}, \&
   {Hurley}}]{Geller2013}
 {Geller} A.~M., {de Grijs} R., {Li} C., {Hurley} J.~R., 2013, \apj, 779, 30
+
+\bibitem[{{Geller} \& {Leigh}(2015)}]{Geller2015}
+{Geller} A.~M., {Leigh} N.~W.~C., 2015, \apjl, 808, L25
 
 \bibitem[{{Goodwin} \& {Bastian}(2006)}]{Goodwin2006}
 {Goodwin} S.~P., {Bastian} N., 2006, \mnras, 373, 752
@@ -390,14 +398,33 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 {Heggie} D., {Hut} P., 2003, {The Gravitational Million-Body Problem: A
   Multidisciplinary Approach to Star Cluster Dynamics}
 
+\bibitem[{{Heggie}(1975)}]{Heggie1975}
+{Heggie} D.~C., 1975, \mnras, 173, 729
+
 \bibitem[{{Heggie} \& {Aarseth}(1992)}]{Heggie1992}
 {Heggie} D.~C., {Aarseth} S.~J., 1992, \mnras, 257, 513
+
+\bibitem[{{Heggie}, {Hut} \& {McMillan}(1996){Heggie}, {Hut}, \&
+  {McMillan}}]{Heggie1996}
+{Heggie} D.~C., {Hut} P., {McMillan} S.~L.~W., 1996, \apj, 467, 359
+
+\bibitem[{{Heggie}, {Trenti} \& {Hut}(2006){Heggie}, {Trenti}, \&
+  {Hut}}]{Heggie2006}
+{Heggie} D.~C., {Trenti} M., {Hut} P., 2006, \mnras, 368, 677
+
+\bibitem[{{H{\'e}nault-Brunet} {et~al}\mbox{.}(2012){H{\'e}nault-Brunet},
+  {Gieles}, {Evans}, {Sana}, {Bastian}, {Ma{\'{\i}}z Apell{\'a}niz}, {Taylor},
+  {Markova}, {Bressert}, {de Koter}, \& {van Loon}}]{Henault-Brunet2012}
+{H{\'e}nault-Brunet} V. {et~al.}, 2012, \aap, 545, L1
 
 \bibitem[{{H{\'e}non}(1971)}]{Henon1971}
 {H{\'e}non} M.~H., 1971, \apss, 14, 151
 
 \bibitem[{{Hillenbrand} \& {Hartmann}(1998)}]{Hillenbrand1998}
 {Hillenbrand} L.~A., {Hartmann} L.~W., 1998, \apj, 492, 540
+
+\bibitem[{{Hills}(1975)}]{Hills1975}
+{Hills} J.~G., 1975, \aj, 80, 809
 
 \bibitem[{{Hills}(1980)}]{Hills1980}
 {Hills} J.~G., 1980, \apj, 235, 986
@@ -418,6 +445,16 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Hubble}(1929)}]{Hubble1929}
 {Hubble} E., 1929, Contributions from the Mount Wilson Observatory, vol.~3,
   pp.23-28, 3, 23
+
+\bibitem[{{Hurley}, {Pols} \& {Tout}(2000){Hurley}, {Pols}, \&
+  {Tout}}]{Hurley2000}
+{Hurley} J.~R., {Pols} O.~R., {Tout} C.~A., 2000, \mnras, 315, 543
+
+\bibitem[{{Hut}(1983)}]{Hut1983b}
+{Hut} P., 1983, \apj, 268, 342
+
+\bibitem[{{Hut} \& {Bahcall}(1983)}]{Hut1983}
+{Hut} P., {Bahcall} J.~N., 1983, \apj, 268, 319
 
 \bibitem[{{Ito} {et~al}\mbox{.}(1991){Ito}, {Ebisuzaki}, {Makino}, \&
   {Sugimoto}}]{Ito1991}
@@ -487,6 +524,12 @@ Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
 {Krause} M.~G.~H., {Charbonnel} C., {Bastian} N., {Diehl} R., 2016, \aap, 587,
   A53
 
+\bibitem[{{Kroupa}(1995{\natexlab{a}})}]{Kroupa1995}
+{Kroupa} P., 1995{\natexlab{a}}, \mnras, 277
+
+\bibitem[{{Kroupa}(1995{\natexlab{b}})}]{Kroupa1995a}
+{Kroupa} P., 1995{\natexlab{b}}, \mnras, 277
+
 \bibitem[{{Kroupa}(2002)}]{Kroupa2002}
 {Kroupa} P., 2002, Science, 295, 82
 
@@ -517,6 +560,9 @@ Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
   {Dearborn}}]{Lada1984}
 {Lada} C.~J., {Margulis} M., {Dearborn} D., 1984, \apj, 285, 141
 
+\bibitem[{{Larsen}(2004)}]{Larsen2004}
+{Larsen} S.~S., 2004, \aap, 416, 537
+
 \bibitem[{{Larson}(1969)}]{Larson1969}
 {Larson} R.~B., 1969, \mnras, 145, 271
 
@@ -542,6 +588,10 @@ Kramer E., 1982, The Nature and Growth of Modern Mathematics, Princeton
 
 \bibitem[{{Marks} \& {Kroupa}(2012)}]{Marks2012}
 {Marks} M., {Kroupa} P., 2012, \aap, 543, A8
+
+\bibitem[{{Marks}, {Kroupa} \& {Oh}(2011){Marks}, {Kroupa}, \&
+  {Oh}}]{Marks2011}
+{Marks} M., {Kroupa} P., {Oh} S., 2011, \mnras, 417, 1684
 
 \bibitem[{{Maschberger} \& {Clarke}(2011)}]{Maschberger2011}
 {Maschberger} T., {Clarke} C.~J., 2011, \mnras, 416, 541
@@ -579,12 +629,24 @@ Maury J., 1992, Newton: Understanding the Cosmos, New horizons in history
 \bibitem[{{Meylan} \& {Heggie}(1997)}]{Meylan1997}
 {Meylan} G., {Heggie} D.~C., 1997, \aapr, 8, 1
 
+\bibitem[{{Mikkola}(1983)}]{Mikkola1983}
+{Mikkola} S., 1983, \mnras, 203, 1107
+
+\bibitem[{{Mikkola}(1984{\natexlab{a}})}]{Mikkola1984a}
+{Mikkola} S., 1984{\natexlab{a}}, \mnras, 207, 115
+
+\bibitem[{{Mikkola}(1984{\natexlab{b}})}]{Mikkola1984b}
+{Mikkola} S., 1984{\natexlab{b}}, \mnras, 208, 75
+
 \bibitem[{{Mikkola} \& {Aarseth}(1993)}]{Mikkola1993}
 {Mikkola} S., {Aarseth} S.~J., 1993, Celestial Mechanics and Dynamical
   Astronomy, 57, 439
 
 \bibitem[{{Miller} \& {Scalo}(1979)}]{Miller1979}
 {Miller} G.~E., {Scalo} J.~M., 1979, \apjs, 41, 513
+
+\bibitem[{{Miyamoto} \& {Nagai}(1975)}]{Miyamoto1975}
+{Miyamoto} M., {Nagai} R., 1975, \pasj, 27, 533
 
 \bibitem[{{Moeckel} \& {Bate}(2010)}]{Moeckel2010}
 {Moeckel} N., {Bate} M.~R., 2010, \mnras, 404, 721
@@ -688,6 +750,10 @@ Press W.~H., Teukolsky S.~A., Vetterling W.~T., Flannery B.~P., 2007, Numerical
 \bibitem[{{Reipurth}(2008)}]{Reipurth2008}
 {Reipurth} B., 2008, {Handbook of Star Forming Regions}
 
+\bibitem[{{Renaud}, {Bournaud} \& {Duc}(2015){Renaud}, {Bournaud}, \&
+  {Duc}}]{Renaud2015b}
+{Renaud} F., {Bournaud} F., {Duc} P.-A., 2015, \mnras, 446, 2038
+
 \bibitem[{{Renaud} \& {Gieles}(2015)}]{Renaud2015}
 {Renaud} F., {Gieles} M., 2015, \mnras, 448, 3416
 
@@ -718,6 +784,9 @@ Press W.~H., Teukolsky S.~A., Vetterling W.~T., Flannery B.~P., 2007, Numerical
 
 \bibitem[{{Spitzer}(1987)}]{Spitzer1987}
 {Spitzer} L., 1987, {Dynamical evolution of globular clusters}
+
+\bibitem[{{Spitzer}(1958)}]{Spitzer1958}
+{Spitzer}, Jr. L., 1958, \apj, 127, 17
 
 \bibitem[{{Springel} {et~al}\mbox{.}(2005){Springel}, {White}, {Jenkins},
   {Frenk}, {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly},

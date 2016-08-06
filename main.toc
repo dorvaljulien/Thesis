@@ -50,12 +50,10 @@
 \contentsline {section}{\numberline {4.4}Concluding remarks}{72}{section.4.4}
 \contentsline {part}{II\hspace {1em}Binary stars in substructured clusters}{75}{part.2}
 \contentsline {chapter}{\numberline {5}Introduction to binaries}{77}{chapter.5}
-\contentsline {section}{\numberline {5.1}Binary stars}{77}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}What is a binary star ?}{77}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Why binaries ?}{77}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Multiplicity fraction}{78}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Observed population}{79}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Simulate binary populations in clusters}{80}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.1}What is a binary star ?}{77}{section.5.1}
+\contentsline {section}{\numberline {5.2}Multiplicity fraction}{78}{section.5.2}
+\contentsline {section}{\numberline {5.3}Observed population}{79}{section.5.3}
+\contentsline {section}{\numberline {5.4}Simulate binary populations in clusters}{80}{section.5.4}
 \contentsline {chapter}{\numberline {6}Detecting and injecting binaries}{83}{chapter.6}
 \contentsline {section}{\numberline {6.1}A new binary detection algorithm}{83}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Density comparison}{83}{subsection.6.1.1}
@@ -64,13 +62,27 @@
 \contentsline {subsection}{\numberline {6.2.1}Binary fraction vs primary mass}{88}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Spontaneous semi-major axis distribution}{89}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Completing the population}{90}{subsection.6.2.3}
-\contentsline {chapter}{\numberline {A}NBODY6}{103}{appendix.A}
-\contentsline {section}{\numberline {A.1}Block time-step}{103}{section.A.1}
-\contentsline {section}{\numberline {A.2}KS-regularization}{103}{section.A.2}
-\contentsline {section}{\numberline {A.3}Hermite integration scheme}{105}{section.A.3}
-\contentsline {section}{\numberline {A.4}Ahmad-Cohen neighbour scheme}{106}{section.A.4}
-\contentsline {chapter}{\numberline {B}Binary completion algorithm}{109}{appendix.B}
-\contentsline {section}{\numberline {B.1}"Theoretical" population}{109}{section.B.1}
-\contentsline {section}{\numberline {B.2}Injected and effective population}{110}{section.B.2}
-\contentsline {section}{\numberline {B.3}Stable spontaneous}{111}{section.B.3}
-\contentsline {section}{\numberline {B.4}Random pairing}{112}{section.B.4}
+\contentsline {chapter}{\numberline {7}The evolution of the binary population}{93}{chapter.7}
+\contentsline {section}{\numberline {7.1}Results}{94}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Total binary fraction}{94}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Binary fraction vs primary mass}{96}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Semi-major axis distributions}{98}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Tidal shocks}{100}{subsection.7.1.4}
+\contentsline {section}{\numberline {7.2}Extreme tight- and wide binaries}{101}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Tight binaries}{101}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Wide binaries}{104}{subsection.7.2.2}
+\contentsline {part}{III\hspace {1em}Perspectives and conclusions}{107}{part.3}
+\contentsline {chapter}{\numberline {8}Perspectives}{109}{chapter.8}
+\contentsline {section}{\numberline {8.1}Tidal field}{109}{section.8.1}
+\contentsline {section}{\numberline {8.2}Stellar evolution}{110}{section.8.2}
+\contentsline {section}{\numberline {8.3}Anisotropic expansion}{110}{section.8.3}
+\contentsline {chapter}{\numberline {A}NBODY6}{125}{appendix.A}
+\contentsline {section}{\numberline {A.1}Block time-step}{125}{section.A.1}
+\contentsline {section}{\numberline {A.2}KS-regularization}{125}{section.A.2}
+\contentsline {section}{\numberline {A.3}Hermite integration scheme}{127}{section.A.3}
+\contentsline {section}{\numberline {A.4}Ahmad-Cohen neighbour scheme}{128}{section.A.4}
+\contentsline {chapter}{\numberline {B}Binary completion algorithm}{131}{appendix.B}
+\contentsline {section}{\numberline {B.1}"Theoretical" population}{131}{section.B.1}
+\contentsline {section}{\numberline {B.2}Injected and effective population}{132}{section.B.2}
+\contentsline {section}{\numberline {B.3}Stable spontaneous}{133}{section.B.3}
+\contentsline {section}{\numberline {B.4}Random pairing}{134}{section.B.4}

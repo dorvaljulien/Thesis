@@ -1,12 +1,7 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 Case mismatch error between cite keys raghavan2010 and Raghavan2010
----line 606 of file main.aux
- : \citation{raghavan2010
- :                       }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys raghavan2010 and Raghavan2010
----line 609 of file main.aux
+---line 607 of file main.aux
  : \citation{raghavan2010
  :                       }
 I'm skipping whatever remains of this command
@@ -15,66 +10,77 @@ Case mismatch error between cite keys raghavan2010 and Raghavan2010
  : \citation{raghavan2010
  :                       }
 I'm skipping whatever remains of this command
-The style file: mn2e.bst
 Case mismatch error between cite keys raghavan2010 and Raghavan2010
----line 891 of file main.aux
+---line 611 of file main.aux
  : \citation{raghavan2010
  :                       }
 I'm skipping whatever remains of this command
+White space in argument---line 660 of file main.aux
+ : \citation{Hut
+ :               1983}
+I'm skipping whatever remains of this command
+The style file: mn2e.bst
+Case mismatch error between cite keys raghavan2010 and Raghavan2010
+---line 990 of file main.aux
+ : \citation{raghavan2010
+ :                       }
+I'm skipping whatever remains of this command
+Reallocated field_info (elt_size=4) to 10382 items from 5000.
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
 --line 3608 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
 --line 3616 of file Bibliography/bibdatabase.bib
-Repeated entry---line 5426 of file Bibliography/bibdatabase.bib
+Repeated entry---line 5445 of file Bibliography/bibdatabase.bib
  : @article{Renaud2011
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Bbate2012"
+Warning--I didn't find a database entry for "Goodwin04"
 Warning--empty publisher in Aarseth2003
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
 Warning--empty publisher in Reipurth2008
 Warning--empty publisher in Spitzer1987
-You've used 212 entries,
+You've used 232 entries,
             2938 wiz_defined-function locations,
-            1906 strings with 42270 characters,
-and the built_in function-call counts, 100617 in all, are:
-= -- 8102
-> -- 8023
+            2018 strings with 45121 characters,
+and the built_in function-call counts, 108686 in all, are:
+= -- 8794
+> -- 8516
 < -- 17
-+ -- 2677
-- -- 2605
-* -- 8174
-:= -- 19144
++ -- 2850
+- -- 2774
+* -- 8798
+:= -- 20710
 add.period$ -- 13
-call.type$ -- 212
-change.case$ -- 1628
-chr.to.int$ -- 214
-cite$ -- 217
-duplicate$ -- 3589
-empty$ -- 5664
-format.name$ -- 2912
-if$ -- 19564
-int.to.chr$ -- 5
+call.type$ -- 232
+change.case$ -- 1754
+chr.to.int$ -- 232
+cite$ -- 237
+duplicate$ -- 3917
+empty$ -- 6172
+format.name$ -- 3101
+if$ -- 21118
+int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 204
-newline$ -- 640
-num.names$ -- 856
-pop$ -- 1487
+missing$ -- 224
+newline$ -- 700
+num.names$ -- 936
+pop$ -- 1590
 preamble$ -- 1
-purify$ -- 1622
+purify$ -- 1748
 quote$ -- 0
-skip$ -- 3562
+skip$ -- 3866
 stack$ -- 0
-substring$ -- 4230
-swap$ -- 279
+substring$ -- 4624
+swap$ -- 303
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1857
+type$ -- 2037
 warning$ -- 5
-while$ -- 982
+while$ -- 1078
 width$ -- 0
-write$ -- 2116
-(There were 5 error messages)
+write$ -- 2316
+(There were 6 error messages)

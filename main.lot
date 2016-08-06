@@ -14,6 +14,11 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Detecting and injecting binaries}{83}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{NBODY6}{103}{appendix.A}
+\contentsline {xchapter}{The evolution of the binary population}{93}{chapter.7}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Summary of simulations. Starting from an HL fragmented configuration, a binary population was injected to complete the spontaneous binaries, reaching an overall binary fraction of 0.42. Densities withing half-mass radius are shown at t=0 and time of deepest collapse.\relax }}{94}{table.caption.59}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Binary completion algorithm}{109}{appendix.B}
+\contentsline {xchapter}{Perspectives}{109}{chapter.8}
+\addvspace {10\p@ }
+\contentsline {xchapter}{NBODY6}{125}{appendix.A}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Binary completion algorithm}{131}{appendix.B}
