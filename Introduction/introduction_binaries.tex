@@ -4,18 +4,18 @@
 In the second part of this thesis we turn to binary stars and their relation to star clusters. 
 
 \paragraph*{}
-Binary stars are crucial to understand the evolution of star clusters for a variety of reasons. They can be a reservoir of energy, supporting the core of a cluster against collapse by giving away their internal energy to perturbers, effectively ejecting stars and heating the system, affecting its global evolution and stopping core collapse (e.g \citealt{Heggie1992}).
+Binary stars are crucial to understand the evolution of star clusters for a variety of reasons. They can be a reservoir of energy, supporting the core of a cluster against collapse by giving away their internal energy to perturbers, heating the system and possibly ejecting stars, affecting its global evolution and stopping core collapse (e.g \citealt{Heggie1992}).
 
 The statistical properties of binary star populations in dense stellar associations in particular may shed light on the discovery of multiple star-formation episodes in rich stellar clusters \citep{anderson2009}. For instance, binary stars enhance strong dynamical interactions which in turn may speed-up evolution off the main sequence and so boost enrichment of the ISM through winds (e.g., \citealt{Tailo2015}). Tight binaries of short-lived massive stars may evolve to produce exotic stellar remnants including black hole progenitors \citep{bacon1996,davies2009}. Blue stragglers, abnormally hot stars for the age of their host clusters, are thought to form in binary mergers, making them a dynamical record of the past binary population and dynamical state of the cluster \citep{Knigge2009}.
 
 Finally, accurate knowledge of binary populations in stellar clusters enable good estimation of their dynamical mass, as the integrated velocity dispersion is largely biased by the binaries internal motions, see \cite{Rubenstein1997}.
 
-In this short introduction to binaries, we define a binary system, detail
+In this short introduction to binaries, we define a binary system, describe a statistical measure for a binary population, then introduce the observational and numerical work on binary population both in the field and in clusters.
 
 
 \section{What is a binary star ?}
 
-When two massive bodies of mass $m_1$ and $m_2$ interact gravitationally, they can have different types of trajectory depending on their total energy:
+When two massive bodies of mass $m_1$ and $m_2$ interact gravitationally, they can have different types of trajectory depending on their total energy
 
 \begin{equation}
 E = E_k + E_p = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2  - \frac{G m_1 m_2}{\| \bold{r_1} - \bold{r_2}\| }.
@@ -28,13 +28,13 @@ E = E_k + E_p = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2  - \frac{G m_1 m_2
 %\end{itemize}
 
 If $E<0$, they are bound and locked in a binary system. Such systems are characterised by their semi-major axis $a$, their eccentricity $e$, their period $p$, their total mass $m_t = m_1 + m_2$, mass ratio $q = m_2/m_1$ with $m_1$ being the primary, more massive than $m_2$.
-Mass, period and semi-major axis are related by Kepler's third law:
+Mass, period and semi-major axis are related by Kepler's third law
 
 \begin{equation}
 \frac{G m_t}{4\pi^2} =  \frac{a^3}{p^2}.
 \end{equation}
 
-Interestingly, expressed in AU, $\Mo$ and years, $G \simeq 4 \pi^2$, thus the law can be written:
+Interestingly, expressed in AU, $\Mo$ and years, $G \simeq 4 \pi^2$, thus the law can be written
 
 \begin{equation}
 \left( \frac{m_t}{1 \Mo} \right) \simeq \left( \frac{p}{1 \textrm{yr}} \right) \left( \frac{a}{1 \textrm{AU}} \right)^3 .
@@ -66,7 +66,7 @@ Interestingly, expressed in AU, $\Mo$ and years, $G \simeq 4 \pi^2$, thus the la
 
 
 
-The total energy of the binary can be expressed as a function of $a$ and $m_t$:
+The total energy of the binary can be expressed as a function of $a$, $m_1$, $m_2$:
 
 \begin{equation}
 E = - \frac{G m_1 m_2}{2a} 
@@ -76,18 +76,18 @@ E = - \frac{G m_1 m_2}{2a}
 
 \section{Multiplicity fraction}
 
-In a stellar population, some fraction of stars will be found in multiple systems: some  in binaries and some in higher order hierarchies. A hierarchical triple is a stable 3-body bound system, a binary of which one of the component is a binary itself. The same principle applies to quadruple, quintuple, etc. One of the brightest stars in the night sky, Castor, is a sextuple hierarchical system, with 6 stars in a stable system.
+In a stellar population, a fraction of stars will be found in multiple systems: some  in binaries and some in higher order hierarchies. A hierarchical triple is a stable 3-body bound system, a binary of which one of the component is a binary itself. The same principle applies to quadruple, quintuple, etc. One of the brightest stars in the night sky, Castor, is a sextuple hierarchical system, with 6 stars in a stable system.
 
 Counting binaries and multiples is not straightforward: do you count triples as two binaries or three stars in a multiple system ? In their SPH simulation paper, \cite{Goodwin2004a} discuss several ways to measure the degree of multiplicity among stars in a system, each of them quantifying different properties, such as companion probability, companion frequency or pairing factor. 
 
-Let  S be the number of single stars, and B,T, and Q the number of binary-, triple-, and quadruple systems, respectively. The fraction of multiple stars bound in binaries, triples, .. to the total number of multiple plus single stars, is
+Let  S be the number of single stars, and B, T and Q the number of binary-, triple-, and quadruple systems, respectively. The fraction of multiple stars bound in binaries, triples and quadruples to the total number of multiple plus single stars, is
 
 \begin{equation}
 \label{Eq:0_fm} 
 f_m = \frac{B + T + Q}{S + B + T + Q}. 
 \end{equation}
 
-This last  measure is used in seminal observationnal papers \citep{DM91,Raghavan2010} and is our adopted choice. As pointed out by \cite{Hubber2005}, $f_m$ in Eq. (\ref{Eq:0_fm}) has several advantages: 1) it  may be  restricted to a given mass $m$, setting  $S_m$ the number of single stars, and $B_m,\, T_m,\, Q_m$  the multiple stars with a primary of that mass ;  2)  the multiplicity fraction is observationally robust: when a binary is being reclassified as a triple, or an even higher order multiple system, the fraction does not change. 
+This measure is used in seminal observationnal papers \citep{DM91,Raghavan2010} and is our adopted choice. As pointed out by \cite{Hubber2005}, $f_m$ in Eq. (\ref{Eq:0_fm}) has several advantages: 1) it  may be  restricted to a given mass $m$, setting  $S_m$ the number of single stars, and $B_m,\, T_m,\, Q_m$  the multiple stars with a primary of that mass;  2)  the multiplicity fraction is observationally robust: when a binary is being reclassified as a triple, or an even higher order multiple system, the fraction does not change. 
  These definitions may be extended to cover a mass range  in a coherent way, by substituting $m \rightarrow \langle m\rangle$, the mean value over the range. This is useful mostly when comparing  systems with different stellar mass functions. 
 
 
@@ -110,7 +110,7 @@ This last  measure is used in seminal observationnal papers \citep{DM91,Raghavan
         \caption{Binary fraction vs spectral type}
         \label{Fig:0_binpop_2}
     \end{subfigure}
-\caption{(a) shows the observed distribution of period and semi-major axis observed in the field. Different hatchings show different observation techniques: horizontal lines show unobserved companions detected by the proper-motion acceleration of components, positively sloped lines show spectroscopic binaries, negatively sloped lines visual binaries, cross hatching show objects found with both, and vertical lines are objects with common proper motions. (b) was compiled from several surveys, detailed in Fig 4.? (to come later). Both figures were extracted from \cite{Raghavan2010}. }
+\caption{(a) shows the observed distribution of period and semi-major axis observed in the field. Different hatchings show different observation techniques: horizontal lines show unobserved companions detected by the proper-motion acceleration of components, positively sloped lines show spectroscopic binaries, negatively sloped lines visual binaries, cross hatching show objects found with both, and vertical lines are objects with common proper motions. (b) was compiled from several surveys, detailed in Fig~\ref{Fig:5_spontaneous_primarymass}. Both figures were extracted from \cite{Raghavan2010}. }
 \label{Fig:0_binpopulation}
 \end{figure}
 
@@ -118,11 +118,10 @@ This last  measure is used in seminal observationnal papers \citep{DM91,Raghavan
 
 
 A seminal survey of binary solar-type stars in the field was performed by \cite{DM91}. This seminal paper was updated and completed by \cite{Raghavan2010}, who essentially confirmed the main results from the first study. They observed hundreds of F and G main-sequence stars in pairs and derived their binary parameters. The total binary fraction for these stars was found to be $\sim$ 53\% as binaries are quite common in most stellar populations.
-  The authors also derived a period distribution, extending from less than a day to more than a Myr. The distribution was consistently well fitted by a log-normal distribution. The period distribution for F and G stars (as well as K and M stars, see \citealt{Fischer1992}) is:
+  The authors also derived a period distribution, extending from less than a day to more than a Myr. The distribution was consistently well fitted by a log-normal distribution. The period distribution for F and G stars (as well as K and M stars, see \citealt{Fischer1992}) is
 \begin{equation}
-f( \log{P})\propto \exp \left[ \frac{- ( \log{P} - \mu_{logP})}{ 2 \sigma_{logP}^2} \right]
+f( \log{P})\propto \exp \left[ \frac{- ( \log{P} - \mu_{logP})}{ 2 \sigma_{logP}^2} \right],
 \end{equation}
-
 with the peak value $\mu_{logP} = 5.03$, about 300 years, and the dispersion $\sigma_{logP} = 	2.28$, the distribution is shown on Fig~\ref{Fig:0_binpop_1}.
 
 \cite{Raghavan2010} also compiled several observational studies of binaries with primaries of various spectral types. High mass stars, types O,B,A, (from 30+ down to 2$\Mo$) have a high multiplicity fraction, about 75\%  while lower mass stars such as M-dwarfs only have 10-30\% multiplicity, see Fig~\ref{Fig:0_binpop_2}. This trend of increasing multiplicity with increasing primary mass is found in many surveys.
@@ -159,8 +158,8 @@ Many authors have explored this question through optimised initial conditions \c
 
  
  
-  We note that hydrodynamical calculations of star formation have found young heavy stars to be preferentially found in dense clumps \citep{Maschberger2010}. Furthermore, it is not clear yet whether binary populations should be tailored according to the total system mass because of the limited range of $M \sim 10^2$ to $ \sim 10^3 M_\odot$ of these studies \citep{Kroupa2001,Parker2011,Parker2014}. Recall that the intensity of the tidal field is a prime agent of binary heating.  A trend with mass may be expected on the ground that the drive to equilibrium of more massive systems leads to deeper potential wells (e.g. \citealt{Aarseth1988,Boily2002}). A steep potential will give rise to strong tidal fields which may disrupt bound sub-systems \citep{Boily2004,Renaud2011}. A definitive assesment of this effect is difficult to reach because the results are a strong function of the system initial mass distribution and kinetic energy content \citep{Boily2002,Caputo2014}.
-  
+%  We note that hydrodynamical calculations of star formation have found young heavy stars to be preferentially found in dense clumps \citep{Maschberger2010}.
+   Furthermore, it is not clear yet whether binary populations should be tailored according to the total system mass because of the limited range of $M \sim 10^2$ to $ \sim 10^3 M_\odot$ of these studies \citep{Kroupa2001,Parker2011,Parker2014}. Recall that the intensity of the tidal field is a prime agent of binary heating.  A trend with mass may be expected on the ground that the drive to equilibrium of more massive systems leads to deeper potential wells (e.g. \citealt{Aarseth1988,Boily2002}). A steep potential will give rise to strong tidal fields which may disrupt bound sub-systems \citep{Boily2004,Renaud2011}. A definitive assesment of this effect is difficult to reach because the results are a strong function of the system initial mass distribution and kinetic energy content \citep{Boily2002,Caputo2014}.
   
   
 \paragraph*{}

@@ -43,7 +43,7 @@
 %\newpage
 %    
     
-    \input{Foreword/foreword}
+
     \input{Introduction/introduction}
     
     \part{The fragmented model and its evolution}
@@ -60,6 +60,17 @@
 	\input{Chapters/chapter_perspectives}
 
 
+
+    \appendix
+
+    \part*{Appendices}
+
+\input{Appendices/history.tex}
+\input{Appendices/nbody6.tex}
+\input{Appendices/phase_space.tex}
+\input{Appendices/completion.tex}
+
+    
     \pagestyle{introduction}
       % bibliographie
     \biblio{Bibliography}
@@ -68,18 +79,14 @@
     \bibliography{Bibliography/bibdatabase}
 %     \addstarredchapter{\textsc{Bibliographie}}
     \markboth{\textsc{Bibliography}}{}
+        
     
-    \appendix
-
-\input{Appendices/nbody6.tex}
-\input{Appendices/completion.tex}
-
     
     
     \backmatter
-    \listoffigures
+%    \listoffigures
 %     \addstarredchapter{Liste des figures}
-    \listoftables
+%    \listoftables
 %     \addstarredchapter{Liste des tableaux}
 %     
 

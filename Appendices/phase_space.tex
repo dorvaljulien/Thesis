@@ -1,0 +1,42 @@
+\chapter{Binary formation from phase-space correlations}
+\label{App:phasespace}
+
+In this appendix, we derive the theoretical binary population arising from phase-space correlation in an expanding uniform model. The global, isotropic expansion of a uniform self-gravitating body is found by integrating the equations of motion with an initial  velocity field 
+
+\begin{equation}
+ \bold{v} = \mathcal{H}\,\bold{x} , \label{Eq:Hubbleflow}
+\end{equation}
+where $\mathcal{H}$ is the Hubble-Lema\^itre parameter, a monotonically decreasing function of time. 
+We want to show that the two-body correlation function defined around phase-space coordinates ${\rm d} \mathbf{x}^3 {\rm d} \mathbf{v}^3$ must peak when the Hubble-Lema\^itre expansion nears $\mathcal{H}  \rightarrow 0$. Let $m_1$ and $m_2$ be two stars of coordinates $\mathbf{x}_1, \mathbf{x}_2$, respectively; their relative velocity follows from 
+(\ref{Eq:Hubbleflow}) as 
+\[ \mathbf{v}_{1,2} = \mathcal{H}  ~ ( \mathbf{x}_1 - \mathbf{x}_2 ) \equiv \mathcal{H}\,\mathbf{l} .\]
+With the definition of the reduced mass $ \mu = m_1 m_2 / M$ and total mass $M = m_1 + m_2$, the binding energy per mass  of the stars reads 
+
+\begin{equation}
+E = - \frac{G \mu}{ || \mathbf{x}_1 - \mathbf{x}_2 || } + \frac{1}{2} \, \mathbf{v}_{1,2}^2 = - \frac{G\mu}{l} + \frac{1}{2} \mathcal{H}^2 l^2 \ . 
+\end{equation}
+ The binding energy $E < 0 $ provided that $l^3 < 2 G \mu / \mathcal{H}^2$. If we use as characteristic separation the mean 
+ distance in the homogeneous sphere of radius $R(t)$ (which encloses all the stars), then for a total of $N$ stars one 
+ may write $ l \approx R / N^{1/3}$ and take $ m_1 = m_2 = \overline{m} =  M / N $ ; then $\mu = \overline{m}^2/N$ and 
+ the condition $E < 0 $ becomes 
+ 
+ \[ R(t)^3 < \frac{2G\overline{m}}{\mathcal{H}^2}\ . \] 
+ In practice, $R(t)$ reaches a maximum value in a finite time interval since the system as a whole is bound. Because $\mathcal{H}~\rightarrow~0$, there must be a time interval during which the inequality is (on average) 
+ everywhere satisfied. We anticipate most `spontaneous' binary stars to form during that time interval. 
+ 
+ The calculation presented above predicts that virtually all stars should end up in binaries of separation 
+ $\approx l = R(\tau)/N^{1/3}$ ($t = \tau$ being the time when $\mathcal{H} = 0$). This is not so in practice 
+ because the velocity field around $t = \tau$ is not 
+ the Hubble flow of Eq.~(\ref{Eq:Hubbleflow}), but is rather (globally) a Gaussian field (cf. section \ref{sec:velocityfield}). 
+ 
+ 
+ We want to outline the basic procedure that would lead to  the identification of {\it all } bound pairs (including multiple stars) for a general case.  Let us work with the one-body phase-space distribution function $f(\mathbf{x}, \mathbf{v}, t) $ 
+ ; the game, then, is to ride one of the stars (say, $m_i$) and seek out any other one that may lead to $E < 0$. To do so, one 
+ may define a Heaviside operator, $H_e( \mathbf{x}- \mathbf{x}_i, \mathbf{v} - \mathbf{v}_i )$ such that 
+ $H_e = 1 $ whenever $E < 0$ and $H_e = 0 $ otherwise. For instance, if we set $t = \tau$ (no time integration or 
+ averaging) and sum over all pairs once only, we compute $N_b$ pairs, so: 
+ 
+ \[  N_b = \sum_{j=1}^N \sum_{i > j} H_e(  \mathbf{x}_j- \mathbf{x}_i, \mathbf{v}_j - \mathbf{v}_i )  f(\mathbf{x}_i, \mathbf{v}_i - \mathbf{v}_j, t) . \] 
+ 
+ In integral form, this formalism would allow us to perform Monte Carlo draws from any functional form for the distribution 
+ function $f$. \cite{BT}, \S7.5.8 give a numerical example for the case when $f  = \overline{\rho}(\mathbf{x},t) / \overline{m} \, \tilde{f}(\mathbf{v},t)$, with  $\overline{\rho}(\mathbf{x},t) / \overline{m} = $ constant and the velocity d.f.  $\tilde{f}(\mathbf{v},t)$ is a Maxwellian. 

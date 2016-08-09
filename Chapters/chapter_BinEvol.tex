@@ -8,21 +8,24 @@ In this chapter, the fragmented HL models with a completed binary population fro
 
 \paragraph*{}
 
-A system bound gravitationally will resist external tidal forces if it sits within its Roche radius (\citealt{BT}, \S8; \citealt{Renaud2011}). For binary stars, the condition for boundedness is given by Eq.~(\ref{Eq:density_ratio})  with $D = 3$ and setting the mean density $\rho_{bin}$ over the full Jacobi volume. Thus the question of how much the mean background density rises and  compares to the mean density of the binary has important consequences for the further evolution of the binary. The situation is made more complicated if the host's potential changes rapidly, on the  dynamical time-scale $t_{cr}$ of Eq.~(\ref{Eq:0_tcr}). 
+A gravitationally bound system will resist external tidal forces if it sits within its Roche radius (\citealt{BT}, \S8; \citealt{Renaud2011}). For binary stars, the condition for boundedness is given by Eq.~(\ref{Eq:density_ratio})  with $D = 3$ and setting the mean density $\rho_{bin}$ over the full Jacobi volume. Thus the question of how much the mean background density rises and  compares to the mean density of the binary has important consequences for the further evolution of the binary. The situation is made more complicated if the host's potential changes rapidly, on the  dynamical time-scale $t_{cr}$ of Eq.~(\ref{Eq:0_tcr}). 
 
 Let us first recall the results of the collapse of an homogeneous sphere of $N$ identical stars. For this case the sphere collapses by a factor $C$ before it rebounds and evolves towards equilibrium \citep{Aarseth1988,Boily2002}. The ratio of minimum radius achieved during collapse, to the initial system radius, is a 1/3 power-law of $N$, so $ C \propto N^{-1/3}$. 
 % so that rich systems become systematically denser before the growth of dynamical fragments stop the collapse.
 If the total mass is conserved during the collapse, the mean background density scales as $\rho \propto C^{-3}$ and so reaches a peak value $\max(\rho) \propto N$. Based on this analysis, one would expect a strong relation between the system {\it total} mass $M = N \overline{m}$ and the rate of destruction of binary stars, especially those of large semi-major axis $a$, if and when a cluster undergoes a phase of collapse.
 
-To investigate this effect of membership on the destruction rate, various simulations were performed: their parameters are summarized in Table~\ref{Tab:6_models}. Runs with $N$ ranging from 1500 to 80000 were sampled in such a way that ensemble-averaging  gave roughly the same Poissonian standard deviations in each case. All models underwent the binary population completion procedure described in the previous chapter, with the two reference densities 6 pc$^{-3}$ and 400 pc$^{-3}$.
+\section{The models}
+\label{Sec:6_models}
 
-The aspect of a 20k star models with high density, R20h in Tab~\ref{Tab:6_models}, is shown on the left panel of Fig.~\ref{Fig:6_Rhm}, while the evolution of its half-mass radius over time is shown on the right panel. Four epochs of interest are shown as red dots: $t_0$, the initial conditions; $t_1$, end of collapse and before the bounce; $t_2$, just after the bounce; $t_3$ 30 H.u, the system reached quasi-equilibrium. These will be reference epochs throughout this chapter.
+To investigate this effect of membership on the destruction rate, various simulations were performed: their parameters are summarized in Table~\ref{Tab:6_models}. Runs with $N$ ranging from 1500 to 80000 were sampled in such a way that ensemble-averaging  gave roughly the same Poissonian standard deviations in each case. As in previous chapter, stars were drawn from the $L_3$ IMF \citep{Maschberger2013} with a truncation range of $[0.1,30]~\Mo$. All models underwent the binary population completion procedure (see \ref{Sec:Completing}) with the two reference densities 6 pc$^{-3}$ and 400 pc$^{-3}$.
+
+The aspect of a 20k star models with high density, R20h in Tab~\ref{Tab:6_models}, is shown on the left panel of Fig.~\ref{Fig:6_Rhm}, while the evolution of its half-mass radius over time is shown on the right panel. Four epochs of interest are shown as red dots: $t_0$, the initial conditions; $t_1$, end of collapse and before the bounce; $t_2$, just after the bounce; $t_3$ = 30 H.u, the system reached quasi-equilibrium. These will be reference epochs throughout this chapter. Physical conversion from section \ref{Sub:spontaneous_separations} gives a total duration of the simulations of 2.3 Myr for the high density clusters and 18 Myr for the low density ones.
 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{Figures/6_Rhm}
-\caption{Left panel: spatial distribution of a Hubble-Lema\^itre fragmented model. Right panel: evolution of the half-mass radius over time. The times labelled as $t_0$ to $t_3$ are the system configurations used in \S4 for analysis. }
+\caption{Left panel: spatial distribution of a Hubble-Lema\^itre fragmented model. Right panel: evolution of the half-mass radius over time. The times labelled as $t_0$ to $t_3$ are the system configurations used in the present chapter for analysis. }
 \label{Fig:6_Rhm}
 \end{center}
 \end{figure}
@@ -38,7 +41,7 @@ The aspect of a 20k star models with high density, R20h in Tab~\ref{Tab:6_models
 
 \begin{table}
 \begin{center}
-\caption{Summary of simulations. Starting from an HL fragmented configuration, a binary population was injected to complete the spontaneous binaries, reaching an overall binary fraction of 0.42. Densities withing half-mass radius are shown at t=0 and time of deepest collapse.}
+\caption{Summary of simulations. Starting from an HL fragmented configuration, a binary population was injected to complete the spontaneous binaries, reaching an overall binary fraction of 0.42. Densities within half-mass radius are shown at t=0 and time of deepest collapse.}
 \label{Tab:6_models}
 \begin{tabularx}{0.6\textwidth}{XXlXXX}
 \hline
@@ -110,7 +113,7 @@ We note that the $N = 1.5$k models are dominated by two-body interactions, the m
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/6_BinFrac_vs_mass_LD}
-\caption{ The data is from low density models. Top panels show the binary fraction in logarithmic bins for the primary masses. Dotted line show the linear fit to observations shown in Fig.~\protect\ref{Fig:5_spontaneous_primarymass}. In bottom panels, the number of binaries in each primary mass bin is shown as a percentage of the initial number (t=0). The 100\% value is shown as a horizontal dashed line.}
+\caption{ Top panels: the binary fraction in logarithmic bins for the primary masses. The dotted line is the linear fit to observations shown on Fig.~\protect\ref{Fig:5_spontaneous_primarymass}. Bottom panels: the number of binaries in each primary mass bin is shown as a percentage of the initial number (t=0). The horizontal dashed line is 100 per cent. The data are from low density models.}
 \label{Fig:6_BinFracVsMass_LD}
 \end{center}
 \end{figure}
@@ -119,7 +122,7 @@ We note that the $N = 1.5$k models are dominated by two-body interactions, the m
 \begin{figure*}
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/6_BinFrac_vs_mass_HD}
-\caption{ The data from high density models. Same key as Fig.~\protect\ref{Fig:6_BinFracVsMass_LD}.}
+\caption{ Same key as Fig.~\protect\ref{Fig:6_BinFracVsMass_LD}.  The data are from high density models.}
 \label{Fig:6_BinFracVsMass_HD}
 \end{center}
 \end{figure*}
@@ -150,8 +153,8 @@ The results for the later time $t = t_3$ displayed coincides with the end-time o
 
 The evolution of the distribution of semi-major axes $a $ % (or period, separation, both directly related to semi-major axis)
 in a binary population hinges on its dynamical environment. Several analytical and numerical studies
-\citep{Heggie1975,Kroupa1995,Kroupa1995a,Heggie2006,Parker2009,Parker2011} have shown that wide, weakly bound binaries are preferentially disrupted, so sculpting the distribution towards tighter, more bound binaries. 
-This evolution is shown on Fig.~\ref{Fig:6_SMAxis_histogram} which graphs the distribution histograms as a function of semi-major axis $a$. The distributions are plotted for four various times, membership $N$ and both the values of initial density. The averaged distribution computed from the models with $N = 1.5$k is shown as a dotted line and serves as reference. To ease the comparison between models with different $N$, all histograms were normalized to the reference initial profile at $t=0$ (e.g., the area under the curve is the same for all the models).
+\citep{Heggie1975,Kroupa1995,Kroupa1995a,Vesperini1996,Heggie2006,Parker2009,Parker2011} have shown that wide, weakly bound binaries are preferentially disrupted, so sculpting the distribution towards tighter, more bound binaries. 
+This evolution is shown on Fig.~\ref{Fig:6_SMAxis_histogram} which graphs the distribution histograms as a function of semi-major axis $a$. The distributions are plotted for 4 epochs, 4 membership $N$ and both the values of initial density. The averaged distribution computed from the models with $N = 1.5$k is shown as a dotted line and serves as reference. To ease the comparison between models with different $N$, all histograms were normalized to the reference initial profile at $t=0$ (e.g., the area under the curve is the same for all the models).
 
 
 We first distinguish between high- and low-density models. The overall behaviour of the models is the same, with a rapid dissolution of large semi-major axis binaries,
@@ -173,14 +176,14 @@ Bottom panels shows the erosion factor, the ratio between the sizes of the initi
 \end{center}
 \end{figure}
 
-Having identified the mean initial density as the main driver for binary population evolution, we wish to compare the rate of survival of binaries with the analytical approach by  \cite{Marks2011}. These authors  introduced an analytic operator acting on a binary population to mimick its evolution in  a host star cluster,  dispensing with N-body simulations.  \cite{Marks2012} used this framework to reproduce the destruction of wide binaries, using the operator as an "erosion  factor" applied to a birth semi-major axis distribution, selectively reducing the number of binaries in each semi-major axis bin (see their Fig.~1 for an illustration of their approach). The erosion factor is bound to the interval $[0, +1]$, and equals one when all binaries of a given semi-major axis $a$ are retained (zero when they are all destroyed). 
+Having identified the mean initial density as the main driver for binary population evolution, we wish to compare the rate of survival of binaries with the analytical approach by  \cite{Marks2011}. These authors  introduced an analytic operator acting on a binary population to mimick its evolution in  a host star cluster,  dispensing with N-body simulations.  \cite{Marks2012} used this framework to reproduce the destruction of wide binaries, using the operator as an "erosion  factor" applied to a birth semi-major axis distribution, selectively reducing the number of binaries in each semi-major axis bin (see their Fig.~1 for an illustration of their approach). The erosion factor is bound (in their case) to the interval $[0, 1]$, and equals one when all binaries of a given semi-major axis $a$ are retained (zero when they are all destroyed). 
 
 
  The erosion factors arising from $N = 20$k simulations for the four reference times are displayed on  Fig.~\ref{Fig:6_S_shape} (bottom panels). 
 %
 % Dotted lines highlight the
 % $10^2, 10^3, 10^4, 10^5$ AU positions to ease the comparison between low and high density. 
-The model with initially high density heats up and splits binaries of  (relatively) shorter semi-major axis  during the collapse, and beyond: the most dramatic phase of evolution between times  $t_0$ and $t_2$. During that interval,  nearly 80\% of  binaries with $a > 100 $ AU are split. There is comparatively little evolution from $t_2$ to $t_3$,  which covers the remaining {\it half} of the run time.  
+The model with initially high density heats up and splits binaries of  (relatively) shorter semi-major axis  during the collapse, and beyond: the most dramatic phase of evolution between times  $t_0$ and $t_2$. During that interval,  nearly 80\% of  binaries with $a > 1000 $ AU are split. There is comparatively little evolution from $t_2$ to $t_3$,  which covers the remaining {\it half} of the run time.  
 The run of the erosion factor with $a$  and its time-evolution are very similar  when comparing the runs of models with  high- and low initial  density. The most striking difference is the shift of the minimum value of the erosion factor, from a semi-major axis $a \approx 3 000$ AU, to larger axes $a \approx 10 000$ AU  in the case of low density models .  The extent of the shift, a factor of $~4$, is consistent with the scaling of the mean separations between stars $ l \propto \rho^{-1/3}$; we compute for high and low density systems 
 \begin{equation}
 \frac{l_{low}}{l_{high}} = \left(  \frac{\rho_{high}}{\rho_{low}}\right)^{1/3} = \sqrt[3]{\frac{400}{6}} \simeq 4 .
@@ -194,8 +197,9 @@ The late stages of cluster formation, post-bounce and nearly in virial equilibri
 analytical operator  of \cite{Marks2012}. One significant difference that this approach does not factor in is the formation of wide binaries in the post-bounce phase. The operator may still adequately compute  the evolution of a binary population in a system in global  equilibrium. Nevertheless, expanding low-density volumes and other phenomena related to the virialisation phase appear to be outside the scope of a cluster-wide binary-processing analytical  operator. 
 % Apart from the uptick at large separation, the shape of the erosion factor we find is similar to the analytic operator from % \cite{marks2012}, the processing in the relaxed system appears similar. 
 
-% \subsection{Comparison with uniform mass profiles}
+
 \subsection{Tidal shocks} 
+\label{Sec:6_tidal}
 
 %\begin{figure}
 %%\begin{center}
@@ -215,17 +219,17 @@ Taking inspiration from the tidal shock suffered  by a cluster crossing the gala
 
 \begin{equation}
 \label{Eq:6_DeltaEs}
-\Delta E_s = \frac{14 \pi^2 G^2 \Sigma^2 r^2}{3 V_r^2}\, .
+\Delta E_s = \frac{14 \pi^2 G^2 \Sigma^2 a^2}{3 V_r^2}\, .
 \end{equation}
-We seek out the scaling of this relation with the number of stars $N$, keeping the system initial mean density $\rho(0)$ constant. This implies that the total mass $M \propto N$.  The expectation from the analysis of fragmentation modes is that the radius at the bounce $r = R_o / N^{1/3}$. The projected density at the bounce therefore scales as $\Sigma \approx M / \pi r^2 $. Ignoring mass loss and the energy dissipated by binary disruption, we can estimate the magnitude of the square radial velocity $V_r^2$ from the relation 
+We seek out the scaling of this relation with the number of stars $N$, keeping the system initial mean density $\rho(0)$ constant.  The expectation from the analysis of fragmentation modes is that the radius at the bounce $r_b = R_o / N^{1/3}$. The projected density at the bounce therefore scales as $\Sigma \approx M / \pi r_b^2 $ with the total mass $M \propto N$. Ignoring mass loss and the energy dissipated by binary disruption, we can estimate the magnitude of the square radial velocity $V_r^2$ from the relation 
 \begin{equation}
-3 V_r^2 \approx \frac{2G M}{r} \propto \frac{N}{N^{-1/3} R_o}.
+3 V_r^2 \approx \frac{2G M}{r_b} \propto \frac{N}{N^{-1/3} R_o}.
 \end{equation}
 
-Substituting in (\ref{Eq:6_DeltaEs}) and replacing $r$ by the semi-major axis, we find 
+Substituting in (\ref{Eq:6_DeltaEs}) and replacing $r$ by the semi-major axis $a$, we find 
 
 \begin{equation}
-\Delta E_s =  \frac{14\pi G^2 ( M / \pi r^2 )^2 a^2}{ 2GM / r } \propto \frac{G M \, a^2}{r^3} \propto \frac{GM}{R_o^3} N a^2\, .
+\Delta E_s =  \frac{14\pi G^2 ( M / \pi r_b^2 )^2 a^2}{ 2GM / r_b } \propto \frac{G M \, a^2}{r_b^3} \propto \frac{GM}{R_o^3} N a^2\, .
 \end{equation}
 
 The binding energy per unit mass of a binary star is $E_s = - G \mu / 2 a $. The relative energy imparted to the binary by the shock is therefore 
@@ -262,40 +266,55 @@ This shift is not seen on the figure. What we see, on the other hand, is that la
 %
 %\edit{Moreover, while the increase of central density is expected to scale with N, our uniform models do not fit this trend. % Looking at the values in \ref{Tab:models}, going from 1.5k to 20k only brings a factor $\sim 2$ in collapse density, instead of $\sim 13$. This is a consequence of the mass spectrum in our models, bringing two-body interaction during the collapse and increasing the velocity dispersion. This makes the collapse shallower and attenuate the density peak. These effects: shorter collapse duration and lower density compensate the destructive power of the high density core when crossed by a binary.}
 
-\section{Extreme tight-  and wide binaries}
+\section{Extreme tight and wide binaries}
 
-As mentioned in \S~\ref{Sub:spontaneous_separations}, \cite{Bate2012} has found several examples of binaries reducing their separation over time through stellar encounters, from $\sim 10 $ AU down to $ \lesssim 0.5 $ AU. Tighter systems were hindered by numerical resolution issues. The regularised treatment of close encounters (which allows to integrate up to machine precision) of the code NBODY6 means that the same collisional process will be at play in the calculations that we have performed. Since no binaries with semi-major axis $a$  shorter than $ 1 $ AU was inserted in the initial conditions, we focus first on the statistics of binaries that evolved to $a < 1 $ AU. In the second part of this section, we will explore the formation and the evolution of very wide ($a > 10^4$ AU) binaries, many of which end up loosely bound to the stellar cluster  as a whole.   
+As mentioned in section \ref{Sub:spontaneous_separations}, \cite{Bate2012} has found in his hydrodynamical simulations several examples of binaries reducing their separation over time through stellar encounters, from $\sim 10 $ AU down to $ \lesssim 0.5 $ AU. Tighter systems were hindered by numerical resolution issues. The regularised treatment of close encounters (which allows to integrate up to machine precision) of the code NBODY6 means that the same collisional process will be at play in the calculations that we have performed. Since no binaries with semi-major axis $a$  shorter than $ 1 $ AU was inserted in the initial conditions, we focus first on the statistics of binaries that evolved to $a < 1 $ AU. In the second part of this section, we will explore the formation and the evolution of very wide ($a > 10^4$ AU) binaries, many of which end up loosely bound to the stellar cluster  as a whole.   
 % We wanted to see if such behaviour was found in our systems. No binaries shorter than 1 AU was injected, we looked at 
 % all binaries with separation smaller than this.
 
 \subsection{Tight binaries}
 
+
+
 \begin{figure}
 \begin{center}
-\includegraphics[width=\textwidth]{Figures/6_extreme_binaries_LD}
-\caption{ Left panels: Total binary mass (top) and distance to center of the cluster (bottom) versus the semi-major axis for binaries tighter than 1AU at the end of the simulation. Right panels: same layout for binaries wider than $10^4$AU. The greyed area in the top panels shows the 90\% probability range of a binary total mass from random pairing given the present IMF. The  red dashed line in the top left panel shows the relation for  constant $v^2_\infty \sigma_{coll} \equiv \sigma_0$; it is bounded by two dotted curves that have 10$\sigma_0$ (above) and 0.1$\sigma_0$ (below). The horizontal dotted line in the bottom panel indicates the boundary between the ejecta (distance to center $>$ 10pc) and the central system. Open circles are binaries which already existed at t=0. The data is from 10 simulations of $N = 20$k stars with initial mean density of $6 /\pc^3$.}
-\label{Fig:6_extreme_LD}
+    \begin{subfigure}[b]{0.9\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/6_extreme_binaries_LD}
+        \caption{R20l, low density models.}
+        \label{Fig:6_extreme_LD}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.9\textwidth}
+    	\centering
+    	\includegraphics[width=\textwidth]{Figures/6_extreme_binaries_HD}
+        \caption{R20h, high density models.}
+		\label{Fig:6_extreme_HD}	        
+    \end{subfigure}
+\caption{Left panels: Total binary mass (top) and distance to center of the cluster (bottom) versus $a$ for binaries tighter than 1AU at the end of the simulation. Right panels: same layout for binaries wider than $10^4$AU. The greyed area in the top panels shows the 90\% probability range of a binary total mass from random pairing given the present IMF. The  red dashed line in the top left panel shows the relation for  constant $v^2_\infty \sigma_{coll} \equiv \sigma_0$; it is bounded by two dotted curves that have 10$\sigma_0$ (above) and 0.1$\sigma_0$ (below). The horizontal dotted line in the bottom panel indicates the boundary between the ejecta (distance to center $>$ 10pc or 2.8pc depending on density) and the central system. Open circles are binaries which already existed at t=0. The data are from R20l for (a) and R20h for (b).}
+\label{Fig:6_extreme}
 \end{center}
 \end{figure}
 
-Several binaries with $a < 1 $ AU were detected at the end of the low-density simulations. By comparison, almost none developed in the high-density runs. Their properties are summarised in the left panel of Fig.~\ref{Fig:6_extreme_LD}. 
-The data is taken from $N = 20$k runs but similar statistics were obtained for the other setups. 
+
+Several binaries with $a < 1 $ AU were detected at the end of the low-density simulations. By comparison, almost none developed in the high-density runs. Their properties are summarised in the left panels of both Fig.~\ref{Fig:6_extreme_LD} and \ref{Fig:6_extreme_HD}. 
+The data are taken from $N = 20$k runs but similar statistics were obtained for the other setups. 
 The top row shows the binary mass as a function of semi-major axis, while the  bottom row on that figure  graphs the distance of their barycentre to the center of the cluster. Open circles denote binaries that already existed at t=0, and became tighter over time, while filled circles are {\it new} binaries that formed in the course of the simulation. Inspection of these new, tight  binaries shows that {\it both} of their components were part of  binaries originally inserted in the system. Thus all new tight binaries shown on Fig.~\ref{Fig:6_extreme_LD}  are the results of strong binary-binary interactions leading to splitting or exchange. (None of the original  binaries that survived 	to the end of the simulation had  $a < 1/2 $ AU.)
 	
 %	 $a< 1$AU, down to $\simeq 10^{-2}$ AU, or 2 solar radius, practically a contact binary. These systems appears to 
 %  follow a trend of decreasing separation for increasing total mass.
  
 The statistics of these events should be compared with expectations based on estimated collision rates. 
-The  time-scale for direct collisions between  particles in a self-gravitating system  depends on the degree of gravitational focusing of the colliding bodies  (\citealt[section 7.5.8, Eq. 7.195a]{BT}). This is given quantitatively by the Safronov number $\Theta = v_\star^2/4\sigma^2 = G M / (4\sigma^2 a)$, where we have replaced the surface escape velocity $v_\star$ of a single star by the 
-unbinding velocity $v^2 = GM/a$ of a binary of total mass $M$ and separation $a$. To obtain an estimate of $\Theta$, 
-we looked at typical clump parameters from the $N = 20$k 
-R20l models: an average membership of $N_c \sim$ 50 stars and mean half-mass radius $r_{h}\sim 0.2$pc yield  
- an internal velocity dispersion (subtracting the binaries' internal motion) $\sigma \sim$ 0.5 km.s$^{-1}$.
- Setting a binary mass $ M > 2 \Mo$ and semi-major axis $ a = 1 $ AU yields $\Theta \simeq 3 700 \gg 1$. The collisional rate $\tau_{coll}^{-1}$  for binary disruption is then: 
+The  time-scale for direct collisions between  particles in a self-gravitating system  depends on the degree of gravitational focusing of the colliding bodies  (\citealt[section 7.5.8, Eq. 7.195a]{BT}). This is given quantitatively by the Safronov number
+\begin{equation}
+\Theta =  \frac{v_\star^2}{4\sigma^2} = \frac{G M }{ 4\sigma^2 a },
+\end{equation}
+ where we have replaced the surface escape velocity $v_\star$ of a single star by the 
+unbinding velocity $v^2 = GM/a$ of a binary of total mass $M$ and separation $a$. To obtain an estimate of $\Theta$, we looked at typical clump parameters from the R20l models: an average membership of $N_c \sim$ 50 stars and mean half-mass radius $r_{h}\sim 0.2$pc yield  an internal velocity dispersion (subtracting the binaries internal motion) $\sigma \sim$ 0.5 km.s$^{-1}$. Setting a binary mass $ M > 2 \Mo$ and semi-major axis $ a = 1 $ AU yields $\Theta \simeq 3 700 \gg 1$. The collisional rate $\tau_{coll}^{-1}$  for binary disruption is then: 
 
 \begin{align}
+\label{Eq:6_collrate}
 \tau_{coll}^{-1} &= 16 \sqrt{\pi} n \sigma a^2 \Theta \nonumber\\
-			&= 8\times 10^{-4}~ \textrm{Myr}^{-1} \frac{n}{700 \textrm{pc}^{-3}} \frac{0.5 \textrm{km.s}^{-1}}{\sigma} \frac{a}{\textrm{AU}} \frac{M}{2 \textrm{M}_\odot}
+			&= 8\times 10^{-4}~ \textrm{Myr}^{-1} \left(\frac{n}{700 \textrm{pc}^{-3}}\right) \left(\frac{0.5 \textrm{km.s}^{-1}}{\sigma}\right) \left(\frac{a}{\textrm{AU}}\right) \left(\frac{M}{2 \textrm{M}_\odot}\right)
 \end{align}
 with $n$ the stellar number density  $\sim$ 700 pc$^{-3}$. 
 This rough estimate of the collision rate should be interpreted as a lower limit because in practice $a > 1 AU$ and many binaries have a total mass $> 2 \Mo$. We find  $\tau_{coll}^{-1} \sim 8\times 10^{-4}$ collisions per clump per Myr. Since on average $\simeq 150$ clumps formed in each R20l run, and assuming that the collision rate is 
@@ -306,10 +325,20 @@ the identification                                           % of {\it all} new 
 in the ten $N = 20$k runs  of a total of $24$ binaries with $a < 0.6$~AU, for an average of $2.4 / 5 000  \approx 0.05 \% $ of all {\it  binary} stars  
   ($f_b \approx 1/3$ at t = 0).  The very tight binaries each have a combined mass exceeding $2 \Mo$ with a  low mass ratio $q$, ranging from 0.01 up to 0.2. It is important to mention that main sequence binary stars with a separation 
   $a \lesssim 0.02$ AU would be \textit{contact} binaries when both members are solar-type or more massive stars. 
-  Clearly the evolution of such object (and in fact their formation process) calls for hydrodynamical effects that were not 
+  Clearly the evolution of such objects (and in fact their formation process) calls for hydrodynamical effects that were not 
   included in our study. It is therefore remarkable that contact binaries should form strictly through gravitational scattering 
   on such short timescales. 
   
+  
+  
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/6_tights_origins}
+\caption{Evolution of semi-major axis over time for the 20 tight binaries ($a < 0.8$AU) in the R20l models. For each pair, the tight binary is shown in red, the parent binary which provided the primary in blue and the one that provided the secondary in green. The systems are sorted from left to right and top to bottom by increasing final semi-major axis for the tight pair. Numbers in legend are components mass in $\Mo$ for each binary.}
+\label{Fig:6_origins}
+\end{center}
+\end{figure}
 
 %{However, more pre-existing binaries were observed to be slightly hardened in the high density models. This latter observations can be directly explained by the higher overall density, as it increases the number of interactions, but then, why are there less new tight binaries ?}
 
@@ -319,25 +348,24 @@ in the ten $N = 20$k runs  of a total of $24$ binaries with $a < 0.6$~AU, for an
  These results apply to runs with initial mean number density of $6 / \pc^3$.  The same analysis carried out for the higher 
  density models give a different outcome. 
 For these models, the initial density is larger by a factor $\sim$ 60 and the velocity dispersion  by a factor $\sim$ 2, 
-for all stars. From (\ref{Eq:6_CollisionalSigma}),  we find a collisional rate  $\sim$ 30 times higher than previously. 
+for all stars. From Eq.~(\ref{Eq:6_collrate}),  we find a collisional rate  $\sim$ 30 times higher than previously. 
 If direct collisions were 
 the main channel for the formation of tight binaries, the number of events should  increase in the same proportions.
-However, inspection of the simulations yielded only 4 tight binaries, each  with a semi-major axis $a \gtrsim 0.1$ AU. 
- Thus the rate of formation of tight binaries drops to 0.4 per 5000 binaries, or 0.008\%, a six-fold decrease. 
-We argue that two factors hinder the formation of these objects in high density environment. First, \cite{Geller2015} pointed out  that exchange encounters between single stars and binaries are not instantaneous (see also \citealt{Hut 1983}). 
- The process can be perturbed by other stars, so modifying the outcome of the collisions. This is also true for binary-binary collisions: casual inspection of the time series of (tight) binary stars showed that their mean separation keeps evolving 
- throughout the evolution of the model, which suggest that the binaries are part of a small-N hierarchical system. 
-  It is reasonable to  expect that more hierarchical systems will develop in a higher-density environment (involving more stars) 
-  and so the exchange process may never have time to take place.
+However, inspection of the simulations yielded only 4 tight binaries, each  with a semi-major axis $a \gtrsim 0.1$ AU, see Fig.~\ref{Fig:6_extreme_HD}. Thus the rate of formation of tight binaries drops to 0.4 per 5000 binaries, or 0.008\%, a six-fold decrease. 
 
-Secondly, the binary exchange binary cross-section is sensitive to the impact velocity. The lack of a detailed theoretical framework on binary-binary collisions makes it difficult to pin down statistical expectations with precision. In the case of a disruptive encounter between a binary + single stars, extensive 
-analytical work by \cite{Mikkola1983,Mikkola1984a,Mikkola1984b} and numerical scattering experiments (e.g., \citealt{Heggie1996,Fregeau2004})  % divided the problem into special and idealized cases (identical masses, low binding energy ratio, etc). However, 
-lead to a rough estimate of the effective scattering cross section $\sigma_{bin}$ in relation to the mass and separation of identical binaries: % dependance on mass and separation can be extracted from these studies:
+
+We argue that two factors hinder the formation of these objects in high density environment. First, \cite{Geller2015} pointed out  that exchange encounters between single stars and binaries are not instantaneous (see also \citealt{Hut1983}).  The process can be perturbed by other stars, so modifying the outcome of the collisions. This is also true for binary-binary collisions: the time series of (tight) exchange product binary stars and that of their parent pairs are shown in Fig.~\ref{Fig:6_origins}. From these twenty systems, only two can be said to be the product of "clean" exchanges, most of the others are part of complex small-N hierarchical systems that last for a non-negligible time compared to the evolution of the whole system. This translate as a flickering of the detection, as the algorithm alternatively detect the parent systems or the tight product. This is due to density ratios being extremely variables in small-N systems. Note the bottom-left pair, the only pre-existing binary in the set, shown as an empty circle in Fig.\ref{Fig:6_extreme_LD}. It appears that the splitting procedure created some of these small-N complex systems, as 8 of these 19 exchange binaries are either immediately detected, with their parents being redetected later, either showing detection flickering at t=0. 
+
+It is reasonable to  expect that more hierarchical systems will develop in a higher-density environment (involving more stars)  and so the exchange process may be rendered even more difficult with the enhanced rate of perturbations.
+
+
+
+Secondly, the binary exchange binary cross-section is sensitive to the impact velocity. The lack of a detailed theoretical framework on binary-binary collisions makes it difficult to pin down statistical expectations with precision. In the case of a disruptive encounter between a binary and a single stars, extensive 
+analytical work by \cite{Mikkola1983,Mikkola1984a,Mikkola1984b} and numerical scattering experiments (e.g., \citealt{Heggie1996,Fregeau2004}) lead to a rough estimate of the effective scattering cross section $\sigma_{coll}$ in relation to the mass and separation of identical binaries: 
 \begin{equation}
 \sigma_{coll} \propto \frac{m_t a}{v_\infty^2}\, . 
 \label{Eq:6_CollisionalSigma} 
 \end{equation}
-
 In this equation, $\sigma_{coll}$ is the effective collisional cross-section for disruption in binary-single  interactions, and $v_\infty$ is the relative velocity at infinity (prior to the collision) $\approx $ the clump velocity dispersion. Taking $ v_\infty \approx \sigma = $ constant independent of mass and binary separation, we may use (\ref{Eq:6_CollisionalSigma}) to relate binary mass $M$ to separation $a$ and  cross-section $\sigma_{coll}$. 
 \cite{Hut1983,Hut1983b} gave analytical expressions for the \textit{exchange} cross sections, which scales as the above scattering cross-section at low velocities, but becomes steeper for higher velocities:
 
@@ -349,7 +377,7 @@ In this equation, $\sigma_{coll}$ is the effective collisional cross-section for
 As the encounter velocity increases, it becomes harder and harder to perform a successful exchange. The two initial mean 
 densities that we picked may therefore cover the transition from low- to high-velocity regimes, and reduce the number of tight binaries created to just a handful. 
 
-Going back to Fig.~\ref{Fig:6_extreme_LD}, we plot the relation $v^2_\infty \sigma_{coll} \equiv \sigma_0$ of (\ref{Eq:6_CollisionalSigma}) as straight red lines on the top-left panel. Two dashed curves bracket a curve in full type, each with a value of  $\sigma_{coll}$ differing by a multiplicative factor of ten (increasing from the lower curve, up).  The large separations between the curves and the clustering of data points along the full curve indicate how a single value of $\sigma_0$ effectively cuts through the diagramme in two well-delimited regions.  
+Going back to Fig.~\ref{Fig:6_extreme}, we plot the relation $v^2_\infty \sigma_{coll} \equiv \sigma_0$ of (\ref{Eq:6_CollisionalSigma}) as straight red lines on both top-left panels. Two dashed curves bracket a curve in full type, each with a value of  $\sigma_{coll}$ differing by a multiplicative factor of ten (increasing from the lower curve, up).  The large separations between the curves and the clustering of data points along the full curve indicate how a single value of $\sigma_0$ effectively cuts through the diagramme in two well-delimited regions.  
 Thus the trend of binary mass increasing as $M \propto 1/a$ for the most tight binaries is consistent with a constant product of $\sigma_0 = v^2_\infty \sigma_{coll}$ at the time of formation. 
 
 % A possible interpretation of this trend is that exchange binaries preserve,
@@ -375,29 +403,44 @@ Thus the trend of binary mass increasing as $M \propto 1/a$ for the most tight b
  
 	
 \begin{figure}
-%\begin{center}
-\includegraphics[width=0.6\textwidth]{Figures/6_adventures}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Figures/6_adventures}
 \caption{ Evolution of individual binaries semi-major axis and distance to center over time in the low density 20k particles models. The vertical dashed line marks the moment of deepest collapse $t \simeq (t_1 + t_2) / 2$. }
 \label{Fig:6_adventures}
-%\end{center}
+\end{center}
 \end{figure}
 
 
 \subsection{Wide binaries}
 
 
-The formation of wide `spontaneous' binaries during the HL fragmentation process leads one naturally to expect that more wide binaries will form in the post-collapse evolution of the system, when expanding streams of stars emerge from the compact bounce to form a tenuous halo. We already noted how the erosion factor on Fig.~\ref{Fig:6_S_shape} shoots up for large semi-major axes, exceeding unity at the later stages of evolution in both high- and low density calculations. This implies either that a sub-set of wide binaries got softer over time, or that new binaries of separation $> 10^4$ AU formed during the virialisation phase. If we compare the numbers for axes $a > 5.10^4 \textrm{AU} \simeq 0.25$ pc and for all ten $N = 20$k models, then there were 120 binaries more  in this range at the end of the simulations, then right after the bounce, at time $t = t_2$.  Of those 120, some forty new binaries formed in the expanding volume, while eighty are  soft binaries that became softer as a result of collisional evolution, the well-known Heggie law \citep{Heggie1975,Hills1975}. While these numbers of very wide binaries  are very low indeed, a ratio of 120 per $10 \times 20$k  stars (0.06\%), they are still significant because they would be associated with neighbouring star-forming regions, and  may yet register as correlations in phase-space coordinates. 
+The formation of wide `spontaneous' binaries during the HL fragmentation process naturally leads one to expect that more wide binaries will form in the post-collapse evolution of the system, when expanding streams of stars emerge from the compact bounce to form a tenuous halo. We already noted how the erosion factor on Fig.~\ref{Fig:6_S_shape} shoots up for large semi-major axes, exceeding unity at the later stages of evolution in both high- and low density calculations. This implies either that a sub-set of wide binaries got softer over time, or that new binaries of separation $> 10^4$ AU formed during the virialisation phase. If we compare the numbers for axes $a > 5.10^4 \textrm{AU} \simeq 0.25$ pc and for all ten $N = 20$k models, then there were 120 binaries more  in this range at the end of the simulations, then right after the bounce, at time $t = t_2$.  Of those 120, some 40 new binaries formed in the expanding volume, while 80 are  soft binaries that became softer as a result of collisional evolution, the well-known Heggie law \citep{Heggie1975,Hills1975}. While these numbers of very wide binaries  are very low indeed, a ratio of 120 per $10 \times 20$k  stars (0.06\%), they are still significant because they would be associated with neighbouring star-forming regions, and  may yet register as correlations in phase-space coordinates. 
   
 
-The right-hand panels of Fig.~\ref{Fig:6_extreme_LD} graph the basic properties of this sub-set of extreme wide binaries. We selected all  binaries with separations exceeding $10^4$ AU, the largest semi-major axes that were found in the initial conditions. Hence all data points shown here are the result of some evolutionary mechanism. The horizontal dotted line on Fig.~\ref{Fig:6_extreme_LD} marks a distance of $10$ pc as the separation between the central  equilibrium cluster and the volume where weakly bound ejecta orbit. Close to $\approx 60\% $ of wide binaries are escaping the main clusters or are very weakly bound to it.   Therefore most of them would be lost to the tidal field in a real cluster environment.  
+The right-hand panels of Fig.~\ref{Fig:6_extreme} graph the basic properties of this sub-set of extreme wide binaries. We selected all  binaries with separations exceeding $10^4$ AU, the largest semi-major axes that were found in the initial conditions. Hence all data points shown here are the result of some evolutionary mechanism. The horizontal dotted line on Fig.~\ref{Fig:6_extreme_LD} marks a distance of $10$~pc for low density and 2.8 pc for high density as the separation between the central  equilibrium cluster and the volume where weakly bound ejecta orbit. Close to $\approx 60\% $ of wide binaries are escaping the main clusters or are very weakly bound to it. Therefore most of them would be lost to the tidal field in a real cluster environment.  
  
 
-We stress that the semi-major axis $a$ of an individual binary star is not a monotonous function of time. 
-%this result is well-known for the case when a star cluster is in equlibrium, however the same rule applies to a configuration of arbitrary 
-%%geometry, and independently of the evolution of the global potential.  
-Fig.~\ref{Fig:6_adventures} graphs the evolution of six perturbed binaries, 3 tight and 3 wide binaries. 
-Tight binaries mostly suffer strong interactions early on, before the collapse, inside a clump. This would take place  most likely at the centre of the clump, where the density is higher. What happens next is hard to predict, as the pair can then be ejected from the system by this interaction (e.g. the first binary, top panel); or  sink at the center of the cluster and remain there (second binary, middle frame); or follow the bulk of the ejecta,  falling once through the core and then leaving the system without further strong interactions  (third binary, bottom row). 
-Most wide binaries experience several strong interactions. Many of these  % most feeding energy into the pairs, 
-take place around the time of the collapse, as they orbit  through the dense core of the cluster. These repeated strong 
-interactions will lead to heating and result in binary splitting. That is also why  
-no (spontaneous) wide binary was found in  the  dense  clump cores of the initial HL configuration; instead, they form in the low-density inter-clump space. Practically all wide binaries had a first strong interaction during the densest phase of the in-fall ($t_1 < t < t_2$). 
+We stress that the semi-major axis $a$ of an individual binary star is not a monotonous function of time. Fig.~\ref{Fig:6_adventures} graphs the evolution of six typical perturbed binaries, 3 tight and 3 wide binaries. Tight binaries mostly suffer strong interactions early on, before the collapse, inside a clump. This would take place  most likely at the centre of the clump, where the density is higher. What happens next is hard to predict, as the pair can then be ejected from the system by this interaction (e.g. the first binary, top panel); or  sink at the center of the cluster and remain there (second binary, middle frame); or follow the bulk of the ejecta,  falling once through the core and then leaving the system without further strong interactions  (third binary, bottom row). 
+
+Most wide binaries experience several strong interactions. Many of these take place around the time of the collapse, as they orbit  through the dense core of the cluster. These repeated strong interactions will lead to heating and result in binary splitting. That is also why no (spontaneous) wide binary was found in  the  dense  clump cores of the initial HL configuration; instead, they form in the low-density inter-clump space. Practically all wide binaries had a first strong interaction during the densest phase of the in-fall ($t_1 < t < t_2$). 
+
+
+
+\section{Concluding remarks}
+
+
+In this article, we have shown with numerical experiment that the dissolution of binary stars proceeds at a much higher rate in initially clumpy configurations. The two-body relaxation time of clumps of typical membership $N_c = 50 $ is about six times shorter than the global free-fall time of the sub-virial star-forming volume. As a result, binaries are destroyed at a rate $\approx $ 10 times higher in clumps than in the later stages of evolution, when clumps have merged and a cluster of stars achieves dynamical equilibrium. We have also highlighted that the transition between clumpy- and equilibrium states is much sharper when $N \gtrsim 10^4$: in such rich star forming regions, the binary dissolution rate is well approximated with a linear relation in both the regimes. When $N \lesssim 10^4$, we find a more gradual transition (Fig.~\ref{Fig:6_TotBinFrac}). These findings  compare well with those from, e.g., \cite{Parker2011} based on fractal models, where the mass segregation by collisional evolution was also found to be very significant early-on. 
+
+We presented in section \ref{Sec:6_tidal} an argument suggesting that the deeper gravitational potentials achieved through in-fall by larger-$N$ models should lead to the destruction of tighter binaries and hence a shift in the peak of the distribution of separations (see Fig. \ref{Fig:6_SMAxis_histogram}). The net effect of increasing $N$ from 1 500 to 80 000, however, results mainly in a factor of $\approx 2$ increase in the fraction of wide $(a > 300 $ AU) binaries being destroyed. Tighter binaries are largely unaffected. In particular, the peak in the initial distribution of separations at $a \simeq 50 $ AU is essentially unchanged. Consequently,   the slope of the separation distribution for wide binaries steepens with $N$ (i.e., the Gaussian shape is more skewed in richer models) in the early stages of the life of a cluster.  This effect is offset slightly  by the formation of \textit{new} very wide binaries in the post-collapse evolution, when several stars move on radial, weakly-bond orbits (see also \citealt{Moeckel2011,Kouwenhoven2010}). We have found the formation of wide $a > 10^4$ AU binaries to be statistically very similar regardless of the initial system density or membership, when set at the same evolutionary stage. One important difference is the higher speed achieved by outflowing wide binaries formed in denser systems. Runs with initial mean number density of $6 / \mathrm{pc}^3 $ developed outflows of velocities $\approx 2$ to 3 km/s ; denser runs with $400 / \mathrm{pc}^3$ reached velocities twice as large. Proper motion studies may pick up this bulk motion. In terms of distance $D$, proper motion $p$ and time-line $\Delta t_p$, one finds a minimal velocity for detection $v_p$ such that 
+\begin{equation}
+v_p \gtrsim \frac{1}{2} . 10^{-3}  \frac{p}{1\mu ''} \frac{D}{100 \mathrm{pc}} \frac{yr}{\Delta t_p} \mathrm{km}/\mathrm{s} \  .
+\end{equation}
+
+  The GAIA spacecraft's resolution reaches down to $\approx 26$ micro-arcseconds  at magnitude 15 (V-band), 
+ with a five-year time-line and could detect such outflows out to  a distance of $\sim 600 $  pc. Well-known star forming  regions such as the Orion nebula or $\rho$-Ophiucus are possible targets for such outflows. Brighter, young stars  should allow a more precise determination of $v_p$ and possibly set new constraints on the formation history of rich open clusters. 
+
+We also noted that very tight binaries ($a \sim 0.01 $ AU) formed as a result of binary-binary exchange collisions, when a new binary is formed as a result of the collision between two existing ones. The process begins in the clumps at the start, and carries on throughout, the duration of the runs. Statistically we found that $\approx 0.05\%$ of all binaries end up with  a semi-major axis $a < 0.6$ AU. While these are low-number statistics, these events are important because they concern the most massive stars of the models, and their rapid formation (on  a timescale of $\sim 1 $ Myr) has direct implication for the formation by merger of very massive stars / contact binaries. The shortest-axis system that we found had $a \simeq 0.01 $ AU and a total mass of $18\Mo$ (see Fig.~\ref{Fig:6_extreme_LD}).  We observed similar trends in all the simulations, but noted that  virtually no such tight binaries form in high-density runs.  One important factor contributing to this situation is  the increased collision velocities and (therefore) reduced effective interaction cross-sections in denser regions (the Safronov number $\Theta$ drops by a factor $\approx 4$). Another possibility comes from inspection of the origins of tight binaries. Most of these systems were born in complex small-N hierarchical systems. The very formation of the tight binaries may involve not just  a pair of binaries, but a more complex situation involving a small number of stars (see e.g.\citealt{Leigh2013,Geller2015}). We feel unable to disentangle the web of possible formation channels with confidence given the limited statistics of our sample of simulations. 
+
+\paragraph*{}
+All  calculations  reported here where performed with a stellar IMF truncated at $30 \Mo$ to avoid issues with the time-evolution of the stars. It will be important in future investigations of that formation scenario to include a full stretch of the stellar IMF and perform the time-evolution of the 
+stars simultaneously with the dynamics. 

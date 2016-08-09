@@ -3,7 +3,7 @@
 In this thesis we introduced the \HubLem fragmentation model and applied to the dynamical evolution of substructured star clusters and the fate of their binary population. Interesting results have been obtained, though some assumptions were made. In this chapter, we review two of these assumptions: the absence of stellar evolution and the isolated nature of the cluster. We also present the outline of a comparison to observations and the possible inclusion of hydrodynamical processes.
 
 
-
+\minitoc
 
 
 
@@ -30,29 +30,48 @@ For example, \cite{Renaud2015b} reported the formation of massive clusters in th
 
 \section{Stellar evolution}
 
-In section \ref{Sec:3_Scaling} and TODO, we selected the mass ranges to apply to our models, which we justified by the duration of our simulations, arguing the death of our most massive stars would either not happen or not have a significant impact on the evolution. However, in section TODO, we remarked that the inclusion of even more massive stars could be of interest for the formation of new tight binaries.
-
-It comes that one of the most straightforward ways to improve our models is the inclusion of stellar evolution. NBODY6 has a built-in stellar evolution module based on the analytical mode by \cite{Hurley2000}, including wind-driven mass loss, radii evolution, supernova event and stellar remnants. It was not used in this work for simplicity, but should be used for further research.
 
 
-In section TODO, we computed free-fall times for models with several initial stellar densities. This corresponds to the lifetimes of clumps, as the collapse and relaxation erase substructure. We then ask to what extent the death of massive stars can affect the dynamics of a single clumps. From \cite{Hurley2000}, we get stellar lifetimes as a function of mass, shown on Fig~\ref{Fig:7_stellarlifetime}. For low stellar density, clumps can barely outlive massive stars. We showed that for an initial stellar density of 6 stars/$\pc^{-3}$, the system collapses in 6 Myr, while stars with a mass $> 10 \Mo$ live up to 5 Myr.
 
-However, if we include tidal fields, the clumps might survive far longer, and the mass-loss from stellar evolution could have a significant impact on their structures, their mass segregation, and  on the overall clump mass function.
+
+No stellar evolution effect were included in our simulations. While choosing our stellar maximum masses (tables \ref{Tab:2_models} and \ref{Tab:6_models}) and the physical duration of our simulations (sections \ref{Sec:3_Scaling} and \ref{Sec:6_models}), we assumed stellar evolution would not significantly impact the global dynamical evolution of the substructured fragmented configurations. However, these mass ranges do not reflect the extent of the stellar mass spectrum observed in some young clusters, an often cited upper limit on stellar masses is 150~$\Mo$ \citep{Oey2005}.
+
+Would the evolution of such massive stars affect the internal dynamics of clumps in our models ? To answer this, we turn to stellar models. Fig~\ref{Fig:7_stellarlifetime_hurley} shows the time needed for a star to reach the Giant Branch, which can be taken as a minimum lifetime, as a function of its mass. This analytical model from \cite{Hurley2000} reaches up to $\sim$ 60~$\Mo$, which gives a minimum lifetime of 6 Myr, while in our least dense models, with an initial stellar density of 6 stars/$\pc^{-3}$, the clumps take 6 Myr to merge and erase the substructure.
+
+However, if we include tidal fields, the clumps might survive far longer, and the death of these massive stars could have a significant impact on their structures, their mass segregation, and  on the overall clump mass function.
+
+Moreover, more massive stars are observed in clusters, and the lifetime alone does not reflect the mass-loss these stars endure throughout their life. Fig~\ref{Fig:7_stellarlifetime_weidner} shows the evolution of mass for several massive stars, 50, 65, 85 and 120~$\Mo$, from the Geneva stellar model \cite{Schaller1992}. These stars not only disappear in less than 4-5 Myr, they also lose a non-negligible portion of their mass before their death.
+
+Throughout this thesis, we assumed stellar evolution would not affect the dynamics of our simulated clusters. For isolated systems, and for the densities and mass ranges we chose, this is mostly true. Nevertheless, as we include tidal fields and an extended mass spectrum to reproduce observed objects, mass-loss and other evolutionary effects need to be taken into account. This is especially true for binary evolution. Mass loss would affect the binary parameters, and some binary systems found in our systems have short enough separations to be contact binaries had stellar radii and evolution be included. These objects are crucial for the formation of blue stragglers or black holes.
+
+NBODY6 has a built-in stellar evolution module based on the analytical model by \cite{Hurley2000}, including wind-driven mass loss, radii evolution, supernova event and stellar remnants. It was not used in this work for simplicity, but should be used for further research.
+
 
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{Figures/7_stellarlifetime.png}
-\end{center}
-\caption{Time taken to reach the Base of the Giant Branch (BGB) as a function of initial stellar mass, for two metallicities, Z = 0.0001 and Z = 0.03. The figure was extracted from \cite{Hurley2000}}
-\label{Fig:7_stellarlifetime}
-\end{figure} 
+    \centering
+    \begin{subfigure}[b]{0.60\textwidth}
+        \centering
+        \includegraphics[width=0.85\textwidth]{Figures/7_stellarlifetime.png}
+        \caption{Time to reach the giant branch vs stellar mass.}
+        \label{Fig:7_stellarlifetime_hurley}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.38\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/7_stellarlifetime_weidner.png}
+        \caption{Mass loss for massive stars.}
+        \label{Fig:7_stellarlifetime_weidner}
+    \end{subfigure}
+     \caption{(a) Time taken to reach the Base of the Giant Branch (BGB) as a function of initial stellar mass, for two metallicities, Z = 0.0001 and Z = 0.03. The figure was extracted from \cite{Hurley2000}. (b) Evolution of mass over time for several massive stars. The figure was extracted from \cite{Weidner2006}. }
+     \label{Fig:7_stellarlifetime}
+\end{figure}
+
 
 
 
 \section{Anisotropic expansion}
 
-The \HubLem expansion we used throughout this thesis was isotropic, the velocity field was expressed with $\bold{v} = \Hub_0 \bold{r}$ with \tHub a scalar value. As a result, the fragmented configurations are roughly spherical and the net systemic angular momentum is null. This is a key difference between the method we have developed and the fractal approach of \cite{Goodwin04}. Angular momentum may be significant in young clusters such as R136 \citep{Henault-Brunet2012}. In a fractal model, the way the velocity field is built leaves a residual, global angular momentum whereas the Hubble approach starts off with strictly zero angular momentum.
+The \HubLem expansion we used throughout this thesis was isotropic, the velocity field was expressed with $\bold{v} = \Hub_0 \bold{r}$ with \tHub a scalar value. As a result, the fragmented configurations are roughly spherical and the net systemic angular momentum is null. This is a key difference between the method we have developed and the fractal approach of \cite{Goodwin2004}. Angular momentum may be significant in young clusters such as R136 \citep{Henault-Brunet2012}. In a fractal model, the way the velocity field is built leaves a residual, global angular momentum whereas the Hubble approach starts off with strictly zero angular momentum.
 
  A net angular momentum could be introduced in a Hubble model, for instance by setting 
 \begin{equation}
@@ -60,12 +79,54 @@ The \HubLem expansion we used throughout this thesis was isotropic, the velocity
 \end{equation} 
 with $\bold{\Omega}$ a chosen angular velocity. One can actually go further and write in matrix form
 \begin{equation}
-\bold{v} = \bold{H}\bold{r},
+\bold{v} = \hat{\bold{H}} \bold{r} = \left(\begin{matrix}
+H_{x,x} & H_{x,y} & H_{x,z}\\
+H_{y,x} & H_{y,y} & H_{y,z}\\
+H_{z,x} & H_{z,y} & H_{z,z}\\
+\end{matrix}\right) \bold{r},
 \end{equation}
-with $\bold{H}$ now a 3$\times$3 matrix, where the off-diagonal elements account for rotation and the elements on the diagonal $\Hub_{ii}$ control the three dimensional expansion. In this study, we have set $\Hub_{ij,i\ne j}=0$ and $\Hub_{ii}=\Hub_o$ otherwise. It is then a simple matter to study the fragmentation along a filament by setting, for example, $\Hub_{xx}=\Hub_{yy}=0$ and $\Hub_{zz}>0$. The Hubble fragmentation process for young stellar cluster is a new method and many of its aspects remain to be explored.
+with $\hat{\bold{H}}$ now a 3$\times$3 matrix, where the off-diagonal elements account for rotation and the elements on the diagonal $\Hub_{ii}$ control the three dimensional expansion. In this study, we have set $\Hub_{ij,i\ne j}=0$ and $\Hub_{ii}=\Hub_o$ otherwise. It is then a simple matter to study the fragmentation along a filament by setting, for example, $\Hub_{xx}=\Hub_{yy} < \Hub_{zz}$. 
 
 
- As mentioned earlier, recent observations confirmed the prevalence of filamentary structure in star formation processes \citep{Andre2010}. 
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=0.85\textwidth]{Figures/7_anisotropic.png}
+        \caption{Anistropic \HubLem expansion.}
+        \label{Fig:7_anistropic}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.6\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/7_carina.png}
+        \caption{Stellar density in Carina.}
+        \label{Fig:7_carina}
+    \end{subfigure}
+     \caption{(a) Evolution of an anisotropic \HubLem model. The expansion was favored along z and a rotation was introduced. (b) Stellar density in the young Carina cluster the colorbar is in stars/$\pc^3$. The figure was extracted from \protect\cite{Kuhn2014}.}
+     \label{Fig:7_filament}
+\end{figure}
+
+
+
+
+For example, to favor fragmentation along the z-axis and introduce a rotation along the same axis, the matrix can take the form
+\begin{equation}
+\bold{v} = \left(\begin{matrix}
+0.2 + \cos \theta &  -\sin \theta & 0\\
+\sin \theta & 0.2 + \cos \theta & 0 \\
+0  & 0 & 1.7\\
+\end{matrix}\right) \bold{r},
+\end{equation}
+
+with $\theta$ setting the orientation and strength of the rotation. We set $\theta = \frac{\pi}{4}$ and show the evolution of the resulting system with N=3000 on Fig~\ref{Fig:7_anistropic}. We obtain an elongated substructured configuration, that is comparable to the observed structure of, e.g., the Carina Nebula as observed in the MYStIX survey \citep{Kuhn2014} shown on Fig~\ref{Fig:7_carina}.
+
+
+
+\section{Reproduce observations}
+
+
+
 
 
 

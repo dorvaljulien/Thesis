@@ -1,14 +1,15 @@
 \chapter{Binary completion algorithm}
+\label{App:completion}
 
-The \HubLem expansion gives rise to a spontaneous binary population detailed in section ??. This population has a deficit of low-mass primary binaries compared to observed binary populations. Moreover, the semi-major axis of spontaneous binaries are too large compared to the canonical period/semi-major axis distribution from \cite{Raghavan2010}.
+The \HubLem expansion gives rise to a spontaneous binary population detailed in section \ref{Sec:5_spontaneous}. This population has a deficit of low-mass primary binaries compared to observed binary populations. Moreover, the semi-major axis of spontaneous binaries are too large compared to the canonical period/semi-major axis distribution from \cite{Raghavan2010}.
 
-We aim at injecting new binaries in the system to reproduce the characteristics of observed populations. The injected population should be designed to "fill" the discrepancy spontaneous/observed for low-mass primaries and short separations. In most cluster models, the binary injection procedure is straightforward: a normal model is generated, with some stars bearing the mass of both components of a binary. The binaries are then split with internal positions and velocities suiting the semi-major axis and eccentricity. 
+We aim at injecting new binaries in the system to reproduce the characteristics of observed populations. The injected population should be designed to "fill" the discrepancy spontaneous/observed for low-mass primaries and short separations. In most cluster models, the binary injection procedure is straightforward: a normal model is generated, with some stars bearing the mass of both components of a binary. The binaries are then split with internal positions and velocities suiting their semi-major axis and eccentricity. 
 
-This cannot be directly applied to \HubLem models, as the star coordinates are not generated on the spot from a known distribution function, they are the product of the expansion. The binaries cannot be introduced into the initial uniform sphere, as such specific dynamical environment could have unexpected effects on the injected population, as could the expansion. The idea is then to introduce the fused binaries in the uniform sphere, let the expansion happen until apex, \textit{then} split the binaries.
+This cannot be directly applied to \HubLem models, as the star coordinates are not generated on the spot from a known distribution function, they are the product of the expansion. The binaries cannot be introduced into the initial uniform sphere, as such a specific dynamical environment could have unexpected effects on the injected population, as could the expansion. The idea is then to introduce binaries as single fused particles in the uniform sphere, let the expansion happen until apex, \textit{then} split the binaries.
 
 However, the number of spontaneous binaries is function of the total number of stars in the system, and introducing fused binaries lowers the effective number of spontaneous binaries. The population we injected in the uniform sphere is no longer appropriate to the current distribution of spontaneous. Moreover, many spontaneous binaries formed with one or two components being to-be-split fused binaries. Splitting the pairs will destroy them, further altering the spontaneous distribution.
 
-Actually, the picture is even more complex if one looks at the binary fractions in several primary-mass bins. A given primary star with a mass falling in the bin $i$, when merged with its secondary for the expansion, might fall into the bin $i+1$ and participate to the binary fraction in this bin. To converge towards a final population consistent with observations, we need to take into account the effects of injection, inter-bin transfers and splitting.
+The picture is even more complex if one looks at the binary fractions in several primary-mass bins. A given primary star with a mass falling in the bin $i$, when merged with its secondary for the expansion, might fall into the bin $i+1$ and participate to the binary fraction in this bin. To converge towards a final population consistent with observations, we need to take into account the effects of injection, inter-bin transfers and splitting.
 
 \section{"Theoretical" population}
 \label{Sec:B_theoretical}
@@ -59,7 +60,7 @@ With this, we can express the number of effective stars in each bins (this numbe
 \item plus the number of injected binaries with both primaries and secondaries in $i-1$, as the merged objects from the lower bins count as single stars in the present bin.
 \end{itemize}
 
-The number of injected binaries with a primary in $i$ and secondary in $j<i$ has no effect on $\tilde{N}_i$ as the merged object still falls into $i$. The expression writes
+We make the hypothesis that most of injected binaries with a primary in $i$ and secondary in $j<i$ produce merged objects falling into $i$, having no effect on $\tilde{N}_i$ \footnote{This could be taken into account with a numerical study of the proportion of merged objects actually overflowing the bin when $j<i$.}.The expression writes
 
 \begin{equation}
 \tilde{N}_i = N_i - 2  n_{i,i}^{in} - \sum\limits_{j>i} n_{j,i}^{in} + n_{i-1,i-1}^{in}
@@ -117,9 +118,7 @@ Which translates, when talking about all stable spontaneous binaries with the pr
 \end{equation}
 
 
-We assume any injected binary survives when split, regardless of their final semi-major axis and the density of their environment, we will handle this later and it has no bearing on the present calculations. We can then finally writes the number of total surviving binaries
-
-Finally, we can write the number of surviving binaries in the system, both from the injected and stable spontaneous populations, and equate it to the target theoretical number so the system follows the theoretical binary fraction distribution:
+We assume any injected binary survives when split, regardless of its final semi-major axis and the density of its environment, it has no bearing on the present calculations. We can then finally writes the number of total surviving binaries in the system, both from the injected and stable spontaneous populations, and equate it to the target theoretical number so the system follows the theoretical binary fraction distribution:
 
 \begin{equation}
 \label{Eq:B_final}
@@ -128,7 +127,8 @@ n_i^{th} = n_i^{in} + \tilde{n}_{i}^{sp,stable} .
 
 Since $n_i^{th}$ is known from section \ref{Sec:B_theoretical}, we have two sets of $N_{bin}$ unknown values, $n_i^{in}$ and $\tilde{n}_i^{sp}$, and two sets of $N_{bin}$ non-linear equations, Eq.~\ref{Eq:B_spontaneous} and Eq.~\ref{Eq:B_final}. This can be numerically solved to obtain the values of $n_i^{in}$.
 
-\section{Random pairing}
+\paragraph*{}
+The binaries can now be injected in the system with appropriate proportions of primary masses.
 
 
 
