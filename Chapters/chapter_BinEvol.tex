@@ -80,8 +80,8 @@ R80l &  80000 & 1 & 6  & $10^3$\\
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth]{Figures/6_TotBinFrac_vs_time}
-\caption{ Top panels: total binary fraction over time for different cluster memberships. Lower panels: total number of binary over time compared to initial number in each system, in percentage. The vertical dashed line indicates the time of deepest collapse.  }
+\includegraphics[width=0.8\textwidth]{Figures/6_TotBinFrac_vs_time_dispersion}
+\caption{ Top panels: total binary fraction over time for different cluster memberships. Lower panels: total number of binary over time compared to initial number in each system, in percentage. The vertical dashed line indicates the time of deepest collapse. Lines shows the values averaged over all models, the 1-$\sigma$ dispersions are shown as shaded regions. }
 \label{Fig:6_TotBinFrac}
 \end{center}
 \end{figure}
@@ -112,8 +112,8 @@ We note that the $N = 1.5$k models are dominated by two-body interactions, the m
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=\textwidth]{Figures/6_BinFrac_vs_mass_LD}
-\caption{ Top panels: the binary fraction in logarithmic bins for the primary masses. The dotted line is the linear fit to observations shown on Fig.~\protect\ref{Fig:5_spontaneous_primarymass}. Bottom panels: the number of binaries in each primary mass bin is shown as a percentage of the initial number (t=0). The horizontal dashed line is 100 per cent. The data are from low density models.}
+\includegraphics[width=\textwidth]{Figures/6_BinFrac_vs_mass_LD_dispersion}
+\caption{ Top panels: the binary fraction in logarithmic bins for the primary masses. The dotted line is the linear fit to observations shown on Fig.~\protect\ref{Fig:5_spontaneous_primarymass}. Bottom panels: the number of binaries in each primary mass bin is shown as a percentage of the initial number (t=0). The horizontal dashed line is 100 per cent. Shaded regions show 1-$\sigma$ dispersion. The data are from low density models.}
 \label{Fig:6_BinFracVsMass_LD}
 \end{center}
 \end{figure}
@@ -121,7 +121,7 @@ We note that the $N = 1.5$k models are dominated by two-body interactions, the m
 
 \begin{figure*}
 \begin{center}
-\includegraphics[width=\textwidth]{Figures/6_BinFrac_vs_mass_HD}
+\includegraphics[width=\textwidth]{Figures/6_BinFrac_vs_mass_HD_dispersion}
 \caption{ Same key as Fig.~\protect\ref{Fig:6_BinFracVsMass_LD}.  The data are from high density models.}
 \label{Fig:6_BinFracVsMass_HD}
 \end{center}
@@ -132,7 +132,8 @@ We note that the $N = 1.5$k models are dominated by two-body interactions, the m
 To determine whether the evolution affects binaries differently according to their mass, we show on Figs.~\ref{Fig:6_BinFracVsMass_LD} and \ref{Fig:6_BinFracVsMass_HD} the binary fraction in relation to the primary mass. Results are shown at four different times, and for all runs of $N$. The top row of each figure is the binary fraction $f_m$ and the bottom row the percentage of binaries with respect to the initial distribution. 
  %
 %The binary fractions per primary mass bins over time and for N=1.5k,5k,20k,80k are shown, as well as the percentage of remaining binaries in each mass bins compared to t=0.
-This representation highlights which binaries are the most processed in the system. The panels for $t = t_1$ and $t_2$ are for times immediately before and after the bounce (cf. Fig.~\ref{Fig:6_Rhm}). The dynamical evolution within the clumps and during the collapse impacts preferentially light-primary binaries; binaries with a more massive primary (say, $> 5 \Mo$) survive better. We stress that the trends are indicative and at the $\sim 20\% $ level in all cases. Bearing this caveat in mind, inspection of the different cases does suggest that the results for low-N runs are more the result of the internal dynamics of clumps, where star-star interactions would favour the ejection/destruction of low-mass binaries. Note how the low-N models in fact form {\it additional} high-mass binaries during in-fall, since the binary fraction exceeds 100\% at $t = t_1 $ and $t_2$. This is not so for the $N = 20$k and $80$k models, which we interpret as due to the stronger tidal fields in these models which stops new binaries from forming. It is interesting that despite the deeper infall achieved by  these large-N models, the trend of increased survival with primary mass is not eradicated: this would have been the case had the external (global) tidal field clearly dominated the binary destruction. Instead, we find that the strong fields do not erase memory of the early evolution phase of the clumpy distribution. 
+This representation highlights which binaries are the most processed in the system. The panels for $t = t_1$ and $t_2$ are for times immediately before and after the bounce (cf. Fig.~\ref{Fig:6_Rhm}). The dynamical evolution within the clumps and during the collapse impacts preferentially light-primary binaries; binaries with a more massive primary (say, $> 5 \Mo$) survive better. The shaded regions show
+ the 1-sigma dispersion. Low-N models exhibit a large dispersion at high primary mass due to the very low statistics for such binaries. Consistent with Fig~\ref{Fig:6_TotBinFrac}, there is a trend of enhanced binary destruction with increasing N. Note how the low-N models form {\it additional} high-mass binaries during in-fall, since the binary fraction exceeds 100\% at $t = t_1 $ and $t_2$. This is not so for the $N = 20$k and $80$k models, which we interpret as due to the stronger tidal fields in these models which stops new binaries from forming. It is interesting that despite the deeper infall achieved by  these large-N models, the trend of increased survival with primary mass is not eradicated: this would have been the case had the external (global) tidal field clearly dominated the binary destruction. Instead, we find that the strong fields do not erase memory of the early evolution phase of the clumpy distribution. 
 
 % This is especially true for low-membership clusters, in which additional high-mass prim. binaries are formed, increasing the binary fraction in the last bin. In a small cluster, the stochastic star-star interactions dominates over the large-scale motion of collapse, which favors the formation of binaries, especially for massive stars which act as a potential well in the heart of clumps. 
 
@@ -354,7 +355,7 @@ the main channel for the formation of tight binaries, the number of events shoul
 However, inspection of the simulations yielded only 4 tight binaries, each  with a semi-major axis $a \gtrsim 0.1$ AU, see Fig.~\ref{Fig:6_extreme_HD}. Thus the rate of formation of tight binaries drops to 0.4 per 5000 binaries, or 0.008\%, a six-fold decrease. 
 
 
-We argue that two factors hinder the formation of these objects in high density environment. First, \cite{Geller2015} pointed out  that exchange encounters between single stars and binaries are not instantaneous (see also \citealt{Hut1983}).  The process can be perturbed by other stars, so modifying the outcome of the collisions. This is also true for binary-binary collisions: the time series of (tight) exchange product binary stars and that of their parent pairs are shown in Fig.~\ref{Fig:6_origins}. From these twenty systems, only two can be said to be the product of "clean" exchanges, most of the others are part of complex small-N hierarchical systems that last for a non-negligible time compared to the evolution of the whole system. This translate as a flickering of the detection, as the algorithm alternatively detect the parent systems or the tight product. This is due to density ratios being extremely variables in small-N systems. Note the bottom-left pair, the only pre-existing binary in the set, shown as an empty circle in Fig.\ref{Fig:6_extreme_LD}. It appears that the splitting procedure created some of these small-N complex systems, as 8 of these 19 exchange binaries are either immediately detected, with their parents being redetected later, either showing detection flickering at t=0. 
+We argue that two factors hinder the formation of these objects in high density environment. First, \cite{Geller2015} pointed out  that exchange encounters between single stars and binaries are not instantaneous (see also \citealt{Hut1983}).  The process can be perturbed by other stars, so modifying the outcome of the collisions. This is also true for binary-binary collisions: the time series of (tight) exchange product binary stars and that of their parent pairs are shown in Fig.~\ref{Fig:6_origins}. From these twenty systems, only two can be said to be the product of ``clean" exchanges, most of the others are part of complex small-N hierarchical systems that last for a non-negligible time compared to the evolution of the whole system. This translate as a flickering of the detection, as the algorithm alternatively detect the parent systems or the tight product. This is due to density ratios being extremely variables in small-N systems. Note the bottom-left pair, the only pre-existing binary in the set, shown as an empty circle in Fig.\ref{Fig:6_extreme_LD}. It appears that the splitting procedure created some of these small-N complex systems, as 8 of these 19 exchange binaries are either immediately detected, with their parents being redetected later, either showing detection flickering at t=0. 
 
 It is reasonable to  expect that more hierarchical systems will develop in a higher-density environment (involving more stars)  and so the exchange process may be rendered even more difficult with the enhanced rate of perturbations.
 
@@ -366,8 +367,7 @@ analytical work by \cite{Mikkola1983,Mikkola1984a,Mikkola1984b} and numerical sc
 \sigma_{coll} \propto \frac{m_t a}{v_\infty^2}\, . 
 \label{Eq:6_CollisionalSigma} 
 \end{equation}
-In this equation, $\sigma_{coll}$ is the effective collisional cross-section for disruption in binary-single  interactions, and $v_\infty$ is the relative velocity at infinity (prior to the collision) $\approx $ the clump velocity dispersion. Taking $ v_\infty \approx \sigma = $ constant independent of mass and binary separation, we may use (\ref{Eq:6_CollisionalSigma}) to relate binary mass $M$ to separation $a$ and  cross-section $\sigma_{coll}$. 
-\cite{Hut1983,Hut1983b} gave analytical expressions for the \textit{exchange} cross sections, which scales as the above scattering cross-section at low velocities, but becomes steeper for higher velocities:
+In this equation, $\sigma_{coll}$ is the effective collisional cross-section for disruption in binary-single  interactions, and $v_\infty$ is the relative velocity at infinity (prior to the collision) $\approx $ the clump velocity dispersion. Taking $ v_\infty \approx \sigma = $ constant independent of mass and binary separation, we may use (\ref{Eq:6_CollisionalSigma}) to relate binary mass $M$ to separation $a$ and  cross-section $\sigma_{coll}$. \cite{Hut1983,Hut1983b} gave analytical expressions for the \textit{exchange} cross sections, which scales as the above scattering cross-section at low velocities, but becomes steeper for higher velocities:
 
 \begin{equation}
 \sigma_{ex} \propto \frac{m_t a}{v_\infty^6}\, . 

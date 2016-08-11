@@ -1,6 +1,6 @@
 \chapter{Perspectives}
 
-In this thesis we introduced the \HubLem fragmentation model and applied to the dynamical evolution of substructured star clusters and the fate of their binary population. Interesting results have been obtained, though some assumptions were made. In this chapter, we review two of these assumptions: the absence of stellar evolution and the isolated nature of the cluster. We also present the outline of a comparison to observations and the possible inclusion of hydrodynamical processes.
+In this thesis we introduced the \HubLem fragmentation model and applied it to the dynamical evolution of substructured star clusters, also exploring the fate of their binary population. Interesting results have been obtained, though some assumptions were made. In this chapter, we review two of these assumptions:  isolated nature of the cluster and the absence of stellar evolution.  We also present a method to obtain elongated fragmented models, and we describe the outline of a comparison to observations.
 
 
 \minitoc
@@ -9,11 +9,11 @@ In this thesis we introduced the \HubLem fragmentation model and applied to the 
 
 \section{Tidal field}
 
-In all our simulations, it was assumed the clusters were in isolation and no tidal field were applied. This allowed to study the mechanisms of violent relaxation and the erasure of substructure. However, in reality, star forming regions are shaped by the gravitational influence of their surroundings. We mentioned in section \ref{Sec:2_conclusion} that the galactic tidal field could prevent the collapse of the \HubLem fragmented configuration and scatter the clumps, injecting them in the galactic cluster mass function. The fate of these clumps is uncertain, as some will disperse through two-body interactions, and other will merge, depending on the geometry imposed by the tidal field. 
+In all our simulations, it was assumed the clusters were in isolation and no tidal field was applied. This allowed us to study the mechanisms of violent relaxation and the erasure of substructure. However, in reality, star forming regions are shaped by the gravitational influence of their surroundings. We mentioned in section \ref{Sec:2_conclusion} that the galactic tidal field could prevent the collapse of the \HubLem fragmented configuration and scatter the clumps, injecting them in the galactic cluster mass function. The fate of these clumps is uncertain, as some will disperse through two-body interactions, and other will merge, depending on the geometry imposed by the tidal field. 
 
-Numerical simulations will allow an exploration of the resulting clump mass function, which would be more directly comparable to the cluster mass function. NBODY6 has a built-in galactic tidal field module, which allows to model the tidal forces associated with the cluster orbiting a complex galactic potential, including a \cite{Miyamoto1975} potential, see \cite{Aarseth2003} for details. The tidal shock from a passing molecular cloud is also an option in NBODY6.
+Numerical simulations will enable an exploration of the resulting clump mass function, which would be more directly comparable to the cluster mass function. NBODY6 has a built-in galactic tidal field module, which allows to model the tidal forces associated with the cluster orbiting a complex galactic potential, including a \cite{Miyamoto1975} potential, see \cite{Aarseth2003} for details. The tidal shock from a passing molecular cloud is also an option in NBODY6.
 
-However, it is possible to go further in the inclusion of realistic tidal fields. \cite{Renaud2011} introduced a new version of NBODY6, \href{http://personal.ph.surrey.ac.uk/~fr0005/nbody6tt.php}{Nbody6tt}, that can take an arbitrary tidal tensor as an input and apply it to the evolution of a star cluster. Specifically, Nbody6tt allows to extract the tidal environment of a cluster from a large-scale galactic simulation to obtain a time-dependant, self-consistent tidal field. The influence of different galactic environment, such as tidal arms, on the cluster can then be evaluated. 
+However, it is possible to go further in the inclusion of realistic tidal fields. \cite{Renaud2011} introduced a new version of NBODY6, \href{http://personal.ph.surrey.ac.uk/~fr0005/nbody6tt.php}{Nbody6tt}, that can take an arbitrary tidal tensor as an input and apply it to the evolution of a star cluster. Specifically, Nbody6tt enables the application of a tidal environment to a cluster  extracted from a large-scale galactic simulation to obtain a time-dependant, self-consistent tidal field. The influence of different galactic environment, such as tidal arms, on the cluster can then be evaluated. 
 
 For example, \cite{Renaud2015b} reported the formation of massive clusters in their hydrodynamical simulation of a galaxy merger analog to the Antennas galaxies. Fig~\ref{Fig:7_renaud} show the merging of YMC fragments on large scales. This kind of event could be reproduced in Nbody6tt with a \HubLem configuration and the tidal data from the simulation. Given the complex tidal fields in this kind of environment, the evolution of YMCs starting from a substructured initial conditions could shed light of their formation and disruption processes.
 
@@ -40,7 +40,7 @@ Would the evolution of such massive stars affect the internal dynamics of clumps
 
 However, if we include tidal fields, the clumps might survive far longer, and the death of these massive stars could have a significant impact on their structures, their mass segregation, and  on the overall clump mass function.
 
-Moreover, more massive stars are observed in clusters, and the lifetime alone does not reflect the mass-loss these stars endure throughout their life. Fig~\ref{Fig:7_stellarlifetime_weidner} shows the evolution of mass for several massive stars, 50, 65, 85 and 120~$\Mo$, from the Geneva stellar model \cite{Schaller1992}. These stars not only disappear in less than 4-5 Myr, they also lose a non-negligible portion of their mass before their death.
+Moreover, more massive stars are observed in clusters, and the lifetime alone does not reflect the mass-loss these stars endure throughout their life. Fig~\ref{Fig:7_stellarlifetime_weidner} shows the evolution of mass for several massive stars, 50, 65, 85 and 120~$\Mo$, from the Geneva stellar model \citep{Schaller1992}. These stars not only disappear in less than 4-5 Myr, they also lose a non-negligible portion of their mass before their death.
 
 Throughout this thesis, we assumed stellar evolution would not affect the dynamics of our simulated clusters. For isolated systems, and for the densities and mass ranges we chose, this is mostly true. Nevertheless, as we include tidal fields and an extended mass spectrum to reproduce observed objects, mass-loss and other evolutionary effects need to be taken into account. This is especially true for binary evolution. Mass loss would affect the binary parameters, and some binary systems found in our systems have short enough separations to be contact binaries had stellar radii and evolution be included. These objects are crucial for the formation of blue stragglers or black holes.
 
@@ -103,7 +103,7 @@ with $\hat{\bold{H}}$ now a 3$\times$3 matrix, where the off-diagonal elements a
         \caption{Stellar density in Carina.}
         \label{Fig:7_carina}
     \end{subfigure}
-     \caption{(a) Evolution of an anisotropic \HubLem model. The expansion was favored along z and a rotation was introduced. (b) Stellar density in the young Carina cluster the colorbar is in stars/$\pc^3$. The figure was extracted from \protect\cite{Kuhn2014}.}
+     \caption{(a) Evolution of an anisotropic \HubLem model. The expansion was favored along z and a rotation was introduced. (b) Stellar density in the young Carina cluster; the colorbar is in stars/$\pc^3$. The figure was extracted from \protect\cite{Kuhn2014}.}
      \label{Fig:7_filament}
 \end{figure}
 
@@ -119,14 +119,80 @@ For example, to favor fragmentation along the z-axis and introduce a rotation al
 \end{matrix}\right) \bold{r},
 \end{equation}
 
-with $\theta$ setting the orientation and strength of the rotation. We set $\theta = \frac{\pi}{4}$ and show the evolution of the resulting system with N=3000 on Fig~\ref{Fig:7_anistropic}. We obtain an elongated substructured configuration, that is comparable to the observed structure of, e.g., the Carina Nebula as observed in the MYStIX survey \citep{Kuhn2014} shown on Fig~\ref{Fig:7_carina}.
+with $\theta$ setting the orientation and strength of the rotation. We set $\theta = \frac{\pi}{4}$ and show the evolution of the resulting system with N=3000 on Fig~\ref{Fig:7_anistropic}. We obtain an elongated substructured configuration, that is comparable to the observed structure of, e.g., the Carina star forming region as observed in the MYStIX survey \citep{Kuhn2014} shown on Fig~\ref{Fig:7_carina}.
 
 
 
-\section{Reproduce observations}
+\section{Mock observations}
+
+Another path of research with the \HubLem models is the generation of mock observations to investigate completeness effects on the observed morphology of young clusters. In this section we demonstrate a proof of concept of the method.
+
+\subsection*{Observed mass segregation in low-density star-forming regions}
+
+We mentioned in the introduction that \cite{Bressert2010} argue for a star formation proceeding from a continuous spatial distribution, instead of distinct "isolated" and "clustered" formation modes. The authors found a stellar surface density distribution for YSOs to be log-normal, peaked around 22 stars/$\pc^-2$.  High density young clusters would be the result of the dynamical evolution we described in this thesis, with local low-density clumps and overdensities merging and populating the high density tail of the observed distribution.
+
+While there seems not to be a clear distinction between isolated and clustered star-formation, the dynamical processes at play are expected to be different, as low density imply a low crossing times. Thus stars forming in low density clumps should not be expected to undergo significant dynamical evolution, and their characteristics should impact the outcome of their mergers.
+
+\cite{Kirk2011} adressed this issue by investigating the distribution of Young Stellar Objects in low-density star forming regions, especially their degree of mass segregation. Their target objects, among which IC 348 and Chal I, are substructured and show multiple stellar clumps. To measure mass-segregation in such spatial distribution, they used the Minimum Spanning Tree method to isolate clumps and evaluate their individual mass segregation.
+
+They found some mass segregation, often limited to to the most massive star. However, it is important to note that such structure analysis is very  sensitive to completeness. The most massive stars are the most luminous and in case of mass segregation, sit in the center of clumps. Including lighter, fainter and more spread out stars could alter the global spatial distribution, change the spanning tree and potentially connect clumps, modifying the mass segregation measures. This problem could be worsen by the fact that the dust in the galaxy is substructured, which could also influence the observed objects close to the detection limit.
+
+Their objects are close enough ($\sim$200~pc) for this not to be a significant problem, but it could be for more distant objects. We wish to  demonstrate how to use our naturally mass-segregated and substructured model to generate mock observations and assess the influence of completeness on the structure analysis of these objects. To do so, we will reproduce a model similar to IC 348, attribute luminosities to the star and take dust extinction into account.
+
+
+\subsection*{Making our own IC 348 and turning on our stars}
+
+
+We focus on IC-348 and reproduce a similar cluster. We first perform a \HubLem expansion with N=400, the estimated membership of IC 348. As seen on Fig~\ref{Fig:7_MSTedge}, The structure is quite irregular compared to most of the roughly spherical models we shown in this thesis, this is due to a stronger fragmentation caused by the low number of stars.
+
+To attribute luminosities to these stars, we use the stellar evolution code \href{http://mesa.sourceforge.net/}{MESA} \citep{Paxton2011}, a detailed suite of simulation tools able to model a star from protostar to white dwarf. Given the young age of IC 348, we are mainly interested in the pre-main-sequence and early main-sequence luminosities. We fix the age to 3 Myr, as the results appears weakly affected by age dispersion. The code ouputs bolometric luminosities, that we can convert to apparent bolometric magnitude $m_{bol}$ through
+
+\begin{equation}
+m_{bol} = 4.74- 2.5 \log\left(\frac{L_{bol}}{L_\odot}\right) - 2.5\log\left( \frac{d}{10~\pc}\right).
+\end{equation}
+
+We convert these bolometric magnitude to H band magnitudes with a script, \textit{starflux}. We consider two different distances of 300 pc (the current estimate for IC 348) and 1 kpc to evaluate the effects of distance with a fixed detection limit.
+
+\subsection*{Dust extinction}
+
+Finally, we take dust extinction into account with the work of \cite{Green2015}. The authors gathered PAN-STARRS 1 and 2MASS data to obtain a 3D dust extinction map in the Galaxy covering 75\% of the sky. The database is downloadable through their \href{http://argonaut.skymaps.info/}{website}, which also accepts custom queries to obtain the color excess $E_{B-V}$ for any user-requested coordinates and distance.
+
+Vianney Niederkorn (2016, unpublished) built a software to obtain extinction map from the user input of coordinate range, distance and spatial resolution. The software automatically handle the query process to get each extinction pixel. It also converts the color excess $E_{B-V}$ to the H-band extinction $A_H$ through the relation
+\begin{equation}
+A_H =   \frac{E_{B-V}}{ \frac{A_B/A_V}{A_H/A_V} - \frac{1}{A_H/A_V} },
+\end{equation}
+in which the ratios $A_B/A_V$ and $A_H/A_V$ are based on the correlations observed by \cite{Cardelli1989}. 
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/7_dustmaps.png}
+\end{center}
+\caption{Extinction map in H band obtained from our script and \cite{Green2015}. Left panel shows the extinction at 300~pc and right panel at 1~kpc. The red square shows the zoomed in map we applied to our models.}
+\label{Fig:7_dustmaps}
+\end{figure} 
+
+We select a region of the sky with longitude spanning from 25° to 40° and latitude from 0° to 15°, as a 30$\times$30 pixels map. We show on Fig~\ref{Fig:7_dustmaps} the two extinction maps obtained from the map of \cite{Green2015} and Niederkorn's script. They are, as mentioned earlier, heavily substructured. We are now equiped to generate mock observations of a young substructured star clusters, including dust extinction. We take our \HubLem N=400 model with the appropriate H magnitudes and apply the extinction map within the red square of Fig~\ref{Fig:7_dustmaps}, chosen to maximize the extinction for this proof of concept.
+
+\subsection*{Observed structure}
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/7_MSTedge.png}
+\end{center}
+\caption{Left panels: spatial distribution of  stars in our cluster that are detected with the specified detection limit in H band. Blue stars are detected at 300pc while red stars are detected at 1kpc. Right panels: normalized cumulative distribution of the MST edge lengths, the colors match the legend on the left, the 1kpc distribution is lower and shallower.}
+\label{Fig:7_MSTedge}
+\end{figure} 
+
+
+We show on Fig~\ref{Fig:7_MSTedge} the result for 3 detection limits in H magnitude: 18, 19, 20. These were chosen to illustrate the changes underwent by the morphology as we detect more and more stars. Left panels show the stars with a magnitude below the limit for a cluster at 300~pc (blue squares) and 1~kpc (red circles). Any star detected at 1~kpc is also detected at 300~pc. Right panels show the normalized cumulative distribution of the edge lengths in the Minimum Spanning Tree computed from the corresponding configuration (similar to Fig~\ref{Fig:2_dcutcumulated}). The x-axis stops at 1.5 to better visualize the turning point, as the distributions are normalized, they both reach 1.
 
 
 
+As the system is mass-segregated, less luminous lighter stars are more spread out in the system. As the dust or the distance make their magnitude go over the detection limit, the cluster gets clumpier, and the cumulated edge distribution gets shallower. 
+
+This kind of analysis could be done on wider scale, with various cluster membership, density, ages or morphologies (see anistropic expansion earlier), and would bring an interesting view of the influence of mass segregation on observed morphologies. \HubLem models are "naturally" mass-segregated, meaning the most massive stars are not automatically at the heart of clumps. This bring a variability hard to reproduce with artificially segregated models. 
 
 
 

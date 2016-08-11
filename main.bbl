@@ -1,4 +1,4 @@
-\begin{thebibliography}{242}
+\begin{thebibliography}{245}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -12,7 +12,8 @@
 {Aarseth} S.~J., 2003{\natexlab{a}}, \apss, 285, 367
 
 \bibitem[{{Aarseth}(2003{\natexlab{b}})}]{Aarseth2003}
-{Aarseth} S.~J., 2003{\natexlab{b}}, {Gravitational N-Body Simulations}. p. 430
+{Aarseth} S.~J., 2003{\natexlab{b}}, {Gravitational N-Body Simulations}.
+  Cambridge University Press, Cambridge, UK, p. 430
 
 \bibitem[{{Aarseth}(2012)}]{Aarseth2012}
 {Aarseth} S.~J., 2012, \mnras, 422, 841
@@ -183,6 +184,10 @@ Barrow-Green J., 1997, Poincar{\'e} and the Three Body Problem, History of
   \& {Portegies Zwart}}]{Caputo2014}
 {Caputo} D.~P., {de Vries} N., {Portegies Zwart} S., 2014, \mnras, 445, 674
 
+\bibitem[{{Cardelli}, {Clayton} \& {Mathis}(1989){Cardelli}, {Clayton}, \&
+  {Mathis}}]{Cardelli1989}
+{Cardelli} J.~A., {Clayton} G.~C., {Mathis} J.~S., 1989, \apj, 345, 245
+
 \bibitem[{{Chabrier}(2003)}]{Chabrier2003}
 {Chabrier} G., 2003, \pasp, 115, 763
 
@@ -338,7 +343,7 @@ Freeman K.~C., Block D., Elmegreen B.~G., Woolway M., 2015, Lessons from the
   H., {Zinnecker} H., 2013, \aap, 549, A67
 
 \bibitem[{Galileo(1610)}]{galileo1610}
-Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
+Galileo G., 1610, Sidereus nuncius. published by Thomas Baglioni
 
 \bibitem[{{Garcia} {et~al}\mbox{.}(2010){Garcia}, {Herrero}, {Castro},
   {Corral}, \& {Rosenberg}}]{Garcia2010}
@@ -365,6 +370,12 @@ Galileo G., 1610, Sidereus nuncius. Thomas Baglioni
 \bibitem[{{Goodwin}, {Whitworth} \& {Ward-Thompson}(2004){Goodwin},
   {Whitworth}, \& {Ward-Thompson}}]{Goodwin2004a}
 {Goodwin} S.~P., {Whitworth} A.~P., {Ward-Thompson} D., 2004, \aap, 423, 169
+
+\bibitem[{{Green} {et~al}\mbox{.}(2015){Green}, {Schlafly}, {Finkbeiner},
+  {Rix}, {Martin}, {Burgett}, {Draper}, {Flewelling}, {Hodapp}, {Kaiser},
+  {Kudritzki}, {Magnier}, {Metcalfe}, {Price}, {Tonry}, \&
+  {Wainscoat}}]{Green2015}
+{Green} G.~M. {et~al.}, 2015, \apj, 810, 25
 
 \bibitem[{{Gunawardhana} {et~al}\mbox{.}(2011){Gunawardhana}, {Hopkins},
   {Sharp}, {Brough}, {Taylor}, {Bland-Hawthorn}, {Maraston}, {Tuffs},
@@ -679,6 +690,11 @@ Maury J., 1992, Newton: Understanding the Cosmos, New horizons in history
 {Moeckel} N., {Holland} C., {Clarke} C.~J., {Bonnell} I.~A., 2012, \mnras, 425,
   450
 
+\bibitem[{{Mohr}, {Taylor} \& {Newell}(2012){Mohr}, {Taylor}, \&
+  {Newell}}]{Mohr2012}
+{Mohr} P.~J., {Taylor} B.~N., {Newell} D.~B., 2012, Reviews of Modern Physics,
+  84, 1527
+
 \bibitem[{{Myers} {et~al}\mbox{.}(2014){Myers}, {Klein}, {Krumholz}, \&
   {McKee}}]{Myers2014}
 {Myers} A.~T., {Klein} R.~I., {Krumholz} M.~R., {McKee} C.~F., 2014, \mnras,
@@ -725,8 +741,10 @@ Newton S.~I., 1687, Philosophiae Naturalis Principia Mathematica, Vol.~1
   {Matthews}}]{Patience2002}
 {Patience} J., {Ghez} A.~M., {Reid} I.~N., {Matthews} K., 2002, \aj, 123, 1570
 
-\bibitem[{{Pavese}(2015)}]{Pavese2015}
-{Pavese} F., 2015, ArXiv e-prints
+\bibitem[{{Paxton} {et~al}\mbox{.}(2011){Paxton}, {Bildsten}, {Dotter},
+  {Herwig}, {Lesaffre}, \& {Timmes}}]{Paxton2011}
+{Paxton} B., {Bildsten} L., {Dotter} A., {Herwig} F., {Lesaffre} P., {Timmes}
+  F., 2011, \apjs, 192, 3
 
 \bibitem[{{Peebles}(1980)}]{Peebles1980}
 {Peebles} P.~J.~E., 1980, {The large-scale structure of the universe}.
@@ -771,7 +789,8 @@ Press W.~H., Teukolsky S.~A., Vetterling W.~T., Flannery B.~P., 2007, Numerical
   11
 
 \bibitem[{{Reipurth}(2008)}]{Reipurth2008}
-{Reipurth} B., 2008, {Handbook of Star Forming Regions}
+{Reipurth} B., 2008, {Handbook of Star Forming Regions}, ASP Monographs.
+  Astronomical Society of the Pacific
 
 \bibitem[{{Renaud}, {Bournaud} \& {Duc}(2015){Renaud}, {Bournaud}, \&
   {Duc}}]{Renaud2015b}

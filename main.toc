@@ -1,12 +1,12 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}What is a star cluster ?}{4}{section.1.1}
 \contentsline {section}{\numberline {1.2}Some important dynamical concepts}{6}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Virial theorem}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Virial theorem}{7}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Dynamical time-scales}{7}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Static models}{8}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}The origin of star clusters}{9}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}From gas to stars}{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Substructure and early dynamical evolution}{11}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.1}From gas to stars}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Substructure and early dynamical evolution}{10}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Star formation efficiency and infant mortality}{12}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Simulating star clusters evolution}{14}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Hydrodynamical simulations}{14}{subsection.1.4.1}
@@ -77,16 +77,16 @@
 \contentsline {section}{\numberline {8.1}Tidal field}{107}{section.8.1}
 \contentsline {section}{\numberline {8.2}Stellar evolution}{108}{section.8.2}
 \contentsline {section}{\numberline {8.3}Anisotropic expansion}{109}{section.8.3}
-\contentsline {section}{\numberline {8.4}Reproduce observations}{111}{section.8.4}
-\contentsline {part}{Appendices}{113}{part*.66}
-\contentsline {chapter}{\numberline {A}How we got here: from Aristotle to GPU computing}{115}{appendix.A}
-\contentsline {chapter}{\numberline {B}NBODY6}{123}{appendix.B}
-\contentsline {section}{\numberline {B.1}Block time-step}{123}{section.B.1}
-\contentsline {section}{\numberline {B.2}KS-regularization}{123}{section.B.2}
-\contentsline {section}{\numberline {B.3}Hermite integration scheme}{125}{section.B.3}
-\contentsline {section}{\numberline {B.4}Ahmad-Cohen neighbour scheme}{126}{section.B.4}
-\contentsline {chapter}{\numberline {C}Binary formation from phase-space correlations}{129}{appendix.C}
-\contentsline {chapter}{\numberline {D}Binary completion algorithm}{131}{appendix.D}
-\contentsline {section}{\numberline {D.1}"Theoretical" population}{131}{section.D.1}
-\contentsline {section}{\numberline {D.2}Injected and effective population}{132}{section.D.2}
-\contentsline {section}{\numberline {D.3}Stable spontaneous}{133}{section.D.3}
+\contentsline {section}{\numberline {8.4}Mock observations}{111}{section.8.4}
+\contentsline {part}{Appendices}{115}{part*.68}
+\contentsline {chapter}{\numberline {A}How we got here: from Aristotle to GPU computing}{117}{appendix.A}
+\contentsline {chapter}{\numberline {B}NBODY6}{125}{appendix.B}
+\contentsline {section}{\numberline {B.1}Block time-step}{125}{section.B.1}
+\contentsline {section}{\numberline {B.2}KS-regularization}{125}{section.B.2}
+\contentsline {section}{\numberline {B.3}Hermite integration scheme}{127}{section.B.3}
+\contentsline {section}{\numberline {B.4}Ahmad-Cohen neighbour scheme}{128}{section.B.4}
+\contentsline {chapter}{\numberline {C}Binary formation from phase-space correlations}{131}{appendix.C}
+\contentsline {chapter}{\numberline {D}Binary completion algorithm}{133}{appendix.D}
+\contentsline {section}{\numberline {D.1}"Theoretical" population}{133}{section.D.1}
+\contentsline {section}{\numberline {D.2}Injected and effective population}{134}{section.D.2}
+\contentsline {section}{\numberline {D.3}Stable spontaneous}{135}{section.D.3}

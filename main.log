@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  9 AUG 2016 11:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  11 AUG 2016 14:41
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -1083,77 +1083,76 @@ Package minitoc Info: I0033
 
 ] (./Introduction/introduction.tex
 Chapter 1.
-<Figures/0_antennas.jpg, id=491, 911.405pt x 852.18375pt>
+<Figures/0_antennas.jpg, id=496, 911.405pt x 852.18375pt>
 File: Figures/0_antennas.jpg Graphic file (type jpg)
 
 <use Figures/0_antennas.jpg> [1
 
 ] [2 <./Figures/0_antennas.jpg>] [3]
-<Figures/0_Pleiades_scale.jpg, id=532, 602.25pt x 433.62pt>
+<Figures/0_Pleiades_scale.jpg, id=537, 602.25pt x 433.62pt>
 File: Figures/0_Pleiades_scale.jpg Graphic file (type jpg)
 
 <use Figures/0_Pleiades_scale.jpg>
-<Figures/0_omega_centauri_scale.jpg, id=533, 433.62pt x 433.62pt>
+<Figures/0_omega_centauri_scale.jpg, id=538, 433.62pt x 433.62pt>
 File: Figures/0_omega_centauri_scale.jpg Graphic file (type jpg)
 
 <use Figures/0_omega_centauri_scale.jpg>
-<Figures/0_R136_scale.jpg, id=534, 409.53pt x 431.6125pt>
+<Figures/0_R136_scale.jpg, id=539, 409.53pt x 431.6125pt>
 File: Figures/0_R136_scale.jpg Graphic file (type jpg)
 
 <use Figures/0_R136_scale.jpg>
-<Figures/0_NGC1333_scale_contrast.jpg, id=535, 543.02875pt x 431.6125pt>
+<Figures/0_NGC1333_scale_contrast.jpg, id=540, 543.02875pt x 431.6125pt>
 File: Figures/0_NGC1333_scale_contrast.jpg Graphic file (type jpg)
 
 <use Figures/0_NGC1333_scale_contrast.jpg> [4 <./Figures/0_Pleiades_scale.jpg> 
 <./Figures/0_omega_centauri_scale.jpg>]
-<Figures/0_MassRadiusClusters.png, id=557, 1173.38374pt x 1115.16624pt>
+<Figures/0_MassRadiusClusters.png, id=562, 1173.38374pt x 1115.16624pt>
 File: Figures/0_MassRadiusClusters.png Graphic file (type png)
 
 <use Figures/0_MassRadiusClusters.png> [5 <./Figures/0_R136_scale.jpg> <./Figur
-es/0_NGC1333_scale_contrast.jpg>] [6 <./Figures/0_MassRadiusClusters.png (PNG c
-opy)>]
+es/0_NGC1333_scale_contrast.jpg>]
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [6 <./Figures/0_MassRadiusClusters.png (PNG copy)>]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
 d on input line 191.
 
-[7] <Figures/0_kingplummer.png, id=652, 1011.78pt x 361.35pt>
+[7] <Figures/0_kingplummer.png, id=661, 1011.78pt x 361.35pt>
 File: Figures/0_kingplummer.png Graphic file (type png)
 
 <use Figures/0_kingplummer.png> [8] [9 <./Figures/0_kingplummer.png>]
-<Figures/0_horsehead_visible2.jpg, id=695, 1343.0175pt x 524.96124pt>
+<Figures/0_horsehead_visible2.jpg, id=703, 1343.0175pt x 524.96124pt>
 File: Figures/0_horsehead_visible2.jpg Graphic file (type jpg)
 
 <use Figures/0_horsehead_visible2.jpg>
-<Figures/0_horsehead_infrared.jpg, id=696, 1185.42876pt x 460.72125pt>
+<Figures/0_horsehead_infrared.jpg, id=704, 1185.42876pt x 460.72125pt>
 File: Figures/0_horsehead_infrared.jpg Graphic file (type jpg)
 
 <use Figures/0_horsehead_infrared.jpg>
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
- [10 <./Figures/0_horsehead_visible2.jpg> <./Figures/0_horsehead_infrared.jpg>]
-
-<Figures/0_proto_1.jpg, id=718, 200.75pt x 200.75pt>
+<Figures/0_proto_1.jpg, id=714, 200.75pt x 200.75pt>
 File: Figures/0_proto_1.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_1.jpg>
-<Figures/0_proto_2.jpg, id=719, 486.81876pt x 486.81876pt>
+<Figures/0_proto_2.jpg, id=715, 486.81876pt x 486.81876pt>
 File: Figures/0_proto_2.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_2.jpg>
-<Figures/0_proto_3.jpg, id=720, 435.6275pt x 435.6275pt>
+<Figures/0_proto_3.jpg, id=716, 435.6275pt x 435.6275pt>
 File: Figures/0_proto_3.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_3.jpg>
-<Figures/0_proto_4.jpg, id=721, 155.58125pt x 155.58125pt>
+<Figures/0_proto_4.jpg, id=717, 155.58125pt x 155.58125pt>
 File: Figures/0_proto_4.jpg Graphic file (type jpg)
 
 <use Figures/0_proto_4.jpg>
-<Figures/0_proto_5.jpg, id=722, 110.4125pt x 110.4125pt>
+<Figures/0_proto_5.jpg, id=718, 110.4125pt x 110.4125pt>
 File: Figures/0_proto_5.jpg Graphic file (type jpg)
 
-<use Figures/0_proto_5.jpg> [11 <./Figures/0_proto_1.jpg (PNG copy)> <./Figures
+<use Figures/0_proto_5.jpg> [10] [11 <./Figures/0_horsehead_visible2.jpg> <./Fi
+gures/0_horsehead_infrared.jpg> <./Figures/0_proto_1.jpg (PNG copy)> <./Figures
 /0_proto_2.jpg> <./Figures/0_proto_3.jpg> <./Figures/0_proto_4.jpg> <./Figures/
-0_proto_5.jpg>] <Figures/0_carina.png, id=778, 838.13126pt x 807.015pt>
+0_proto_5.jpg>] <Figures/0_carina.png, id=784, 838.13126pt x 807.015pt>
 File: Figures/0_carina.png Graphic file (type png)
 
 <use Figures/0_carina.png>
@@ -1162,42 +1161,40 @@ Missing character: There is no µ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no µ in font cmr10!
 
-<Figures/0_ejectionwind.png, id=783, 503.8825pt x 488.82625pt>
+<Figures/0_ejectionwind.png, id=789, 503.8825pt x 488.82625pt>
 File: Figures/0_ejectionwind.png Graphic file (type png)
 
 <use Figures/0_ejectionwind.png>
-<Figures/0_virializedclumps.png, id=784, 693.59125pt x 561.09625pt>
+<Figures/0_virializedclumps.png, id=790, 693.59125pt x 561.09625pt>
 File: Figures/0_virializedclumps.png Graphic file (type png)
 
 <use Figures/0_virializedclumps.png> [12 <./Figures/0_carina.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./Figures/0_ejectionwind.png (PNG copy)> <./Figures/0_virializedclumps.pn
-g (PNG copy)>] <Figures/0_bate2012.png, id=862, 608.2725pt x 637.38126pt>
+[13 <./Figures/0_ejectionwind.png (PNG copy)> <./Figures/0_virializedclumps.png
+ (PNG copy)>] <Figures/0_bate2012.png, id=870, 608.2725pt x 637.38126pt>
 File: Figures/0_bate2012.png Graphic file (type png)
 
 <use Figures/0_bate2012.png>
-<Figures/0_aquila_bate.png, id=863, 803.0pt x 733.74126pt>
+<Figures/0_aquila_bate.png, id=871, 803.0pt x 733.74126pt>
 File: Figures/0_aquila_bate.png Graphic file (type png)
 
-<use Figures/0_aquila_bate.png> [14 <./Figures/0_bate2012.png (PNG copy)> <./Fi
-gures/0_aquila_bate.png (PNG copy)>]
-<Figures/0_bonnell.png, id=902, 694.595pt x 664.4825pt>
+<use Figures/0_aquila_bate.png> [14]
+<Figures/0_bonnell.png, id=912, 694.595pt x 664.4825pt>
 File: Figures/0_bonnell.png Graphic file (type png)
 
 <use Figures/0_bonnell.png>
-<Figures/0_fujii.png, id=903, 542.025pt x 548.0475pt>
+<Figures/0_fujii.png, id=913, 542.025pt x 548.0475pt>
 File: Figures/0_fujii.png Graphic file (type png)
 
 <use Figures/0_fujii.png>
-<Figures/0_plummers.png, id=904, 625.33624pt x 595.22375pt>
+<Figures/0_plummers.png, id=914, 625.33624pt x 595.22375pt>
 File: Figures/0_plummers.png Graphic file (type png)
 
 <use Figures/0_plummers.png>
-<Figures/0_fractals.png, id=905, 642.4pt x 565.11125pt>
+<Figures/0_fractals.png, id=915, 642.4pt x 565.11125pt>
 File: Figures/0_fractals.png Graphic file (type png)
 
-<use Figures/0_fractals.png> [15] [16 <./Figures/0_bonnell.png (PNG copy)> <./F
+<use Figures/0_fractals.png> [15 <./Figures/0_bate2012.png (PNG copy)> <./Figur
+es/0_aquila_bate.png (PNG copy)>] [16 <./Figures/0_bonnell.png (PNG copy)> <./F
 igures/0_fujii.png> <./Figures/0_plummers.png> <./Figures/0_fractals.png>])
 [17] [18
 
@@ -1222,17 +1219,17 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
  [22]
-[23] <Figures/1_apextime.png, id=1046, 578.16pt x 433.62pt>
+[23] <Figures/1_apextime.png, id=1054, 578.16pt x 433.62pt>
 File: Figures/1_apextime.png Graphic file (type png)
 
-<use Figures/1_apextime.png>
+<use Figures/1_apextime.png> [24]
 Underfull \hbox (badness 10000) in alignment at lines 206--206
 [][] 
  []
 
-[24] [25 <./Figures/1_apextime.png>] [26]pdfTeX warning (ext4): destination wit
-h the same identifier (name{equation.2.2.1}) has been already used, duplicate i
-gnored
+[25 <./Figures/1_apextime.png>] [26]pdfTeX warning (ext4): destination with the
+ same identifier (name{equation.2.2.1}) has been already used, duplicate ignore
+d
 <to be read again> 
                    \relax 
 l.320 	\end{align}
@@ -1242,15 +1239,15 @@ name{equation.2.2.2}) has been already used, duplicate ignored
                    \relax 
 l.320 	\end{align}
                    [27]
-<Figures/1_perturbation.png, id=1125, 712.6625pt x 380.42125pt>
+<Figures/1_perturbation.png, id=1133, 712.6625pt x 380.42125pt>
 File: Figures/1_perturbation.png Graphic file (type png)
 
 <use Figures/1_perturbation.png> [28 <./Figures/1_perturbation.png (PNG copy)>]
-[29] <Figures/1_tau_ms.png, id=1163, 578.16pt x 505.89pt>
+[29] <Figures/1_tau_ms.png, id=1171, 578.16pt x 505.89pt>
 File: Figures/1_tau_ms.png Graphic file (type png)
 
 <use Figures/1_tau_ms.png>
-<Figures/1_segregation_zone.png, id=1164, 578.16pt x 505.89pt>
+<Figures/1_segregation_zone.png, id=1172, 578.16pt x 505.89pt>
 File: Figures/1_segregation_zone.png Graphic file (type png)
 
 <use Figures/1_segregation_zone.png> [30] [31 <./Figures/1_tau_ms.png> <./Figur
@@ -1260,32 +1257,32 @@ Chapter 3.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc3) <Figures/2_fragmentation.png, id=1212, 1084.05pt x 361.35pt>
+(./main.mtc3) <Figures/2_fragmentation.png, id=1216, 1084.05pt x 361.35pt>
 File: Figures/2_fragmentation.png Graphic file (type png)
 
 <use Figures/2_fragmentation.png> [33
 
 ] [34 <./Figures/2_fragmentation.png>]
-<Figures/0_StarFiddle.png, id=1253, 1138.2525pt x 1029.8475pt>
+<Figures/0_StarFiddle.png, id=1257, 1138.2525pt x 1029.8475pt>
 File: Figures/0_StarFiddle.png Graphic file (type png)
 
 <use Figures/0_StarFiddle.png> [35] [36 <./Figures/0_StarFiddle.png>] [37]
-<Figures/2_MST.png, id=1295, 867.24pt x 361.35pt>
+<Figures/2_MST.png, id=1299, 867.24pt x 361.35pt>
 File: Figures/2_MST.png Graphic file (type png)
  <use Figures/2_MST.png>
-<Figures/2_Ndcut.png, id=1299, 578.16pt x 433.62pt>
+<Figures/2_Ndcut.png, id=1303, 578.16pt x 433.62pt>
 File: Figures/2_Ndcut.png Graphic file (type png)
  <use Figures/2_Ndcut.png>
-<Figures/2_dcutdistribution.png, id=1300, 578.16pt x 433.62pt>
+<Figures/2_dcutdistribution.png, id=1304, 578.16pt x 433.62pt>
 File: Figures/2_dcutdistribution.png Graphic file (type png)
 
 <use Figures/2_dcutdistribution.png>
-<Figures/2_clumpsABC.png, id=1301, 1445.4pt x 505.89pt>
+<Figures/2_clumpsABC.png, id=1305, 1445.4pt x 505.89pt>
 File: Figures/2_clumpsABC.png Graphic file (type png)
 
 <use Figures/2_clumpsABC.png> [38 <./Figures/2_MST.png>] [39 <./Figures/2_Ndcut
 .png> <./Figures/2_dcutdistribution.png> <./Figures/2_clumpsABC.png>]
-<Figures/2_clumpcheck.png, id=1332, 1084.05pt x 650.43pt>
+<Figures/2_clumpcheck.png, id=1336, 1084.05pt x 650.43pt>
 File: Figures/2_clumpcheck.png Graphic file (type png)
 
 <use Figures/2_clumpcheck.png> [40 <./Figures/2_clumpcheck.png>]
@@ -1308,15 +1305,15 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 266.
 See the caption package documentation for explanation.
 
-[41] <Figures/2_apextime_NH.png, id=1356, 578.16pt x 433.62pt>
+[41] <Figures/2_apextime_NH.png, id=1360, 578.16pt x 433.62pt>
 File: Figures/2_apextime_NH.png Graphic file (type png)
 
 <use Figures/2_apextime_NH.png>
-<Figures/2_ClumpMF_N.png, id=1358, 867.24pt x 1084.05pt>
+<Figures/2_ClumpMF_N.png, id=1362, 867.24pt x 1084.05pt>
 File: Figures/2_ClumpMF_N.png Graphic file (type png)
 
 <use Figures/2_ClumpMF_N.png>
-<Figures/2_ClumpMF_H.png, id=1359, 1084.05pt x 505.89pt>
+<Figures/2_ClumpMF_H.png, id=1363, 1084.05pt x 505.89pt>
 File: Figures/2_ClumpMF_H.png Graphic file (type png)
 
 <use Figures/2_ClumpMF_H.png> [42 <./Figures/2_apextime_NH.png>] [43 <./Figures
@@ -1324,45 +1321,45 @@ File: Figures/2_ClumpMF_H.png Graphic file (type png)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44 <./Figures/2_ClumpMF_H.png>]
-<Figures/2_ClumpMF_MF_1.png, id=1387, 469.755pt x 433.62pt>
+<Figures/2_ClumpMF_MF_1.png, id=1391, 469.755pt x 433.62pt>
 File: Figures/2_ClumpMF_MF_1.png Graphic file (type png)
 
 <use Figures/2_ClumpMF_MF_1.png>
-<Figures/2_ClumpMF_MF_2.png, id=1388, 469.755pt x 433.62pt>
+<Figures/2_ClumpMF_MF_2.png, id=1392, 469.755pt x 433.62pt>
 File: Figures/2_ClumpMF_MF_2.png Graphic file (type png)
 
 <use Figures/2_ClumpMF_MF_2.png> [45] [46 <./Figures/2_ClumpMF_MF_1.png> <./Fig
 ures/2_ClumpMF_MF_2.png>]
-<Figures/2_Vx_histogram_1.png, id=1404, 818.05624pt x 691.58376pt>
+<Figures/2_Vx_histogram_1.png, id=1408, 818.05624pt x 691.58376pt>
 File: Figures/2_Vx_histogram_1.png Graphic file (type png)
 
 <use Figures/2_Vx_histogram_1.png>
-<Figures/2_Vx_histogram_2.png, id=1405, 806.01125pt x 686.565pt>
+<Figures/2_Vx_histogram_2.png, id=1409, 806.01125pt x 686.565pt>
 File: Figures/2_Vx_histogram_2.png Graphic file (type png)
 
 <use Figures/2_Vx_histogram_2.png> [47] [48 <./Figures/2_Vx_histogram_1.png (PN
 G copy)> <./Figures/2_Vx_histogram_2.png (PNG copy)>]
-<Figures/2_ClumpMembers.png, id=1445, 650.43pt x 650.43pt>
+<Figures/2_ClumpMembers.png, id=1449, 650.43pt x 650.43pt>
 File: Figures/2_ClumpMembers.png Graphic file (type png)
 
 <use Figures/2_ClumpMembers.png> [49] [50 <./Figures/2_ClumpMembers.png>]
-<Figures/2_MaxMass.png, id=1469, 1328.965pt x 1161.33875pt>
+<Figures/2_MaxMass.png, id=1473, 1328.965pt x 1161.33875pt>
 File: Figures/2_MaxMass.png Graphic file (type png)
 
 <use Figures/2_MaxMass.png>
-<Figures/2_weidner.png, id=1470, 839.135pt x 876.27374pt>
+<Figures/2_weidner.png, id=1474, 839.135pt x 876.27374pt>
 File: Figures/2_weidner.png Graphic file (type png)
 
 <use Figures/2_weidner.png>
 
 LaTeX Warning: Float too large for page by 3.13605pt on input line 510.
 
-<Figures/2_radial_ranking_schema.png, id=1494, 1558.82375pt x 477.785pt>
+<Figures/2_radial_ranking_schema.png, id=1498, 1558.82375pt x 477.785pt>
 File: Figures/2_radial_ranking_schema.png Graphic file (type png)
 
 <use Figures/2_radial_ranking_schema.png> [51] [52 <./Figures/2_MaxMass.png (PN
 G copy)> <./Figures/2_weidner.png (PNG copy)>]
-<Figures/2_ClumpSeg.png, id=1518, 1244.65pt x 974.64125pt>
+<Figures/2_ClumpSeg.png, id=1522, 1244.65pt x 974.64125pt>
 File: Figures/2_ClumpSeg.png Graphic file (type png)
 
 <use Figures/2_ClumpSeg.png> [53 <./Figures/2_radial_ranking_schema.png (PNG co
@@ -1376,16 +1373,16 @@ Chapter 4.
 \openout3 = `main.mtc'.
 
 (./main.mtc4) [57] [58] [59]
-<Figures/3_DistOrigin.png, id=1665, 1342.01375pt x 1059.96pt>
+<Figures/3_DistOrigin.png, id=1669, 1342.01375pt x 1059.96pt>
 File: Figures/3_DistOrigin.png Graphic file (type png)
 
 <use Figures/3_DistOrigin.png>
-<Figures/3_Rhm_global.png, id=1668, 1233.60875pt x 982.67125pt>
+<Figures/3_Rhm_global.png, id=1672, 1233.60875pt x 982.67125pt>
 File: Figures/3_Rhm_global.png Graphic file (type png)
 
 <use Figures/3_Rhm_global.png> [60 <./Figures/3_DistOrigin.png (PNG copy)>]
 [61 <./Figures/3_Rhm_global.png (PNG copy)>]
-<Figures/3_Lagr_radius.png, id=1685, 2521.42pt x 3166.83125pt>
+<Figures/3_Lagr_radius.png, id=1689, 2521.42pt x 3166.83125pt>
 File: Figures/3_Lagr_radius.png Graphic file (type png)
 
 <use Figures/3_Lagr_radius.png>
@@ -1393,7 +1390,7 @@ Underfull \vbox (badness 2772) has occurred while \output is active []
 
  [62]
 [63 <./Figures/3_Lagr_radius.png (PNG copy)>]
-<Figures/3_Rhm_segr.png, id=1708, 1142.2675pt x 1443.3925pt>
+<Figures/3_Rhm_segr.png, id=1712, 1142.2675pt x 1443.3925pt>
 File: Figures/3_Rhm_segr.png Graphic file (type png)
 
 <use Figures/3_Rhm_segr.png>
@@ -1407,29 +1404,29 @@ LaTeX Warning: Float too large for page by 30.47144pt on input line 259.
 Chapter 5.
 [71
 
-] <Figures/0_albireo.jpg, id=1790, 236.885pt x 236.885pt>
+] <Figures/0_albireo.jpg, id=1794, 236.885pt x 236.885pt>
 File: Figures/0_albireo.jpg Graphic file (type jpg)
 
 <use Figures/0_albireo.jpg>
-<Figures/0_elliptictrajectories.png, id=1791, 897.3525pt x 665.48625pt>
+<Figures/0_elliptictrajectories.png, id=1795, 897.3525pt x 665.48625pt>
 File: Figures/0_elliptictrajectories.png Graphic file (type png)
 
 <use Figures/0_elliptictrajectories.png> [72 <./Figures/0_albireo.jpg> <./Figur
 es/0_elliptictrajectories.png (PNG copy)>]
-<Figures/0_binperiods.png, id=1815, 923.45pt x 702.625pt>
+<Figures/0_binperiods.png, id=1819, 923.45pt x 702.625pt>
 File: Figures/0_binperiods.png Graphic file (type png)
 
 <use Figures/0_binperiods.png>
-<Figures/0_binfraction.png, id=1816, 914.41624pt x 672.5125pt>
+<Figures/0_binfraction.png, id=1820, 914.41624pt x 672.5125pt>
 File: Figures/0_binfraction.png Graphic file (type png)
 
 <use Figures/0_binfraction.png> [73 <./Figures/0_binperiods.png (PNG copy)> <./
 Figures/0_binfraction.png (PNG copy)>]
-<Figures/0_binfraction_evolution.png, id=1863, 430.60875pt x 369.38pt>
+<Figures/0_binfraction_evolution.png, id=1867, 430.60875pt x 369.38pt>
 File: Figures/0_binfraction_evolution.png Graphic file (type png)
 
 <use Figures/0_binfraction_evolution.png>
-<Figures/0_separation_evolution.png, id=1864, 902.37125pt x 782.925pt>
+<Figures/0_separation_evolution.png, id=1868, 902.37125pt x 782.925pt>
 File: Figures/0_separation_evolution.png Graphic file (type png)
 
 <use Figures/0_separation_evolution.png> [74 <./Figures/0_binfraction_evolution
@@ -1442,48 +1439,48 @@ Chapter 6.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc6) <Figures/5_kdtree.png, id=1917, 626.5809pt x 556.479pt>
+(./main.mtc6) <Figures/5_kdtree.png, id=1921, 626.5809pt x 556.479pt>
 File: Figures/5_kdtree.png Graphic file (type png)
 
 <use Figures/5_kdtree.png> [77]
-<Figures/5_neighbours.png, id=1927, 961.5925pt x 601.24625pt>
+<Figures/5_neighbours.png, id=1931, 961.5925pt x 601.24625pt>
 File: Figures/5_neighbours.png Graphic file (type png)
 
 <use Figures/5_neighbours.png>
-<Figures/5_sm_ratios.png, id=1932, 867.24pt x 433.62pt>
+<Figures/5_sm_ratios.png, id=1936, 867.24pt x 433.62pt>
 File: Figures/5_sm_ratios.png Graphic file (type png)
 
 <use Figures/5_sm_ratios.png> [78 <./Figures/5_kdtree.png>] [79 <./Figures/5_ne
 ighbours.png (PNG copy)> <./Figures/5_sm_ratios.png>]
-<Figures/5_flickering.png, id=1954, 1044.90375pt x 1150.2975pt>
+<Figures/5_flickering.png, id=1958, 1044.90375pt x 1150.2975pt>
 File: Figures/5_flickering.png Graphic file (type png)
 
 <use Figures/5_flickering.png> [80] [81 <./Figures/5_flickering.png>]
-<Figures/5_spontaneous_primarymass.pdf, id=1983, 722.7pt x 650.43pt>
+<Figures/5_spontaneous_primarymass.pdf, id=1987, 722.7pt x 650.43pt>
 File: Figures/5_spontaneous_primarymass.pdf Graphic file (type pdf)
 
 <use Figures/5_spontaneous_primarymass.pdf> [82 <./Figures/5_spontaneous_primar
 ymass.pdf>]
-<Figures/5_spontaneous_smaxis.png, id=2089, 1398.22375pt x 1122.1925pt>
+<Figures/5_spontaneous_smaxis.png, id=2093, 1398.22375pt x 1122.1925pt>
 File: Figures/5_spontaneous_smaxis.png Graphic file (type png)
 
 <use Figures/5_spontaneous_smaxis.png> [83 <./Figures/5_spontaneous_smaxis.png 
-(PNG copy)>] <Figures/5_injected_fraction.png, id=2123, 650.43pt x 505.89pt>
+(PNG copy)>] <Figures/5_injected_fraction.png, id=2127, 650.43pt x 505.89pt>
 File: Figures/5_injected_fraction.png Graphic file (type png)
 
 <use Figures/5_injected_fraction.png> [84 <./Figures/5_injected_fraction.png>]
-<Figures/5_completed_primarymass.pdf, id=2138, 722.7pt x 650.43pt>
+<Figures/5_completed_primarymass.pdf, id=2142, 722.7pt x 650.43pt>
 File: Figures/5_completed_primarymass.pdf Graphic file (type pdf)
 
 <use Figures/5_completed_primarymass.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85 <./Figures/5_completed_primarymass.pdf>]
-<Figures/5_completed_smaxis_LD.pdf, id=2208, 650.43pt x 505.89pt>
+<Figures/5_completed_smaxis_LD.pdf, id=2212, 650.43pt x 505.89pt>
 File: Figures/5_completed_smaxis_LD.pdf Graphic file (type pdf)
 
 <use Figures/5_completed_smaxis_LD.pdf>
-<Figures/5_completed_smaxis_HD.pdf, id=2210, 650.43pt x 505.89pt>
+<Figures/5_completed_smaxis_HD.pdf, id=2214, 650.43pt x 505.89pt>
 File: Figures/5_completed_smaxis_HD.pdf Graphic file (type pdf)
 
 <use Figures/5_completed_smaxis_HD.pdf>) (./Chapters/chapter_BinEvol.tex
@@ -1496,7 +1493,7 @@ Chapter 7.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc7) [89] <Figures/6_Rhm.png, id=2343, 1011.78pt x 505.89pt>
+(./main.mtc7) [89] <Figures/6_Rhm.png, id=2347, 1011.78pt x 505.89pt>
 File: Figures/6_Rhm.png Graphic file (type png)
 
 <use Figures/6_Rhm.png>
@@ -1509,49 +1506,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|$\OML/cmm/m/it/10.95 ^^Z[]$
  []
 
-<Figures/6_TotBinFrac_vs_time.png, id=2344, 794.97pt x 650.43pt>
-File: Figures/6_TotBinFrac_vs_time.png Graphic file (type png)
+<Figures/6_TotBinFrac_vs_time_dispersion.png, id=2348, 794.97pt x 650.43pt>
+File: Figures/6_TotBinFrac_vs_time_dispersion.png Graphic file (type png)
 
-<use Figures/6_TotBinFrac_vs_time.png> [90 <./Figures/6_Rhm.png>] [91 <./Figure
-s/6_TotBinFrac_vs_time.png>]
-<Figures/6_BinFrac_vs_mass_LD.png, id=2363, 1287.81125pt x 783.92876pt>
-File: Figures/6_BinFrac_vs_mass_LD.png Graphic file (type png)
-
-<use Figures/6_BinFrac_vs_mass_LD.png>
-<Figures/6_BinFrac_vs_mass_HD.png, id=2366, 1283.79625pt x 772.8875pt>
-File: Figures/6_BinFrac_vs_mass_HD.png Graphic file (type png)
-
-<use Figures/6_BinFrac_vs_mass_HD.png> [92] [93 <./Figures/6_BinFrac_vs_mass_LD
-.png> <./Figures/6_BinFrac_vs_mass_HD.png>]
-<Figures/6_SMAxis_histogram.png, id=2387, 1446.40375pt x 894.34125pt>
+<use Figures/6_TotBinFrac_vs_time_dispersion.png> [90 <./Figures/6_Rhm.png>]
+[91 <./Figures/6_TotBinFrac_vs_time_dispersion.png>]
+<Figures/6_BinFrac_vs_mass_LD_dispersion.png, id=2367, 1279.78125pt x 762.85pt>
+File: Figures/6_BinFrac_vs_mass_LD_dispersion.png Graphic file (type png)
+<use Figures/6_BinFrac_vs_mass_LD_dispersion.png>
+<Figures/6_BinFrac_vs_mass_HD_dispersion.png, id=2370, 1272.755pt x 755.82375pt
+>
+File: Figures/6_BinFrac_vs_mass_HD_dispersion.png Graphic file (type png)
+ <use Figures/6_BinFrac_vs_mass_HD_dispersion.png> [92] [93 <./Figures/6_BinFra
+c_vs_mass_LD_dispersion.png> <./Figures/6_BinFrac_vs_mass_HD_dispersion.png>]
+<Figures/6_SMAxis_histogram.png, id=2392, 1446.40375pt x 894.34125pt>
 File: Figures/6_SMAxis_histogram.png Graphic file (type png)
 
 <use Figures/6_SMAxis_histogram.png> [94 <./Figures/6_SMAxis_histogram.png>]
-<Figures/6_S_shape.png, id=2417, 722.7pt x 520.344pt>
+<Figures/6_S_shape.png, id=2422, 722.7pt x 520.344pt>
 File: Figures/6_S_shape.png Graphic file (type png)
 
 <use Figures/6_S_shape.png> [95 <./Figures/6_S_shape.png>] [96]
-<Figures/6_extreme_binaries_LD.png, id=2468, 867.24pt x 578.16pt>
+<Figures/6_extreme_binaries_LD.png, id=2473, 867.24pt x 578.16pt>
 File: Figures/6_extreme_binaries_LD.png Graphic file (type png)
 
 <use Figures/6_extreme_binaries_LD.png>
-<Figures/6_extreme_binaries_HD.png, id=2469, 867.24pt x 578.16pt>
+<Figures/6_extreme_binaries_HD.png, id=2474, 867.24pt x 578.16pt>
 File: Figures/6_extreme_binaries_HD.png Graphic file (type png)
 
 <use Figures/6_extreme_binaries_HD.png>
 
-LaTeX Warning: Float too large for page by 24.91048pt on input line 296.
+LaTeX Warning: Float too large for page by 24.91048pt on input line 297.
 
 [97] [98 <./Figures/6_extreme_binaries_LD.png> <./Figures/6_extreme_binaries_HD
-.png>] <Figures/6_tights_origins.png, id=2489, 1284.8pt x 1731.46875pt>
+.png>] <Figures/6_tights_origins.png, id=2494, 1284.8pt x 1731.46875pt>
 File: Figures/6_tights_origins.png Graphic file (type png)
 
 <use Figures/6_tights_origins.png>
 
-LaTeX Warning: Float too large for page by 0.71696pt on input line 341.
+LaTeX Warning: Float too large for page by 0.71696pt on input line 342.
 
 [99] [100 <./Figures/6_tights_origins.png>]
-<Figures/6_adventures.png, id=2527, 578.16pt x 794.97pt>
+<Figures/6_adventures.png, id=2532, 578.16pt x 794.97pt>
 File: Figures/6_adventures.png Graphic file (type png)
 
 <use Figures/6_adventures.png> [101] [102 <./Figures/6_adventures.png>]
@@ -1566,132 +1562,152 @@ Chapter 8.
 (./main.mtc8) [107
 
 ]
-<Figures/7_renaudantennas.png, id=2613, 1452.42625pt x 737.75626pt>
+<Figures/7_renaudantennas.png, id=2619, 1452.42625pt x 737.75626pt>
 File: Figures/7_renaudantennas.png Graphic file (type png)
 
 <use Figures/7_renaudantennas.png> [108 <./Figures/7_renaudantennas.png (PNG co
-py)>] <Figures/7_stellarlifetime.png, id=2641, 1160.335pt x 854.19125pt>
+py)>] <Figures/7_stellarlifetime.png, id=2647, 1160.335pt x 854.19125pt>
 File: Figures/7_stellarlifetime.png Graphic file (type png)
 
 <use Figures/7_stellarlifetime.png>
-<Figures/7_stellarlifetime_weidner.png, id=2642, 844.15375pt x 836.12375pt>
+<Figures/7_stellarlifetime_weidner.png, id=2648, 844.15375pt x 836.12375pt>
 File: Figures/7_stellarlifetime_weidner.png Graphic file (type png)
 
 <use Figures/7_stellarlifetime_weidner.png>
-<Figures/7_anisotropic.png, id=2655, 867.24pt x 578.16pt>
+<Figures/7_anisotropic.png, id=2661, 867.24pt x 578.16pt>
 File: Figures/7_anisotropic.png Graphic file (type png)
 
 <use Figures/7_anisotropic.png>
-<Figures/7_carina.png, id=2656, 888.31876pt x 950.55125pt>
+<Figures/7_carina.png, id=2662, 888.31876pt x 950.55125pt>
 File: Figures/7_carina.png Graphic file (type png)
 
 <use Figures/7_carina.png> [109 <./Figures/7_stellarlifetime.png (PNG copy)> <.
 /Figures/7_stellarlifetime_weidner.png (PNG copy)>] [110 <./Figures/7_anisotrop
-ic.png> <./Figures/7_carina.png (PNG copy)>]) [111] [112
+ic.png> <./Figures/7_carina.png (PNG copy)>] [111]
+<Figures/7_dustmaps.png, id=2707, 1084.05pt x 505.89pt>
+File: Figures/7_dustmaps.png Graphic file (type png)
 
-] [113] [114]
-(./Appendices/history.tex
+<use Figures/7_dustmaps.png>
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ° in font cmr10!
+ [112 <./Figures/7_dustmaps.png>]
+<Figures/7_MSTedge.png, id=2729, 867.24pt x 1228.59pt>
+File: Figures/7_MSTedge.png Graphic file (type png)
+
+<use Figures/7_MSTedge.png>
+
+LaTeX Warning: Float too large for page by 18.54262pt on input line 186.
+
+) [113] [114 <./Figures/7_MSTedge.png>] [115
+
+] [116] (./Appendices/history.tex
 Appendix A.
-[115
+[117
 
-] <Figures/0_PtolemaicModel_2.png, id=2711, 811.03pt x 835.12pt>
+] <Figures/0_PtolemaicModel_2.png, id=2760, 811.03pt x 835.12pt>
 File: Figures/0_PtolemaicModel_2.png Graphic file (type png)
 
 <use Figures/0_PtolemaicModel_2.png>
-<Figures/0_CopernicusModel.jpg, id=2712, 726.3135pt x 708.246pt>
+<Figures/0_CopernicusModel.jpg, id=2761, 726.3135pt x 708.246pt>
 File: Figures/0_CopernicusModel.jpg Graphic file (type jpg)
 
-<use Figures/0_CopernicusModel.jpg> [116 <./Figures/0_PtolemaicModel_2.png> <./
+<use Figures/0_CopernicusModel.jpg> [118 <./Figures/0_PtolemaicModel_2.png> <./
 Figures/0_CopernicusModel.jpg>]
-<Figures/0_galileodrawings_1.png, id=2725, 254.9525pt x 221.82875pt>
+<Figures/0_galileodrawings_1.png, id=2774, 254.9525pt x 221.82875pt>
 File: Figures/0_galileodrawings_1.png Graphic file (type png)
 
 <use Figures/0_galileodrawings_1.png>
-<Figures/0_galileodrawings_2.jpg, id=2726, 72.27pt x 69.09012pt>
+<Figures/0_galileodrawings_2.jpg, id=2775, 72.27pt x 69.09012pt>
 File: Figures/0_galileodrawings_2.jpg Graphic file (type jpg)
 
 <use Figures/0_galileodrawings_2.jpg>
-<Figures/0_young_galileo.jpg, id=2727, 314.17375pt x 287.0725pt>
+<Figures/0_young_galileo.jpg, id=2776, 314.17375pt x 287.0725pt>
 File: Figures/0_young_galileo.jpg Graphic file (type jpg)
 
-<use Figures/0_young_galileo.jpg> [117 <./Figures/0_galileodrawings_1.png (PNG 
+<use Figures/0_young_galileo.jpg> [119 <./Figures/0_galileodrawings_1.png (PNG 
 copy)> <./Figures/0_galileodrawings_2.jpg> <./Figures/0_young_galileo.jpg>]
-<Figures/0_newtontree.jpg, id=2736, 733.74126pt x 711.65875pt>
+<Figures/0_newtontree.jpg, id=2786, 733.74126pt x 711.65875pt>
 File: Figures/0_newtontree.jpg Graphic file (type jpg)
 
 <use Figures/0_newtontree.jpg>
-<Figures/0_newtoncannon.jpg, id=2737, 599.23875pt x 587.19376pt>
+<Figures/0_newtoncannon.jpg, id=2787, 599.23875pt x 587.19376pt>
 File: Figures/0_newtoncannon.jpg Graphic file (type jpg)
 
 <use Figures/0_newtoncannon.jpg>
-<Figures/0_newtonportrait.jpg, id=2738, 405.515pt x 399.4925pt>
+<Figures/0_newtonportrait.jpg, id=2788, 405.515pt x 399.4925pt>
 File: Figures/0_newtonportrait.jpg Graphic file (type jpg)
 
 <use Figures/0_newtonportrait.jpg>
-<Figures/0_newtonhalley.jpg, id=2739, 891.33pt x 904.37875pt>
+<Figures/0_newtonhalley.jpg, id=2789, 891.33pt x 904.37875pt>
 File: Figures/0_newtonhalley.jpg Graphic file (type jpg)
 
 <use Figures/0_newtonhalley.jpg>
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¦ in font cmti10!
- [118 <./Figures/0_newtontree.jpg> <./Figures/0_newtoncannon.jpg> <./Figures/0_
-newtonportrait.jpg> <./Figures/0_newtonhalley.jpg>] [119] <Figures/0_messier.jp
-g, id=2781, 459.7175pt x 430.60875pt>
+ [120 <./Figures/0_newtontree.jpg> <./Figures/0_newtoncannon.jpg> <./Figures/0_
+newtonportrait.jpg> <./Figures/0_newtonhalley.jpg>] [121] <Figures/0_messier.jp
+g, id=2830, 459.7175pt x 430.60875pt>
 File: Figures/0_messier.jpg Graphic file (type jpg)
 
 <use Figures/0_messier.jpg>
-<Figures/0_poincare.jpg, id=2782, 283.0575pt x 263.98625pt>
+<Figures/0_poincare.jpg, id=2831, 283.0575pt x 263.98625pt>
 File: Figures/0_poincare.jpg Graphic file (type jpg)
 
-<use Figures/0_poincare.jpg> [120 <./Figures/0_messier.jpg> <./Figures/0_poinca
-re.jpg>] <Figures/0_siemens2002.jpg, id=2829, 4288.02pt x 2858.68pt>
+<use Figures/0_poincare.jpg> [122 <./Figures/0_messier.jpg> <./Figures/0_poinca
+re.jpg>] <Figures/0_siemens2002.jpg, id=2878, 4288.02pt x 2858.68pt>
 File: Figures/0_siemens2002.jpg Graphic file (type jpg)
 
 <use Figures/0_siemens2002.jpg>
-<Figures/0_hydra.png, id=2830, 578.16pt x 378.41376pt>
+<Figures/0_hydra.png, id=2879, 578.16pt x 378.41376pt>
 File: Figures/0_hydra.png Graphic file (type png)
 
-<use Figures/0_hydra.png> [121 <./Figures/0_siemens2002.jpg> <./Figures/0_hydra
-.png>] <Figures/0_N_increase.png, id=2868, 1314.9125pt x 867.24pt>
+<use Figures/0_hydra.png> [123 <./Figures/0_siemens2002.jpg> <./Figures/0_hydra
+.png>] <Figures/0_N_increase.png, id=2917, 1314.9125pt x 867.24pt>
 File: Figures/0_N_increase.png Graphic file (type png)
 
-<use Figures/0_N_increase.png>) (./Appendices/nbody6.tex [122 <./Figures/0_N_in
+<use Figures/0_N_increase.png>) (./Appendices/nbody6.tex [124 <./Figures/0_N_in
 crease.png (PNG copy)>]
 Appendix B.
-<Figures/0_block_timesteps.png, id=2892, 925.4575pt x 554.07pt>
+<Figures/0_block_timesteps.png, id=2941, 925.4575pt x 554.07pt>
 File: Figures/0_block_timesteps.png Graphic file (type png)
 
-<use Figures/0_block_timesteps.png> [123
+<use Figures/0_block_timesteps.png> [125
 
-] [124 <./Figures/0_block_timesteps.png (PNG copy)>]
-<Figures/0_hermite_scheme.png, id=2920, 1416.29124pt x 997.7275pt>
+] [126 <./Figures/0_block_timesteps.png (PNG copy)>]
+<Figures/0_hermite_scheme.png, id=2970, 1416.29124pt x 997.7275pt>
 File: Figures/0_hermite_scheme.png Graphic file (type png)
 
-<use Figures/0_hermite_scheme.png> [125 <./Figures/0_hermite_scheme.png (PNG co
-py)>] [126]) (./Appendices/phase_space.tex [127] [128
+<use Figures/0_hermite_scheme.png> [127 <./Figures/0_hermite_scheme.png (PNG co
+py)>] [128]) (./Appendices/phase_space.tex [129] [130
 
 ]
 Appendix C.
-[129]) (./Appendices/completion.tex [130]
+[131]) (./Appendices/completion.tex [132]
 Appendix D.
-[131
+[133
 
-] [132] [133]) [134] (./main.bbl [135
+] [134] [135]) [136] (./main.bbl [137
 
-] [136
+] [138
 
-] [137] [138]
+] [139] [140]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no œ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
- [139] [140]
-[141] [142] [143] [144]
+ [141] [142]
+[143] [144] [145] [146]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¨ in font cmr10!
-) [145] [146
+) [147] [148
 
 ]
 Package minitoc Info: I0009
@@ -1719,13 +1735,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25184 strings out of 493848
- 407842 string characters out of 1152824
- 571452 words of memory out of 3000000
- 26855 multiletter control sequences out of 15000+50000
+ 25214 strings out of 493848
+ 408558 string characters out of 1152824
+ 572679 words of memory out of 3000000
+ 26875 multiletter control sequences out of 15000+50000
  19637 words of font info for 73 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 58i,14n,55p,1809b,857s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,14n,55p,1809b,855s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/
@@ -1748,9 +1764,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (154 pages, 16705679 bytes).
+Output written on main.pdf (156 pages, 17081628 bytes).
 PDF statistics:
- 3305 PDF objects out of 3580 (max. 8388607)
- 734 named destinations out of 1000 (max. 500000)
- 1216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3356 PDF objects out of 3580 (max. 8388607)
+ 742 named destinations out of 1000 (max. 500000)
+ 1234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
