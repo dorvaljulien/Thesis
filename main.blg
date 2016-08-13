@@ -1,58 +1,53 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 The style file: mn2e.bst
-Reallocated field_info (elt_size=4) to 10635 items from 5000.
+Reallocated field_info (elt_size=4) to 10704 items from 5000.
 Database file #1: Bibliography/bibdatabase.bib
 Warning--entry type for "Elsen2006" isn't style-file defined
---line 3612 of file Bibliography/bibdatabase.bib
+--line 3613 of file Bibliography/bibdatabase.bib
 Warning--entry type for "Nyland2004" isn't style-file defined
---line 3620 of file Bibliography/bibdatabase.bib
-Repeated entry---line 5451 of file Bibliography/bibdatabase.bib
- : @article{Renaud2011
- :                    ,
-I'm skipping whatever remains of this entry
+--line 3621 of file Bibliography/bibdatabase.bib
 Warning--empty publisher in Heggie2003
 Warning--empty publisher in Newton1687
-Warning--empty publisher in Spitzer1987
-You've used 245 entries,
+You've used 248 entries,
             2938 wiz_defined-function locations,
-            2093 strings with 47371 characters,
-and the built_in function-call counts, 115265 in all, are:
-= -- 9318
-> -- 9083
+            2109 strings with 48043 characters,
+and the built_in function-call counts, 116961 in all, are:
+= -- 9443
+> -- 9262
 < -- 17
-+ -- 3036
-- -- 2956
-* -- 9335
-:= -- 21961
-add.period$ -- 14
-call.type$ -- 245
-change.case$ -- 1861
-chr.to.int$ -- 245
-cite$ -- 248
-duplicate$ -- 4136
-empty$ -- 6518
-format.name$ -- 3303
-if$ -- 22402
++ -- 3093
+- -- 3011
+* -- 9474
+:= -- 22289
+add.period$ -- 15
+call.type$ -- 248
+change.case$ -- 1891
+chr.to.int$ -- 248
+cite$ -- 250
+duplicate$ -- 4185
+empty$ -- 6594
+format.name$ -- 3362
+if$ -- 22730
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 237
-newline$ -- 739
-num.names$ -- 988
-pop$ -- 1683
+missing$ -- 240
+newline$ -- 748
+num.names$ -- 1000
+pop$ -- 1708
 preamble$ -- 1
-purify$ -- 1855
+purify$ -- 1885
 quote$ -- 0
-skip$ -- 4095
+skip$ -- 4150
 stack$ -- 0
-substring$ -- 4904
-swap$ -- 316
+substring$ -- 4960
+swap$ -- 319
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2154
-warning$ -- 3
-while$ -- 1140
+type$ -- 2181
+warning$ -- 2
+while$ -- 1152
 width$ -- 0
-write$ -- 2449
-(There was 1 error message)
+write$ -- 2480
+(There were 4 warnings)

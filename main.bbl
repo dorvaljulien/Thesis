@@ -1,4 +1,4 @@
-\begin{thebibliography}{245}
+\begin{thebibliography}{248}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarseth}(1972)}]{Aarseth1972}
@@ -258,6 +258,11 @@ Clagett M., 1959, The science of mechanics in the Middle Ages, University of
 \bibitem[{{Doppler}(1842)}]{Doppler1842}
 {Doppler} C., 1842, {Über das farbige Licht der Doppelsterne und einiger
   anderer Gestirne des Himmels}. Verlag der Königl. Böhm.
+
+\bibitem[{{Dorval} {et~al}\mbox{.}(2016){Dorval}, {Boily}, {Moraux},
+  {Maschberger}, \& {Becker}}]{Dorval2016}
+{Dorval} J., {Boily} C.~M., {Moraux} E., {Maschberger} T., {Becker} C., 2016,
+  \mnras, 459, 1213
 
 \bibitem[{{D'Souza} \& {Rix}(2013)}]{Dsouza2013}
 {D'Souza} R., {Rix} H.-W., 2013, \mnras, 429, 1887
@@ -703,6 +708,9 @@ Maury J., 1992, Newton: Understanding the Cosmos, New horizons in history
 \bibitem[{Newton(1687)}]{Newton1687}
 Newton S.~I., 1687, Philosophiae Naturalis Principia Mathematica, Vol.~1
 
+\bibitem[{{Niederkorn}(2016)}]{Niederkorn2016}
+{Niederkorn} V., 2016, Master thesis, Universit\'e de Strasbourg, unpublished
+
 \bibitem[{{Nitadori} \& {Aarseth}(2012)}]{Nitadori2012}
 {Nitadori} K., {Aarseth} S.~J., 2012, \mnras, 424, 545
 
@@ -788,6 +796,11 @@ Press W.~H., Teukolsky S.~A., Vetterling W.~T., Flannery B.~P., 2007, Numerical
 {Ramasubramanian} K., 1998, Bulletin of the Astronomical Society of India, 26,
   11
 
+\bibitem[{{Rathborne} {et~al}\mbox{.}(2015){Rathborne}, {Longmore}, {Jackson},
+  {Alves}, {Bally}, {Bastian}, {Contreras}, {Foster}, {Garay}, {Kruijssen},
+  {Testi}, \& {Walsh}}]{Rathborne2015}
+{Rathborne} J.~M. {et~al.}, 2015, \apj, 802, 125
+
 \bibitem[{{Reipurth}(2008)}]{Reipurth2008}
 {Reipurth} B., 2008, {Handbook of Star Forming Regions}, ASP Monographs.
   Astronomical Society of the Pacific
@@ -829,7 +842,8 @@ Press W.~H., Teukolsky S.~A., Vetterling W.~T., Flannery B.~P., 2007, Numerical
 {Skory} S., {Turk} M.~J., {Norman} M.~L., {Coil} A.~L., 2010, \apjs, 191, 43
 
 \bibitem[{{Spitzer}(1987)}]{Spitzer1987}
-{Spitzer} L., 1987, {Dynamical evolution of globular clusters}
+{Spitzer} L., 1987, {Dynamical evolution of globular clusters}. Princeton Univ.
+  Press, Princeton, NJ
 
 \bibitem[{{Spitzer}(1958)}]{Spitzer1958}
 {Spitzer}, Jr. L., 1958, \apj, 127, 17

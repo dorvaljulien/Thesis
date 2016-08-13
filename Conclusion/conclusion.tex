@@ -1,0 +1,93 @@
+\chapter{Conclusions}
+
+The objective of this thesis was to find a way to study the dynamical evolution of young substructured star clusters without expensive hydrodynamical calculations and in the most consistent way possible. To do so, I developped the \HubLem expansion method. By letting massive stars attract others to build overdensities, the method produces a self-consistent substructured configuration, with relaxed clumps. Comparison of the clumps to observations and simulations yielded these similarities:
+
+\begin{itemize}
+\item the massive end of the clump mass function resembles that of overdensities in hydrodynamical simulations, though it is too shallow compared to the cluster mass function in the Galaxy;
+\item the stellar mass function inside clumps is top-heavy while non clump-members have a bottom-heavy distribution, consistent with what is observed in the Galaxy;
+\item the $m_{max} - M_{clump}$ relation in the clumps recovers the trend found in observed embedded clusters;
+\item the clumps are mass-segregated, in agreement with hydrodynamical simulations of star forming regions.
+\end{itemize}
+
+This consistency with hydrodynamically-produced structures, though our simulations are purely gravitationnal, can be understood by viewing the \HubLem process as an adiabatic cooling of the system, with the expansion acting as a dynamical pressure, sustaining the cluster against collapse in comoving coordinates.
+
+The expansion itself is unrealistic in the context of star formation, as it omits, \textit{e.g.}, magnetic field, gas fragmentation and feedback. However, the procedure allows the Poissonian fluctuations in the initial density profile to develop over time and yield a self-consistent velocity field and mass distribution, consistent with observations and simulations. The model can be used as suitable initial conditions for the study of relaxation and dynamical evolution of substructured young clusters. It is then possible to simulate much more massive systems than what is achievable through hydrodynamical simulations.
+
+This made possible the numerical exploration of the impact of mass-segregated and self-consistent fragments on the collapse of subvirial systems, compared to uniform models.  This brought out that, once virialized, such fragmented clusters exhibited a mass-segregation (inherited from the clumps) focused on the very massive stars while a segregation developed in a denser, concentrated system was more spread out on the stellar mass spectrum. This would have an impact on the colour gradient in the center of a very young star cluster  observed just after its violent relaxation, and could serve as a clue to a clumpy initial distribution. This work was published under the reference \cite{Dorval2016}.
+
+
+
+\paragraph*{}
+In the first part of the thesis, I connected the large scales of multi-parsecs substructured star forming regions to the dynamically faster collisional evolution of small stellar overdensities. In this second part, I went further down in scale to obtain a true \textit{multi-scale} approach. I took advantage of the abilities of the NBODY6 integrator to introduce very small scale systems, binary stars spanning 1 AU, with a period of less than a year.
+
+Interestingly, the \HubLem expansion was found to develop its own binary population, though it had to be supplemented with short, low-mass primaries to be consistent with observations. This resulted in substructured models with realistic binary populations, opening the way for a self-consistent exploration of the impact of large-scale collapse on a population of binaries, using memberships for our models up to 80 000 stars. The main results of this study, which has been submitted for publication, are as follows:
+
+\begin{itemize}
+\item the clumpy configuration processes binaries up to 10 times faster than a relaxed spherical configuration;
+\item high-membership models tend to have these two regimes clearly separated and to process more binaries than low-N models, which have a blurrier transition between clumpy and relaxed states;
+\item in agreement with previous work, we see wide binaries preferentially destroyed, the $a >$ 1000 AU population being heavily affected, while the $a < 100$ AU population is largely preserved, with a weak influence of membership;
+\item some wide, $a > 10^4$ AU, and tight, $a < 0.6$ AU, binaries appear in our systems, the formation of the latter appears favoured by low stellar densities.
+\end{itemize}
+
+This last point is important, as the formation of systems such as the tightest one we detected, $a \sim$ 0.01~AU, are usually thought to happen through hydrodynamical processes to absorb the angular momentum of wider binaries. This purely gravitational process is a new formation channel for such tight systems and their possible outcomes, such as blue-stragglers.
+
+This demonstrates the added value of the \HubLem method. On the one hand, the tightest new binaries have massive primaries, they were then likely located in the heart of the clumps, exposed to substantial dynamical interaction. On the other hand, the very wide binaries are formed in the tenuous halo of ejected stars from the bounce. These interesting new systems are the result of this connection of scales: collisional and dynamically consistent clumps in an overall subvirial system.
+
+
+\paragraph*{}
+There are many ways to build on the \HubLem model. To go beyond the isolated violent relaxation of the configuration, realistic tidal fields could be applied to the system, preventing the collapse and introducing a more complex merging process for the clumps. Moreover, the strong influence of massive stars on the fragmentation means a more realistic stellar mass range should be used in future simulations, with the inclusion of stellar evolution effects. This is important both for the clumps dynamical evolution and the very short binaries we detected, as these are likely to be contact binaries. The \HubLem method is also able to produce elongated, rotating systems to go beyond spherical symmetry and get closer to observed star forming regions.
+
+By taking a small-N fragmented system, attributing ages and luminosities to our stars and placing them behind a realistic quantity of dust, it is possible to generate mock observations. These allow the exploration of the influence of mass-segregation for an object close to the detection limit, as smaller, less luminous, stars go undetected and affect the observed morphology of the object.
+
+
+\paragraph*{}
+The \HubLem expansion is a promising new method, based on a simple idea and with a realistic output. It has a lot of potentially fruitful research paths.
+
+
+\paragraph*{}
+Finally, over the course of this work, I developped numerous numerical tools: a clump-finding algorithm, a binary detection algorithm, a KD-tree, a minimum spanning tree, etc. All these were centralized in \textit{StarFiddle}, a python API acting as both an user-friendly interface to NBODY6 and an analysis environment to analyse N-body simulations. This tool will be accompanied with an extensive documentation and can hopefully be useful to future students or researchers.
+
+
+
+
+
+
+%
+%
+%
+%
+%
+%\chapter{Conclusion}
+%
+%Observations of star forming regions indicates that star formation proceeds in a substructured fashion, with varying stellar densities. The dynamical evolution that leads to the merging of fragments and the formation of concentrated clusters is a crucial step, with consequences on the survival rate, the structure and aspect of these clusters. The study of this process might shed light on the -still- mysterious multiple stellar sequences in globular clusters, and helps us understand Young Massive Cluster formation, whether in our own galaxy or in nearby starburst environments. The most straightforward way to explore this process are hydrodynamical simulations of star formations. However, they are computationally expensive and limited in scale for the simulated systems. 
+%
+%In this thesis, I developed and explored a new way to create self-consistent initial conditions for substructured young clusters, to use for N-body simulations, the \HubLem fragmentation. An uniform sphere is set up with stellar masses and a radial velocity field. The system is evolved through a N-body integrator and expands. During the expansion, the most massive stars attract other stars and create overdensities in the distribution. If the expansion has been correctly parametrized, it eventually stops, and the system is now substructured. This can be viewed as an adiabatic cooling of the system, with the expansion acting as a dynamical pressure, sustaining the cluster against collapse. Though unrealistic for a full description of cluster formation since it omits, \textit{e.g.}, magnetic field, gas fragmentation and feedback, such a procedure allows the Poissonian fluctuations in the initial density profile to develop over time and yield a self-consistent velocity field and mass distribution.
+%
+%
+%These substructured configurations were compared to simulations and observations to validate them as suitable initial conditions. To do so, I developed a clump-finding algorithm based on the Minimum Spanning-Tree data, isolating overdensities by cutting tree edges longer than a given cutting length. This length was found by identifying the maximum number of clumps in a fragmented configuration. By doing so,  we eliminate the last free parameter of the method, which allows a more complete comparison of systems with varying degrees of fragmentation. This algorithm was validated and found to efficiently retrieve a given clump mass function in a substructured system. It was integrated to StarFiddle, a multi-tool python API I designed for the analysis of N-body simulations. The algorithm was used to isolate the stellar clumps found in the \HubLem models, enabling their analysis. 
+% 
+% We found the clump mass function not to be strongly sensitive to the model total membership or initial expansion strength, but to be shaped by the range of stellar masses in the model, as massive stars seed the fragmentation and create clumps. The lower mass end of the clumps mass function is close to a bell-shaped distribution, peaking at 20 $\Mo$, while the high-mass end of the clump mass function resembles a power law of index in the range [ -1, -1.7 ], depending on the maximum stellar mass, as more massive stars flatten the distribution. This is consistent with the -1.5 index retrieved for stellar clumps in hydrodynamical simulations.
+%
+%The crucial influence of massive stars on fragmentation was further validated by the fact that clump members have a top-heavy stellar mass function and other stars, field stars, follow a bottom heavy distribution. The difference in slope was found to be consistent with the difference between cluster and field stellar mass functions observed in the Galaxy. Measuring mass segregation through the radial ranking method, we found similar results than the hydrodynamical simulations: clumps are generally mass-segregated with the most massive stars lying in their center. Finally, we roughly recover the trend in the $m_{max} - M_{clump}$ relation found in observed embedded clusters.
+%
+%\paragraph*{}
+%Having validated the \HubLem models as suitable initial conditions to simulate substructured and subvirial young clusters, we turned to the exploration of their their violent relaxation towards equilibrium. Several fragmented models were left to collapse until they were virialized and evolved up to 40 H\'enon time units. To measure the influence of substructure, we performed similar runs starting from cold uniform models. The HL model underwent a softer global infall, resulting in a less concentrated core-halo structure. Their virial  two-body relaxation time is longer than what is obtained from a non-fragmented monolithic collapse of similar initial radius. As a result, the merger process leads to virial equilibrium more rapidly. The uniform models expel twice as much mass at the bounce than fragmented ones. However, overall, both monolithic- and fragmented initial conditions lead to clusters with similar mass profiles after some time (about $\sim 6 $Myr for the case displayed on Fig.~\ref{Fig:3_Lagr_radius}).
+%
+%Nevertheless, if we look at an out-of-equilibrium system, just after the collapse, \HubLem models exhibit a higher mass segregation than uniform models. This segregation is "top-focused" as it only affects the most massive stars. The segregation that develops later in uniform models due to their denser configuration is more spread out over the mass spectrum. The top-focused segregation is directly inherited from the mass-segregated clumps that merged to form the central system. In a real cluster, this would enhance colour gradients in comparison with a formation history proceeding from more uniform, homogeneous mass distributions.
+%
+%\paragraph*{}
+%In the second part of this thesis, I turned to binary systems and the fate of binary population in substructured star clusters. I developped a binary-detection algorithm based on the KD-tree data structure, which enables quick neighbour searches. I validated and calibrated this algorithm on a known binary populations injected into a King model. It was found that \HubLem models harboured a spontaneous binary population created from the phase-space correlations in the initial expansion. This spontaneous population had a trend consistent with the observed primary-mass distribution in the field, but lacked low-mass primaries and short-separations. A completion method was developed, to obtain a self-consistent fragmented model with a binary population consistent with observations, through both semi-major axis and primary mass distribution.
+%
+%Several such models, of memberships varying from 1.5k to 80k stars, and with two different initial stellar densities, were left to evolve and reach equilibrium. The clumps process binaries up to 10 times faster than a relaxed spherical configuration, while the deeper potential of large-N runs reached during the merging and relaxation phase means that about twice as many binaries are dissolved in rich open clusters as there are in small $N \lesssim 5 ,000$ systems.  The majority of binaries with a semi-major axis larger than 1000 AU are processed by the collapse, while the distribution retains its shape for those shorter than $\sim$ 100 AU. A weak trend with the membership is seen, as higher-N models reach and destroy shorter separations, but the trend is not as high as analytical arguments predicted, which is likely due to the substructured nature of the collapse.
+%
+%Interestingly, we see the formation of a few very wide $> 10^4 $AU binaries in the halo of the relaxed systems, as these stars originated from the bounce and have correlated velocities. In our low density models, we detected that 0.05\% of all binaries detected at the end of the simulation had a semi-major axis $<0.6 $ AU, down to 0.01 AU, when no such systems were intially present in the system. These are the result of exchange interactions between pre-existing binaries. Much fewer of these were detected in the high-density runs, indicating a higher density and higher velocity dispersion hinders the formation of very short system.
+%
+%\paragraph*{}
+%
+%Finally, we outlined the future of the \HubLem model. To go beyond the isolated violent relaxation of the configuration, realistic tidal fields could be applied to the system, preventing the collapse and introducing a more complex merging process for the clumps. Moreover, the strong influence of massive stars on the fragmentation means a more realistic stellar mass range should be included in future simulations, with the inclusion of stellar evolution effects. This is important both for the clumps dynamical evolution and the very short binaries we detected in the low-density models, as these could rapidly evolve and form exotic stellar objects like blue-stragglers. It was also shown that the \HubLem method is able to easily make elongated, rotating system to go beyond spherical symmetry and get closer to observed star forming regions. We briefly discussed the addition of hydrodynamical effects in our model.
+%
+%By taking a small-N fragmented system, attributing ages and luminosities to our stars and placing them behind a realistic quantity of dust, it is possible to generate mock observations. These allow the exploration of the influence of mass-segregation for an object close to the detection limits, as smaller, less luminous, stars go undetected and affect the observed morphology of the object.
+%
+%
+%\paragraph*{}
+%The \HubLem expansion is a promising new method, based on a simple idea and with a realistic output. It has a lot of potentially fruitful research paths.

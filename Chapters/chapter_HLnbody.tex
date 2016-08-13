@@ -13,7 +13,7 @@ After the previous analytical study, we present here the characteristics of nume
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/2_fragmentation}
-\caption{Progressive fragmentation through the Hubble expansion. The left panel shows the initial uniform sphere; the middle panel, an intermediate step, slightly fragmented with a slowed down expansion; the right panel is the final stage, when the expansion has stopped and the fragmentation is fully developed. N=10000 particles were used in this N-body model, with $\Hub_0 = 1.0$. Time and coordinates are in H\'enon units.}
+\caption[Fragmentation of a \HubLem model]{Progressive fragmentation through the Hubble expansion. The left panel shows the initial uniform sphere; the middle panel, an intermediate step, slightly fragmented with a slowed down expansion; the right panel is the final stage, when the expansion has stopped and the fragmentation is fully developed. N=10000 particles were used in this N-body model, with $\Hub_0 = 1.0$. Time and coordinates are in H\'enon units.}
 \label{Fig:2_fragmentation}
 \end{center}
 \end{figure}
@@ -94,7 +94,7 @@ In this work, we adopted the widely used "vanilla" version NBODY6, and its GPU a
 \begin{figure}
 \center
 \includegraphics[width=\linewidth]{Figures/0_StarFiddle}
-\caption{Visualization of the StarFiddle API. Squared boxes are data storing classes while rounded boxes are modules.}
+\caption[Visualization of the StarFiddle API]{Visualization of the StarFiddle API. Squared boxes are data storing classes while rounded boxes are modules.}
 \label{Fig:0_StarFiddle}
 \end{figure}
 
@@ -147,7 +147,7 @@ Instead we follow \cite{Maschberger2010} who adapted the minimum spanning tree (
 \begin{center}
 \includegraphics[width=0.8\columnwidth]{Figures/2_MST.png}
 \end{center}
-\caption{Illustration of a Minimum Spanning Tree and its use to isolate subgroups, using a cutting length $d_{cut} = 0.25$ length units.}
+\caption[Illustration of a Minimum Spanning Tree and its use to isolate subgroups]{Illustration of a Minimum Spanning Tree and its use to isolate subgroups, using a cutting length $d_{cut} = 0.25$ length units.}
 \label{Fig:2_MST}
 \end{figure}
 
@@ -173,7 +173,7 @@ in choosing an appropriate value. \cite{Maschberger2010} fixed the value of  $d_
         \caption{Cumulative distribution of MST edges}
         \label{Fig:2_dcutcumulated}
     \end{subfigure}
-\caption{Two different methods to identify the critical $d_{cut}$ for clump detection. Both methods give the same value. For this 80k model, the value is 0.023 in H\'enon units. The red linear fit on (b) was made on the linear portion of the distribution, discarding the seven further points departing from the tendency.}
+\caption[Two different methods to identify the critical $d_{cut}$ for clump detection]{Two different methods to identify the critical $d_{cut}$ for clump detection. Both methods give the same value. For this 80k model, the value is 0.023 in H\'enon units. The red linear fit on (b) was made on the linear portion of the distribution, discarding the seven further points departing from the tendency.}
 \label{Fig:0_dcutchoice}
 \end{figure}
 
@@ -187,7 +187,7 @@ in choosing an appropriate value. \cite{Maschberger2010} fixed the value of  $d_
 \begin{center}
 \includegraphics[width=\columnwidth]{Figures/2_clumpsABC.png}
 \end{center}
-\caption{Example of detected clumps for three cutting lengths, 0.013 (top panel), 0.023 (middle panel), 0.033 (bottom panel), which were labeled A,B,C  in Fig.~\ref{Fig:2_Ndcut}. A cube within the N=80k particles fragmented model was extracted and projected.  Empty circles are stars which do not belong to any clump, black circles are clump members, and blue squares are stars that are identified as a single large  clump. Tick marks are spaced by 0.05 length units for a box size of 0.35 units.}
+\caption[Example of detected clumps for three cutting lengths in a N=80k model]{Example of detected clumps for three cutting lengths, 0.013 (top panel), 0.023 (middle panel), 0.033 (bottom panel), which were labeled A,B,C  in Fig.~\ref{Fig:2_Ndcut}. A cube within the N=80k particles fragmented model was extracted and projected.  Empty circles are stars which do not belong to any clump, black circles are clump members, and blue squares are stars that are identified as a single large  clump. Tick marks are spaced by 0.05 length units for a box size of 0.35 units.}
 \label{Fig:2_clumpsABC}
 \end{figure} 
 
@@ -204,7 +204,7 @@ Another method to find the critical cutting length was used by \cite{Gutermuth20
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{Figures/2_clumpcheck.png}
-\caption{Top panels: spatial distribution of stars in systems with various compactness factors $C_t$. Bottom panels: clump mass function for the population injected in the system in solid red and the population returned by the clump finding algorithm in dashed blue.}
+\caption[Retrieval of a known clump mass function to test the algorithm]{Top panels: spatial distribution of stars in systems with various compactness factors $C_t$. Bottom panels: clump mass function for the population injected in the system in solid red and the population returned by the clump finding algorithm in dashed blue.}
 \label{Fig:2_clumpcheck}
 \end{center}
 \end{figure} 
@@ -291,7 +291,7 @@ In section \ref{Sec:1_apextime}, we derived an analytical prediction for the ape
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Figures/2_apextime_NH.png}
 \end{center}
-\caption{Analytical and simulated apex times as a function of \tHub.}
+\caption[Analytical and simulated apex times as a function of \tHub]{Analytical and simulated apex times as a function of \tHub.}
 \label{Fig:2_apextime_NH}
 \end{figure} 
 
@@ -302,7 +302,7 @@ We show on Fig~\ref{Fig:2_apextime_NH} the expected analytical curve as a dashed
 \begin{center}
 \includegraphics[width=\columnwidth]{Figures/2_ClumpMF_N.png}
 \end{center}
-\caption{Clump mass function for several memberships and two $\Hub_0$. Masses in the top panels are in H\'enon units, the x-axis was scaled with a factor 100 to get a percentage of the total mass of the system. Bottom panel masses are in physical units. In each panel, top sub-panel shows actual clump count in each bin (averaged over sampling), while bottom sub-panel normalize the count by the model membership. }
+\caption[Clump mass function for several memberships and two $\Hub_0$]{Clump mass function for several memberships and two $\Hub_0$. Masses in the top panels are in H\'enon units, the x-axis was scaled with a factor 100 to get a percentage of the total mass of the system. Bottom panel masses are in physical units. In each panel, top sub-panel shows actual clump count in each bin (averaged over sampling), while bottom sub-panel normalize the count by the model membership. }
 \label{Fig:2_ClumpMF_N}
 \end{figure} 
 
@@ -310,7 +310,7 @@ We show on Fig~\ref{Fig:2_apextime_NH} the expected analytical curve as a dashed
 \begin{center}
 \includegraphics[width=0.95\columnwidth]{Figures/2_ClumpMF_H.png}
 \end{center}
-\caption{Clump mass function (real mass) for several $\Hub_0$  and two memberships: N=1000 (left panel) and N=16000 (right panel).}
+\caption[Clump mass function in real mass for several $\Hub_0$  and two memberships]{Clump mass function (real mass) for several $\Hub_0$  and two memberships: N=1000 (left panel) and N=16000 (right panel).}
 \label{Fig:2_ClumpMF_H}
 \end{figure} 
 
@@ -376,7 +376,7 @@ With clump membership restricted to $N \geq 12$, the identical-mass model  stays
         \caption{Stellar mass range $[0.3, 100]\, M_\odot$}
         \label{Fig:2_ClumpMF_MF_2}
     \end{subfigure}
-\caption{Mass function of the clumps identified with the MST algorithm. The calculations all had $N = 15 000$ stars, and we have averaged over 30 realisations for each configuration.  The results for three stellar mass functions  are displayed: a model with equal-mass stars (green dashed line); a Salpeter distribution function truncated at $20 M_\odot$ (solid red line, left); a Salpeter distribution function truncated at $100 M_\odot$(solid red line, right). (a) The clumps  mass function for equal-mass models  shows a trend with mass roughly in agreement with an $M^{-4}$ power-law. By comparison,  the results for an  Salpeter stellar distribution function  truncated at $20 M_\odot$ has a bell-shaped profile, with a peak around $M = 20.5 M_{\odot}$; only the tail-end shows marginal agreement with an $\propto M^{-1.7}$ power-law (dotted line on the figure); (b) another Salpeter distribution function but with  the upper-mass truncation  set at $100 M_\odot$. The tail at large clump mass is now much flatter, with a slope $\approx M^{-1}$, (dotted line on the figure as well). The bins used  had constant logarithmic mass intervals.}
+\caption[Clump mass functions for $m_{max} = 20~\Mo$ and $100~\Mo$]{Mass function of the clumps identified with the MST algorithm. The calculations all had $N = 15 000$ stars, and we have averaged over 30 realisations for each configuration.  The results for three stellar mass functions  are displayed: a model with equal-mass stars (green dashed line); a Salpeter distribution function truncated at $20 M_\odot$ (solid red line, left); a Salpeter distribution function truncated at $100 M_\odot$(solid red line, right). (a) The clumps  mass function for equal-mass models  shows a trend with mass roughly in agreement with an $M^{-4}$ power-law. By comparison,  the results for an  Salpeter stellar distribution function  truncated at $20 M_\odot$ has a bell-shaped profile, with a peak around $M = 20.5 M_{\odot}$; only the tail-end shows marginal agreement with an $\propto M^{-1.7}$ power-law (dotted line on the figure); (b) another Salpeter distribution function but with  the upper-mass truncation  set at $100 M_\odot$. The tail at large clump mass is now much flatter, with a slope $\approx M^{-1}$, (dotted line on the figure as well). The bins used  had constant logarithmic mass intervals.}
 \label{Fig:2_ClumpMF_MF}
 \end{figure}
 
@@ -433,7 +433,7 @@ In this section we compare the clump configurations derived from the \HubLem exp
         \caption{Distribution for different \tHub}
         \label{Fig:2_Vx_histogram_2}
     \end{subfigure}
-\caption{(a) Distribution of the one-dimensional velocity field for the whole cluster as the thick solid black line, in the simulation labelled as R40h20 at the apex time (H$ = 0$). The red dashed distribution shows clump members and thin solid blue the field particles. (b) The distribution for three different values of \tHub: when $\Hub_0 = 0$, the distribution is a Dirac-$\delta$ around $v = 0$. The central distribution broadens as \tHub increases to 0.3 and 1. Observe the exponential profiles at large $|v|$. Velocities are in H.u} 
+\caption[One-dimensional velocity distribution of clump members and field stars]{(a) Distribution of the one-dimensional velocity field for the whole cluster as the thick solid black line, in the simulation labelled as R40h20 at the apex time (H$ = 0$). The red dashed distribution shows clump members and thin solid blue the field particles. (b) The distribution for three different values of \tHub: when $\Hub_0 = 0$, the distribution is a Dirac-$\delta$ around $v = 0$. The central distribution broadens as \tHub increases to 0.3 and 1. Velocities are in H.u.} 
 \label{Fig:2_Vx_histogram}
 \end{figure}
 
@@ -446,14 +446,14 @@ Fig.~\ref{Fig:2_Vx_histogram_1} graphs the x-axis one-dimensional velocity distr
 
 As sub-structures form and  interact mutually, generating tangential as well as radial motion, the peak broadens but remains symmetric about the origin.  The large velocities are brought by stars in clumps, which demonstrates that interactions within the substructures boost the internal velocity dispersion of the cluster as a whole. Field stars dominate the low-amplitude regime. Their velocity distribution is well-fitted with a  Gaussian (shown as a dotted blue line), down to one-tenth the height of the central peak, or about 1\% of all field stars. 
 
-To illustrate further the idea that large velocities are confined to clumps formed by fragmentation modes, we compare on Fig.~\ref{Fig:2_Vx_histogram_2} a set of models 
+To illustrate further the idea that large velocities are confined to clumps formed by fragmentation modes, we compare on Fig.~\ref{Fig:2_Vx_histogram_2} a set of fragmented models 
 with different initial  values of  $\Hub_0$: 0, 0.3, and 1. 
 Clearly when $\Hub_0=0$, the velocities are identically zero and there is no fragmentation whatsoever (apart from root-N noise). The distribution is then a sharp peak centered on zero. For positive but low values of $\Hub_0$, the fragmentation modes do not develop much before the apex and the (non-radial) velocities remain small. The central peak  has a much narrower dispersion, and the high-velocity wings are clipped. In this case, too, analysis of the  weakly fragmented system shows that virtually all high-velocity stars are found in clumps. The velocity distribution for the case  $\Hub_0 = 1$ is added for comparison. The fact that the full range in velocities is reduced by a factor $\sim 3$ for the 
 less fragmented model is also an indication of the shallower potential well of the clumps
 
 The full population velocity distribution (solid black line) at first sight is very similar to those of \citet[Fig.~5]{Klessen2000}. In that figure, the authors show the velocity distribution of gas particles in a fragmenting system. \citeauthor{Klessen2000} attribute the high-velocity tails to gas particles falling towards stellar clumps at supersonic speed. Supersonic motions imply that gas particles trace ballistic trajectories, and hence behave like point mass particles. 
 
-A small fraction of field stars in our calculations also have large velocities. We suspected that these stars might have acquired their large velocity through in-fall toward a nearby stellar clump. We did not, however,  find compelling evidence that would allow us to identify the origin of high velocities in field stars. Inspection of a sequence of snapshots failed to show that the velocity vectors were pointing at nearby stellar clumps: it is therefore not possible to make the same assertion as \citeauthor{Klessen2000} and state that stellar clumps accrete some field stars.
+A small fraction of field stars in our calculations also have large velocities. We suspected that these stars might have acquired their large velocities through in-fall toward a nearby stellar clump. We did not, however,  find compelling evidence that would allow us to identify the origin of high velocities in field stars. Inspection of a sequence of snapshots failed to show that the velocity vectors were pointing at nearby stellar clumps: it is therefore not possible to make the same assertion as \citeauthor{Klessen2000} and state that stellar clumps accrete some field stars.
 
 It is possible, on the other hand,  that high velocities originate from past star-star interactions. However, we did not find clear trends in the few orbits that we studied which would confirm such an event. The question of mass accretion by stellar clumps might be best settled if we added gas to our simulations to boost the mass resolution, and analysed model data using mock CCD frames, as did \citeauthor{Klessen2000}. This was not attempted here.
 
@@ -470,7 +470,7 @@ The shape of the distributions displayed on Fig.~\ref{Fig:2_Vx_histogram}, on th
 
 We show on Fig.~\ref{Fig:2_ClumpMembers} the mass function of stars in clumps, field and in the whole cluster. For brevity, we only show a model with a mass function truncated at $20 M_\odot$, Rh20,  however our conclusions are not sensitive to the truncation value. The mass function of $\approx 6400$ stars that were found in clumps (some 43\%) is displayed as the red solid curve and all other stars, field stars, as the blue solid curve. The theoretical Salpeter distribution function for the same number of stars is shown in black dots, with grey shades giving the  $1 \sigma$ dispersion from multiple samplings. Finally, the green dashed curve  shows the mass distribution of all 15 000 stars in the model. The lower panel is the same data normalised to the Salpeter data. 
 
-The uptake  in massive stars for the whole population (green dashed line) of both clumps members and field stars is a statistical artefact and lie within the standard deviation of a Salpeter distribution with comparable sampling number. 
+The uptake  in massive stars for the whole population (green dashed line) of both clumps members and field stars is a statistical artefact and lies within the standard deviation of a Salpeter distribution with comparable sampling number. 
 
 The clump member population clearly deviates from a Salpeter distribution in two ways~: first we note a deficit of low mass stars with respect to the theoretical Salpeter; secondly, although a Salpeter mass function is more or less consistent with the population up to $M\approx 2M_\odot$(black dotted line) the distribution shows a clear excess of massive stars. We find that practically all the stars more massive than 10$M_\odot$ ended up in a clump (this is the point where the solid red curve joins the dash green one). 
 
@@ -479,14 +479,14 @@ A log-log linear regression fit of the clump members mass function gives a power
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.69\textwidth]{Figures/2_ClumpMembers}
-\caption{Top panel~: Mass function of all stars belonging to a detected clump (solid red). The expectation drawn from a Salpeter distribution function for the same total number of stars in dotted black~; the grey shade are $1\sigma$ uncertainties. The green dashed line is the  distribution for the full cluster. Bottom panel~:  same data normalised to the Salpeter expectation.}
+\caption[Clump member and field stars mass functions]{Top panel~: Mass function of all stars belonging to a detected clump (solid red). The expectation drawn from a Salpeter distribution function for the same total number of stars in dotted black~; the grey shade are $1\sigma$ uncertainties. The green dashed line is the  distribution for the full cluster. Bottom panel~:  same data normalised to the Salpeter expectation.}
 \label{Fig:2_ClumpMembers}
 \end{center}
 \end{figure}
 
 \cite{Bonnell2004} and \cite{Maschberger2010} showed from inspection of  hydrodynamical simulations that massive stars play a key role in the assembling process of clumps, attracting already formed protostars to them. We find  a similar general trend in Hubble-fragmented gas-free simulations: clumps develop around massive stars so that their stellar mass function is top-heavy. 
 
-This excess can also be seen in the top panel of Fig.~\ref{Fig:2_MaxMass} in which for each of 440 clumps, we show as white dots the mass of their heaviest star as a function of the host clump's mass. These data were obtained from the R40h100 run. For comparison, we sampled a Salpeter mass function, drawing the same number of stars as found in each clump. We then identify the most massive star in the Salpeter sample~; the procedure was repeated 15000 times {\it for each clump} to obtain suitable statistics. The grey shades (color levels in the electronic version)  shows the resulting distribution.
+This excess can also be seen in the top panel of Fig.~\ref{Fig:2_MaxMass} in which for each of 440 clumps of the R40h100 model, we show as white dots the mass of their heaviest star as a function of the host clump's mass. These data were obtained from the R40h100 run. For comparison, we sampled a Salpeter mass function, drawing the same number of stars as found in each clump. We then identify the most massive star in the Salpeter sample~; the procedure was repeated 15000 times {\it for each clump} to obtain suitable statistics. The color map shows the resulting distribution.
 
 
 
@@ -505,7 +505,7 @@ This excess can also be seen in the top panel of Fig.~\ref{Fig:2_MaxMass} in whi
         \caption{Distribution for different \tHub}
         \label{Fig:2_weidner}
     \end{subfigure}
-\caption{(a) Mass of the heavier star in each clump, shown as white dots, as a function of clump mass. The color map shows the likelihood for the maximum mass if all clump members were  sampled from a Salpeter IMF~; the orange crest gives the maximum likelihood. The red dashed line shows the  relation $m_{clump} = 2 m_{max}$ (see. section \ref{Sub:2_ClumpMF_MF}). The data was taken from the R40h100 run. (b) is a similar distribution from \protect\cite{Weidner2013}, built with data about young embedded star clusters from \cite{Weidner2010}. The black frame notes the range of masses displayed in (a). } 
+\caption[$M_{clump} - m_{max}$ relation for HL clumps and observed embedded clusters]{(a) Mass of the heavier star in each clump, shown as white dots, as a function of clump mass. The color map shows the likelihood for the maximum mass if all clump members were  sampled from a Salpeter IMF~; the orange crest gives the maximum likelihood. The red dashed line shows the  relation $m_{clump} = 2 m_{max}$ (see. section \ref{Sub:2_ClumpMF_MF}). The data was taken from the R40h100 run. (b) is a similar distribution from \protect\cite{Weidner2013}, built with data about young embedded star clusters from \cite{Weidner2010}. The black frame notes the range of masses displayed in (a). } 
 \label{Fig:2_McMmax}
 \end{figure}
 
@@ -524,13 +524,13 @@ This excess can also be seen in the top panel of Fig.~\ref{Fig:2_MaxMass} in whi
 \subsection{Mass segregation}
 \label{Sec:2_ClumpSegregation}
 
-In this section, we ask whether the clump assembling process at play in our simulations accounts for the mass segregation measured  in  star-forming cores in hydrodynamical simulations. The measure of mass segregation of \cite{Olczak2011} based on the MST, while efficient, will give noisy results for very small-N clumps. Instead, we follow \cite{Maschberger2010} and rank clump members according to their distance to the geometric centre of a clump, which is calculated by number-averaging (so this centre is not the clump barycentre). We then sort the bodies by mass and tabulate the radial rank of the three most massive ones. This process is illustrated on Fig~\ref{Fig:2_radial_ranking}.
+In this section, we ask whether the clump assembling process at play in our simulations accounts for the mass segregation measured  in  star-forming cores in hydrodynamical simulations. The measure of mass segregation of \cite{Olczak2011} based on the MST, while efficient, will give noisy results for very small-N clumps. Instead, we follow \cite{Maschberger2010} and rank clump members according to their distance to the geometric centre of a clump, which is calculated by number-averaging (so this centre is not the clump barycentre). We then sort the bodies by mass and tabulate the radial rank of the three most massive ones. This process is illustrated on Fig.~\ref{Fig:2_radial_ranking}.
 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{Figures/2_radial_ranking_schema}
-\caption{Illustration of the radial ranking method. Stars marked 1,2 and 3 are the first, second and third most massive stars in the clump. Distances to the geometrical center are computed then sorted. The position in the sorted list is converted to a number, the radial rank.}
+\caption[Illustration of the radial ranking method]{Illustration of the radial ranking method. Stars marked 1,2 and 3 are the first, second and third most massive stars in the clump. Distances to the geometrical center are computed then sorted. The position in the sorted list is converted to a number, the radial rank.}
 \label{Fig:2_radial_ranking}
 \end{center}
 \end{figure}
@@ -538,15 +538,15 @@ In this section, we ask whether the clump assembling process at play in our simu
 The great advantage of this approach is that it is independent of geometry and absolute size once the ranking is normalised to the clump membership $N_c$.  One issue arises with the binning of the rank, since small values of $N_c$ give large intervals by construction, and conversely for populous clumps~: we found a good compromise by setting the width of each bin to 1/20 since the mean clump mass $\sim 20 M_\odot$ implies $N_c \sim 20$ on average. The procedure is repeated over all clumps identified in the run (typically on the order of $\sim 200$). The diagnostic for an un-biased sampling is a profile with radius that remains the same regardless of the mass selected~; if, furthermore, the stars are (on the mean) un-segregated in radius, then the profiles will be flat. 
 
 
-Fig.~\ref{Fig:2_ClumpSeg} graphs the  distribution of rank of the three most massive stars in all the clumps from R40h100 fragmented state. The salient features are that 1) none of the distributions are flat, all three peaking significantly  at small ranks~; and 2) there is a clear trend for the most massive star also to be the most  segregated. Precisely this result had to be expected from the internal dynamics of small clumps (cf. section~\ref{Sec:Timescales}).  Our Fig.~\ref{Fig:2_ClumpSeg} should be compared with Fig.~13 of \cite{Maschberger2010}: the authors also found radial rank distribution to peak at small values for massive stars, showing a level of mass-segregation in their clumps.
+Fig.~\ref{Fig:2_ClumpSeg} graphs the  distribution of rank of the three most massive stars in all the clumps from the R40h100 fragmented state. The salient features are that 1) none of the distributions are flat, all three peaking significantly  at small ranks~; and 2) there is a clear trend for the most massive star also to be the most  segregated. Precisely this result had to be expected from the internal dynamics of small clumps (cf. section~\ref{Sec:Timescales}).  Our Fig.~\ref{Fig:2_ClumpSeg} should be compared with Fig.~13 of \cite{Maschberger2010}: the authors also found radial rank distribution to peak at small values for massive stars, showing a level of mass-segregation in their clumps.
 
-It is striking that the measure of mass segregation attained here for a gas-free configuration is a good match to a full hydrodynamical setup. By implication the segregation proceeds more vigorously once the proto-stellar cores have condensed and behave essentially like point sources. The initial configuration that we have adopted relies only on density fluctuations to seed clumps, however once again we find evidence that massive stars begin and remain the centre of gravitational focus for clump formation. That is not so when clumps are setup using a fractal approach \citep{Goodwin2004,Allison2009}. There is then no segregation initially, and it all develops at or shortly prior to the global system evolution towards equilibrium (the collapsing violent relaxation phase). 
+It is striking that the measure of mass segregation attained here for a gas-free configuration is a good match to a full hydrodynamical setup. The initial configuration that we have adopted relies only on density fluctuations to seed clumps, however once again we find evidence that massive stars begin and remain the centre of gravitational focus for clump formation. That is not so when clumps are setup using a fractal approach \citep{Goodwin2004,Allison2009}. There is then no segregation initially, and it all develops at or shortly prior to the global system evolution towards equilibrium (the collapsing violent relaxation phase). 
 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Figures/2_ClumpSeg}
-\caption{Histograms of radial ranking of first, second and third most massive star in each clump for a model with N = 40 000 stars (R40h100).}
+\caption[Radial ranking of first, second and third most massive stars in each clump]{Histograms of radial ranking of first, second and third most massive star in each clump for a model with N = 40 000 stars (R40h100).}
 \label{Fig:2_ClumpSeg}
 \end{center}
 \end{figure}
@@ -567,7 +567,7 @@ We have developed a new approach based on adiabatic fragmentation to set up self
 
 During the fragmentation process in our models, heavy stars act as seeds for the growth of stellar clumps, and so the stellar clumps mass spectrum is shaped by the mass function of the available {\it stars}. Although the fragmentation through gravitation only does not include the detailed physics of star formation, we noted that hydrodynamical calculations including gas pressure and turbulence suggest that the gravitational potential of massive stars attract more gas and stars and, as such, act act as seeds for the formation of clumps \citep{Bonnell2004}. We therefore recover a key prediction of hydrodynamical simulations. It is then interesting to ask whether observations show a correlation between the host clump mass and its population of massive stars.
 
- Based on analysis of our fragmented Hubble models, we recover on Fig~\ref{Fig:2_McMmax} a correlation between the maximum mass of a star found in a clump of a given mass, $M_c$. This $\max\{m_\star\} - M_c $ relation is eerily similar to the compilation for young clusters by \citet{Weidner2013}, from which we extracted the figure \ref{Fig:2_weidner}. Furthermore, we also found that the stellar mass function in clumps has a much flatter (top-heavy) profile than in the field, {\it i.e.} stars that do not belong to any clump: power-law fits for the two stellar populations show that the Salpeter index for clumps stars is lower by about $\approx 0.3$ compared to the same index for field stars. A similar difference is deduced for Milky Way data ( \citealt{Czekaj2014,Rybizki2015}; see also Fig 2 from \citealt{Bastian2010}):  we argue that these characteristics will help tighten our understanding of the long-term evolution of such stellar associations, given that their properties are, on the out-set, close to actual data for young clusters. It should be emphasised that the global index of external galaxies may differ significantly from the canonical value $\alpha = 2.35$ ({\it e.g.}, the GAMA survey, \citealt{Gunawardhana2011}; see also \citealt{Hoversten2008}). We have not explored here to what extent this difference in indices  between field and clump populations will change for other values of the global index $\alpha$.
+ Based on analysis of our fragmented Hubble models, we recover on Fig~\ref{Fig:2_McMmax} a correlation between the maximum mass of a star found in a clump of a given mass, $M_c$. This $\max(m_\star) - M_c $ relation is eerily similar to the compilation for young clusters by \citet{Weidner2013}, from which we extracted the figure \ref{Fig:2_weidner}. Furthermore, we also found that the stellar mass function in clumps has a much flatter (top-heavy) profile than in the field, {\it i.e.} stars that do not belong to any clump: power-law fits for the two stellar populations show that the Salpeter index for clumps stars is lower by about $\approx 0.3$ compared to the same index for field stars. A similar difference is deduced for Milky Way data ( \citealt{Czekaj2014,Rybizki2015}; see also Fig 2 from \citealt{Bastian2010}):  we argue that these characteristics will help tighten our understanding of the long-term evolution of such stellar associations, given that their properties are, on the out-set, close to actual data for young clusters. It should be emphasised that the global index of external galaxies may differ significantly from the canonical value $\alpha = 2.35$ ({\it e.g.}, the GAMA survey, \citealt{Gunawardhana2011}; see also \citealt{Hoversten2008}). We have not explored here to what extent this difference in indices  between field and clump populations will change for other values of the global index $\alpha$.
 
 We have also noted that the clumps are {\it mass segregated} at birth, i.e. at the end of the fragmentation process. When we apply the same ranking statistics as for hydrodynamical calculations of star formation, we obtain the same level of segregation for the three most massive stars in a clump (cf. Fig. \ref{Fig:2_ClumpSeg}). %Heavy or light stars caught in dense clumps have high velocities, while  only a small fraction of field stars have such large velocities: we found that the velocity distribution function of field stars is well fitted with a Gaussian, except for the $\sim 1\%$ with the most extreme velocities. We drew a comparison with the SPH calculations by \cite{Klessen2000}, who attributed the high-velocity tail of gas particles to their in-falling onto stellar clumps. However, we could not identify unequivocally the origin of the large velocities for the field stars (past star-star interactions, attraction by a clump, .. ). That point may well be worth exploring in a future study, as it relates to the likelihood of accretion of field stars by a dense stellar clumps. Recent SPH calculations by M. Bate and collaborators hint at continued exchanges between stellar cores and their environment.
 
@@ -575,7 +575,7 @@ We have also noted that the clumps are {\it mass segregated} at birth, i.e. at t
 
 \cite{Klessen2000,Klessen2001} fit the gas clump mass function of their simulations with a power-law $\frac{dN}{dM} \propto M^{-\beta}$ where $\beta \simeq$ -3/2. On the other hand, the \textit{cluster} mass function in the Milky Way can be described as a power law with an index ranging from -2 to -2.4 \citep{Haas2010}. We have indicated that a power-law relation with a slope $ \beta \simeq -4$ is a rough fit for the case where all the stars are identical (Fig.~\ref{Fig:2_ClumpMF_MF}). This is not so  when a stellar mass spectrum is included~: if a Salpeter distribution function is truncated at $20 M_\odot$ a power-law with slope $ \beta \simeq -1.7$ still fits approximately the distribution of clumps of  mass $ > 20\, M_\odot$~; and when the Salpeter distribution function is truncated at $100 M_\odot$, a power-law similarly fits the tail-end of the distribution but now with a slope of $\simeq -1$ (see Fig.~\ref{Fig:2_ClumpMF_MF_2}). It is intriguing that the slope of the distribution should fall within the bracket of values for the observational data for clusters ($-2.4^+$) and hydrodynamical fragmentation models (-3/2). If the clumps formed from hydrodynamical fragmentation should become individual star clusters, and recover the $\beta \simeq -2 $ or lower slope of observational data, then the distribution function must become steeper and also cover a broader range of masses. The same conclusion applies to the Hubble clump distribution function.
 
-This implies either that clumps will merge so that a few very massive clusters will emerge, or that fewer massive clumps form in the first place. Comparison with existing cluster population needs us to assume these clumps do not fall back and merge through collapse. This is possible with an adequate galactic tidal field ripping apart this fragmented configuration and isolating the clumps before the collapse. Many of the small stellar overdensities detected as clumps would not survive more than a few million years before dispersing through dynamical interaction, however the larger clumps could survive and appear as isolated clusters or part of an association. These massive clumps   are the key to comparison to the galactic cluster mass function. We have shown how the stellar IMF provides seeds for the growth of massive clumps and have illustrated this with a Salpeter power-law IMF. A more realistic  IMF has a steeper power index at larger stellar masses \citep{Kroupa2002,Chabrier2005}. The fragmentation of stellar systems with fewer massive stars would deplete the clump mass function at larger masses more in line with observed statistics for clusters. 
+This implies either that clumps will merge so that a few very massive clusters will emerge, or that fewer massive clumps form in the first place. Comparison with existing cluster population needs us to assume these clumps do not fall back and merge through collapse. This is possible with an adequate galactic tidal field ripping apart this fragmented configuration and isolating the clumps before the collapse. Many of the small stellar overdensities detected as clumps would not survive more than a few million years before dispersing through collisional evolution, however the larger clumps could survive and appear as isolated clusters or part of an association. These massive clumps   are the key to comparison to the galactic cluster mass function. We have shown how the stellar IMF provides seeds for the growth of massive clumps and have illustrated this with a Salpeter power-law IMF. A more realistic  IMF has a steeper power index at larger stellar masses \citep{Kroupa2002,Chabrier2005}. The fragmentation of stellar systems with fewer massive stars would deplete the clump mass function at larger masses more in line with observed statistics for clusters. 
 This variability in the clump mass function highlights the major influence of the stellar IMF on the fragmentation process. A full exploration of fragmentation requires hydrodynamical simulations, which we have not performed here. These simulations remain limited to much smaller systems \citep{Bate2014,Lomax2014}.
 
 \paragraph*{}

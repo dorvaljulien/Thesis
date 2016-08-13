@@ -23,7 +23,8 @@
     \frontmatter
     
     \pagestyle{empty}
-    \input{Cover/cover}
+    %\input{Cover/cover}
+    \input{Cover/EDMSII_titlePage}
     
      \dominitoc
     
@@ -58,22 +59,17 @@
 %    
     \part{Perspectives and conclusions}
 	\input{Chapters/chapter_perspectives}
+	\input{Conclusion/conclusion}
 
 
 
-    \appendix
 
-    \part*{Appendices}
 
-\input{Appendices/history.tex}
-\input{Appendices/nbody6.tex}
-\input{Appendices/phase_space.tex}
-\input{Appendices/completion.tex}
 
     
     \pagestyle{introduction}
       % bibliographie
-    \biblio{Bibliography}
+ %   \biblio{Bibliography}
     \label{Biblio}
     \bibliographystyle{mn2e}
     \bibliography{Bibliography/bibdatabase}
@@ -81,17 +77,22 @@
     \markboth{\textsc{Bibliography}}{}
         
     
-    
+    \appendix
+        \part*{Appendices}
+
+\input{Appendices/history.tex}
+\input{Appendices/nbody6.tex}
+\input{Appendices/phase_space.tex}
+\input{Appendices/completion.tex}
+
     
     \backmatter
-%    \listoffigures
-%     \addstarredchapter{Liste des figures}
+    \listoffigures
+    \addstarredchapter{Liste des figures}
 %    \listoftables
 %     \addstarredchapter{Liste des tableaux}
 %     
 
-
-
-
+%\input{Resume/resume}
 
 \end{document}

@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {4.1.3}Removal of the ejected stars}{60}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2}Collapse and virialisation}{60}{section.4.2}
 \contentsline {section}{\numberline {4.3}Global mass segregation}{64}{section.4.3}
-\contentsline {section}{\numberline {4.4}Concluding remarks}{66}{section.4.4}
+\contentsline {section}{\numberline {4.4}Concluding remarks}{67}{section.4.4}
 \contentsline {part}{II\hspace {1em}Binary stars in substructured clusters}{69}{part.2}
 \contentsline {chapter}{\numberline {5}Introduction to binaries}{71}{chapter.5}
 \contentsline {section}{\numberline {5.1}What is a binary star ?}{71}{section.5.1}
@@ -60,7 +60,7 @@
 \contentsline {section}{\numberline {6.2}The spontaneous binary population}{80}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Binary fraction vs primary mass}{82}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Spontaneous semi-major axis distribution}{83}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Completing the population}{84}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}Completing the population}{85}{subsection.6.2.3}
 \contentsline {chapter}{\numberline {7}The evolution of the binary population}{89}{chapter.7}
 \contentsline {section}{\numberline {7.1}The models}{90}{section.7.1}
 \contentsline {section}{\numberline {7.2}Results}{90}{section.7.2}
@@ -77,16 +77,19 @@
 \contentsline {section}{\numberline {8.1}Tidal field}{107}{section.8.1}
 \contentsline {section}{\numberline {8.2}Stellar evolution}{108}{section.8.2}
 \contentsline {section}{\numberline {8.3}Anisotropic expansion}{109}{section.8.3}
-\contentsline {section}{\numberline {8.4}Mock observations}{111}{section.8.4}
-\contentsline {part}{Appendices}{115}{part*.68}
-\contentsline {chapter}{\numberline {A}How we got here: from Aristotle to GPU computing}{117}{appendix.A}
-\contentsline {chapter}{\numberline {B}NBODY6}{125}{appendix.B}
-\contentsline {section}{\numberline {B.1}Block time-step}{125}{section.B.1}
-\contentsline {section}{\numberline {B.2}KS-regularization}{125}{section.B.2}
-\contentsline {section}{\numberline {B.3}Hermite integration scheme}{127}{section.B.3}
-\contentsline {section}{\numberline {B.4}Ahmad-Cohen neighbour scheme}{128}{section.B.4}
-\contentsline {chapter}{\numberline {C}Binary formation from phase-space correlations}{131}{appendix.C}
-\contentsline {chapter}{\numberline {D}Binary completion algorithm}{133}{appendix.D}
-\contentsline {section}{\numberline {D.1}"Theoretical" population}{133}{section.D.1}
-\contentsline {section}{\numberline {D.2}Injected and effective population}{134}{section.D.2}
-\contentsline {section}{\numberline {D.3}Stable spontaneous}{135}{section.D.3}
+\contentsline {section}{\numberline {8.4}Mock observations}{110}{section.8.4}
+\contentsline {section}{\numberline {8.5}Hydrodynamical effects}{113}{section.8.5}
+\contentsline {chapter}{\numberline {9}Conclusions}{117}{chapter.9}
+\contentsline {part}{Appendices}{131}{part*.70}
+\contentsline {chapter}{\numberline {A}How we got here: from Aristotle to GPU computing}{133}{appendix.A}
+\contentsline {chapter}{\numberline {B}NBODY6}{141}{appendix.B}
+\contentsline {section}{\numberline {B.1}Block time-step}{141}{section.B.1}
+\contentsline {section}{\numberline {B.2}KS-regularization}{141}{section.B.2}
+\contentsline {section}{\numberline {B.3}Hermite integration scheme}{143}{section.B.3}
+\contentsline {section}{\numberline {B.4}Ahmad-Cohen neighbour scheme}{144}{section.B.4}
+\contentsline {chapter}{\numberline {C}Binary formation from phase-space correlations}{147}{appendix.C}
+\contentsline {chapter}{\numberline {D}Binary completion algorithm}{149}{appendix.D}
+\contentsline {section}{\numberline {D.1}"Theoretical" population}{149}{section.D.1}
+\contentsline {section}{\numberline {D.2}Injected and effective population}{150}{section.D.2}
+\contentsline {section}{\numberline {D.3}Stable spontaneous}{151}{section.D.3}
+\contentsline {starchapter}{Liste des figures}{154}{appendix*.79}

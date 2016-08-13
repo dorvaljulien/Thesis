@@ -1,0 +1,94 @@
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction}{1}{chapter.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Visible and infrared Hubble picture of the Antennaes}}{2}{figure.caption.3}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Example clusters I - The Pleiades and $\Omega $ Cen}}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Example clusters II - R136 and NGC 1333}}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Radius-Mass Diagram for Milky Way open and globular clusters}}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Radial density for King and Plummer models}}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Visible light and infrared view of a part of the Orion star forming complex}}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Stages of stellar birth}}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Herschel IR 70µm observations of the Carina Nebula}}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Simulation of gas expulsion and $Q$ distribution in clumps from a simulation}}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Hydrodynamical simulation of a star forming clump scaled to infrared observations}}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Representation of four methods to generate substructures}}{16}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {xchapter}{The Hubble-Lema\^itre fragmented model: analytical approach}{21}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Theoretical values of the apex time vs HL parameter}}{25}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic illustration of a sinewave density perturbation}}{28}{figure.caption.17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Growth of idealized perturbation and segregation domains of N and ${\textrm {H}}_0$}}{31}{figure.caption.19}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Nbody application}{33}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fragmentation of a Hubble-Lema\^itre\nobreakspace {}model}}{34}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualization of the StarFiddle API}}{36}{figure.caption.21}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Illustration of a Minimum Spanning Tree and its use to isolate subgroups}}{38}{figure.caption.22}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Two different methods to identify the critical $d_{cut}$ for clump detection}}{39}{figure.caption.23}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of detected clumps for three cutting lengths in a N=80k model}}{39}{figure.caption.24}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Retrieval of a known clump mass function to test the algorithm}}{40}{figure.caption.25}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Analytical and simulated apex times as a function of ${\textrm {H}}_0$\nobreakspace {}}}{42}{figure.caption.27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Clump mass function for several memberships and two ${\textrm {H}}_0$}}{43}{figure.caption.28}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Clump mass function in real mass for several ${\textrm {H}}_0$ and two memberships}}{44}{figure.caption.29}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Clump mass functions for $m_{max} = 20\nobreakspace {}{\textrm {M}_\odot }$ and $100\nobreakspace {}{\textrm {M}_\odot }$}}{46}{figure.caption.30}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces One-dimensional velocity distribution of clump members and field stars}}{48}{figure.caption.31}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Clump member and field stars mass functions}}{50}{figure.caption.32}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces $M_{clump} - m_{max}$ relation for HL clumps and observed embedded clusters}}{52}{figure.caption.33}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Illustration of the radial ranking method}}{53}{figure.caption.34}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Radial ranking of first, second and third most massive stars in each clump}}{53}{figure.caption.35}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Collapse and dynamical evolution}{57}{chapter.4}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Stages of collapse for HL fragmented and uniform models}}{58}{figure.caption.36}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Distance to origin over time for escapers and bound stars}}{61}{figure.caption.37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Half-mass radius as function of time for both HL fragmented and uniform model}}{61}{figure.caption.38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ten-percentile Lagrangian radii over time for HL fragmented and uniform models}}{63}{figure.caption.39}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mass segregation: half-mass radii over time for mass-selected stars}}{65}{figure.caption.40}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction to binaries}{71}{chapter.5}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Observed binary system and schematic}}{72}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Observed binary population period and binary fraction distributions}}{73}{figure.caption.43}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Evolution of binary fraction and separation distribution over time}}{74}{figure.caption.44}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Detecting and injecting binaries}{77}{chapter.6}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Illustration of a KD-tree}}{78}{figure.caption.45}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Illustration of the density threshold method}}{79}{figure.caption.46}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Semi-major axis distribution for various value of the density ratio $D$}}{79}{figure.caption.47}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Visualization of the wide binary population in a King model over time}}{81}{figure.caption.48}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Spontaneous binary population: fraction vs primary mass}}{82}{figure.caption.49}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Spontaneous binary population: semi-major axis distribution}}{83}{figure.caption.50}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Injected binary population to complete the spontaneous distribution}}{84}{figure.caption.51}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Completed binary population: fraction vs primary mass}}{86}{figure.caption.52}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Completed binary population: semi-major axis distribution}}{87}{figure.caption.53}
+\addvspace {10\p@ }
+\contentsline {xchapter}{The evolution of the binary population}{89}{chapter.7}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Aspect of the HL model and reference epochs}}{90}{figure.caption.54}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Evolution of the total binary fraction and percentage of initial population}}{91}{figure.caption.56}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Binary fraction vs primary mass - Low density}}{93}{figure.caption.57}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Binary fraction vs primary mass - High density}}{93}{figure.caption.58}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Semi-major axis distribution for all models and 4 epochs}}{94}{figure.caption.59}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Erosion factor of semi-major axis distribution for N=20k}}{95}{figure.caption.60}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Extreme tight and wide binaries}}{98}{figure.caption.61}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Evolution of semi-major axis over time for 20 tight binaries}}{100}{figure.caption.62}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Evolution of tight and wide binaries separations and distance to center}}{102}{figure.caption.63}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Perspectives}{107}{chapter.8}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Cluster formation in a hydrodynamical simulation of the Antennaes galaxies}}{108}{figure.caption.64}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Stellar evolution models}}{109}{figure.caption.65}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Example of anisotropic expansion and comparison to Carina}}{111}{figure.caption.66}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Extinction map in H band for selected coordinates}}{113}{figure.caption.67}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Influence of extinction on cumulative distribution of MST edges}}{114}{figure.caption.68}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusions}{117}{chapter.9}
+\addvspace {10\p@ }
+\contentsline {xchapter}{How we got here: from Aristotle to GPU computing}{133}{appendix.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Ptolemaic and Copernic's systems}}{134}{figure.caption.71}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Galileo's observations and portrait}}{135}{figure.caption.72}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Newton's tree, cannon drawing, Newton and Halley}}{136}{figure.caption.73}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Charles Messier and Henri Poincar\'e}}{138}{figure.caption.74}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Siemens 2002 and Hydra cluster}}{139}{figure.caption.75}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces The evolution of the number of particles in N-body simulations}}{140}{figure.caption.76}
+\addvspace {10\p@ }
+\contentsline {xchapter}{NBODY6}{141}{appendix.B}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Illustration of block time steps on 4 particles}}{142}{figure.caption.77}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Summary of the Hermite integration scheme}}{143}{figure.caption.78}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Binary formation from phase-space correlations}{147}{appendix.C}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Binary completion algorithm}{149}{appendix.D}
