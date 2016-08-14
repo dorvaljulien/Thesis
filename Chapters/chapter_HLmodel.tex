@@ -18,7 +18,7 @@ In this chapter we introduce a new way to obtain substructured intial conditions
 
 For decades, cosmologists studied the development of substructures in the early universe. In an expanding universe, each point in space sees others moving away, with a velocity proportional to their distances, thus a smooth universe should stay smooth, no structure should develop. However, the matter distribution is not perfectly smooth, the density fluctuations grow through gravity, accreting nearby matter, against the cosmological flow.  These overdensities turn into galaxies, that then clump together to form galaxy clusters, building up a hierarchical density distribution, see \cite{White1978,Aarseth1979}. This is the general picture for galaxy formation.
 
-We apply this process to star clusters to obtain hierarchical substructures. We set up relatively smooth initial conditions by spawning stars in a uniform sphere, to which we attribute radial velocities  akin to the well-known Hubble velocity field of nearby galaxies. When left to evolve, the model expands, reproducing the cosmological expansion, and overdensities grow, stars clump together, spontaneously forming substructures. We name this method the \HubLem fragmentation. The name of Georges Lema\^itre was added for historical accuracy. It has now been shown that the astronomical observations of redshifted galaxies and its interpretation as the consequence of an expanding universe predated Hubble's paper \citep{Hubble1929}. Georges Lema\^itre had published his conclusion on an expanding universe two years earlier \citep{Lemaitre1927}. The account of this can be found in \cite{Kragh2003,VanDenBergh2011} and \cite{Freeman2015}.
+We apply this process to star clusters to obtain hierarchical substructures. We set up relatively smooth initial conditions by spawning stars in a uniform sphere, to which we attribute radial velocities  akin to the well-known Hubble velocity field of nearby galaxies. When left to evolve, the model expands, reproducing the cosmological expansion, and overdensities grow, stars clump together, spontaneously forming substructures. I named this method the \HubLem fragmentation. The name of Georges Lema\^itre was added for historical accuracy. It has now been shown that the astronomical observation of redshifted galaxies and its interpretation as the consequence of an expanding universe predated Hubble's paper \citep{Hubble1929}. Georges Lema\^itre had published his conclusion on an expanding universe two years earlier \citep{Lemaitre1927}. The account of this can be found in \cite{Kragh2003,VanDenBergh2011} and \cite{Freeman2015}.
 
 As the model is analog to the cosmological model of an expanding universe, we adopt the usual notations in the present chapter. However, important differences should be noted:
 \begin{itemize}
@@ -29,7 +29,7 @@ As the model is analog to the cosmological model of an expanding universe, we ad
 \item the density fluctuations are not inserted from a known power spectrum but arise naturally from spatial Poisson noise and the stellar mass function.
 \end{itemize}
 
-Our view is that by following through with a full stellar IMF, the massive stars will define a radius of influence around themselves and sit preferentially, but not systematically, at the heart of sub-structures, retrieving a feature seen in star formation calculations \citep{Moeckel2011,Maschberger2010}, while short-cutting  costly computer calculations. The configuration that is sought here is not unlike the situation found in the formation of galaxy clusters in cosmology, as massive galaxies tend to drag in less massive ones and sit at the heart of clusters.
+Our view was that by following through with a full stellar IMF, the massive stars would define a radius of influence around themselves and sit preferentially, but not systematically, at the heart of sub-structures, retrieving a feature seen in star formation calculations \citep{Moeckel2011,Maschberger2010}, while short-cutting  costly computer calculations. The configuration that is sought here is not unlike the situation found in the formation of galaxy clusters in cosmology, as massive galaxies tend to drag in less massive ones and sit at the heart of clusters.
 
 %In the first part of this thesis, we analytically investigate the issue of fragmentation in an expanding cluster, deriving basic characteristics and timescales for the dynamical evolution of clumps. We then introduce N-body realizations of \HubLem fragmented models, which we analyse and compare to hydrodynamical star formation simulations. The fragmented models are then used as initial conditions to study the dynamical evolution of substructured star clusters. 
 %
@@ -41,11 +41,11 @@ Our view is that by following through with a full stellar IMF, the massive stars
 
 \subsection{Initial state}
 
-The first step to obtain a HL-fragmented model is to build an uniform sphere model. The N stars, depending on the required membership, have to be distributed randomly in space inside a certain radius, producing an uniform density. This can be achieved by sampling separately the distance to the center and the angular position of each star, in a method analog as used in \cite{Aarseth1974} for a Plummer model. The distance to the center should be sampled from the function
+The first step to obtain a HL-fragmented model is to build an uniform sphere model. The N stars, depending on the required membership, have to be distributed randomly in space inside a certain radius, resulting in an uniform density. This can be achieved by sampling separately the distance to the center and the angular position of each star, in a method analog as used in \cite{Aarseth1974} for a Plummer model. The distance to the center should be sampled from the function
 \begin{equation}
 f_R(X) = R_0 X^2,
 \end{equation} 
-with $R_0$ the bouding radius and X a random variable following a uniform probability law between 0 and 1. A direct uniform law for the radius would overpopulate the outer regions. The angles $\phi$ and $\theta$, respectively azimuthal and polar angle in the physics convention, should be sampled from
+with $R_0$ the bouding radius and X a random variable following a uniform probability law between 0 and 1. A direct uniform law for the radius would overpopulate the inner regions. The angles $\phi$ and $\theta$, respectively azimuthal and polar angle in the physics convention, should be sampled from
 \begin{align}
 f_\phi(X_1) & = 2\pi X_1,\\
 f_\theta(X_2) &= \arccos{ (X_2) },
@@ -70,7 +70,7 @@ with H$_0$ being an equivalent of the well-known Hubble parameter. An appropriat
 \subsection{Fragmentation}
 \label{Sec:1_apextime}
 
-The cluster expands, driven by the initial Hubble-Lema\^itre velocity field. During this expansion, poissonian fluctuation in density from the uniform model starts to grow: parts of the cluster with more mass initially attract more stars, forming clumps, which merge, spontaneously building substructure. These clumps will be analyzed in the next chapter. If the system is bound, the expansion stops at some point, the apex, at which the initial kinetic energy has been spent and converted to potential energy: the cluster is now larger, substructured and subvirial, about to collapse. The apex time $t_a$ of the end of the expansion and the maximum value of H$_0$ producing a bound system can be derived from Newton's second law applied to an expanding spherical shell of matter.
+The cluster expands, driven by the initial Hubble-Lema\^itre velocity field. During this expansion, poissonian fluctuation in density from the uniform model starts to grow: parts of the cluster with more mass initially attract more stars, forming clumps, which merge, spontaneously building substructure. These clumps will be analyzed in the next chapter. If the system is bound, the expansion stops at some point, the apex, at which the initial kinetic energy has been spent and converted to potential energy: the cluster is now larger, substructured and subvirial, about to collapse. The apex time $t_a$ of the end of the expansion. The maximum value of H$_0$ producing a bound system can be derived from Newton's second law applied to an expanding spherical shell of matter.
 
 We start from a uniform sphere of radius $R_0$, total mass $M$. We consider spherical shells as mass elements, situated at distance $r$ from the origin. As previously said, they are attributed a radial velocity following (for the shell at $r=R_0$) $\bold v_0 = \Hub_0 \bold R_0 = \Hub_0 R_0 \bold u_r$. We want to follow the radial motion of the last shell of mass m, situated at $R$ from the origin. Newton's second law gives
 
@@ -102,7 +102,7 @@ which is a dimensionless measure of the total energy of the system. It comes
 The evolution of the system has 3 outcomes, depending on the value of $E_\ast$,
 \begin{itemize}
 \item $E_\ast<1$, the velocity is always strictly positive as the system expands ($x\rightarrow\infty$). The system is unbound;
-\item $E_\ast=1$, the velocity approaches zero as the system expands. The expansion "stops at an infinite radius". The system is marginally bound;
+\item $E_\ast=1$, the velocity approaches zero as the system expands. The expansion ``stops at an infinite radius". The system is marginally bound;
 \item $E_\ast>1$, the velocity reaches zero for a finite radius, the system is bound and collapses back on itself once the expansion stops. 
 \end{itemize}
 
@@ -258,9 +258,9 @@ provides the time-sequence for the position and velocity of any shell $ 0 < x < 
 \label{Sub:1_FragmentationModes}
 An actual Hubble-Lema\^itre model will develop 3-dimensional clumps during the expansion, but to get an analytic view of this process, it is necessary to fall back on one dimension. This will shed light on the growth of clumps and help understand general trends in the system.
 
-We follow radial density perturbations in the expanding uniform sphere described by equations (\ref{Eq:1_Expansion}) and (\ref{Eq:1_atheta}), as the local density increase also gauges the rise in velocity dispersion. A simplified calculation for radial modes of perturbation in the linear approximation will be derived here, with the goal to determine when the clumps become mostly self-gravitating. A more detailed analysis can be found in the classic work by \cite{Friedman1978}, \cite{Peebles1980} and \cite{Aarseth1988} .
+We follow radial density perturbations in the expanding uniform sphere described by equations (\ref{Eq:1_Expansion}) and (\ref{Eq:1_atheta}). A simplified calculation for radial modes of perturbation in the linear approximation will be derived here, with the goal to determine when the clumps become mostly self-gravitating. A more detailed analysis can be found in the classic work by \cite{Friedman1978}, \cite{Peebles1980} and \cite{Aarseth1988}.
 
-We introduce a Lagrangian perturbation in the position of a shell of constant mass by substituting $\mathbf{x} \rightarrow \mathbf{x} + \boldsymbol\xi(\mathbf{x},t)$ and we set $\boldsymbol\xi = \xi \bold{u_r}$ for a radial displacement. Starting from the continuity equation, a linear treatment yields an expression for the perturbed density,
+We introduce a Lagrangian perturbation in the position of a shell of constant mass by substituting $\mathbf{x} \rightarrow \mathbf{x} + \boldsymbol\xi(\mathbf{x},t)$ and setting $\boldsymbol\xi = \xi \bold{u_r}$ for a radial displacement. Starting from the continuity equation, a linear treatment yields an expression for the perturbed density,
 \begin{equation}
 \frac{\partial \rho}{\partial t} + \nabla(\rho \bold{v}) = 0, 
 \end{equation}
@@ -268,7 +268,6 @@ which transforms into
 \begin{equation}
 \delta \rho + \nabla (\rho \bold{v} \delta t) = 0.
 \end{equation}
-
 We make use of the equivalence
 \begin{equation}
 \label{Eq:1_derivequiv}
@@ -291,18 +290,16 @@ Poisson's equation in spherical symmetry gives the perturbed potential
 \label{Eq:1_Poisson} 
 \frac{1}{r^2}\frac{\partial}{\partial r} r^2\frac{\partial}{\partial r} \delphi =\frac{1}{a^2}\frac{1}{x^2}\frac{\partial}{\partial x} x^2\frac{\partial}{\partial x} \delphi  = 4\pi G\delrho .
 \end{equation}
-
 Substituting for $\delrho$ from (\ref{Eq:1_DeltaRho}) in (\ref{Eq:1_Poisson}), and using (\ref{Eq:1_derivequiv}), we obtain
 \begin{equation}
 \frac{\partial}{\partial x} \left( x^2 \frac{\partial \delphi}{\partial x} \right) = - 4\pi a^2 G \rho_0 \frac{\partial}{\partial x} \left( x^2 \xi \right).
 \end{equation}
-
 Integrating once, we obtain the general solution
 \begin{equation}
 \label{Eq:1_Gradpsi} 
 a(\tau)\nabla \delphi = \frac{3G\Mtot}{R_o^3} \left( - \xi + R_o^3\frac{\mu(\tau)}{x^2} \right),
 \end{equation}
-where $\mu$ stands for a central point mass. A point mass would form by shell crossing at the center of coordinates. In an expanding system, shell crossing at the center is unlikely. For that reason, we make $ \mu = 0$ in the remainder of this paper.
+where $\mu$ stands for a central point mass. A point mass would form by shell crossing at the center of coordinates. In an expanding system, shell crossing at the center is unlikely. For that reason, we make $ \mu = 0$ in the remainder of this chapter.
 
 The equations of motion at co-moving radius $x +\xi(x,t)$ can be expanded to first order in $\xi$~; identifying terms of the same order we obtain (with $\partial/\partial x = \nabla_x$)
 \begin{equation} 
@@ -324,7 +321,7 @@ where we have introduced the peculiar velocity $\eta \equiv d\xi/dt = \Hub_0R_0 
 
 \subsection{Consistent initial conditions} 
 \subsubsection{Initial conditions} 
-Equations (\ref{Eq:1_system}) can be numerically integrated with an explicit integration scheme once the initial values $R_0, \Hub_0, {\cal M}$ and $\xistar(0)$ are specified and values of $a(\tau)$ are obtained from (\ref{Eq:1_atheta}) and (\ref{Eq:1_Expansion}). All functions of the dimensionless time $\tau$ are set to unity except $\etastar(0) = 0$. The solution is shown in the next section,  on Fig~\ref{Fig:1_tau_ms}.
+Equations (\ref{Eq:1_system}) can be numerically integrated with an explicit integration scheme once the initial values $R_0, \Hub_0, {\cal M}$ and $\xistar(0)$ are specified and values of $a(\tau)$ are obtained from (\ref{Eq:1_atheta}) and (\ref{Eq:1_Expansion}). All functions of the dimensionless time $\tau$ are set to unity except $\etastar(0) = 0$. The solution is shown in the next section,  on Fig.~\ref{Fig:1_tau_ms}.
 
 
 The Hubble parameter $\Hub(\tau) \rightarrow 0$ when the system reaches a maximum radius $a(\tau)R_0$ ($\theta[\tau]=\pi/2$ in Eq.~\ref{Eq:1_atheta}). Around that time, equation (\ref{Eq:1_systemb}) transforms so the Lagrangian displacement $\xistar$ grows exponentially, and the clumps become the densest. We investigate the growth of a density perturbation as a Fourier fragmentation mode before that. In the linear regime, such a mode is decoupled from all the others. We pick 
@@ -358,8 +355,8 @@ find:
 \langle \frac{\delta r}{r} \rangle = \langle \xistaro\rangle = \frac{2}{3} \frac{\sqrt{N} - 1 }{N - 1} \ .
 \end{equation}  
 
-Thus the mean amplitude (in units of $R_0$) is $\langle\xistaro\rangle\simeq 1/10$ for $N=32$ which drops to $\langle\xistaro\rangle\simeq 6\times 10^{-4}$ when $N = 10^6$. We checked that the mode with the shortest wavelength $\lambda_\ast$ still resolved would have a displacement $\langle\xistaro\rangle$ initially 
-smaller than $\lambda_\ast/2$ for any sensible value of $N$. This in turn implies that this mode may grow over time to reach an amplitude $\xistar(x,\tau) \simeq \lambda_\ast/2$, which is the point when orbit-crossing between shells of constant mass must occur. In other words, at this point, the overdensity transitions from linear convergence of particles to  collisional evolution (not covered by Eqs.~\ref{Eq:1_system}). The time when shell-crossing occurs can be seen as the "birth" of a clump, whether this clumps undergoes consequent two-body relaxation effects depends on its characteristics, such as density and membership, and the remaining time before the end of expansion. 
+Thus the mean amplitude (in units of $R_0$) is $\langle\xistaro\rangle\simeq 1/10$ for $N=32$ and drops to $\langle\xistaro\rangle\simeq 6\times 10^{-4}$ when $N = 10^6$. We checked that the mode with the shortest wavelength $\lambda_\ast$ still resolved would have a displacement $\langle\xistaro\rangle$ initially 
+smaller than $\lambda_\ast/2$ for any sensible value of $N$. This in turn implies that this mode may grow over time to reach an amplitude $\xistar(x,\tau) \simeq \lambda_\ast/2$, which is the point when orbit-crossing between shells of constant mass must occur. In other words, at this point, the overdensity transitions from linear convergence of particles to  collisional evolution (not covered by Eqs.~\ref{Eq:1_system}). The time when shell-crossing occurs can be seen as the "birth" of a clump, whether this clump undergoes consequent two-body relaxation effects depends on its characteristics, such as density and membership, and the remaining time before the end of expansion. 
 
 \subsection{Segregation time-scale} 
 \label{Sec:Timescales} 
@@ -375,12 +372,9 @@ We turn to the matter of mass segregation in the clumps. Let us consider a clump
  \end{equation}
  
 Combining this with Eqs.~(\ref{Eq:0_tcr}), (\ref{Eq:0_trel}) and (\ref{Eq:0_ms2}) from the introduction, the mass-segregation timescale in the clump now reads:
-
 \begin{equation}
  \tms = \frac{0.138}{6}\pi \left(\frac{3}{4\pi}\right)^{1/2} \frac{\langle m_\star\rangle}{\max\{m_\star\}} \, \frac{N_\lambda}{\ln 0.4 N_\lambda} \, (G\rho_g)^{-\frac{1}{2}}\, . \end{equation}
-  
 Making use of the equality 
-
 \begin{equation}
 \frac{4\pi}{3} G\rho_o = \Hub_0^2 \Estar ,
 \end{equation} 
@@ -405,7 +399,7 @@ where the last substitution follows from the definition of the integer $m$. The 
 \begin{equation} \label{Eqn:Clumpmass} 
    \frac{M_\lambda}{{\cal M} } = ( \overline{3 x_\ast^2} + \lambda_\ast^2/4 ) \lambda_\ast = ( 1 + \lambda_\ast^2/4) \lambda_\ast \, , 
 \end{equation}
-where we have replaced $3x_\ast^2$ by its space-averaged value in  the last step.  Eq. (\ref{Eqn:Clumpmass}) provides an estimate of  bound mass of a clump formed through the growth of a radial perturbation mode. If all the stars have equal masses, or, if the stellar mass function is symmetric with respect to the mean value $\langle m_\ast\rangle$, the ratio of the number $N_\lambda$ of stars in the clump to the total number $N$ is in the same proportion as $\frac{M_\lambda}{\cal M}$. We find an estimate for $N_\lambda$ which reads 
+where we have replaced $3x_\ast^2$ by its space-averaged value in  the last step.  Eq. (\ref{Eqn:Clumpmass}) provides an estimate of the bound mass of a clump formed through the growth of a radial perturbation mode. If all the stars have equal masses, or, if the stellar mass function is symmetric with respect to the mean value $\langle m_\ast\rangle$, the ratio of the number $N_\lambda$ of stars in the clump to the total number $N$ is in the same proportion as $\frac{M_\lambda}{\cal M}$. We find an estimate for $N_\lambda$ which reads 
 
 \begin{equation} \label{Eqn:Clumpn} 
    N_\lambda = N \left( 1 + \frac{\lambda_\ast^2}{4} \right) \lambda_* .
@@ -460,10 +454,10 @@ We now make use of all previous development to follow the evolution of a perturb
 
 To ease comparisons with N-body calculations cast in standard H\'enon units, we set ${\cal M} = G = R_0 = 1 $ and use $\Hub_0 = 1.0833 .. \simeq 1$ so that the total binding energy $E = -1/4$, which gives a value of $\Estar \simeq 1.7$. The Hubble expansion proceeds until a time $t = \tau / \Hub_0 \simeq 3.87 / \Hub_0$, when $H = 0$ and the bounding radius $R$ reaches $R = a(\tau)R_0 \simeq 2.4 R_0$. The evolution time up to that point coincides almost exactly with the {\it current} global system free-fall time of $\approx 4.1$ time units. System-wide collapse to the barycentre will ensue on the same time-scale, but now this process will involve the merging / scattering of several high-density clumps. 
 
-For simplicity, and for ease of calculations, we chose the mass of individual stars to follow a  truncated \cite{Salpeter1955} distribution function, where the distribution function $ dN/dm \propto m_\star^{-\alpha}$ with index $\alpha = 2.35$ for masses in the range  $0.3 M_\odot < m_\star < 100 M_\odot$ giving a mean value of $\simeq 1 M_\odot$.
+For simplicity, and for ease of calculations, we chose the mass of individual stars to follow a  truncated \cite{Salpeter1955} distribution function, where the distribution function $ dN/dm \propto m_\star^{-\alpha}$ with index $\alpha = 2.35$ for masses in the range  $0.3~\Mo < m_\star < 100 ~\Mo$ giving a mean value of $\simeq 1 ~\Mo$.
 
 
-We $N = 15 000$ as reference.%\footnote{The more accurate value is $\Hub_0 = 1 + 1/12 = 1.0833$ but we rounded up to 1 to simplify the discussion}. 
+We set $N = 15 000$ as reference. %\footnote{The more accurate value is $\Hub_0 = 1 + 1/12 = 1.0833$ but we rounded up to 1 to simplify the discussion}. 
 We compute a mean initial amplitude of perturbation $\xistaro \approx 0.005 $ with a shortest-resolved wavelength $\lambda_\ast \approx 0.04$. Fig.~\ref{Fig:1_tau_ms} displays the solution from integrating Eqs.~(\ref{Eq:1_system}). The amplitude $\xistar(\tau)$ grows monotonically and crosses the values $\lambda_\ast/2$ at $\tau \approx 2.3$~: thereafter the perturbation enters a non-linear regime of evolution during which the internal dynamics may become collisional $( \Delta\tau > \tau_{ms})$. A second case is depicted on Fig.~\ref{Fig:1_tau_ms}, where the wavelength $\lambda_\ast = 0.08$ and the perturbation reaches amplitude $\xistar = \lambda_\ast/2$ at $\tau \approx 3.6$: there is then too little time left before the end of the Hubble expansion phase for a clump of stars to segregate ($\Delta\tau < \tau_{ms}$). 
 
 

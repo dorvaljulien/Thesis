@@ -27,7 +27,7 @@ E = E_k + E_p = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2  - \frac{G m_1 m_2
 %\item[$\bold{E<0}$], the system is bound, the bodies have stable elliptical orbits around each others.
 %\end{itemize}
 
-If $E<0$, they are bound and locked in a binary system. Such systems are characterised by their semi-major axis $a$, their eccentricity $e$, their period $p$, their total mass $m_t = m_1 + m_2$, mass ratio $q = m_2/m_1$ with $m_1$ being the primary, more massive than $m_2$.
+If $E<0$, they are bound and locked in a binary system. Such systems are characterised by their semi-major axis $a$, their eccentricity $e$, their period $p$, their total mass $m_t = m_1 + m_2$ and their mass ratio $q = m_2/m_1$ with $m_1$ being the primary, more massive than $m_2$.
 Mass, period and semi-major axis are related by Kepler's third law
 
 \begin{equation}
@@ -124,7 +124,7 @@ f( \log{P})\propto \exp \left[ \frac{- ( \log{P} - \mu_{logP})^2}{ 2 \sigma_{log
 \end{equation}
 with the peak value $\mu_{logP} = 5.03$, about 300 years, and the dispersion $\sigma_{logP} = 	2.28$, the distribution is shown on Fig~\ref{Fig:0_binpop_1}.
 
-\cite{Raghavan2010} also compiled several observational studies of binaries with primaries of various spectral types. High mass stars, types O,B,A, (from 30+ down to 2$\Mo$) have a high multiplicity fraction, about 75\%  while lower mass stars such as M-dwarfs only have 10-30\% multiplicity, see Fig~\ref{Fig:0_binpop_2}. This trend of increasing multiplicity with increasing primary mass is found in many surveys.
+\cite{Raghavan2010} also compiled several observational studies of binaries with primaries of various spectral types. High mass stars, types O,B,A, (from 30+ down to 2$\Mo$) have a high multiplicity fraction, about 75\%,  while lower mass stars such as M-dwarfs only have 10-30\% multiplicity, see Fig~\ref{Fig:0_binpop_2}. This trend of increasing multiplicity with increasing primary mass is found in many surveys.
 Binary surveys are easier in the field due to the very large sample and low stellar density. To perform similar studies in young star clusters is much harder due to source crowding and embedded stars. \cite{Kouwenhoven2007} attempted to characterize the birth binary population in the OB association Scorpius OB2. They found a very high multiplicity fraction, consistent with 100\%, and a period distribution more consistent with a powerlaw than a log-normal distribution. From this survey and others, it is likely that the binary population in clusters undergoes an erosion through dynamical processing, with the field distribution as an end-result.
 
 \section{Simulate binary populations in clusters}
@@ -147,7 +147,7 @@ Binary surveys are easier in the field due to the very large sample and low stel
         \caption{Evolution of semi-major axis distribution}
         \label{Fig:0_binsim_2}
     \end{subfigure}
-\caption[Evolution of binary fraction and separation distribution over time]{(a): total binary fraction over time in a subvirial fractal system. Corresponding models for the solid, dashed, dot-dashed and dotted are respectively 100\% initial binary fraction with log-normal distribution, 100\% fraction with Kroupa distribution, field-like fraction with log-normal distribution and field and 75\% fraction with log-normal distribution. (b): 100\% initial binary fraction with an initial log-normal distribution (open histogram) and the evolved distribution after 1Myr (hashed histogram). Solid red and dashed blue lines are fits for, respectively, the G-dwarf and M-dwarf populations. Both figures were extracted from \cite{Parker2011}.}
+\caption[Evolution of binary fraction and separation distribution over time]{(a): total binary fraction over time in a subvirial fractal system. Corresponding models for the solid, dashed, dot-dashed and dotted are respectively 100\% initial binary fraction with log-normal distribution, 100\% fraction with Kroupa distribution, field-like fraction with log-normal distribution and 75\% fraction with log-normal distribution. (b): 100\% initial binary fraction with an initial log-normal distribution (open histogram) and the evolved distribution after 1Myr (hashed histogram). Solid red and dashed blue lines are fits for, respectively, the G-dwarf and M-dwarf populations. Both figures were extracted from \cite{Parker2011}.}
 \label{Fig:0_binsimulation}
 \end{figure}
 
@@ -170,7 +170,7 @@ Many authors have explored this question through optimised initial conditions \c
   
   
 \paragraph*{}
-In the following chapters, we present an algorithm to detect binary stars in N-body simulations. This algorithm is applied to \HubLem fragmented configurations, revealing a spontaneous binary population created by the expansion of the initial uniform sphere. We inject new binaries in the system to follow observed trends in the binary distribution. These systems are then left to collapse, as before, and the binary populations are monitored. We evaluate the influences of cluster membership and stellar density on the processing of binaries in substructured and subvirial systems. We also detail the formation of "extreme" binaries in our simulations, very short and very wide systems, and their dynamical origins.
+In the following chapters, we present an algorithm to detect binary stars in N-body simulations. This algorithm is applied to \HubLem fragmented configurations, revealing a spontaneous binary population created by the expansion of the initial uniform sphere. We inject new binaries in the system to follow observed trends in the binary distribution. These systems are then left to collapse, as before, and the binary populations are monitored. We evaluate the influences of cluster membership and stellar density on the processing of binaries in substructured and subvirial systems. We also detail the formation of ``extreme" binaries in our simulations, very short and very wide systems, and their dynamical origins.
 
 
 

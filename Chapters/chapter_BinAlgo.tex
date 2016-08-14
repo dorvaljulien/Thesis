@@ -2,7 +2,7 @@
 \chapter{Detecting and injecting binaries}
 \label{Chap:BinAlgo}
 
-In this chapter, we introduce a new algorithm to detect and record binary system in N-body simulations, then calibrate its free parameter. With this tool, we analyse the spontaneous binary population arising in the \HubLem systems and we describe a binary injection method to complete this population to match the observations.
+In this chapter, we introduce a new algorithm to detect and record binary systems in N-body simulations, then calibrate its free parameter. With this tool, we analyse the spontaneous binary population arising in the \HubLem models and we describe a binary injection method to complete this population to match the observations.
 
 
 \minitoc
@@ -23,15 +23,15 @@ The study of binary populations in N-body simulations requires an algorithm to d
 \end{figure}
 
 
-I developed a new algorithm based on the idea of a density threshold: binaries must be denser than their direct environment. Before describing the algorithm, we wish to emphasize the importance of neighbour searches in this kind of study. Be it to obtain bound pairs or to study said pair direct environment, the quick retrieval of neighbours is crucial to an effective algorithm.
+I developed a new algorithm based on the idea of a density threshold: binaries must be denser than their direct environment. Before describing the algorithm, we wish to emphasize the importance of neighbour searches in this kind of study. Be it to obtain bound pairs or to study said pair direct environment, the quick retrieval of neighbours is crucial to an efficient algorithm.
 
-The method described here relies on the KD-tree algorithm \citep{numericalrecipes}. While brute-force neighbour searches scale as $\propto N$, as all stars in the system have to be checked as potential neighbours, a KD tree, once built, performs neighbour searches with algorithmic complexity $\propto\log (N)$. The tree is built by sorting particles along one dimension, splitting them at the median, then sorting each branch along another dimension, splitting them again, and so on, cycling over dimensions. A two-dimensionnal example is show on Fig~\ref{Fig:5_kdtree}.
-
-
+The method described here relies on the KD-tree algorithm \citep{numericalrecipes}. While brute-force neighbour searches scale as $\propto N$, as all stars in the system have to be checked as potential neighbours, a KD tree, once built, performs neighbour searches with algorithmic complexity $\propto\log (N)$. The tree is built by sorting particles along one dimension, splitting them at the median, then sorting each branch along another dimension, splitting them again, and so on, cycling over dimensions. A two-dimensional example is show on Fig~\ref{Fig:5_kdtree}.
 
 
 
-First, binary candidates are identified as negative energy pairs. The semi-major axis of the system is derived from the star motions, then a "binary density" is computed, with $a$ the binary's semi-major axis :
+
+
+First, binary candidates are identified as negative energy pairs. The semi-major axis of the system is derived from the star motions, then a "binary density" is computed, with $a$ the binary semi-major axis :
 \begin{equation}
  \rho_{binary} = \frac{m_1 + m_2 }{4\pi a^3/3 }\, .
 \end{equation}
@@ -79,9 +79,9 @@ This method has two free parameters: $N_{nb}$ and $D$. $N_{nb}$ can be set from 
 
 
 
-We wish to find a good compromise value for the critical density ratio $D$ that maximizes the number of detected stable binaries without collecting too much transient systems. To do so, we explore the results brought by different values of $D$ in a N-body system containing binaries.
+It is necessary to find a good compromise value for the critical density ratio $D$ that maximizes the number of detected stable binaries without collecting too much transient systems. To do so, I explore the results brought by different values of $D$ in a N-body system containing binaries.
 
-We create a virialized King model with N = 10000 stars and a binary fraction of 0.3. This means there are 2300 binaries and 5400 single stars,
+A virialized King model is created with N = 10000 stars and a binary fraction of 0.3. This means there are 2300 binaries and 5400 single stars,
 \begin{equation}
 f_b = \frac{N_b}{N_s + N_b} = \frac{N_b}{N-N_b} \quad \implies \quad N_b = \frac{f_b}{1+f_b} N = 2300.
 \end{equation}
@@ -111,7 +111,7 @@ We show on Fig~\ref{Fig:5_sm_ratios} the semi-major axis distribution retrieved 
 
 Looking at the left panel, for t=0, we see all density ratios return the same population for $a < 1000$ AU, while for higher separation, there are large variations. $D = 2000$ does not detect semi-major axis larger than 3000 AU, while $D = 1$ detects $\sim$ 30 systems with $a > 10^4$~AU. After 12 crossing times, on the right panel, we can see the detected tight population did not change, while all wide populations converged. The population detected with the highest ratios did not significantly evolve, while low ratios saw a large depletion of the population they initially returned. 
 
- We can say that a very high ratio only detect binaries that are garanteed to resist the dynamical processing and survive, while low ratios detect more fragile systems. How ephemeral are these latter binaries ? To evaluate the different population detected by different ratios, we show on Fig~\ref{Fig:5_flickering} the detailed evolution of the wide, $a>1000$ AU population. The large upper panel show all wide binaries evolution (time on y-axis) for $D=2000$, arranged on the x-axis by time of first detection. Each pixel column represents a binary. The smaller sub panels show, for each density ratio, the history of the binaries this ratio detected that the previous, greater ratio did not. A binary that is detected with $D=2000$ will also be detected for $D=500$ and any other lower value. Fig~\ref{Fig:5_flickering} shows what kind of binaries lowering the ratio progressively brings in the detected population. The color codes the logarithm of the semi-major axis in AU, white means the binary is not detected.
+ We can say that a very high ratio only detect binaries that are guaranteed to resist the dynamical processing and survive, while low ratios detect more fragile systems. How ephemeral are these latter binaries ? To evaluate the different population detected by different ratios, we show on Fig~\ref{Fig:5_flickering} the detailed evolution of the wide, $a>1000$ AU population. The large upper panel show all wide binaries evolution (time on y-axis) for $D=2000$, arranged on the x-axis by time of first detection. Each pixel column represents a binary. The smaller sub panels show, for each density ratio, the history of the binaries this ratio detected that the previous, greater ratio did not. A binary that is detected with $D=2000$ will also be detected for $D=500$ and any other lower value. Fig~\ref{Fig:5_flickering} shows what kind of binaries lowering the ratio progressively brings in the detected population. The color codes the logarithm of the semi-major axis in AU, white means the binary is not detected.
 
 The $D=2000$ population is mainly made of stable, relatively tight binaries. About half the binaries are detected at t=0, while the others dynamically form in the system. Some are destroyed, other widened through interactions as their color bars transitions to a lighter color, sometimes after a ``flickering" phase, when the detection goes on and off over successive snapshots. This is due to the binary entering a dynamical interaction with a third star or other binary, making the neighbour density undergoing spikes. This interaction leaves the binary with a weaker bound, thus larger separation. 
 
@@ -170,13 +170,13 @@ The high binary fraction for heavy primaries can be explained, at least in part,
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Figures/5_spontaneous_smaxis}
-\caption[Spontaneous binary population: semi-major axis distribution]{Distribution of semi-majors axes of spontaneous binary populations for two values of stellar number density. Green curve show the canonic separation distribution from \protect\cite{Raghavan2010}. }
+\caption[Spontaneous binary population: semi-major axis distribution]{Distribution of semi-majors axes of spontaneous binary populations for two values of stellar number density. Black curve show the canonic separation distribution from \protect\cite{Raghavan2010}. }
 \label{Fig:5_spontaneous_smaxis}
 \end{center}
 \end{figure}
 
 The distributions of semi-major axes $a$ and orbital  periods are the main parameters used to 
-characterise binary populations. Up to this point, the distances were given in  computational H\'enon units, but to talk about semi-major axes, generally given in AU, it is necessary to convert the models to physical scales. To do so, we matched their stellar number density within the half-mass radius to those of observed clusters.  \cite{King2012a}  compiled  data for several young clusters and gave their stellar densities within half-mass radii, with high values reaching  400 stars$/pc^3$, typical of the ONC, and low-densities  of $\sim 6$ stars$/pc^3$, more akin to the Taurus region. These are the two reference values used to build up our dataset of numerical models. The time conversion gives a physical free-fall time of the models of 0.76 Myr for the high density clusters and 6.0 Myr for the low density ones.
+characterise binary populations. Up to this point, the distances were given in  computational H\'enon units, but to talk about semi-major axes, generally given in AU, it is necessary to convert the models to physical scales. To do so, we matched their stellar number density within the half-mass radius to those of observed clusters.  \cite{King2012a}  compiled  data for several young clusters and gave their stellar densities within half-mass radii, with high values reaching  400 stars$/\pc^3$, typical of the ONC, and low-densities  of $\sim 6$ stars$/\pc^3$, more akin to the Taurus region. These are the two reference values used to build up our dataset of numerical models. The time conversion gives a physical free-fall time of the models of 0.76 Myr for the high density clusters and 6.0 Myr for the low density ones.
 
 
 
@@ -206,9 +206,9 @@ In doing so, we should also constrain the primary mass distribution so as to red
 \end{figure}
 
 
-The addition of new binaries to the HL distribution is not straightforward, as the phase space coordinates of stars in an HL fragmented system are the consequence of the numerical evolution during the expansion (no known functional distribution function). A practical and coherent method is to build the extra binary population \textit{before} the HL expansion phase, and split them at the apex of the expansion.
+The addition of new binaries to the HL distribution is not straightforward, as the phase space coordinates of stars in an HL fragmented system are the consequence of the dynamical evolution during the expansion (no known functional distribution function). A practical and coherent method is to build the extra binary population \textit{before} the HL expansion phase, and split them at the apex of the expansion.
 
-The first step is to choose the proper distribution of primary mass for these new binaries. It should take into account the spontaneous population to preferentially populate the low-mass primary space. It should also take into account the fact that as the system expands with an effective number of stars $\tilde{N} = N - n_{in}$ with $n_{in}$ the number of injected binaries, as these contain two stars fused in a single object until apex. Therefore, the number of spontaneous binaries is reduced. Moreover, some spontaneous pairs (we found $\approx 50\%$) form at the end of the HL phase with one fused binary as a component. These are no longer classified as bound pairs  once the point mass component is split into the binary. 
+The first step is to choose the proper distribution of primary mass for these new binaries. It should take into account the spontaneous population to preferentially populate the low-mass primary space. It should also take into account the fact that the system expands with an effective number of stars $\tilde{N} = N - n_{in}$ with $n_{in}$ the number of injected binaries, as these contain two stars fused in a single object until apex. Therefore, the number of spontaneous binaries is reduced. Moreover, some spontaneous pairs (we found $\approx 50\%$) form at the end of the HL phase with one fused binary as a component. These are no longer classified as bound pairs once the point mass component is split into the binary. 
 
 
 
@@ -228,16 +228,16 @@ Once the expansion ends and before binary splitting, the semi-major axis distrib
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.67\textwidth]{Figures/5_completed_primarymass}
-\caption[Completed binary population: fraction vs primary mass]{Binary fraction as a function of primary mass. The results displayed are the average of twenty realisations for 20k particles models; the shade indicates 1-$\sigma$ deviations. Short semi-major axis binaries were injected to complete the spontaneous population (compare with Fig~\protect\ref{Fig:5_spontaneous_primarymass}).}
+\caption[Completed binary population: fraction vs primary mass]{Binary fraction as a function of primary mass. The results displayed are the average of twenty realisations for 20k particles models; the shade indicates 1-$\sigma$ deviations. Low-mass primary binaries were injected to complete the spontaneous population (compare with Fig~\protect\ref{Fig:5_spontaneous_primarymass}).}
 \label{Fig:5_completed_primarymass}
 \end{center}
 \end{figure}
 
 \subsubsection*{Result}
 
-This procedure was tested on a new set of 20 \HubLem models, with the same parameters as before, N=20k, $L_3$ IMF, but with fused binaries injected in the system. The splitting was done twice for each model:  once with low density ($\approx 6$ stars$/\pc^3$), and once with high density ($\approx 400$ stars$/\pc^3$). The resulting binary fraction is plotted on Fig~\ref{Fig:5_completed_primarymass} as a function of the primary mass\footnote{Only the low mass primary models are shown, as density does not affect the primary-mass distribution.}. The deficit of low-mass primaries was bridged, while the fraction for high-mass primaries was slightly reduced (from 0.85 down to 0.75 for a primary mass of $\approx 20 \Mo$; note the increased scatter). This is the effect mentioned earlier, massive primaries see there secondaries split, destroying the pair. Enough high-mass binaries were injected so the fraction remains in agreement with observational data.
+This procedure was tested on a new set of 20 \HubLem models, with the same parameters as before, N=20k, $L_3$ IMF, but with fused binaries injected in the system. The splitting was done twice for each model:  once with low density ($6$ stars$/\pc^3$), and once with high density ($ 400$ stars$/\pc^3$). The resulting binary fraction is plotted on Fig~\ref{Fig:5_completed_primarymass} as a function of the primary mass\footnote{Only the low mass primary models are shown, as density does not affect the primary-mass distribution.}. The deficit of low-mass primaries was bridged, while the fraction for high-mass primaries was slightly reduced (from 0.85 down to 0.75 for a primary mass of $\approx 20 \Mo$; note the increased scatter). This is the effect mentioned earlier, massive primaries see there secondaries split, destroying the pair. Enough high-mass binaries were injected so the fraction remains in agreement with observational data.
 
-Turning to the distribution of semi-major axis, we choose to truncate the injected binary population at short semi-major axis. Extensive numerical exploration of binary tidal heating has been performed by O. Roos (2012, unpublished). Binaries were put on highly eccentric orbits in cuspy \cite{Dehnen1993} potentials, so experiencing large variations in the tidal force. It was found the binary's binding energy varied by $ \approx 50\%$ or more only when the semi-major axis $a >  100$~AU. No binary-single stars or binary-binary interactions were included. The conclusion from this study is that binaries with axis $a$ shorter than 100 AU should rarely unbind due to tidal heating. Further tests with NBODY6, and the results of the next section, largely confirm this. With that in mind, and in view of the computational costs, we truncated the binary population at $a = 1$ AU. This choice allows to recover the range found in the SPH calculations of \cite{Bate2012}, so a closer parallel can be made with his setup. 
+Turning to the distribution of semi-major axis, we choose to truncate the injected binary population at short semi-major axes. Extensive numerical exploration of binary tidal heating has been performed by O. Roos (2012, unpublished). Binaries were put on highly eccentric orbits in cuspy \cite{Dehnen1993} potentials, so experiencing large variations in the tidal force. It was found the binary's binding energy varied by $ \approx 50\%$ or more only when the semi-major axis $a >  100$~AU. No binary-single stars or binary-binary interactions were included. The conclusion from this study is that binaries with axis $a$ shorter than 100 AU should rarely unbind due to tidal heating. Further tests with NBODY6, and the results of the next section, largely confirm this. With that in mind, and in view of the computational costs, we truncated the binary population at $a = 1$ AU. This choice allows to recover the range found in the SPH calculations of \cite{Bate2012}, so a closer parallel can be made with his setup. 
 
 
 We show on Fig~\ref{Fig:5_completed_smaxis} in short-dashed  the full spontaneous binary population (with a peak value at $a \approx 7 000$ AU), prior to the procedure to split fused binaries. The distribution of separations for the fused binaries is shown as the long-dashed blue curve, with a dip around $ a \approx 10 000$ and 2000 AU for low and high density. Finally, the splitting procedure is carried out, and the result shown as the solid green curve. The grey shade is the expectation value for
@@ -246,7 +246,7 @@ the parametrised Gaussian distribution of \cite{Raghavan2010}. Discrepancies wit
  For larger separations, the very wide binaries are not identified by the density threshold algorithm and are dropped from consideration. Since none of them are likely to survive for a long period of time given the density of the system, this will have no bearing on our conclusions. 
 
 \paragraph*{}
-While \HubLem fragmentation provides a self-consistent phase space distribution for a substructured model, the population completion presented here preserves this consistency by taking into account naturally occurring multiple systems, while allowing the user to inject a realistic binary population. In the next chapter, we use the resulting, completed systems as initial conditions to investigate the evolution of a binary population during the violent relaxation of a clumpy configuration.
+While \HubLem fragmentation provides a self-consistent phase space distribution for a substructured model, the population completion presented here preserves this consistency by taking into account naturally occurring multiple systems, while allowing the user to inject a realistic binary population. In the next chapter, we use the resulting completed systems as initial conditions to investigate the evolution of a binary population during the violent relaxation of a clumpy configuration.
 
 
 
