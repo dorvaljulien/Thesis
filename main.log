@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  14 AUG 2016 19:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.4.6)  15 AUG 2016 11:21
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -1651,41 +1651,41 @@ Missing character: There is no ¨ in font cmr10!
 Appendix A.
 [133
 
-] <Figures/0_PtolemaicModel_2.png, id=2959, 811.03pt x 835.12pt>
+] <Figures/0_PtolemaicModel_2.png, id=2966, 811.03pt x 835.12pt>
 File: Figures/0_PtolemaicModel_2.png Graphic file (type png)
 
 <use Figures/0_PtolemaicModel_2.png>
-<Figures/0_CopernicusModel.jpg, id=2960, 726.3135pt x 708.246pt>
+<Figures/0_CopernicusModel.jpg, id=2967, 726.3135pt x 708.246pt>
 File: Figures/0_CopernicusModel.jpg Graphic file (type jpg)
 
 <use Figures/0_CopernicusModel.jpg> [134 <./Figures/0_PtolemaicModel_2.png> <./
 Figures/0_CopernicusModel.jpg>]
-<Figures/0_galileodrawings_1.png, id=2971, 254.9525pt x 221.82875pt>
+<Figures/0_galileodrawings_1.png, id=2978, 254.9525pt x 221.82875pt>
 File: Figures/0_galileodrawings_1.png Graphic file (type png)
 
 <use Figures/0_galileodrawings_1.png>
-<Figures/0_galileodrawings_2.jpg, id=2972, 72.27pt x 69.09012pt>
+<Figures/0_galileodrawings_2.jpg, id=2979, 72.27pt x 69.09012pt>
 File: Figures/0_galileodrawings_2.jpg Graphic file (type jpg)
 
 <use Figures/0_galileodrawings_2.jpg>
-<Figures/0_young_galileo.jpg, id=2973, 314.17375pt x 287.0725pt>
+<Figures/0_young_galileo.jpg, id=2980, 314.17375pt x 287.0725pt>
 File: Figures/0_young_galileo.jpg Graphic file (type jpg)
 
 <use Figures/0_young_galileo.jpg> [135 <./Figures/0_galileodrawings_1.png (PNG 
 copy)> <./Figures/0_galileodrawings_2.jpg> <./Figures/0_young_galileo.jpg>]
-<Figures/0_newtontree.jpg, id=2981, 733.74126pt x 711.65875pt>
+<Figures/0_newtontree.jpg, id=2988, 733.74126pt x 711.65875pt>
 File: Figures/0_newtontree.jpg Graphic file (type jpg)
 
 <use Figures/0_newtontree.jpg>
-<Figures/0_newtoncannon.jpg, id=2982, 599.23875pt x 587.19376pt>
+<Figures/0_newtoncannon.jpg, id=2989, 599.23875pt x 587.19376pt>
 File: Figures/0_newtoncannon.jpg Graphic file (type jpg)
 
 <use Figures/0_newtoncannon.jpg>
-<Figures/0_newtonportrait.jpg, id=2983, 405.515pt x 399.4925pt>
+<Figures/0_newtonportrait.jpg, id=2990, 405.515pt x 399.4925pt>
 File: Figures/0_newtonportrait.jpg Graphic file (type jpg)
 
 <use Figures/0_newtonportrait.jpg>
-<Figures/0_newtonhalley.jpg, id=2984, 891.33pt x 904.37875pt>
+<Figures/0_newtonhalley.jpg, id=2991, 891.33pt x 904.37875pt>
 File: Figures/0_newtonhalley.jpg Graphic file (type jpg)
 
 <use Figures/0_newtonhalley.jpg>
@@ -1693,35 +1693,35 @@ Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¦ in font cmti10!
  [136 <./Figures/0_newtontree.jpg> <./Figures/0_newtoncannon.jpg> <./Figures/0_
 newtonportrait.jpg> <./Figures/0_newtonhalley.jpg>] [137] <Figures/0_messier.jp
-g, id=3019, 459.7175pt x 430.60875pt>
+g, id=3026, 459.7175pt x 430.60875pt>
 File: Figures/0_messier.jpg Graphic file (type jpg)
 
 <use Figures/0_messier.jpg>
-<Figures/0_poincare.jpg, id=3020, 283.0575pt x 263.98625pt>
+<Figures/0_poincare.jpg, id=3027, 283.0575pt x 263.98625pt>
 File: Figures/0_poincare.jpg Graphic file (type jpg)
 
 <use Figures/0_poincare.jpg> [138 <./Figures/0_messier.jpg> <./Figures/0_poinca
-re.jpg>] <Figures/0_siemens2002.jpg, id=3059, 4288.02pt x 2858.68pt>
+re.jpg>] <Figures/0_siemens2002.jpg, id=3066, 4288.02pt x 2858.68pt>
 File: Figures/0_siemens2002.jpg Graphic file (type jpg)
 
 <use Figures/0_siemens2002.jpg>
-<Figures/0_hydra.png, id=3060, 578.16pt x 378.41376pt>
+<Figures/0_hydra.png, id=3067, 578.16pt x 378.41376pt>
 File: Figures/0_hydra.png Graphic file (type png)
 
 <use Figures/0_hydra.png> [139 <./Figures/0_siemens2002.jpg> <./Figures/0_hydra
-.png>] <Figures/0_N_increase.png, id=3084, 1314.9125pt x 867.24pt>
+.png>] <Figures/0_N_increase.png, id=3091, 1314.9125pt x 867.24pt>
 File: Figures/0_N_increase.png Graphic file (type png)
 
 <use Figures/0_N_increase.png>) (./Appendices/nbody6.tex [140 <./Figures/0_N_in
 crease.png (PNG copy)>]
 Appendix B.
-<Figures/0_block_timesteps.png, id=3102, 925.4575pt x 554.07pt>
+<Figures/0_block_timesteps.png, id=3109, 925.4575pt x 554.07pt>
 File: Figures/0_block_timesteps.png Graphic file (type png)
 
 <use Figures/0_block_timesteps.png> [141
 
 ] [142 <./Figures/0_block_timesteps.png (PNG copy)>]
-<Figures/0_hermite_scheme.png, id=3129, 1416.29124pt x 997.7275pt>
+<Figures/0_hermite_scheme.png, id=3136, 1416.29124pt x 997.7275pt>
 File: Figures/0_hermite_scheme.png Graphic file (type png)
 
 <use Figures/0_hermite_scheme.png> [143 <./Figures/0_hermite_scheme.png (PNG co
@@ -1768,10 +1768,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25261 strings out of 493848
- 409269 string characters out of 1152824
- 554937 words of memory out of 3000000
- 26895 multiletter control sequences out of 15000+50000
+ 25264 strings out of 493848
+ 409312 string characters out of 1152824
+ 555008 words of memory out of 3000000
+ 26896 multiletter control sequences out of 15000+50000
  19637 words of font info for 73 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  58i,16n,55p,1810b,857s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1797,9 +1797,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/t
 ex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main.pdf (162 pages, 18434100 bytes).
+Output written on main.pdf (162 pages, 18437711 bytes).
 PDF statistics:
- 3539 PDF objects out of 3580 (max. 8388607)
- 756 named destinations out of 1000 (max. 500000)
+ 3548 PDF objects out of 3580 (max. 8388607)
+ 758 named destinations out of 1000 (max. 500000)
  1278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

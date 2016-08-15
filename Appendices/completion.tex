@@ -3,7 +3,7 @@
 
 The \HubLem expansion gives rise to a spontaneous binary population detailed in section \ref{Sec:5_spontaneous}. This population has a deficit of low-mass primary binaries compared to observed binary populations. Moreover, the semi-major axis of spontaneous binaries are too large compared to the canonical period/semi-major axis distribution from \cite{Raghavan2010}.
 
-We aim at injecting new binaries in the system to reproduce the characteristics of observed populations. The injected population should be designed to "fill" the discrepancy spontaneous/observed for low-mass primaries and short separations. In most cluster models, the binary injection procedure is straightforward: a normal model is generated, with some stars bearing the mass of both components of a binary. The binaries are then split with internal positions and velocities suiting their semi-major axis and eccentricity. 
+We aim at injecting new binaries in the system to reproduce the characteristics of observed populations. The injected population should be designed to "fill" the spontaneous/observed discrepancy for low-mass primaries and short separations. In most cluster models, the binary injection procedure is straightforward: a normal model is generated, with some stars bearing the mass of both components of a binary. The binaries are then split with internal positions and velocities suiting their semi-major axis and eccentricity. 
 
 This cannot be directly applied to \HubLem models, as the star coordinates are not generated on the spot from a known distribution function, they are the product of the expansion. The binaries cannot be introduced into the initial uniform sphere, as such a specific dynamical environment could have unexpected effects on the injected population, as could the expansion. The idea is then to introduce binaries as single fused particles in the uniform sphere, let the expansion happen until apex, \textit{then} split the binaries.
 
@@ -60,7 +60,7 @@ With this, we can express the number of effective stars in each bins (this numbe
 \item plus the number of injected binaries with both primaries and secondaries in $i-1$, as the merged objects from the lower bins count as single stars in the present bin.
 \end{itemize}
 
-We make the hypothesis that most of injected binaries with a primary in $i$ and secondary in $j<i$ produce merged objects falling into $i$, having no effect on $\tilde{N}_i$ \footnote{This could be taken into account with a numerical study of the proportion of merged objects actually overflowing the bin when $j<i$.}.The expression writes
+We make the hypothesis that most of injected binaries with a primary in $i$ and secondary in $j<i$ produce merged objects falling into $i$, having no effect\footnote{This could be taken into account with a numerical study of the proportion of merged objects actually overflowing the bin when $j<i$.} on $\tilde{N}_i$. The expression writes
 
 \begin{equation}
 \tilde{N}_i = N_i - 2  n_{i,i}^{in} - \sum\limits_{j>i} n_{j,i}^{in} + n_{i-1,i-1}^{in}
@@ -74,7 +74,7 @@ This effective stellar population will experience the \HubLem expansion and form
 f_i^{sp} = \frac{\tilde{n}_i^{sp}}{\tilde{N}_i^{s} + \tilde{n}_i^{sp}}.
 \end{equation}
 
-with $\tilde{n}_i^{sp}$ the number of spontaneous binaries with a primary mass in $i$ and $\tilde{N}_i^{s}$ the number of single stars in $i$, both in the effective population, in which a fused binary count as one star. Following previous notations, we write the number of spontaneous binaries with a primary in $i$ and secondary in $j$ as
+with $\tilde{n}_i^{sp}$ the number of spontaneous binaries with a primary mass in $i$ and $\tilde{N}_i^{s}$ the number of single stars in $i$, both in the effective population, in which a fused binary counts as one star. Following previous notations, we write the number of spontaneous binaries with a primary in $i$ and secondary in $j$ as
 
 \begin{equation}
 \tilde{n}_{i,j}^{sp} = \tilde{n}_i^{in} \times \frac{\tilde{N}_j - \tilde{n}_j^{sp} }{\sum\limits_{k\le i} \left( \tilde{N}_k - \tilde{n}_k^{sp}. \right) }
@@ -118,7 +118,7 @@ Which translates, when talking about all stable spontaneous binaries with the pr
 \end{equation}
 
 
-We assume any injected binary survives when split, regardless of its final semi-major axis and the density of its environment, it has no bearing on the present calculations. We can then finally writes the number of total surviving binaries in the system, both from the injected and stable spontaneous populations, and equate it to the target theoretical number so the system follows the theoretical binary fraction distribution:
+We assume any injected binary survives when split, regardless of its final semi-major axis and the density of its environment, it has no bearing on the present calculations. We can then finally write the number of total surviving binaries in the system, both from the injected and stable spontaneous populations, and equate it to the target theoretical number so the system follows the theoretical binary fraction distribution:
 
 \begin{equation}
 \label{Eq:B_final}
